@@ -1,0 +1,5 @@
+.DS_Store
+working/
+VISION.md
+*.log
+.env
