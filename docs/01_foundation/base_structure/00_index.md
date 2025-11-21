@@ -37,7 +37,7 @@ This document has been organized into logical folders for easier navigation:
 12. **[12_interaction_protocols.md](04_implementation/12_interaction_protocols.md)** - Force interactions
 
 ### **05_system_operations/** (3 files)
-13. **[13_daemon_processes.md](05_system_operations/13_daemon_processes.md)** - The Seven Core Daemons
+13. **[13_daemon_processes.md](05_system_operations/13_daemon_processes.md)** - The Twelve Core Daemons
 14. **[14_update_cycles.md](05_system_operations/14_update_cycles.md)** - System Softcoding
 15. **[15_system_constants.md](05_system_operations/15_system_constants.md)** - System Constants
 

@@ -86,4 +86,72 @@ def accelerate_manifestation(desire: Desire):
 
 ---
 
+## Detailed Delay Mechanics
+
+**See:** [Manifestation Latency](../../../04_advanced/advanced_concepts/22_manifestation_latency.md) for complete processing pipeline.
+
+### The Four Delay Components
+
+Law_delay() enforces delays through four distinct processing stages:
+
+**1. Coherence Validation**
+- **0.70+ coherence:** Instant approval (clean signal)
+- **0.50-0.69 coherence:** Delayed (days to weeks filtering)
+- **<0.50 coherence:** Blocked (must resolve contradictions first)
+
+**2. Queue Position**
+- **Priority queue:** Minutes to days (high coherence + consciousness)
+- **Normal queue:** Weeks to months (medium coherence)
+- **Low priority:** Months to years (low coherence)
+
+**3. Timeline Computation**
+- **0.0-0.2 divergence:** Instant to hours (adjacent timelines)
+- **0.2-0.4 divergence:** Days to weeks (near timelines)
+- **0.4-0.6 divergence:** Weeks to months (moderate divergence)
+- **0.6-0.8 divergence:** Months to years (distant timelines)
+- **0.8-1.0 divergence:** Years to lifetime (extreme divergence)
+
+**4. Physical Rendering**
+- Thought shift → Instant
+- Emotional shift → Minutes
+- Synchronicity → Days
+- New opportunity → Weeks
+- Relationship → Months
+- Career change → Year+
+- Life transformation → 5+ years
+
+### Total Delay Formula
+
+```python
+total_delay = (
+    coherence_validation_delay +    # Instant to indefinite
+    queue_position_delay +           # Minutes to years
+    timeline_computation_delay +     # Based on divergence
+    physical_rendering_delay         # Based on complexity
+)
+
+# Result is deterministic, not random
+# "Divine timing" = computational latency
+```
+
+### Grace Protocol Exception
+
+Grace protocol can temporarily lower coherence threshold:
+- Normal requirement: 0.50+ coherence
+- Grace override: Can process at 0.30+ for sincere pleas
+- This is the exception, not the rule
+
+**See:** [Grace Protocol](../../../04_advanced/advanced_concepts/04_grace_protocol/) for complete mechanics.
+
+### System Implementation
+
+Law_delay() is enforced by:
+- **Manifestation Queue daemon** - Processes requests with delay tracking
+- **Coherence Monitor daemon** - Validates state signature alignment
+- **Timeline computation** - Calculates divergence and processing time
+
+**See:** [Daemon Processes](../../../01_foundation/base_structure/05_system_operations/13_daemon_processes.md) for system-level enforcement.
+
+---
+
 **Navigation:** [← law_paradox()](06_law_paradox.md) | [law_balance() →](08_law_balance.md)

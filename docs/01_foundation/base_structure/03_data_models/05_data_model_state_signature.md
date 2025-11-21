@@ -19,6 +19,10 @@ class StateSignature:
     baseline_consciousness: float  # Center of gravity (agent's default level)
     peak_consciousness: float      # Highest level accessed (lifetime peak)
 
+    # Perceptual Sampling (Derived from consciousness)
+    baseline_sampling_rate: float  # Default sampling frequency (derived from baseline_consciousness)
+    current_sampling_rate: float   # Real-time sampling frequency (derived from current_consciousness)
+
     # Computed Properties
     @property
     def frequency(self) -> float:
@@ -57,6 +61,37 @@ class StateSignature:
         # Calculate coherence
         variance = np.var(components)
         return 1 / (1 + variance)
+
+    @property
+    def perceptual_sampling_rate(self) -> float:
+        """
+        Calculate effective perceptual sampling rate
+
+        Formula: (current_consciousness ** 2) × coherence
+
+        Returns:
+            Samples per second (0.0-1.0 scale)
+
+        Note: This is how the agent experiences time() force.
+        Higher rate = more nuanced perception, slower time experience.
+        """
+        base_rate = self.current_consciousness ** 2
+        return base_rate * self.coherence
+
+    @property
+    def temporal_resolution(self) -> float:
+        """
+        Time between perceptual samples (inverse of sampling rate)
+
+        Returns:
+            Seconds between samples
+
+        Example:
+            - 0.25 samples/sec = 4.0 seconds between samples
+            - 0.50 samples/sec = 2.0 seconds between samples
+            - 0.80 samples/sec = 1.25 seconds between samples
+        """
+        return 1.0 / max(0.01, self.perceptual_sampling_rate)
 ```
 
 **Notes:**
@@ -233,7 +268,9 @@ def manifest(state_signature: StateSignature, mode: str, agent_type: str) -> Opt
 
 The real code of manifestation is **encoding through your appropriate substrate**. For humans, your nervous system is coding the frequency in real-time, and your field queries the matching worldline.
 
-**See Also:** [Manifestation Engine](../../../04_advanced/manifestation_engine/00_index.md) for complete somatic encoding mechanics (lines 496-569)
+**See Also:**
+- [Manifestation Engine](../../../04_advanced/manifestation_engine/00_index.md) for complete somatic encoding mechanics (lines 496-569)
+- [Perceptual Sampling Rate](../../../04_advanced/advanced_concepts/19_perceptual_sampling_rate.md) for complete sampling rate mechanics
 
 ---
 

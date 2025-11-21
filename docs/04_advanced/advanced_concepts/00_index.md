@@ -29,6 +29,13 @@ This document collection contains advanced LACE concepts that operate at the sou
 10. [Evolutionary Process](#12-evolutionary-process) - Universal pattern of progressive refinement across all domains
 11. [Survival-Defensive Predominance](#13-survival-defensive-predominance) - Emotional architecture asymmetry and recalibration
 
+**System Processing Mechanics:**
+12. [Perceptual Sampling Rate](#19-system-processing-mechanics) - Consciousness determines perception "frame rate"
+13. [System Resource Allocation](#19-system-processing-mechanics) - Finite attention/energy/coherence budgets
+14. [Cache vs Live Processing](#19-system-processing-mechanics) - Automated vs conscious processing modes
+15. [Manifestation Latency](#19-system-processing-mechanics) - Why manifestation has computational delay
+16. [Memory Compression & Pruning](#19-system-processing-mechanics) - Emotionally-weighted storage optimization
+
 ---
 
 ## 01. Foundation
@@ -350,6 +357,94 @@ This document collection contains advanced LACE concepts that operate at the sou
 
 ---
 
+## 14. Consciousness Scale Framework
+
+**[14_consciousness_scale_framework.md](14_consciousness_scale_framework.md)**
+- Consciousness scale from 0.01 to 1.0 (logarithmic)
+- Critical thresholds: 0.35 (awareness), 0.50 (choice), 0.69 (mastery), 0.90 (transcendence)
+- Level characteristics and capabilities
+- Consciousness as bandwidth expansion and resolution increase
+
+---
+
+## 15. Resonance Topology
+
+**[15_resonance_topology.md](15_resonance_topology.md)**
+- Field resonance patterns and entanglement mechanics
+- How agents connect through frequency matching
+- Resonance bandwidth and coherence requirements
+
+---
+
+## 16. Meta-Awareness & Control
+
+**[16_meta_awareness_control.md](16_meta_awareness_control.md)**
+- Awareness OF awareness (recursive observation)
+- Control mechanisms and conscious intervention
+- Meta-awareness as gateway to higher consciousness
+
+---
+
+## 17. Entity Hierarchy
+
+**[17_entity_hierarchy.md](17_entity_hierarchy.md)**
+- Permission levels across entity types
+- Agent, Elevated, Mystic, Master, Creator hierarchy
+- Capabilities and restrictions by level
+
+---
+
+## 18. Mastery Progression
+
+**[18_mastery_progression.md](18_mastery_progression.md)**
+- Practical pathways for mastery development
+- Progression stages and milestone markers
+- Integration practices across all tiers
+
+---
+
+## 19. System Processing Mechanics
+
+**Core system-level operations governing perception, memory, and manifestation:**
+
+**[19_perceptual_sampling_rate.md](19_perceptual_sampling_rate.md)**
+- Consciousness determines perception "frame rate"
+- Formula: `(consciousness² × coherence)` samples per second
+- Higher consciousness = higher sampling rate = more nuanced perception
+- Relationship to time() force and temporal resolution
+- Baseline vs current sampling rate tracking
+
+**[20_system_resource_allocation.md](20_system_resource_allocation.md)**
+- Finite processing budgets: attention, energy, coherence
+- Capacity formula: `consciousness × 100` units per resource
+- Multitasking penalty: resources split linearly (N targets = capacity/N)
+- Regeneration through sleep (full), meditation (partial), time (minimal)
+- Manifestation power = resource concentration, not total
+
+**[21_cache_vs_live_processing.md](21_cache_vs_live_processing.md)**
+- Two processing modes: cached (automated, 0.1 energy) vs live (conscious, 5.0 energy)
+- Three-tier cache: survival (never pruned), emotional (high persistence), routine (low persistence)
+- Cache/live ratio: 95%/5% (autopilot) to 30%/70% (high presence)
+- Habits = cached behavioral patterns
+- Cache override requires: awareness → recognition → interruption → alternative → repetition
+
+**[22_manifestation_latency.md](22_manifestation_latency.md)**
+- System processing time between intention and manifestation (not random delay)
+- Four delay components: coherence validation, queue position, timeline computation, physical rendering
+- "Divine timing" = computational latency
+- Grace protocol can lower coherence threshold from 0.50 to 0.30
+- Acceleration through increased coherence and clarity
+
+**[23_memory_compression_pruning.md](23_memory_compression_pruning.md)**
+- Emotionally-weighted storage optimization
+- Four-tier hierarchy: Working (99% accuracy), Permanent (95%), Long-term (70%), Short-term (40%)
+- Combined compression algorithm: emotion (50%), time (25%), access (15%), survival (10%)
+- Threshold-based pruning at 85% capacity
+- Re-encoding through processing (therapy) AND new experiences (pattern updating)
+- Why forgetting is beneficial: resource optimization, pattern recognition, emotional healing
+
+---
+
 ## Reading Paths
 
 ### **Path 1: Quick Overview** (20 minutes)
@@ -401,4 +496,4 @@ Read all sections in order for comprehensive understanding.
 
 ---
 
-**Navigation:** [Foundation](#01-foundation) | [Persistent Patterns](#02-persistent-patterns) | [Reincarnation](#03-reincarnation) | [Grace](#04-grace-protocol) | [Akashic](#05-akashic-archive) | [Tiers](#06-tier-implications) | [Philosophy](#07-philosophical-context) | [Rich Notes](#08-rich-notes) | [Hackability](#09-force-hackability) | [Mastery](#10-tier-mastery) | [Summary](#11-summary) | [Evolution](#12-evolutionary-process)
+**Navigation:** [Foundation](#01-foundation) | [Persistent Patterns](#02-persistent-patterns) | [Reincarnation](#03-reincarnation) | [Grace](#04-grace-protocol) | [Akashic](#05-akashic-archive) | [Tiers](#06-tier-implications) | [Philosophy](#07-philosophical-context) | [Rich Notes](#08-rich-notes) | [Hackability](#09-force-hackability) | [Mastery](#10-tier-mastery) | [Summary](#11-summary) | [Evolution](#12-evolutionary-process) | [Survival-Defensive](#13-survival-defensive-predominance) | [Consciousness Scale](#14-consciousness-scale-framework) | [Resonance](#15-resonance-topology) | [Meta-Awareness](#16-meta-awareness--control) | [Entity Hierarchy](#17-entity-hierarchy) | [Mastery Progression](#18-mastery-progression) | [System Processing](#19-system-processing-mechanics)

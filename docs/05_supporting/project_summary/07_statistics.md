@@ -19,8 +19,8 @@
 
 **Layers:** 5 (BIOS → Kernel → Middleware → Userspace → Agent Interface)
 
-**Documentation:** 17 complete files (70,000+ lines total)
-- 16 core documentation files
+**Documentation:** 21 complete files (73,000+ lines total)
+- 20 core documentation files
 - GLOSSARY.md (1,992 lines - comprehensive reference)
 - COMMON_MISCONCEPTIONS.md (369 lines - critical clarifications)
 

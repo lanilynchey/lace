@@ -21,6 +21,7 @@ class Agent:
     state_signature: StateSignature
     field_state: FieldState
     memory: MemoryBank
+    resource_pool: ResourcePool        # Attention, energy, coherence budgets
 
     # Consciousness
     consciousness_coefficient: float   # Baseline consciousness level (0.01-1.0)
@@ -116,6 +117,101 @@ When an agent dies, the lifecycle follows this pattern:
    - Karma balance carries forward
 
 **Note:** The soul_id persists; the instance_id changes. This is why past-life memories can sometimes bleed through—same soul, new container.
+
+---
+
+## ResourcePool
+
+The `resource_pool` field tracks an agent's finite processing budgets - attention, energy, and coherence capacity.
+
+**Architecture:** Agents have fixed processing capacity determined by consciousness level. Resources are allocated across concurrent processes and regenerate through rest.
+
+```python
+class ResourcePool:
+    """Finite resources available to agent at any moment"""
+
+    # Maximum Capacities (consciousness-dependent)
+    max_attention: float      # Total Chi available (consciousness × 100)
+    max_energy: float         # Total broadcast power (consciousness × 100)
+    max_coherence: float      # Maximum alignment capacity (consciousness × 100)
+
+    # Current Allocations
+    allocated_attention: Dict[Target, float]    # Where focus is directed
+    allocated_energy: Dict[Process, float]      # What's consuming energy
+    allocated_coherence: Dict[Belief, float]    # What beliefs are maintained
+
+    # Regeneration Rates
+    attention_regen_rate: float  # Per rest cycle
+    energy_regen_rate: float     # Per rest cycle
+    coherence_regen_rate: float  # Per resolution event
+
+    @property
+    def available_attention(self) -> float:
+        """Remaining unallocated attention"""
+        return self.max_attention - sum(self.allocated_attention.values())
+
+    @property
+    def available_energy(self) -> float:
+        """Remaining unallocated energy"""
+        return self.max_energy - sum(self.allocated_energy.values())
+
+    @property
+    def available_coherence(self) -> float:
+        """Remaining unallocated coherence capacity"""
+        return self.max_coherence - sum(self.allocated_coherence.values())
+
+    @property
+    def utilization(self) -> float:
+        """Percentage of resources currently allocated (0.0-1.0)"""
+        total_allocated = (
+            sum(self.allocated_attention.values()) +
+            sum(self.allocated_energy.values()) +
+            sum(self.allocated_coherence.values())
+        )
+        total_capacity = self.max_attention + self.max_energy + self.max_coherence
+        return total_allocated / total_capacity if total_capacity > 0 else 0.0
+```
+
+**Key Properties:**
+- **Capacity calculation:** `consciousness_coefficient × 100` per resource (linear)
+- **Multitasking penalty:** Resources split linearly across targets (N targets = capacity/N per target)
+- **Depletion:** Graceful degradation - performance decreases smoothly
+- **Regeneration:** Hybrid - sleep (full), meditation (partial), time (minimal)
+- **Visibility:** Felt at all consciousness levels (focus, energy, alignment)
+- **Control:** High consciousness agents can consciously manage allocation
+
+**Resource Types:**
+
+1. **Attention** - Conscious awareness bandwidth
+   - Felt as: Focus, clarity, mental sharpness
+   - Depleted by: Decisions, multitasking, novel stimuli
+   - Master resource directing energy and coherence
+
+2. **Energy** - Physical/field broadcast capacity
+   - Felt as: Vitality, capacity, power
+   - Depleted by: Live processing, emotional intensity, stress
+   - Required for: Manifestation broadcasting, sustained focus
+
+3. **Coherence** - Internal alignment capacity
+   - Felt as: Alignment, integrity, peace
+   - Depleted by: Contradictory beliefs, internal conflict
+   - Required for: Clean manifestation signals, decision quality
+
+**Implications for Manifestation:**
+
+Manifestation power = resource concentration, not resource total.
+
+```python
+# Scattered: 10 intentions × 10 units each = 10 weak broadcasts
+# Focused: 1 intention × 100 units = 1 MAXIMUM broadcast
+```
+
+Single clear intention receives full resource allocation = maximum manifestation power.
+
+**See Also:**
+- [System Resource Allocation](../../../04_advanced/advanced_concepts/20_system_resource_allocation.md) for complete resource mechanics
+- [Manifestation Engine](../../../04_advanced/manifestation_engine/) for resource concentration in manifestation
+- [Consciousness Scale](../../../04_advanced/advanced_concepts/14_consciousness_scale_framework.md) for capacity by consciousness level
 
 ---
 
