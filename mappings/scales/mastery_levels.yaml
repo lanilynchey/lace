@@ -1,0 +1,118 @@
+# Mastery / Competency Scale Reference
+
+source_doc: "docs/01_foundation/base_structure/03_data_models/13_data_model_competency.md"
+description: "Domain-specific skill level - from novice to virtuoso"
+scale_type: "linear"
+range: "0.0-1.0"
+
+four_stages:
+  unconscious_incompetence:
+    range: "0.00-0.25"
+    description: "Don't know that I don't know"
+    characteristics:
+      - "No awareness of skill gap"
+      - "Never attempted or just beginning"
+      - "Can't self-assess"
+      - "Blissful ignorance"
+
+  conscious_incompetence:
+    range: "0.25-0.45"
+    description: "Know that I don't know"
+    characteristics:
+      - "Aware of mistakes and skill gap"
+      - "Struggling, high frustration"
+      - "Emotionally hardest stage"
+      - "Most people quit here"
+
+  conscious_competence:
+    range: "0.45-0.70"
+    description: "Know that I know (requires effort)"
+    characteristics:
+      - "Can perform competently with concentration"
+      - "Must think through steps deliberately"
+      - "Good enough for most applications"
+      - "Most people plateau here"
+
+  unconscious_competence:
+    range: "0.70-1.0"
+    description: "Don't know that I know (automatic)"
+    characteristics:
+      - "Effortless execution"
+      - "Flow state accessible"
+      - "Muscle memory, intuitive understanding"
+      - "State elevation occurs here"
+
+detailed_levels:
+  0.00-0.10: "never_attempted"
+  0.10-0.25: "absolute_beginner"
+  0.25-0.35: "novice"
+  0.35-0.45: "beginner"
+  0.45-0.55: "intermediate"
+  0.55-0.65: "competent"
+  0.65-0.75: "advanced"
+  0.75-0.85: "expert"
+  0.85-0.95: "master"
+  0.95-1.00: "virtuoso"
+
+state_elevation_mechanic:
+  description: |
+    When agent engages domain where they have mastery (0.7+),
+    their effective consciousness temporarily increases.
+
+  boost_amounts:
+    0.90-1.00_mastery: "+0.15 to +0.20 consciousness boost"
+    0.70-0.90_mastery: "+0.08 to +0.15 consciousness boost"
+    0.50-0.70_mastery: "+0.03 to +0.08 consciousness boost"
+    below_0.50: "no boost"
+
+  examples:
+    - description: "Olympian running (mastery 0.92, base consciousness 0.50)"
+      result: "Effective consciousness: 0.50 + 0.16 = 0.66 (approaching Love level)"
+      phenomenon: "Runner's high, flow state, 'in the zone'"
+
+    - description: "Concert pianist performing (mastery 0.88, base consciousness 0.54)"
+      result: "Effective consciousness: 0.54 + 0.14 = 0.68 (approaching Love level)"
+      phenomenon: "Transcendent experience, musical ecstasy, timelessness"
+
+    - description: "Mathematician solving (mastery 0.92, base consciousness 0.59)"
+      result: "Effective consciousness: 0.59 + 0.16 = 0.75 (Joy level)"
+      phenomenon: "Mathematical beauty, mystical states, eureka moments"
+
+orthogonality_to_consciousness:
+  note: |
+    Mastery and consciousness are INDEPENDENT dimensions.
+    Can have: high consciousness + low mastery (enlightened beginner)
+    Can have: low consciousness + high mastery (unconscious virtuoso)
+    Ideal: high consciousness + high mastery (conscious master - rare, powerful)
+
+fundamental_capacities:
+  note: "Everything has mastery levels, not just skills"
+  examples:
+    thinking: "Most people: 0.3-0.4 | Masters: 0.85+"
+    breathing: "Most people: 0.2-0.3 | Masters: 0.80+"
+    deciding: "Most people: 0.3-0.4 | Masters: 0.80+"
+    emotional_regulation: "Most people: 0.3-0.4 | Masters: 0.82+"
+    listening: "Most people: 0.2-0.3 | Masters: 0.82+"
+
+specialization_principle:
+  apple_tree_principle: "The best apple tree doesn't try to grow pears"
+  optimal_strategy:
+    - "Master 2-5 domains (0.7-0.9) - Your differentiation"
+    - "Maintain competence in 5-10 domains (0.5-0.6) - Supporting skills"
+    - "Accept incompetence in everything else - Don't waste energy"
+
+  why_specialization_wins:
+    - "Value comes from being exceptional at SOMETHING, not adequate at EVERYTHING"
+    - "Depth compounds (mastery builds on mastery)"
+    - "Breadth dilutes (spreading energy thin)"
+
+usage_in_mappings: |
+  - Mastery affects force activation (expert breathing → higher coherence)
+  - High mastery in domain can temporarily boost effective consciousness
+  - Lifestyle factors that build mastery indirectly affect force levels
+  - Flow states (0.7+ mastery engaged) create temporary elevated state signatures
+
+see_also:
+  - "docs/01_foundation/base_structure/03_data_models/13_data_model_competency.md"
+  - "docs/04_advanced/advanced_concepts/18_mastery_progression.md"
+  - "mappings/scales/consciousness_levels.yaml"

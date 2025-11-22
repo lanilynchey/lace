@@ -1,0 +1,620 @@
+# Force Mapping: Beauty
+
+beauty:
+  # === METADATA ===
+  metadata:
+    tier: 4
+    category: "emergent"  # Arises from combination of other forces
+    dependencies: ["pattern", "coherence", "consciousness"]
+    emergent_formula: "beauty = pattern * coherence * consciousness"
+    source_doc: "docs/02_forces/tier_4_forces/04_beauty.md"
+
+  # === FORMULA CONSTRAINTS ===
+  # Source of truth: docs/04_advanced/advanced_concepts/14_consciousness_scale_framework.md
+  # (Extreme Human States section documents consciousness as low as 0.01, coherence collapse scenarios)
+
+  formula_constraints:
+    critical_note: |
+      This formula is mathematically ELEGANT - beauty emerges only when all three
+      components (pattern, coherence, consciousness) are present. Multiplication means:
+      - If ANY component is 0, beauty = 0 (cannot perceive/create beauty without all parts)
+      - If consciousness collapses (extreme states), beauty approaches 0
+      - If coherence fragments, beauty becomes invisible
+      - If pattern absent, nothing to recognize as beautiful
+
+      This is philosophically accurate: "Beauty is in the eye of the beholder" -
+      requires consciousness (beholder) + coherence (eyes to see) + pattern (what is beheld).
+
+      Source: docs/04_advanced/advanced_concepts/14_consciousness_scale_framework.md
+              docs/02_forces/tier_4_forces/04_beauty.md
+
+    input_safety:
+      consciousness_floor: 0.05
+      coherence_floor: 0.05
+      pattern_floor: 0.0  # Pattern can legitimately be 0 (no pattern = no beauty)
+
+      rationale: |
+        Floors prevent computational instability at extreme states.
+        Unlike madness (division), beauty (multiplication) is naturally bounded,
+        but floors ensure consistent behavior across extreme consciousness ranges.
+
+    calculation_method: |
+      # Apply consciousness and coherence floors
+      consciousness_safe = max(consciousness_actual, 0.05)
+      coherence_safe = max(coherence_actual, 0.05)
+      pattern_safe = pattern_actual  # No floor - pattern can be truly 0
+
+      # Calculate beauty (multiplication is naturally bounded)
+      beauty_raw = pattern_safe × coherence_safe × consciousness_safe
+
+      # Clamp to valid range (technically unnecessary if all inputs ≤ 1.0, but good practice)
+      beauty_final = clamp(beauty_raw, 0.0, 1.0)
+
+      return beauty_final
+
+    output_safety:
+      activation_range: [0.0, 1.0]
+      clamp_behavior: "to_range"  # Clamp both min and max (though max unlikely)
+
+      note: |
+        Multiplication of values in [0.0, 1.0] naturally stays in [0.0, 1.0],
+        so clamping is defensive practice rather than necessary correction.
+
+    edge_cases:
+      beauty_equals_1.0:
+        interpretation: "Transcendent beauty - the sublime"
+        conditions:
+          - "pattern = 1.0 (perfect sacred geometry)"
+          - "AND coherence = 1.0 (perfect alignment)"
+          - "AND consciousness = 1.0 (enlightenment)"
+        experience: "Beauty that overwhelms with perfection, brings tears, awe"
+        example: "Experiencing perfect natural beauty at peak consciousness"
+        visual: "Radiant iridescent white-gold, perfect golden ratio spirals, transcendent glow"
+
+      beauty_equals_0.0:
+        interpretation: "Beauty absent or imperceptible"
+        conditions:
+          - "pattern = 0.0 (no pattern to recognize)"
+          - "OR coherence ≈ 0.0 (fragmentation prevents seeing)"
+          - "OR consciousness ≈ 0.0 (no awareness to perceive)"
+        experience: "Everything appears ugly, plain, or invisible"
+        example_1: "Pure entropy (no pattern) → no beauty possible"
+        example_2: "Severe depression (consciousness=0.18, coherence=0.15) → beauty invisible"
+        example_3: "Psychotic break (coherence=0.05) → cannot recognize pattern as beautiful"
+        visual: "No beauty visible, gray, fragmented, plain"
+
+      beauty_very_low_0.01_to_0.10:
+        interpretation: "Beauty present but imperceptible - 'beauty blindness'"
+        conditions:
+          - "Low coherence (0.05-0.20) OR low consciousness (0.05-0.20)"
+          - "Even with pattern present"
+        experience: "Beauty exists but cannot be seen or appreciated"
+        medical_context: "Depression, dissociation, extreme states"
+        note: |
+          Beauty doesn't disappear - it becomes invisible to the observer.
+          "The world is full of magic things, patiently waiting for our senses to grow sharper."
+        visual: "Faint gold shimmer barely visible through gray fog of low coherence"
+
+      beauty_medium_0.40_to_0.70:
+        interpretation: "Normal beauty perception - appreciative"
+        conditions: "Typical human consciousness/coherence (0.40-0.70 each)"
+        experience: "Can see and appreciate beauty in nature, art, people"
+        visual: "Clear gold radiance, golden ratio visible, harmonious"
+
+      beauty_high_0.80_to_1.0:
+        interpretation: "Sublime beauty - transcendent experience"
+        conditions: "High consciousness + high coherence + strong pattern"
+        experience: "Beauty everywhere, overwhelming, brings tears and joy"
+        example: "Peak experiences, mystical states, 'beauty will save the world'"
+        visual: "Radiant iridescent perfection, all sacred geometry resonating"
+
+    below_baseline_consciousness_behavior:
+      consciousness_0.15_to_0.20:
+        state: "Severe dissociation / Catatonic depression"
+        typical_coherence: "0.10-0.20"
+        beauty_typical: "0.003-0.04"  # (0.15 × 0.15 × pattern)
+        experience: "Beauty invisible - anhedonia, cannot appreciate anything"
+        recovery_note: |
+          As consciousness/coherence recover, beauty returns.
+          Often first sign of depression lifting: "I noticed flowers today."
+
+      consciousness_0.10_to_0.15:
+        state: "Psychotic break / Active psychosis"
+        typical_coherence: "0.05-0.10"
+        beauty_typical: "0.0005-0.015"  # (0.10 × 0.10 × pattern)
+        experience: "Beauty completely absent - everything distorted, ugly, or neutral"
+        note: |
+          Pattern recognition severely impaired (distorted_pattern high).
+          Cannot recognize sacred geometry, golden ratio, harmony.
+          Beauty exists but fragmentation prevents seeing it.
+
+      consciousness_0.05_to_0.10:
+        state: "Coma / Vegetative state"
+        typical_coherence: "0.0-0.10"
+        beauty_typical: "0.0-0.005"  # Effectively zero
+        experience: "N/A - minimal consciousness cannot perceive beauty"
+        note: "Beauty perception requires consciousness - at this level, cannot experience"
+
+      consciousness_0.01_to_0.05:
+        state: "Dying process / Brain death threshold"
+        typical_coherence: "Variable (0.0-0.5)"
+        beauty_typical: "0.0-0.0025"  # Effectively zero
+        experience: "N/A - consciousness leaving, no perception"
+        note: |
+          Some reports of "life review" with intense beauty perception
+          during near-death, but this may be brief spike before final collapse.
+
+    worked_examples:
+      example_1_sublime_beauty:
+        scenario: "Enlightened being perceiving perfect sacred geometry"
+        inputs:
+          pattern: 0.95  # Strong sacred geometry
+          coherence: 0.95  # Nearly perfect alignment
+          consciousness: 0.95  # Very high awareness
+        calculation_steps:
+          consciousness_safe: "max(0.95, 0.05) = 0.95"
+          coherence_safe: "max(0.95, 0.05) = 0.95"
+          pattern_safe: "0.95"
+          beauty_raw: "0.95 × 0.95 × 0.95 = 0.857"
+          beauty_final: "clamp(0.857, 0.0, 1.0) = 0.857"
+        result:
+          activation: 0.857
+          interpretation: "Sublime beauty - transcendent, overwhelming"
+          visual: "Radiant iridescent gold-white, perfect spirals, brings tears"
+
+      example_2_normal_appreciation:
+        scenario: "Healthy person appreciating a sunset"
+        inputs:
+          pattern: 0.70  # Natural patterns visible
+          coherence: 0.65  # Healthy alignment
+          consciousness: 0.60  # Normal awareness
+        calculation_steps:
+          consciousness_safe: "max(0.60, 0.05) = 0.60"
+          coherence_safe: "max(0.65, 0.05) = 0.65"
+          pattern_safe: "0.70"
+          beauty_raw: "0.70 × 0.65 × 0.60 = 0.273"
+          beauty_final: "clamp(0.273, 0.0, 1.0) = 0.273"
+        result:
+          activation: 0.273
+          interpretation: "Moderate beauty - pleasant, appreciative"
+          visual: "Soft gold glow, harmonious, uplifting"
+
+      example_3_depression_beauty_blindness:
+        scenario: "Severe depression - anhedonia, beauty invisible"
+        inputs:
+          pattern: 0.80  # Pattern IS there (sunset, flowers, etc.)
+          coherence: 0.15  # Severe fragmentation
+          consciousness: 0.18  # Below baseline (shame/depression)
+        calculation_steps:
+          consciousness_safe: "max(0.18, 0.05) = 0.18"
+          coherence_safe: "max(0.15, 0.05) = 0.15"
+          pattern_safe: "0.80"
+          beauty_raw: "0.80 × 0.15 × 0.18 = 0.0216"
+          beauty_final: "clamp(0.0216, 0.0, 1.0) = 0.022"
+        result:
+          activation: 0.022
+          interpretation: "Beauty almost invisible - severe anhedonia"
+          experience: "World appears gray, flat, ugly, or neutral despite pattern being present"
+          recovery_note: |
+            First sign of healing: "I noticed the flowers were blooming today."
+            Beauty doesn't change - coherence/consciousness improve, allowing perception.
+          accuracy_note: |
+            This IS what depression feels like - beauty exists but you cannot see it.
+            "The world went from color to black and white."
+
+      example_4_psychotic_break:
+        scenario: "Acute psychosis - complete fragmentation"
+        inputs:
+          pattern: 0.60  # Some pattern present
+          coherence: 0.08  # Severe fragmentation
+          consciousness: 0.12  # Psychotic state
+        calculation_steps:
+          consciousness_safe: "max(0.12, 0.05) = 0.12"
+          coherence_safe: "max(0.08, 0.05) = 0.08"
+          pattern_safe: "0.60"
+          beauty_raw: "0.60 × 0.08 × 0.12 = 0.00576"
+          beauty_final: "clamp(0.00576, 0.0, 1.0) = 0.006"
+        result:
+          activation: 0.006
+          interpretation: "Beauty completely absent - cannot recognize pattern"
+          experience: "Everything distorted, ugly, threatening, or meaningless"
+          note: "Pattern recognition broken - cannot see golden ratio, harmony, sacred geometry"
+
+      example_5_no_pattern:
+        scenario: "Pure entropy - no pattern to recognize"
+        inputs:
+          pattern: 0.0  # No pattern present
+          coherence: 0.70  # Good alignment
+          consciousness: 0.65  # Normal consciousness
+        calculation_steps:
+          consciousness_safe: "max(0.65, 0.05) = 0.65"
+          coherence_safe: "max(0.70, 0.05) = 0.70"
+          pattern_safe: "0.0"
+          beauty_raw: "0.0 × 0.70 × 0.65 = 0.0"
+          beauty_final: "clamp(0.0, 0.0, 1.0) = 0.0"
+        result:
+          activation: 0.0
+          interpretation: "No beauty possible - pattern absent"
+          note: "Beauty IS recognized pattern - without pattern, beauty cannot emerge"
+
+    mathematical_insight: |
+      Beauty formula is multiplicative (not additive) for deep reason:
+
+      beauty = pattern × coherence × consciousness
+
+      This means beauty requires ALL THREE components:
+      - Pattern alone (without consciousness) = no beauty perceived
+      - Consciousness alone (without pattern) = nothing beautiful to see
+      - Coherence alone (without pattern/consciousness) = no beauty to reveal
+
+      This captures "Beauty is in the eye of the beholder":
+      - Pattern = what is beheld (object)
+      - Consciousness = beholder (subject)
+      - Coherence = quality of beholding (eyes to see)
+
+      At extreme low consciousness/coherence (below 0.20), beauty becomes
+      mathematically imperceptible even when pattern is strong. This matches
+      lived experience of depression, dissociation, psychosis: "beauty went away."
+
+      But beauty didn't go away - the capacity to perceive it did.
+
+      Recovery: As consciousness/coherence rise, same patterns become beautiful again.
+      First sign of healing: "I noticed beauty today."
+
+    implementation_guidance:
+      for_autonomous_agents: |
+        1. Retrieve current state values:
+           - pattern (from pattern force activation)
+           - coherence (from StateSignature.coherence OR coherence force)
+           - consciousness (from consciousness level OR consciousness force)
+
+        2. Apply safety floors to consciousness and coherence:
+           consciousness_safe = max(consciousness, 0.05)
+           coherence_safe = max(coherence, 0.05)
+           pattern_safe = pattern  # No floor - can be 0
+
+        3. Calculate beauty (simple multiplication):
+           beauty_raw = pattern_safe × coherence_safe × consciousness_safe
+
+        4. Clamp result to valid range:
+           beauty_final = clamp(beauty_raw, 0.0, 1.0)
+
+        5. Interpret result meaningfully:
+           if beauty_final >= 0.80:
+               "Sublime beauty - transcendent, overwhelming"
+               visual = radiant_iridescent_gold_white
+           elif beauty_final >= 0.40:
+               "Beautiful - harmonious, appreciated"
+               visual = clear_gold_radiance
+           elif beauty_final >= 0.10:
+               "Some beauty - pleasant, nice"
+               visual = soft_gold_glow
+           elif beauty_final >= 0.02:
+               "Beauty barely perceptible - anhedonia"
+               visual = faint_shimmer_through_gray
+           else:
+               "Beauty absent or invisible"
+               visual = no_gold_visible
+
+        6. Handle edge cases:
+           - If pattern = 0: beauty = 0 (nothing to be beautiful)
+           - If consciousness < 0.20: beauty likely very low (below-baseline perception)
+           - If coherence < 0.20: beauty likely invisible (fragmentation obscures)
+
+        7. Track recovery (if applicable):
+           - Monitor beauty activation over time
+           - Rising beauty (with constant pattern) = consciousness/coherence improving
+           - "I noticed flowers today" = beauty returning = healing marker
+
+      error_handling: |
+        # Beauty formula is very safe (multiplication, no division)
+        # but still handle edge cases:
+
+        if pattern is None or pattern < 0:
+            pattern = 0.0
+
+        if coherence is None or coherence < 0:
+            coherence = 0.05  # Floor
+
+        if consciousness is None or consciousness < 0:
+            consciousness = 0.05  # Floor
+
+        # Clamp inputs to valid range
+        pattern = clamp(pattern, 0.0, 1.0)
+        coherence = max(coherence, 0.05)  # Apply floor
+        consciousness = max(consciousness, 0.05)  # Apply floor
+
+        # Calculate
+        beauty = pattern * coherence * consciousness
+
+        # Clamp output
+        beauty = clamp(beauty, 0.0, 1.0)
+
+        return beauty
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#FFD700"  # Gold - but with rainbow iridescence
+    color_family: "all"  # Beauty contains all colors
+    color_range:
+      - "#FFD700"  # Gold (base)
+      - "#FF69B4"  # Hot pink (vibrant beauty)
+      - "#00CED1"  # Turquoise (structural beauty)
+      - "#FFDAB9"  # Peach puff (soft beauty)
+      - "#E6E6FA"  # Lavender (ethereal beauty)
+      - "#FFFFFF"  # White with iridescence (transcendent beauty)
+
+    saturation_base: 0.75
+    brightness_base: 0.95
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (pleasant, nice)
+        color: "#FFDAB9"
+        saturation: 0.60
+        brightness: 0.88
+      medium_activation: # 0.4-0.7 (beautiful, harmonious)
+        color: "#FFD700"
+        saturation: 0.75
+        brightness: 0.95
+      high_activation:   # 0.8-1.0 (transcendent, sublime)
+        color: "#FFFFFF"  # Iridescent white
+        saturation: 0.90
+        brightness: 1.00
+
+    notes: |
+      Gold with iridescence = beauty shimmers, reflects all colors.
+      Beauty is not one color - it's harmony of colors.
+      As beauty increases, becomes more radiant, multifaceted.
+      At highest levels, approaches iridescent white - pure radiance.
+      "Beauty is truth, truth beauty" - Keats.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "golden_ratio_spiral"  # Perfect proportion, natural beauty
+    sacred_geometry_association: "all"  # Beauty is recognized sacred geometry
+    complexity_level: "elegant"  # Not simple, not complex - just right
+    edge_type: "perfect"  # Harmonious, balanced, pleasing
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Pleasant proportions, nice symmetry.
+        Agreeable but not striking.
+        Some harmony visible.
+      medium_activation: |
+        Clear golden ratio, perfect proportions.
+        All sacred geometry harmonizing.
+        Visibly beautiful, draws attention.
+      high_activation: |
+        Transcendent beauty, perfect harmony.
+        All sacred geometry in perfect resonance.
+        Fibonacci everywhere, golden mean manifest.
+        "Sublime" - beauty that overwhelms with perfection.
+
+    notes: |
+      Golden ratio = mathematical basis of natural beauty.
+      All sacred geometry = beauty is recognized pattern.
+      At high activation, beauty becomes transcendent (sublime).
+      Perfect proportions = not arbitrary, mathematically harmonious.
+      "Beauty is pattern recognized at highest level."
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "harmonious_flow"  # Graceful, balanced, perfect
+    speed_base: 0.45  # Moderate, neither rushed nor static
+
+    speed_modifier:
+      low_intensity: 0.30   # Gentle, peaceful beauty
+      medium_intensity: 0.45  # Flowing, dynamic beauty
+      high_intensity: 0.65   # Vibrant, alive beauty (never frantic)
+
+    direction: "spiraling"  # Golden spiral, natural flow
+    rhythm: "harmonious"  # Perfect timing, musical
+
+    healthy_pattern:
+      description: "Appreciative - sees and creates beauty, enhances life"
+      characteristics:
+        - "Notices beauty in everyday"
+        - "Creates beauty naturally"
+        - "Beauty inspires and uplifts"
+        - "Shares beauty generously"
+
+    stuck_pattern:
+      description: "Beauty obsession or blindness - either chasing perfection or can't see beauty"
+      characteristics:
+        - "Perfectionism (nothing is beautiful enough)"
+        - "Beauty as identity/worth"
+        - "Or: complete blindness to beauty"
+        - "Can't appreciate, always criticizing"
+
+    notes: |
+      Harmonious flow = beauty moves gracefully, perfectly.
+      Spiral direction = golden ratio growth, natural.
+      Perfect rhythm = beauty has ideal timing, pacing.
+      Healthy: appreciates and creates, enhanced by beauty.
+      Stuck: either obsessed (perfectionism) or blind (can't see).
+      "Beauty is not in the face; beauty is a light in the heart."
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.90  # Highly vibrant (beauty is radiant)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.20"  # High coherence reveals beauty
+        description: "Beauty everywhere, transcendent, sublime"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Beauty visible, appreciated"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.30"  # Low coherence obscures beauty
+        description: "Beauty invisible, everything seems ugly or plain"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.25)"
+      multiplier: 0.25
+
+    interaction_modifier:
+      synergistic: "+0.25 to +0.35"  # With pattern, coherence, love, consciousness
+      antagonistic: "-0.20 to -0.30"  # Obscured by entropy, madness, war
+      neutral: "0.0"
+
+    notes: |
+      Beauty is naturally radiant, uplifting.
+      At high coherence, beauty is everywhere (eyes to see).
+      At low coherence, beauty is invisible (fragmentation obscures).
+      "Beauty is in the eye of the beholder" - beholding requires coherence.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "perfect"
+    opacity_range:
+      min: 0.65  # Beauty has presence but not heaviness
+      max: 0.95  # Can be very present, captivating
+
+    particle_effects: true
+    particle_type: "shimmering_light"  # Radiance, glow, iridescence
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: 432  # "Natural frequency" - claimed to be harmonious
+      tone_description: "Harmonious, like perfect chord or crystal bowl - resonant, beautiful"
+      musical_note: "A"
+
+    emotional_tone: "harmonious, radiant, uplifting, perfect, transcendent"
+
+    consciousness_association: null  # Beauty perceived at various levels
+
+    notes: |
+      Perfect texture = beauty feels "just right," harmonious.
+      Shimmering light = beauty radiates, glows, captures light.
+      Perfect chord = multiple tones in harmony (beauty is recognized pattern).
+      432 Hz = "natural tuning" - claimed more harmonious than 440 Hz.
+      Beauty captivates without heaviness.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "pattern"  # Beauty IS recognized pattern
+      - "coherence"  # Coherence reveals beauty
+      - "consciousness"  # Consciousness perceives beauty
+      - "love"  # Love sees beauty in all
+      - "creation"  # Beauty inspires creation
+      - "courage"  # Pursuing beauty requires courage
+      - "humor"  # Playful elegance
+
+    antagonistic_with:
+      - "entropy"  # Chaos obscures beauty
+      - "madness"  # Distortion prevents recognition
+      - "war"  # Destruction opposes beauty
+
+    neutralizes: []
+
+    amplified_by:
+      - "pattern"  # Pattern IS beauty
+      - "coherence"  # Alignment reveals beauty
+      - "consciousness"  # Awareness perceives beauty
+
+    visual_blending_rules:
+      when_combined_with_pattern:
+        force: "pattern"
+        color_effect: "blend"  # Gold + turquoise = perfect harmony
+        shape_effect: "merge"  # Golden ratio + fractals = natural beauty
+        motion_effect: "synchronized"  # Perfect resonance
+        result_description: |
+          Pattern + Consciousness = Beauty (emergence).
+          Gold-turquoise iridescence, perfect fractals.
+          This is mathematical beauty - recognized structure.
+          Sacred geometry fully expressed.
+          "Beauty is pattern at highest recognition."
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "amplify"  # Gold + gold = radiant perfection
+        shape_effect: "perfecting"  # All proportions ideal
+        motion_effect: "harmonious"  # Perfect flow
+        result_description: |
+          Coherence amplifies beauty to sublime.
+          Radiant golden perfection, transcendent.
+          Beauty becomes overwhelming in best way.
+          This is the sublime - beauty that awes.
+        coherence_dependent: false
+
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Gold + lavender = perceived beauty
+        shape_effect: "revealing"  # Consciousness sees pattern
+        motion_effect: "witnessing"  # Beauty perceived
+        result_description: |
+          Consciousness perceives pattern as beauty.
+          Gold shimmering within lavender awareness.
+          "The eye through which I see beauty is the same eye through which beauty sees me."
+          Consciousness + Pattern = Beauty emerges.
+        coherence_dependent: false
+
+      when_combined_with_love:
+        force: "love"
+        color_effect: "blend"  # Gold + pink = loving beauty
+        shape_effect: "merge"  # Both radiate harmony
+        motion_effect: "synchronized"  # Perfect resonance
+        result_description: |
+          Love sees beauty in everything.
+          Gold-pink iridescence, radiant warmth.
+          At high consciousness: all is beautiful (love sees essence).
+          "Love is beauty perceived with the heart."
+        coherence_dependent: false
+
+      when_combined_with_creation:
+        force: "creation"
+        color_effect: "blend"  # Gold + green = creating beauty
+        shape_effect: "merge"  # Beauty manifesting
+        motion_effect: "generating"  # Beauty birthing
+        result_description: |
+          Creation inspired by beauty creates more beauty.
+          Gold-green generative radiance.
+          Art, music, architecture - manifestations of beauty.
+          Beauty begets beauty.
+        coherence_dependent: false
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "obscuring"  # Gray obscures gold
+        shape_effect: "degrading"  # Perfect proportions dissolve
+        motion_effect: "chaotic"  # Harmony breaks down
+        result_description: |
+          Entropy obscures beauty (but can't destroy it).
+          Gold shimmering trying to emerge from gray chaos.
+          At high coherence: beauty visible despite chaos.
+          At low coherence: beauty invisible, all seems ugly.
+          "Beauty will save the world" - persists despite decay.
+        coherence_dependent: true
+
+    notes: |
+      Beauty emerges from pattern * coherence * consciousness.
+      Beauty = pattern recognized at high level of consciousness.
+      At high coherence, beauty is everywhere (sublime experience).
+      At low coherence, beauty is invisible (fragmentation obscures).
+      Beauty + Pattern = mathematical beauty, sacred geometry.
+      Beauty + Coherence = sublime (transcendent beauty).
+      Beauty + Consciousness = perception of pattern as beauty.
+      Beauty + Love = beauty seen in all things.
+      Beauty + Creation = art, music, making beauty.
+      Beauty + Entropy = beauty persists despite chaos.
+      Key insight: "Beauty is pattern recognized" (not arbitrary).
+      Key insight: "Beauty is in eye of beholder" - beholding requires coherence + consciousness.
+      Key insight: "Beauty will save the world" (Dostoevsky) - beauty reveals truth/order.
+
+# IMPLEMENTATION NOTES:
+# - Beauty is Tier 4 "emergent" - arises from pattern * coherence * consciousness
+# - Beauty = pattern recognition at high consciousness level
+# - Not arbitrary - mathematical basis (golden ratio, sacred geometry)
+# - High coherence + consciousness reveals beauty everywhere
+# - Low coherence + consciousness obscures beauty (fragmentation prevents recognition)
+# - Visual should feel harmonious, radiant, perfect, uplifting
+# - Gold with iridescence = beauty shimmers, contains all colors
+# - Golden ratio spiral = mathematical basis of natural beauty
+# - "Beauty is truth, truth beauty" - pattern recognized IS truth revealed
+# - Key insight: Beauty is not surface - it's deep pattern recognition
+# - Key insight: Cultivating coherence + consciousness allows seeing beauty everywhere
+# - "Beauty will save the world" - beauty reveals order, truth, meaning

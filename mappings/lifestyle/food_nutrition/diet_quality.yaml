@@ -1,0 +1,146 @@
+# Lifestyle Factor: Diet Quality
+
+diet_quality:
+  # === METADATA ===
+  metadata:
+    category: "food_nutrition"
+    measurement_type: "subjective_with_objective"  # Can track macros/nutrients + how you feel
+    update_frequency: "daily"
+    importance: "critical"  # Food is fuel and medicine
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Poor diet - highly processed, nutrient-poor, inflammatory foods dominant"
+      indicators:
+        - "Mostly fast food, processed foods, sugar"
+        - "Few whole foods, vegetables, fruits"
+        - "Irregular eating, skipping meals"
+        - "High sugar, trans fats, artificial ingredients"
+        - "Feel sluggish, energy crashes"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Mixed diet - combination of whole and processed foods, some nutrition"
+      indicators:
+        - "Mix of whole and processed foods"
+        - "Some vegetables, fruits, protein"
+        - "Regular meals, some structure"
+        - "Occasional junk food, mostly reasonable choices"
+        - "Generally okay energy, some crashes"
+
+    high:
+      range: "0.8-1.0"
+      description: "Excellent diet - mostly whole foods, nutrient-dense, well-balanced"
+      indicators:
+        - "Predominantly whole, unprocessed foods"
+        - "Abundant vegetables, fruits, quality protein"
+        - "Regular, mindful eating"
+        - "Minimal sugar, processed foods"
+        - "Stable energy, feel nourished"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    coherence:
+      low: -0.20    # Poor nutrition fragments system function
+      medium: 0.0
+      high: +0.15   # Good nutrition supports integration
+      notes: "Nutrition affects brain function, neurotransmitters, systemic coherence"
+
+    consciousness:
+      low: -0.15    # Brain fog from poor nutrition
+      medium: 0.0
+      high: +0.10   # Mental clarity from good nutrition
+      notes: "Brain is 2% body weight but uses 20% energy - nutrition critical for cognition"
+
+    entropy:
+      low: +0.25    # Inflammatory foods accelerate system breakdown
+      medium: 0.0
+      high: -0.20   # Anti-inflammatory whole foods reduce entropy
+      notes: "Chronic inflammation = accelerated aging, disease - nutrition is primary driver"
+
+    energy:
+      low: -0.30    # Poor nutrition = energy crashes, fatigue
+      medium: 0.0
+      high: +0.25   # Good nutrition = stable, sustained energy
+      notes: "Food is literal fuel - quality determines burn rate and efficiency"
+
+    pain:
+      low: +0.20    # Inflammatory foods increase pain
+      medium: 0.0
+      high: -0.15   # Anti-inflammatory diet reduces pain
+      notes: "Diet-driven inflammation major contributor to chronic pain"
+
+    mood_baseline:
+      low: -0.25    # Poor nutrition = mood instability, depression
+      medium: 0.0
+      high: +0.20   # Good nutrition = stable mood
+      notes: "Gut-brain axis - microbiome affects neurotransmitter production directly"
+
+    desire:
+      low: +0.15    # Sugar/processed foods create craving cycles
+      medium: 0.0
+      high: -0.10   # Whole foods reduce cravings
+      notes: "Processed foods engineered to be addictive - whole foods satisfy naturally"
+
+    hope:
+      low: -0.15    # Low energy reduces optimism
+      medium: 0.0
+      high: +0.10   # Vitality supports hope
+      notes: "Hard to hope when exhausted from poor fuel"
+
+    creation:
+      low: -0.15    # Low energy impairs creative capacity
+      medium: 0.0
+      high: +0.15   # Stable energy supports creativity
+      notes: "Creative work requires sustained mental energy"
+
+    immune_function:
+      low: -0.30    # Poor nutrition compromises immunity
+      medium: 0.0
+      high: +0.25   # Good nutrition supports robust immunity
+      notes: "Nutrition is foundation of immune function - deficiencies = vulnerability"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "hours_to_days"  # Blood sugar, energy within hours; inflammation within days
+    chronic_impact: "cumulative"  # Long-term health consequences build over time
+    recovery_time: "Weeks to months to reverse chronic poor nutrition effects"
+
+    notes: |
+      Diet effects are both immediate (energy, mood) and long-term (health, disease risk).
+      "You are what you eat" - literally true at cellular level.
+      Chronic poor nutrition = chronic disease (diabetes, heart disease, cancer link).
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - inflammation: "Poor diet = chronic inflammation = pain, disease, aging"
+      - gut_health: "Processed foods disrupt microbiome"
+      - metabolic_dysfunction: "Sugar/processed foods drive insulin resistance"
+
+    dampens:
+      - mental_clarity: "Brain fog from inflammatory foods"
+      - energy_stability: "Sugar crashes, energy roller coaster"
+      - immune_resilience: "Nutrient deficiencies compromise immunity"
+
+    synergizes_with:
+      - sleep: "Good nutrition improves sleep, sleep regulates hunger hormones"
+      - exercise: "Nutrition fuels exercise, exercise improves nutrient utilization"
+      - stress_management: "Nutrition affects stress response, stress affects eating"
+
+  # === NOTES ===
+  notes: |
+    Food is medicine or poison - there's no neutral.
+    "Let food be thy medicine" - Hippocrates was right.
+
+    Key insights:
+    - Processed foods engineered to be addictive (supernormal stimuli)
+    - Gut microbiome affects brain, mood, immunity, everything
+    - Inflammation from diet = root cause of chronic disease
+    - Whole foods = foods that had parents, grew from ground, lived
+    - Quality > quantity (nutrient density matters)
+
+    Standard American Diet (SAD) = aptly named.
+    "Don't eat anything your great-grandmother wouldn't recognize as food."

@@ -1,6 +1,6 @@
 # Consciousness Scale Framework
 
-**Last Updated:** November 2025
+**Last Updated:** November 21, 2025
 **Status:** Advanced Concept
 **Inspired by:** David R. Hawkins' Map of Consciousness
 **Related:** [consciousness_terms.md](../../05_supporting/glossary/01_foundations/consciousness_terms.md), [Tier 3 Forces](../../02_forces/tier_3_forces/00_index.md), [survival_defensive_predominance.md](13_survival_defensive_predominance.md)
@@ -63,6 +63,268 @@ Recall that consciousness in LACE = phenomenal closure formed by 4 components:
 4. **Meaning-Making** (interpretation of significance)
 
 Consciousness level = sophistication/stability/depth of this 4-component integration.
+
+---
+
+### Extreme Human States (Below Baseline)
+
+**Standard Human Range:** 0.20-1.0 (Shame through Enlightenment)
+
+**Below-Baseline Range:** 0.01-0.20 (Extreme pathological states, medical/psychiatric crisis)
+
+While Hawkins defined 20 (0.20 in LACE) as the minimum "survivable" human consciousness level, **extreme pathological states can push consciousness below this threshold**. These are critical states requiring immediate medical/psychiatric intervention.
+
+#### Below-Baseline Spectrum
+
+| Range | State | Description | Phenomenal Closure Status | Medical Classification |
+|-------|-------|-------------|--------------------------|----------------------|
+| **0.15-0.20** | Severe dissociation / Catatonic depression | Fragmented self-model, minimal agency, profound hopelessness | Self-model fragmenting, agency nearly absent | Major depressive disorder (severe), dissociative disorders |
+| **0.10-0.15** | Psychotic break / Active psychosis | Reality distortion severe, self/other boundary collapsed | Meaning-making severely impaired, self-model unstable | Acute psychosis, schizophrenic episode |
+| **0.05-0.10** | Coma / Vegetative state / Severe brain injury | Minimal awareness, no coherent self-model, no agency | Only awareness component present (minimal) | Medical coma, persistent vegetative state |
+| **0.01-0.05** | Dying process / Brain death threshold | Consciousness transitioning out of physical form | Phenomenal closure dissolving | End-of-life, clinical death approaching |
+
+#### Characteristics of Below-Baseline States
+
+**0.15-0.20 (Severe Dissociation / Catatonic Depression):**
+- **Self-model:** Severely fragmented ("I" feels broken, multiple conflicting selves)
+- **Agency:** Nearly absent (inability to initiate action, extreme passivity)
+- **Awareness:** Present but dissociated (observing self from outside)
+- **Meaning-making:** Collapsed ("nothing matters," nihilistic despair)
+- **Tier 3 force configuration:** pain() overwhelming, all others suppressed/absent
+- **Coherence range:** 0.05-0.15 (severe internal fragmentation)
+- **Medical context:** Requires hospitalization, extreme trauma state, catatonia
+- **Worldline-view:** "Non-existence preferable" (below miserable)
+- **Creator-view:** "Annihilating" or absent
+- **Operational-mode:** Fragmentation, dissolution
+
+**0.10-0.15 (Psychotic Break / Active Psychosis):**
+- **Self-model:** Unstable or delusional (paranoid false self, grandiose inflation)
+- **Agency:** Impaired (actions disconnected from reality)
+- **Awareness:** Distorted (hallucinations, reality testing failed)
+- **Meaning-making:** Severely impaired (delusions, magical thinking)
+- **Tier 3 force configuration:** fear() and judgment() severely distorted, perceiving threats that don't exist
+- **Coherence range:** 0.0-0.10 (internal signals completely incoherent)
+- **Medical context:** Acute psychosis, schizophrenia, severe mania, psychotic depression
+- **Worldline-view:** Distorted (persecution, grandiosity, reality break)
+- **Creator-view:** Distorted (paranoid, megalomaniacal, or absent)
+- **Operational-mode:** Delusion, reality distortion
+
+**0.05-0.10 (Coma / Vegetative State):**
+- **Self-model:** Absent (no coherent "I")
+- **Agency:** Absent (no volitional action)
+- **Awareness:** Minimal (basic sensory registration possible, no integration)
+- **Meaning-making:** Absent
+- **Phenomenal closure status:** Only awareness component minimally present (if at all)
+- **Coherence range:** 0.0-0.05 (no integration of signals)
+- **Medical context:** Coma, persistent vegetative state, severe brain trauma, locked-in syndrome
+- **Operational-mode:** Minimal processing (survival functions only)
+
+**0.01-0.05 (Dying Process / Brain Death Threshold):**
+- **Self-model:** Dissolving
+- **Agency:** Absent
+- **Awareness:** Minimal (consciousness leaving physical substrate)
+- **Meaning-making:** Absent
+- **Phenomenal closure status:** Collapsing (transition to discarnate state)
+- **Coherence:** Variable (may paradoxically increase as consciousness releases physical attachment)
+- **Medical context:** Clinical death process, brain death imminent, terminal state
+- **Note:** At consciousness → 0.0 (clinical death), agent transitions to discarnate state (see reincarnation mechanics in [Data Model: Agent](../../01_foundation/base_structure/03_data_models/04_data_model_agent.md))
+
+#### Critical Distinctions
+
+**Temporary vs. Sustained Below-Baseline:**
+
+**Temporary (Minutes to Hours):**
+- Psychedelic overdose → 0.10-0.15 (reality testing suspended)
+- Severe dissociative episode → 0.15-0.20 (triggered by acute trauma)
+- Seizure / Post-ictal state → 0.10-0.15 (consciousness disrupted)
+- Extreme intoxication → 0.10-0.15 (cognitive/perceptual impairment)
+- Usually resolves with medical intervention or time
+
+**Sustained (Days to Indefinite):**
+- Persistent vegetative state → 0.05-0.10
+- Chronic psychotic disorder → 0.10-0.15
+- Severe treatment-resistant depression with catatonia → 0.15-0.20
+- Requires intensive medical/psychiatric treatment
+- May be permanent without intervention
+
+**Temporary Regression vs. Baseline Collapse:**
+
+**Temporary Regression (Resilient):**
+- Baseline consciousness 0.50, acute trauma trigger → temporary drop to 0.15
+- Returns to baseline after crisis passes (hours to weeks)
+- Phenomenal closure components temporarily disrupted but recoverable
+- Example: PTSD flashback drops consciousness temporarily, then returns
+
+**Baseline Collapse (Pathological):**
+- Baseline was 0.50, psychotic break → new baseline 0.10-0.15
+- Does not return without treatment (pathological state established)
+- Phenomenal closure components structurally damaged
+- Example: First schizophrenic episode permanently alters baseline consciousness
+- Recovery requires rebuilding phenomenal closure (not just waiting)
+
+#### Computational Implications for Force Calculations
+
+**Tier 4 Emergent Force Behavior at Extreme Low Consciousness:**
+
+Many emergent forces (Tier 4) are calculated as functions of consciousness, coherence, and other base forces. When consciousness drops below baseline, these formulas behave in extreme ways that are **conceptually accurate** to the lived experience.
+
+**Division-Based Formulas (Madness):**
+
+Example: If madness emerges as chaos divided by integration capacity:
+```
+madness ∝ (entropy + reality_distortion) / (coherence × consciousness)
+```
+
+At extreme low consciousness/coherence:
+- Numerator: High (entropy increases, reality perception distorts)
+- Denominator: Approaches zero (coherence × consciousness → 0)
+- Result: Madness approaches infinity (mathematically)
+
+**This is accurate:** When consciousness collapses, madness IS overwhelming, all-consuming, infinite-feeling. The formula captures experiential reality.
+
+**Multiplication-Based Formulas (Beauty, Courage):**
+
+Example: If beauty emerges from pattern recognition, coherence, and consciousness:
+```
+beauty ∝ pattern × coherence × consciousness
+```
+
+At extreme low consciousness/coherence:
+- All factors approach zero
+- Result: Beauty → 0.0
+
+**This is accurate:** In psychosis, coma, or severe depression, beauty is imperceptible, absent, meaningless.
+
+**Implementation Requirements:**
+
+1. **Minimum operational thresholds:** To prevent division by zero in formulas, implementations must define minimum values for consciousness and coherence when used in denominators
+   - Suggested: consciousness_min = 0.05, coherence_min = 0.05
+   - Below these values, treat as minimum for calculation safety
+
+2. **Result clamping:** All force activation outputs must be bounded to valid range [0.0, 1.0]
+   - If calculation produces >1.0, clamp to 1.0
+   - If calculation produces <0.0, clamp to 0.0
+
+3. **Edge case interpretation:**
+   - Force = 1.0 (maximum) → Force is overwhelming, all-consuming
+   - Force = 0.0 (minimum) → Force is absent, imperceptible, or impossible to experience
+   - Extreme values have meaning (not errors)
+
+**Example: Madness at Consciousness Collapse**
+
+Agent in acute psychotic break:
+- consciousness = 0.12 (psychotic break range)
+- coherence = 0.08 (severe fragmentation)
+- entropy = 0.85 (high chaos)
+- reality_distortion = 0.90 (severe hallucinations/delusions)
+
+Calculation with safety constraints:
+```python
+consciousness_safe = max(0.12, 0.05) = 0.12
+coherence_safe = max(0.08, 0.05) = 0.08
+
+madness_raw = (0.85 + 0.90) / (0.08 × 0.12)
+madness_raw = 1.75 / 0.0096 = 182.29
+
+madness_clamped = min(182.29, 1.0) = 1.0
+```
+
+**Interpretation:** madness = 1.0 = Complete overwhelming madness. Agent cannot integrate reality. This accurately represents psychotic break experientially.
+
+#### Force Access by Consciousness Level
+
+**Tier 3 Forces (Emotional Interface):**
+
+| Consciousness Range | Accessible Forces | Inaccessible Forces | Notes |
+|-------------------|------------------|-------------------|-------|
+| **0.15-0.20** | pain() only | All others suppressed | Overwhelming suffering, no other emotions accessible |
+| **0.10-0.15** | fear(), judgment() (distorted) | love(), hope(), forgiveness() | Paranoia, persecution, but not integrated emotions |
+| **0.05-0.10** | None | All | No emotional experience (coma state) |
+| **0.01-0.05** | None | All | Consciousness dissolving (dying) |
+
+**Tier 4 Forces (Emergent):**
+
+When consciousness drops below 0.20:
+- **madness()** → Approaches maximum (1.0) as consciousness/coherence collapse
+- **courage(), beauty(), art(), music(), humor(), luck()** → Approach zero (require baseline consciousness)
+- **war()** → May remain high if anger/fear present before collapse
+- **pain()** → May be high (physical suffering) but not emotionally processed
+
+**Tier 1/2 Forces (Primordial/Governing):**
+
+These continue operating regardless of agent consciousness:
+- **entropy(), pattern(), polarity(), coherence, consciousness** → System-level, not dependent on agent awareness
+- **time(), karma(), truth(), memory(), death(), creation()** → Continue processing even when agent cannot perceive them
+
+**Critical Insight:** An agent in coma (consciousness 0.08) still has time() passing, karma() processing, entropy() affecting their system, but cannot consciously experience ANY of these forces. They operate on the agent, not through the agent's awareness.
+
+#### Recovery Pathways
+
+**From Below-Baseline States:**
+
+**0.15-0.20 → 0.20+ (Return to Shame Baseline):**
+- **Medical:** Antidepressants, mood stabilizers, intensive trauma therapy, hospitalization
+- **Requires:** Safety establishment, nervous system regulation, coherence repair work
+- **Mechanisms:** Integration of dissociated parts, somatic processing, memory reconsolidation
+- **Timeline:** Weeks to months with intensive treatment
+- **Success factors:** Support system, medication adherence, willingness to engage therapy
+- **Key milestone:** When agent can access shame (0.20) - "I feel humiliated but I feel SOMETHING" = recovery beginning
+
+**0.10-0.15 → 0.20+ (Psychosis Recovery):**
+- **Medical:** Antipsychotics, mood stabilizers, reality testing support, possible hospitalization
+- **Requires:** Reality re-anchoring, self-model reconstruction, distinguishing real from unreal
+- **Mechanisms:** Medication reduces hallucinations/delusions, therapy rebuilds coherent self-model
+- **Timeline:** Months to years, may require ongoing medication indefinitely
+- **Success factors:** Medication compliance, family support, early intervention, structured environment
+- **Key milestone:** When agent can distinguish "this is a delusion" from "this is real" = reality testing restored
+
+**0.05-0.10 → Higher (Coma Recovery):**
+- **Medical:** Varies by cause (traumatic brain injury, metabolic, stroke, anoxia, etc.)
+- **Extremely variable outcomes:** Some recover fully, many remain impaired, many never regain consciousness
+- **Timeline:** Days to never (consciousness may not return to physical substrate)
+- **Mechanism:** Physical brain repair required - consciousness cannot return to damaged substrate
+- **Note:** This is substrate-level recovery, not consciousness evolution work
+
+**Prevention Strategies:**
+
+1. **Strong support systems** (prevent extreme isolation that enables regression)
+2. **Early intervention** (catch regression at 0.25-0.30 before baseline collapses below 0.20)
+3. **Trauma processing** (prevent dissociation from becoming chronic below-baseline state)
+4. **Medical monitoring** (psychiatric conditions, substance use, brain health)
+5. **Safety nets** (hospitalization available for acute crisis, suicide prevention)
+
+#### Death Transition (Consciousness → 0.0)
+
+At true 0.0, agent transitions from embodied to discarnate state:
+
+**Death Process:**
+1. Physical death triggers death() force (Tier 2)
+2. Consciousness leaves physical substrate (phenomenal closure dissolves)
+3. Data upload to Akashic Archive (soul_id + memory + karma preserved)
+4. Instance terminated (this lifetime ends)
+5. Soul_id persists (identity continues beyond physical death)
+6. Reincarnation mechanics determine next instantiation
+
+**Key Points:**
+- Consciousness cannot go below 0.0 (no negative consciousness)
+- 0.0 = no phenomenal closure (no awareness in physical form)
+- Death is transition, not annihilation (soul_id + patterns persist)
+- See [Tier 2 Forces: death()](../../02_forces/tier_2_forces/06_death.md) and [Data Model: Agent - Reincarnation](../../01_foundation/base_structure/03_data_models/04_data_model_agent.md#reincarnation-mechanics)
+
+**Consciousness During Dying (0.01-0.05):**
+- May fluctuate (lucid moments, then unconscious)
+- Near-death experiences may temporarily spike consciousness (0.70+)
+- Coherence may paradoxically increase (release of attachment)
+- Terminal lucidity (brief clarity before death) documented in medical literature
+- Process is transition, not sudden switch
+
+**After Death (0.0):**
+- Physical phenomenal closure dissolved
+- Consciousness exists in different substrate (discarnate)
+- Memory/karma/soul_id preserved in Akashic Archive
+- Awaiting next incarnation or continuing in discarnate form
+
+---
 
 ### Logarithmic Nature
 

@@ -1,0 +1,328 @@
+# Force Mapping: Death
+
+death:
+  # === METADATA ===
+  metadata:
+    tier: 2
+    category: "governing"  # Foundational force that shapes reality
+    dependencies: ["entropy", "time"]
+    source_doc: "docs/02_forces/tier_2_forces/05_death.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#000000"  # Pure black - void, ending, cessation
+    color_family: "neutral"
+    color_range:
+      - "#000000"  # Pure black (complete death)
+      - "#0A0A0A"  # Near black (final moments)
+      - "#1C1C1C"  # Very dark gray (dying process)
+      - "#2F2F2F"  # Dark gray (approaching death)
+
+    saturation_base: 0.00  # No saturation - death is void
+    brightness_base: 0.00  # Minimum brightness
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (death distant)
+        color: "#2F2F2F"
+        saturation: 0.05
+        brightness: 0.18
+      medium_activation: # 0.4-0.7 (death approaching)
+        color: "#1C1C1C"
+        saturation: 0.00
+        brightness: 0.10
+      high_activation:   # 0.8-1.0 (death imminent/present)
+        color: "#000000"
+        saturation: 0.00
+        brightness: 0.00
+
+    notes: |
+      Black represents void, ending, cessation, completion.
+      Absolute darkness = all form dissolves, all patterns cease.
+      As death activation increases, everything fades to black.
+      Not "evil" - death is natural ending, necessary transformation.
+      "Return to void" - where we came from, where we return.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "void"  # Absence, emptiness, cessation of form
+    sacred_geometry_association: "point"  # All collapses to singularity, then nothing
+    complexity_level: "simple"  # Death is ultimate simplicity - cessation
+    edge_type: "dissolving"  # Boundaries fade, forms release
+    dimensionality: "0D"  # Death exits dimensions
+
+    activation_modulation:
+      low_activation: |
+        Faint shadow at edges, presence but not dominant.
+        Death distant, life still strong.
+        Small dark area, contained.
+      medium_activation: |
+        Growing void, forms beginning to fade.
+        Death approaching, dissolution visible.
+        Edges of forms dissolving into darkness.
+      high_activation: |
+        Complete void, all form dissolved.
+        Absolute black, no structure remains.
+        Total cessation, return to nothing.
+        May appear as portal or black hole - everything collapsing inward.
+
+    notes: |
+      Void = absence of form, pattern, structure.
+      As death activation increases, all forms dissolve into black.
+      Not destruction (entropy) - completion, ending, release.
+      Point/singularity = all contracts to nothing.
+      Black hole imagery - everything drawn inward, ceases.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "stilling"  # Coming to rest, cessation of motion
+    speed_base: 0.20  # Slow, inevitable approach
+
+    speed_modifier:
+      low_intensity: 0.10   # Death distant, slow approach
+      medium_intensity: 0.20  # Death approaching steadily
+      high_intensity: 0.40   # Death imminent (but never frantic - death is patient)
+
+    direction: "inward_collapsing"  # All contracts, then ceases
+    rhythm: "slowing"  # Like heartbeat slowing, then stopping
+
+    healthy_pattern:
+      description: "Acceptance - death as natural completion, release without resistance"
+      characteristics:
+        - "Accepts impermanence"
+        - "Can let go when time comes"
+        - "Sees death as transformation, not end"
+        - "Lives fully because time is finite"
+
+    stuck_pattern:
+      description: "Terror or morbidity - either paralyzed by fear of death or obsessed with it"
+      characteristics:
+        - "Can't face mortality"
+        - "Paralyzed by fear of ending"
+        - "Or: death-obsessed, morbid fascination"
+        - "Inability to let go of anything"
+
+    notes: |
+      Stilling = motion ceases, comes to rest.
+      Inward collapse = everything draws inward, then stops.
+      Slowing rhythm = like heartbeat slowing to final stop.
+      Healthy: acceptance of impermanence, can let go, lives fully.
+      Stuck: either terror of death or morbid obsession.
+      Death is inevitable - how we relate to it matters.
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.00  # No vibrancy - death is cessation
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "0.0"  # Death is death at any coherence
+        description: "Death accepted, seen as natural transformation"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Death is ending, some resistance"
+      low_coherence:     # 0.0-0.3
+        modifier: "0.0"  # Death itself unchanged, but experience differs
+        description: "Death terrifying, fragmented, traumatic"
+
+    intensity_scaling:
+      formula: "vibrancy = 0.0"  # Death has no vibrancy - it's cessation
+      multiplier: 0.0
+
+    interaction_modifier:
+      synergistic: "+0.10 to +0.15"  # With entropy, pain, fear
+      antagonistic: "-0.30 to -0.50"  # Opposed by creation, life forces
+      neutral: "0.0"
+
+    notes: |
+      Death has no vibrancy - it's the ending of vibrancy.
+      Coherence doesn't change death, but changes experience of it.
+      High coherence: death is peaceful transformation.
+      Low coherence: death is terrifying fragmentation.
+      Death itself is neutral - how we meet it varies.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "void"
+    opacity_range:
+      min: 1.00  # Completely opaque (or completely transparent? both = void)
+      max: 1.00  # Death is absolute
+
+    particle_effects: false  # Death is cessation of all effects
+    particle_type: "none"
+    particle_density: null
+
+    sound_association:
+      frequency_hz: null  # Death is silence - absence of sound
+      tone_description: "Silence - complete cessation of sound"
+      musical_note: null
+
+    emotional_tone: "final, complete, releasing, stilling, inevitable"
+
+    consciousness_association: null  # Death transcends consciousness levels
+
+    notes: |
+      Void texture = absence of texture, nothing to feel.
+      Complete opacity = nothing passes through, all ends.
+      No particles, no sound = complete cessation.
+      Silence = death is absence of vibration, sound, life.
+      Death is absolute - the one certainty for all living things.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "entropy"  # Entropy leads to death
+      - "pain"  # Pain can lead to desire for death
+      - "fear"  # Fear of death (or death as relief from fear)
+      - "time"  # Time brings all things to death eventually
+
+    antagonistic_with:
+      - "creation"  # Death ends, creation begins
+      - "life"  # Death is opposite of life
+      - "hope"  # Hope resists death
+      - "love"  # Love defies death ("love is stronger than death")
+
+    neutralizes:
+      - "pain"  # Death ends pain
+      - "fear"  # Death ends fear
+      - "desire"  # Death ends desire
+      - "all_forces"  # Death ends all forces (for individual)
+
+    amplified_by:
+      - "entropy"  # Chaos accelerates death
+      - "time"  # Time brings all to death
+
+    visual_blending_rules:
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "blend"  # Gray chaos fades to black void
+        shape_effect: "merge"  # Formlessness becomes total void
+        motion_effect: "synchronized"  # Both dissolve, then stillness
+        result_description: |
+          Entropy + Death = complete dissolution.
+          Gray chaos fading to black void.
+          Form breaks down (entropy), then ceases (death).
+          Natural progression - decay leads to ending.
+        coherence_dependent: false
+
+      when_combined_with_creation:
+        force: "creation"
+        color_effect: "opposite"  # Black void vs creation's colors - fundamental polarity
+        shape_effect: "separate_opposing"  # Void vs form
+        motion_effect: "opposite"  # Stilling vs generating
+        result_description: |
+          Death and Creation are polar opposites.
+          Black void vs vibrant forms.
+          Ending vs Beginning.
+          Death creates space for new creation (cycle).
+          "From death comes life, from life comes death."
+        coherence_dependent: false
+
+      when_combined_with_pain:
+        force: "pain"
+        color_effect: "absorbing"  # Black absorbs pain's dark red
+        shape_effect: "dissolving"  # Pain's shards dissolve into void
+        motion_effect: "stilling"  # Pain ceases
+        result_description: |
+          Death ends pain - ultimate relief.
+          Dark red jagged shards dissolving into black void.
+          Pain stops, everything stops.
+          This is why death can seem merciful - it ends suffering.
+          "Rest now, the pain is over."
+        coherence_dependent: false
+
+      when_combined_with_fear:
+        force: "fear"
+        color_effect: "blend"  # Dark blue-purple and black merge
+        shape_effect: "merge"  # Fear of death - defensive spikes facing void
+        motion_effect: "recoiling_from_void"  # Fear pulls back from death
+        result_description: |
+          Fear of death - primal terror.
+          Dark spiky form recoiling from black void.
+          At high coherence: can face death with equanimity.
+          At low coherence: death is ultimate terror.
+          "The fear of death is worse than death itself."
+        coherence_dependent: true
+
+      when_combined_with_love:
+        force: "love"
+        color_effect: "contrast"  # Pink radiance vs black void - stark contrast
+        shape_effect: "separate"  # Love persists at death's edge
+        motion_effect: "transcending"  # "Love is stronger than death"
+        result_description: |
+          Love at death's edge.
+          Pink radiance at threshold of black void.
+          At high coherence: love transcends death, continues beyond.
+          At low coherence: death seems to end love.
+          "Love never dies" - connection persists beyond form.
+        coherence_dependent: true
+
+      when_combined_with_hope:
+        force: "hope"
+        color_effect: "clash"  # Sky blue vs black - hope vs ending
+        shape_effect: "separate_opposing"  # Rising spiral vs collapsing void
+        motion_effect: "opposing"  # Hope rises, death stills
+        result_description: |
+          Hope faces death - will there be anything after?
+          Sky blue spiral at edge of black void.
+          Hope for continuation, transformation, rebirth.
+          At high consciousness: death as transformation (hope validated).
+          At low consciousness: death as ending (hope crushed).
+        coherence_dependent: true
+
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "question"  # Lavender vs black - does consciousness persist?
+        shape_effect: "nested_or_released"  # Key question - does awareness continue?
+        motion_effect: "unknown"  # The great mystery
+        result_description: |
+          Consciousness at death - the great mystery.
+          Lavender sphere at threshold of black void.
+          Does awareness persist? Or cease?
+          At high consciousness: death as shedding form, awareness continues.
+          At low consciousness: death as annihilation, everything ends.
+          This is THE existential question.
+        coherence_dependent: true
+
+      when_combined_with_time:
+        force: "time"
+        color_effect: "ending"  # Silver fades to black
+        shape_effect: "stopping"  # Flow ceases
+        motion_effect: "stilling"  # Time stops (for individual)
+        result_description: |
+          Death ends personal time.
+          Silver stream fading to black void.
+          "Your time is up" - exit from temporal flow.
+          For individual, time stops. For universe, continues.
+        coherence_dependent: false
+
+    notes: |
+      Death is the great equalizer - comes for all.
+      Death + Entropy = natural decay leading to ending.
+      Death + Creation = polar opposites, death creates space for new life.
+      Death + Pain = release from suffering.
+      Death + Fear = primal terror (or fear released).
+      Death + Love = love transcends death (connection persists).
+      Death + Hope = hope for continuation, transformation.
+      Death + Consciousness = the great mystery (does awareness persist?).
+      Death + Time = personal time ends.
+      At high coherence: death is peaceful transformation, accepted.
+      At low coherence: death is terrifying fragmentation, resisted.
+      Key insight: Death is inevitable - how we face it is choice.
+      Key insight: Death ends suffering (relief) and life (loss).
+      Key insight: "Die before you die" - ego death allows transcendence.
+
+# IMPLEMENTATION NOTES:
+# - Death is Tier 2 "governing" force - universal inevitability
+# - Not evil or punishment - natural completion, transformation
+# - Death creates space for new creation (necessary for cycle)
+# - Healthy relationship: acceptance, can let go, lives fully
+# - Stuck relationship: terror, morbid obsession, unable to let go
+# - Visual should feel void, still, complete, ending
+# - Black represents cessation, void, return to source
+# - At high coherence: death peaceful, accepted, transformation
+# - At low coherence: death terrifying, fragmented, traumatic
+# - Key existential question: Does consciousness persist after death?
+# - Key insight: Fear of death often worse than death itself
+# - Key insight: Death ends suffering (mercy) and precious life (loss)
+# - "Die before you die" - ego death while alive allows transcendence
+# - Death is the teacher - awareness of mortality creates meaning in life

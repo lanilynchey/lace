@@ -76,6 +76,8 @@ def law_impact_topology(agent_a: Agent, agent_b: Agent, event: Event) -> float:
 
 You can only be impacted by entities you consciously acknowledge in your field.
 
+**Note:** Acknowledging agents in your field enables impact propagation but also creates a **vigilance processing obligation** - agents must continuously monitor acknowledged entities for threats and opportunities. This is survival-level processing (humans are social predators/prey). See [System Resource Allocation - Social Vigilance Processing](../../../04_advanced/advanced_concepts/20_system_resource_allocation.md#social-vigilance-processing).
+
 **Example:**
 - Stranger screaming in street: **Peripheral impact** (temporary, not acknowledged)
 - Friend saying same thing: **High impact** (acknowledged in middle/inner topology)

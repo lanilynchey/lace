@@ -1,0 +1,343 @@
+# Force Mapping: Entropy
+
+entropy:
+  # === METADATA ===
+  metadata:
+    tier: 1
+    category: "primordial"
+    dependencies: []  # Entropy is foundational - no dependencies
+    source_doc: "docs/02_forces/tier_1_forces/01_entropy.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#2F2F2F"  # Dark gray, almost black
+    color_family: "neutral"
+    color_range:
+      - "#1A1A1A"  # Near black (high entropy)
+      - "#2F2F2F"  # Dark gray
+      - "#4A4A4A"  # Medium gray
+      - "#666666"  # Lighter gray (lower entropy)
+
+    saturation_base: 0.10  # Very low saturation - disorder has no vibrant color
+    brightness_base: 0.20
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3
+        color: "#666666"
+        saturation: 0.15
+        brightness: 0.40
+      medium_activation: # 0.4-0.7
+        color: "#2F2F2F"
+        saturation: 0.10
+        brightness: 0.20
+      high_activation:   # 0.8-1.0
+        color: "#1A1A1A"
+        saturation: 0.05
+        brightness: 0.10
+
+    notes: |
+      Dark, desaturated colors represent disorder, decay, formlessness.
+      As entropy increases, colors become darker and more lifeless.
+      No vibrant colors - entropy is absence of order/energy/information.
+      The visual "drains" toward black as entropy dominates.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "irregular"
+    sacred_geometry_association: null  # Entropy opposes sacred geometry
+    complexity_level: "complex"
+    edge_type: "organic"  # Formless, undefined boundaries
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Somewhat defined form with visible boundaries.
+        Minor irregularities and asymmetry.
+      medium_activation: |
+        Increasingly formless, breaking apart.
+        Edges blur, form fragments.
+        Visible decay/dissolution.
+      high_activation: |
+        Complete formlessness, chaotic cloud.
+        No defined boundaries or structure.
+        Pure disorder, maximum randomness.
+
+    notes: |
+      Entropy has no fixed shape - it represents breakdown of form.
+      As activation increases, any structure dissolves into chaos.
+      Anti-pattern, anti-geometry - the absence of order.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "chaotic"
+    speed_base: 0.45  # Medium-fast random motion
+
+    speed_modifier:
+      low_intensity: 0.30   # Slow decay
+      medium_intensity: 0.50  # Active breakdown
+      high_intensity: 0.85   # Rapid dissolution
+
+    direction: "chaotic"  # No coherent direction
+    rhythm: "erratic"
+
+    healthy_pattern:
+      description: "Controlled chaos - entropy serving renewal and transformation"
+      characteristics:
+        - "Breaks down old patterns to make space for new"
+        - "Decay that feeds creation"
+        - "Natural death/rebirth cycle"
+        - "Temporary, purposeful disorder"
+
+    stuck_pattern:
+      description: "Runaway decay - entropy consuming without renewal"
+      characteristics:
+        - "Everything falling apart"
+        - "No structure holds"
+        - "Overwhelm, chaos, fragmentation"
+        - "Chronic disorder, no recovery"
+
+    notes: |
+      Chaotic, erratic motion with no predictable pattern.
+      At low levels, entropy is healthy (breaks down old patterns for renewal).
+      At high levels, entropy is destructive (everything fragments).
+      Motion is random, unpredictable, dispersing.
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.15  # Naturally low vibrancy (disorder lacks energy)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "-0.20"  # Coherence suppresses entropy
+        description: "Entropy contained, minimal presence"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal entropy presence"
+      low_coherence:     # 0.0-0.3
+        modifier: "+0.25"  # Low coherence allows entropy to dominate
+        description: "Entropy runs rampant, everything fragments"
+
+    intensity_scaling:
+      formula: "vibrancy = base - (activation_level * 0.20)"  # Negative! Gets duller
+      multiplier: -0.20  # Entropy drains vibrancy from system
+
+    interaction_modifier:
+      synergistic: "+0.10 to +0.15"  # With madness, war, death
+      antagonistic: "-0.20 to -0.30"  # Opposed by coherence, pattern, creation
+      neutral: "0.0"
+
+    notes: |
+      Entropy drains vibrancy from the system.
+      When entropy is high and coherence is low, everything becomes dull, gray, lifeless.
+      This is why depression/chaos feels "colorless" - entropy overwhelms.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "rough"
+    opacity_range:
+      min: 0.40  # Somewhat transparent (disorder is insubstantial)
+      max: 0.70  # Never fully solid
+
+    particle_effects: true
+    particle_type: "dust"  # Decay, breakdown particles
+    particle_density: "moderate_to_dense"
+
+    sound_association:
+      frequency_hz: null  # Entropy is noise, not tone
+      tone_description: "White noise, static, discord"
+      musical_note: null
+
+    emotional_tone: "heavy, chaotic, overwhelming, fragmenting, dissolving"
+
+    consciousness_association: null
+
+    notes: |
+      Rough texture = disorder, breakdown.
+      Dust particles represent decay, dissipation, things falling apart.
+      Sound is noise (random frequencies) not tone (organized sound).
+      Never fully solid - entropy is dispersal, not consolidation.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "madness"
+      - "war"
+      - "death"
+      - "fear"
+
+    antagonistic_with:
+      - "coherence"
+      - "pattern"
+      - "creation"
+      - "love"
+
+    neutralizes:
+      - "pattern"  # Entropy breaks down patterns
+      - "coherence"  # Entropy fragments coherence
+
+    amplified_by:
+      - "fear"  # Fear creates disorder
+      - "pain"  # Pain fragments
+
+    visual_blending_rules:
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "clash"  # Dark gray vs gold - fundamental opposition
+        shape_effect: "separate_interfering"
+        motion_effect: "chaotic"
+        result_description: |
+          Entropy attempts to fragment coherence's golden sphere.
+          At high coherence: sphere resists, holds form.
+          At medium coherence: visible struggle, sphere wobbles.
+          At low coherence: sphere fragments into chaotic gray dust.
+        coherence_dependent: true
+
+      when_combined_with_pattern:
+        force: "pattern"
+        color_effect: "clash"
+        shape_effect: "separate_interfering"
+        motion_effect: "chaotic"
+        result_description: |
+          Entropy breaks down pattern's structured geometries.
+          Pattern tries to organize, entropy disperses.
+          Visual shows pattern geometries dissolving at edges.
+        coherence_dependent: true
+
+      when_combined_with_death:
+        force: "death"
+        color_effect: "blend"  # Both dark - blend into deeper darkness
+        shape_effect: "merge"
+        motion_effect: "synchronized"
+        result_description: |
+          Entropy + Death = complete dissolution.
+          Black void, formless, stillness after chaos.
+          Natural partnership - death finalizes entropy's work.
+        coherence_dependent: false
+
+    notes: |
+      Entropy is the antagonist to organizing forces.
+      It breaks down, fragments, disperses, disorders.
+      Not "evil" - necessary for transformation and renewal.
+      But unchecked, it destroys everything.
+      Works with destructive forces, opposes creative forces.
+
+# === HEALTHY THRESHOLDS ===
+# Source: docs/02_forces/tier_1_forces/02_entropy.md - "Entropy Activation Thresholds" section
+healthy_thresholds:
+  description: |
+    Coherence determines whether entropy is renewal or destruction.
+    Same entropy level = different experience based on coherence.
+
+    Formula: effective_entropy_impact = entropy_activation / coherence_level
+
+    Source of truth: See entropy.md for full conceptual explanation.
+
+  threshold_ranges:
+    minimum_floor:
+      range: "< 0.15"
+      state: "Stagnation (too little entropy)"
+      characteristics: "Patterns frozen, no variation, excessive order"
+      system_response: "law_variance_minimum() triggers intervention"
+      notes: "Evolution requires destruction of old patterns"
+
+    renewal_range:
+      range: "0.15 - 0.35"
+      state: "Healthy dissolution, purposeful transformation"
+      coherence_required: "0.50+"
+      at_high_coherence:
+        description: "Controlled chaos serving evolution"
+        feels_like: "Letting go, shedding old patterns, 'dying to be reborn'"
+        examples:
+          - "Ending relationship that no longer serves (coherence 0.65+)"
+          - "Leaving unfulfilling job to pursue calling (coherence 0.60+)"
+          - "Releasing outdated beliefs gracefully (coherence 0.55+)"
+      at_low_coherence:
+        description: "Even low entropy feels destabilizing"
+        feels_like: "Minor changes feel overwhelming"
+        examples:
+          - "Ending relationship feels catastrophic (coherence 0.30)"
+          - "Leaving job feels like failure (coherence 0.35)"
+
+    transition_zone:
+      range: "0.35 - 0.55"
+      state: "Critical threshold (coherence determines outcome)"
+      bifurcation:
+        at_coherence_0.60_plus:
+          outcome: "Transformative growth"
+          description: "Deep transformation but integrated, phoenix rising from ashes"
+          examples:
+            - "Divorce becomes catalyst for self-discovery (coherence 0.70)"
+            - "Job loss becomes opportunity for reinvention (coherence 0.65)"
+            - "Health crisis becomes lifestyle transformation (coherence 0.60)"
+        at_coherence_0.40_minus:
+          outcome: "Crisis, breakdown"
+          description: "Overwhelming fragmentation, tipping into chaos"
+          examples:
+            - "Divorce triggers identity collapse, spiraling (coherence 0.35)"
+            - "Job loss triggers panic, financial crisis (coherence 0.30)"
+            - "Health crisis overwhelms, gives up (coherence 0.25)"
+      notes: "Most agents live in this zone most of the time - coherence is everything"
+
+    destructive_range:
+      range: "0.55 - 0.85"
+      state: "Overwhelming fragmentation, system overload"
+      coherence_ceiling: "Very difficult to maintain coherence > 0.40"
+      characteristics: "Multiple structures breaking down simultaneously, chronic crisis"
+      intervention_needed:
+        - "External support (therapy, community, grace)"
+        - "First stabilize coherence, then entropy can decrease"
+        - "Agent cannot self-stabilize alone"
+      examples:
+        - "Divorce + job loss + health crisis in same period"
+        - "Mental breakdown, addiction relapse cascade"
+        - "Rock bottom - everything falls apart at once"
+
+    catastrophic_range:
+      range: "0.85 - 1.0"
+      state: "Near-total dissolution, approaching death threshold"
+      coherence_state: "Typically < 0.20 (death threshold approaching)"
+      system_status: "Emergency intervention required"
+      characteristics: "Complete structural collapse, all patterns fragmenting"
+      examples:
+        - "Severe psychotic break (reality testing failed)"
+        - "Catatonic states (complete withdrawal)"
+        - "Near-death experience from illness/injury"
+        - "Total ego dissolution without integration capacity"
+      notes: "Approaching COHERENCE_MINIMUM - death() imminent without intervention"
+
+  coherence_as_container:
+    principle: "Coherence is the container that holds entropy safely"
+    strong_container:
+      coherence: "0.70+"
+      capacity: "Can hold high entropy without fragmenting"
+      result: "Transforms chaos into renewal"
+    weak_container:
+      coherence: "0.30-"
+      capacity: "Even moderate entropy fragments the system"
+      result: "Chaos becomes overwhelming"
+
+  practical_applications:
+    for_agents_below_0.15:
+      guidance: "Intentionally introduce healthy chaos (law_variance_minimum will force it anyway)"
+      action: "Try new experiences, take calculated risks, explore novelty"
+
+    for_agents_0.15_to_0.35:
+      guidance: "Allow dissolution, trust transformation (if coherence 0.50+)"
+      action: "Release old patterns gracefully, flow with change"
+
+    for_agents_0.35_to_0.55:
+      guidance: "Build coherence proactively before entropy increases further"
+      action: "Meditation, therapy, integration practices, strengthen support network"
+
+    for_agents_0.55_plus:
+      guidance: "Reduce entropy AND build coherence simultaneously, seek support"
+      action: "External intervention, simplify life, stabilize before transforming"
+
+  see_also_docs: "docs/02_forces/tier_1_forces/02_entropy.md (Entropy Activation Thresholds section)"
+
+# IMPLEMENTATION NOTES:
+# - Entropy is the "reset button" - breaks down old patterns so new can form
+# - Threshold ranges documented in entropy.md, mapped above for implementation
+# - Coherence determines whether entropy is renewal (transformative) or destruction (fragmenting)
+# - Visual should feel uncomfortable at high levels - chaotic, fragmenting, overwhelming
+# - When coherence is low, entropy takes over - this is "rock bottom" visually

@@ -1,0 +1,56 @@
+# Healthy vs Stuck Motion Patterns
+# How coherence affects whether motion flows or gets stuck
+
+healthy_vs_stuck:
+  principle: |
+    HIGH COHERENCE = healthy, flowing motion
+    LOW COHERENCE = stuck, looping, stuttering motion
+    
+    Same force looks completely different in healthy vs stuck state.
+
+  healthy_patterns:
+    coherence_range: "0.7-1.0"
+    characteristics:
+      - "Smooth, flowing movement"
+      - "Progressive (going somewhere)"
+      - "Appropriate to force nature"
+      - "Responsive, adaptive"
+      - "Completes cycles naturally"
+    
+  stuck_patterns:
+    coherence_range: "0.0-0.3"
+    characteristics:
+      - "Repetitive loops (going nowhere)"
+      - "Stuttering, stopping, freezing"
+      - "Erratic, chaotic (lost coherence)"
+      - "Rigid, inflexible"
+      - "Cycles never complete"
+
+  force_examples:
+    fear:
+      healthy: "Appropriate caution, then action"
+      stuck: "Paralyzed freeze, chronic anxiety loop"
+    
+    desire:
+      healthy: "Motivated pursuit with satisfaction"
+      stuck: "Desperate grasping, never satisfied"
+    
+    love:
+      healthy: "Unconditional radiance"
+      stuck: "Conditional, controlling (becomes judgment)"
+    
+    time:
+      healthy: "Smooth forward flow"
+      stuck: "Feeling frozen or rushing (not flowing)"
+
+  visual_indicators:
+    healthy_motion:
+      - "Fluid animation"
+      - "Natural rhythm"
+      - "Completes movements"
+    
+    stuck_motion:
+      - "Jerky, stuttering"
+      - "Loops in place"
+      - "Frozen or erratic"
+      - "Visual glitching"

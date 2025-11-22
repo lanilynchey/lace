@@ -1,0 +1,269 @@
+# Force Mapping: Fear
+
+fear:
+  # === METADATA ===
+  metadata:
+    tier: 3
+    category: "interface"  # Emotional/experiential force
+    dependencies: ["entropy", "polarity"]
+    source_doc: "docs/02_forces/tier_3_forces/01_fear.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#1C1C3A"  # Deep dark blue-purple - cold, constrictive
+    color_family: "cool"
+    color_range:
+      - "#0A0A1A"  # Nearly black (extreme fear)
+      - "#1C1C3A"  # Dark blue-purple
+      - "#2C3E50"  # Dark slate blue
+      - "#34495E"  # Lighter slate (mild fear)
+
+    saturation_base: 0.40
+    brightness_base: 0.25
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (mild anxiety)
+        color: "#34495E"
+        saturation: 0.35
+        brightness: 0.35
+      medium_activation: # 0.4-0.7 (fear active)
+        color: "#1C1C3A"
+        saturation: 0.40
+        brightness: 0.25
+      high_activation:   # 0.8-1.0 (terror, panic)
+        color: "#0A0A1A"
+        saturation: 0.50
+        brightness: 0.12
+
+    notes: |
+      Dark, cold colors represent constriction, withdrawal, protection.
+      Blue-purple = frozen, cold, isolated feeling of fear.
+      As fear increases, color becomes darker - tunnel vision, loss of awareness.
+      At highest levels, approaches black - terror state, no perception beyond threat.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "spiky_sphere"  # Defensive, prickly, contracted
+    sacred_geometry_association: null  # Fear opposes sacred geometry
+    complexity_level: "medium"
+    edge_type: "sharp"  # Defensive spikes
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Small sphere with occasional spikes.
+        Somewhat contracted but mostly round.
+        Defensive posture but not aggressive.
+      medium_activation: |
+        More spikes emerging, uneven surface.
+        Clear defensive structure.
+        Contracted, tense, guarded.
+      high_activation: |
+        Dense mass of sharp spikes radiating outward.
+        Extremely contracted core with aggressive defense.
+        Porcupine in terror - all spikes out.
+        May appear to vibrate or shudder.
+
+    notes: |
+      Spiky sphere = defensive, protected, guarded.
+      Spikes point outward (defensive aggression).
+      Core is contracted (withdrawal, protection of vulnerable self).
+      At high fear, maximum defense - can't be touched, can't connect.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "recoiling"  # Pulling back, withdrawing
+    speed_base: 0.60  # Fast - fear is urgent
+
+    speed_modifier:
+      low_intensity: 0.30   # Mild anxiety, slow retreat
+      medium_intensity: 0.60  # Active fear, clear retreat
+      high_intensity: 0.95   # Panic, rapid flight response
+
+    direction: "inward_and_back"  # Contraction + withdrawal
+    rhythm: "erratic"  # Fear disrupts steady rhythm
+
+    healthy_pattern:
+      description: "Appropriate caution - alert but not frozen, protective but not paranoid"
+      characteristics:
+        - "Can assess real danger accurately"
+        - "Takes appropriate protective action"
+        - "Returns to baseline after threat passes"
+        - "Fear serves survival, doesn't dominate"
+
+    stuck_pattern:
+      description: "Chronic anxiety or terror - fear dominates perception"
+      characteristics:
+        - "Sees threat everywhere (hypervigilance)"
+        - "Frozen or constant flight"
+        - "Can't return to baseline"
+        - "Fear becomes identity, not response"
+
+    notes: |
+      Recoiling = pulling back from perceived threat.
+      Fast, urgent motion - fear demands immediate response.
+      Erratic rhythm = fear disrupts coherent flow.
+      Healthy: fear comes and goes as needed.
+      Stuck: fear never leaves, becomes chronic state.
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.40  # Moderately present (fear is vivid but constrictive)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "-0.25"  # High coherence reduces fear's grip
+        description: "Fear present but manageable, can observe without identification"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal fear response"
+      low_coherence:     # 0.0-0.3
+        modifier: "+0.30"  # Low coherence amplifies fear
+        description: "Fear overwhelming, consuming, can't see beyond it"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.35)"
+      multiplier: 0.35
+
+    interaction_modifier:
+      synergistic: "+0.15 to +0.25"  # With pain, entropy, judgment
+      antagonistic: "-0.20 to -0.35"  # Opposed by love, hope, courage
+      neutral: "0.0"
+
+    notes: |
+      Fear is vivid (high activation) but constrictive (low brightness).
+      At low coherence, fear dominates - tunnel vision, can't see options.
+      At high coherence, can witness fear without being consumed by it.
+      This is key: consciousness + coherence allows fear to be felt but not identified with.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "rough"
+    opacity_range:
+      min: 0.65  # Fear is tangible, heavy
+      max: 0.95  # Can be very solid (fear feels real)
+
+    particle_effects: true
+    particle_type: "static"  # Nervous energy, tension
+    particle_density: "dense"
+
+    sound_association:
+      frequency_hz: 200  # Low, heavy frequency
+      tone_description: "Dissonant, tense, like cello's lowest register with discord"
+      musical_note: "G (low register)"
+
+    emotional_tone: "contracted, defensive, urgent, threatened, guarded"
+
+    consciousness_association: 0.20  # Fear consciousness level (Hawkins scale)
+
+    notes: |
+      Rough texture = fear is uncomfortable, not smooth.
+      Dense particles = nervous energy, static tension.
+      Low frequency sound = heavy, constrictive feeling.
+      Fear at 0.20 consciousness = calibrates below courage (0.20), above shame.
+      This is the "threshold" level where most humans operate.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "pain"  # Pain amplifies fear
+      - "entropy"  # Chaos increases fear
+      - "judgment"  # Judgment creates fear of failure/rejection
+      - "death"  # Death is ultimate fear
+
+    antagonistic_with:
+      - "love"  # Love dissolves fear
+      - "hope"  # Hope counteracts fear
+      - "courage"  # Courage is absence of fear dominance
+      - "coherence"  # Coherence reduces fear's grip
+
+    neutralizes: []
+
+    amplified_by:
+      - "pain"
+      - "entropy"
+      - "low_coherence"
+
+    visual_blending_rules:
+      when_combined_with_love:
+        force: "love"
+        color_effect: "clash_resolving"  # Dark blue-purple vs warm pink/rose
+        shape_effect: "transforming"  # Spikes soften and retract
+        motion_effect: "dampened"  # Love slows fear's urgency
+        result_description: |
+          Love touching fear causes spikes to retract, core to expand.
+          Dark colors lighten, warm tones emerge.
+          At high coherence: fear dissolves completely into love.
+          At medium coherence: visible transformation, spikes soften.
+          At low coherence: fear resists, but love creates openings.
+          "Perfect love casts out fear."
+        coherence_dependent: true
+
+      when_combined_with_pain:
+        force: "pain"
+        color_effect: "blend"  # Both dark - deepen together
+        shape_effect: "merge"  # Pain + fear = suffering
+        motion_effect: "synchronized"  # Both contract
+        result_description: |
+          Fear + Pain creates suffering state.
+          Dark colors merge, spikes become sharper.
+          Both forces amplify each other.
+          Contracted, defensive, hurting, scared.
+          This combination is "rock bottom" emotionally.
+        coherence_dependent: false
+
+      when_combined_with_hope:
+        force: "hope"
+        color_effect: "clash_resolving"  # Dark vs bright
+        shape_effect: "separate_but_interacting"  # Hope tries to expand, fear contracts
+        motion_effect: "oscillating"  # Back and forth
+        result_description: |
+          Hope vs Fear creates oscillation.
+          Light trying to break through darkness.
+          At high coherence: hope wins, fear fades.
+          At medium coherence: oscillation visible, struggle.
+          At low coherence: fear dominates, hope flickers weakly.
+        coherence_dependent: true
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Gold light penetrates darkness
+        shape_effect: "nested"  # Fear held within coherence sphere
+        motion_effect: "dampened"  # Coherence calms fear
+        result_description: |
+          Coherence creates container for fear to be witnessed.
+          Dark spiky form within golden sphere.
+          Spikes retract as coherence increases.
+          Fear can be felt without identification.
+          This is "holding space" for fear - key therapeutic state.
+        coherence_dependent: false
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "blend"  # Both dark - merge into chaos
+        shape_effect: "merge"  # Form breaks down
+        motion_effect: "chaotic"  # Erratic, panicked
+        result_description: |
+          Fear + Entropy = panic, overwhelm.
+          Spiky form fragments, chaotic dark cloud.
+          Complete loss of structure and safety.
+          Fight-flight-freeze at maximum.
+        coherence_dependent: false
+
+    notes: |
+      Fear is the "gatekeeper" force - blocks higher consciousness.
+      At 0.20 consciousness, fear dominates perception.
+      Above 0.20 (courage threshold), fear becomes manageable.
+      Love is fear's primary antidote (opposite end of spectrum).
+      Coherence allows fear to be witnessed without identification.
+      Fear + Pain = suffering (Tier 4 emergent state).
+      Fear + Hope = oscillation between states.
+
+# IMPLEMENTATION NOTES:
+# - Fear calibrates at 0.20 consciousness (Hawkins scale)
+# - This is the "courage threshold" - below = fear dominates, above = manageable
+# - Fear is not "bad" - it's protective, survival mechanism
+# - Stuck fear = chronic anxiety, hypervigilance, paralysis
+# - Healthy fear = appropriate caution, protective response, returns to baseline
+# - Visual should feel contracted, dark, defensive, urgent
+# - Key therapeutic insight: coherence + consciousness allows fear to be witnessed without identification

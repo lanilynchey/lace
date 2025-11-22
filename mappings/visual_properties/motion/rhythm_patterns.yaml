@@ -1,0 +1,64 @@
+# Rhythm Patterns
+# Temporal patterns and rhythms for force motion
+
+rhythm_patterns:
+  principle: |
+    Forces have characteristic RHYTHMS - patterns in time.
+    - Steady: Constant, metronome-like
+    - Pulsing: Expanding/contracting cycle
+    - Wave-like: Smooth oscillation
+    - Erratic: Irregular, unpredictable
+    - Syncopated: Off-beat, surprising
+
+  rhythm_types:
+    steady:
+      description: "Constant, unchanging rhythm"
+      forces: [time, truth, memory, coherence]
+      timing: "Regular, predictable"
+      feeling: "Reliable, grounding, stable"
+    
+    pulsing:
+      description: "Rhythmic expansion/contraction"
+      forces: [consciousness, love, creation, hope]
+      timing: "Breath-like, heartbeat-like"
+      feeling: "Alive, organic, breathing"
+    
+    wave:
+      description: "Smooth oscillation"
+      forces: [music, forgiveness, polarity, time]
+      timing: "Sinusoidal, flowing"
+      feeling: "Natural, flowing, cyclical"
+    
+    erratic:
+      description: "Irregular, chaotic timing"
+      forces: [entropy, madness, war, fear (panicked)]
+      timing: "Unpredictable, random"
+      feeling: "Chaos, instability, panic"
+    
+    syncopated:
+      description: "Off-beat, playful timing"
+      forces: [humor, luck, art]
+      timing: "Surprising, unexpected"
+      feeling: "Playful, delightful, jazzy"
+    
+    accelerating:
+      description: "Getting faster over time"
+      forces: [desire, fear (building), entropy]
+      timing: "Speed increasing"
+      feeling: "Urgency, building, intensifying"
+    
+    decelerating:
+      description: "Slowing down over time"
+      forces: [forgiveness, death, peace]
+      timing: "Speed decreasing"
+      feeling: "Calming, completing, releasing"
+
+  coherence_impact:
+    high_coherence: "Rhythm clean, clear, musical"
+    medium_coherence: "Rhythm present, slight variations"
+    low_coherence: "Rhythm breaks down, becomes erratic"
+
+  interaction_rhythms:
+    synchronized: "Multiple forces in same rhythm (harmony)"
+    counterpoint: "Multiple rhythms complementing"
+    dissonant: "Rhythms clashing (creates tension)"

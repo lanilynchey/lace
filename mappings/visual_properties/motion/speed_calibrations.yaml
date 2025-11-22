@@ -1,0 +1,41 @@
+# Speed Calibrations
+# How force activation level affects motion speed
+
+speed_calibrations:
+  principle: |
+    Activation level (0.0-1.0) modulates motion SPEED.
+    Low activation = slow, subtle movement
+    High activation = fast, intense movement
+
+    Base speed depends on force nature (some naturally fast, some slow).
+    Activation scales the base speed.
+
+  base_speeds:
+    very_slow:  # Base speed 0.1-0.2
+      forces: [consciousness, truth, memory, death]
+      notes: "Contemplative, eternal, slow-changing"
+    
+    slow:  # Base speed 0.3-0.4
+      forces: [coherence, pattern, time, forgiveness, beauty]
+      notes: "Steady, measured, gentle"
+    
+    moderate:  # Base speed 0.5-0.6
+      forces: [polarity, karma, creation, love, hope, art, luck]
+      notes: "Natural pace, balanced"
+    
+    fast:  # Base speed 0.7-0.8
+      forces: [desire, courage, music, humor]
+      notes: "Energetic, active, pursuing"
+    
+    very_fast:  # Base speed 0.9-1.0
+      forces: [fear, pain, war, madness, entropy]
+      notes: "Reactive, urgent, chaotic"
+
+  activation_multiplier:
+    formula: "final_speed = base_speed * (0.5 + activation * 0.5)"
+    # At 0.0 activation: 50% of base speed
+    # At 1.0 activation: 100% of base speed
+
+  coherence_impact:
+    high_coherence: "Smooth speed, consistent"
+    low_coherence: "Erratic speed, stuttering"

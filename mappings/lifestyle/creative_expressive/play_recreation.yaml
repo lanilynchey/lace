@@ -1,0 +1,194 @@
+# Lifestyle Factor: Play & Recreation
+
+play_recreation:
+  # === METADATA ===
+  metadata:
+    category: "creative_expressive"
+    measurement_type: "subjective_and_objective"  # Hours + quality of playfulness
+    update_frequency: "weekly"
+    importance: "high"  # Play is not optional - humans need it
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "No play - all work/obligation, no recreation, playfulness suppressed"
+      indicators:
+        - "No time for fun, hobbies, recreation"
+        - "Everything is serious, goal-oriented"
+        - "Can't remember last time played"
+        - "Feel like just going through motions"
+        - "Life is duty, not joy"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Some play - occasional recreation, emerging playfulness"
+      indicators:
+        - "1-3 hours per week of play/recreation"
+        - "Some hobbies, activities for pure enjoyment"
+        - "Occasional lightheartedness, laughter"
+        - "Balance between work and play emerging"
+        - "Remember how to have fun sometimes"
+
+    high:
+      range: "0.8-1.0"
+      description: "Regular play - playfulness integrated, regular recreation, joy present"
+      indicators:
+        - "4+ hours per week of play/recreation"
+        - "Regular hobbies, activities purely for joy"
+        - "Playful spirit accessible"
+        - "Laughter frequent, lightness present"
+        - "Play integrated into life, not just scheduled"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    joy:
+      low: -0.40    # No play = joylessness
+      medium: +0.15
+      high: +0.40   # Play is joy's natural expression
+      notes: "Play IS joy - they're inseparable. No play = no joy."
+
+    creativity:
+      low: -0.30    # No play = creativity atrophies
+      medium: +0.15
+      high: +0.35   # Play is creativity's playground
+      notes: "Play is creativity without stakes - experimental, free, generative"
+
+    stress:
+      low: +0.30    # All work, no play = chronic stress
+      medium: -0.10
+      high: -0.30   # Play is natural stress relief
+      notes: "Play activates parasympathetic (rest mode) - opposite of stress response"
+
+    vitality:
+      low: -0.35    # No play = life force depleted
+      medium: +0.10
+      high: +0.35   # Play restores vitality
+      notes: "Play is life energy expression - no play = vitality suppressed"
+
+    connection:
+      low: -0.20    # Playing together = bonding
+      medium: +0.10
+      high: +0.25   # Shared play = deep connection
+      notes: "Play together = bond together - laughter, shared joy create connection"
+
+    present_moment:
+      low: -0.25    # No play = always in future (goals, plans)
+      medium: +0.10
+      high: +0.30   # Play is pure presence
+      notes: "Can't play in past or future - play is always now"
+
+    burnout:
+      low: +0.35    # No play = burnout trajectory
+      medium: -0.10
+      high: -0.30   # Play prevents burnout
+      notes: "All work, no play = recipe for burnout - recreation literally re-creates"
+
+    meaning:
+      low: -0.25    # Play gives life meaning beyond achievement
+      medium: +0.10
+      high: +0.25   # Play is meaning's playground
+      notes: "Life is not just productivity - play reminds us we're alive"
+
+    inner_child:
+      low: -0.40    # Inner child suppressed, forgotten
+      medium: +0.15
+      high: +0.40   # Inner child alive, present
+      notes: "Play reconnects with inner child - part of self that needs expression"
+
+    curiosity:
+      low: -0.25    # No play = curiosity dampened
+      medium: +0.10
+      high: +0.30   # Play is curiosity in action
+      notes: "Play is exploration without purpose - pure curiosity"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Play immediately shifts state
+    chronic_impact: "life_shaping"  # Play shapes quality of life fundamentally
+    recovery_time: "Can reconnect with play any time - it's never too late"
+
+    notes: |
+      Play is not earned reward - it's basic need.
+      "All work and no play makes Jack a dull boy" - literally true.
+      Play deficit = life deficit.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - joy: "Play IS joy expression"
+      - connection: "Play together = bond together"
+      - creativity: "Play is creativity's gym"
+
+    dampens:
+      - burnout: "Play prevents/recovers from burnout"
+      - stress: "Play activates parasympathetic"
+      - seriousness: "Play balances solemnity"
+
+    synergizes_with:
+      - social_connection: "Playing together = bonding"
+      - creativity: "Play + making = joy"
+      - nature: "Playing outdoors = amplified benefits"
+
+  # === NOTES ===
+  notes: |
+    Play is not frivolous - it's fundamental.
+    Children know this instinctively - adults forget.
+
+    Key insights:
+    - Play is not waste of time - it's restoration of life
+    - "Amateur" = lover of (do it for love, not money)
+    - No goals, no productivity - that's the point
+    - Play for play's sake - intrinsically rewarding
+    - Adult play doesn't have to look like child's play
+
+    What counts as play:
+    - Sports, games (rec leagues, pickup games)
+    - Hobbies (no career goal - just for fun)
+    - Creative pursuits (art, music, writing for joy)
+    - Nature activities (hiking, swimming, exploring)
+    - Social games (board games, cards, charades)
+    - Dance, movement (for joy, not exercise credit)
+    - Playful conversation (banter, jokes, silliness)
+    Anything done purely for enjoyment = play.
+
+    Play types:
+    - Physical play (sports, movement, roughhousing)
+    - Object play (building, creating, tinkering)
+    - Social play (games, banter, shared laughter)
+    - Imaginative play (storytelling, pretending, creating)
+    - Solo play (hobbies, exploration, puttering)
+    All valuable, all needed.
+
+    Adult play problems:
+    - "I don't have time" (you have time for what you prioritize)
+    - "It's not productive" (that's the point - not everything needs ROI)
+    - "I'm too old" (never too old to play)
+    - "It's childish" (childlike ≠ childish - playfulness is maturity)
+    - "I don't know how" (experiment, explore, remember)
+
+    Play and work:
+    - Play makes work better (creativity, problem-solving, energy)
+    - Work doesn't make play better (bringing productivity to play kills it)
+    - Balance needed - not all play, not all work
+    - "Flow" = work that feels like play (sweet spot)
+
+    Stuart Brown (play researcher):
+    - Play deprivation = serious problem
+    - Play deficit in childhood = social/emotional problems in adulthood
+    - Play throughout life = health, vitality, resilience
+    - "Play is not a luxury. Play is a necessity."
+
+    Recovering playfulness:
+    - Permission (it's okay to play)
+    - Time (schedule it like anything important)
+    - Experiment (try things, find what feels fun)
+    - Forget productivity (no goals, no achievement - just enjoyment)
+    - Notice resistance (what stops you? Usually internalized "shoulds")
+
+    "We don't stop playing because we grow old; we grow old because we stop playing." - George Bernard Shaw
+
+    Play is not dessert (reward after eating vegetables).
+    Play is main course - essential nutrition for soul.
+
+    Your life needs you to play. Not later, not when you've earned it. Now.

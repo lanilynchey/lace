@@ -1,0 +1,187 @@
+# Lifestyle Factor: Hydration
+
+hydration:
+  # === METADATA ===
+  metadata:
+    category: "physical_body"
+    measurement_type: "objective"  # Water intake measurable (oz/liters per day)
+    update_frequency: "daily"
+    importance: "high"  # Body is ~60% water - dehydration affects everything
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Chronically dehydrated - minimal water intake, relying on other beverages"
+      indicators:
+        - "Less than 4 cups (32 oz) water per day"
+        - "Mostly coffee, soda, other drinks (not pure water)"
+        - "Dark urine, infrequent urination"
+        - "Chronic headaches, fatigue, dry skin"
+        - "Rarely feel thirsty (thirst mechanism blunted)"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Adequately hydrated - drinking water regularly, mostly hydrated"
+      indicators:
+        - "6-8 cups (48-64 oz) water per day"
+        - "Water primary beverage, some others"
+        - "Pale yellow urine, regular urination"
+        - "Generally feel okay, occasional thirst"
+        - "Skin relatively hydrated"
+
+    high:
+      range: "0.8-1.0"
+      description: "Well hydrated - consistent water intake, urine clear/pale, feel energized"
+      indicators:
+        - "8+ cups (64+ oz) water per day"
+        - "Water throughout day, before thirst"
+        - "Clear to pale urine, frequent urination"
+        - "Rarely thirsty (consistently ahead of needs)"
+        - "Skin plump, energized, clear-headed"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    energy:
+      low: -0.30    # Dehydration = immediate energy drop
+      medium: 0.0
+      high: +0.20   # Proper hydration = sustained energy
+      notes: "Even 2% dehydration = noticeable fatigue, cognitive impairment"
+
+    mental_clarity:
+      low: -0.25    # Brain fog from dehydration
+      medium: 0.0
+      high: +0.15   # Hydrated brain = sharp thinking
+      notes: "Brain is 75% water - dehydration = immediate cognitive decline"
+
+    physical_performance:
+      low: -0.30    # Strength, endurance plummet when dehydrated
+      medium: 0.0
+      high: +0.20   # Optimal performance requires hydration
+      notes: "2% dehydration = 10-20% performance decrease"
+
+    mood:
+      low: -0.20    # Dehydration = irritability, low mood
+      medium: 0.0
+      high: +0.10   # Hydration supports stable mood
+      notes: "Dehydration affects neurotransmitter production, mood stability"
+
+    headaches:
+      low: +0.35    # Chronic dehydration = chronic headaches
+      medium: 0.0
+      high: -0.15   # Proper hydration prevents many headaches
+      notes: "Dehydration is common headache trigger - often fixable"
+
+    digestion:
+      low: -0.25    # Constipation, poor digestion
+      medium: 0.0
+      high: +0.15   # Water essential for digestive function
+      notes: "Water needed for digestion, nutrient absorption, elimination"
+
+    detoxification:
+      low: -0.30    # Toxins accumulate without water to flush
+      medium: 0.0
+      high: +0.20   # Water is primary detox vehicle
+      notes: "Kidneys need water to filter blood, eliminate waste"
+
+    skin_health:
+      low: -0.25    # Dry, dull skin
+      medium: 0.0
+      high: +0.20   # Plump, healthy skin
+      notes: "Skin is body's largest organ - shows dehydration quickly"
+
+    joint_health:
+      low: -0.20    # Joint pain increases
+      medium: 0.0
+      high: +0.15   # Cartilage needs water for cushioning
+      notes: "Cartilage is 80% water - dehydration = joint problems"
+
+    temperature_regulation:
+      low: -0.25    # Can't regulate temperature well
+      medium: 0.0
+      high: +0.15   # Proper sweating, cooling
+      notes: "Water needed for thermoregulation through sweating"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Dehydration felt within 1-2 hours
+    chronic_impact: "cumulative"  # Chronic dehydration = serious health problems
+    recovery_time: "Hours to rehydrate acutely; days for chronic dehydration effects"
+
+    notes: |
+      Thirst is late indicator - already dehydrated when thirsty.
+      Dark urine = dehydrated (aim for pale yellow to clear).
+      Morning = naturally dehydrated (water first thing helps).
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - exercise_recovery: "Hydration essential for muscle recovery"
+      - cognitive_function: "Hydrated brain works better"
+      - detoxification: "Water flushes toxins"
+
+    dampens:
+      - headaches: "Many headaches are dehydration"
+      - fatigue: "Chronic dehydration = chronic fatigue"
+      - constipation: "Water softens stool, aids elimination"
+
+    synergizes_with:
+      - electrolytes: "Water + minerals = optimal hydration"
+      - fiber: "Fiber needs water to work (otherwise constipating)"
+      - exercise: "Exercise requires hydration, sweating loses water"
+
+  # === NOTES ===
+  notes: |
+    Water is second only to oxygen for survival.
+    Body can survive weeks without food, days without water.
+
+    Key insights:
+    - Thirst is late indicator (already 1-2% dehydrated)
+    - Urine color best indicator (pale yellow = good)
+    - Morning dehydration (8 hours without water)
+    - Coffee/tea = mild diuretics (don't fully count)
+    - Alcohol = dehydrating (need extra water)
+    - Exercise, heat, altitude = increased needs
+
+    Hydration needs vary:
+    - Body size (larger = more needed)
+    - Activity level (exercise = more)
+    - Climate (heat = more)
+    - Altitude (high elevation = more)
+    - Diet (salty food = more)
+    - Health conditions (some require more/less)
+    General guideline: 8 cups minimum, but individualize.
+
+    Dehydration signs:
+    - Dark urine
+    - Dry mouth, lips, skin
+    - Headache
+    - Fatigue, weakness
+    - Dizziness
+    - Infrequent urination
+    - Sunken eyes (severe)
+    Don't wait for these - drink proactively.
+
+    Overhydration possible but rare:
+    - Drinking excessive amounts rapidly
+    - Can dilute electrolytes (hyponatremia)
+    - For most people, not a concern
+    - Listen to body, spread intake throughout day
+
+    Water quality matters:
+    - Filtered > tap (removes contaminants)
+    - Glass/stainless > plastic (no chemical leaching)
+    - Cold water more refreshing, room temp easier to drink quantity
+    - Adding lemon, cucumber, mint = makes more appealing
+
+    Hydration strategies:
+    - Water first thing in morning (rehydrate from night)
+    - Water bottle always accessible
+    - Drink before thirsty
+    - With each meal
+    - Before, during, after exercise
+    - Herbal tea, sparkling water count
+    - Eat water-rich foods (fruits, vegetables)
+
+    "The solution to pollution is dilution" - water flushes toxins.
+    Most people chronically under-hydrated - easy win for health.

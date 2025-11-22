@@ -1,0 +1,323 @@
+# Force Mapping: Pain
+
+pain:
+  # === METADATA ===
+  metadata:
+    tier: 3
+    category: "interface"  # Emotional/experiential force
+    dependencies: ["entropy", "polarity"]
+    source_doc: "docs/02_forces/tier_3_forces/05_pain.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#4B0000"  # Very dark red - blood, wound, intensity
+    color_family: "warm"
+    color_range:
+      - "#330000"  # Near black-red (extreme pain)
+      - "#4B0000"  # Dark blood red (intense pain)
+      - "#660000"  # Dark red (active pain)
+      - "#800000"  # Maroon (chronic pain)
+
+    saturation_base: 0.60
+    brightness_base: 0.20
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (mild discomfort)
+        color: "#800000"
+        saturation: 0.50
+        brightness: 0.35
+      medium_activation: # 0.4-0.7 (significant pain)
+        color: "#4B0000"
+        saturation: 0.60
+        brightness: 0.20
+      high_activation:   # 0.8-1.0 (extreme, overwhelming pain)
+        color: "#330000"
+        saturation: 0.70
+        brightness: 0.12
+
+    notes: |
+      Dark red represents injury, blood, wounds, intensity.
+      Very dark = pain dominates perception, tunnel vision.
+      As pain increases, becomes darker, more consuming.
+      At highest levels, approaches black-red - agony, everything is pain.
+      Different from fear (cold/blue) - pain is hot, visceral, immediate.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "jagged_shards"  # Sharp, broken, fragmented
+    sacred_geometry_association: null  # Pain opposes wholeness
+    complexity_level: "complex"
+    edge_type: "sharp"  # Cutting, piercing, acute
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Few sharp fragments, localized.
+        Discomfort visible but contained.
+        Can work around it.
+      medium_activation: |
+        Multiple jagged shards, more widespread.
+        Clear disruption, hard to ignore.
+        Fragmenting coherent flow.
+      high_activation: |
+        Dense mass of sharp, cutting fragments.
+        Everything is edges, nothing smooth.
+        Total disruption, pain is all-consuming.
+        May appear to pulse or throb.
+
+    notes: |
+      Jagged shards = pain fragments wholeness.
+      Sharp edges = pain cuts, pierces, hurts.
+      Not rounded like fear (defensive) - pain is acute, cutting.
+      At high levels, nothing but sharp edges - can't find comfort anywhere.
+      Shape embodies "it hurts" - immediate, visceral, undeniable.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "pulsing"  # Throbbing, waves of intensity
+    speed_base: 0.70  # Fast - pain demands attention
+
+    speed_modifier:
+      low_intensity: 0.40   # Dull ache, slow pulse
+      medium_intensity: 0.70  # Active throbbing
+      high_intensity: 0.95   # Rapid, overwhelming pulses
+
+    direction: "inward"  # Pain contracts awareness to injury site
+    rhythm: "pulsing"  # Waves - comes and goes but relentless
+
+    healthy_pattern:
+      description: "Pain as signal - provides information, motivates healing, transforms to wisdom"
+      characteristics:
+        - "Pain indicates what needs attention"
+        - "Motivates protective/healing action"
+        - "Temporary, passes when addressed"
+        - "Can be witnessed without identification"
+
+    stuck_pattern:
+      description: "Chronic suffering - pain becomes identity, no relief"
+      characteristics:
+        - "Pain never leaves"
+        - "Identity built around suffering"
+        - "Pain serves no signal function"
+        - "Overwhelm, can't function"
+
+    notes: |
+      Pulsing = waves of pain, throbbing.
+      Fast motion = pain is urgent, demands attention.
+      Inward direction = pain contracts awareness to wound.
+      Healthy: pain is signal, temporary, motivates healing.
+      Stuck: chronic pain, suffering, becomes identity.
+      Pain + time + coherence = wisdom (transformation).
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.55  # Moderately vibrant (pain is vivid but draining)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "-0.20"  # High coherence reduces pain's dominance
+        description: "Pain present but can be witnessed, transforms to wisdom"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal pain experience"
+      low_coherence:     # 0.0-0.3
+        modifier: "+0.30"  # Low coherence amplifies suffering
+        description: "Pain becomes suffering - all-consuming, fragments identity"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.30)"
+      multiplier: 0.30
+
+    interaction_modifier:
+      synergistic: "+0.15 to +0.25"  # With fear, entropy, desire (seeking relief)
+      antagonistic: "-0.15 to -0.25"  # Soothed by love, hope, coherence
+      neutral: "0.0"
+
+    notes: |
+      Pain is vivid (attention-grabbing) but draining (not energizing).
+      At low coherence, pain becomes suffering (fragmented identity).
+      At high coherence, pain can be witnessed, transformed.
+      Key distinction: Pain (sensation) vs Suffering (story about pain).
+      Pain + low coherence = suffering.
+      Pain + high coherence = signal, then wisdom.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "sharp"
+    opacity_range:
+      min: 0.70  # Pain is very tangible, hard to ignore
+      max: 0.95  # Can be extremely solid, all-consuming
+
+    particle_effects: true
+    particle_type: "electric_jolts"  # Sharp, acute sensations
+    particle_density: "dense"
+
+    sound_association:
+      frequency_hz: null  # Pain is discordant, not harmonic
+      tone_description: "Discordant, harsh, like nails on chalkboard or sudden sharp tone"
+      musical_note: null
+
+    emotional_tone: "acute, cutting, intense, demanding, fragmenting"
+
+    consciousness_association: null  # Pain exists at all consciousness levels
+
+    notes: |
+      Sharp texture = pain is acute, cutting.
+      Electric jolts = sudden, intense sensations.
+      Discordant sound = pain disrupts harmony.
+      Very high opacity = pain is undeniable, demands attention.
+      Pain doesn't have consciousness level - can be present at any level.
+      How pain is RELATED TO depends on consciousness + coherence.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "fear"  # Pain creates fear, fear amplifies pain
+      - "entropy"  # Chaos amplifies pain
+      - "desire"  # Pain creates desire for relief
+
+    antagonistic_with:
+      - "love"  # Love soothes pain
+      - "hope"  # Hope provides meaning to pain
+      - "coherence"  # Coherence transforms pain
+
+    neutralizes: []
+
+    amplified_by:
+      - "fear"  # Fear amplifies pain perception
+      - "entropy"  # Chaos amplifies suffering
+      - "low_coherence"  # Fragmentation creates suffering
+
+    visual_blending_rules:
+      when_combined_with_fear:
+        force: "fear"
+        color_effect: "blend"  # Dark red + dark blue = deep suffering
+        shape_effect: "merge"  # Jagged shards with defensive spikes
+        motion_effect: "frantic"  # Pulsing + recoiling = agony
+        result_description: |
+          Fear + Pain = acute suffering.
+          Dark colors merge, sharp forms intensify.
+          Pulsing pain with defensive recoiling.
+          This is "hell state" - hurting and terrified.
+          Fight-flight-freeze while in pain = maximal distress.
+        coherence_dependent: false
+
+      when_combined_with_love:
+        force: "love"
+        color_effect: "blend"  # Pink light softens dark red
+        shape_effect: "nested"  # Jagged shards held within soft sphere
+        motion_effect: "soothing"  # Love calms pain's intensity
+        result_description: |
+          Love holds pain without trying to fix it.
+          Pink radiance surrounding dark jagged form.
+          Pain is witnessed, accepted, embraced.
+          At high coherence: pain transforms to wisdom, compassion.
+          At medium coherence: pain softens, becomes bearable.
+          At low coherence: love provides comfort, reduces suffering.
+          This is compassion - "suffering with" but not consumed by.
+        coherence_dependent: true
+
+      when_combined_with_desire:
+        force: "desire"
+        color_effect: "blend"  # Dark red + crimson = intense craving
+        shape_effect: "merge"  # Jagged shards with grasping tendrils
+        motion_effect: "frantic"  # Pulsing + reaching = desperate seeking
+        result_description: |
+          Pain + Desire = craving for relief, addiction mechanism.
+          Dark red jagged form with red grasping tendrils.
+          Desperate seeking of anything to stop the pain.
+          This is how addiction forms - pain seeking relief through desire.
+        coherence_dependent: false
+
+      when_combined_with_hope:
+        force: "hope"
+        color_effect: "clash_resolving"  # Dark red vs sky blue
+        shape_effect: "separate_interacting"  # Shards vs rising spiral
+        motion_effect: "struggling"  # Pain pulses, hope tries to rise
+        result_description: |
+          Hope in midst of pain = resilience, meaning.
+          Sky blue spiral trying to rise through dark jagged mass.
+          At high coherence: pain transforms to growth, wisdom.
+          At medium coherence: hope provides meaning to suffering.
+          At low coherence: pain crushes hope, or hope becomes denial.
+          "Hope in suffering" - key to post-traumatic growth.
+        coherence_dependent: true
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Gold light penetrates dark
+        shape_effect: "nested"  # Jagged shards within golden sphere
+        motion_effect: "dampened"  # Coherence reduces pain's intensity
+        result_description: |
+          Coherence creates space to witness pain without identification.
+          Dark jagged shards within golden sphere.
+          Pain present but not consuming.
+          At high coherence: "Pain is present, but I am not pain."
+          This is mindfulness - observing sensation without story.
+          Pain transforms from suffering to signal to wisdom.
+        coherence_dependent: false
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "blend"  # Dark red + dark gray = deep suffering
+        shape_effect: "merge"  # Jagged shards fragmenting further
+        motion_effect: "chaotic"  # Pulsing + chaos = overwhelm
+        result_description: |
+          Pain + Entropy = total overwhelm, breakdown.
+          Dark chaotic mass of sharp fragments.
+          Everything hurts, everything falls apart.
+          This is "rock bottom" - maximum suffering.
+        coherence_dependent: false
+
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Lavender light witnesses dark red
+        shape_effect: "nested"  # Pain within awareness sphere
+        motion_effect: "observed"  # Consciousness witnesses without identifying
+        result_description: |
+          Consciousness witnesses pain without being consumed.
+          Dark jagged form within lavender sphere.
+          "I see the pain, but I am the observer, not the pain."
+          At high consciousness: pain becomes pure sensation, no story.
+          This is advanced meditation - pure awareness of sensation.
+        coherence_dependent: false
+
+      when_combined_with_death:
+        force: "death"
+        color_effect: "blend"  # Dark red fades to black
+        shape_effect: "transforming"  # Shards dissolve, release
+        motion_effect: "stilling"  # Pain ends, stillness
+        result_description: |
+          Death ends pain (ultimate relief).
+          Dark red fades to black, sharp edges dissolve.
+          Pain transforms to peace, stillness.
+          This is why death can seem merciful - it ends suffering.
+        coherence_dependent: false
+
+    notes: |
+      Pain is a signal force - provides information about damage/need.
+      Pain (sensation) ≠ Suffering (story about pain).
+      Pain + low coherence = suffering (fragmented identity).
+      Pain + high coherence = signal → wisdom (transformation).
+      Pain + Fear = acute suffering (hell state).
+      Pain + Love = compassion (held with tenderness).
+      Pain + Desire = addiction mechanism (seeking relief).
+      Pain + Hope = resilience, meaning (post-traumatic growth).
+      Pain + Consciousness/Coherence = witnessed without identification.
+      Pain + Entropy = total breakdown (rock bottom).
+      Pain + Death = release (end of suffering).
+      Key insight: Pain is inevitable, suffering is optional (suffering = pain + low coherence).
+
+# IMPLEMENTATION NOTES:
+# - Pain doesn't have fixed consciousness level (exists at all levels)
+# - How pain is experienced depends on consciousness + coherence
+# - Low coherence: pain → suffering (identification, fragmentation)
+# - High coherence: pain → signal → wisdom (transformation)
+# - Healthy pain: temporary signal, motivates healing action
+# - Stuck pain: chronic suffering, becomes identity
+# - Visual should feel sharp, jagged, intense, pulsing
+# - Key therapeutic insight: Pain + Coherence = witnessed without identification
+# - Key insight: Pain + Desire = addiction mechanism (relief-seeking)
+# - Key insight: Pain + Love = compassion (suffering held tenderly)
+# - Key insight: Pain + Hope = meaning (suffering transformed to growth)
+# - "Pain is inevitable, suffering is optional" - suffering = pain + story

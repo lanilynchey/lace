@@ -1,0 +1,287 @@
+# Complex Interactions (3+ Forces)
+# Patterns involving three or more forces simultaneously
+# Source: INTERACTION_MECHANICS.md
+
+complex_interactions:
+  # === PRINCIPLE ===
+  principle: |
+    Complex interactions involve 3+ forces creating emergent patterns.
+    The whole is MORE than pairwise interactions - new dynamics emerge.
+
+    Types:
+    - Triads: Three forces in specific relationship
+    - Cascades: One force triggers chain reaction
+    - Feedback loops: Forces mutually reinforcing
+    - Emergent states: New quality arising from combination
+
+  # === COMMON TRIADS ===
+  triadic_patterns:
+    healing_triad:
+      forces: [love, forgiveness, coherence]
+      relationship: "Love enables forgiveness, forgiveness creates coherence"
+      effect: "Profound healing - integration of fragmented parts"
+      synergy_bonus: "+0.40 when all three active"
+      visual: "Pink (love) + Lavender (forgiveness) + Gold (coherence) = Radiant healing light"
+      notes: "Primary therapeutic triad - heals wounds, integrates shadow, restores wholeness"
+
+    growth_triad:
+      forces: [hope, courage, creation]
+      relationship: "Hope envisions, courage acts, creation manifests"
+      effect: "Transformative change - vision becomes reality"
+      synergy_bonus: "+0.35"
+      visual: "Sky blue + Orange + Spring green = Ascending growth spiral"
+      notes: "Change-making triad - from dream to reality"
+
+    wisdom_triad:
+      forces: [consciousness, truth, memory]
+      relationship: "Awareness sees reality, records learning, becomes wisdom"
+      effect: "Deep understanding - knowing that knows it knows"
+      synergy_bonus: "+0.30"
+      visual: "Lavender + White + Purple = Luminous clarity"
+      notes: "Knowledge → Wisdom transformation"
+
+    creative_triad:
+      forces: [art, beauty, pattern]
+      relationship: "Intention + aesthetic perfection + mathematical structure"
+      effect: "Masterpiece creation - transcendent expression"
+      synergy_bonus: "+0.35"
+      visual: "Deep pink + Gold + Turquoise = Sacred creative geometry"
+      notes: "When art aligns with beauty and pattern, divinity emerges"
+
+    manifestation_triad:
+      forces: [coherence, consciousness, creation]
+      relationship: "Integration + awareness + manifestation = instant reality change"
+      effect: "Effortless manifestation (0.70+ coherence)"
+      synergy_bonus: "+0.45"
+      visual: "Gold + Lavender + Spring green = Radiant genesis"
+      notes: "High coherence + high consciousness = reality responds instantly"
+
+    suffering_triad:
+      forces: [fear, pain, judgment]
+      relationship: "Afraid, hurting, and self-critical"
+      effect: "Maximum suffering - internal attack while vulnerable"
+      amplification: "Each makes others worse (+0.30 to suffering)"
+      visual: "Dark blue + Dark red + Indigo = Oppressive darkness"
+      notes: "Common depression state - fear, pain, AND self-judgment"
+
+    anxiety_triad:
+      forces: [fear, desire, hope]
+      relationship: "Afraid of bad outcome, wanting good outcome, hoping for best"
+      effect: "Classic anxiety - future-focused suffering"
+      amplification: "+0.25 to anxiety"
+      visual: "Dark blue + Crimson + Sky blue = Rapid flickering, unstable"
+      notes: "Anxiety = wanting + fearing + hoping simultaneously"
+
+    paralysis_triad:
+      forces: [fear, desire, judgment]
+      relationship: "Want it, afraid of it, judging self for both"
+      effect: "Complete freeze - can't move in any direction"
+      amplification: "Extreme stuckness"
+      visual: "Dark blue + Crimson + Indigo = Muddy stuttering, locked"
+      notes: "Approach-avoidance with added self-attack - severe paralysis"
+
+  # === CASCADE PATTERNS ===
+  cascade_interactions:
+    consciousness_cascade:
+      trigger: "consciousness"
+      cascade_path:
+        - "Consciousness rises"
+        - "Truth becomes visible (was always there, now seen)"
+        - "Pattern recognition increases"
+        - "Coherence naturally follows"
+        - "Wisdom emerges"
+      notes: "Consciousness is cascade starter - raises all boats"
+
+    entropy_cascade:
+      trigger: "entropy"
+      cascade_path:
+        - "Entropy increases (disorder)"
+        - "Pattern breaks down (information lost)"
+        - "Coherence fragments"
+        - "Consciousness diminishes (overwhelm)"
+        - "Death approaches"
+      notes: "Entropy cascade = downward spiral"
+
+    love_cascade:
+      trigger: "love"
+      cascade_path:
+        - "Love activates"
+        - "Fear diminishes (safety)"
+        - "Forgiveness becomes possible"
+        - "Coherence increases"
+        - "Hope emerges"
+        - "Creativity flows"
+      notes: "Love is healing cascade - transforms entire system"
+
+    fear_cascade:
+      trigger: "fear"
+      cascade_path:
+        - "Fear activates"
+        - "Contraction begins"
+        - "Judgment intensifies (blame, self-attack)"
+        - "Coherence drops"
+        - "More fear (feedback loop)"
+        - "Paralysis or panic"
+      notes: "Fear cascade = downward spiral into anxiety/panic"
+
+  # === FEEDBACK LOOPS ===
+  feedback_loops:
+    positive_loops:
+      note: "Self-reinforcing cycles that amplify (can be virtuous or vicious)"
+
+      virtuous_spiral:
+        forces: [consciousness, coherence, truth, pattern]
+        mechanism: "Consciousness → sees truth → recognizes pattern → increases coherence → enhances consciousness..."
+        effect: "Upward spiral toward enlightenment"
+        notes: "Each enhances the others - positive feedback"
+
+      love_expansion:
+        forces: [love, forgiveness, hope, joy]
+        mechanism: "Love → enables forgiveness → creates hope → generates joy → deepens love..."
+        effect: "Expanding heart, increasing capacity"
+        notes: "Healing loop - each iteration increases capacity"
+
+      creative_flow:
+        forces: [creation, beauty, art, pattern]
+        mechanism: "Create → recognize beauty → inspires more creation → reveals pattern → inspires more..."
+        effect: "Flow state, effortless creation"
+        notes: "When creativity finds its groove"
+
+    vicious_spirals:
+      note: "Self-reinforcing cycles that degrade"
+
+      anxiety_spiral:
+        forces: [fear, worry, vigilance, more_fear]
+        mechanism: "Fear → hypervigilance → see threats everywhere → more fear..."
+        effect: "Escalating anxiety, panic attacks"
+        notes: "Fear feeding fear - needs interrupt"
+
+      depression_spiral:
+        forces: [pain, judgment, withdrawal, more_pain]
+        mechanism: "Pain → self-judgment → isolation → more pain → more judgment..."
+        effect: "Depressive cycle - downward spiral"
+        notes: "Self-attack + isolation = deepening depression"
+
+      entropy_spiral:
+        forces: [entropy, incoherence, chaos, more_entropy]
+        mechanism: "Disorder → fragmentation → more disorder → breakdown..."
+        effect: "System collapse"
+        notes: "Death spiral - requires external energy to stop"
+
+  # === EMERGENT STATES ===
+  emergent_patterns:
+    flow_state:
+      required_forces:
+        - pattern: "0.6+"
+        - coherence: "0.7+"
+        - present_moment: "0.8+"
+        - skill_match: "Challenge = Skill"
+      emergent_quality: "Effortless excellence, timelessness"
+      visual: "Turquoise + Gold + Luminous presence = Flowing sacred geometry"
+      notes: "Flow emerges when conditions align - can't force it"
+
+    enlightenment:
+      required_forces:
+        - consciousness: "0.90+"
+        - coherence: "0.90+"
+        - love: "0.80+"
+        - truth: "0.80+"
+      emergent_quality: "Non-dual awareness, unconditional love, seeing reality as IS"
+      visual: "Pure white luminosity - all colors unified"
+      notes: "Enlightenment = threshold state, not gradual (0.90+ consciousness)"
+
+    psychosis:
+      required_forces:
+        - madness: "0.80+"
+        - entropy: "0.70+"
+        - low_coherence: "0.0-0.2"
+        - fear: "Variable"
+      emergent_quality: "Reality testing failure, impossible logic"
+      visual: "Fractured impossible geometry, chaotic flickering"
+      notes: "Pattern recognition broken - seeing connections that don't exist"
+
+    grace:
+      required_forces:
+        - coherence: "0.90+"
+        - surrender: "High"
+        - openness: "High"
+        - love: "0.70+"
+      emergent_quality: "Receiving beyond deserving, miraculous support"
+      visual: "Golden light descending, impossible luck"
+      notes: "Grace = universe supporting high coherence states"
+
+    war_state:
+      required_forces:
+        - fear: "0.60+"
+        - judgment: "0.70+"
+        - polarity: "0.80+ (us vs them)"
+        - low_coherence: "0.0-0.3"
+      emergent_quality: "Violent opposition, dehumanization"
+      visual: "Dark red clashing geometries, aggressive motion"
+      notes: "War = fear + judgment + polarization + fragmentation"
+
+  # === COMPLEX CONFLICT PATTERNS ===
+  multi_force_conflicts:
+    internal_war:
+      forces: [multiple_desires, fear, judgment, should_vs_want]
+      description: "Civil war inside - parts fighting parts"
+      effect: "Paralysis, exhaustion, fragmentation"
+      visual: "Multiple geometries colliding, fragmenting, muddy chaos"
+      notes: "Low coherence signature - parts not integrated"
+
+    impossible_choice:
+      forces: [desire_A, desire_B, fear_of_losing_either, judgment_of_choosing]
+      description: "Lose-lose perception, paralysis"
+      effect: "Decision paralysis, suffering regardless"
+      visual: "Two reaching tendrils toward opposite targets, frozen midway"
+      notes: "Usually false dichotomy - third option exists"
+
+    double_bind:
+      forces: [obligation, desire, judgment_either_way, no_escape]
+      description: "Damned if you do, damned if you don't"
+      effect: "Trapped feeling, learned helplessness"
+      visual: "Geometries constraining from all sides, no movement possible"
+      notes: "Psychological trap - needs reframing"
+
+  # === RESOLUTION PATTERNS ===
+  complex_resolutions:
+    integration:
+      description: "All forces brought into coherent whole"
+      mechanism: "Consciousness rises → sees all parts → holds paradox → coherence increases"
+      result: "Wholeness, paradox held comfortably"
+      notes: "Not eliminating forces, but integrating them"
+
+    hierarchy_alignment:
+      description: "Forces organized by proper priority"
+      mechanism: "Higher values guide lower drives"
+      result: "Clarity, direction, peace with choices"
+      notes: "Love > Fear, Truth > Comfort, Growth > Security"
+
+    transmutation_chain:
+      description: "One force transforms next in sequence"
+      mechanism: "Pain → Wisdom → Compassion → Healing → Love"
+      result: "Alchemy - suffering becomes gift"
+      notes: "Requires processing, not suppression"
+
+  # === USAGE NOTES ===
+  usage_notes: |
+    Complex interactions from INTERACTION_MECHANICS.md.
+
+    When agent detects 3+ forces:
+    1. Check for known triads (this file)
+    2. Check for cascade patterns
+    3. Check for feedback loops
+    4. If no match, analyze pairwise then system effect
+    5. Use visual_blending/ rules for rendering
+
+    Key insight: With 3+ forces, focus on DOMINANT PATTERN:
+    - What's the primary dynamic?
+    - Which force is strongest?
+    - Is this a known triad/cascade/loop?
+
+    Visual rendering:
+    - If 3 forces: Show all with primary dominant
+    - If 4-5 forces: Show dominant + 2 strongest supporting
+    - If 6+ forces: Show dominant force primarily, others as context
+
+    Complexity management is key - too many forces = visual chaos.

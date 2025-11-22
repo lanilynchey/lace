@@ -1,0 +1,369 @@
+# Motion Collision Rules
+# How motion patterns interact when multiple forces are present
+# References: force_to_force/ files for interaction types
+
+motion_collision_rules:
+  # === PRINCIPLE ===
+  principle: |
+    Defines HOW motions interact based on force relationship.
+    force_to_force/ defines WHAT relationship exists.
+
+    Motion collision types:
+    - Synchronized: Moving together in harmony
+    - Opposing: Moving against each other
+    - Chaotic: Erratic, unpredictable collision
+    - Phased: Same motion, different timing
+    - Composite: Combined motion pattern
+
+  # === SYNERGISTIC MOTION INTERACTIONS ===
+  synergistic:
+    method: "synchronized_harmony"
+    description: "Motions align, enhance, flow together"
+
+    patterns:
+      synchronized_movement:
+        description: "Both forces move in same rhythm"
+        visual: "Coordinated, dance-like, beautiful"
+        example: "Love (radiating) + Forgiveness (releasing) = Synchronized outward flow"
+
+      complementary_motion:
+        description: "Different motions that enhance each other"
+        visual: "One motion supports the other"
+        example: "Hope (ascending) + Courage (forward) = Upward-forward diagonal"
+
+      resonant_rhythm:
+        description: "Same frequency, amplified effect"
+        visual: "Both pulsing in sync, enhanced amplitude"
+        example: "Consciousness (subtle pulse) + Coherence (harmonizing pulse) = Unified strong pulse"
+
+    examples:
+      love_forgiveness:
+        motion_a: "Radiant expansion (love)"
+        motion_b: "Releasing flow (forgiveness)"
+        combined: "Synchronized outward release - warmth flowing away"
+        speed: "Gentle, steady"
+        feel: "Healing waves, synchronized grace"
+
+      pattern_coherence:
+        motion_a: "Recursive unfolding (pattern)"
+        motion_b: "Harmonizing pulse (coherence)"
+        combined: "Fractal unfolding in perfect rhythm"
+        speed: "Mathematical, steady"
+        feel: "Sacred geometry animating"
+
+      hope_courage:
+        motion_a: "Ascending spiral (hope)"
+        motion_b: "Forward stride (courage)"
+        combined: "Rising forward spiral - upward progress"
+        speed: "Moderate, determined"
+        feel: "Confident ascent"
+
+  # === ANTAGONISTIC MOTION INTERACTIONS ===
+  antagonistic:
+    method: "opposing_collision"
+    description: "Motions clash, resist, create tension"
+
+    patterns:
+      direct_opposition:
+        description: "Moving in opposite directions"
+        visual: "Collision course, impact, bounce back"
+        example: "Fear (contracting) vs Desire (reaching) = Pull apart"
+
+      stuttering_freeze:
+        description: "Start-stop, can't complete motion"
+        visual: "Jerky, glitchy, incomplete movements"
+        example: "Want to move (desire) but frozen (fear) = Stuttering reach"
+
+      erratic_chaos:
+        description: "Unpredictable, violent collision"
+        visual: "Chaotic vectors, no pattern"
+        example: "War (clashing) + Madness (impossible) = Complete chaos"
+
+    examples:
+      fear_desire:
+        motion_a: "Defensive contraction (fear - pulling in)"
+        motion_b: "Reaching grasp (desire - extending out)"
+        collision: "Stuttering freeze - start reaching, pull back, repeat"
+        speed: "Rapid oscillation, no progress"
+        feel: "Paralysis, approach-avoidance, stuck"
+
+      creation_death:
+        motion_a: "Explosive emergence (creation - bursting)"
+        motion_b: "Stilling completion (death - stopping)"
+        collision: "Birth interrupted by ending - start-stop"
+        speed: "Variable, unstable"
+        feel: "Life/death struggle visible"
+
+      love_judgment:
+        motion_a: "Radiant expansion (love - opening)"
+        motion_b: "Weighing oscillation (judgment - measuring)"
+        collision: "Expansion interrupted by assessment - stuttering warmth"
+        speed: "Love tries to flow, judgment stops it repeatedly"
+        feel: "Conditional love, blocked flow"
+
+  # === NEUTRALIZING MOTION INTERACTIONS ===
+  neutralizing:
+    method: "stilling_dampening"
+    description: "Motions cancel, movement slows or stops"
+
+    effects:
+      mutual_slowing:
+        description: "Both motions decelerate"
+        visual: "Gradual slowdown toward stillness"
+        example: "Fear (contracting) + Courage (advancing) equal = Frozen"
+
+      trembling_stasis:
+        description: "Tiny oscillations but no progress"
+        visual: "Vibrating in place, going nowhere"
+        example: "Desire + Acceptance = Hands reach but don't grasp"
+
+      complete_stop:
+        description: "All motion ceases"
+        visual: "Frozen, static, no animation"
+        example: "Polarity at 0.5 = No oscillation, pure stillness"
+
+    examples:
+      fear_courage:
+        motion_a: "Defensive contraction (fear)"
+        motion_b: "Forward stride (courage)"
+        result: "Frozen mid-step - neither wins"
+        speed: "Zero or minimal trembling"
+        feel: "Stalemate, paralyzed between"
+
+      desire_satisfaction:
+        motion_a: "Reaching grasp (desire)"
+        motion_b: "Stillness of having"
+        result: "Hands relax, stop reaching"
+        speed: "Decelerating to peace"
+        feel: "Contentment, satisfied, no need to move"
+
+      polarity_equilibrium:
+        motion: "Oscillating binary"
+        result: "At 0.5, oscillation stops - perfect balance"
+        speed: "Zero"
+        feel: "Neutral stillness, gray calm"
+
+  # === TRANSMUTATION MOTION INTERACTIONS ===
+  transmutation:
+    method: "morphing_motion"
+    description: "One motion pattern transforms into another"
+
+    implementation:
+      technique: "Animated motion transition"
+      duration: "Based on transformation speed"
+      path: "Start motion → Intermediate → End motion"
+
+    examples:
+      pain_to_forgiveness:
+        start_motion: "Sharp recoil (pain - flinching away)"
+        end_motion: "Releasing flow (forgiveness - letting go)"
+        transition: "Flinch → Soften → Begin flowing → Release"
+        feel: "Defensive withdrawal becoming gentle release"
+
+      fear_to_courage:
+        start_motion: "Defensive contraction (fear)"
+        end_motion: "Forward stride (courage)"
+        transition: "Contracted → Pause → First step → Striding"
+        feel: "From frozen to moving - bravery emerging"
+
+      judgment_to_compassion:
+        start_motion: "Weighing oscillation (judgment)"
+        end_motion: "Radiant expansion (love/compassion)"
+        transition: "Scales balance → Still → Begin radiating → Full warmth"
+        feel: "From measuring to accepting - heart opening"
+
+  # === SYNTHESIS MOTION INTERACTIONS ===
+  synthesis:
+    method: "emergent_motion"
+    description: "New motion pattern emerges from combination"
+
+    examples:
+      fear_desire_creates_war:
+        input_motion_a: "Defensive contraction (fear)"
+        input_motion_b: "Reaching grasp (desire)"
+        emergent_motion: "Clashing collision (war - aggressive)"
+        result: "New violent motion pattern emerges"
+
+      consciousness_pattern_creates_beauty:
+        input_motion_a: "Still witnessing (consciousness)"
+        input_motion_b: "Recursive unfolding (pattern)"
+        emergent_motion: "Phi proportion flow (beauty)"
+        result: "Aesthetically perfect motion emerges"
+
+      love_hope_creates_joy:
+        input_motion_a: "Radiant expansion (love)"
+        input_motion_b: "Ascending spiral (hope)"
+        emergent_motion: "Playful bounce (humor/joy)"
+        result: "Lighthearted, delightful motion emerges"
+
+  # === COMPLEX MOTION INTERACTIONS (3+ forces) ===
+  multiple_motions:
+    choreographed_complexity:
+      when: "High coherence, multiple forces"
+      visual: "Organized multi-motion pattern (dance)"
+      example: "Healing triad - Love radiating, Forgiveness releasing, Coherence pulsing - choreographed"
+
+    chaotic_collision:
+      when: "Low coherence, multiple forces"
+      visual: "Collision chaos, no organization"
+      example: "Fear + Desire + Judgment + Pain = Violent motion chaos"
+
+    dominant_motion:
+      when: "One force much stronger"
+      visual: "Strongest motion dominates, others as background"
+      example: "Fear at 0.9 - dominant contraction, other motions barely visible"
+
+    phased_rhythm:
+      when: "Similar motions, different timing"
+      visual: "Wave pattern (like stadium wave)"
+      example: "Multiple forces pulsing at different phases - ripple effect"
+
+  # === RHYTHM SYNCHRONIZATION ===
+  rhythm_interactions:
+    synergistic:
+      pattern: "Rhythms align, harmonize"
+      effect: "Musical, beautiful, coordinated"
+      example: "Steady + Pulsing in sync = Harmonious rhythm"
+
+    antagonistic:
+      pattern: "Rhythms clash, dissonant"
+      effect: "Jarring, uncomfortable, arhythmic"
+      example: "Steady vs Erratic = Chaos disrupting order"
+
+    neutralizing:
+      pattern: "Rhythms cancel, become flat"
+      effect: "Loss of rhythm, monotone"
+      example: "Wave vs Counter-wave = Flat line"
+
+  # === SPEED MODULATION ===
+  relative_speeds:
+    matching_speeds:
+      when: "Synergistic interaction"
+      effect: "Both forces move at harmonious speeds"
+
+    opposing_speeds:
+      when: "Antagonistic interaction"
+      effect: "Speed differential creates tension"
+      example: "Fast fear + Slow love = Panic vs calmness, visible speed gap"
+
+    dampened_speeds:
+      when: "Neutralizing interaction"
+      effect: "Both slow down significantly"
+
+  # === COHERENCE EFFECTS ON MOTION ===
+  coherence_impact:
+    high_coherence:
+      range: "0.7-1.0"
+      effects:
+        synergistic: "Perfect synchronization, fluid choreography"
+        antagonistic: "Clear opposition, organized conflict"
+        neutralizing: "Graceful deceleration, peaceful stillness"
+        transmutation: "Smooth motion transformation"
+        synthesis: "Clear emergence of new motion"
+
+    medium_coherence:
+      range: "0.4-0.6"
+      effects:
+        synergistic: "Good coordination, minor desync"
+        antagonistic: "Visible conflict, some chaos"
+        neutralizing: "Stuttering slowdown"
+        transmutation: "Stepped transformation"
+        synthesis: "Partial emergence"
+
+    low_coherence:
+      range: "0.0-0.3"
+      effects:
+        synergistic: "Desynchronized, lost harmony"
+        antagonistic: "Violent chaos, no pattern"
+        neutralizing: "Frozen or erratic, no clean stop"
+        transmutation: "Failed transformation, stuck"
+        synthesis: "No emergence, just collision"
+
+  # === IMPLEMENTATION PSEUDOCODE ===
+  agent_implementation: |
+    def animate_interactions(forces, coherence):
+        # 1. Get interaction type
+        interaction = get_interaction_type(forces)
+
+        # 2. Get base motions
+        motions = [get_primary_motion(f) for f in forces]
+
+        # 3. Get speeds
+        speeds = [calc_speed(f.activation, f.base_speed) for f in forces]
+
+        # 4. Combine based on interaction type
+        if interaction == "synergistic":
+            result = synchronize_motions(motions, speeds)
+            smooth_choreography(result)
+
+        elif interaction == "antagonistic":
+            if coherence >= 0.7:
+                result = organized_opposition(motions, speeds)
+            elif coherence >= 0.4:
+                result = stuttering_conflict(motions, speeds)
+            else:
+                result = chaotic_collision(motions, speeds)
+
+        elif interaction == "neutralizing":
+            result = dampen_motions(motions, speeds)
+            slow_toward_stillness(result)
+
+        elif interaction == "transmutation":
+            result = morph_motion(motions[0], motions[1])
+
+        elif interaction == "synthesis":
+            result = emergent_motion(forces)
+
+        # 5. Apply coherence to motion quality
+        if coherence < 0.4:
+            add_stutter(result)
+            add_glitching(result)
+        elif coherence >= 0.7:
+            perfect_smoothness(result)
+
+        # 6. Add rhythm pattern
+        rhythm = get_rhythm_pattern(forces, interaction)
+        apply_rhythm(result, rhythm)
+
+        return result
+
+  # === MOTION STATES ===
+  motion_health:
+    healthy_motion:
+      characteristics:
+        - "Smooth, flowing animation"
+        - "Completes movement cycles"
+        - "Appropriate speed for force"
+        - "Natural rhythm"
+      indicator: "High coherence + appropriate force activation"
+
+    stuck_motion:
+      characteristics:
+        - "Stuttering, incomplete cycles"
+        - "Frozen or erratic"
+        - "Visual glitching"
+        - "Lost rhythm"
+      indicator: "Low coherence + antagonistic forces"
+
+  # === USAGE NOTES ===
+  usage_notes: |
+    Motion collision rules define ANIMATED INTERACTIONS.
+
+    Clean separation:
+    - force_to_force/ = WHAT relationship
+    - This file = HOW motions collide/combine
+
+    Agent uses:
+    1. Determine interaction type (force_to_force/)
+    2. Apply motion rules (this file)
+    3. Modulate by coherence
+    4. Animate final motion
+
+    Motion reveals:
+    - Health (flowing vs stuck)
+    - Relationship (synchronized vs opposing)
+    - Energy (fast vs slow, rhythmic vs erratic)
+
+    Key principle: Motion is the LIFE of the force.
+    Still image shows shape and color.
+    Animation shows force in ACTION.

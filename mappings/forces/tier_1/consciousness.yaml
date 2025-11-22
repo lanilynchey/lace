@@ -1,0 +1,339 @@
+# Force Mapping: Consciousness
+
+consciousness:
+  # === METADATA ===
+  metadata:
+    tier: 1
+    category: "primordial"
+    dependencies: []  # Consciousness is foundational
+    source_doc: "docs/02_forces/tier_1_forces/02_consciousness.md"
+
+  # === CONSCIOUSNESS LEVEL VS FORCE ACTIVATION ===
+  consciousness_level_vs_force_activation:
+    clarification: |
+      IMPORTANT: "Consciousness level" and "consciousness force activation" refer to the SAME measurement.
+
+      The terminology can be confusing because consciousness appears in two contexts:
+      1. As a SCALE (consciousness_levels.yaml) - describes perceptual capacity spectrum
+      2. As a FORCE (consciousness.yaml) - describes the witnessing/observing capacity
+
+      But the ACTIVATION of consciousness force = current consciousness level.
+
+      When consciousness force is at 0.2 activation, the agent IS AT consciousness level 0.2.
+      When consciousness force is at 0.69 activation, the agent IS AT consciousness level 0.69.
+
+    three_consciousness_measurements:
+      description: |
+        consciousness() force activation corresponds to "current_consciousness" - the real-time fluctuating level.
+
+        There are three ways to measure consciousness:
+
+        1. baseline_consciousness (stored in Agent.consciousness_coefficient):
+           - Default level where agent returns
+           - Changes slowly over months/years
+           - "Center of gravity"
+
+        2. current_consciousness (stored in StateSignature.current_consciousness):
+           - Real-time fluctuating level
+           - THIS IS WHAT CONSCIOUSNESS FORCE ACTIVATION VISUALIZES
+           - Changes moment to moment based on context
+
+        3. peak_consciousness (stored in StateSignature.peak_consciousness):
+           - Lifetime high-water mark
+           - Never decreases
+           - Shows what's possible
+
+    force_activation_equals_current_level:
+      description: |
+        The consciousness() force activation value (0.0-1.0) IS the current consciousness level (0.01-1.0).
+
+        NOT separate dimensions:
+        - Activation is NOT "how much you're using your capacity"
+        - Activation IS your current perceptual capacity in this moment
+
+        When distracted:
+          - current_consciousness drops (e.g., 0.69 → 0.35)
+          - consciousness force activation = 0.35
+          - Perceptual capacity actually shrinks (can't see higher forces when distracted)
+
+        When hyper-vigilant:
+          - current_consciousness may stay low (e.g., 0.25) or slightly elevate
+          - consciousness force activation = current level
+          - Intensity/focus ≠ consciousness level (can be intensely focused at low consciousness)
+
+    common_misconception:
+      description: |
+        "I have high consciousness (0.69 baseline) but I'm just not using it right now (low activation)."
+
+        This is incorrect. If you're distracted/autopilot, your current_consciousness HAS DROPPED.
+        You don't maintain high consciousness while zoned out - the consciousness is literally lower in that moment.
+
+        Baseline ≠ current.
+        - baseline_consciousness = 0.69 (where you return when centered)
+        - current_consciousness = 0.35 (where you are right now while stressed/distracted)
+        - consciousness force activation = 0.35 (visualizes current, not baseline)
+
+    visualization_mapping:
+      low_activation: "0.1-0.3 → current_consciousness 0.1-0.3 (reactive, survival, autopilot)"
+      medium_activation: "0.4-0.7 → current_consciousness 0.4-0.7 (self-aware, witnessing)"
+      high_activation: "0.8-1.0 → current_consciousness 0.8-1.0 (meta-aware, enlightened)"
+
+    edge_case_hypervigilance:
+      question: "Can you be hyper-vigilant (intense focus) at low consciousness?"
+      answer: |
+        Yes. Intensity of focus ≠ consciousness level.
+
+        Hyper-vigilance (trauma response):
+        - current_consciousness = 0.25 (low, survival mode)
+        - consciousness force activation = 0.25 (same)
+        - Awareness is INTENSE but NARROW (only threats visible)
+        - Cannot perceive higher forces (love, beauty inaccessible)
+
+        This is low consciousness with high INTENSITY, not high consciousness.
+        The force color would be darker/muted despite intense focus.
+
+    edge_case_zoned_out:
+      question: "When 'zoned out' watching TV, where does consciousness drop to?"
+      answer: |
+        Depends on baseline and depth of dissociation.
+
+        Mild distraction (mindless scrolling):
+        - baseline_consciousness = 0.50
+        - current_consciousness = 0.35-0.40 (mild drop)
+        - consciousness force activation = 0.35-0.40
+
+        Deep dissociation (escape behavior):
+        - baseline_consciousness = 0.50
+        - current_consciousness = 0.20-0.25 (significant drop)
+        - consciousness force activation = 0.20-0.25
+        - Temporarily in survival mode despite baseline being higher
+
+    summary:
+      - consciousness force activation = current_consciousness level
+      - NOT separate dimensions
+      - Visualizes real-time fluctuating consciousness in this moment
+      - Baseline is stored separately but not visualized by force activation
+      - Distraction/autopilot = actual temporary consciousness drop
+      - Intensity ≠ consciousness level (hyper-vigilance can be low consciousness)
+
+    see_also:
+      - "mappings/scales/consciousness_levels.yaml (consciousness scale 0.01-1.0)"
+      - "docs/01_foundation/base_structure/03_data_models/05_data_model_state_signature.md (three consciousness measurements)"
+      - "docs/02_forces/tier_1_forces/03_consciousness.md (consciousness force documentation)"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#E6E6FA"  # Lavender - light purple
+    color_family: "cool"
+    color_range:
+      - "#9370DB"  # Medium purple (lower consciousness)
+      - "#B19CD9"  # Lighter purple
+      - "#E6E6FA"  # Lavender (base)
+      - "#F8F8FF"  # Ghost white with purple tint (highest consciousness)
+
+    saturation_base: 0.50  # Moderate saturation
+    brightness_base: 0.90
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3
+        color: "#9370DB"
+        saturation: 0.60
+        brightness: 0.60
+      medium_activation: # 0.4-0.7
+        color: "#E6E6FA"
+        saturation: 0.50
+        brightness: 0.90
+      high_activation:   # 0.8-1.0
+        color: "#F8F8FF"
+        saturation: 0.30  # Becomes more transparent/ethereal
+        brightness: 1.00
+
+    notes: |
+      Purple/lavender represents awareness, perception, spirituality, the observer.
+      As consciousness increases, color becomes lighter, more ethereal, less dense.
+      Highest consciousness approaches pure white light - all-seeing, all-aware.
+      Purple is traditionally associated with crown chakra, higher awareness, mysticism.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "sphere"  # But more ethereal than coherence's sphere
+    sacred_geometry_association: "metatrons_cube"
+    complexity_level: "medium"
+    edge_type: "ethereal"  # Boundaries are permeable
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Dense, opaque sphere with defined boundaries.
+        Limited light, more solid/physical.
+      medium_activation: |
+        Semi-transparent sphere with soft glow.
+        Metatron's cube pattern visible within.
+        Permeable boundaries.
+      high_activation: |
+        Highly transparent, radiant sphere of light.
+        Metatron's cube brilliant and clear.
+        Boundaries barely visible - consciousness pervades everything.
+        May appear to contain/witness all other forces.
+
+    notes: |
+      Sphere represents all-seeing awareness - no blind spots.
+      Unlike coherence (integration), consciousness (perception/awareness).
+      Metatron's cube = complete structure of reality, all possibilities visible.
+      At high levels, consciousness "sees through" everything - transparent, witnessing.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "rotating"  # But slower, more contemplative than coherence
+    speed_base: 0.25  # Slow, steady, observing
+
+    speed_modifier:
+      low_intensity: 0.15   # Slow, limited awareness
+      medium_intensity: 0.25  # Steady observation
+      high_intensity: 0.40   # Expanded awareness, but never frantic
+
+    direction: "circular"
+    rhythm: "steady"
+
+    healthy_pattern:
+      description: "Calm, steady observation - witnessing without attachment"
+      characteristics:
+        - "Present, aware, watchful"
+        - "Non-reactive observation"
+        - "Sees all without judgment"
+        - "Spacious, open awareness"
+
+    stuck_pattern:
+      description: "Hyper-vigilance or dissociation - awareness distorted"
+      characteristics:
+        - "Frozen watching (dissociated from experience)"
+        - "Anxious scanning (hypervigilant)"
+        - "Detached to point of disconnection"
+        - "Awareness without presence"
+
+    notes: |
+      Slow, steady rotation = calm observation, witnessing.
+      Consciousness doesn't rush - it simply observes what is.
+      Stuck pattern: either frozen (dissociation) or frantic (hypervigilance).
+      Healthy consciousness is present, calm, aware.
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.70  # Naturally vibrant (awareness is alive)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.15"
+        description: "Crystal clear awareness, perfect perception"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal awareness"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.15"
+        description: "Cloudy awareness, perception distorted"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.25)"
+      multiplier: 0.25
+
+    interaction_modifier:
+      synergistic: "+0.10 to +0.20"  # With coherence, pattern, truth
+      antagonistic: "-0.10 to -0.15"  # Obscured by entropy, madness
+      neutral: "0.0"
+
+    notes: |
+      High consciousness = clear, vivid perception.
+      Low coherence clouds consciousness - fragmented awareness.
+      Consciousness can be present even at low coherence (aware of chaos).
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "ethereal"
+    opacity_range:
+      min: 0.30  # Highly transparent
+      max: 0.80  # Never fully solid (awareness is not material)
+
+    particle_effects: true
+    particle_type: "sparkles"  # Awareness, perception, moments of clarity
+    particle_density: "sparse"  # Subtle, not overwhelming
+
+    sound_association:
+      frequency_hz: 963  # Highest solfeggio frequency - "frequency of the gods"
+      tone_description: "High, clear, crystalline tone - like bell or singing bowl"
+      musical_note: "B"
+
+    emotional_tone: "observing, witnessing, aware, spacious, present"
+
+    consciousness_association: null  # This IS consciousness
+
+    notes: |
+      Ethereal texture = awareness is not physical, it's perceptual.
+      Always somewhat transparent - consciousness sees through, not blocks.
+      Sparkles = moments of clarity, insight, awareness arising.
+      Very high frequency sound = refined perception, subtle awareness.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "coherence"
+      - "pattern"
+      - "truth"
+      - "memory"
+
+    antagonistic_with:
+      - "entropy"  # Chaos obscures awareness
+      - "madness"  # Distorts perception
+
+    neutralizes: []  # Consciousness doesn't cancel - it witnesses
+
+    amplified_by:
+      - "coherence"
+      - "pattern"
+
+    visual_blending_rules:
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Lavender + Gold = radiant harmony
+        shape_effect: "nested"  # Consciousness sphere contains coherence patterns
+        motion_effect: "synchronized"  # Beautiful harmony
+        result_description: |
+          Lavender sphere containing golden coherence patterns.
+          Consciousness witnessing perfect alignment.
+          Most powerful combination for manifestation.
+          Awareness + Integration = conscious creation.
+        coherence_dependent: false  # These always harmonize
+
+      when_combined_with_pattern:
+        force: "pattern"
+        color_effect: "blend"
+        shape_effect: "nested"  # Consciousness sees all patterns
+        motion_effect: "synchronized"
+        result_description: |
+          Consciousness sphere filled with pattern geometries.
+          Awareness perceiving structure and connections.
+          Pattern recognition at its clearest.
+        coherence_dependent: false
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "clash"  # Lavender vs dark gray
+        shape_effect: "separate_interfering"
+        motion_effect: "stuttering"
+        result_description: |
+          Consciousness tries to witness chaos clearly.
+          At high consciousness: can observe entropy without being consumed.
+          At low consciousness: awareness fragments along with everything else.
+        coherence_dependent: true
+
+    notes: |
+      Consciousness is the "witness" - it sees all forces without being any of them.
+      At high levels, can observe chaos (entropy), pain, fear without identifying with them.
+      Works best with organizing forces (coherence, pattern).
+      "Nesting" pattern: consciousness contains/witnesses other forces.
+
+# IMPLEMENTATION NOTES:
+# - Consciousness is about PERCEPTION, not necessarily control
+# - Can have high consciousness with high pain (aware of suffering but not consumed)
+# - Consciousness + Coherence = powerful manifestation capacity
+# - Visual should feel spacious, witnessing, observant
+# - Never fully opaque - consciousness is transparent, sees through

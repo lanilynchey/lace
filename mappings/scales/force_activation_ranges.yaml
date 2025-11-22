@@ -1,0 +1,182 @@
+# Force Activation Scale Reference
+
+source_docs:
+  - "docs/02_forces/ (all force documentation)"
+  - "docs/03_mechanics/interaction_mechanics/"
+
+description: "How intensely a specific force is currently active in an agent's state"
+scale_type: "linear"
+range: "0.0-1.0"
+
+definition: |
+  Force activation measures the intensity/strength of a specific force in an agent's
+  current state signature. Different from consciousness (perceptual capacity) or
+  coherence (internal alignment) - this is "how much of force X is present right now?"
+
+activation_levels:
+  dormant:
+    range: "0.00-0.10"
+    description: "Force essentially inactive, minimal presence"
+    visual_impact: "Barely visible or absent from visualization"
+    characteristics:
+      - "Not influencing current state"
+      - "May be latent but not expressed"
+      - "No behavioral manifestation"
+
+  low_activation:
+    range: "0.10-0.30"
+    description: "Force present but weak, background level"
+    visual_impact: "Visible but subdued - darker colors, slower motion, lower opacity"
+    characteristics:
+      - "Minor influence on state"
+      - "Easily overridden by stronger forces"
+      - "Subtle behavioral cues"
+
+  medium_activation:
+    range: "0.30-0.70"
+    description: "Force actively present, moderate influence"
+    visual_impact: "Clear presence - normal colors, speeds, standard forms"
+    characteristics:
+      - "Significant influence on state and behavior"
+      - "Balanced with other forces"
+      - "Observable in actions and choices"
+
+  high_activation:
+    range: "0.70-0.90"
+    description: "Force dominant, strong influence"
+    visual_impact: "Prominent - bright colors, fast motion, high vibrancy, large forms"
+    characteristics:
+      - "Driving current state and behavior"
+      - "May overshadow other forces"
+      - "Primary motivating factor"
+
+  extreme_activation:
+    range: "0.90-1.00"
+    description: "Force overwhelming, near-total dominance"
+    visual_impact: "Overwhelming - maximum brightness, speed, size, dominates field"
+    characteristics:
+      - "All-consuming state"
+      - "Other forces suppressed or aligned"
+      - "Potentially problematic if stuck here"
+
+examples_by_force:
+  fear:
+    0.10: "Mild concern, background wariness"
+    0.30: "Noticeable anxiety about specific situation"
+    0.50: "Significant fear response, elevated stress"
+    0.70: "High anxiety, fear driving decisions"
+    0.95: "Panic, terror, complete threat activation"
+
+  desire:
+    0.10: "Mild interest or preference"
+    0.30: "Clear want, pursuing casually"
+    0.50: "Strong desire, actively working toward"
+    0.70: "Intense drive, major focus of energy"
+    0.95: "Obsession, addiction, all-consuming"
+
+  love:
+    0.10: "Mild affection, pleasant feeling"
+    0.30: "Caring, warm connection"
+    0.50: "Deep love, strong bond"
+    0.70: "Profound love, central relationship"
+    0.95: "Transcendent love, non-dual connection"
+
+  coherence:
+    0.10: "Highly fragmented, chaotic state"
+    0.30: "Significant internal conflict"
+    0.50: "Moderate alignment, some contradiction"
+    0.70: "Strong alignment, minimal conflict"
+    0.95: "Near-perfect coherence, all parts unified"
+
+activation_vs_other_scales:
+  vs_consciousness:
+    note: |
+      Consciousness = perceptual capacity (how much you can perceive)
+      Force activation = intensity of specific force (how strong is fear/love/etc)
+      Independent: Can have high consciousness (0.8) with high fear (0.7) - aware of fear but not consumed
+
+  vs_coherence:
+    note: |
+      Coherence = internal alignment (do all parts agree?)
+      Force activation = strength of individual force
+      Related but different: Can have high fear (0.8) with high coherence (0.8) if all parts agree to fear response
+
+  vs_mastery:
+    note: |
+      Mastery = skill level in domain (how good at piano?)
+      Force activation = current force intensity
+      Indirect relationship: High mastery when engaged can affect force activation (e.g., flow increases love/joy)
+
+multiple_forces_simultaneously:
+  note: |
+    Agents typically have 3-8 forces active simultaneously at varying intensities.
+    The combination creates the unique "flavor" of current state.
+
+  example_state:
+    fear: 0.65
+    desire: 0.70
+    hope: 0.40
+    coherence: 0.45
+    pattern: 0.55
+    result_description: |
+      "High fear + high desire = paralysis/freeze (wanting but afraid to act)
+      Medium hope provides some counter-balance
+      Medium-low coherence = internal conflict visible
+      This is a 'stuck' state - visible in visual geometry as tension/stuttering"
+
+lifestyle_factors_modify_activation:
+  note: |
+    Lifestyle factors don't SET force levels - they MODIFY existing levels.
+
+  example:
+    base_fear_level: 0.50
+    high_caffeine_intake: +0.08  # stimulant increases activation
+    social_isolation: +0.10  # loneliness amplifies fear
+    poor_sleep: +0.06  # exhaustion increases threat sensitivity
+    total_modifier: +0.24
+    new_fear_level: 0.74  # Elevated to high activation
+    capped_at: 1.00  # Cannot exceed maximum
+
+visual_mapping_relationship:
+  note: |
+    Force activation level determines:
+    - Color intensity (low = darker/muted, high = brighter/vivid)
+    - Motion speed (low = slower, high = faster)
+    - Shape size (low = smaller, high = larger)
+    - Opacity (low = more transparent, high = more solid)
+    - Particle density (low = sparse, high = dense)
+
+  agent_modulation:
+    note: |
+      Exact visual properties selected by agent from base guidance ranges.
+      Agent considers:
+      - Activation level (this scale)
+      - Coherence level
+      - Other active forces
+      - Interaction effects
+
+healthy_vs_extreme_activation:
+  note: |
+    Most forces are healthy at medium activation (0.3-0.7)
+    Extreme activation (0.9+) often indicates stuck/problematic patterns
+
+  examples:
+    fear_0.9: "Chronic anxiety, paranoia, hypervigilance (stuck pattern)"
+    desire_0.9: "Addiction, obsession, inability to rest (stuck pattern)"
+    love_0.9: "Can be transcendent OR codependent - depends on coherence"
+
+  coherence_determines_health:
+    high_activation_high_coherence: "Intense but healthy expression"
+    high_activation_low_coherence: "Intense and problematic (stuck/addictive)"
+
+usage_in_mappings: |
+  - Each force file includes intensity_modifier sections
+  - Lifestyle factors provide +/- modifiers to activation levels
+  - Visual properties scale with activation (colors, speeds, sizes)
+  - Interaction effects depend on relative activation levels of multiple forces
+
+see_also:
+  - "mappings/forces/ (all force files have activation-based mappings)"
+  - "mappings/lifestyle/ (all lifestyle files modify force activation)"
+  - "mappings/scales/coherence_thresholds.yaml"
+  - "mappings/scales/consciousness_levels.yaml"

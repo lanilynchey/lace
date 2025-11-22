@@ -1,0 +1,258 @@
+# Lifestyle Factor: Cold Exposure (Cold Therapy)
+
+cold_exposure:
+  # === METADATA ===
+  metadata:
+    category: "physical_body"
+    measurement_type: "objective"  # Minutes per week in cold exposure
+    update_frequency: "weekly"
+    importance: "medium_to_high"  # Emerging research, significant impacts
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "No cold exposure - always comfortable temperature, cold avoided"
+      indicators:
+        - "No deliberate cold exposure"
+        - "Hot showers only"
+        - "Cold weather avoided"
+        - "Temperature always comfortable"
+        - "No cold water immersion"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Occasional cold - cold showers sometimes, moderate exposure"
+      indicators:
+        - "1-3 cold exposures per week"
+        - "30 second cold shower finishes"
+        - "Occasional cold water swimming"
+        - "Some tolerance building"
+        - "Beginning adaptation"
+
+    high:
+      range: "0.8-1.0"
+      description: "Regular practice - consistent cold exposure, adapted, intentional"
+      indicators:
+        - "4-7 cold exposures per week"
+        - "2-3 minute cold showers or 1-5 min ice baths"
+        - "Regular cold water immersion"
+        - "Significant adaptation (less uncomfortable)"
+        - "Cold exposure as practice, not just tolerance"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    resilience:
+      low: -0.10    # Comfort zone never challenged
+      medium: +0.10
+      high: +0.30   # Cold builds stress resilience
+      notes: "Cold = manageable stressor - trains stress response system (hormesis)"
+
+    vitality:
+      low: 0.0
+      medium: +0.10
+      high: +0.25   # Cold energizes, awakens
+      notes: "Cold exposure = immediate alertness, energy boost"
+
+    willpower:
+      low: -0.05
+      medium: +0.10
+      high: +0.25   # Cold builds discipline (do hard thing)
+      notes: "Getting in cold water = daily willpower practice"
+
+    mood:
+      low: 0.0
+      medium: +0.05
+      high: +0.20   # Cold improves mood (endorphins, dopamine)
+      notes: "Cold exposure = dopamine surge, endorphin release"
+
+    inflammation:
+      low: 0.0
+      medium: -0.05
+      high: -0.20   # Cold is anti-inflammatory
+      notes: "Cold = reduces inflammation markers, activates anti-inflammatory pathways"
+
+    immune_function:
+      low: 0.0
+      medium: +0.05
+      high: +0.15   # Cold strengthens immune system
+      notes: "Regular cold exposure = increased white blood cells, stronger immune response"
+
+    metabolism:
+      low: 0.0
+      medium: +0.05
+      high: +0.15   # Cold activates brown fat (thermogenesis)
+      notes: "Cold = brown fat activation, metabolic boost"
+
+    mental_toughness:
+      low: -0.10
+      medium: +0.10
+      high: +0.25   # Cold = grit training
+      notes: "Staying in cold = mental toughness practice - 'I can do hard things'"
+
+    presence:
+      low: 0.0
+      medium: +0.10
+      high: +0.20   # Cold = immediate presence (can't be elsewhere)
+      notes: "Impossible to think about past/future in ice bath - total presence"
+
+    stress_tolerance:
+      low: 0.0
+      medium: +0.10
+      high: +0.25   # Cold trains stress response
+      notes: "Cold = controlled stress - teaches body to stay calm under pressure"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Instant alertness, mood boost
+    chronic_impact: "significant"  # Adaptation builds stress resilience, changes baseline
+    recovery_time: "Benefits persist hours, adaptation takes weeks"
+
+    notes: |
+      Single cold exposure = immediate effects (alertness, mood).
+      Regular practice = adaptation (less uncomfortable, more benefits).
+      Weeks of practice = baseline changes (stress resilience, immune function).
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - breath_work: "Wim Hof Method combines both"
+      - resilience: "Cold = stress resilience training"
+      - willpower: "Daily hard thing = willpower muscle"
+
+    dampens:
+      - inflammation: "Cold is anti-inflammatory"
+      - stress_reactivity: "Cold trains calm under pressure"
+      - comfort_seeking: "Cold breaks comfort addiction"
+
+    synergizes_with:
+      - breath_work: "Breath work enables cold tolerance"
+      - exercise: "Cold recovery after exercise"
+      - meditation: "Cold = meditation on discomfort"
+
+  # === NOTES ===
+  notes: |
+    Cold exposure is hormetic stressor - manageable stress that strengthens.
+    Ancient practice (cold water therapy), modern science validates.
+
+    Key insights:
+    - Cold = manageable stress (hormesis principle)
+    - Adaptation happens quickly (weeks)
+    - Benefits physical and psychological
+    - Not about suffering - about building capacity
+    - Wim Hof Method popularized (cold + breath)
+
+    What cold exposure does:
+
+    **Physiological:**
+    - Activates brown fat (thermogenesis, metabolic boost)
+    - Releases norepinephrine (focus, alertness)
+    - Releases dopamine (mood, motivation)
+    - Releases endorphins (natural high)
+    - Reduces inflammation markers
+    - Increases white blood cells (immune function)
+    - Vasoconstriction → vasodilation (circulation training)
+    - Activates vagus nerve (parasympathetic)
+
+    **Psychological:**
+    - Builds stress resilience (train response)
+    - Increases willpower (do hard thing daily)
+    - Enhances mood (endorphins, dopamine)
+    - Creates presence (can't be elsewhere in cold)
+    - Builds confidence ("I can do hard things")
+    - Reduces stress reactivity (calm under pressure)
+
+    Cold exposure methods:
+
+    **Cold showers:**
+    - Easiest, most accessible
+    - Start warm, end cold (30 seconds to start)
+    - Build to 2-3 minutes cold
+    - Morning = most awakening
+    - Breathe slowly (calm nervous system)
+
+    **Ice baths:**
+    - More intense, faster adaptation
+    - 38-50°F (3-10°C) water
+    - 1-5 minutes (start lower)
+    - Post-exercise recovery
+    - Requires tub, ice
+
+    **Cold water immersion:**
+    - Lakes, oceans, rivers
+    - Natural cold exposure
+    - Community practice (cold plunge groups)
+    - Seasonal availability
+
+    **Cryotherapy:**
+    - Extreme cold (-200°F) for 2-3 minutes
+    - Commercial chambers
+    - Expensive but effective
+    - Different mechanism (dry vs wet cold)
+
+    How to start:
+
+    **Week 1:**
+    - 10 seconds cold at end of shower
+    - Focus on breath (stay calm)
+    - 3-4 times per week
+
+    **Week 2-3:**
+    - 30 seconds cold
+    - Keep breathing slow
+    - Notice discomfort vs danger (just uncomfortable)
+
+    **Week 4+:**
+    - 1-2 minutes cold
+    - Full body immersion
+    - Adaptation noticeable (less shocking)
+
+    Key technique:
+    - **Breath control = cold tolerance**
+    - Slow, controlled breathing (don't gasp)
+    - 4-4 or 5-5 breath (coherent breathing)
+    - Calm breath = calm nervous system
+
+    Wim Hof Method:
+    - Breath work (hyperventilation + holds)
+    - Cold exposure
+    - Commitment/mindset
+    - Research validated: control over immune response, inflammation
+
+    Safety considerations:
+    - No cold immersion alone (drowning risk)
+    - Heart conditions: consult doctor
+    - Start gradual (don't shock system)
+    - Exit if feel faint, numb fingers/toes
+    - Warm up slowly after (not hot shower immediately)
+
+    When to use:
+    - Morning = awakening, energizing
+    - Post-exercise = recovery, anti-inflammatory
+    - Stress = resilience training
+    - Low mood = dopamine boost
+    - Before important task = alertness, focus
+
+    Common mistakes:
+    - Starting too intense (shock, quit)
+    - Holding breath (increases stress)
+    - Doing alone (safety risk)
+    - No gradual adaptation (miserable experience)
+    - Hot shower immediately after (negates some benefits)
+
+    Benefits timeline:
+    - Immediate: alertness, mood boost, presence
+    - Days: sleep improvement, energy
+    - Weeks: adaptation (less uncomfortable), stress resilience
+    - Months: baseline changes (immune, inflammation, mood)
+
+    Cold exposure is practice of staying calm when uncomfortable.
+    Life skill: uncomfortable ≠ dangerous.
+    Cold teaches this viscerally.
+
+    "What is the cold?
+    It's just cold.
+    How you respond to it is what matters." - Wim Hof
+
+    Cold exposure = voluntary discomfort that builds involuntary resilience.
+

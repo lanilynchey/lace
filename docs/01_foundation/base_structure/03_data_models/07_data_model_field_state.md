@@ -86,6 +86,8 @@ Impact propagates through acknowledgment networks, not proximity. Agents exist w
 
 **Core Principle:** You can only be impacted by entities within your acknowledged topology tiers. Unacknowledged entities have no pathway into your field.
 
+**Resource Costs:** Maintaining topology requires continuous social vigilance processing - monitoring the social field for threats, opportunities, and status changes. See [System Resource Allocation](../../../04_advanced/advanced_concepts/20_system_resource_allocation.md#social-vigilance-processing) for computational costs.
+
 **See:** [Entanglement](09_data_model_entanglement.md) for complete Entanglement data structure, [Resonance Topology](../../../04_advanced/advanced_concepts/15_resonance_topology.md) for detailed mechanics and practical applications.
 
 ### Topology Tiers

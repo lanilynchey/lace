@@ -1,0 +1,169 @@
+# Lifestyle Factor: Screen Time
+
+screen_time:
+  # === METADATA ===
+  metadata:
+    category: "media_information"
+    measurement_type: "objective"  # Hours per day measurable
+    update_frequency: "daily"
+    importance: "high"  # Modern addiction with widespread effects
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Minimal screens - less than 2 hours per day, mostly necessary use"
+      indicators:
+        - "Less than 2 hours per day"
+        - "Mostly work/necessary use"
+        - "Minimal social media/entertainment scrolling"
+        - "No phone in bedroom"
+        - "Regular screen-free time"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Moderate screens - 2-4 hours per day, some mindless scrolling"
+      indicators:
+        - "2-4 hours per day"
+        - "Work + some recreation"
+        - "Some mindless scrolling/binging"
+        - "Phone accessible most of time"
+        - "Occasional screen-free periods"
+
+    high:
+      range: "0.8-1.0"
+      description: "Excessive screens - 5+ hours per day, compulsive use, constant availability"
+      indicators:
+        - "5+ hours per day"
+        - "Constant checking, FOMO"
+        - "First/last thing = phone"
+        - "Scroll during meals, conversations, bathroom"
+        - "Can't sit without phone"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    consciousness:
+      low: +0.10    # Minimal screens = more present
+      medium: -0.10
+      high: -0.30   # Excessive screens fragment attention severely
+      notes: "Screens are attention hijackers - algorithms designed for addiction"
+
+    coherence:
+      low: +0.10
+      medium: -0.10
+      high: -0.25   # Constant context switching fragments coherence
+      notes: "Screen use = fragmentation - never complete focus, always distracted"
+
+    presence:
+      low: +0.15
+      medium: -0.10
+      high: -0.35   # Screens pull out of present moment constantly
+      notes: "Phone in hand = not here - elsewhere, elsewhen, else-who"
+
+    social_connection:
+      low: +0.10    # More face-to-face time
+      medium: -0.05
+      high: -0.30   # Screens replace real connection
+      notes: "Alone together - physically present but mentally absent via screens"
+
+    sleep_quality:
+      low: +0.10
+      medium: -0.10
+      high: -0.25   # Blue light + stimulation = sleep destruction
+      notes: "Screens before bed = melatonin suppression, sleep disruption"
+
+    creativity:
+      low: +0.15    # Boredom = creativity fuel
+      medium: -0.05
+      high: -0.25   # Constant stimulation = no space for creative thought
+      notes: "Creativity needs boredom - screens eliminate all empty space"
+
+    anxiety:
+      low: -0.10
+      medium: +0.10
+      high: +0.30   # Social media = anxiety engine
+      notes: "Comparison, FOMO, information overload = chronic anxiety"
+
+    self_worth:
+      low: +0.10
+      medium: -0.05
+      high: -0.25   # Social media = comparison trap
+      notes: "Highlight reel comparison = inadequacy - 'everyone's life is better than mine'"
+
+    attention_span:
+      low: +0.15    # Can sustain focus
+      medium: -0.10
+      high: -0.35   # Attention span shredded
+      notes: "Infinite scroll = dopamine slot machine - attention span destroyed"
+
+    contentment:
+      low: +0.15
+      medium: -0.05
+      high: -0.30   # Constant novelty = never satisfied
+      notes: "Hedonic treadmill accelerated - always want more, never enough"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Screen use affects mood, attention immediately
+    chronic_impact: "severe"  # Chronic overuse = attention disorders, anxiety, depression
+    recovery_time: "Days to weeks to restore attention, sleep; months to break addiction"
+
+    notes: |
+      Screen addiction is real addiction:
+      - Dopamine hits from notifications
+      - Variable reward schedule (most addictive)
+      - Tolerance (need more stimulation)
+      - Withdrawal (anxious without phone)
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - FOMO: "Fear of missing out fueled by social media"
+      - comparison: "Constant comparison to others' highlight reels"
+      - distraction: "Chronic partial attention"
+
+    dampens:
+      - deep_work: "Can't sustain deep focus with constant interruptions"
+      - real_connection: "Screens replace face-to-face interaction"
+      - boredom: "No empty space - creativity's fuel eliminated"
+
+    synergizes_with:
+      - poor_sleep: "Screens worsen sleep, poor sleep increases screen use (too tired for real activities)"
+      - isolation: "Screens replace real connection, creating more isolation"
+      - anxiety: "Screens increase anxiety, use screens to soothe anxiety (vicious cycle)"
+
+  # === NOTES ===
+  notes: |
+    Screens are supernormal stimuli - hijack ancient brain systems.
+    Designed for addiction - engineers optimize for "engagement" (addiction).
+
+    Key insights:
+    - "Time well spent" vs "time wasted" - quality matters
+    - Notification = interruption (close the loop)
+    - Phone in bedroom = sleep destruction
+    - Social media ≠ social connection (often opposite)
+    - "Alone together" - physically present, mentally absent
+
+    Screen addiction indicators:
+    - First/last thing you check
+    - Can't sit without reaching for phone
+    - Phantom vibrations
+    - FOMO, anxiety when phone away
+    - Scroll during meals, conversations, bathroom
+    - Hours disappear into scroll
+
+    Digital minimalism strategies:
+    - Phone-free bedroom
+    - Grayscale mode (reduces dopamine hits)
+    - Turn off all notifications (except calls/texts from key people)
+    - Delete social media apps (use browser, makes harder)
+    - Scheduled phone-free time
+    - "Do not disturb" as default mode
+
+    "The cost of a thing is the amount of life which is required to be exchanged for it." - Thoreau
+    Every hour scrolling = hour of life traded for... what?
+
+    We don't have attention deficit - we have attention theft.
+    Screens don't supplement life - they replace it.
+
+    Recommended: "Digital Minimalism" by Cal Newport, "Irresistible" by Adam Alter

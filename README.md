@@ -81,18 +81,20 @@ LACE/
 │       ├── project_summary/       ← Internal vision document (15 files)
 │       ├── glossary/              ← Complete terminology (41 files in 10 folders)
 │       └── common_misconceptions/ ← Critical clarifications (6 files)
+├── mappings/                      ← Experimental visualization layer (see mappings/README.md)
 ```
 
 ---
 
 ## Current Status
 
-**Phase 1: Documentation & Architecture**
+**Phase 1: Documentation & Architecture** ✅ COMPLETE
 
 LACE exists as a complete philosophical framework:
 - Extensive exploratory journaling and conceptual development (gathered throughout 2024)
 - Forces, laws, and mechanics fully specified
 - Complete conceptual architecture defined
+- Vision document for applications (simulations + state signature website)
 
 **What exists now:**
 - ✅ Complete conceptual architecture (5-layer system)
@@ -104,18 +106,32 @@ LACE exists as a complete philosophical framework:
 - ✅ Manifestation mechanics fully specified
 - ✅ Core ontological beliefs documented (18 belief documents)
 - ✅ Comprehensive glossary and clarifications
+- ✅ Vision for practical applications defined
 
-**Phase 2 (Next):**
-- Python code structure and implementations
-- Data model classes
-- Illustrative pseudocode → executable functions
-- Logical consistency tests
+**Phase 2: Visual Mapping System** ✅ COMPLETE
+- 82 experimental mapping files (forces, lifestyle, visual properties, interactions)
+- Foundation for visualization prototypes (see mappings/ for details)
 
-**Phase 3 (Future):**
-- Executable simulation engine
-- Interactive visualizations
-- Timeline/worldline mechanics
-- Practical applications
+**Phase 3 (Next): Knowledge Infrastructure**
+- Vector embeddings of all documentation
+- Conversational chat system (Knowledge Mode)
+- RAG-based doc explorer
+
+**Phase 4 (Future): Simulations**
+- Core simulation engine (force interactions, state evolution)
+- Scenario modeling (control dynamics, paradise engineering)
+- Potential public research tool
+
+**Phase 5 (Future): State Signature Website**
+- Full transformation interface with 3D sacred geometry
+- Guided state assessment (somatic, emotional, lifestyle)
+- Actionable transformation pathways
+- Dual-mode toggle (Experience + Knowledge)
+
+**Phase 6 (Ongoing): Expansion & Refinement**
+- Python codebase implementation
+- Community contributions
+- Continuous evolution
 
 ---
 

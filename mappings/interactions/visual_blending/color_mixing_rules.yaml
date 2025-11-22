@@ -1,0 +1,310 @@
+# Color Mixing Rules
+# How to blend colors when multiple forces interact
+# References: force_to_force/ files for WHAT interactions exist
+
+color_mixing_rules:
+  # === PRINCIPLE ===
+  principle: |
+    This file defines HOW to mix colors based on interaction TYPE.
+    The force_to_force/ files define WHICH forces interact HOW.
+
+    Agent process:
+    1. Detect multiple active forces
+    2. Look up interaction type (synergistic/antagonistic/neutralizing/complex)
+    3. Apply blending rules from THIS file based on type
+    4. Modulate by coherence level
+
+  # === SYNERGISTIC BLENDING ===
+  synergistic:
+    method: "gradient_blend"
+    description: "Smooth transition between colors - harmonious mixing"
+
+    implementation:
+      technique: "Linear or radial gradient"
+      opacity: "Both colors at 70-90% (both visible)"
+      transition: "Smooth, no hard edges"
+      color_space: "RGB or HSL (whichever produces prettier result)"
+      vibrancy_boost: "+0.10 to +0.20 (synergy enhances both)"
+
+    examples:
+      love_forgiveness:
+        color_a: "#FFB6C1"  # Light pink (love)
+        color_b: "#E0BBE4"  # Soft lavender (forgiveness)
+        blend_result: "Smooth pink-to-lavender gradient"
+        feel: "Healing warmth, gentle transition"
+
+      pattern_coherence:
+        color_a: "#40E0D0"  # Turquoise (pattern)
+        color_b: "#FFD700"  # Gold (coherence)
+        blend_result: "Turquoise-gold gradient (sacred geometry colors)"
+        feel: "Mathematical beauty, divine order"
+
+      hope_love:
+        color_a: "#87CEEB"  # Sky blue (hope)
+        color_b: "#FFB6C1"  # Light pink (love)
+        blend_result: "Soft lavender-pink gradient"
+        feel: "Aspirational warmth, uplifting connection"
+
+    coherence_impact:
+      high: "Perfect gradient, beautiful blending"
+      medium: "Good gradient, minor banding"
+      low: "Gradient breaks up, some muddiness"
+
+  # === ANTAGONISTIC BLENDING ===
+  antagonistic:
+    method: "harsh_alternation"
+    description: "Sharp boundaries, flickering, or clashing - uncomfortable"
+
+    implementation:
+      technique: "Hard edges, alternating pulses, or rapid flickering"
+      opacity: "Both at 90-100% (no compromise, fighting for dominance)"
+      transition: "Sharp, jarring, visible conflict"
+      frequency: "Based on conflict intensity (higher = faster flicker)"
+      vibrancy_penalty: "-0.15 to -0.30 (conflict dulls both)"
+
+    sub_methods:
+      sharp_boundary:
+        when: "High coherence (conflict managed)"
+        visual: "Clear line where colors meet, no blending"
+        example: "Fear (dark blue) | Love (pink) with sharp division"
+
+      alternating_pulses:
+        when: "Medium coherence (conflict active)"
+        visual: "Colors take turns being dominant"
+        timing: "Pulse rate based on activation levels"
+
+      rapid_flickering:
+        when: "Low coherence (conflict chaotic)"
+        visual: "Unstable, seizure-like flashing between colors"
+        warning: "Can be visually disturbing - may need dampening"
+
+    examples:
+      fear_desire:
+        color_a: "#1C1C3A"  # Dark blue (fear)
+        color_b: "#DC143C"  # Crimson (desire)
+        blend_result: "Flickering between dark blue and crimson"
+        feel: "Paralysis, freeze state, stuttering"
+
+      creation_death:
+        color_a: "#00FF7F"  # Spring green (creation)
+        color_b: "#000000"  # Black (death)
+        blend_result: "Sharp boundary, no mixing"
+        feel: "Life/death edge, stark opposition"
+
+      love_judgment:
+        color_a: "#FFB6C1"  # Pink (love)
+        color_b: "#4B0082"  # Indigo (judgment)
+        blend_result: "Alternating pulses, competing"
+        feel: "Conditional love, warmth interrupted"
+
+    coherence_impact:
+      high: "Sharp boundaries, organized conflict"
+      medium: "Alternating, some bleed-through"
+      low: "Chaotic flickering, visual noise"
+
+  # === NEUTRALIZING BLENDING ===
+  neutralizing:
+    method: "muddy_desaturation"
+    description: "Colors cancel toward gray/brown - neither wins"
+
+    implementation:
+      technique: "Mix toward neutral (gray/brown)"
+      opacity: "Both reduced (40-60%) - mutual dampening"
+      saturation: "Decrease by -0.40 to -0.60"
+      brightness: "Often dimmer than either original"
+      result: "Muddy, dull, lifeless appearance"
+
+    mixing_formulas:
+      complementary_colors:
+        rule: "Opposite colors → gray"
+        examples:
+          - "Blue + Orange = Gray-brown"
+          - "Red + Green = Brown"
+          - "Purple + Yellow = Muddy gray"
+
+      same_hue:
+        rule: "Light + Dark of same hue → Mid-tone desaturated"
+        example: "Light pink + Dark red = Dull pink-gray"
+
+    examples:
+      fear_courage:
+        color_a: "#1C1C3A"  # Dark blue (fear)
+        color_b: "#FF8C00"  # Orange (courage)
+        blend_result: "#5A5A4F"  # Muddy gray-brown
+        feel: "Stalemate, neither advancing"
+
+      hope_despair:
+        color_a: "#87CEEB"  # Sky blue (hope)
+        color_b: "#2C2C2C"  # Dark gray (despair)
+        blend_result: "#6A6A7A"  # Dull gray-blue
+        feel: "Apathy, resignation, giving up"
+
+      polarity_equilibrium:
+        forces: "Polarity at 0.5"
+        blend_result: "#808080"  # Pure gray
+        feel: "Perfect neutrality, no movement"
+
+    coherence_impact:
+      high: "Clean desaturation, graceful fade"
+      medium: "Muddy but recognizable"
+      low: "Ugly brown/gray, visual chaos"
+
+  # === TRANSMUTATION BLENDING ===
+  transmutation:
+    method: "animated_transition"
+    description: "One color morphs INTO another - transformation visible"
+
+    implementation:
+      technique: "Animated gradient over time"
+      duration: "Based on transformation speed (seconds to minutes)"
+      direction: "Unidirectional (start → end)"
+      opacity: "Start color fades as end color emerges"
+      path: "May go through intermediate colors"
+
+    examples:
+      pain_to_forgiveness:
+        start: "#4B0000"  # Very dark red (pain)
+        end: "#E0BBE4"  # Soft lavender (forgiveness)
+        path: "Dark red → Purple → Lavender"
+        duration: "Slow (healing takes time)"
+        feel: "Wound transforming, release happening"
+
+      fear_to_courage:
+        start: "#1C1C3A"  # Dark blue (fear)
+        end: "#FF8C00"  # Orange (courage)
+        path: "Cold dark → Warming → Bright orange"
+        duration: "Variable (can be sudden or gradual)"
+        feel: "Bravery emerging from terror"
+
+      judgment_to_compassion:
+        start: "#4B0082"  # Indigo (judgment)
+        end: "#FFB6C1"  # Pink (love/compassion)
+        path: "Harsh indigo → Softening → Warm pink"
+        duration: "Medium (heart opening)"
+        feel: "Critique dissolving into understanding"
+
+    coherence_impact:
+      high: "Smooth, beautiful transformation"
+      medium: "Visible transformation with steps"
+      low: "Jerky, incomplete transformation"
+
+  # === SYNTHESIS BLENDING ===
+  synthesis:
+    method: "emergent_color"
+    description: "Third color emerges - not average, but NEW"
+
+    implementation:
+      technique: "New color appears at intersection"
+      location: "Where force geometries overlap"
+      calculation: "Not weighted average - emergent formula"
+      intensity: "Proportional to both input forces"
+
+    examples:
+      fear_desire_creates_war:
+        input_a: "#1C1C3A"  # Dark blue (fear)
+        input_b: "#DC143C"  # Crimson (desire)
+        emergent: "#8B0000"  # Dark red (war)
+        feel: "Aggression emerging from fear + want"
+
+      consciousness_pattern_creates_beauty:
+        input_a: "#E6E6FA"  # Lavender (consciousness)
+        input_b: "#40E0D0"  # Turquoise (pattern)
+        emergent: "#FFD700"  # Gold (beauty)
+        feel: "Aesthetic recognition emerging"
+
+      love_hope_creates_joy:
+        input_a: "#FFB6C1"  # Pink (love)
+        input_b: "#87CEEB"  # Sky blue (hope)
+        emergent: "#FFFACD"  # Lemon chiffon (joy)
+        feel: "Radiant happiness emerging"
+
+    coherence_impact:
+      high: "Clear emergence, distinct third color"
+      medium: "Emergent color visible but mixed"
+      low: "Emergence fails, just muddy mix"
+
+  # === COHERENCE GLOBAL MULTIPLIER ===
+  coherence_effects:
+    note: "Coherence affects ALL blending types globally"
+
+    high_coherence:
+      range: "0.7-1.0"
+      effects:
+        synergistic: "Perfect gradients, enhanced beauty"
+        antagonistic: "Clean boundaries, managed conflict"
+        neutralizing: "Graceful desaturation, clean grays"
+        transmutation: "Smooth transformation"
+        synthesis: "Clear emergence"
+
+    medium_coherence:
+      range: "0.4-0.6"
+      effects:
+        synergistic: "Good blending, minor artifacts"
+        antagonistic: "Visible conflict, some bleed"
+        neutralizing: "Muddy but recognizable"
+        transmutation: "Stepped transformation"
+        synthesis: "Partial emergence"
+
+    low_coherence:
+      range: "0.0-0.3"
+      effects:
+        synergistic: "Messy blending, lost vibrancy"
+        antagonistic: "Chaotic flickering, visual noise"
+        neutralizing: "Ugly browns/grays"
+        transmutation: "Failed transformation, stuck"
+        synthesis: "No emergence, just chaos"
+
+  # === IMPLEMENTATION PSEUDOCODE ===
+  agent_implementation: |
+    def blend_colors(forces, coherence):
+        # 1. Determine interaction type
+        interaction_type = get_interaction_type(forces)  # from force_to_force/
+
+        # 2. Get base colors
+        colors = [get_base_color(f) for f in forces]
+
+        # 3. Apply interaction-specific blending
+        if interaction_type == "synergistic":
+            result = gradient_blend(colors, opacity=0.8)
+            result.vibrancy += 0.15
+
+        elif interaction_type == "antagonistic":
+            if coherence >= 0.7:
+                result = sharp_boundary(colors)
+            elif coherence >= 0.4:
+                result = alternating_pulses(colors)
+            else:
+                result = rapid_flickering(colors)
+            result.vibrancy -= 0.25
+
+        elif interaction_type == "neutralizing":
+            result = desaturate_toward_gray(colors)
+            result.saturation -= 0.50
+            result.opacity *= 0.5
+
+        elif interaction_type == "transmutation":
+            result = animated_transition(colors[0], colors[1])
+
+        elif interaction_type == "synthesis":
+            result = emergent_color(forces)  # lookup table
+
+        # 4. Apply coherence global multiplier
+        result = apply_coherence(result, coherence)
+
+        return result
+
+  # === USAGE NOTES ===
+  usage_notes: |
+    This file provides HOW to blend, not WHAT to blend.
+    force_to_force/ files determine interaction types.
+    This file determines visual execution.
+
+    Clean separation:
+    - force_to_force/ = THE DATA (relationships)
+    - visual_blending/ = THE RULES (rendering)
+
+    Agent references BOTH:
+    1. Check force_to_force/ for interaction type
+    2. Apply rules from THIS file for that type
+    3. Modulate by coherence
+    4. Render final colors

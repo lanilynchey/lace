@@ -1,0 +1,303 @@
+# Force Mapping: Truth
+
+truth:
+  # === METADATA ===
+  metadata:
+    tier: 2
+    category: "governing"  # Foundational force that shapes reality
+    dependencies: ["polarity", "consciousness"]
+    source_doc: "docs/02_forces/tier_2_forces/03_truth.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#FFFFFF"  # Pure white - clear, revealed, illuminated
+    color_family: "neutral"
+    color_range:
+      - "#F5F5F5"  # Off-white (truth partially visible)
+      - "#FFFFFF"  # Pure white (truth fully revealed)
+      - "#FAFAFA"  # Bright white (truth undeniable)
+      - "#FFFFF0"  # Ivory - slight warm tint (embodied truth)
+
+    saturation_base: 0.00  # No saturation - truth is pure, uncolored
+    brightness_base: 1.00  # Maximum brightness
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (truth faint, obscured)
+        color: "#F5F5F5"
+        saturation: 0.05
+        brightness: 0.95
+      medium_activation: # 0.4-0.7 (truth clear)
+        color: "#FFFFFF"
+        saturation: 0.00
+        brightness: 1.00
+      high_activation:   # 0.8-1.0 (truth blazing, undeniable)
+        color: "#FFFFF0"
+        saturation: 0.00
+        brightness: 1.00
+
+    notes: |
+      White represents clarity, revelation, illumination, purity.
+      No color = truth is unbiased, objective, just what is.
+      Pure light = truth illuminates, reveals, clarifies.
+      "Light of truth" - truth makes visible what was hidden.
+      Cannot be darker than white - truth is always bright (reveals).
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "crystalline_structure"  # Clear, faceted, precise
+    sacred_geometry_association: "platonic_solids"  # Perfect forms, absolute geometry
+    complexity_level: "simple"  # Truth is simple, not complex
+    edge_type: "sharp"  # Precise, defined, no ambiguity
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Small crystal, partially formed.
+        Truth present but not fully visible.
+        Some facets clear, others cloudy.
+      medium_activation: |
+        Clear crystal with defined facets.
+        Truth visible, precise, undeniable.
+        Platonic solid geometry visible.
+      high_activation: |
+        Blazing diamond, perfectly cut.
+        All facets brilliant, refracting light.
+        Truth so clear it illuminates everything.
+        May appear to emit rays of light.
+
+    notes: |
+      Crystalline = truth is precise, structured, clear.
+      Platonic solids = absolute forms (tetrahedron, cube, octahedron, etc).
+      Sharp edges = truth discriminates, defines clearly.
+      At high activation, like diamond - refracts light in all directions.
+      Truth reveals structure, essence, what actually is.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "revealing"  # Uncovering, illuminating, clarifying
+    speed_base: 0.55  # Moderate-fast - truth emerges quickly once seen
+
+    speed_modifier:
+      low_intensity: 0.35   # Truth slow to emerge
+      medium_intensity: 0.55  # Truth revealing clearly
+      high_intensity: 0.80   # Truth blazing forth, undeniable
+
+    direction: "outward"  # Radiating, illuminating all directions
+    rhythm: "pulsing"  # Truth emerges in moments of clarity
+
+    healthy_pattern:
+      description: "Authentic - aligned with truth, speaks and lives honestly"
+      characteristics:
+        - "Says what is true"
+        - "Lives in alignment with values"
+        - "No hiding, no pretense"
+        - "Comfortable with reality as it is"
+
+    stuck_pattern:
+      description: "Denial or harsh truth - either avoiding truth or wielding it as weapon"
+      characteristics:
+        - "Denial of obvious reality"
+        - "Using 'truth' to hurt others"
+        - "'Brutal honesty' without compassion"
+        - "Truth as weapon, not illumination"
+
+    notes: |
+      Revealing motion = truth uncovers what is hidden.
+      Pulsing = moments of clarity, insight, "aha!"
+      Outward radiation = truth illuminates everything.
+      Healthy: authenticity, alignment, honest but kind.
+      Stuck: either denial (can't face truth) or weaponized truth (harsh).
+      "Truth without compassion is cruelty."
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.90  # Highly vibrant (truth is vivid, clear)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.10"  # High coherence reveals truth
+        description: "Truth blazing clear, undeniable, integrated"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Truth visible clearly"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.30"  # Low coherence obscures truth
+        description: "Truth fragmented, can't see clearly, denial possible"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.20)"
+      multiplier: 0.20
+
+    interaction_modifier:
+      synergistic: "+0.15 to +0.25"  # With consciousness, coherence, pattern
+      antagonistic: "0.0"  # Truth doesn't oppose - it reveals
+      neutral: "0.0"
+
+    notes: |
+      Truth is naturally vivid, clear, undeniable.
+      At high coherence, truth is integrated - can see and accept reality.
+      At low coherence, truth is fragmented - denial, can't face it.
+      Coherence allows integration of truth (even difficult truth).
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "crystalline"
+    opacity_range:
+      min: 0.60  # Somewhat solid (truth has presence)
+      max: 1.00  # Can be completely solid (truth is absolute)
+
+    particle_effects: true
+    particle_type: "light_rays"  # Illumination, revelation
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: 852  # Solfeggio frequency for "returning to spiritual order"
+      tone_description: "Clear, pure, like crystal singing bowl or bell - precise, resonant"
+      musical_note: "A"
+
+    emotional_tone: "clear, precise, revealing, honest, unwavering"
+
+    consciousness_association: null  # Truth exists independent of consciousness
+
+    notes: |
+      Crystalline texture = truth is precise, clear, structured.
+      Light rays = truth illuminates, reveals.
+      Pure bell tone = truth is clear, resonant, precise.
+      Can be fully opaque = truth is absolute, undeniable.
+      852 Hz = returning to order (truth reveals what is actually so).
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "consciousness"  # Consciousness perceives truth
+      - "coherence"  # Coherence integrates truth
+      - "pattern"  # Pattern is structure of truth
+      - "polarity"  # Polarity discriminates true/false
+
+    antagonistic_with:
+      - "entropy"  # Chaos obscures truth
+      - "madness"  # Madness distorts truth
+
+    neutralizes:
+      - "judgment"  # Truth dissolves judgment (just shows what is)
+
+    amplified_by:
+      - "consciousness"  # Awareness reveals truth
+      - "coherence"  # Alignment clarifies truth
+
+    visual_blending_rules:
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # White + lavender = illuminated awareness
+        shape_effect: "nested"  # Truth within consciousness sphere
+        motion_effect: "synchronized"  # Both reveal
+        result_description: |
+          Consciousness perceiving truth directly.
+          White crystal within lavender sphere.
+          Pure seeing - awareness of what is actually so.
+          This is "enlightenment" literally - light of truth seen by consciousness.
+          No filters, no distortion, just clear seeing.
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # White + gold = radiant integration
+        shape_effect: "merge"  # Both perfect geometry
+        motion_effect: "synchronized"  # Perfect harmony
+        result_description: |
+          Coherence integrates truth - can see and accept reality.
+          White crystal within golden sphere.
+          Truth aligned with being.
+          This is integrity - integration of truth (inner = outer).
+          Living authentically, no pretense.
+        coherence_dependent: false
+
+      when_combined_with_polarity:
+        force: "polarity"
+        color_effect: "blend"  # White + grayscale = discrimination
+        shape_effect: "merge"  # Crystal within binary structure
+        motion_effect: "synchronized"  # Both discriminate
+        result_description: |
+          Truth uses polarity to discriminate true/false.
+          White crystal within gray cube.
+          Binary: this is true (1), that is false (0).
+          Clear discrimination, no ambiguity.
+        coherence_dependent: false
+
+      when_combined_with_pattern:
+        force: "pattern"
+        color_effect: "blend"  # White + turquoise = revealed structure
+        shape_effect: "merge"  # Crystal + fractal = perfect geometry
+        motion_effect: "synchronized"  # Both reveal structure
+        result_description: |
+          Truth reveals pattern - structure of reality visible.
+          White light illuminating turquoise fractals.
+          "Seeing the Matrix" - the code becomes visible.
+          This is deep understanding - seeing how it all works.
+        coherence_dependent: false
+
+      when_combined_with_love:
+        force: "love"
+        color_effect: "blend"  # White + pink = compassionate truth
+        shape_effect: "merge"  # Crystal softens slightly
+        motion_effect: "gentle"  # Truth delivered with kindness
+        result_description: |
+          Love tempers truth - honest but kind.
+          White crystal with pink glow.
+          "Truth in love" - saying what is true without cruelty.
+          Compassionate honesty - this is healthy truth-telling.
+          Not harsh, not sugar-coated - just honest and kind.
+        coherence_dependent: false
+
+      when_combined_with_judgment:
+        force: "judgment"
+        color_effect: "transforming"  # White dissolves judgment's colors
+        shape_effect: "transforming"  # Truth neutralizes evaluation
+        motion_effect: "calming"  # Truth stops judgment
+        result_description: |
+          Truth dissolves judgment - just shows what is.
+          White light dissolving judgment's evaluative quality.
+          No good/bad, just is/isn't.
+          At high coherence: pure seeing without judgment.
+          Truth = what is, Judgment = evaluation of what is.
+        coherence_dependent: true
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "clash"  # White vs dark gray
+        shape_effect: "separate_opposing"  # Crystal vs formless
+        motion_effect: "revealing_vs_obscuring"  # Truth reveals, entropy obscures
+        result_description: |
+          Truth vs Entropy = clarity vs confusion.
+          White crystal trying to emerge from gray chaos.
+          At high coherence: truth cuts through chaos.
+          At low coherence: chaos obscures truth, can't see clearly.
+        coherence_dependent: true
+
+    notes: |
+      Truth is what is actually so - not opinion, not belief, just reality.
+      Truth + Consciousness = direct seeing, clear perception.
+      Truth + Coherence = integrity, authenticity, alignment.
+      Truth + Love = compassionate honesty (truth in kindness).
+      Truth + Polarity = discrimination (true/false).
+      Truth + Pattern = revealed structure (seeing the Matrix).
+      Truth + Judgment = truth dissolves judgment (just shows what is).
+      At high consciousness, truth is seen directly without filters.
+      At low consciousness, truth is obscured by beliefs, fears, desires.
+      Key insight: "Truth will set you free" - seeing reality allows response.
+      Key insight: Truth without compassion can be cruel - needs love.
+
+# IMPLEMENTATION NOTES:
+# - Truth is Tier 2 "governing" force - fundamental aspect of reality
+# - Not relative - truth is what is actually so
+# - Can be painful to see (difficult truth) but seeing allows response
+# - Healthy relationship: authenticity, living aligned with truth
+# - Stuck relationship: denial (can't face) or weaponized (using to hurt)
+# - Visual should feel clear, bright, crystalline, illuminating
+# - White represents pure light - reveals, clarifies, illuminates
+# - Sharp edges = truth is precise, discriminates clearly
+# - At high coherence: truth integrated, authenticity natural
+# - At low coherence: truth fragmented, denial possible
+# - Key insight: Truth + Love = compassionate honesty (ideal)
+# - Key insight: Truth + Consciousness = enlightenment (clear seeing)
+# - Key insight: "Truth will set you free" - but first it might piss you off

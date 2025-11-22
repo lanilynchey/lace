@@ -1,0 +1,306 @@
+# Force Mapping: Judgment
+
+judgment:
+  # === METADATA ===
+  metadata:
+    tier: 3
+    category: "interface"  # Emotional/experiential force
+    dependencies: ["polarity", "truth"]
+    source_doc: "docs/02_forces/tier_3_forces/07_judgment.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#4B0082"  # Indigo - deep, evaluative, authoritative
+    color_family: "cool"
+    color_range:
+      - "#2E0854"  # Very dark purple (harsh judgment)
+      - "#4B0082"  # Indigo (active judgment)
+      - "#6A0DAD"  # Purple (evaluative)
+      - "#8A2BE2"  # Blue-violet (discernment)
+
+    saturation_base: 0.75
+    brightness_base: 0.45
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (mild evaluation)
+        color: "#8A2BE2"
+        saturation: 0.65
+        brightness: 0.60
+      medium_activation: # 0.4-0.7 (active judgment)
+        color: "#4B0082"
+        saturation: 0.75
+        brightness: 0.45
+      high_activation:   # 0.8-1.0 (harsh condemnation)
+        color: "#2E0854"
+        saturation: 0.85
+        brightness: 0.30
+
+    notes: |
+      Indigo/purple represents evaluation, authority, discrimination.
+      Deep, serious color - judgment is weighty, consequential.
+      Darker at high activation = harsh judgment, condemnation.
+      Lighter at low activation = discernment, evaluation.
+      Regal purple = judgment often carries authority, power.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "scales"  # Weighing, measuring, evaluating
+    sacred_geometry_association: "triangle"  # Hierarchy, evaluation, pointing
+    complexity_level: "medium"
+    edge_type: "sharp"  # Discriminating, definite
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Balanced scales, gentle evaluation.
+        Discernment, not condemnation.
+        Triangle stable, pointing toward truth.
+      medium_activation: |
+        Scales actively weighing, measuring.
+        Clear evaluation happening.
+        Triangle sharp, definite.
+      high_activation: |
+        Scales heavily weighted, imbalanced.
+        Harsh judgment, condemnation.
+        Triangle pointing down like dagger.
+        May appear as gavel striking.
+
+    notes: |
+      Scales = weighing, measuring, evaluating (good vs bad).
+      Triangle = hierarchy, pointing, direction (up=good, down=bad).
+      At low activation: balanced, discerning (wisdom).
+      At high activation: imbalanced, condemning (harsh).
+      Sharp edges = judgment discriminates clearly (this or that).
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "weighing"  # Measuring, evaluating, discriminating
+    speed_base: 0.50  # Moderate - judgment can be quick or slow
+
+    speed_modifier:
+      low_intensity: 0.30   # Careful evaluation
+      medium_intensity: 0.50  # Active judgment
+      high_intensity: 0.80   # Snap judgment, quick condemnation
+
+    direction: "vertical"  # Up (good) or down (bad)
+    rhythm: "decisive"  # Judgment is definite, conclusive
+
+    healthy_pattern:
+      description: "Discernment - clear evaluation without condemnation, wisdom"
+      characteristics:
+        - "Can evaluate without condemning"
+        - "Sees nuance, context, complexity"
+        - "Judgment serves wisdom, not ego"
+        - "Can say 'this is harmful' without 'you are bad'"
+
+    stuck_pattern:
+      description: "Condemnation or non-judgment - either harsh judgment or inability to discern"
+      characteristics:
+        - "Harsh, condemning judgment"
+        - "Rigid good/bad, right/wrong"
+        - "Or: inability to discern, 'everything is fine'"
+        - "Judgment as weapon or identity"
+
+    notes: |
+      Weighing motion = evaluating, measuring, discriminating.
+      Vertical direction = judgment places things high or low (good/bad).
+      Decisive rhythm = judgment is conclusive, definite.
+      Healthy: discernment (clear seeing without condemnation).
+      Stuck: condemnation (harsh, rigid) or inability to discern (no boundaries).
+      "Judgment without compassion is cruelty."
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.65  # Moderately vibrant (judgment is serious but present)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "-0.15"  # High coherence softens judgment to discernment
+        description: "Judgment becomes discernment - clear seeing without condemnation"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal evaluative judgment"
+      low_coherence:     # 0.0-0.3
+        modifier: "+0.25"  # Low coherence amplifies harsh judgment
+        description: "Harsh condemnation, rigid good/bad, or projection"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.25)"
+      multiplier: 0.25
+
+    interaction_modifier:
+      synergistic: "+0.15 to +0.20"  # With polarity (binary thinking), fear (judgment as defense)
+      antagonistic: "-0.20 to -0.30"  # Softened by love, forgiveness, coherence
+      neutral: "0.0"
+
+    notes: |
+      Judgment is serious, weighty, consequential.
+      At high coherence, judgment transforms to discernment (wisdom).
+      At low coherence, judgment becomes condemnation (harsh, projective).
+      Low coherence judgment often = self-judgment projected outward.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "sharp"
+    opacity_range:
+      min: 0.65  # Judgment is tangible, definite
+      max: 0.90  # Can be very solid, heavy
+
+    particle_effects: true
+    particle_type: "measuring_lines"  # Evaluation, comparison, weighing
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: null  # Judgment is decisive, not harmonic
+      tone_description: "Decisive, like gavel striking or bell tolling - definite, conclusive"
+      musical_note: null
+
+    emotional_tone: "evaluative, discriminating, authoritative, weighty, definite"
+
+    consciousness_association: null  # Judgment exists at all consciousness levels
+
+    notes: |
+      Sharp texture = judgment discriminates, cuts, defines.
+      Measuring lines = constant evaluation, comparison.
+      Gavel strike = decisive, conclusive, authoritative.
+      High opacity = judgment feels heavy, definite, real.
+      Judgment is tool (discernment) or weapon (condemnation).
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "polarity"  # Binary thinking amplifies judgment
+      - "truth"  # Truth provides data for judgment
+      - "fear"  # Fear uses judgment as defense
+      - "karma"  # What you judge, you attract (karmic mirror)
+
+    antagonistic_with:
+      - "love"  # Love dissolves judgment
+      - "forgiveness"  # Forgiveness releases judgment
+      - "coherence"  # Coherence transforms judgment to discernment
+
+    neutralizes: []
+
+    amplified_by:
+      - "polarity"  # Binary thinking strengthens judgment
+      - "fear"  # Fear intensifies defensive judgment
+      - "low_coherence"  # Fragmentation creates harsh judgment
+
+    visual_blending_rules:
+      when_combined_with_polarity:
+        force: "polarity"
+        color_effect: "blend"  # Indigo + gray = rigid binary judgment
+        shape_effect: "merge"  # Scales within binary structure
+        motion_effect: "synchronized"  # Both discriminate (good/bad, right/wrong)
+        result_description: |
+          Polarity provides binary structure for judgment.
+          Indigo scales within gray cube.
+          Good/bad, right/wrong, worthy/unworthy.
+          At low coherence: rigid, harsh, no nuance.
+          At high coherence: clear discernment without rigidity.
+        coherence_dependent: true
+
+      when_combined_with_truth:
+        force: "truth"
+        color_effect: "blend"  # Indigo + white = illuminated judgment
+        shape_effect: "merge"  # Scales weighing clear truth
+        motion_effect: "synchronized"  # Both evaluate
+        result_description: |
+          Truth provides data for judgment.
+          Indigo scales illuminated by white light.
+          "Righteous judgment" - evaluation based on truth.
+          At high coherence: discernment (clear, wise).
+          At low coherence: condemnation (harsh, rigid).
+        coherence_dependent: true
+
+      when_combined_with_love:
+        force: "love"
+        color_effect: "softening"  # Pink softens indigo
+        shape_effect: "transforming"  # Scales soften, become compassionate
+        motion_effect: "gentle"  # Love tempers judgment
+        result_description: |
+          Love transforms judgment to discernment.
+          Indigo softening to pink-purple.
+          "Judgment in love" - can see clearly without condemning.
+          Scales balanced by compassion.
+          "Hate the sin, love the sinner."
+        coherence_dependent: false
+
+      when_combined_with_forgiveness:
+        force: "forgiveness"
+        color_effect: "releasing"  # Lavender-pink dissolves indigo
+        shape_effect: "softening"  # Scales dissolve into understanding
+        motion_effect: "releasing"  # Forgiveness releases judgment
+        result_description: |
+          Forgiveness releases condemnation.
+          Soft lavender-pink wave dissolving indigo scales.
+          From judgment to understanding to release.
+          "I see what happened, and I let go of condemnation."
+        coherence_dependent: false
+
+      when_combined_with_fear:
+        force: "fear"
+        color_effect: "blend"  # Indigo + dark blue = defensive judgment
+        shape_effect: "merge"  # Scales as weapon, spikes as defense
+        motion_effect: "defensive"  # Judgment as protection
+        result_description: |
+          Fear uses judgment as defense.
+          Dark indigo scales with defensive spikes.
+          "I'll judge you before you judge me."
+          Judgment as armor, protecting wounded self.
+          Harsh judgment of others often = self-judgment projected.
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "transforming"  # Indigo lightens toward gold
+        shape_effect: "transforming"  # Scales become wisdom
+        motion_effect: "balanced"  # Coherence creates balanced discernment
+        result_description: |
+          Coherence transforms judgment to discernment.
+          Indigo lightening, scales balanced perfectly.
+          From condemnation to wisdom.
+          Can see clearly without condemning.
+          This is Solomon's wisdom - clear seeing with compassion.
+        coherence_dependent: false
+
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Indigo + lavender = aware evaluation
+        shape_effect: "nested"  # Judgment within awareness
+        motion_effect: "witnessed"  # Can observe judgment without identifying
+        result_description: |
+          Consciousness witnesses judgment without identifying.
+          Indigo scales within lavender sphere.
+          "I notice I'm judging, and I can choose differently."
+          Awareness of judgment allows transcendence of it.
+        coherence_dependent: false
+
+    notes: |
+      Judgment is tool or weapon - depends on coherence.
+      At high coherence: judgment → discernment (wisdom, clear seeing).
+      At low coherence: judgment → condemnation (harsh, rigid, projective).
+      Judgment + Polarity = binary thinking (good/bad, right/wrong).
+      Judgment + Truth = righteous judgment (can be wise or harsh).
+      Judgment + Love = compassionate discernment (sees clearly without condemning).
+      Judgment + Forgiveness = judgment releases into understanding.
+      Judgment + Fear = defensive judgment (judgment as armor).
+      Judgment + Coherence = discernment (balanced, wise, compassionate).
+      Harsh judgment of others often = self-judgment projected outward.
+      Key insight: "When you judge another, you condemn yourself" (projection).
+      Key insight: Discernment ≠ judgment (can see clearly without condemning).
+
+# IMPLEMENTATION NOTES:
+# - Judgment is Tier 3 "interface" force - experiential/emotional
+# - Judgment is neutral tool - becomes weapon at low coherence
+# - Healthy judgment = discernment (clear seeing without condemnation)
+# - Stuck judgment = condemnation (harsh, rigid, projective)
+# - Visual should feel evaluative, weighty, authoritative, definite
+# - Indigo/purple represents evaluation, authority, discrimination
+# - Scales = weighing good vs bad, right vs wrong
+# - At high coherence: judgment transforms to discernment (wisdom)
+# - At low coherence: judgment becomes condemnation (harsh, rigid)
+# - Key insight: Harsh judgment of others = self-judgment projected
+# - Key insight: "Judge not, lest ye be judged" - what you condemn in others, you condemn in self
+# - Key insight: Discernment sees clearly without condemning (wisdom)
+# - "Hate the sin, love the sinner" - discernment without condemnation

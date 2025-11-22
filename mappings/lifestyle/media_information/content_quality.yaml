@@ -1,0 +1,201 @@
+# Lifestyle Factor: Content Quality (Information Diet)
+
+content_quality:
+  # === METADATA ===
+  metadata:
+    category: "media_information"
+    measurement_type: "subjective"  # Quality of consumed content
+    update_frequency: "weekly"
+    importance: "high"  # "You are what you eat" applies to information too
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Junk information - rage bait, gossip, clickbait, toxic content dominant"
+      indicators:
+        - "Mostly social media feeds, clickbait, sensational news"
+        - "Rage bait, drama, gossip, outrage content"
+        - "No intentional learning or growth content"
+        - "Feel worse after consuming (anxious, angry, depleted)"
+        - "Algorithms decide what you consume"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Mixed quality - some enriching, some junk, somewhat curated"
+      indicators:
+        - "Mix of entertainment and learning"
+        - "Some intentional content choices"
+        - "Occasional books, long-form, educational"
+        - "Still some doom scrolling, but not dominant"
+        - "Sometimes feel enriched, sometimes depleted"
+
+    high:
+      range: "0.8-1.0"
+      description: "High-quality diet - curated, enriching, growth-oriented, intentional"
+      indicators:
+        - "Primarily books, long-form, educational content"
+        - "Intentionally curated sources"
+        - "Content chosen for growth, learning, inspiration"
+        - "Minimal social media feeds, clickbait avoided"
+        - "Feel enriched, inspired, expanded after consuming"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    consciousness:
+      low: -0.30    # Junk content narrows awareness
+      medium: 0.0
+      high: +0.25   # Quality content expands consciousness
+      notes: "Information shapes consciousness - feed it junk, consciousness narrows"
+
+    anxiety:
+      low: +0.35    # Rage bait, doom scrolling = anxiety engine
+      medium: +0.05
+      high: -0.15   # Quality content reduces anxiety
+      notes: "News/social designed for engagement (= anxiety) - quality content calms"
+
+    worldview:
+      low: -0.35    # Distorted, negative worldview from news/social
+      medium: 0.0
+      high: +0.25   # Balanced, nuanced worldview from quality sources
+      notes: "'Mean World Syndrome' - news makes world seem worse than it is"
+
+    attention_span:
+      low: -0.35    # Clickbait, short-form = attention shredded
+      medium: -0.10
+      high: +0.25   # Long-form, books = attention trained
+      notes: "Attention is muscle - short-form atrophies it, long-form strengthens"
+
+    learning:
+      low: -0.25    # No learning from junk content
+      medium: +0.05
+      high: +0.30   # Quality content = continuous learning
+      notes: "Information ≠ knowledge - junk gives information, quality gives knowledge"
+
+    wisdom:
+      low: -0.20    # Junk content erodes wisdom
+      medium: 0.0
+      high: +0.25   # Quality content cultivates wisdom
+      notes: "Wisdom requires depth - shallow content provides data, not wisdom"
+
+    empathy:
+      low: -0.25    # Outrage content reduces empathy
+      medium: 0.0
+      high: +0.20   # Quality content expands empathy
+      notes: "Outrage content dehumanizes - quality content humanizes"
+
+    critical_thinking:
+      low: -0.30    # Junk content bypasses critical thinking
+      medium: 0.0
+      high: +0.25   # Quality content engages critical thinking
+      notes: "Clickbait designed to bypass thinking - quality content engages it"
+
+    inspiration:
+      low: -0.25    # Junk content depletes
+      medium: 0.0
+      high: +0.30   # Quality content inspires
+      notes: "Feel energized vs depleted after content - quality energizes"
+
+    creativity:
+      low: -0.20    # Junk content fills all space
+      medium: 0.0
+      high: +0.25   # Quality content sparks creativity
+      notes: "Creativity needs input - quality input = quality output"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Feel effects of content immediately
+    chronic_impact: "worldview_shaping"  # Long-term consumption shapes beliefs, values, perception
+    recovery_time: "Weeks to months to shift content habits, worldview"
+
+    notes: |
+      "You become what you consume" - information shapes consciousness.
+      Media diet as important as food diet.
+      Garbage in, garbage out - applies to information.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - anxiety: "Rage bait, doom scrolling amplify anxiety"
+      - distorted_worldview: "News bias toward negative, sensational"
+      - attention_problems: "Short-form content fragments attention"
+
+    dampens:
+      - critical_thinking: "Clickbait bypasses reason"
+      - empathy: "Outrage content dehumanizes"
+      - nuance: "Social media collapses nuance to black/white"
+
+    synergizes_with:
+      - screen_time: "Quality content in moderation < junk content excessively"
+      - learning: "Quality content = continuous education"
+      - relationships: "Shared quality content = meaningful conversation"
+
+  # === NOTES ===
+  notes: |
+    Information is nutrition for mind - junk food vs whole food applies.
+    Media companies profit from attention - optimize for engagement (anxiety), not wellbeing.
+
+    Key insights:
+    - Content designed for engagement = designed for anxiety (outrage, fear, envy)
+    - News = worst of world (plane crashes, not safe landings)
+    - Social media = highlight reels + outrage (distorted reality)
+    - Algorithms amplify extreme (moderate content less engaging)
+    - "Mean World Syndrome" - heavy news consumers think world more dangerous than it is
+
+    Junk content characteristics:
+    - Clickbait headlines (curiosity gap, outrage)
+    - Short-form, rapid consumption
+    - Emotional manipulation (rage, fear, envy)
+    - No depth, all surface
+    - Designed for viral spread (emotion > truth)
+    - Ad-supported (attention is product)
+
+    Quality content characteristics:
+    - Long-form (books, essays, documentaries)
+    - Depth over breadth
+    - Nuance, complexity honored
+    - Educational, inspiring, perspective-expanding
+    - Thoughtful, researched, edited
+    - Often paid (quality costs, supported by consumers not advertisers)
+
+    Content categories:
+    - Books (highest quality, depth, curation)
+    - Long-form articles/essays
+    - Documentaries, lectures
+    - Educational podcasts
+    - Newsletters from thoughtful writers
+    - Art, poetry, literature
+    vs
+    - Social media feeds (algorithm-curated outrage)
+    - News (negativity bias, sensationalism)
+    - Clickbait, listicles, hot takes
+    - Reality TV, gossip
+    - Shallow entertainment
+
+    News consumption guidelines:
+    - Limit to 15-30 min per day max
+    - Choose curated newsletters over feeds
+    - Avoid "breaking news" (wait for analysis)
+    - International news better than local (less anxiety-inducing)
+    - Positive news sources balance negativity bias
+
+    Information diet strategy:
+    - Intentional consumption (choose, don't autopilot)
+    - High quality > high quantity
+    - Books as primary source
+    - Unfollow anxiety-inducing sources
+    - Curate feeds ruthlessly
+    - Pay for quality (ad-free = agenda-free)
+    - "Information sabbath" - regular breaks
+
+    "Guard your mind as you would your wallet" - attention is most valuable resource.
+
+    Questions to ask:
+    - Do I feel better or worse after consuming this?
+    - Did I learn, grow, expand?
+    - Was this intentional or automatic?
+    - Would I be proud of this content diet?
+    - What worldview is this content promoting?
+
+    You can't control what's published, but you control what enters your consciousness.
+    Choose carefully - your mind is sacred space.

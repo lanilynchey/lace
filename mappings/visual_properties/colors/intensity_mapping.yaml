@@ -1,0 +1,217 @@
+# Intensity Mapping Rules
+# How force activation levels (0.0-1.0) affect color properties
+
+intensity_mapping:
+  # === CORE PRINCIPLE ===
+  principle: |
+    Force activation level (0.0-1.0) modulates color intensity/saturation.
+    Low activation = muted, desaturated, subtle
+    High activation = vivid, saturated, intense
+
+    Agent applies these rules to ANY force's base color.
+
+  # === ACTIVATION RANGES ===
+  activation_ranges:
+    low:
+      range: "0.0-0.3"
+      description: "Minimal force presence, barely perceptible"
+      color_adjustments:
+        saturation_modifier: "-0.3"  # Desaturate significantly
+        brightness_modifier: "-0.2"  # Darken slightly
+        opacity_modifier: "0.4-0.6"  # More transparent
+      notes: "Force is present but subdued - ghost of itself"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Moderate force presence, clearly visible"
+      color_adjustments:
+        saturation_modifier: "0.0"  # Base saturation (no change)
+        brightness_modifier: "0.0"  # Base brightness (no change)
+        opacity_modifier: "0.7-0.9"  # Standard opacity
+      notes: "Force at typical operating level - use base color"
+
+    high:
+      range: "0.8-1.0"
+      description: "Maximum force presence, dominant"
+      color_adjustments:
+        saturation_modifier: "+0.2"  # Increase saturation (more vivid)
+        brightness_modifier: "+0.1"  # Slightly brighter (more intense)
+        opacity_modifier: "0.9-1.0"  # Nearly or fully opaque
+      notes: "Force at peak - color is vibrant, commanding attention"
+
+  # === TIER-SPECIFIC ADJUSTMENTS ===
+  tier_specific:
+    tier_1:
+      notes: "Primordial forces - intensity affects DEPTH rather than brightness"
+      adjustments:
+        entropy:
+          low: "Lighter gray #4A4A4A"
+          high: "Deeper black #0D0D0D"
+        consciousness:
+          low: "Pale lavender #F0F0FA"
+          high: "Pure white #FFFFFF (enlightenment)"
+        pattern:
+          low: "Pale turquoise #A0F0E0"
+          high: "Bright turquoise #00CED1"
+        coherence:
+          low: "Pale gold #FFE8A0"
+          high: "Brilliant gold #FFA500"
+        polarity:
+          notes: "Oscillates based on which pole is active"
+          low: "Mid gray #808080"
+          high_positive: "Near white #F0F0F0"
+          high_negative: "Near black #101010"
+
+    tier_2:
+      notes: "Governing forces - intensity affects CLARITY"
+      adjustments:
+        time:
+          low: "Dim silver #A8A8A8"
+          high: "Bright silver #E8E8E8"
+        karma:
+          low: "Light brown #A67C52"
+          high: "Deep brown #654321"
+        truth:
+          low: "Off-white #F8F8F8"
+          high: "Pure white #FFFFFF"
+        memory:
+          low: "Light purple #B8A0D8"
+          high: "Deep purple #8A2BE2"
+        death:
+          low: "Dark gray #2C2C2C"
+          high: "Pure black #000000"
+        creation:
+          low: "Pale green #A0FFC7"
+          high: "Vivid green #00FA9A"
+
+    tier_3:
+      notes: "Interface forces - intensity affects EMOTIONAL VIBRANCY"
+      adjustments:
+        fear:
+          low: "Dim blue-purple #3A3A5A"
+          high: "Deep darkness #0D0D1F"
+        desire:
+          low: "Faded crimson #E08080"
+          high: "Intense firebrick #B22222"
+        love:
+          low: "Pale pink #FFD0D8"
+          high: "Radiant hot pink #FF69B4"
+        hope:
+          low: "Pale sky blue #C0E0F0"
+          high: "Bright sky blue #87CEFA"
+        pain:
+          low: "Dark maroon #6A2020"
+          high: "Near black red #2B0000"
+        forgiveness:
+          low: "Very pale lavender #F0E8F0"
+          high: "Soft thistle #D8BFD8"
+        judgment:
+          low: "Faded indigo #7070A0"
+          high: "Deep slate blue #483D8B"
+
+    tier_4:
+      notes: "Emergent forces - intensity affects EXPRESSIVENESS"
+      adjustments:
+        courage:
+          low: "Muted orange #D0A070"
+          high: "Vivid orange #FF7F00"
+        war:
+          low: "Dull red #A04040"
+          high: "Deep brown-red #A52A2A"
+        madness:
+          low: "Soft purple #9070B0"
+          high: "Intense violet #9400D3"
+        beauty:
+          low: "Soft gold #F0E68C"
+          high: "Brilliant gold #FFD700"
+        art:
+          low: "Soft pink #FF9AB0"
+          high: "Vivid hot pink #FF69B4"
+        music:
+          low: "Light purple #B0A0D8"
+          high: "Rich orchid #BA55D3"
+        humor:
+          low: "Pale gold #FFEDB0"
+          high: "Sparkling gold (with particle effects)"
+        luck:
+          low: "Soft green #90FF90"
+          high: "Brilliant lime #32CD32"
+
+  # === FORMULA ===
+  calculation_formula: |
+    Given:
+    - base_color (from base_palette.yaml)
+    - activation_level (0.0-1.0)
+
+    Steps:
+    1. Determine range (low, medium, high)
+    2. Look up tier-specific adjustment if available
+    3. If tier-specific exists: use that hex directly
+    4. If not: apply saturation/brightness modifiers to base_color
+    5. Apply opacity modifier
+    6. Return final color
+
+    Pseudocode:
+    ```python
+    def apply_intensity(force, base_color, activation_level):
+        range_key = get_range(activation_level)  # low, medium, high
+
+        # Check for tier-specific override
+        tier = get_tier(force)
+        if tier_adjustments[tier][force][range_key]:
+            return tier_adjustments[tier][force][range_key]
+
+        # Otherwise apply general modifiers
+        sat_mod = activation_ranges[range_key].saturation_modifier
+        bright_mod = activation_ranges[range_key].brightness_modifier
+        opacity = activation_ranges[range_key].opacity_modifier
+
+        return adjust_color(base_color, sat_mod, bright_mod, opacity)
+    ```
+
+  # === SPECIAL CASES ===
+  special_cases:
+    polarity_oscillation:
+      description: "Polarity doesn't just scale intensity - it SHIFTS between poles"
+      logic: |
+        If polarity near 0.0: black with cool hues (#101010 - #2A2A3A)
+        If polarity near 0.5: neutral gray (#808080)
+        If polarity near 1.0: white with warm hues (#F0F0E8 - #FFFAF0)
+
+        Agent interpolates based on exact activation level.
+
+    consciousness_enlightenment:
+      description: "Consciousness at 1.0 becomes pure white (enlightenment)"
+      logic: |
+        0.0-0.3: Dim gray (unconscious)
+        0.4-0.7: Lavender (aware)
+        0.8-0.9: Bright lavender (highly conscious)
+        1.0: Pure white (creator consciousness)
+
+    death_completion:
+      description: "Death at 1.0 becomes absolute void (pure black)"
+      logic: |
+        0.0-0.3: Dark gray (distant)
+        0.4-0.7: Very dark (approaching)
+        0.8-1.0: Absolute black (completion)
+
+# === USAGE EXAMPLE ===
+usage_example: |
+  Example: Fear force at different activation levels
+
+  Fear base color: #1C1C3A (dark blue-purple)
+
+  At 0.2 activation (low):
+  - Look up tier_3 → fear → low: #3A3A5A (dim blue-purple)
+  - Opacity: 0.5 (quite transparent)
+  - Result: Barely visible dark blue-purple presence
+
+  At 0.5 activation (medium):
+  - Use base color: #1C1C3A
+  - Opacity: 0.8
+  - Result: Clear dark blue-purple, standard intensity
+
+  At 0.9 activation (high):
+  - Look up tier_3 → fear → high: #0D0D1F (deep darkness)
+  - Opacity: 1.0 (fully opaque)
+  - Result: Overwhelming dark presence, nearly black

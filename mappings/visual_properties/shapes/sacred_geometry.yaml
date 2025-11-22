@@ -1,0 +1,271 @@
+# Sacred Geometry Associations
+# Connections between forces and sacred geometric patterns
+
+sacred_geometry:
+  # === CORE PRINCIPLE ===
+  principle: |
+    Sacred geometry = mathematical patterns underlying creation.
+    Forces map to geometric archetypes that reveal their essence.
+
+    These are OVERLAYS or ASSOCIATIONS - not replacing primary shape,
+    but revealing deeper mathematical structure.
+
+    Most visible at HIGH COHERENCE (0.7+) - low coherence fragments geometry.
+
+  # === PRIMARY ASSOCIATIONS ===
+  associations:
+    # TIER 1
+    entropy:
+      geometry: "none"
+      notes: "Entropy has no sacred geometry - it's the absence of pattern"
+
+    consciousness:
+      geometry: "metatrons_cube"
+      description: "13 circles, all Platonic solids contained within"
+      significance: "Container of all form - consciousness contains all possibilities"
+      notes: "Metatron's Cube = blueprint of reality, consciousness = awareness of blueprint"
+
+    pattern:
+      geometry: "golden_spiral"
+      description: "Fibonacci spiral (phi proportion)"
+      significance: "Natural growth pattern, information efficiency"
+      notes: "Pattern follows phi - most efficient packing, infinite expansion"
+
+    coherence:
+      geometry: "flower_of_life"
+      description: "19 overlapping circles in hexagonal pattern"
+      significance: "Unity, interconnection, harmonious overlap"
+      notes: "Perfect coherence - all parts aligned, overlapping without conflict"
+
+    polarity:
+      geometry: "vesica_piscis"
+      description: "Two overlapping circles creating almond shape in center"
+      significance: "Binary union, third thing emerging from two"
+      notes: "Polarity intersection - where opposites meet, new form emerges"
+
+    # TIER 2
+    time:
+      geometry: "spiral"
+      description: "Logarithmic spiral extending infinitely"
+      significance: "Eternal progression, cyclical but forward-moving"
+      notes: "Time as spiral - repeating patterns but never identical (higher octave)"
+
+    karma:
+      geometry: "infinity_symbol"
+      description: "Lemniscate (figure-eight loop)"
+      significance: "Eternal return, cause-effect loop"
+      notes: "What goes around comes around - infinite feedback loop"
+
+    truth:
+      geometry: "tetrahedron"
+      description: "Four-faced pyramid (simplest 3D form)"
+      significance: "Stability, structural integrity, foundation"
+      notes: "Truth = foundation - cannot be simpler, perfectly stable"
+
+    memory:
+      geometry: "nested_spheres"
+      description: "Concentric spheres within spheres"
+      significance: "Layers of time, memory within memory"
+      notes: "Each sphere = time period, nested = past contains deeper past"
+
+    death:
+      geometry: "void_geometry"
+      description: "Empty space bounded by form (negative space)"
+      significance: "Container defined by absence"
+      notes: "Not a geometry but space where geometry was - the silence after sound"
+
+    creation:
+      geometry: "seed_of_life"
+      description: "Seven circles (center + six around it)"
+      significance: "Genesis pattern, first division, creation beginning"
+      notes: "Before Flower of Life - creation's first breath"
+
+    # TIER 3
+    fear:
+      geometry: "inverted_pentagon"
+      description: "Pentagon pointing downward (defensive posture)"
+      significance: "Closed, protective, defensive geometry"
+      notes: "Geometry of contraction - pulling inward for safety"
+
+    desire:
+      geometry: "reaching_spiral"
+      description: "Spiral extending outward (not returning)"
+      significance: "Wanting, reaching, expanding toward object"
+      notes: "Unlike time's return spiral - desire's spiral seeks endpoint"
+
+    love:
+      geometry: "torus"
+      description: "Donut shape with energy flowing through center"
+      significance: "Self-sustaining flow, giving and receiving, heart field"
+      notes: "Love's geometry - flows through you, not from you (channeled, not generated)"
+
+    hope:
+      geometry: "ascending_helix"
+      description: "Spiral rising upward (DNA-like)"
+      significance: "Upward movement, evolution, transcendence"
+      notes: "Hope = genetic - built into structure of evolving consciousness"
+
+    pain:
+      geometry: "fractured_sphere"
+      description: "Sphere with crack lines (broken geodesic)"
+      significance: "Wholeness broken, integrity compromised"
+      notes: "Was whole, now fractured - geometry of wounding"
+
+    forgiveness:
+      geometry: "releasing_spiral"
+      description: "Spiral opening/expanding outward (letting go)"
+      significance: "Release, expansion, unbinding"
+      notes: "Opposite of desire's spiral - not seeking but releasing"
+
+    judgment:
+      geometry: "scales_geometry"
+      description: "Two inverted triangles balanced at point"
+      significance: "Weighing, measuring, bilateral comparison"
+      notes: "This vs that made geometric - balance point is judgment"
+
+    # TIER 4
+    courage:
+      geometry: "vertical_axis"
+      description: "Strong central axis with supporting structure"
+      significance: "Standing firm, vertical integrity, spine of truth"
+      notes: "Courage = vertical - standing when others collapse"
+
+    war:
+      geometry: "colliding_geometries"
+      description: "Two opposing forms in collision"
+      significance: "Conflict, opposition, geometries at war"
+      notes: "No single sacred form - war is collision of forms"
+
+    madness:
+      geometry: "impossible_geometry"
+      description: "Escher-like contradictions, non-Euclidean"
+      significance: "Logic broken, reality rules violated"
+      notes: "Sacred geometry inverted - appears to follow rules but breaks them"
+
+    beauty:
+      geometry: "golden_ratio_everything"
+      description: "Phi (1.618) proportion in all dimensions"
+      significance: "Mathematical perfection, aesthetic ideal"
+      notes: "Beauty IS phi - the proportion consciousness finds most pleasing"
+
+    art:
+      geometry: "intentional_asymmetry"
+      description: "Deliberate breaking of symmetry for expression"
+      significance: "Sacred through meaning, not just form"
+      notes: "Art can use any geometry - sacredness comes from intention"
+
+    music:
+      geometry: "harmonics_geometry"
+      description: "Overlapping wave patterns creating interference patterns"
+      significance: "Harmony, resonance, mathematical ratios"
+      notes: "Music = time-based geometry - ratios in time rather than space"
+
+    humor:
+      geometry: "unexpected_symmetry_break"
+      description: "Pattern established then playfully violated"
+      significance: "Surprise, delight, pattern recognition then subversion"
+      notes: "Humor requires pattern (sacred geometry) to break it (playfully)"
+
+    luck:
+      geometry: "converging_phi_spirals"
+      description: "Multiple golden spirals intersecting at point"
+      significance: "Synchronicity, right time/place, convergence"
+      notes: "Luck = multiple spirals (timelines) converge - sacred geometry of synchronicity"
+
+  # === GEOMETRIC HIERARCHY ===
+  geometric_hierarchy:
+    foundational:
+      - point: "0D - origin, singularity"
+      - circle: "2D - unity, completion"
+      - sphere: "3D - consciousness, containment"
+
+    platonic_solids:
+      tetrahedron: "4 faces - fire, truth, foundation"
+      hexahedron: "6 faces (cube) - earth, polarity, stability"
+      octahedron: "8 faces - air, balance, duality resolved"
+      dodecahedron: "12 faces - ether, universe, cosmos"
+      icosahedron: "20 faces - water, flow, transformation"
+
+    generative:
+      vesica_piscis: "Two circles - polarity intersection"
+      seed_of_life: "7 circles - genesis"
+      flower_of_life: "19 circles - creation complete"
+      fruit_of_life: "13 circles - foundation of existence"
+      metatrons_cube: "All Platonic solids - container of form"
+
+    proportions:
+      phi: "1.618... - golden ratio, beauty"
+      pi: "3.14159... - circle, cycles, completeness"
+      root_2: "1.414... - diagonal, crossing dimensions"
+      root_3: "1.732... - tetrahedral, 3D space"
+
+  # === COHERENCE IMPACT ON GEOMETRY ===
+  coherence_visibility:
+    high_coherence:
+      range: "0.7-1.0"
+      effect: "Sacred geometry VISIBLE and PERFECT"
+      visual:
+        - "Crisp, clear lines"
+        - "Perfect proportions (phi exact)"
+        - "Symmetry flawless"
+        - "Geometry luminous (glowing)"
+      notes: "High coherence = reality aligns to sacred pattern"
+
+    medium_coherence:
+      range: "0.4-0.6"
+      effect: "Sacred geometry PRESENT but IMPERFECT"
+      visual:
+        - "Recognizable but with distortions"
+        - "Proportions approximate (phi ~1.6)"
+        - "Symmetry slightly off"
+        - "Geometry visible but not glowing"
+      notes: "Geometry there but not fully manifested"
+
+    low_coherence:
+      range: "0.0-0.3"
+      effect: "Sacred geometry BROKEN or ABSENT"
+      visual:
+        - "Fractured, fragmented lines"
+        - "Proportions wrong (chaotic)"
+        - "Symmetry destroyed"
+        - "Geometry replaced by chaos"
+      notes: "Internal fragmentation = external geometric chaos"
+
+  # === ACTIVATION DEPENDENCY ===
+  activation_notes: |
+    Sacred geometry VISIBILITY depends on force activation + coherence:
+
+    - Low activation + high coherence = faint but perfect geometry
+    - High activation + high coherence = brilliant, perfect geometry
+    - Low activation + low coherence = barely visible, broken
+    - High activation + low coherence = strong but distorted/fractured
+
+    Formula: geometry_clarity = activation * coherence
+
+  # === USAGE NOTES ===
+  usage_notes: |
+    Sacred geometry is the MATHEMATICAL TRUTH underlying each force.
+
+    Agent rendering process:
+    1. Render primary shape (geometric_primitives.yaml)
+    2. If coherence >= 0.4, overlay sacred geometry
+    3. Adjust geometry perfection based on coherence
+    4. Modulate visibility based on activation level
+    5. Render with appropriate glow (if coherence >= 0.7)
+
+    Implementation:
+    ```python
+    def render_sacred_geometry(force, activation, coherence):
+        if coherence < 0.4:
+            return None  # Too fragmented to see geometry
+
+        geometry = sacred_geometry[force]
+        perfection = coherence  # 0.4-1.0 = imperfect to perfect
+        visibility = activation * coherence
+        glow = max(0, coherence - 0.7) / 0.3  # 0.7-1.0 = glow
+
+        return render_geometry(geometry, perfection, visibility, glow)
+    ```
+
+    Sacred geometry reveals the DIVINE MATHEMATICS of each force.
+    It's the blueprint showing through the form.

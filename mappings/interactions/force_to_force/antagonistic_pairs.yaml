@@ -1,0 +1,290 @@
+# Antagonistic Force Pairs
+# Forces that conflict and clash when active simultaneously
+# Source: INTERACTION_MECHANICS.md
+
+antagonistic_pairs:
+  # === PRINCIPLE ===
+  principle: |
+    Antagonistic forces CONFLICT - they pull in opposite directions.
+    When both active, they create tension, internal war, paralysis.
+
+    Visual effect: Clashing colors, stuttering motion, harsh boundaries.
+    Psychological effect: Suffering, internal conflict, "stuckness".
+
+  # === TIER 1 ANTAGONISMS ===
+  tier_1_antagonisms:
+    entropy_coherence:
+      forces: [entropy, coherence]
+      relationship: "Chaos vs Unity - fundamental opposition"
+      effect: "Coherence fighting decay, entropy fragmenting wholeness"
+      conflict_intensity: "Extreme"
+      notes: "Primordial opposition - order vs disorder"
+
+    entropy_pattern:
+      forces: [entropy, pattern]
+      relationship: "Chaos vs Structure"
+      effect: "Pattern dissolving, entropy erasing information"
+      conflict_intensity: "Extreme"
+      notes: "Information vs noise - fundamental battle"
+
+    consciousness_entropy:
+      forces: [consciousness, entropy]
+      relationship: "Awareness vs Dissolution"
+      effect: "Consciousness trying to maintain coherence against decay"
+      conflict_intensity: "High"
+      notes: "Life vs heat death - awareness resists entropy"
+
+  # === TIER 2 ANTAGONISMS ===
+  tier_2_antagonisms:
+    creation_death:
+      forces: [creation, death]
+      relationship: "Beginning vs Ending - life cycle opposition"
+      effect: "Birth and death in same moment - transition point"
+      conflict_intensity: "Extreme"
+      notes: "Can't fully create while dying, can't fully die while birthing"
+
+    truth_memory:
+      forces: [truth, memory]
+      relationship: "Reality vs Recorded Past (when memory is false)"
+      effect: "Cognitive dissonance, conflicting stories"
+      conflict_intensity: "Medium (when memory distorted)"
+      notes: "Truth reveals memory's lies - uncomfortable"
+
+    time_death:
+      forces: [time, death]
+      relationship: "Flow vs Completion"
+      effect: "Time running out, deadline pressure"
+      conflict_intensity: "Medium"
+      notes: "Death stops time's flow - finality vs continuation"
+
+  # === TIER 3 ANTAGONISMS ===
+  tier_3_antagonisms:
+    fear_desire:
+      forces: [fear, desire]
+      relationship: "Want it but afraid - classic paralysis"
+      effect: "Freeze state, approach-avoidance conflict"
+      conflict_intensity: "Extreme"
+      notes: "Most common internal war - 'stuck' incarnate"
+
+    fear_courage:
+      forces: [fear, courage]
+      relationship: "Afraid but moving forward - tension"
+      effect: "Bravery is fear + action - productive conflict"
+      conflict_intensity: "High (but generative)"
+      notes: "Courage REQUIRES fear - not antagonism, transmutation"
+
+    fear_love:
+      forces: [fear, love]
+      relationship: "Protection vs Opening"
+      effect: "Want to connect but afraid to be vulnerable"
+      conflict_intensity: "High"
+      notes: "Fear closes, love opens - opposite movements"
+
+    love_judgment:
+      forces: [love, judgment]
+      relationship: "Acceptance vs Assessment"
+      effect: "Conditional love - 'I love you IF...'"
+      conflict_intensity: "Medium-High"
+      notes: "True love = unconditional; judgment = conditional"
+
+    desire_judgment:
+      forces: [desire, judgment]
+      relationship: "Want vs Critique"
+      effect: "Want something but judge self for wanting"
+      conflict_intensity: "Medium"
+      notes: "Shame about desire - internal conflict"
+
+    pain_forgiveness:
+      forces: [pain, forgiveness]
+      relationship: "Hurt vs Release"
+      effect: "Want to forgive but pain keeps re-activating"
+      conflict_intensity: "High"
+      notes: "Can't forgive while in acute pain - needs processing first"
+
+    hope_fear:
+      forces: [hope, fear]
+      relationship: "Aspiration vs Dread"
+      effect: "Hope for better while fearing worse"
+      conflict_intensity: "Medium"
+      notes: "Anxiety = hope + fear simultaneously"
+
+  # === TIER 4 ANTAGONISMS ===
+  tier_4_antagonisms:
+    courage_madness:
+      forces: [courage, madness]
+      relationship: "Bravery vs Insanity"
+      effect: "Recklessness - courage without pattern recognition"
+      conflict_intensity: "High"
+      notes: "Thin line between courage and madness"
+
+    beauty_war:
+      forces: [beauty, war]
+      relationship: "Creation vs Destruction"
+      effect: "Aesthetic perfection vs violent chaos"
+      conflict_intensity: "Extreme"
+      notes: "War destroys beauty, beauty opposes war"
+
+    humor_war:
+      forces: [humor, war]
+      relationship: "Playfulness vs Violence"
+      effect: "Gallows humor - laughing at horror"
+      conflict_intensity: "High (but can coexist)"
+      notes: "Humor disarms war, war kills humor"
+
+    art_war:
+      forces: [art, war]
+      relationship: "Expression vs Destruction"
+      effect: "Creating while destroying, destroying to create"
+      conflict_intensity: "Medium"
+      notes: "War can inspire art, art can protest war"
+
+  # === CROSS-TIER ANTAGONISMS ===
+  cross_tier_antagonisms:
+    entropy_love:
+      tiers: [1, 3]
+      forces: [entropy, love]
+      relationship: "Decay vs Connection"
+      effect: "Love fighting dissolution of relationships"
+      conflict_intensity: "High"
+      notes: "Entropy erodes all connections - love resists"
+
+    entropy_creation:
+      tiers: [1, 2]
+      forces: [entropy, creation]
+      relationship: "Decay vs Genesis"
+      effect: "Creating while everything decays"
+      conflict_intensity: "Extreme"
+      notes: "Fundamental life tension - build vs decay"
+
+    death_hope:
+      tiers: [2, 3]
+      forces: [death, hope]
+      relationship: "Ending vs Aspiration"
+      effect: "Hope in face of mortality"
+      conflict_intensity: "High"
+      notes: "Existential tension - aspire knowing death comes"
+
+    death_desire:
+      tiers: [2, 3]
+      forces: [death, desire]
+      relationship: "Completion vs Wanting"
+      effect: "Death negates all wanting"
+      conflict_intensity: "Extreme"
+      notes: "Desire becomes meaningless at death - existential conflict"
+
+    truth_fear:
+      tiers: [2, 3]
+      forces: [truth, fear]
+      relationship: "Reality vs Avoidance"
+      effect: "Afraid to see what IS"
+      conflict_intensity: "High"
+      notes: "Denial = fear blocking truth"
+
+    pattern_madness:
+      tiers: [1, 4]
+      forces: [pattern, madness]
+      relationship: "Order vs Chaos"
+      effect: "Pattern recognition broken, impossible logic"
+      conflict_intensity: "Extreme"
+      notes: "Madness = pattern-making gone wrong"
+
+    coherence_war:
+      tiers: [1, 4]
+      forces: [coherence, war]
+      relationship: "Unity vs Conflict"
+      effect: "Internal war destroys coherence"
+      conflict_intensity: "Extreme"
+      notes: "War = coherence shattered"
+
+  # === PRODUCTIVE ANTAGONISMS ===
+  productive_conflicts:
+    note: |
+      Some antagonisms are GENERATIVE - the tension creates something new.
+      These are conflicts that lead to growth, not just suffering.
+
+    fear_courage:
+      type: "Generative tension"
+      result: "Courage emerges FROM fear, not despite it"
+      notes: "Healthy antagonism - produces bravery"
+
+    desire_judgment:
+      type: "Refining tension"
+      result: "Discernment - learning to want wisely"
+      notes: "Judgment can refine desire into wisdom"
+
+    pain_growth:
+      type: "Transformative tension"
+      result: "Pain processed becomes wisdom"
+      notes: "Suffering that teaches"
+
+  # === STUCK STATES FROM ANTAGONISMS ===
+  stuck_states:
+    fear_desire_paralysis:
+      forces: [fear, desire]
+      state: "Freeze - want but can't move"
+      visual: "Stuttering motion, flickering between colors"
+      notes: "Classic stuck state - approach-avoidance conflict"
+
+    love_judgment_conditional:
+      forces: [love, judgment]
+      state: "Conditional love - 'I love you IF...'"
+      visual: "Love pink interrupted by judgment indigo - harsh boundaries"
+      notes: "Can't fully love while judging"
+
+    hope_fear_anxiety:
+      forces: [hope, fear]
+      state: "Anxiety - hoping for best, fearing worst"
+      visual: "Sky blue (hope) clashing with dark blue (fear) - rapid oscillation"
+      notes: "Future-focused suffering"
+
+    entropy_coherence_decay:
+      forces: [entropy, coherence]
+      state: "Fighting entropy, losing ground"
+      visual: "Gold (coherence) being invaded by gray (entropy) - fragmenting"
+      notes: "Coherence breaking down despite effort"
+
+  # === RESOLUTION PATHS ===
+  resolution_strategies:
+    transmutation:
+      description: "One force transforms the other"
+      examples:
+        - "Fear → Courage (through action)"
+        - "Pain → Wisdom (through processing)"
+        - "Desire → Contentment (through satisfaction or release)"
+
+    integration:
+      description: "Both forces held consciously, paradox embraced"
+      examples:
+        - "Love + Judgment → Discerning compassion"
+        - "Hope + Fear → Courageous optimism"
+        - "Creation + Death → Natural cycles honored"
+
+    release:
+      description: "One force released, other dominates"
+      examples:
+        - "Forgiveness releasing pain"
+        - "Truth releasing false memory"
+        - "Love releasing judgment"
+
+    separation:
+      description: "Forces separated in time/space - not simultaneous"
+      examples:
+        - "Time for desire, time for satisfaction"
+        - "Time for creation, time for destruction"
+        - "Creation while alive, death when complete"
+
+  # === USAGE NOTES ===
+  usage_notes: |
+    Antagonistic pairs reference from INTERACTION_MECHANICS.md.
+
+    When agent detects antagonistic pair:
+    1. Look up pair in this file (get conflict intensity)
+    2. Check coherence level:
+       - High coherence: Tension visible but managed
+       - Low coherence: Violent clashing, visual chaos
+    3. Use visual_blending/ files for visual representation:
+       - Harsh boundaries, clashing colors, stuttering motion
+    4. Result: Visible conflict, uncomfortable tension
+
+    These are the PROBLEMS to solve - internal wars that cause suffering.
+    Resolution comes through transmutation, integration, release, or separation.

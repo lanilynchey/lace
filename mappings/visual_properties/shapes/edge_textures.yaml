@@ -1,0 +1,346 @@
+# Edge Textures
+# Surface quality and edge characteristics for force geometries
+
+edge_textures:
+  # === CORE PRINCIPLE ===
+  principle: |
+    Edge texture communicates HOW the force interfaces with reality.
+    - Sharp edges = cutting, defensive, aggressive
+    - Smooth edges = flowing, harmonious, gentle
+    - Rough edges = organic, natural, textured
+    - Fractal edges = infinite detail, complexity
+    - Ethereal edges = permeable, dissolving, subtle
+
+    Texture affects:
+    - How force appears to "feel" (tactile quality)
+    - How it interacts with other forces
+    - Boundary clarity (defined vs fuzzy)
+    - Approachability (welcoming vs threatening)
+
+  # === TEXTURE CATEGORIES ===
+  texture_types:
+    sharp:
+      description: "Clean, precise, cutting edges"
+      feeling: "Dangerous, precise, aggressive, clear"
+      forces_with_this_texture:
+        - pain: "Jagged sharp (like broken glass)"
+        - war: "Weaponized sharp (blades, spikes)"
+        - judgment: "Precise sharp (surgical, measuring)"
+        - fear: "Defensive sharp (spikes, thorns)"
+        - truth: "Crystal sharp (faceted, clear-cut)"
+      boundary_quality: "Absolutely clear, no ambiguity"
+      interaction_style: "Cuts, separates, defines precisely"
+      notes: "Sharp = no compromise, no blending, clear distinction"
+
+    smooth:
+      description: "Continuous, flowing, seamless surfaces"
+      feeling: "Gentle, flowing, harmonious, welcoming"
+      forces_with_this_texture:
+        - love: "Warm smooth (inviting touch)"
+        - forgiveness: "Dissolving smooth (soft release)"
+        - hope: "Ascending smooth (gentle upward curve)"
+        - music: "Wave smooth (undulating, rhythmic)"
+        - consciousness: "Perfect smooth (spherical perfection)"
+        - coherence: "Unified smooth (seamless integration)"
+      boundary_quality: "Clear but permeable, soft transition"
+      interaction_style: "Blends, flows, harmonizes"
+      notes: "Smooth = ease, flow, no resistance"
+
+    rough:
+      description: "Textured, organic, irregular surfaces"
+      feeling: "Natural, lived-in, authentic, grounded"
+      forces_with_this_texture:
+        - karma: "Weathered rough (aged, worked)"
+        - creation: "Organic rough (natural, unrefined)"
+        - courage: "Resolute rough (battle-worn but standing)"
+        - memory: "Sedimentary rough (layers, erosion)"
+      boundary_quality: "Defined but not perfect, natural variation"
+      interaction_style: "Grips, holds, resists slipping"
+      notes: "Rough = authenticity, naturalness, earned character"
+
+    fractal:
+      description: "Infinitely detailed, self-similar patterns"
+      feeling: "Complex, mesmerizing, endless detail"
+      forces_with_this_texture:
+        - pattern: "Ordered fractal (Mandelbrot, Koch)"
+        - madness: "Chaotic fractal (contradictory, impossible)"
+        - beauty: "Golden fractal (phi-based recursion)"
+      boundary_quality: "Infinitely complex edge (no simple boundary)"
+      interaction_style: "Recursive engagement (zoom reveals more)"
+      notes: "Fractal = infinite depth, scale-invariant complexity"
+
+    ethereal:
+      description: "Translucent, dissolving, barely-there edges"
+      feeling: "Subtle, mystical, permeable, transcendent"
+      forces_with_this_texture:
+        - consciousness: "Ethereal smooth (awareness)"
+        - death: "Void ethereal (dissolving into nothing)"
+        - forgiveness: "Releasing ethereal (letting go)"
+        - luck: "Synchronicity ethereal (barely visible connection)"
+      boundary_quality: "Fuzzy, indistinct, permeable"
+      interaction_style: "Interpenetrates, no solid barrier"
+      notes: "Ethereal = transcendent, non-material, subtle"
+
+    liquid:
+      description: "Flowing, mercurial, shape-shifting"
+      feeling: "Adaptive, changing, flowing, unstable"
+      forces_with_this_texture:
+        - time: "Flowing liquid (river-like)"
+        - desire: "Grasping liquid (mercury tendrils)"
+        - entropy: "Dissolving liquid (formless flow)"
+      boundary_quality: "Constantly shifting, no fixed edge"
+      interaction_style: "Flows around, adapts shape"
+      notes: "Liquid = adaptability, no fixed form"
+
+    crystalline:
+      description: "Faceted, geometric, rigid structure"
+      feeling: "Precise, pure, unchanging, rigid"
+      forces_with_this_texture:
+        - truth: "Clear crystal (diamond-like)"
+        - pattern: "Structured crystal (geometric order)"
+        - judgment: "Rigid crystal (fixed assessment)"
+      boundary_quality: "Perfectly defined facets, angular transitions"
+      interaction_style: "Refracts, reflects, maintains form"
+      notes: "Crystalline = purity, precision, rigidity"
+
+    organic:
+      description: "Living, breathing, textured naturally"
+      feeling: "Alive, warm, complex, natural"
+      forces_with_this_texture:
+        - love: "Living organic (heart-like pulse)"
+        - creation: "Birthing organic (emergence)"
+        - art: "Expressive organic (intentional life)"
+      boundary_quality: "Natural variation, breathing edge"
+      interaction_style: "Grows, adapts, responds"
+      notes: "Organic = life, growth, responsive"
+
+  # === FORCE-SPECIFIC TEXTURES ===
+  force_textures:
+    # TIER 1
+    entropy:
+      primary_texture: "dissolving liquid"
+      secondary: "formless"
+      notes: "No fixed texture - anti-texture (dissolution of boundary)"
+
+    consciousness:
+      primary_texture: "ethereal smooth"
+      secondary: "luminous"
+      notes: "Barely-there but perfectly formed (awareness itself)"
+
+    pattern:
+      primary_texture: "fractal crystalline"
+      secondary: "infinitely detailed"
+      notes: "Perfect order at every scale"
+
+    coherence:
+      primary_texture: "unified smooth"
+      secondary: "seamless"
+      notes: "No breaks, no gaps - perfect integration"
+
+    polarity:
+      primary_texture: "sharp cubic"
+      secondary: "binary"
+      notes: "90-degree angles - no gradients, only switches"
+
+    # TIER 2
+    time:
+      primary_texture: "flowing liquid"
+      secondary: "smooth"
+      notes: "River-like - continuous flow, no catching it"
+
+    karma:
+      primary_texture: "weathered rough"
+      secondary: "chain links"
+      notes: "Worked metal - weight and consequence visible"
+
+    truth:
+      primary_texture: "crystal sharp"
+      secondary: "faceted"
+      notes: "Diamond clarity - refracts light, unchanging"
+
+    memory:
+      primary_texture: "sedimentary rough"
+      secondary: "layered"
+      notes: "Strata of time - deeper = older, weathered by age"
+
+    death:
+      primary_texture: "void ethereal"
+      secondary: "dissolving"
+      notes: "Edge is boundary of nothing - event horizon quality"
+
+    creation:
+      primary_texture: "birthing organic"
+      secondary: "explosive"
+      notes: "Wet, new, emerging - still forming"
+
+    # TIER 3
+    fear:
+      primary_texture: "defensive sharp"
+      secondary: "spiky"
+      notes: "Thorns, spikes - 'stay away' texture"
+
+    desire:
+      primary_texture: "grasping liquid"
+      secondary: "reaching"
+      notes: "Mercury-like tendrils - trying to grab, hold"
+
+    love:
+      primary_texture: "warm organic smooth"
+      secondary: "radiant"
+      notes: "Heart-like pulse - living warmth, inviting"
+
+    hope:
+      primary_texture: "ascending smooth"
+      secondary: "light"
+      notes: "Upward-oriented texture - seems to rise"
+
+    pain:
+      primary_texture: "jagged sharp"
+      secondary: "broken glass"
+      notes: "Every edge cuts - fractured wholeness"
+
+    forgiveness:
+      primary_texture: "dissolving ethereal"
+      secondary: "soft release"
+      notes: "Edges blur, soften, let go - gentleness"
+
+    judgment:
+      primary_texture: "precise sharp"
+      secondary: "measuring"
+      notes: "Ruler-straight edges - assessment precision"
+
+    # TIER 4
+    courage:
+      primary_texture: "resolute rough"
+      secondary: "weathered"
+      notes: "Battle-worn but unbroken - earned texture"
+
+    war:
+      primary_texture: "weaponized sharp"
+      secondary: "violent"
+      notes: "Designed to harm - every edge aggressive"
+
+    madness:
+      primary_texture: "impossible fractal"
+      secondary: "contradictory"
+      notes: "Escher-like - logically impossible edges"
+
+    beauty:
+      primary_texture: "golden fractal smooth"
+      secondary: "phi-proportioned"
+      notes: "Mathematical perfection - pleasing at every scale"
+
+    art:
+      primary_texture: "intentional organic"
+      secondary: "expressive"
+      notes: "Variable texture serving meaning"
+
+    music:
+      primary_texture: "wave smooth"
+      secondary: "rhythmic"
+      notes: "Undulating, flowing - time-based texture"
+
+    humor:
+      primary_texture: "playful smooth"
+      secondary: "bouncy"
+      notes: "Light, non-threatening - invites engagement"
+
+    luck:
+      primary_texture: "synchronicity ethereal"
+      secondary: "barely visible"
+      notes: "Subtle connection lines - serendipity texture"
+
+  # === COHERENCE EFFECTS ON TEXTURE ===
+  coherence_impact:
+    high_coherence:
+      range: "0.7-1.0"
+      effect: "Texture PERFECT and CLEAR"
+      sharp: "Precise, clean cuts"
+      smooth: "Flawless, flowing"
+      rough: "Authentic, well-formed"
+      fractal: "Perfect recursion"
+      ethereal: "Luminous subtlety"
+      notes: "High coherence = intended texture fully manifested"
+
+    medium_coherence:
+      range: "0.4-0.6"
+      effect: "Texture PRESENT with IMPERFECTIONS"
+      sharp: "Slightly dull or nicked"
+      smooth: "Minor bumps, mostly flowing"
+      rough: "More chaotic than intended"
+      fractal: "Recursion breaks at small scales"
+      ethereal: "Fades in and out"
+      notes: "Texture recognizable but not perfect"
+
+    low_coherence:
+      range: "0.0-0.3"
+      effect: "Texture DEGRADES or CONTRADICTS"
+      sharp: "Crumbles, fragments, rusts"
+      smooth: "Becomes rough, catches"
+      rough: "Becomes chaotic rubble"
+      fractal: "Breaks into static"
+      ethereal: "Becomes invisible or muddy"
+      notes: "Internal chaos corrupts surface texture"
+
+  # === INTERACTION TEXTURES ===
+  texture_interactions:
+    sharp_meets_smooth:
+      result: "Sharp cuts, smooth flows around"
+      visual: "Clear boundary, no blending"
+      example: "Judgment (sharp) meets Love (smooth) = assessment cuts connection"
+
+    rough_meets_rough:
+      result: "Grips, holds together"
+      visual: "Textural lock - resistance to separation"
+      example: "Karma (rough) meets Creation (rough) = consequences hold to new acts"
+
+    ethereal_meets_sharp:
+      result: "Ethereal dissolves, sharp remains"
+      visual: "Solid form in subtle field"
+      example: "Consciousness (ethereal) observes Pain (sharp) = awareness contains suffering"
+
+    liquid_meets_crystalline:
+      result: "Flows around, cannot penetrate"
+      visual: "Fluid wraps solid, no mixing"
+      example: "Time (liquid) flows past Truth (crystal) = truth unchanging in time"
+
+    fractal_meets_organic:
+      result: "Natural complexity emerges"
+      visual: "Mathematical meets living - sacred geometry in nature"
+      example: "Pattern (fractal) meets Art (organic) = Beauty emerges"
+
+  # === RENDERING NOTES ===
+  rendering_guidelines:
+    texture_resolution:
+      close_view: "Full texture detail visible"
+      medium_view: "Texture type clear, detail simplified"
+      far_view: "Texture implied by shading/color variation"
+
+    lighting_interaction:
+      sharp: "Hard shadows, crisp highlights"
+      smooth: "Soft shadows, flowing highlights"
+      rough: "Complex shadows, scattered highlights"
+      fractal: "Infinite shadow detail (recursive)"
+      ethereal: "Minimal shadows, inner glow"
+
+    animation_considerations:
+      sharp: "Static or mechanical movement"
+      smooth: "Fluid, continuous motion"
+      rough: "Textured movement, friction visible"
+      liquid: "Flowing, shape-shifting"
+      organic: "Breathing, pulsing, alive"
+
+  # === USAGE NOTES ===
+  usage_notes: |
+    Edge texture is the TACTILE QUALITY of the force.
+    It answers: "What would this force feel like to touch?"
+
+    Agent rendering:
+    1. Look up primary texture (this file)
+    2. Modulate perfection by coherence
+    3. Consider interactions with adjacent forces
+    4. Adjust detail level by viewing distance
+    5. Apply appropriate lighting for texture type
+    6. Animate texture according to movement patterns
+
+    Texture is not decoration - it's INFORMATION about the force's nature.

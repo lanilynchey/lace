@@ -1,0 +1,145 @@
+# Lifestyle Factor: Sleep Quality
+
+sleep_quality:
+  # === METADATA ===
+  metadata:
+    category: "physical_body"
+    measurement_type: "subjective_with_objective"  # Can be measured (hours, sleep tracker) + felt quality
+    update_frequency: "daily"
+    importance: "critical"  # Sleep affects nearly all forces
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Poor sleep - less than 5 hours, fragmented, unrestful, chronic sleep deprivation"
+      indicators:
+        - "Less than 5 hours per night"
+        - "Frequent waking, can't fall back asleep"
+        - "Wake feeling exhausted"
+        - "Chronic sleep debt accumulating"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Adequate sleep - 6-7 hours, mostly restful, occasional poor nights"
+      indicators:
+        - "6-7 hours per night"
+        - "Generally restful, some interruptions"
+        - "Wake feeling okay, functional"
+        - "Can recover from poor nights"
+
+    high:
+      range: "0.8-1.0"
+      description: "Excellent sleep - 7-9 hours, deep and restful, wake feeling refreshed"
+      indicators:
+        - "7-9 hours per night consistently"
+        - "Deep, uninterrupted sleep"
+        - "Wake naturally feeling refreshed"
+        - "Dream recall, REM cycles complete"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    coherence:
+      low: -0.25    # Poor sleep fragments coherence significantly
+      medium: 0.0   # Adequate sleep maintains baseline
+      high: +0.15   # Excellent sleep enhances coherence
+      notes: "Sleep is when brain consolidates, integrates, restores coherence"
+
+    consciousness:
+      low: -0.20    # Sleep deprivation clouds awareness
+      medium: 0.0
+      high: +0.10   # Good sleep sharpens perception
+      notes: "Consciousness requires rested brain - sleep deprivation = foggy awareness"
+
+    entropy:
+      low: +0.30    # Poor sleep increases chaos in system
+      medium: 0.0
+      high: -0.15   # Good sleep reduces entropy
+      notes: "Sleep repairs, restores order - deprivation = system breakdown"
+
+    fear:
+      low: +0.20    # Sleep deprivation amplifies fear response
+      medium: 0.0
+      high: -0.10   # Good sleep reduces fear reactivity
+      notes: "Amygdala hyperactive when sleep deprived - everything feels more threatening"
+
+    pain:
+      low: +0.25    # Pain perception increases dramatically with poor sleep
+      medium: 0.0
+      high: -0.15   # Good sleep reduces pain sensitivity
+      notes: "Sleep deprivation lowers pain threshold - everything hurts more"
+
+    hope:
+      low: -0.20    # Exhaustion crushes optimism
+      medium: 0.0
+      high: +0.15   # Rest restores hope
+      notes: "Hard to hope when exhausted - rest allows forward thinking"
+
+    judgment:
+      low: +0.20    # Sleep deprivation increases harsh judgment
+      medium: 0.0
+      high: -0.10   # Rest softens judgment
+      notes: "Prefrontal cortex impaired when tired - harsh, reactive judgments"
+
+    courage:
+      low: -0.15    # Exhaustion reduces capacity for courage
+      medium: 0.0
+      high: +0.10   # Rest enables brave action
+      notes: "Hard to be courageous when depleted - rest restores resilience"
+
+    creation:
+      low: -0.20    # Creative capacity plummets with poor sleep
+      medium: 0.0
+      high: +0.20   # Rest amplifies creativity
+      notes: "REM sleep = creative problem solving, insight generation"
+
+    memory:
+      low: -0.30    # Memory consolidation severely impaired
+      medium: 0.0
+      high: +0.15   # Sleep enhances memory storage
+      notes: "Memory consolidation happens during sleep - critical for learning"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # One bad night has noticeable effect
+    chronic_impact: "cumulative"  # Sleep debt accumulates, effects compound
+    recovery_time: "2-3 days of good sleep to recover from acute, weeks for chronic"
+
+    notes: |
+      Sleep debt is real and cumulative.
+      One all-nighter = noticeable impairment.
+      Chronic sleep deprivation = serious health consequences.
+      "Catching up" on weekends helps but doesn't fully compensate.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - stress: "Poor sleep amplifies stress response (cortisol dysregulation)"
+      - pain: "Sleep deprivation dramatically lowers pain threshold"
+      - negative_emotions: "Everything feels worse when exhausted"
+
+    dampens:
+      - positive_emotions: "Hard to feel joy when depleted"
+      - resilience: "No buffer for challenges when tired"
+      - cognitive_function: "Executive function impaired (decision-making, impulse control)"
+
+    synergizes_with:
+      - exercise: "Exercise improves sleep quality, sleep enables recovery from exercise"
+      - nutrition: "Good nutrition supports sleep, sleep regulates hunger hormones"
+      - stress_management: "Low stress improves sleep, sleep improves stress resilience"
+
+  # === NOTES ===
+  notes: |
+    Sleep is foundational - affects nearly every force.
+    "Sleep is the best meditation" - Dalai Lama.
+    Sleep deprivation is torture for a reason.
+
+    Key insights:
+    - Sleep is when brain consolidates, repairs, restores
+    - Memory consolidation happens during sleep
+    - Emotional regulation requires sleep
+    - Creativity enhanced by REM sleep
+    - Immune function depends on sleep
+
+    Chronic sleep deprivation = low-grade system failure.
+    Prioritizing sleep is not luxury - it's necessity.

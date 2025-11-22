@@ -1,0 +1,57 @@
+# Texture & Opacity
+# Surface texture and transparency properties
+
+texture_opacity:
+  principle: |
+    Texture = surface quality (already defined in shapes/edge_textures.yaml)
+    Opacity = how solid vs transparent the force appears
+    
+    Opacity communicates:
+    - Solidity (material vs ethereal)
+    - Presence intensity
+    - Permeability (can other forces pass through?)
+
+  opacity_ranges:
+    fully_opaque:
+      range: "0.9-1.0"
+      forces: [truth, polarity, judgment, war, death]
+      feeling: "Solid, immovable, definite"
+      notes: "These forces are ABSOLUTE - no ambiguity"
+    
+    mostly_solid:
+      range: "0.7-0.8"
+      forces: [fear, desire, pain, courage, karma]
+      feeling: "Strong presence, material"
+      notes: "Definitely there, some permeability"
+    
+    translucent:
+      range: "0.5-0.6"
+      forces: [love, hope, creation, pattern, coherence]
+      feeling: "Present but permeable"
+      notes: "Can see through but presence clear"
+    
+    semi_transparent:
+      range: "0.3-0.4"
+      forces: [forgiveness, music, beauty, art, humor]
+      feeling: "Subtle, gentle, non-imposing"
+      notes: "There but not dominating"
+    
+    ethereal:
+      range: "0.1-0.2"
+      forces: [consciousness, luck, memory]
+      feeling: "Barely there, ghost-like, subtle"
+      notes: "Almost invisible but perceptible"
+
+  activation_modulation:
+    low_activation: "-0.2 opacity (more transparent)"
+    high_activation: "+0.1 opacity (more solid)"
+
+  coherence_modulation:
+    high_coherence: "Opacity at intended level (clear edges)"
+    low_coherence: "Opacity becomes inconsistent (flickering, fuzzy)"
+
+  interaction_opacity:
+    overlapping_forces:
+      both_opaque: "Neither visible through other (blocking)"
+      opaque_ethereal: "Ethereal visible through opaque"
+      both_translucent: "Blending, both visible"

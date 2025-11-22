@@ -1,0 +1,317 @@
+# Force Mapping: Polarity
+
+polarity:
+  # === METADATA ===
+  metadata:
+    tier: 1
+    category: "primordial"
+    dependencies: []  # Polarity is foundational
+    source_doc: "docs/02_forces/tier_1_forces/05_polarity.md"
+
+  # === STRUCTURAL ROLE IN OTHER FORCES ===
+  structural_role_in_forces:
+    description: |
+      Polarity is FOUNDATIONAL - it creates the distinctions that allow other forces to operate.
+      Rather than "interacting" with forces, polarity STRUCTURES them.
+      From docs: "Polarity creates the distinctions that allow other forces to operate."
+
+    tier_3_forces:
+      desire:
+        role: "Creates attraction (toward) vs repulsion (away)"
+        polarity_axis: "toward_preferred / away_from_undesired"
+        notes: "Desire IS movement toward preferred pole - polarity defines the direction"
+
+      fear:
+        role: "Creates threat (away from) vs safety (toward)"
+        polarity_axis: "safety / danger"
+        notes: "Fear IS movement away from threatening pole - polarity defines what to avoid"
+
+      hope:
+        role: "Creates optimism (up) vs pessimism (down)"
+        polarity_axis: "positive_future / negative_future"
+        notes: "Hope is orientation toward positive pole of future outcomes"
+
+      pain:
+        role: "Creates aversion pole (away from discomfort)"
+        polarity_axis: "comfort / discomfort"
+        notes: "Pain signals the negative pole to avoid"
+
+      forgiveness:
+        role: "Releases polarity attachment (transcends good/bad judgment)"
+        polarity_axis: "judgment_release"
+        notes: "Forgiveness dissolves polarity between self/other, right/wrong"
+
+    tier_4_forces:
+      art:
+        role: "Creates expression (out) vs reception (in)"
+        polarity_axis: "creator / observer"
+        notes: "Art exists in polarity between making and experiencing"
+
+      beauty:
+        role: "Creates harmony vs dissonance"
+        polarity_axis: "pleasing / displeasing"
+        notes: "Beauty is recognition of harmonious pole"
+
+      music:
+        role: "Creates consonance vs dissonance"
+        polarity_axis: "harmonic / discordant"
+        notes: "Music plays with tension and resolution between poles"
+
+      courage:
+        role: "Creates advance vs retreat"
+        polarity_axis: "forward / backward"
+        notes: "Courage is choosing the difficult pole over the safe pole"
+
+      humor:
+        role: "Creates setup vs punchline (pattern expectation vs break)"
+        polarity_axis: "expected / unexpected"
+        notes: "Humor exploits polarity between expectation and surprise"
+
+      madness:
+        role: "Polarity collapse or extreme oscillation between poles"
+        polarity_axis: "stability / chaos"
+        notes: "Madness is either collapse into one pole or wild oscillation"
+
+      luck:
+        role: "Creates fortunate vs unfortunate pole"
+        polarity_axis: "favorable / unfavorable"
+        notes: "Luck is being at the fortunate pole of probability"
+
+    foundational_principle: |
+      From docs (07_interaction_matrix.md): "Without polarity, no differentiation possible."
+
+      Polarity doesn't "interact" with these forces in the traditional sense.
+      Instead, polarity provides the STRUCTURE (the axis, the poles) that these forces operate within.
+
+      Example: Desire doesn't "collide" with polarity - desire IS polarity applied to wanting.
+      Example: Fear doesn't "synergize" with polarity - fear IS polarity applied to threat assessment.
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#808080"  # Pure gray - perfect balance between extremes
+    color_family: "neutral"
+    color_range:  # Grayscale spectrum with hues
+      - "#0A0A14"  # Blue-black (near 0, darkness)
+      - "#2C2C3A"  # Dark purple-gray
+      - "#808080"  # Neutral gray (balance point)
+      - "#D3D3C8"  # Light warm gray
+      - "#FFFEF0"  # Cream-white (near 1, light)
+
+    saturation_base: 0.00  # Grayscale (no saturation)
+    brightness_base: 0.50  # Middle gray
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (Polarity inactive - collapsed to one side)
+        color: "#404040"  # Dark gray
+        saturation: 0.00
+        brightness: 0.25
+      medium_activation: # 0.4-0.7 (Active tension between extremes)
+        color: "#808080"  # Mid gray
+        saturation: 0.00
+        brightness: 0.50
+      high_activation:   # 0.8-1.0 (Extreme polarity - oscillating between extremes)
+        color: "#C0C0C0"  # Light gray (higher energy in the tension)
+        saturation: 0.00
+        brightness: 0.75
+
+    notes: |
+      Grayscale represents the spectrum between binary extremes (0/1, dark/light, on/off).
+      Near 0: blacks with cool hues (blue-black, purple-black)
+      Near 1: whites with warm hues (cream, golden-white)
+      Middle: neutral grays (balance between extremes)
+
+      Polarity itself is NEUTRAL - it represents the tension/relationship between extremes,
+      not preference for one side.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "cube"  # Rigid, defined, binary structure
+    sacred_geometry_association: "vesica_piscis"  # Two circles overlapping - duality
+    complexity_level: "simple"
+    edge_type: "sharp"  # Binary = sharp edges, no gradients
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Collapsed cube - one side dominant, other side suppressed.
+        Minimal tension, settled into one pole.
+      medium_activation: |
+        Cube with visible tension between opposite faces.
+        Vesica piscis pattern visible (two opposing forces).
+        Balanced but dynamic.
+      high_activation: |
+        Cube oscillating or splitting - extreme tension between poles.
+        May appear as two cubes (dark/light) overlapping.
+        High energy in the opposition.
+
+    notes: |
+      Cube represents rigid binary structure - 6 faces, 3 pairs of opposites.
+      Vesica piscis = two circles (0 and 1) overlapping, creating third space (relationship).
+      Sharp edges = no gradient in binary, just on/off.
+      At high activation, the tension between poles is visible.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "oscillating"  # Back and forth between extremes
+    speed_base: 0.50  # Medium speed
+
+    speed_modifier:
+      low_intensity: 0.20   # Slow, minimal oscillation
+      medium_intensity: 0.50  # Clear oscillation
+      high_intensity: 0.90   # Rapid oscillation, extreme swings
+
+    direction: "bidirectional"  # Between two poles
+    rhythm: "pulsing"  # Regular back-and-forth
+
+    healthy_pattern:
+      description: "Dynamic balance - oscillating between poles without getting stuck"
+      characteristics:
+        - "Can hold both sides simultaneously"
+        - "Moves between extremes fluidly"
+        - "Sees value in both poles"
+        - "Integration of opposites"
+
+    stuck_pattern:
+      description: "Binary thinking - stuck on one pole or chaotic swinging"
+      characteristics:
+        - "All-or-nothing thinking"
+        - "Can't see middle ground"
+        - "Extreme swings with no center"
+        - "Rigid preference for one pole"
+
+    notes: |
+      Oscillating = moving between 0 and 1, light and dark, on and off.
+      Healthy: holds tension gracefully, integrates both sides.
+      Stuck: either collapsed to one side (rigid) or chaotic swinging (no center).
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.50  # Neutral
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.10"
+        description: "Clear, defined polarity with graceful oscillation"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal polarity tension"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.15"
+        description: "Chaotic polarity - extreme swings, no balance"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.20)"
+      multiplier: 0.20
+
+    interaction_modifier:
+      synergistic: "+0.10"  # With judgment, truth (forces that discriminate/define)
+      antagonistic: "0.0"  # Polarity doesn't really oppose - it contains opposites
+      neutral: "0.0"
+
+    notes: |
+      Polarity is fundamentally neutral - it's about relationship between extremes.
+      Vibrancy increases with activation (more energy in the tension).
+      Low coherence = chaotic oscillation, no graceful balance.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "solid"  # Binary is definite, concrete
+    opacity_range:
+      min: 0.70  # Fairly solid
+      max: 1.00  # Can be completely solid (binary is absolute)
+
+    particle_effects: false  # Polarity is structure, not flow
+    particle_type: "none"
+    particle_density: null
+
+    sound_association:
+      frequency_hz: null  # No single frequency
+      tone_description: "Two tones simultaneously - dissonant at high activation, harmonious at balance"
+      musical_note: "Octave (same note, different registers)"
+
+    emotional_tone: "tense, definite, binary, discriminating, either/or"
+
+    consciousness_association: null  # Though related to binary consciousness nature
+
+    notes: |
+      Solid, defined - binary is concrete (true/false, on/off).
+      No particles - polarity is about structure, not dissolution.
+      Sound: two tones = two poles (can be harmonious or dissonant).
+      Octave = same note higher/lower (same essence, different expression).
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "truth"  # Truth discriminates (true/false)
+      - "judgment"  # Judgment discriminates (good/bad)
+      - "death"  # Death is ultimate binary (alive/dead)
+
+    antagonistic_with: []  # Polarity contains opposites, doesn't oppose
+
+    neutralizes: []
+
+    amplified_by:
+      - "judgment"  # Judgment intensifies binary thinking
+
+    visual_blending_rules:
+      when_combined_with_judgment:
+        force: "judgment"
+        color_effect: "alternate"  # Gray cube with judgment's colors oscillating
+        shape_effect: "merge"  # Judgment's evaluative quality within polarity structure
+        motion_effect: "synchronized"
+        result_description: |
+          Polarity provides binary structure, judgment evaluates within it.
+          Oscillation between "good" and "bad" poles.
+          Can be healthy (discernment) or stuck (rigid judgment).
+        coherence_dependent: true
+
+      when_combined_with_love:
+        force: "love"
+        color_effect: "blend"  # Gray softens into love's colors
+        shape_effect: "merge"  # Love transcends binary
+        motion_effect: "dampened"  # Love reduces oscillation, integrates poles
+        result_description: |
+          Love dissolves binary opposition.
+          Gray cube softens, edges blur.
+          Oscillation slows - both poles held simultaneously.
+          Movement toward non-dual perception.
+        coherence_dependent: false
+
+      when_combined_with_truth:
+        force: "truth"
+        color_effect: "blend"  # Gray + truth's colors (white/clear)
+        shape_effect: "merge"
+        motion_effect: "synchronized"
+        result_description: |
+          Polarity provides structure for truth discrimination.
+          What is true (1) vs false (0).
+          Clear, sharp, definite.
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Gray + gold
+        shape_effect: "nested"  # Coherence contains polarity gracefully
+        motion_effect: "dampened"  # Coherence reduces extreme swings
+        result_description: |
+          Coherence integrates polarity's opposites.
+          Oscillation becomes graceful, centered.
+          Both poles valued, neither dominant.
+          Gray cube within golden sphere - opposites unified.
+        coherence_dependent: false
+
+    notes: |
+      Polarity is STRUCTURE for opposites, not preference for one side.
+      At high consciousness, polarity can be held without binary thinking.
+      At low consciousness, polarity creates rigid either/or thinking.
+      Love transcends polarity (non-dual).
+      Judgment intensifies polarity (moral binaries).
+
+# IMPLEMENTATION NOTES:
+# - Polarity represents binary (base-2) consciousness structure
+# - Humans perceive in dualities: light/dark, good/bad, on/off
+# - Polarity is NOT the same as "being polarized" (stuck on one side)
+# - Healthy polarity: holds tension between opposites gracefully
+# - Stuck polarity: binary thinking, all-or-nothing, rigid
+# - Visual should feel structured, definite, oscillating
+# - Grayscale with hue variations (dark = cool hues, light = warm hues)

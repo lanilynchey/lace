@@ -1,0 +1,301 @@
+# Force Mapping: Memory
+
+memory:
+  # === METADATA ===
+  metadata:
+    tier: 2
+    category: "governing"  # Foundational force that shapes reality
+    dependencies: ["time", "pattern"]
+    source_doc: "docs/02_forces/tier_2_forces/04_memory.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#9370DB"  # Medium purple - deep, nostalgic, stored
+    color_family: "cool"
+    color_range:
+      - "#483D8B"  # Dark slate blue (distant/faded memories)
+      - "#9370DB"  # Medium purple (clear memories)
+      - "#BA55D3"  # Medium orchid (vivid memories)
+      - "#DDA0DD"  # Plum (recent memories)
+
+    saturation_base: 0.60
+    brightness_base: 0.65
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (faint memory, hard to recall)
+        color: "#483D8B"
+        saturation: 0.45
+        brightness: 0.50
+      medium_activation: # 0.4-0.7 (clear memory)
+        color: "#9370DB"
+        saturation: 0.60
+        brightness: 0.65
+      high_activation:   # 0.8-1.0 (vivid memory, feels present)
+        color: "#BA55D3"
+        saturation: 0.75
+        brightness: 0.75
+
+    notes: |
+      Purple represents depth, nostalgia, stored information, past.
+      Similar to consciousness (awareness) but darker (looking backward).
+      Darker purple = distant/faded memories (harder to access).
+      Brighter purple = vivid memories (feel almost present).
+      "Purple haze" - memories have dreamlike quality.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "layered_archive"  # Stacked, stored, accessible layers
+    sacred_geometry_association: "nested_spheres"  # Layers of time, concentric storage
+    complexity_level: "complex"
+    edge_type: "soft"  # Memories blur, fade at edges
+    dimensionality: "4D"  # Memory exists across time
+
+    activation_modulation:
+      low_activation: |
+        Few thin layers, sparsely stored.
+        Limited access to past.
+        Memories faint, hard to retrieve.
+      medium_activation: |
+        Multiple clear layers, well organized.
+        Can access past readily.
+        Memory library functional.
+      high_activation: |
+        Dense, vivid layers extending far back.
+        Perfect recall, photographic memory.
+        Every detail accessible.
+        May appear as infinite nested spheres.
+
+    notes: |
+      Layered archive = memories stored in temporal layers.
+      Recent memories = outer layers (easy to access).
+      Distant memories = deeper layers (harder to access).
+      Nested spheres = each sphere is a time period.
+      At high activation, memories extremely vivid and accessible.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "retrieving"  # Reaching back, pulling forward
+    speed_base: 0.40  # Moderate - recall takes moment
+
+    speed_modifier:
+      low_intensity: 0.20   # Slow recall, struggling to remember
+      medium_intensity: 0.40  # Normal recall speed
+      high_intensity: 0.70   # Instant recall, rapid access
+
+    direction: "backward"  # Moving toward past
+    rhythm: "intermittent"  # Memories come and go
+
+    healthy_pattern:
+      description: "Integrated past - can access memories without being trapped in them"
+      characteristics:
+        - "Remembers past clearly"
+        - "Learns from past experiences"
+        - "Not trapped in nostalgia"
+        - "Past informs present, doesn't define it"
+
+    stuck_pattern:
+      description: "Trapped in past or amnesia - either can't let go or can't remember"
+      characteristics:
+        - "Living in the past"
+        - "Can't stop reliving old experiences"
+        - "Or: suppressed memories, can't access"
+        - "Past defines identity rigidly"
+
+    notes: |
+      Retrieving motion = reaching back in time to pull memories forward.
+      Backward direction = memory is about past.
+      Intermittent = memories come when called (or triggered).
+      Healthy: can remember but not trapped, past informs but doesn't define.
+      Stuck: either lost in past (nostalgia, rumination) or disconnected (amnesia, suppression).
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.65  # Moderately vibrant (memories vivid but not as bright as present)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.15"  # High coherence clarifies memories
+        description: "Clear recall, integrated past, memories accessible"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal memory function"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.25"  # Low coherence fragments memories
+        description: "Fragmented recall, suppressed memories, or trapped in past"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.25)"
+      multiplier: 0.25
+
+    interaction_modifier:
+      synergistic: "+0.15 to +0.20"  # With time, pattern, consciousness
+      antagonistic: "-0.10 to -0.15"  # Degraded by entropy, madness
+      neutral: "0.0"
+
+    notes: |
+      Memories less vibrant than present moment (past vs now).
+      At high coherence, memories clear and integrated.
+      At low coherence, memories either fragmented or overwhelming.
+      Trauma = low coherence memory (fragmented, intrusive).
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "layered"
+    opacity_range:
+      min: 0.40  # Memories can be faint, translucent
+      max: 0.80  # Never as solid as present moment
+
+    particle_effects: true
+    particle_type: "floating_fragments"  # Memory fragments, stored images
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: 417  # Solfeggio frequency for "undoing situations and facilitating change"
+      tone_description: "Echoing, reverberating, like sound in a cathedral - resonating from past"
+      musical_note: "D#"
+
+    emotional_tone: "nostalgic, stored, accessible, layered, echoing"
+
+    consciousness_association: null  # Memory exists at all consciousness levels
+
+    notes: |
+      Layered texture = memories stored in strata of time.
+      Floating fragments = memory bits, stored impressions.
+      Echoing sound = memories reverberate from past into present.
+      Never as opaque as present - memories are recalled, not lived.
+      417 Hz = facilitating change (releasing past patterns).
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "time"  # Time provides structure for memory
+      - "pattern"  # Pattern organizes memories
+      - "consciousness"  # Consciousness recalls memories
+      - "karma"  # Karma links to past actions
+
+    antagonistic_with:
+      - "entropy"  # Chaos fragments memories
+      - "madness"  # Madness distorts memories
+
+    neutralizes: []
+
+    amplified_by:
+      - "consciousness"  # Awareness accesses memories
+      - "coherence"  # Integration clarifies memories
+
+    visual_blending_rules:
+      when_combined_with_time:
+        force: "time"
+        color_effect: "blend"  # Purple + silver = temporal access
+        shape_effect: "merge"  # Layers flowing through time stream
+        motion_effect: "synchronized"  # Both move through past
+        result_description: |
+          Memory uses time to access past.
+          Purple layers flowing backward through silver stream.
+          "Traveling back in time" through memory.
+          Time is the medium, memory is the content.
+        coherence_dependent: false
+
+      when_combined_with_pattern:
+        force: "pattern"
+        color_effect: "blend"  # Purple + turquoise = organized memories
+        shape_effect: "merge"  # Layers form geometric organization
+        motion_effect: "synchronized"  # Both structure information
+        result_description: |
+          Pattern organizes memories into retrievable structure.
+          Purple layers with turquoise geometric filing system.
+          "Memory palace" - using pattern to organize recall.
+          Can find memories quickly when well-patterned.
+        coherence_dependent: false
+
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Purple (memory) + lavender (consciousness) = awareness of past
+        shape_effect: "nested"  # Memory layers within consciousness sphere
+        motion_effect: "synchronized"  # Consciousness witnesses memories
+        result_description: |
+          Consciousness recalls and witnesses memories.
+          Purple layers within lavender awareness sphere.
+          Can observe memories without being consumed by them.
+          At high consciousness: "I have these memories, but I am not these memories."
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Purple + gold = integrated past
+        shape_effect: "nested"  # Memory layers within coherence sphere
+        motion_effect: "harmonized"  # Past integrated into wholeness
+        result_description: |
+          Coherence integrates past into present wholeness.
+          Purple layers within golden sphere.
+          Past experiences integrated, wisdom extracted.
+          Can remember without reliving, learn without repeating.
+          This is "healing" - integration of fragmented past.
+        coherence_dependent: false
+
+      when_combined_with_pain:
+        force: "pain"
+        color_effect: "blend"  # Purple + dark red = painful memories
+        shape_effect: "merge"  # Jagged shards within memory layers
+        motion_effect: "intrusive"  # Painful memories intrude unbidden
+        result_description: |
+          Painful memories stored but not integrated.
+          Dark red jagged shards within purple layers.
+          At low coherence: traumatic memory (fragmented, intrusive).
+          At high coherence: painful memory integrated (remembered but not relived).
+          Therapy goal: move from trauma to integrated difficult memory.
+        coherence_dependent: true
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "degrading"  # Purple fading to gray
+        shape_effect: "fragmenting"  # Layers breaking apart
+        motion_effect: "chaotic"  # Memories jumbled, hard to access
+        result_description: |
+          Entropy degrades memory over time.
+          Purple layers fragmenting, fading to gray.
+          Forgetting, memory loss, disorganization.
+          Normal aging, or pathological (dementia).
+        coherence_dependent: false
+
+      when_combined_with_love:
+        force: "love"
+        color_effect: "blend"  # Purple + pink = cherished memories
+        shape_effect: "gentle"  # Layers held tenderly
+        motion_effect: "soothing"  # Love softens painful memories
+        result_description: |
+          Love holds memories tenderly.
+          Purple layers glowing with pink light.
+          Cherished memories, nostalgia with warmth.
+          Love can heal painful memories - holding past with compassion.
+          "It happened, and I survived, and I love myself through it."
+        coherence_dependent: false
+
+    notes: |
+      Memory is the record - stores past for retrieval.
+      Memory + Time = access to past events.
+      Memory + Pattern = organized, retrievable storage.
+      Memory + Consciousness = witnessing memories without identification.
+      Memory + Coherence = integrated past, wisdom from experience.
+      Memory + Pain = trauma (if fragmented) or wisdom (if integrated).
+      Memory + Entropy = forgetting, degradation, memory loss.
+      Memory + Love = cherished memories, compassionate remembering.
+      At high coherence: past integrated, can remember without reliving.
+      At low coherence: past fragmented (suppressed) or consuming (trapped).
+      Key insight: Healing = integrating fragmented memories (trauma → integrated difficult memory).
+      Key insight: Identity continuity requires memory (amnesia = identity loss).
+
+# IMPLEMENTATION NOTES:
+# - Memory is Tier 2 "governing" force - provides continuity
+# - Without memory, no learning, no identity continuity
+# - Memory ≠ living in past - healthy memory informs present
+# - Trauma = fragmented memory at low coherence (intrusive, not integrated)
+# - Healing = memory integration at high coherence (remembered but not relived)
+# - Visual should feel layered, archived, nostalgic, accessible
+# - Purple represents stored information, looking backward
+# - Layers = temporal storage, recent on top, distant deeper
+# - At high coherence: clear recall, integrated past
+# - At low coherence: fragmented (suppressed) or consuming (trapped)
+# - Key therapeutic goal: integrate traumatic memories (fragmented → whole)
+# - Key insight: "I have memories, but I am not my memories"
+# - Key insight: Memory + Love = compassionate remembering (self-compassion)

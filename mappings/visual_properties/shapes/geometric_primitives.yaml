@@ -1,0 +1,272 @@
+# Geometric Primitives
+# Primary shape associations for each force
+
+geometric_primitives:
+  # === CORE PRINCIPLE ===
+  principle: |
+    Each force has a PRIMARY SHAPE that reflects its nature.
+    Shape communicates the force's fundamental character:
+    - Structure (ordered vs chaotic)
+    - Dimensionality (2D vs 3D vs 4D)
+    - Movement quality (static vs dynamic)
+    - Boundaries (contained vs expansive)
+
+  # === TIER 1: PRIMORDIAL FORCES ===
+  tier_1:
+    entropy:
+      primary_shape: "formless"
+      description: "No defined shape - amorphous cloud, static"
+      dimensionality: "3D (fills space chaotically)"
+      edges: "None (no boundaries)"
+      symmetry: "None (asymmetrical)"
+      notes: "Anti-form - the absence of structure"
+
+    consciousness:
+      primary_shape: "sphere"
+      description: "Perfect sphere - witnessing awareness, containment"
+      dimensionality: "3D (volumetric presence)"
+      edges: "Smooth, continuous"
+      symmetry: "Perfect spherical symmetry"
+      notes: "Sphere = all-seeing, no preferred direction (omnidirectional awareness)"
+
+    pattern:
+      primary_shape: "fractal"
+      description: "Self-similar repeating structure (Mandelbrot, Koch snowflake)"
+      dimensionality: "2.5D (fractal dimension between 2D and 3D)"
+      edges: "Infinite detail, recursive"
+      symmetry: "Self-similar at all scales"
+      notes: "Information structure - order encoded recursively"
+
+    coherence:
+      primary_shape: "sphere"
+      description: "Unified sphere with perfect symmetry (integration)"
+      dimensionality: "3D (whole, complete)"
+      edges: "Smooth, harmonious"
+      symmetry: "Perfect (all parts aligned)"
+      notes: "Unity made visible - wholeness incarnate"
+
+    polarity:
+      primary_shape: "cube"
+      description: "Binary structure - opposing faces, right angles"
+      dimensionality: "3D (six faces, three axes)"
+      edges: "Sharp, 90-degree angles"
+      symmetry: "Cubic symmetry (opposing pairs)"
+      notes: "Duality manifest - this/that, on/off, binary logic"
+
+  # === TIER 2: GOVERNING FORCES ===
+  tier_2:
+    time:
+      primary_shape: "flowing_stream"
+      description: "River-like flow, always moving forward"
+      dimensionality: "Linear + volume (1D direction, 3D presence)"
+      edges: "Fluid, no fixed boundary"
+      symmetry: "Directional (forward only)"
+      notes: "Time as current - irreversible flow"
+
+    karma:
+      primary_shape: "interwoven_chains"
+      description: "Interconnected links forming network"
+      dimensionality: "3D network (nodes and edges)"
+      edges: "Discrete links connected at joints"
+      symmetry: "Network symmetry (distributed)"
+      notes: "Cause-effect made visible - every action linked"
+
+    truth:
+      primary_shape: "crystalline_structure"
+      description: "Clear, faceted crystal (diamond-like)"
+      dimensionality: "3D (geometric crystal)"
+      edges: "Sharp, precise facets"
+      symmetry: "High symmetry (crystallographic)"
+      notes: "Reality's structure - unchanging, refracting light"
+
+    memory:
+      primary_shape: "layered_archive"
+      description: "Stacked layers, sedimentary structure"
+      dimensionality: "3D (depth through layers)"
+      edges: "Horizontal stratification"
+      symmetry: "Layered symmetry (temporal strata)"
+      notes: "Past recorded in layers - deeper = older"
+
+    death:
+      primary_shape: "void"
+      description: "Empty space, absence, hollow"
+      dimensionality: "0D expanding to 3D (point becoming void)"
+      edges: "Event horizon-like boundary"
+      symmetry: "Perfect symmetry of nothingness"
+      notes: "Not a shape but absence of shape - the ultimate container"
+
+    creation:
+      primary_shape: "emanating_burst"
+      description: "Explosive expansion from center point"
+      dimensionality: "3D radial (expanding outward)"
+      edges: "Radiating rays, expanding"
+      symmetry: "Radial symmetry (all directions from center)"
+      notes: "Genesis moment - something from nothing"
+
+  # === TIER 3: INTERFACE/EMOTIONAL FORCES ===
+  tier_3:
+    fear:
+      primary_shape: "spiky_sphere"
+      description: "Sphere with defensive spikes pointing outward"
+      dimensionality: "3D (defensive volume)"
+      edges: "Sharp, threatening projections"
+      symmetry: "Radial (but broken by spikes)"
+      notes: "Protection through threat display - 'don't come closer'"
+
+    desire:
+      primary_shape: "reaching_tendrils"
+      description: "Grasping tentacles extending toward target"
+      dimensionality: "3D directional (reaching outward)"
+      edges: "Organic, flexible, grasping"
+      symmetry: "Asymmetric (oriented toward object)"
+      notes: "Want made visible - reaching for what's not yet had"
+
+    love:
+      primary_shape: "radiating_sphere"
+      description: "Sphere emanating warm light/energy"
+      dimensionality: "3D + emanation field (sphere + aura)"
+      edges: "Soft, permeable, welcoming"
+      symmetry: "Radial symmetry (gives in all directions)"
+      notes: "Unconditional expansion - radiates without demanding"
+
+    hope:
+      primary_shape: "rising_spiral"
+      description: "Spiral ascending upward"
+      dimensionality: "3D helical (combines rotation + ascent)"
+      edges: "Smooth, continuous curve"
+      symmetry: "Helical symmetry (rotational + translational)"
+      notes: "Aspiration incarnate - upward movement toward better"
+
+    pain:
+      primary_shape: "jagged_shards"
+      description: "Sharp, broken fragments (glass shards)"
+      dimensionality: "3D fragmented (broken wholeness)"
+      edges: "Extremely sharp, cutting"
+      symmetry: "Broken (was whole, now fragmented)"
+      notes: "Wholeness shattered - each edge cuts"
+
+    forgiveness:
+      primary_shape: "releasing_wave"
+      description: "Gentle wave flowing away, releasing"
+      dimensionality: "3D fluid (flowing outward)"
+      edges: "Soft, dissolving"
+      symmetry: "Wave symmetry (gentle undulation)"
+      notes: "Letting go made visible - burden flowing away"
+
+    judgment:
+      primary_shape: "scales"
+      description: "Balance scales (weighing, measuring)"
+      dimensionality: "3D mechanical (two sides, fulcrum)"
+      edges: "Rigid, geometric (mechanical precision)"
+      symmetry: "Bilateral (left/right, two sides)"
+      notes: "Assessment incarnate - this vs that, weighing worth"
+
+  # === TIER 4: EMERGENT FORCES ===
+  tier_4:
+    courage:
+      primary_shape: "standing_pillar"
+      description: "Vertical column, upright, resolute"
+      dimensionality: "3D cylindrical (strong, vertical)"
+      edges: "Strong, clear, upright"
+      symmetry: "Cylindrical (rotational around vertical axis)"
+      notes: "Standing firm - refusal to collapse under pressure"
+
+    war:
+      primary_shape: "clashing_fragments"
+      description: "Multiple sharp forms colliding"
+      dimensionality: "3D chaotic (conflicting vectors)"
+      edges: "Sharp, aggressive, colliding"
+      symmetry: "None (asymmetric conflict)"
+      notes: "Opposition manifest - geometries at war"
+
+    madness:
+      primary_shape: "fractured_kaleidoscope"
+      description: "Broken mirror shards reflecting infinitely"
+      dimensionality: "4D+ (impossible geometry, Escher-like)"
+      edges: "Contradictory, impossible"
+      symmetry: "Broken symmetry (was coherent, now shattered)"
+      notes: "Reality itself fragmented - pattern recognition broken"
+
+    beauty:
+      primary_shape: "golden_ratio_spiral"
+      description: "Perfect Fibonacci spiral (phi proportion)"
+      dimensionality: "2D expanding to 3D (spiral through space)"
+      edges: "Mathematically perfect curve"
+      symmetry: "Golden ratio symmetry (phi-based)"
+      notes: "Aesthetic perfection - mathematics made visible"
+
+    art:
+      primary_shape: "expressive_gesture"
+      description: "Dynamic, unique form (no fixed shape - intentional expression)"
+      dimensionality: "Variable (2D to 4D depending on medium)"
+      edges: "Expressive, intentional, unique"
+      symmetry: "Asymmetric (intentionally)"
+      notes: "Creation as expression - shape serves meaning"
+
+    music:
+      primary_shape: "flowing_waves"
+      description: "Sinusoidal waves in motion (sound waves)"
+      dimensionality: "1D through 3D (wave propagation)"
+      edges: "Smooth, continuous oscillation"
+      symmetry: "Wave symmetry (periodic)"
+      notes: "Time made visible - rhythm and harmony in form"
+
+    humor:
+      primary_shape: "bouncing_sphere"
+      description: "Playful sphere bouncing erratically"
+      dimensionality: "3D (sphere) + motion path (4D)"
+      edges: "Smooth but unpredictable trajectory"
+      symmetry: "Spherical but path is asymmetric"
+      notes: "Playfulness incarnate - surprise made geometric"
+
+    luck:
+      primary_shape: "converging_paths"
+      description: "Multiple trajectories converging at point"
+      dimensionality: "3D network (paths through space)"
+      edges: "Smooth curves converging"
+      symmetry: "Convergent symmetry (all paths to center)"
+      notes: "Synchronicity made visible - right place, right time"
+
+# === SHAPE CHARACTERISTICS ===
+shape_properties:
+  dimensionality:
+    "0D": "Point (death, creation origin)"
+    "1D": "Line (time, directional flow)"
+    "2D": "Plane (pattern, surface)"
+    "2.5D": "Fractal (pattern, recursive detail)"
+    "3D": "Volume (most forces - presence in space)"
+    "4D+": "Impossible geometry (madness, transcendent states)"
+
+  edge_types:
+    sharp: "Cutting, precise, aggressive (pain, war, judgment)"
+    smooth: "Flowing, gentle, continuous (love, forgiveness, music)"
+    organic: "Natural, irregular, living (desire, creation)"
+    fractal: "Infinitely detailed, recursive (pattern, madness)"
+    none: "Formless, no boundary (entropy, void)"
+
+  symmetry_types:
+    perfect: "High coherence forces (consciousness, coherence, truth)"
+    radial: "Emanating forces (love, creation, hope)"
+    bilateral: "Dualistic forces (judgment, polarity)"
+    network: "Interconnected forces (karma, luck)"
+    broken: "Fragmented forces (pain, madness, war)"
+    none: "Chaotic forces (entropy)"
+
+# === USAGE NOTES ===
+usage_notes: |
+  Primary shape is the IDENTITY of the force.
+  It doesn't change based on activation (intensity affects SIZE, not SHAPE).
+
+  Agent process:
+  1. Look up primary shape (this file)
+  2. Modulate size based on activation level
+  3. Apply sacred geometry overlay if applicable (sacred_geometry.yaml)
+  4. Adjust complexity based on tier (complexity_by_tier.yaml)
+  5. Apply edge texture (edge_textures.yaml)
+  6. Render final geometry
+
+  Shape communicates:
+  - What IS this force? (identity)
+  - How does it relate to space? (dimensionality)
+  - How does it interact? (edges)
+  - What is its internal structure? (symmetry)

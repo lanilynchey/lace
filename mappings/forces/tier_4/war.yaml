@@ -1,0 +1,339 @@
+# Force Mapping: War
+
+war:
+  # === METADATA ===
+  metadata:
+    tier: 4
+    category: "emergent"  # Arises from combination of other forces
+    dependencies: ["fear", "judgment", "polarity", "entropy"]
+    emergent_formula: "war = fear + judgment + polarity + low_coherence"
+    source_doc: "docs/02_forces/tier_4_forces/02_war.md"
+
+  # === FORMULA CONSTRAINTS ===
+  formula_constraints:
+    critical_note: |
+      This formula is ADDITIVE (mathematically safe - no division or complex operations):
+
+      war = fear + judgment + polarity + low_coherence
+
+      War emerges from accumulation of four destructive forces:
+      - Fear (threat, danger, survival mode)
+      - Judgment (us vs them, demonization)
+      - Polarity (extreme division, cannot coexist)
+      - Low_coherence (fragmentation, cannot integrate other perspectives)
+
+      Pure addition means: more of any component → more war
+      Maximum: 1.0 + 1.0 + 1.0 + 1.0 = 4.0 → clamp to 1.0
+
+    input_safety:
+      fear_floor: 0.0  # Can be 0 (no fear)
+      judgment_floor: 0.0  # Can be 0 (no judgment)
+      polarity_floor: 0.0  # Can be 0 (no polarity)
+      low_coherence_floor: 0.0  # Can be 0 (high coherence = 0 low_coherence)
+
+    calculation_method: |
+      # All inputs can be 0 - clamp to valid range
+      fear_safe = clamp(fear_actual, 0.0, 1.0)
+      judgment_safe = clamp(judgment_actual, 0.0, 1.0)
+      polarity_safe = clamp(polarity_actual, 0.0, 1.0)
+      low_coherence_safe = clamp(low_coherence_actual, 0.0, 1.0)
+
+      # Calculate war (simple addition - can exceed 1.0)
+      war_raw = fear_safe + judgment_safe + polarity_safe + low_coherence_safe
+
+      # Clamp result to valid activation range
+      war_final = clamp(war_raw, 0.0, 1.0)
+
+      return war_final
+
+    output_safety:
+      activation_range: [0.0, 1.0]
+      clamp_behavior: "to_max"  # Clamp to maximum only
+
+      note: |
+        Addition of four components can easily exceed 1.0:
+        - Example: 0.80 + 0.70 + 0.60 + 0.50 = 2.60 → clamp to 1.0
+        - This represents: Total war - all destructive forces maximal
+
+    edge_cases:
+      war_equals_1.0:
+        interpretation: "Total war - maximum conflict, destruction"
+        conditions: "Sum of components >= 1.0"
+        example: "0.70 + 0.60 + 0.50 + 0.40 = 2.20 → 1.0"
+        experience: "Complete conflict, violence, destruction"
+
+      war_equals_0.0:
+        interpretation: "Peace - no war forces present"
+        conditions: "All components = 0 or very low"
+        example: "0.0 + 0.0 + 0.0 + 0.0 = 0.0"
+        experience: "Peace, harmony, cooperation"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#8B0000"  # Dark red - blood, conflict, violence
+    color_family: "warm"
+    color_range:
+      - "#4B0000"  # Very dark red (total war)
+      - "#8B0000"  # Dark red (active war)
+      - "#A52A2A"  # Brown-red (conflict)
+      - "#CD5C5C"  # Indian red (tension, threat of war)
+
+    saturation_base: 0.80
+    brightness_base: 0.40
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (tension, threat)
+        color: "#CD5C5C"
+        saturation: 0.65
+        brightness: 0.55
+      medium_activation: # 0.4-0.7 (active conflict)
+        color: "#8B0000"
+        saturation: 0.80
+        brightness: 0.40
+      high_activation:   # 0.8-1.0 (total war, devastation)
+        color: "#4B0000"
+        saturation: 0.90
+        brightness: 0.25
+
+    notes: |
+      Dark red represents blood, violence, conflict, aggression.
+      Hot, intense color - war is passionate destruction.
+      Darkens with intensity - more war = more darkness.
+      Brown tones = war mixed with earth (death, destruction).
+      "Red with blood" - literal and metaphorical.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "clashing_fragments"  # Collision, conflict, breaking
+    sacred_geometry_association: null  # War opposes harmony
+    complexity_level: "complex"
+    edge_type: "sharp"  # Weapons, violence, cutting
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Two forms facing each other, tense.
+        Threat of conflict, not yet engaged.
+        Sharp edges visible, ready to strike.
+      medium_activation: |
+        Forms actively clashing, colliding.
+        Visible conflict, damage occurring.
+        Fragments breaking off from impact.
+      high_activation: |
+        Violent explosion of sharp fragments.
+        Total conflict, mutual destruction.
+        Everything breaking, nothing whole.
+        May appear as battlefield or explosion.
+
+    notes: |
+      Clashing forms = opposing forces in violent conflict.
+      Sharp fragments = weapons, violence, destruction.
+      At low activation: tension, threat, standoff.
+      At high activation: total war, mutual destruction.
+      War breaks what was whole into hostile fragments.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "clashing"  # Violent collision, attack
+    speed_base: 0.75  # Fast - war is sudden, violent
+
+    speed_modifier:
+      low_intensity: 0.50   # Slow buildup, cold war
+      medium_intensity: 0.75  # Active combat
+      high_intensity: 0.95   # Blitzkrieg, rapid devastation
+
+    direction: "opposing"  # Against each other
+    rhythm: "explosive"  # Sudden bursts of violence
+
+    healthy_pattern:
+      description: "Necessary boundary - appropriate defense, just war (rare)"
+      characteristics:
+        - "Defense of genuine values/safety"
+        - "Proportional response to real threat"
+        - "Last resort after all else fails"
+        - "Seeks peace as ultimate goal"
+
+    stuck_pattern:
+      description: "Endless conflict - war as identity, perpetual enemy, trauma reenactment"
+      characteristics:
+        - "Constant combat, can't find peace"
+        - "Identity built around conflict"
+        - "Creates enemies to justify existence"
+        - "War becomes self-perpetuating"
+
+    notes: |
+      Clashing motion = violent collision, attack and counter-attack.
+      Opposing direction = against each other, not together.
+      Explosive rhythm = sudden violence, not gradual.
+      Healthy: necessary defense, just war (extremely rare, controversial).
+      Stuck: endless conflict, war as identity, perpetual enemy.
+      "War is hell" - even 'necessary' war is destructive.
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.70  # Intensely present (war is vivid, consuming)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "-0.40"  # High coherence dissolves war
+        description: "War impossible - conflicts resolve through understanding"
+      medium_coherence:  # 0.4-0.7
+        modifier: "-0.15"
+        description: "War contained, limited, can deescalate"
+      low_coherence:     # 0.0-0.3
+        modifier: "+0.30"  # Low coherence enables war
+        description: "War erupts, escalates, becomes total"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.35)"
+      multiplier: 0.35
+
+    interaction_modifier:
+      synergistic: "+0.20 to +0.30"  # With fear, entropy, judgment
+      antagonistic: "-0.40 to -0.60"  # Opposed by love, coherence, forgiveness
+      neutral: "0.0"
+
+    notes: |
+      War is intense, consuming, vivid.
+      At high coherence, war becomes nearly impossible (understanding prevents).
+      At low coherence, war erupts easily (fragmentation creates enemies).
+      War requires low coherence to sustain - seeing humanity ends war.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "sharp"
+    opacity_range:
+      min: 0.75  # War is undeniable, heavy
+      max: 0.98  # Can be all-consuming
+
+    particle_effects: true
+    particle_type: "explosive_shards"  # Destruction, violence, fragmentation
+    particle_density: "dense"
+
+    sound_association:
+      frequency_hz: null  # War is discord, not harmony
+      tone_description: "Explosive, violent, discordant - bombs, gunfire, screams"
+      musical_note: null
+
+    emotional_tone: "violent, aggressive, destructive, hostile, intense"
+
+    consciousness_association: null  # War can occur at various levels
+
+    notes: |
+      Sharp texture = war cuts, pierces, destroys.
+      Explosive shards = destruction, violence, fragmentation.
+      Violent sounds = war is chaos, discord, pain.
+      Very high opacity = war is undeniable, consuming, heavy.
+      War is anti-life - destroys rather than creates.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "fear"  # Fear fuels war
+      - "entropy"  # Chaos amplifies war
+      - "judgment"  # Judgment creates enemies
+      - "polarity"  # Binary us/them enables war
+      - "pain"  # Pain creates desire for revenge
+
+    antagonistic_with:
+      - "love"  # Love dissolves war
+      - "coherence"  # Coherence prevents war
+      - "forgiveness"  # Forgiveness ends war
+      - "creation"  # War destroys, creation builds
+
+    neutralizes: []
+
+    amplified_by:
+      - "fear"  # Fear escalates war
+      - "judgment"  # Judgment justifies war
+      - "low_coherence"  # Fragmentation enables war
+
+    visual_blending_rules:
+      when_combined_with_fear:
+        force: "fear"
+        color_effect: "blend"  # Dark red + dark blue = violent fear
+        shape_effect: "merge"  # Clashing fragments with defensive spikes
+        motion_effect: "frantic"  # Attack from fear
+        result_description: |
+          Fear-based war - attacking from terror.
+          Dark red clashing with dark blue spikes.
+          "I must destroy you before you destroy me."
+          Most wars are fear-based - perceived threat (real or imagined).
+        coherence_dependent: false
+
+      when_combined_with_judgment:
+        force: "judgment"
+        color_effect: "blend"  # Dark red + indigo = righteous war
+        shape_effect: "merge"  # Clashing with scales (justified violence)
+        motion_effect: "synchronized"  # War as judgment executed
+        result_description: |
+          Judgment-based war - "righteous" violence.
+          Dark red with indigo scales.
+          "They deserve destruction, we are righteous."
+          Judgment creates enemies ("they are bad, we are good").
+          Most devastating wars believe they are "just."
+        coherence_dependent: false
+
+      when_combined_with_love:
+        force: "love"
+        color_effect: "transforming"  # Pink dissolves dark red
+        shape_effect: "softening"  # Clashing fragments soften
+        motion_effect: "stilling"  # Love stops war
+        result_description: |
+          Love dissolves war - "love your enemies."
+          Pink radiance dissolving dark red clashing.
+          At high coherence: war impossible (sees shared humanity).
+          At low coherence: love resisted, war continues.
+          "No one wins a war" - love sees this truth.
+        coherence_dependent: true
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "dissolving"  # Gold dissolves dark red
+        shape_effect: "integrating"  # Fragments reconnect
+        motion_effect: "harmonizing"  # Conflict resolves
+        result_description: |
+          Coherence prevents/ends war.
+          Golden sphere dissolving dark red fragments.
+          Seeing shared humanity prevents violence.
+          Understanding replaces enemy narrative.
+          At high coherence, war becomes impossible.
+        coherence_dependent: false
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "blend"  # Dark red + gray = chaos and violence
+        shape_effect: "merge"  # Total destruction
+        motion_effect: "chaotic"  # Devastating, mutual destruction
+        result_description: |
+          War + Entropy = total devastation.
+          Dark red violence with gray dissolution.
+          Everything breaks down, mutual destruction.
+          This is apocalypse - war consuming all.
+        coherence_dependent: false
+
+    notes: |
+      War emerges from fear + judgment + polarity at low coherence.
+      War requires "enemy" (us vs them) to sustain.
+      At high coherence, war dissolves (seeing shared humanity prevents violence).
+      War + Fear = attack from terror.
+      War + Judgment = "righteous" war (most dangerous - believes it's justified).
+      War + Love = love dissolves war (sees enemy as wounded being).
+      War + Coherence = conflict resolves (understanding prevents violence).
+      War + Entropy = total devastation (mutual destruction).
+      Key insight: All war is failure - failure to see shared humanity.
+      Key insight: "No one wins a war" - even victor is traumatized.
+      Key insight: War requires dehumanization - seeing humanity prevents it.
+
+# IMPLEMENTATION NOTES:
+# - War is Tier 4 "emergent" force - arises from fear + judgment + polarity + low coherence
+# - War requires "enemy" narrative (dehumanization)
+# - At high coherence, war becomes nearly impossible (understanding prevents)
+# - Even "necessary" or "just" war is destructive (controversial concept)
+# - Visual should feel violent, clashing, destructive, hostile
+# - Dark red represents blood, violence, conflict
+# - Clashing fragments = violent opposition, mutual destruction
+# - Key insight: War requires dehumanization - seeing shared humanity ends it
+# - Key insight: "No one wins" - even victor traumatized
+# - Key insight: All war is failure to resolve through understanding
+# - "War is hell" - even when deemed necessary, always destructive

@@ -1,0 +1,255 @@
+# Complexity by Tier
+# How shape complexity scales with force tier level
+
+complexity_by_tier:
+  # === CORE PRINCIPLE ===
+  principle: |
+    Lower tiers = simpler, more fundamental shapes
+    Higher tiers = more complex, composite shapes
+
+    Tier 1: Primitives (sphere, formless, fractal)
+    Tier 2: Functional structures (chains, crystals, flows)
+    Tier 3: Organic/expressive forms (tendrils, spirals, shards)
+    Tier 4: Complex/composite forms (multiple geometries, emergent)
+
+    Complexity represents:
+    - Number of component parts
+    - Degree of articulation
+    - Sophistication of interaction
+    - Emergent properties
+
+  # === TIER COMPLEXITY LEVELS ===
+  tiers:
+    tier_1:
+      complexity_level: "minimal"
+      description: "Axiomatic primitives - irreducible forms"
+      characteristics:
+        - "Single geometric primitive"
+        - "No articulation or parts"
+        - "Pure, undifferentiated"
+        - "Cannot be simplified further"
+      shape_count: "1 (single form)"
+      examples:
+        entropy: "Formless cloud (no structure)"
+        consciousness: "Perfect sphere (simplest 3D form)"
+        pattern: "Fractal (single recursive rule)"
+        coherence: "Unified sphere (wholeness)"
+        polarity: "Cube (binary structure)"
+      notes: "Tier 1 = building blocks - all other forms inherit from these"
+
+    tier_2:
+      complexity_level: "functional"
+      description: "Governing structures with PURPOSE and MECHANISM"
+      characteristics:
+        - "2-3 interacting components"
+        - "Some articulation (parts that relate)"
+        - "Functional mechanisms visible"
+        - "Purpose-driven geometry"
+      shape_count: "2-3 (interacting forms)"
+      examples:
+        time: "Flowing stream (single flow + direction)"
+        karma: "Interwoven chains (multiple links + connections)"
+        truth: "Crystal (facets + internal structure)"
+        memory: "Layered strata (multiple layers + ordering)"
+        death: "Void (boundary + emptiness)"
+        creation: "Emanating burst (center + rays)"
+      notes: "Tier 2 = mechanisms - functional complexity serving purpose"
+
+    tier_3:
+      complexity_level: "expressive"
+      description: "Interface forces with FEELING and EXPRESSION"
+      characteristics:
+        - "3-5 components or articulations"
+        - "Organic, feeling-based shapes"
+        - "Directional intent visible"
+        - "Expressive quality (aggressive, welcoming, releasing)"
+      shape_count: "3-5 (articulated expression)"
+      examples:
+        fear: "Spiky sphere (base + defensive spikes)"
+        desire: "Reaching tendrils (core + multiple grasping extensions)"
+        love: "Radiating sphere (center + emanation field + warmth)"
+        hope: "Rising spiral (helix + upward motion + aspiration)"
+        pain: "Jagged shards (fragments + sharp edges + scattered distribution)"
+        forgiveness: "Releasing wave (flow + direction + dissolution)"
+        judgment: "Scales (fulcrum + two sides + weighing mechanism)"
+      notes: "Tier 3 = feeling-forms - geometry expresses emotional state"
+
+    tier_4:
+      complexity_level: "emergent"
+      description: "Composite forces created from interaction of lower tiers"
+      characteristics:
+        - "5+ components or multiple geometries"
+        - "Emergence visible (parts create new whole)"
+        - "Dynamic, changing configurations"
+        - "Composite identity (clearly built from parts)"
+      shape_count: "5+ (composite, emergent)"
+      examples:
+        courage: "Standing pillar (base + vertical structure + surrounding field)"
+        war: "Clashing fragments (multiple opposing geometries + collision vectors)"
+        madness: "Fractured kaleidoscope (broken mirror + infinite reflections + impossible angles)"
+        beauty: "Golden ratio spiral (phi proportion + aesthetic perfection + mathematical truth)"
+        art: "Intentional expression (variable forms + meaning + context)"
+        music: "Wave harmonics (multiple frequencies + interference patterns + rhythm)"
+        humor: "Bouncing sphere (form + erratic path + playful energy)"
+        luck: "Converging paths (multiple trajectories + intersection point + synchronicity)"
+      notes: "Tier 4 = emergence - complex wholes greater than sum of parts"
+
+  # === COMPLEXITY METRICS ===
+  complexity_metrics:
+    component_count:
+      tier_1: "1 component (single primitive)"
+      tier_2: "2-3 components (functional parts)"
+      tier_3: "3-5 components (expressive articulation)"
+      tier_4: "5+ components (composite emergence)"
+
+    articulation_degree:
+      tier_1: "None (monolithic)"
+      tier_2: "Basic (parts relate functionally)"
+      tier_3: "Moderate (expressive movement/feeling)"
+      tier_4: "High (dynamic, changing configuration)"
+
+    information_density:
+      tier_1: "Minimal (pure form)"
+      tier_2: "Low (functional structure)"
+      tier_3: "Medium (feeling + direction + intent)"
+      tier_4: "High (multiple meanings, emergent properties)"
+
+    rendering_cost:
+      tier_1: "Low (simple primitives)"
+      tier_2: "Low-Medium (structured but simple)"
+      tier_3: "Medium (organic requires more detail)"
+      tier_4: "High (complex, multiple interacting geometries)"
+
+  # === COMPLEXITY AND ACTIVATION ===
+  activation_effects:
+    principle: |
+      Activation level affects SIZE, not complexity.
+      A force at 0.1 has the same shape as at 0.9 (just smaller/larger).
+
+      HOWEVER: High activation may reveal DETAIL that's hidden at low activation.
+
+    detail_visibility:
+      low_activation:
+        range: "0.0-0.3"
+        effect: "Silhouette visible, details hidden"
+        tier_1: "Basic shape clear"
+        tier_2: "Functional parts barely visible"
+        tier_3: "Expression muted"
+        tier_4: "Complexity collapsed to simpler form"
+
+      medium_activation:
+        range: "0.4-0.7"
+        effect: "Standard detail visibility"
+        all_tiers: "Complexity appropriate to tier"
+
+      high_activation:
+        range: "0.8-1.0"
+        effect: "Maximum detail, all articulation visible"
+        tier_1: "Perfect geometric form"
+        tier_2: "All mechanisms clearly visible"
+        tier_3: "Full expressive range"
+        tier_4: "All emergent properties visible"
+
+  # === COMPLEXITY AND COHERENCE ===
+  coherence_effects:
+    principle: |
+      Coherence affects INTEGRITY of complexity, not amount.
+      Low coherence = complexity fragments, breaks down.
+
+    integrity_by_coherence:
+      high_coherence:
+        range: "0.7-1.0"
+        effect: "Complexity INTEGRATED and HARMONIOUS"
+        visual:
+          - "All parts work together"
+          - "Articulations smooth, coordinated"
+          - "Emergent properties clear"
+          - "Complexity enhances beauty"
+
+      medium_coherence:
+        range: "0.4-0.6"
+        effect: "Complexity PRESENT but IMPERFECT"
+        visual:
+          - "Parts mostly aligned"
+          - "Some awkwardness in articulation"
+          - "Emergence visible but not perfect"
+          - "Complexity neither helps nor hinders"
+
+      low_coherence:
+        range: "0.0-0.3"
+        effect: "Complexity FRAGMENTS and DEGRADES"
+        visual:
+          - "Parts disconnect, conflict"
+          - "Articulations break, freeze"
+          - "Emergence fails (no greater whole)"
+          - "Complexity becomes chaos"
+        notes: "Complex forms collapse toward simpler (tier 4 → tier 3 → tier 2 in fragmentation)"
+
+  # === INTERACTION COMPLEXITY ===
+  multiple_forces:
+    principle: |
+      When multiple forces active, complexity MULTIPLIES.
+      Visual system can become overwhelmed - agent must manage.
+
+    complexity_budget:
+      description: "Maximum visual complexity to avoid chaos"
+      limits:
+        - "If 1 force: render full tier complexity"
+        - "If 2-3 forces: render full complexity each"
+        - "If 4-5 forces: simplify tier 4 → tier 3 detail level"
+        - "If 6+ forces: show only tier 1-2 primitives, or dominant force only"
+      notes: "Cognitive load management - too much complexity = unreadable"
+
+    dominant_force:
+      description: "Highest activation force rendered at full complexity"
+      approach: "Dominant = full detail, others = simplified or peripheral"
+      example:
+        forces: "fear (0.8), desire (0.6), hope (0.3)"
+        render:
+          fear: "Full tier 3 complexity (dominant)"
+          desire: "Reduced to tier 2 level (supporting)"
+          hope: "Tier 1 silhouette (background)"
+
+  # === ANIMATION COMPLEXITY ===
+  motion_articulation:
+    tier_1: "No articulation (moves as one)"
+    tier_2: "Basic articulation (2-3 moving parts)"
+    tier_3: "Organic articulation (fluid, many degrees of freedom)"
+    tier_4: "Complex choreography (multiple independent movements)"
+    notes: "See motion/ directory for full motion specifications"
+
+  # === DESIGN CONSTRAINTS ===
+  constraints:
+    readability:
+      rule: "Form must be recognizable at distance"
+      implication: "Even tier 4 complexity has clear silhouette"
+
+    distinctiveness:
+      rule: "Each force must be visually unique"
+      implication: "Complexity serves differentiation, not decoration"
+
+    scalability:
+      rule: "Must work at multiple sizes/distances"
+      implication: "Detail level adjusts to viewing scale"
+
+    performance:
+      rule: "Must render in real-time"
+      implication: "Complexity limited by rendering capability"
+
+  # === USAGE NOTES ===
+  usage_notes: |
+    Complexity is hierarchical:
+    - Tier 1 = atoms (indivisible)
+    - Tier 2 = molecules (atoms combined functionally)
+    - Tier 3 = cells (molecules organized expressively)
+    - Tier 4 = organisms (cells forming emergent wholes)
+
+    Agent rendering:
+    1. Determine tier → base complexity level
+    2. Adjust detail visibility by activation
+    3. Adjust integrity by coherence
+    4. If multiple forces, manage complexity budget
+    5. Render with appropriate articulation
+
+    Key insight: Complexity is MEANINGFUL, not decorative.
+    Each articulation serves understanding of the force's nature.

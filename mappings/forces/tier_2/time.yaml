@@ -1,0 +1,373 @@
+# Force Mapping: Time
+
+time:
+  # === METADATA ===
+  metadata:
+    tier: 2
+    category: "governing"  # Foundational force that shapes reality
+    dependencies: ["entropy", "pattern"]
+    source_doc: "docs/02_forces/tier_2_forces/01_time.md"
+
+  # === TEMPORAL ROLE IN OTHER FORCES ===
+  temporal_role_in_forces:
+    description: |
+      Time is UNIVERSAL SUBSTRATE - all forces unfold IN time.
+      From docs: "Descendants: memory, desire, hope, music - all require time to exist."
+
+    tier_3_forces:
+      desire:
+        role: "Projects into future - desire is future-oriented wanting"
+        temporal_aspect: "anticipation"
+        notes: "Desire reaches forward in time toward preferred outcome. Without time, no future to desire."
+
+      fear:
+        role: "Simulates future threat - fear is temporal anxiety"
+        temporal_aspect: "dread"
+        notes: "Fear exists in imagined future time - anticipating negative outcomes"
+
+      hope:
+        role: "Extends time horizon - hope looks forward"
+        temporal_aspect: "optimistic_futurity"
+        notes: "Hope is orientation toward positive future. Time gives hope its dimension."
+
+      judgment:
+        role: "Compares past to present - temporal evaluation"
+        temporal_aspect: "comparison_across_time"
+        notes: "Judgment evaluates present against past standards or future ideals"
+
+      pain:
+        role: "Marks temporal events for memory storage"
+        temporal_aspect: "timestamping"
+        notes: "Pain creates temporal markers - 'that happened at this time' for memory formation"
+
+    tier_4_forces:
+      art:
+        role: "Requires temporal unfolding to experience"
+        temporal_aspect: "sequential_revelation"
+        notes: "Art reveals itself through time - viewing, reading, experiencing takes duration"
+
+      beauty:
+        role: "Timeless quality (transcends time) vs temporal beauty"
+        temporal_aspect: "eternal_vs_ephemeral"
+        notes: "Some beauty is timeless, some is fleeting. Time creates this distinction."
+
+      courage:
+        role: "Sustained over time vs momentary bravery"
+        temporal_aspect: "endurance"
+        notes: "Courage maintained through time (persistence) differs from momentary bravery"
+
+      humor:
+        role: "Timing is everything - temporal pattern break"
+        temporal_aspect: "synchronization"
+        notes: "Humor depends on WHEN the punchline arrives - timing creates the surprise"
+
+      luck:
+        role: "Right place, right TIME - temporal synchronicity"
+        temporal_aspect: "temporal_alignment"
+        notes: "Luck is being at the fortunate location at the precise temporal moment"
+
+    universal_principle: |
+      From docs (02_time.md): All forces unfold IN time - time is the substrate.
+
+      Time doesn't "interact" with forces as much as it provides their TEMPORAL DIMENSION.
+      Forces exist across time, change through time, and are experienced in time.
+
+      Music IS time (patterns distributed temporally).
+      Desire IS time (wanting what's not yet here).
+      Hope IS time (expecting future positive).
+      Memory IS time (storing what was).
+
+      Without time, these forces couldn't exist at all.
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#C0C0C0"  # Silver - metallic, neutral, flowing
+    color_family: "neutral"
+    color_range:
+      - "#A9A9A9"  # Dark gray (past - fading)
+      - "#C0C0C0"  # Silver (present - current flow)
+      - "#D3D3D3"  # Light gray (near future)
+      - "#E8E8E8"  # Very light gray (distant future - undefined)
+
+    saturation_base: 0.05  # Very low saturation - time is neutral
+    brightness_base: 0.75
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (time moves slowly, expanded)
+        color: "#A9A9A9"
+        saturation: 0.05
+        brightness: 0.65
+      medium_activation: # 0.4-0.7 (normal time flow)
+        color: "#C0C0C0"
+        saturation: 0.05
+        brightness: 0.75
+      high_activation:   # 0.8-1.0 (time accelerated, compressed)
+        color: "#E8E8E8"
+        saturation: 0.03
+        brightness: 0.90
+
+    notes: |
+      Silver/gray represents neutrality, flow, metallic quality (like mercury).
+      Desaturated = time has no emotional color, it's constant.
+      Darker = past (fading into distance).
+      Lighter = future (undefined, not yet manifest).
+      Silver = present moment (reflective, current).
+      Mercury imagery - time flows like liquid metal, can't be grasped.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "flowing_stream"  # Linear flow, irreversible current
+    sacred_geometry_association: "spiral"  # Cycles within linear flow
+    complexity_level: "medium"
+    edge_type: "fluid"  # Can't be contained or stopped
+    dimensionality: "4D"  # Time itself is the 4th dimension
+
+    activation_modulation:
+      low_activation: |
+        Slow, wide river flowing gently.
+        Time expanded, spacious, unhurried.
+        Moments stretch out, present expanded.
+      medium_activation: |
+        Clear stream flowing steadily.
+        Normal time perception.
+        Past → present → future visible.
+      high_activation: |
+        Rapid river, rushing waterfall.
+        Time compressed, accelerated.
+        Everything moves fast, can't keep up.
+        May appear blurred or streaked.
+
+    notes: |
+      Flowing stream = time moves one direction, can't go back.
+      Spiral overlay = cycles repeat within linear flow (seasons, patterns).
+      Fluid edges = time can't be contained, grasped, stopped.
+      Speed varies subjectively but flow is constant.
+      At high activation, time feels compressed (stress, urgency).
+      At low activation, time feels expanded (flow state, presence).
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "flowing"  # Constant, irreversible current
+    speed_base: 0.50  # Constant (objective), but perceived speed varies
+
+    speed_modifier:
+      low_intensity: 0.25   # Time feels slow, expanded
+      medium_intensity: 0.50  # Normal time perception
+      high_intensity: 0.90   # Time feels fast, compressed
+
+    direction: "forward"  # Unidirectional (past → present → future)
+    rhythm: "steady"  # Constant, never stops
+
+    healthy_pattern:
+      description: "Present-centered - flowing with time, neither clinging to past nor anxious about future"
+      characteristics:
+        - "Aware of past without being stuck in it"
+        - "Present in current moment"
+        - "Plans for future without anxiety"
+        - "Time feels spacious, adequate"
+
+    stuck_pattern:
+      description: "Time distortion - stuck in past, anxious about future, or racing against time"
+      characteristics:
+        - "Constantly reliving past"
+        - "Chronic worry about future"
+        - "Never enough time (stress, urgency)"
+        - "Resistance to time's passage"
+
+    notes: |
+      Constant forward flow = time never stops, never reverses.
+      Steady rhythm = time is reliable, consistent (objective).
+      Perceived speed varies (subjective time experience).
+      Healthy: present-centered, flowing with time.
+      Stuck: either trapped in past/future or racing/resisting.
+      Flow states = low time activation (expanded present).
+      Stress states = high time activation (compressed, urgent).
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.50  # Neutral presence (always there but not dominant)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "-0.15"  # High coherence expands time perception
+        description: "Time feels spacious, present expanded, flow state"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal time perception"
+      low_coherence:     # 0.0-0.3
+        modifier: "+0.20"  # Low coherence compresses time perception
+        description: "Time feels compressed, urgent, racing, never enough"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.15)"
+      multiplier: 0.15  # Low multiplier - time is constant, doesn't vary much
+
+    interaction_modifier:
+      synergistic: "+0.10 to +0.15"  # With memory (past), creation (future), karma (causation)
+      antagonistic: "0.0"  # Time doesn't oppose - it contains
+      neutral: "0.0"
+
+    notes: |
+      Time is neutrally present - always there but not emotionally charged.
+      At high coherence, time feels expanded (flow states, presence).
+      At low coherence, time feels compressed (stress, urgency, racing).
+      This is why meditation "slows down time" - increases coherence.
+      This is why stress "speeds up time" - decreases coherence.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "fluid"
+    opacity_range:
+      min: 0.40  # Somewhat transparent (time is everywhere but invisible)
+      max: 0.70  # Never fully solid (can't grasp time)
+
+    particle_effects: true
+    particle_type: "flowing_streams"  # Current, flow, passage
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: null  # Time is rhythm itself, not a tone
+      tone_description: "Steady pulse, like heartbeat or metronome - constant rhythm"
+      musical_note: null
+
+    emotional_tone: "neutral, constant, flowing, inevitable, patient"
+
+    consciousness_association: null  # Time exists independent of consciousness level
+
+    notes: |
+      Fluid texture = time flows, can't be grasped.
+      Flowing streams = current, passage, movement.
+      Heartbeat/metronome = constant rhythm, pulse of existence.
+      Never fully solid = time is experiential, not tangible.
+      Time is the container within which all forces operate.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "memory"  # Time + memory = past
+      - "creation"  # Time + creation = future manifestation
+      - "karma"  # Time reveals karmic consequences
+      - "pattern"  # Time reveals patterns through cycles
+
+    antagonistic_with:
+      - "death"  # Death ends time (for individual)
+
+    neutralizes: []  # Time doesn't cancel - it contains all
+
+    amplified_by:
+      - "entropy"  # Entropy accelerates time's decay function
+      - "consciousness"  # Consciousness can dilate time perception
+
+    visual_blending_rules:
+      when_combined_with_memory:
+        force: "memory"
+        color_effect: "blend"  # Silver + memory's colors = flowing past
+        shape_effect: "merge"  # Stream carries memories along
+        motion_effect: "synchronized"  # Both flow backward (toward past)
+        result_description: |
+          Time + Memory = the past.
+          Silver stream carrying memory fragments.
+          Flowing backward to retrieve what was.
+          Remembering = moving against time's current.
+        coherence_dependent: false
+
+      when_combined_with_creation:
+        force: "creation"
+        color_effect: "blend"  # Silver + creation's colors = manifesting future
+        shape_effect: "merge"  # Stream flows toward creation
+        motion_effect: "synchronized"  # Both flow forward
+        result_description: |
+          Time + Creation = manifestation timeline.
+          Silver stream carrying created forms into being.
+          Future potentials flowing into present.
+          Creation requires time to manifest.
+        coherence_dependent: false
+
+      when_combined_with_death:
+        force: "death"
+        color_effect: "fade"  # Silver fades to black
+        shape_effect: "dissolving"  # Flow stops, becomes still
+        motion_effect: "stilling"  # Time ends (for individual)
+        result_description: |
+          Death ends personal time experience.
+          Silver stream fades, flow stops.
+          From flow to stillness.
+          "Time stops" at death - exit from temporal flow.
+        coherence_dependent: false
+
+      when_combined_with_karma:
+        force: "karma"
+        color_effect: "blend"  # Silver + karma's colors
+        shape_effect: "merge"  # Causal chains flow through time
+        motion_effect: "synchronized"  # Both reveal consequences
+        result_description: |
+          Time reveals karmic consequences.
+          Silver stream showing cause-effect chains.
+          Past actions flowing to present consequences.
+          "Time will tell" - karma unfolds temporally.
+        coherence_dependent: false
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "blend"  # Silver + gray = decay over time
+        shape_effect: "merge"  # Flow carries dissolution
+        motion_effect: "synchronized"  # Both move forward
+        result_description: |
+          Time + Entropy = inevitable decay.
+          Silver stream carrying fragmentation forward.
+          All things break down over time (2nd law of thermodynamics).
+          "Time takes its toll" - entropy's vehicle.
+        coherence_dependent: false
+
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Silver + lavender = awareness of time
+        shape_effect: "nested"  # Consciousness witnesses time
+        motion_effect: "modulated"  # Consciousness dilates time perception
+        result_description: |
+          Consciousness perceives and dilates time.
+          Lavender sphere witnessing silver flow.
+          At high consciousness: time expands (presence, flow states).
+          At low consciousness: time compresses (stress, racing).
+          "Being present" = consciousness in current moment of time flow.
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Silver + gold = harmonious flow
+        shape_effect: "merge"  # Both flow smoothly
+        motion_effect: "synchronized"  # Perfect timing
+        result_description: |
+          Coherence creates "perfect timing" - synchronicity.
+          Silver stream flowing through golden alignment.
+          Everything happens when it should.
+          At high coherence: time feels spacious, adequate, flowing.
+          This is "divine timing" - trusting time's flow.
+        coherence_dependent: false
+
+    notes: |
+      Time is the container - all forces exist within time.
+      Time + Memory = past (flowing backward to retrieve).
+      Time + Creation = future (flowing forward to manifest).
+      Time + Death = ending (flow stops for individual).
+      Time + Karma = consequences revealed over time.
+      Time + Entropy = inevitable decay (2nd law).
+      Time + Consciousness = perception dilates (presence expands time).
+      Time + Coherence = perfect timing, synchronicity.
+      At high coherence, time feels expanded (flow state).
+      At low coherence, time feels compressed (stress, urgency).
+
+# IMPLEMENTATION NOTES:
+# - Time is Tier 2 "governing" force - structures reality itself
+# - Objective: time flows constantly, never stops, one direction
+# - Subjective: time perception varies based on coherence + consciousness
+# - High coherence = time feels expanded (flow state, presence)
+# - Low coherence = time feels compressed (stress, racing, urgent)
+# - Healthy relationship: flowing with time, present-centered
+# - Stuck relationship: trapped in past, anxious about future, racing against time
+# - Visual should feel flowing, constant, metallic, neutral
+# - Silver/mercury imagery - time flows like liquid metal
+# - Speed appears to vary but underlying flow is constant
+# - Key insight: Consciousness + coherence dilate time perception
+# - Key insight: Time is the medium through which karma unfolds
+# - Key insight: Death ends personal time, but time itself continues

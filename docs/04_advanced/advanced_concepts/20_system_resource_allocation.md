@@ -218,6 +218,267 @@ def performance(current_resources: float, max_resources: float) -> float:
 
 ---
 
+## Social Vigilance Processing
+
+Humans are fundamentally social predators AND social prey. Our main threats are other humans. Our main opportunities are other humans. Our survival depends on navigating human dynamics.
+
+Therefore, agents run a **continuous background vigilance daemon** that monitors the social field for threats, opportunities, hierarchy shifts, coalitions, and betrayal potential.
+
+This is not "relationship maintenance cost per entanglement." This is **survival processing of the social field.**
+
+### The Vigilance Daemon
+
+```python
+def social_vigilance_daemon(agent: Agent) -> float:
+    """
+    Continuous background process monitoring social field
+
+    Constantly assesses:
+    - Threat detection: Who's dangerous? Who might harm me?
+    - Opportunity detection: Who's valuable? Who can help me?
+    - Hierarchy positioning: Where do I stand?
+    - Coalition mapping: What alliances exist?
+    - Betrayal potential: Who might turn on me?
+    - Status tracking: Am I rising or falling?
+
+    Returns: vigilance_load (0.0-1.0) - fraction of attention consumed
+    """
+    field_complexity = calculate_field_complexity(agent)      # 0.0-1.0
+    stakes_intensity = calculate_stakes_intensity(agent)      # 0.0-1.0
+    vigilance_factor = calculate_vigilance_factor(agent)      # 0.0-1.0
+
+    vigilance_load = field_complexity × stakes_intensity × vigilance_factor
+
+    return vigilance_load  # 0.0-1.0
+```
+
+**Key insight:** Runs as background process even when not consciously thinking about people. Survival-level threat/opportunity monitoring.
+
+### Resource Consumption Model
+
+**All coefficients use LACE's 0.0-1.0 scale.**
+
+#### Field Complexity (0.0-1.0)
+
+How complex is the social field to monitor?
+
+```python
+def calculate_field_complexity(agent: Agent) -> float:
+    """
+    Field complexity approaches 1.0 as topology fills
+    Uses saturation function (never exceeds 1.0)
+    """
+    # Weighted contribution per tier
+    inner_weight = 0.08   # Inner requires more monitoring
+    middle_weight = 0.025 # Middle moderate monitoring
+    outer_weight = 0.008  # Outer minimal monitoring
+
+    # Sum entanglements weighted by attention_focus
+    inner_load = sum(inner_weight × e.attention_focus
+                    for e in agent.field_state.inner_topology)
+    middle_load = sum(middle_weight × e.attention_focus
+                     for e in agent.field_state.middle_topology)
+    outer_load = sum(outer_weight × e.attention_focus
+                    for e in agent.field_state.outer_topology)
+
+    raw_complexity = inner_load + middle_load + outer_load
+
+    # Saturate to 1.0 asymptotically
+    field_complexity = 1.0 - (1.0 / (1.0 + raw_complexity))
+
+    return field_complexity  # 0.0-1.0
+```
+
+**Examples:**
+- Small field (3 inner, 10 middle, 20 outer): complexity = 0.32 (32%)
+- Large field (10 inner, 40 middle, 80 outer): complexity = 0.635 (64%)
+- Extreme field (15 inner, 60 middle, 120 outer): complexity = 0.723 (72%)
+
+Field complexity saturates asymptotically - can't exceed 1.0, but grows harder to manage.
+
+#### Stakes Intensity (0.0-1.0)
+
+How high are the stakes in this social field?
+
+```python
+def calculate_stakes_intensity(agent: Agent) -> float:
+    """
+    Stakes based on threat/opportunity/power dynamics
+    """
+    threat_level = assess_environmental_threat(agent)        # 0.0-1.0
+    opportunity_level = assess_opportunity_level(agent)      # 0.0-1.0
+    power_differential = calculate_power_differential(agent) # 0.0-1.0
+
+    stakes_intensity = (threat_level × 0.5 +
+                       opportunity_level × 0.3 +
+                       power_differential × 0.2)
+
+    return stakes_intensity  # 0.0-1.0
+```
+
+**Examples:**
+- Safe community: stakes = 0.29 (29% - low threat, good support)
+- Toxic workplace: stakes = 0.815 (82% - high threat, high stakes)
+- Casual gathering: stakes = 0.24 (24% - low threat, moderate opportunity)
+
+#### Vigilance Factor (0.0-1.0)
+
+Consciousness modulation of vigilance intensity.
+
+```python
+def calculate_vigilance_factor(agent: Agent) -> float:
+    """
+    Lower consciousness = higher vigilance (survival hypervigilance)
+    Higher consciousness = lower vigilance (witness mode)
+    """
+    consciousness = agent.consciousness_coefficient  # 0.0-1.0
+
+    if consciousness < 0.35:
+        # Survival: High vigilance
+        vigilance_factor = 1.0 - (consciousness × 0.5)
+    elif consciousness < 0.69:
+        # Reason: Moderate vigilance
+        vigilance_factor = 1.0 - (consciousness × 0.6)
+    else:
+        # Spiritual: Reduced vigilance
+        vigilance_factor = 0.9 - (consciousness × 0.5)
+
+    return max(0.4, min(1.0, vigilance_factor))  # Clamped 0.4-1.0
+```
+
+**Examples:**
+- consciousness = 0.20 → vigilance = 0.90 (90% - survival hypervigilance)
+- consciousness = 0.50 → vigilance = 0.70 (70% - moderate)
+- consciousness = 0.90 → vigilance = 0.45 (45% - witness mode)
+
+### Complete Examples
+
+```python
+# EXAMPLE 1: Safe community, moderate consciousness
+field_complexity = 0.32   # Small field
+stakes_intensity = 0.29   # Low stakes
+vigilance_factor = 0.70   # Moderate consciousness
+vigilance_load = 0.32 × 0.29 × 0.70 = 0.065 (6.5% of attention budget)
+# Result: Energizing environment
+
+# EXAMPLE 2: Toxic workplace, moderate consciousness
+field_complexity = 0.42   # Medium field
+stakes_intensity = 0.815  # Very high stakes
+vigilance_factor = 0.70   # Moderate consciousness
+vigilance_load = 0.42 × 0.815 × 0.70 = 0.240 (24% of attention budget)
+# Result: Significant continuous drain
+
+# EXAMPLE 3: Extreme field, toxic environment, low consciousness
+field_complexity = 0.723  # Very large field
+stakes_intensity = 0.85   # Very toxic
+vigilance_factor = 0.875  # Survival mode
+vigilance_load = 0.723 × 0.85 × 0.875 = 0.538 (54% of attention budget)
+# Result: Severe continuous drain
+```
+
+### What Vigilance Explains
+
+**1. Social Exhaustion**
+
+Not "too many people" - vigilance intensity matters.
+
+Same 10 people:
+- Low-stakes gathering: vigilance_load = 0.061 (6% - energizing)
+- High-stakes work event: vigilance_load = 0.210 (21% - exhausting)
+
+**3.4x difference** in resource drain for same field size.
+
+**2. Toxic Environments**
+
+Why they destroy you:
+
+Small field (5 people), extremely toxic:
+- vigilance_load = 0.230 (23% continuous drain)
+- Plus active interaction costs
+- Little left for manifestation, creativity, joy
+
+**3. Introversion vs Extraversion**
+
+Individual variation in vigilance sensitivity:
+
+```python
+# Optional agent property
+vigilance_sensitivity: float  # 0.5-1.0
+
+# Introvert: Higher sensitivity (1.0)
+# Same field costs more to monitor
+# Faster depletion, needs more recovery
+
+# Extravert: Lower sensitivity (0.5)
+# Same field costs less
+# Slower depletion or regenerative processing
+```
+
+Not about social skill - about processing sensitivity.
+
+**4. Relationship Capacity Limits**
+
+Field complexity saturates toward 1.0 as field grows:
+
+Very large field:
+- raw_complexity = 3.265
+- field_complexity = 0.766 (77%)
+
+Natural emergence of capacity limits from resource constraints.
+
+**5. Context Dependency**
+
+Same people, different contexts = vastly different costs:
+
+- Safe community: stakes = 0.25 (vigilance relaxed)
+- Competitive environment: stakes = 0.85 (vigilance intense)
+
+**3.4x difference** for identical field.
+
+### Vigilance Overload
+
+When vigilance_load > 0.7 (consuming >70% of attention budget):
+
+**Resource starvation:**
+```python
+available_for_manifestation = max(0.0, 1.0 - vigilance_load)
+available_for_decisions = max(0.0, 1.0 - vigilance_load)
+```
+
+Little remains for anything but survival monitoring.
+
+**Chronic stress (if sustained):**
+```python
+if vigilance_load > 0.7:
+    stress_level = min(1.0, (vigilance_load - 0.7) / 0.3)
+    # Reduced regeneration
+    # Health impacts
+```
+
+Creates natural pressure to reduce field complexity or change environmental stakes.
+
+### Active Social Processing (Burst Costs)
+
+Beyond continuous vigilance, active interaction includes:
+
+**Agent State Simulation (Theory of Mind):**
+- Temporarily modeling another agent's state_signature
+- Predicting their actions/reactions
+- Cost: Burst attention (0.2-0.5) + energy (0.2-0.4)
+- Duration: Active simulation period
+
+**Emotional Resonance Detection:**
+- Reading field charge, sensing emotional states
+- Cost: Attention (0.1-0.3) + energy (0.1-0.3) during interaction
+
+**Coalition Strategy Processing:**
+- Planning alliances, assessing betrayal risk
+- Cost: Coherence (0.15-0.4) + attention (0.1-0.3)
+
+All burst costs use 0.0-1.0 coefficients, consumed during active engagement.
+
+---
+
 ## What This Explains
 
 ### 1. Why Multitasking Degrades Performance

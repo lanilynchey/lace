@@ -496,6 +496,35 @@ Topology affects manifestation:
 
 ---
 
+## Social Vigilance Overhead
+
+Maintaining topology is not free - it requires continuous **social vigilance processing**.
+
+Agents run a background daemon that constantly monitors the social field for:
+- Threat detection (who's dangerous?)
+- Opportunity detection (who's valuable?)
+- Hierarchy positioning (where do I stand?)
+- Coalition mapping (what alliances exist?)
+- Betrayal potential (who might turn on me?)
+
+This is survival processing - humans are social predators AND prey.
+
+**Resource cost:** `vigilance_load = field_complexity × stakes_intensity × vigilance_factor` (0.0-1.0)
+
+- **Field complexity** increases with topology size (saturates asymptotically)
+- **Stakes intensity** varies by environment (toxic workplace vs safe community)
+- **Vigilance factor** modulated by consciousness (survival mode vs witness mode)
+
+**Why this matters:**
+- Explains social exhaustion (not "too many people" but vigilance intensity)
+- Explains toxic environment impact (high stakes = constant high vigilance)
+- Explains relationship capacity limits (field complexity saturates toward 1.0)
+- Explains context dependency (same people, different stakes = different drain)
+
+See [System Resource Allocation - Social Vigilance Processing](../20_system_resource_allocation.md#social-vigilance-processing) for complete mechanics.
+
+---
+
 ## Key Takeaways
 
 1. **Impact follows acknowledgment, not proximity** - you control your vulnerability surface
@@ -505,6 +534,7 @@ Topology affects manifestation:
 5. **You cannot impact someone who doesn't acknowledge you** - unidirectional relationships are one-way drains
 6. **Peripheral can become stored** - sustained attention + emotion migrates temporary impacts to topology
 7. **Field hygiene is self-care** - removing toxic entities requires breaking repetition loops
+8. **Vigilance is continuous** - maintaining topology consumes attention resources even when not actively interacting
 
 ---
 

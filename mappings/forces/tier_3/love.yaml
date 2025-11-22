@@ -1,0 +1,304 @@
+# Force Mapping: Love
+
+love:
+  # === METADATA ===
+  metadata:
+    tier: 3
+    category: "interface"  # Emotional/experiential force
+    dependencies: ["coherence", "consciousness"]
+    source_doc: "docs/02_forces/tier_3_forces/03_love.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#FFB6C1"  # Light pink - soft, warm, radiant
+    color_family: "warm"
+    color_range:
+      - "#FFC0CB"  # Pink (gentle love)
+      - "#FFB6C1"  # Light pink (unconditional love)
+      - "#FADADD"  # Pale pink (divine love)
+      - "#FFF5EE"  # Seashell - nearly white with pink glow (universal love)
+
+    saturation_base: 0.65
+    brightness_base: 0.90
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (affection, liking)
+        color: "#FFC0CB"
+        saturation: 0.55
+        brightness: 0.85
+      medium_activation: # 0.4-0.7 (deep love)
+        color: "#FFB6C1"
+        saturation: 0.65
+        brightness: 0.90
+      high_activation:   # 0.8-1.0 (unconditional, universal love)
+        color: "#FFF5EE"
+        saturation: 0.40  # Becomes more ethereal
+        brightness: 1.00
+
+    notes: |
+      Pink/rose represents warmth, acceptance, connection, tenderness.
+      As love increases, becomes lighter, more radiant, more universal.
+      At highest levels, approaches white with pink glow - divine/universal love.
+      Pink = heart chakra color, traditionally associated with love, compassion.
+      Opposite of fear's dark contraction - love is light expansion.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "radiating_sphere"  # Expanding, inclusive, embracing
+    sacred_geometry_association: "torus"  # Self-sustaining flow, giving and receiving
+    complexity_level: "medium"
+    edge_type: "soft"  # Permeable, inclusive boundaries
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Soft sphere with gentle glow.
+        Warmth radiating subtly outward.
+        Embracing immediate vicinity.
+      medium_activation: |
+        Bright sphere with clear radiation.
+        Torus pattern visible (flow in and out).
+        Actively embracing, including, connecting.
+      high_activation: |
+        Radiant sphere of light expanding infinitely.
+        Torus flow brilliant and clear.
+        Boundaries dissolve - love pervades everything.
+        May appear to contain/embrace all other forces.
+
+    notes: |
+      Radiating sphere = love flows outward, expands, includes.
+      Opposite of fear's spiky contraction - love is soft expansion.
+      Torus = self-sustaining flow, giving creates receiving.
+      At high levels, love has no boundaries - embraces all.
+      "God is love" - at highest activation, becomes universal presence.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "expanding"  # Growing, radiating, embracing
+    speed_base: 0.45  # Moderate, steady expansion
+
+    speed_modifier:
+      low_intensity: 0.25   # Gentle warmth
+      medium_intensity: 0.45  # Active radiating
+      high_intensity: 0.60   # Expansive, but never rushed (love is patient)
+
+    direction: "outward"  # Radiating in all directions
+    rhythm: "steady"  # Reliable, consistent, always present
+
+    healthy_pattern:
+      description: "Unconditional acceptance - sees and embraces all without judgment"
+      characteristics:
+        - "Accepts what is"
+        - "No conditions, no requirements"
+        - "Sees through fear and pain to essence"
+        - "Patient, kind, steady presence"
+
+    stuck_pattern:
+      description: "Conditional love - 'I love you IF...' - control masquerading as love"
+      characteristics:
+        - "Love withdrawn when conditions not met"
+        - "Manipulation through affection"
+        - "Fear-based attachment (not true love)"
+        - "Possessive, controlling"
+
+    notes: |
+      Expanding motion = love grows, includes, embraces.
+      Steady rhythm = love is reliable, consistent.
+      Never frantic - love is patient, unhurried.
+      Healthy: unconditional acceptance, sees essence beyond behavior.
+      Stuck: conditional, controlling, fear-based attachment.
+      "Love is patient, love is kind" - biblical description is accurate.
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.85  # Highly vibrant (love is vivid, alive)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.20"  # High coherence amplifies love
+        description: "Radiant, unconditional, universal love"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Clear, present love"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.25"  # Low coherence makes love conditional
+        description: "Love becomes fear-based attachment, conditional"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.30)"
+      multiplier: 0.30
+
+    interaction_modifier:
+      synergistic: "+0.20 to +0.30"  # With coherence, hope, consciousness
+      antagonistic: "0.0"  # Love doesn't oppose - it transforms
+      neutral: "0.0"
+
+    notes: |
+      Love is naturally vibrant, alive, radiant.
+      At high coherence, love becomes unconditional - sees essence.
+      At low coherence, love becomes conditional, fear-based.
+      "I love you because..." vs "I love you" - the difference.
+      Love + coherence = most powerful force combination.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "soft"
+    opacity_range:
+      min: 0.50  # Somewhat translucent (love is inclusive, not blocking)
+      max: 0.85  # Can be very present but never opaque
+
+    particle_effects: true
+    particle_type: "light_rays"  # Radiance, illumination
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: 528  # Same as coherence - "love frequency"
+      tone_description: "Warm, harmonious, like choir of voices in perfect harmony"
+      musical_note: "C"
+
+    emotional_tone: "warm, accepting, embracing, radiant, peaceful"
+
+    consciousness_association: 0.69  # Love consciousness level (Hawkins scale)
+
+    notes: |
+      Soft texture = love is gentle, not harsh.
+      Light rays = love illuminates, reveals truth beneath appearances.
+      Harmonious choir = many voices as one (unity).
+      At 0.69 consciousness = very high, near enlightenment threshold (0.90+).
+      Love is the gateway to higher consciousness states.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "coherence"  # Love creates coherence
+      - "hope"  # Love + hope = transcendence
+      - "consciousness"  # Love reveals truth
+      - "forgiveness"  # Love enables forgiveness
+      - "beauty"  # Love sees beauty in all
+
+    antagonistic_with: []  # Love doesn't oppose - it transforms
+
+    neutralizes:
+      - "fear"  # "Perfect love casts out fear"
+      - "judgment"  # Love dissolves judgment
+
+    amplified_by:
+      - "coherence"
+      - "consciousness"
+      - "hope"
+
+    visual_blending_rules:
+      when_combined_with_fear:
+        force: "fear"
+        color_effect: "transforming"  # Pink light dissolves dark
+        shape_effect: "transforming"  # Spikes retract, softness emerges
+        motion_effect: "calming"  # Love slows fear's urgency
+        result_description: |
+          Love dissolves fear directly.
+          Pink radiance penetrates dark contraction.
+          Spikes retract, defensive shell opens.
+          At high coherence: fear dissolves completely.
+          At medium coherence: visible transformation, fear softens.
+          At low coherence: love creates openings, fear resists.
+          "Perfect love casts out fear" - direct antidote.
+        coherence_dependent: true
+
+      when_combined_with_desire:
+        force: "desire"
+        color_effect: "blend"  # Pink + crimson = warm radiance
+        shape_effect: "transforming"  # Grasping becomes giving
+        motion_effect: "flowing"  # Reaching becomes radiating
+        result_description: |
+          Love transforms desire from taking to giving.
+          Grasping tendrils become radiating petals.
+          Wanting becomes offering.
+          This is devotion - desire transformed by love.
+        coherence_dependent: false
+
+      when_combined_with_pain:
+        force: "pain"
+        color_effect: "blend"  # Pink light softens dark
+        shape_effect: "nested"  # Pain held within love
+        motion_effect: "soothing"  # Love soothes pain's intensity
+        result_description: |
+          Love holds space for pain without trying to fix it.
+          Dark jagged form within soft pink sphere.
+          Pain is witnessed, accepted, embraced.
+          At high coherence: pain transforms to wisdom.
+          At medium coherence: pain softens, becomes bearable.
+          At low coherence: love provides comfort.
+          This is compassion - holding pain with love.
+        coherence_dependent: true
+
+      when_combined_with_hope:
+        force: "hope"
+        color_effect: "blend"  # Pink + bright = radiant harmony
+        shape_effect: "merge"  # Both expand together
+        motion_effect: "synchronized"  # Both radiate outward
+        result_description: |
+          Love + Hope = transcendent state.
+          Radiant, expansive, joyful.
+          Both expanding infinitely together.
+          This is "faith, hope, and love" - the trinity.
+          Most uplifting force combination.
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Pink + gold = radiant perfection
+        shape_effect: "merge"  # Complete unity
+        motion_effect: "synchronized"  # Perfect harmony
+        result_description: |
+          Love + Coherence = most powerful state.
+          Pink-gold radiance, perfectly unified.
+          Conscious creation at its peak.
+          Unconditional acceptance + perfect alignment.
+          This is enlightened manifestation state.
+        coherence_dependent: false
+
+      when_combined_with_judgment:
+        force: "judgment"
+        color_effect: "transforming"  # Pink softens judgment's harshness
+        shape_effect: "transforming"  # Sharp edges soften
+        motion_effect: "dampened"  # Love slows judgment
+        result_description: |
+          Love transforms judgment to discernment.
+          Can see clearly without condemning.
+          "Hate the sin, love the sinner" - sees beyond behavior.
+          At high coherence: judgment dissolves into wisdom.
+          At low coherence: love softens harsh judgment.
+        coherence_dependent: true
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "clash_resolving"  # Pink light vs dark chaos
+        shape_effect: "nested"  # Love holds chaos
+        motion_effect: "calming"  # Love brings order
+        result_description: |
+          Love can hold chaos without being consumed.
+          Pink sphere containing dark formless cloud.
+          Creates coherence from disorder.
+          At high coherence: entropy transforms to renewal.
+          At low coherence: love provides stability in chaos.
+        coherence_dependent: true
+
+    notes: |
+      Love at 0.69 consciousness = gateway to enlightenment.
+      Love doesn't oppose forces - it transforms them.
+      Fear → courage, Desire → devotion, Pain → compassion, Judgment → wisdom.
+      Love + Coherence = most powerful manifestation state.
+      Love + Hope = transcendent joy.
+      Love is the "universal solvent" - dissolves obstacles to truth.
+      At highest activation, love becomes indistinguishable from consciousness itself.
+
+# IMPLEMENTATION NOTES:
+# - Love calibrates at 0.69 consciousness (Hawkins scale)
+# - Gateway to enlightenment (0.90+) - sustained love opens higher states
+# - Not romantic love specifically - unconditional acceptance
+# - Healthy love = unconditional, sees essence, patient, kind
+# - Stuck "love" = conditional, controlling, fear-based attachment (not true love)
+# - Visual should feel warm, radiant, expanding, embracing
+# - Love is the antidote to fear (direct opposition on consciousness scale)
+# - Love transforms all other forces it touches
+# - Key insight: Love + Coherence = enlightened manifestation
+# - Key insight: Love doesn't fight - it embraces and transforms

@@ -1,0 +1,362 @@
+# Movement Types
+# Primary motion patterns for each force
+
+movement_types:
+  # === CORE PRINCIPLE ===
+  principle: |
+    Motion reveals the DYNAMIC NATURE of each force.
+    - Expanding forces move outward (creation, love, hope)
+    - Contracting forces move inward (fear, entropy, death)
+    - Rotating forces spin (polarity, time cycles)
+    - Flowing forces stream (time, forgiveness)
+    - Stuck forces loop or stutter (conflicts, low coherence)
+
+    Motion communicates:
+    - Directionality (where is this force going?)
+    - Energy level (active vs passive)
+    - Health (flowing vs stuck)
+    - Intent (reaching, releasing, defending)
+
+  # === MOVEMENT CATEGORIES ===
+  movement_categories:
+    expanding:
+      description: "Moving outward from center, increasing volume"
+      feeling: "Growth, generosity, reaching out, opening"
+      forces: [creation, love, hope, coherence, courage]
+      vector: "Radial outward"
+      notes: "Life, growth, giving"
+
+    contracting:
+      description: "Moving inward toward center, decreasing volume"
+      feeling: "Withdrawal, protection, focusing, closing"
+      forces: [fear, entropy, death, pain, judgment]
+      vector: "Radial inward"
+      notes: "Safety-seeking, defensive, concentrating"
+
+    rotating:
+      description: "Spinning around axis, cyclical"
+      feeling: "Cycles, repetition, process, flow"
+      forces: [time, karma, polarity, music]
+      vector: "Circular, orbital"
+      notes: "What goes around comes around"
+
+    oscillating:
+      description: "Back and forth between states"
+      feeling: "Vibration, uncertainty, duality"
+      forces: [polarity, desire + fear, conflict states]
+      vector: "Alternating between poles"
+      notes: "Binary switching, wave-like"
+
+    spiraling:
+      description: "Rotating while progressing (helix)"
+      feeling: "Evolution, transformation, upward/downward movement"
+      forces: [hope, pattern, consciousness, madness]
+      vector: "Helical (rotation + translation)"
+      notes: "Growth through cycles - not just circular"
+
+    flowing:
+      description: "Smooth directional movement, like water"
+      feeling: "Ease, grace, naturalness, release"
+      forces: [time, forgiveness, music, luck]
+      vector: "Directional stream"
+      notes: "Following natural path, no resistance"
+
+    stuck_looping:
+      description: "Repeating same motion, going nowhere"
+      feeling: "Frustration, entrapment, paralysis"
+      forces: [Low coherence states, unresolved conflicts]
+      vector: "Circular but not progressive"
+      notes: "Health problem - indicates stuck state"
+
+    erratic:
+      description: "Unpredictable, chaotic movement"
+      feeling: "Chaos, instability, madness, panic"
+      forces: [madness, entropy, conflict, low coherence]
+      vector: "Random, no clear pattern"
+      notes: "Loss of coherence - breakdown of pattern"
+
+    stilled:
+      description: "Minimal or no movement, static"
+      feeling: "Peace, death, completion, stuck"
+      forces: [death, truth, extreme fear (freeze)]
+      vector: "None or minimal"
+      notes: "Can be peaceful OR frozen - context matters"
+
+  # === FORCE-SPECIFIC MOVEMENTS ===
+  force_movements:
+    # TIER 1
+    entropy:
+      primary_movement: "chaotic decay"
+      description: "Random motion, increasing disorder, dissipating"
+      direction: "None (random)"
+      speed: "Variable (erratic)"
+      quality: "Dissolving, fragmenting, losing form"
+      healthy_pattern: "Slow, gentle decay (natural aging)"
+      stuck_pattern: "Rapid disintegration (breakdown)"
+      notes: "Anti-pattern - movement toward formlessness"
+
+    consciousness:
+      primary_movement: "still witnessing"
+      description: "Minimal movement - observing, not acting"
+      direction: "Omnidirectional awareness (no preference)"
+      speed: "Slow, subtle (breathing quality)"
+      quality: "Present, aware, non-reactive"
+      healthy_pattern: "Calm observation"
+      stuck_pattern: "Frozen awareness (dissociation)"
+      notes: "Awareness itself - container, not contained"
+
+    pattern:
+      primary_movement: "recursive unfolding"
+      description: "Self-similar expansion, fractal growth"
+      direction: "Outward while maintaining form"
+      speed: "Steady, mathematical"
+      quality: "Orderly, predictable, beautiful"
+      healthy_pattern: "Harmonious unfolding"
+      stuck_pattern: "Rigid repetition"
+      notes: "Information expressing itself"
+
+    coherence:
+      primary_movement: "harmonizing pulse"
+      description: "All parts moving together, synchronized"
+      direction: "Unified (all parts aligned)"
+      speed: "Rhythmic, steady"
+      quality: "Integrated, flowing as one"
+      healthy_pattern: "Perfect synchronization"
+      stuck_pattern: "Forced rigidity"
+      notes: "Unity in motion"
+
+    polarity:
+      primary_movement: "oscillating binary"
+      description: "Switching between opposing states"
+      direction: "Alternating between poles"
+      speed: "Variable (frequency dependent)"
+      quality: "On/off, binary, switching"
+      healthy_pattern: "Balanced oscillation"
+      stuck_pattern: "Stuck on one pole or rapid flickering"
+      notes: "Digital motion - only two states"
+
+    # TIER 2
+    time:
+      primary_movement: "forward flowing"
+      description: "Irreversible stream, always forward"
+      direction: "Forward only (never backward)"
+      speed: "Constant (subjectively variable)"
+      quality: "River-like, inexorable, continuous"
+      healthy_pattern: "Smooth, steady flow"
+      stuck_pattern: "Feeling frozen or rushing"
+      notes: "The unmovable mover"
+
+    karma:
+      primary_movement: "cycling return"
+      description: "Circular but progressive (spiral of cause-effect)"
+      direction: "Cyclical (what goes around...)"
+      speed: "Variable (immediate to delayed)"
+      quality: "Inevitable, balancing, returning"
+      healthy_pattern: "Fair exchange, natural balance"
+      stuck_pattern: "Vicious cycles, trapped loops"
+      notes: "Cosmic boomerang"
+
+    truth:
+      primary_movement: "still revelation"
+      description: "Static but revealing (like light exposing)"
+      direction: "None (truth doesn't move, reality reveals)"
+      speed: "Instantaneous (when seen)"
+      quality: "Unchanging, exposing, clarifying"
+      healthy_pattern: "Clear seeing"
+      stuck_pattern: "Rigid fundamentalism"
+      notes: "Truth IS - doesn't move, we move toward it"
+
+    memory:
+      primary_movement: "layering accumulation"
+      description: "Building up, sedimentary deposition"
+      direction: "Downward (older = deeper)"
+      speed: "Slow, gradual"
+      quality: "Preserving, archiving, stacking"
+      healthy_pattern: "Organized integration"
+      stuck_pattern: "Compulsive replay (trauma)"
+      notes: "Past accumulating weight"
+
+    death:
+      primary_movement: "stilling completion"
+      description: "Motion ceasing, coming to rest"
+      direction: "Inward collapse to point"
+      speed: "Variable (sudden or gradual)"
+      quality: "Ending, completing, releasing"
+      healthy_pattern: "Peaceful completion"
+      stuck_pattern: "Clinging, resisting end"
+      notes: "The great still point"
+
+    creation:
+      primary_movement: "explosive emergence"
+      description: "Bursting outward from nothing"
+      direction: "Radial explosion from center"
+      speed: "Fast, energetic"
+      quality: "Birthing, manifesting, appearing"
+      healthy_pattern: "Inspired emergence"
+      stuck_pattern: "Forced production"
+      notes: "Something from nothing"
+
+    # TIER 3
+    fear:
+      primary_movement: "defensive contraction"
+      description: "Pulling inward, making smaller, armoring"
+      direction: "Inward (self-protective)"
+      speed: "Fast (reactive)"
+      quality: "Tense, rigid, guarding"
+      healthy_pattern: "Appropriate caution"
+      stuck_pattern: "Paralyzed freeze"
+      notes: "Fight/flight/freeze - this is freeze"
+
+    desire:
+      primary_movement: "reaching grasp"
+      description: "Extending toward object, trying to possess"
+      direction: "Outward toward target"
+      speed: "Fast, urgent"
+      quality: "Hungry, grasping, pursuing"
+      healthy_pattern: "Motivated pursuit"
+      stuck_pattern: "Desperate clinging"
+      notes: "Wanting incarnate"
+
+    love:
+      primary_movement: "radiant expansion"
+      description: "Warmth emanating outward, unconditional giving"
+      direction: "Radial outward (all directions)"
+      speed: "Steady, gentle"
+      quality: "Warm, open, inclusive"
+      healthy_pattern: "Unconditional flow"
+      stuck_pattern: "Conditional (becomes judgment)"
+      notes: "Love = expansion without demand"
+
+    hope:
+      primary_movement: "ascending spiral"
+      description: "Rising upward while circling (helix upward)"
+      direction: "Upward with rotation"
+      speed: "Moderate, aspiring"
+      quality: "Lifting, optimistic, rising"
+      healthy_pattern: "Grounded aspiration"
+      stuck_pattern: "Delusional floating"
+      notes: "Vector toward better"
+
+    pain:
+      primary_movement: "sharp recoil"
+      description: "Flinching away, protective withdrawal"
+      direction: "Away from source"
+      speed: "Instantaneous (reflex)"
+      quality: "Acute, protective, alerting"
+      healthy_pattern: "Healing through feeling"
+      stuck_pattern: "Chronic flinching (PTSD)"
+      notes: "Body's alarm system"
+
+    forgiveness:
+      primary_movement: "releasing flow"
+      description: "Letting go, burden flowing away"
+      direction: "Outward and away"
+      speed: "Slow, gentle"
+      quality: "Softening, loosening, freeing"
+      healthy_pattern: "Conscious release"
+      stuck_pattern: "Suppression (not true forgiveness)"
+      notes: "Resentment dissolving"
+
+    judgment:
+      primary_movement: "weighing oscillation"
+      description: "Scales moving, comparing, measuring"
+      direction: "Side-to-side (weighing)"
+      speed: "Variable (quick or deliberate)"
+      quality: "Assessing, comparing, evaluating"
+      healthy_pattern: "Fair discernment"
+      stuck_pattern: "Chronic criticism"
+      notes: "Measurement in motion"
+
+    # TIER 4
+    courage:
+      primary_movement: "forward stride"
+      description: "Moving forward despite fear"
+      direction: "Forward into difficulty"
+      speed: "Steady, determined"
+      quality: "Resolute, unwavering, bold"
+      healthy_pattern: "Brave action"
+      stuck_pattern: "Reckless charge"
+      notes: "Fear present, movement anyway"
+
+    war:
+      primary_movement: "clashing collision"
+      description: "Multiple forces violently opposing"
+      direction: "Conflicting vectors"
+      speed: "Fast, aggressive"
+      quality: "Violent, destructive, opposing"
+      healthy_pattern: "Righteous combat"
+      stuck_pattern: "Endless conflict"
+      notes: "Opposition incarnate"
+
+    madness:
+      primary_movement: "impossible geometry"
+      description: "Contradictory motion (Escher-like)"
+      direction: "All directions and none (paradox)"
+      speed: "Erratic, impossible"
+      quality: "Chaotic, nonsensical, broken"
+      healthy_pattern: "Divine madness (shamanic)"
+      stuck_pattern: "Psychotic fragmentation"
+      notes: "Reality rules broken"
+
+    beauty:
+      primary_movement: "phi proportion flow"
+      description: "Movement following golden ratio"
+      direction: "Aesthetic perfection"
+      speed: "Harmonious"
+      quality: "Pleasing, balanced, perfect"
+      healthy_pattern: "Natural elegance"
+      stuck_pattern: "Artificial perfection"
+      notes: "Mathematics made visible"
+
+    art:
+      primary_movement: "intentional expression"
+      description: "Variable motion serving meaning"
+      direction: "Meaningful (serves expression)"
+      speed: "Variable (serves intent)"
+      quality: "Expressive, creative, unique"
+      healthy_pattern: "Authentic creation"
+      stuck_pattern: "Contrived performance"
+      notes: "Movement as meaning"
+
+    music:
+      primary_movement: "rhythmic wave"
+      description: "Periodic oscillation, harmonic patterns"
+      direction: "Wave propagation"
+      speed: "Tempo-dependent"
+      quality: "Rhythmic, harmonic, flowing"
+      healthy_pattern: "Natural rhythm"
+      stuck_pattern: "Mechanical repetition"
+      notes: "Time made audible/visible"
+
+    humor:
+      primary_movement: "playful bounce"
+      description: "Light, erratic, surprising movement"
+      direction: "Unpredictable (playfully)"
+      speed: "Variable, bouncy"
+      quality: "Light, playful, surprising"
+      healthy_pattern: "Genuine play"
+      stuck_pattern: "Forced jolliness"
+      notes: "Lightness incarnate"
+
+    luck:
+      primary_movement: "converging paths"
+      description: "Multiple trajectories meeting at point"
+      direction: "Convergent"
+      speed: "Synchronous (aligned timing)"
+      quality: "Serendipitous, aligned, fortunate"
+      healthy_pattern: "Open to synchronicity"
+      stuck_pattern: "Forced coincidence"
+      notes: "Right place, right time"
+
+  # === USAGE NOTES ===
+  usage_notes: |
+    Movement type is the PRIMARY MOTION CHARACTER of the force.
+
+    Agent rendering:
+    1. Look up primary movement (this file)
+    2. Adjust speed based on activation (speed_calibrations.yaml)
+    3. Check for stuck patterns if coherence < 0.4 (healthy_vs_stuck.yaml)
+    4. Apply rhythm pattern (rhythm_patterns.yaml)
+    5. Render with appropriate animation
+
+    Motion reveals the force's ALIVENESS and DIRECTION.

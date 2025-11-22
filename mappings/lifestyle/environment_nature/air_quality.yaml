@@ -1,0 +1,311 @@
+# Lifestyle Factor: Air Quality
+
+air_quality:
+  # === METADATA ===
+  metadata:
+    category: "environment_nature"
+    measurement_type: "objective"  # Measurable (air quality monitors)
+    update_frequency: "weekly"
+    importance: "high"  # Often overlooked, significant health impacts
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Poor air quality - polluted, stale, unventilated, toxic indoor air"
+      indicators:
+        - "High indoor pollution (VOCs, particulates, CO2)"
+        - "No ventilation, stale air"
+        - "Mold, dust, allergens present"
+        - "Near pollution sources (traffic, industry)"
+        - "No air filtration, no plants"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Moderate quality - some ventilation, moderate pollution levels"
+      indicators:
+        - "Moderate indoor air quality"
+        - "Some ventilation, occasional fresh air"
+        - "Some plants or filtration"
+        - "Moderate outdoor pollution levels"
+        - "Occasional stuffiness, allergies"
+
+    high:
+      range: "0.8-1.0"
+      description: "Excellent quality - clean, fresh, well-ventilated, filtered, plants"
+      indicators:
+        - "Low pollution levels (indoor and outdoor)"
+        - "Regular ventilation, fresh air"
+        - "Air filtration (HEPA, plants, purifiers)"
+        - "Clean environment (low dust, mold, VOCs)"
+        - "Breathe easily, no stuffiness, allergies minimized"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    cognitive_function:
+      low: -0.30    # Poor air = brain fog, reduced cognition
+      medium: 0.0
+      high: +0.20   # Good air = mental clarity
+      notes: "CO2 levels affect cognition significantly - high CO2 = impaired thinking"
+
+    energy:
+      low: -0.25    # Poor air = fatigue, lethargy
+      medium: 0.0
+      high: +0.20   # Fresh air = energy, vitality
+      notes: "Stale air = low oxygen, high CO2 - literally drains energy"
+
+    sleep_quality:
+      low: -0.25    # Poor air = poor sleep
+      medium: 0.0
+      high: +0.20   # Fresh, cool air = better sleep
+      notes: "Bedroom air quality directly affects sleep - ventilation critical"
+
+    respiratory_health:
+      low: -0.30    # Poor air = respiratory problems
+      medium: 0.0
+      high: +0.15   # Clean air = respiratory wellness
+      notes: "Pollutants, allergens = inflammation, asthma, chronic issues"
+
+    inflammation:
+      low: +0.25    # Air pollution = systemic inflammation
+      medium: 0.0
+      high: -0.15   # Clean air = reduced inflammation
+      notes: "Particulate matter (PM2.5) = inflammatory cascade throughout body"
+
+    mood:
+      low: -0.20    # Stuffy air = irritability, low mood
+      medium: 0.0
+      high: +0.15   # Fresh air = better mood
+      notes: "Fresh air affects mood directly - stuffy environments are depressing"
+
+    immune_function:
+      low: -0.20    # Poor air = immune stress
+      medium: 0.0
+      high: +0.15   # Clean air = immune support
+      notes: "Chronic air pollution = immune system constantly fighting"
+
+    focus:
+      low: -0.25    # High CO2 = impaired concentration
+      medium: 0.0
+      high: +0.20   # Good ventilation = better focus
+      notes: "CO2 above 1000ppm = measurable cognitive impairment"
+
+    stress:
+      low: +0.15    # Poor air = physiological stress
+      medium: 0.0
+      high: -0.10   # Fresh air = stress relief
+      notes: "Poor air quality = stressor to body (not always consciously noticed)"
+
+    cardiovascular:
+      low: -0.20    # Air pollution = heart disease risk
+      medium: 0.0
+      high: +0.10   # Clean air = heart health
+      notes: "PM2.5 pollution = cardiovascular disease, stroke risk"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Open window, feel immediate difference
+    chronic_impact: "severe"  # Long-term poor air = serious health consequences
+    recovery_time: "Immediate improvement with ventilation, but chronic damage takes longer"
+
+    notes: |
+      Air quality affects you every breath (20,000+ breaths per day).
+      Poor air quality is cumulative - years of exposure = disease.
+      Improvement is immediate with intervention (ventilation, filtration).
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - respiratory_health: "Clean air = breathing wellness"
+      - cognitive_function: "Fresh air = mental clarity"
+      - sleep_quality: "Good bedroom air = better sleep"
+
+    dampens:
+      - inflammation: "Clean air reduces systemic inflammation"
+      - allergies: "Filtration reduces allergen load"
+      - fatigue: "Fresh air = more energy"
+
+    synergizes_with:
+      - nature_exposure: "Outdoor fresh air = maximum benefit"
+      - exercise: "Clean air = exercise more effective"
+      - sleep_quality: "Fresh bedroom air = better sleep"
+
+  # === NOTES ===
+  notes: |
+    You breathe 20,000+ times per day.
+    Air quality matters more than most realize.
+    Indoor air often worse than outdoor (2-5x more polluted).
+
+    Key insights:
+    - Indoor air often more polluted than outdoor
+    - Modern buildings = sealed, no ventilation (energy efficient, health disaster)
+    - CO2 buildup = cognitive impairment (common in offices, bedrooms)
+    - PM2.5 (fine particles) = systemic inflammation, disease
+    - VOCs (volatile organic compounds) = off-gassing from furniture, products
+    - Poor air quality you often don't notice consciously (but body does)
+
+    Main air quality problems:
+
+    **High CO2:**
+    - From breathing in enclosed spaces
+    - Outdoor: ~400ppm
+    - Acceptable indoor: <1000ppm
+    - Cognitive impairment starts at 1000ppm
+    - 1500ppm+ = significant impairment (common in bedrooms, offices)
+    - Symptoms: brain fog, drowsiness, headache
+
+    **Particulate matter (PM2.5):**
+    - Fine particles <2.5 microns (penetrate deep into lungs, bloodstream)
+    - From traffic, cooking, fires, industry
+    - Systemic inflammation, heart disease, stroke, cancer
+    - Short-term exposure = cardiovascular stress
+    - Long-term exposure = disease, shortened lifespan
+
+    **VOCs (volatile organic compounds):**
+    - Off-gassing from furniture, paint, carpets, cleaning products
+    - Formaldehyde, benzene, toluene, etc.
+    - New products worst (off-gas over time)
+    - Symptoms: headaches, irritation, nausea, fatigue
+    - Long-term: cancer risk
+
+    **Mold:**
+    - From moisture, poor ventilation
+    - Mycotoxins = inflammatory, neurological effects
+    - Chronic exposure = serious health issues
+    - Often hidden (walls, HVAC)
+
+    **Allergens:**
+    - Dust mites, pet dander, pollen
+    - Inflammatory response
+    - Chronic allergies = quality of life impact
+
+    Health impacts of poor air quality:
+
+    **Short-term (acute):**
+    - Headaches, fatigue, drowsiness
+    - Irritated eyes, nose, throat
+    - Reduced cognitive function (CO2)
+    - Worsened asthma, allergies
+    - Poor sleep quality
+
+    **Long-term (chronic):**
+    - Cardiovascular disease (PM2.5 major factor)
+    - Respiratory disease (asthma, COPD)
+    - Cancer (lung, others)
+    - Neurodegenerative disease
+    - Shortened lifespan (years off life from chronic exposure)
+
+    How to improve air quality:
+
+    **Ventilation (most important):**
+    - Open windows regularly (even 5-10 min)
+    - Cross-ventilation (windows on opposite sides)
+    - Fresh air exchange (dilutes pollutants, lowers CO2)
+    - Even in winter, brief ventilation worth it
+    - Bedroom ventilation before/during sleep critical
+
+    **Air purifiers:**
+    - HEPA filtration (removes PM2.5, allergens)
+    - Activated carbon (removes VOCs, odors)
+    - Bedroom, office = highest priority
+    - CADR rating (clean air delivery rate) = effectiveness measure
+    - Change filters regularly
+
+    **Plants:**
+    - Modest air cleaning (not as effective as purifiers)
+    - But: psychological benefits, humidity, aesthetics
+    - Spider plant, pothos, snake plant = easy, effective
+
+    **Source control:**
+    - Low-VOC products (paint, furniture, cleaning)
+    - No smoking indoors (obviously)
+    - Exhaust fans when cooking (major PM source)
+    - Minimize synthetic fragrances (air fresheners = VOCs)
+    - Fix moisture problems (prevent mold)
+
+    **Monitoring:**
+    - Air quality monitor (CO2, PM2.5, VOCs, humidity, temp)
+    - Makes invisible visible (awareness enables action)
+    - Affordable options: Awair, IQAir, others
+    - Track trends, identify problems
+
+    Specific room strategies:
+
+    **Bedroom:**
+    - Most important room (spend 1/3 of life here)
+    - Ventilate before bed (lower CO2)
+    - Air purifier if possible
+    - Minimize dust (bedding, floors)
+    - Cool, fresh air = better sleep
+
+    **Office/workspace:**
+    - CO2 builds quickly in closed rooms
+    - Ventilate every hour
+    - Plants, purifier helpful
+    - Monitor CO2 (affects cognition directly)
+
+    **Kitchen:**
+    - Cooking = PM2.5 spike (frying especially)
+    - Exhaust fan always (vented outside, not recirculating)
+    - Ventilate during and after cooking
+    - Gas stoves = NO2, particulates (consider induction)
+
+    **Living room:**
+    - Regular ventilation
+    - Minimize synthetic materials (VOCs)
+    - Clean regularly (dust = allergens)
+
+    Outdoor air quality:
+
+    **Check AQI (Air Quality Index):**
+    - <50 = good
+    - 50-100 = moderate
+    - 100-150 = unhealthy for sensitive groups
+    - 150+ = unhealthy for everyone
+    - Apps, websites show real-time AQI
+
+    **Wildfires, pollution events:**
+    - Stay indoors, windows closed
+    - Air purifier essential
+    - Mask if must go out (N95, KN95)
+
+    **Traffic pollution:**
+    - Live near major road = chronic exposure
+    - Trees as buffer help
+    - Air purifier indoors
+    - Avoid exercising near traffic
+
+    CO2 and cognition (research findings):
+    - 600ppm = baseline (outdoor)
+    - 1000ppm = 15% reduction in cognitive function
+    - 1400ppm = 50% reduction in strategic thinking
+    - Common to hit 2000+ppm in sealed bedrooms, offices
+    - Ventilation = immediate cognitive boost
+
+    Fresh air myths:
+    - "Cold air makes you sick" - FALSE (viruses make you sick, not cold)
+    - "Close windows in winter" - WRONG (brief ventilation doesn't significantly affect heating)
+    - "Air purifiers unnecessary" - WRONG (especially in polluted areas, sealed buildings)
+
+    Signs your air quality is poor:
+    - Stuffy, stale smell
+    - Condensation on windows (high humidity, no ventilation)
+    - Frequent headaches, fatigue (especially in specific rooms)
+    - Worsened allergies, asthma indoors
+    - Brain fog, difficulty concentrating
+    - Poor sleep (wake unrefreshed)
+
+    Quick air quality improvement:
+    1. Open window for 10 minutes (even in winter)
+    2. Notice the difference in how you feel
+    3. Repeat regularly
+
+    That's it. That simple action changes everything.
+
+    "The solution to pollution is dilution" - environmental saying
+    Fresh air is free medicine.
+    Use it.
+
+    Your body needs oxygen, not just any air.
+    20,000 breaths per day - make them quality breaths.
+

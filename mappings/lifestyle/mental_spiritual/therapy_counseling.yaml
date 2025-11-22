@@ -1,0 +1,194 @@
+# Lifestyle Factor: Therapy/Counseling
+
+therapy_counseling:
+  # === METADATA ===
+  metadata:
+    category: "mental_spiritual"
+    measurement_type: "objective_and_subjective"  # Sessions per month + quality/progress
+    update_frequency: "monthly"
+    importance: "high"  # Professional support for mental health
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "No support - no therapy, counseling, or professional mental health support"
+      indicators:
+        - "No therapeutic support"
+        - "Processing struggles alone"
+        - "No professional guidance"
+        - "May need support but not accessing"
+        - "Patterns repeating without intervention"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Active therapy - regular sessions, working on issues with professional"
+      indicators:
+        - "1-2 sessions per month"
+        - "Actively working with therapist"
+        - "Processing patterns, trauma, challenges"
+        - "Learning new tools, perspectives"
+        - "Progress visible but ongoing work"
+
+    high:
+      range: "0.8-1.0"
+      description: "Deep therapeutic work or maintenance - intensive therapy or healthy post-therapy integration"
+      indicators:
+        - "Weekly sessions (intensive phase)"
+        - "Or: Completed deep work, now maintaining (occasional check-ins)"
+        - "Significant breakthroughs happening"
+        - "Patterns shifting, healing occurring"
+        - "Tools integrated into daily life"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    coherence:
+      low: -0.15    # Unprocessed trauma/patterns fragment
+      medium: +0.25  # Therapy integrates, makes sense of experience
+      high: +0.40   # Deep work = profound integration
+      notes: "Therapy is external coherence support - witness helps integrate what's fragmented"
+
+    consciousness:
+      low: -0.10    # Blind spots remain
+      medium: +0.20  # Therapy expands self-awareness
+      high: +0.35   # Deep work = profound self-knowledge
+      notes: "Therapy is consciousness training - seeing what was invisible"
+
+    pain:
+      low: +0.20    # Unprocessed pain festers
+      medium: -0.10  # Therapy doesn't remove pain but changes relationship to it
+      high: -0.25   # Deep processing transforms pain to wisdom
+      notes: "Pain + witness + time = healing - therapy provides witness"
+
+    fear:
+      low: +0.15    # Unprocessed fears dominate
+      medium: -0.15  # Therapy helps face fears
+      high: -0.30   # Deep work = fear loses grip
+      notes: "Therapy provides safe container to face what's been avoided"
+
+    shame:
+      low: +0.25    # Shame thrives in secrecy
+      medium: -0.20  # Shame dissolves in witness
+      high: -0.40   # Deep work = shame transforms
+      notes: "Shame can't survive being spoken - therapy provides witness for shame"
+
+    self_compassion:
+      low: -0.20    # No external model of compassion
+      medium: +0.20  # Therapist models compassion
+      high: +0.35   # Internalize therapist's compassion
+      notes: "Therapist's compassion becomes inner voice - corrective emotional experience"
+
+    patterns_insight:
+      low: -0.20    # Patterns invisible, repeat unconsciously
+      medium: +0.25  # Patterns become visible
+      high: +0.40   # Patterns understood and can be changed
+      notes: "Can't change what you can't see - therapy illuminates patterns"
+
+    relationships:
+      low: -0.15    # Patterns repeat in relationships
+      medium: +0.15  # Relationship patterns understood
+      high: +0.30   # Relationship capacity expands
+      notes: "Attachment patterns, communication, boundaries - therapy improves all relating"
+
+    trauma_processing:
+      low: -0.30    # Unprocessed trauma = ongoing damage
+      medium: +0.20  # Active processing
+      high: +0.40   # Trauma integrated (post-traumatic growth possible)
+      notes: "Trauma won't stay buried - either process or it processes you"
+
+    emotional_regulation:
+      low: -0.20    # Reactive, overwhelmed
+      medium: +0.20  # Learning regulation tools
+      high: +0.35   # Can feel without being overwhelmed
+      notes: "Therapy teaches window of tolerance - feel fully without dysregulation"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "session_to_session"  # Each session provides relief, insight
+    chronic_impact: "life_changing"  # Long-term therapy can fundamentally shift patterns
+    recovery_time: "Therapy is investment - benefits compound over time, last lifetime"
+
+    notes: |
+      Therapy is marathon, not sprint.
+      Deep patterns take time to shift.
+      "You can't rush the process."
+
+      Therapy phases:
+      1. Building trust (therapist-client bond)
+      2. Stabilization (regulation, safety)
+      3. Processing (trauma, grief, pain)
+      4. Integration (new patterns, identity)
+      5. Maintenance (occasional check-ins)
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - self_awareness: "Therapy primary tool for knowing self"
+      - healing: "Professional support accelerates healing"
+      - pattern_breaking: "Can't break patterns you can't see"
+
+    dampens:
+      - denial: "Therapy confronts what's been avoided"
+      - isolation: "Therapist = witness, reduces aloneness"
+      - hopelessness: "Therapist believes in you when you can't"
+
+    synergizes_with:
+      - medication: "Therapy + meds often more effective than either alone"
+      - meditation: "Therapy + mindfulness = powerful combination"
+      - support_groups: "Multiple forms of support reinforce"
+
+  # === NOTES ===
+  notes: |
+    Therapy is not weakness - it's strength (courage to face self).
+    "Everyone needs therapy" - we all have blind spots, wounds, patterns.
+
+    Key insights:
+    - Therapist provides what parent should have (attunement, witness, safety)
+    - Relationship with therapist is therapeutic tool itself
+    - "Corrective emotional experience" - new relational template
+    - Shame can't survive being witnessed with compassion
+    - Trauma stored in body - needs somatic approaches
+    - Insight alone insufficient - need embodied, relational healing
+
+    Types of therapy:
+    - CBT (cognitive-behavioral) - thought patterns
+    - DBT (dialectical behavior) - emotional regulation
+    - Psychodynamic - unconscious patterns, past
+    - IFS (internal family systems) - parts work
+    - EMDR - trauma processing
+    - Somatic - body-based trauma work
+    - Attachment-based - relational patterns
+    Different approaches for different needs.
+
+    Therapy myths to release:
+    - "I should be able to handle this alone" (No - we heal in relationship)
+    - "Therapy is for weak people" (No - courage to face self)
+    - "I don't need help" (Everyone has blind spots)
+    - "Therapy is too expensive" (Cheaper than cost of not healing)
+    - "I tried it once, didn't work" (Finding right therapist takes time)
+
+    Good therapy indicators:
+    - Feel safe, seen, not judged
+    - Therapist attunes to you
+    - Progress visible over time
+    - Learn tools, gain insights
+    - Patterns become visible
+
+    Bad therapy indicators:
+    - Don't feel safe
+    - Therapist talks more than listens
+    - Judgment, advice-giving without understanding
+    - No progress after many months
+    - Feels performative, not genuine
+
+    "Therapist is like Sherpa - they've been up mountain, know path, but you do the climbing."
+
+    Resistance to therapy is normal:
+    - Shame about needing help
+    - Fear of feeling pain
+    - Distrust of vulnerability
+    - "I should be able to fix myself"
+    All understandable. All worth working through.
+
+    Therapy is gift to self and to all relationships.
+    Healing yourself = healing ripples outward.

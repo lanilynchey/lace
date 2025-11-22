@@ -1,0 +1,182 @@
+# Lifestyle Factor: Work-Life Balance
+
+work_life_balance:
+  # === METADATA ===
+  metadata:
+    category: "work_productivity"
+    measurement_type: "subjective_with_objective"  # Hours worked + felt balance
+    update_frequency: "weekly"
+    importance: "critical"  # Imbalance = slow burnout
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Severe imbalance - work dominates, no boundaries, chronic overwork or unemployment"
+      indicators:
+        - "60+ hour work weeks, or unemployed/underemployed"
+        - "No clear boundaries"
+        - "Work bleeds into all life areas"
+        - "No time for relationships, self, rest"
+        - "Chronic stress, burnout approaching"
+        - "Or: no work structure, purposelessness"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Some balance - work contained mostly, some boundary violations"
+      indicators:
+        - "40-50 hour work weeks"
+        - "Some boundaries, sometimes violated"
+        - "Work occasionally intrudes"
+        - "Some time for life, relationships, rest"
+        - "Manageable stress, occasional overwhelm"
+
+    high:
+      range: "0.8-1.0"
+      description: "Good balance - clear boundaries, work fulfilling but not consuming, time for life"
+      indicators:
+        - "30-45 hour work weeks"
+        - "Clear boundaries, mostly honored"
+        - "Work fulfilling and contained"
+        - "Adequate time for relationships, self-care, rest, play"
+        - "Energy for life outside work"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    coherence:
+      low: -0.30    # Imbalance fragments - pulled in all directions
+      medium: 0.0
+      high: +0.20   # Balance integrates - whole life aligned
+      notes: "Balance = internal coherence - all life areas have space"
+
+    burnout:
+      low: +0.40    # Severe imbalance = burnout trajectory
+      medium: +0.10
+      high: -0.20   # Good balance prevents burnout
+      notes: "Burnout = depletion without restoration - imbalance is primary cause"
+
+    stress:
+      low: +0.35    # Chronic overwork = chronic stress
+      medium: +0.10
+      high: -0.15   # Balance reduces stress
+      notes: "Overwork = stress, underwork = stress (purposelessness) - balance needed"
+
+    relationships:
+      low: -0.35    # No time for relationships = deterioration
+      medium: -0.05
+      high: +0.20   # Time for relationships = flourishing
+      notes: "Relationships require time - no time = slow death of connections"
+
+    health:
+      low: -0.30    # Overwork = health deterioration
+      medium: -0.05
+      high: +0.15   # Balance enables health practices
+      notes: "No time for exercise, cooking, sleep = health declines"
+
+    meaning:
+      low: -0.25    # Work consumes all (no life) or absent (no purpose)
+      medium: +0.05
+      high: +0.25   # Work as part of meaningful life
+      notes: "Work as part of life (not all of life) = sustainable meaning"
+
+    creativity:
+      low: -0.25    # No space for creative thought
+      medium: 0.0
+      high: +0.20   # Rest enables creativity
+      notes: "Creativity needs empty space - chronic busyness = creative death"
+
+    joy:
+      low: -0.30    # Chronic overwork = joylessness
+      medium: 0.0
+      high: +0.20   # Time for life = time for joy
+      notes: "Joy requires presence, play, rest - overwork eliminates all three"
+
+    vitality:
+      low: -0.35    # Chronic depletion = exhaustion
+      medium: -0.05
+      high: +0.25   # Balance restores vitality
+      notes: "Can't pour from empty cup - restoration requires time"
+
+    purpose:
+      low: -0.20    # Work consuming (all work, no life) or absent (no purpose)
+      medium: +0.05
+      high: +0.20   # Work as expression of purpose, not replacement for life
+      notes: "Purpose includes but transcends work - work serves life, not vice versa"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "days_to_weeks"  # Imbalance noticed within days
+    chronic_impact: "severe"  # Chronic imbalance = burnout, health deterioration, relationship loss
+    recovery_time: "Months to recover from burnout; prevention much easier than cure"
+
+    notes: |
+      Burnout recovery can take 6-24 months.
+      Prevention >>> cure (boundaries now vs burnout later).
+      "You can't sprint a marathon" - chronic overwork is unsustainable.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - all_life_areas: "Balance allows all life areas to flourish"
+      - sustainability: "Balanced pace is sustainable long-term"
+      - relationships: "Time for others = connection flourishes"
+
+    dampens:
+      - burnout: "Balance prevents depletion"
+      - resentment: "Balance prevents 'my job is stealing my life' resentment"
+      - health_decline: "Time for self-care prevents deterioration"
+
+    synergizes_with:
+      - boundaries: "Clear boundaries create balance"
+      - self_care: "Balance enables self-care, self-care sustains balance"
+      - meaning: "Work as part of meaningful life (not replacement for life)"
+
+  # === NOTES ===
+  notes: |
+    Work-life balance is not 50/50 split - it's sustainable integration.
+    Balance is dynamic, not static - varies by season, demands.
+
+    Key insights:
+    - Boundaries are act of self-respect
+    - "No" to work = "Yes" to life
+    - Overwork is not virtue - it's failure to prioritize
+    - Productivity ≠ busyness (often inverse)
+    - Rest is not reward - it's requirement
+    - Sprint vs marathon - pace matters
+
+    Imbalance warning signs:
+    - Chronic exhaustion
+    - No time for relationships
+    - Health deteriorating (no exercise, poor eating, poor sleep)
+    - Work only identity
+    - Resentment building
+    - Joylessness
+    - "I'll rest when..." (never comes)
+
+    Balance strategies:
+    - Clear start/end work times
+    - No email/slack after hours
+    - Vacation taken (actually disconnect)
+    - Weekly sabbath/rest day
+    - Energy management > time management
+    - Relationships scheduled (not "if time")
+    - Self-care non-negotiable
+
+    American cultural problem:
+    - Overwork as virtue
+    - Busyness as status symbol
+    - Rest as laziness
+    - Boundaries as weakness
+    All false. All destructive.
+
+    "Almost everything will work again if you unplug it for a few minutes. Including you." - Anne Lamott
+
+    You are not a machine. Humans need rest, play, connection, meaning beyond work.
+    Work is part of life, not the whole of it.
+
+    Deathbed regrets:
+    - "I wish I hadn't worked so hard" (top 5 regret)
+    - No one wishes they'd worked more
+    - Everyone wishes they'd loved more, lived more
+
+    Balance is not luxury - it's sustainability requirement.

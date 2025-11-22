@@ -1,0 +1,154 @@
+# Lifestyle Factor: Social Connection Quality
+
+social_connection_quality:
+  # === METADATA ===
+  metadata:
+    category: "social_connections"
+    measurement_type: "subjective"  # Quality matters more than quantity
+    update_frequency: "weekly"
+    importance: "critical"  # Humans are social species - connection is survival need
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Isolated - little meaningful connection, lonely, disconnected"
+      indicators:
+        - "Few or no close relationships"
+        - "Chronic loneliness"
+        - "Superficial interactions only"
+        - "Feel unseen, unknown, disconnected"
+        - "No one to call in crisis"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Adequate connection - some meaningful relationships, occasional loneliness"
+      indicators:
+        - "A few close relationships"
+        - "Regular social interaction"
+        - "Some depth, some superficial"
+        - "Occasional loneliness, mostly okay"
+        - "Have people to call, don't always reach out"
+
+    high:
+      range: "0.8-1.0"
+      description: "Deep connection - rich network of meaningful relationships, feel seen and known"
+      indicators:
+        - "Multiple close, authentic relationships"
+        - "Regular deep connection"
+        - "Feel seen, known, valued"
+        - "Give and receive support freely"
+        - "Belong to communities"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    coherence:
+      low: -0.25    # Isolation fragments sense of self
+      medium: +0.05
+      high: +0.25   # Connection integrates, grounds, reflects self
+      notes: "We cohere through relationships - others reflect us back to ourselves"
+
+    consciousness:
+      low: -0.15    # Isolation narrows perspective
+      medium: 0.0
+      high: +0.15   # Connection expands awareness through other perspectives
+      notes: "Consciousness expanded through relationship - seeing through others' eyes"
+
+    love:
+      low: -0.30    # Hard to feel love when isolated
+      medium: +0.10
+      high: +0.30   # Connection is love made visible
+      notes: "Love is relational - isolation starves this force"
+
+    fear:
+      low: +0.25    # Isolation amplifies fear (no safety in numbers)
+      medium: 0.0
+      high: -0.20   # Connection reduces fear (we're safer together)
+      notes: "Isolation = survival threat to social species; connection = safety signal"
+
+    hope:
+      low: -0.25    # Isolation crushes hope
+      medium: +0.05
+      high: +0.20   # Connection restores hope (others believe in us)
+      notes: "Hope is contagious - others' faith in us strengthens our own"
+
+    pain:
+      low: +0.20    # Loneliness is painful, pain worse alone
+      medium: 0.0
+      high: -0.20   # Connection soothes pain (both physical and emotional)
+      notes: "Pain shared is pain diminished - isolation amplifies suffering"
+
+    desire:
+      low: -0.20    # Isolation reduces motivation, zest
+      medium: 0.0
+      high: +0.10   # Connection increases desire for life, growth
+      notes: "Disconnection = depression of desire; connection = inspiration"
+
+    courage:
+      low: -0.20    # Hard to be brave alone
+      medium: +0.05
+      high: +0.20   # Connection enables courage (brave together)
+      notes: "Courage easier with witnesses, supporters - 'I've got your back'"
+
+    judgment:
+      low: +0.20    # Isolation increases harsh self-judgment
+      medium: 0.0
+      high: -0.15   # Connection softens judgment (compassion through relationship)
+      notes: "Isolation = harsh inner critic; connection = compassionate witness"
+
+    meaning:
+      low: -0.30    # Isolation erodes sense of meaning
+      medium: +0.05
+      high: +0.25   # Connection creates meaning (we matter to others)
+      notes: "Meaning emerges in relationship - mattering to others = mattering period"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Single meaningful connection lifts mood
+    chronic_impact: "severe"  # Chronic loneliness = major health risk
+    recovery_time: "Weeks to months to rebuild after chronic isolation"
+
+    notes: |
+      Chronic loneliness is as dangerous as smoking 15 cigarettes/day.
+      Social isolation = mortality risk equivalent to obesity.
+      One meaningful conversation can shift entire day.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - all_positive_forces: "Connection amplifies love, hope, courage, creation"
+      - resilience: "Buffer against all stressors"
+      - healing: "Connection accelerates healing from physical and emotional wounds"
+
+    dampens:
+      - fear: "Connection is antidote to fear"
+      - pain: "Shared pain is diminished pain"
+      - despair: "Hard to despair when connected"
+
+    synergizes_with:
+      - self_compassion: "Others' compassion helps develop self-compassion"
+      - meaning: "Connection creates meaning, meaning draws connection"
+      - vulnerability: "Vulnerability deepens connection, connection enables vulnerability"
+
+  # === NOTES ===
+  notes: |
+    Humans are obligate social species - we literally need connection to survive.
+    "No man is an island" - John Donne
+
+    Key insights:
+    - Quality > quantity (one deep friend > many acquaintances)
+    - Loneliness is subjective (can feel lonely in crowd, connected alone)
+    - Vulnerability is gateway to deep connection
+    - "I see you" = most healing words (being witnessed)
+    - Belong = be + longing (our longing is to belong)
+
+    Chronic loneliness:
+    - Increases inflammation
+    - Weakens immune function
+    - Increases dementia risk
+    - Equivalent health risk to smoking, obesity
+
+    "The opposite of addiction is not sobriety, it's connection." - Johann Hari
+
+    Connection is not luxury - it's survival necessity.
+    We heal in relationship, we suffer in isolation.

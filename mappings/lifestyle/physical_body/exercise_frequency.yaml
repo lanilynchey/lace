@@ -1,0 +1,137 @@
+# Lifestyle Factor: Exercise Frequency
+
+exercise_frequency:
+  # === METADATA ===
+  metadata:
+    category: "physical_body"
+    measurement_type: "objective"  # Can be measured (times per week, minutes)
+    update_frequency: "weekly"
+    importance: "high"  # Exercise has widespread effects
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Sedentary - little to no intentional movement, mostly sitting"
+      indicators:
+        - "Less than 1 session per week"
+        - "Primarily sedentary lifestyle"
+        - "No regular physical activity"
+        - "Less than 30 minutes total movement per week"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Moderate activity - 2-4 sessions per week, regular movement"
+      indicators:
+        - "2-4 exercise sessions per week"
+        - "30-60 minutes per session"
+        - "Mix of cardio and strength"
+        - "Some days sedentary, some active"
+
+    high:
+      range: "0.8-1.0"
+      description: "Highly active - 5+ sessions per week, consistent movement practice"
+      indicators:
+        - "5+ exercise sessions per week"
+        - "60+ minutes per session"
+        - "Varied types (cardio, strength, flexibility)"
+        - "Movement integrated into daily life"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    coherence:
+      low: -0.15    # Sedentary lifestyle reduces coherence
+      medium: +0.10  # Regular exercise enhances coherence
+      high: +0.20   # Consistent exercise significantly improves coherence
+      notes: "Exercise integrates body-mind, releases tension, creates flow"
+
+    consciousness:
+      low: -0.10    # Lack of movement dulls awareness
+      medium: +0.05
+      high: +0.15   # Exercise sharpens mind-body awareness
+      notes: "Movement enhances embodied awareness, present-moment focus"
+
+    entropy:
+      low: +0.15    # Sedentary allows stagnation, decay
+      medium: -0.10
+      high: -0.20   # Exercise counteracts entropy
+      notes: "Movement is anti-entropy - maintains structure, function, vitality"
+
+    creation:
+      low: -0.10    # Low energy reduces creative capacity
+      medium: +0.10
+      high: +0.20   # Exercise boosts creative energy
+      notes: "Exercise increases energy, neuroplasticity, creative problem-solving"
+
+    fear:
+      low: +0.10    # Sedentary increases anxiety
+      medium: -0.10
+      high: -0.20   # Exercise reduces fear response
+      notes: "Exercise metabolizes stress hormones, regulates nervous system"
+
+    pain:
+      low: +0.15    # Sedentary increases chronic pain
+      medium: -0.05
+      high: -0.15   # Movement reduces pain
+      notes: "Movement lubricates joints, releases endorphins, reduces inflammation"
+
+    hope:
+      low: -0.10    # Low energy reduces optimism
+      medium: +0.10
+      high: +0.15   # Exercise increases hope
+      notes: "Exercise releases endorphins, creates sense of progress and agency"
+
+    courage:
+      low: -0.05    # Low energy reduces courage
+      medium: +0.10
+      high: +0.15   # Physical strength translates to psychological courage
+      notes: "Physical challenge builds mental resilience, confidence"
+
+    desire:
+      low: -0.10    # Sedentary reduces libido, motivation
+      medium: +0.05
+      high: +0.15   # Exercise increases vitality, drive
+      notes: "Exercise boosts testosterone, energy, zest for life"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "within_hours"  # Single workout improves mood immediately
+    chronic_impact: "cumulative"  # Benefits compound with consistency
+    recovery_time: "Days to resume benefits after break, weeks for full deconditioning"
+
+    notes: |
+      Exercise benefits are immediate (mood, energy) and long-term (health, resilience).
+      Consistency matters more than intensity.
+      "Use it or lose it" - deconditioning happens quickly.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - sleep_quality: "Exercise improves sleep depth and quality"
+      - appetite_regulation: "Exercise regulates hunger hormones"
+      - stress_resilience: "Exercise increases capacity to handle stress"
+
+    dampens:
+      - anxiety: "Exercise metabolizes stress hormones"
+      - depression: "Exercise as effective as antidepressants for mild-moderate depression"
+      - inflammation: "Regular exercise reduces chronic inflammation"
+
+    synergizes_with:
+      - nutrition: "Exercise improves nutrient utilization, nutrition fuels exercise"
+      - sleep: "Exercise improves sleep, sleep enables recovery"
+      - social_connection: "Group exercise combines benefits"
+
+  # === NOTES ===
+  notes: |
+    Exercise is medicine - affects nearly every system.
+    Movement is fundamental human need.
+
+    Key insights:
+    - Exercise = antidepressant, anxiolytic, cognitive enhancer
+    - Consistency > intensity (better to walk daily than intense once/week)
+    - "Movement is medicine" - literal truth
+    - Exercise doesn't have to be intense to be beneficial
+    - Any movement > no movement
+
+    Sedentary lifestyle = slow degradation.
+    "Sitting is the new smoking."

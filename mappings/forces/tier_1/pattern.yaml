@@ -1,0 +1,242 @@
+# Force Mapping: Pattern
+
+pattern:
+  # === METADATA ===
+  metadata:
+    tier: 1
+    category: "primordial"
+    dependencies: []  # Pattern is foundational
+    source_doc: "docs/02_forces/tier_1_forces/03_pattern.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#00CED1"  # Dark turquoise - blend of structure (blue) and growth (green)
+    color_family: "cool"
+    color_range:
+      - "#008B8B"  # Dark cyan (complex patterns)
+      - "#00CED1"  # Dark turquoise
+      - "#40E0D0"  # Turquoise
+      - "#7FFFD4"  # Aquamarine (clearer patterns)
+
+    saturation_base: 0.75
+    brightness_base: 0.70
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3
+        color: "#008B8B"
+        saturation: 0.60
+        brightness: 0.50
+      medium_activation: # 0.4-0.7
+        color: "#00CED1"
+        saturation: 0.75
+        brightness: 0.70
+      high_activation:   # 0.8-1.0
+        color: "#7FFFD4"
+        saturation: 0.85
+        brightness: 0.85
+
+    notes: |
+      Turquoise/cyan represents structure, order, systems, connections.
+      Blue (structure) + green (growth) = pattern (organized evolution).
+      As pattern recognition increases, color brightens - seeing more clearly.
+      Cyan is associated with communication, connections, networks.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "fractal"
+    sacred_geometry_association: "golden_spiral"  # Natural growth patterns
+    complexity_level: "complex"
+    edge_type: "crystalline"  # Sharp, defined, geometric
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Simple geometric pattern, few layers of complexity.
+        Basic fractals, limited recursion.
+      medium_activation: |
+        More complex fractal patterns emerging.
+        Golden spiral visible, self-similar structures.
+        Clear organization and structure.
+      high_activation: |
+        Highly complex, infinitely detailed fractal.
+        Golden spiral prominent, Fibonacci sequences visible.
+        Nested patterns within patterns.
+        Sacred geometry everywhere - nature's blueprint revealed.
+
+    notes: |
+      Fractals represent self-similar patterns at all scales.
+      Golden spiral = natural growth pattern (shells, galaxies, plants).
+      Crystalline edges = precise structure, not organic blur.
+      As pattern activation increases, more layers of complexity revealed.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "spiraling"
+    speed_base: 0.35  # Moderate, organized pace
+
+    speed_modifier:
+      low_intensity: 0.20   # Slow pattern recognition
+      medium_intensity: 0.35  # Clear pattern perception
+      high_intensity: 0.60   # Rapid pattern recognition, seeing connections everywhere
+
+    direction: "outward"  # Patterns expand, grow, reveal
+    rhythm: "wave_like"  # Rhythmic, repeating, predictable
+
+    healthy_pattern:
+      description: "Clear recognition of connections and structure without rigidity"
+      characteristics:
+        - "Sees patterns without imposing them"
+        - "Flexible pattern recognition"
+        - "Open to new patterns emerging"
+        - "Structure serves growth"
+
+    stuck_pattern:
+      description: "Over-pattern rigid schemas, or chaotic pattern-seeking (apophenia)"
+      characteristics:
+        - "Seeing patterns that aren't there"
+        - "Rigid schemas that don't adapt"
+        - "Pattern-obsession (conspiracy thinking)"
+        - "Can't see beyond established patterns"
+
+    notes: |
+      Spiraling outward = patterns revealing, expanding awareness.
+      Wave-like rhythm = patterns repeat, cycle, recur.
+      Healthy: flexible pattern recognition.
+      Stuck: either rigid patterns or false pattern (seeing faces in clouds constantly).
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.75  # Naturally vibrant
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.20"
+        description: "Patterns crystal clear, perfectly visible"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal pattern visibility"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.25"
+        description: "Patterns obscured, fragmented, hard to see"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.30)"
+      multiplier: 0.30
+
+    interaction_modifier:
+      synergistic: "+0.15 to +0.25"  # With consciousness, coherence, truth
+      antagonistic: "-0.20 to -0.30"  # Disrupted by entropy, chaos
+      neutral: "0.0"
+
+    notes: |
+      Pattern is about seeing structure - vibrancy represents clarity of vision.
+      High coherence allows patterns to emerge clearly.
+      Entropy obscures patterns, makes structure invisible.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "crystalline"
+    opacity_range:
+      min: 0.60  # Somewhat solid (patterns have presence)
+      max: 0.95  # Can be very solid (structure is real)
+
+    particle_effects: true
+    particle_type: "energy_waves"  # Connections, networks, information flow
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: 639  # Solfeggio frequency for "connection and relationships"
+      tone_description: "Structured, rhythmic, like geometric music - think Fibonacci sound ratios"
+      musical_note: "D"
+
+    emotional_tone: "structured, organized, connected, revelatory, insightful"
+
+    consciousness_association: null
+
+    notes: |
+      Crystalline texture = precise geometric structure.
+      Energy waves = connections being made, information flowing.
+      Sound has rhythm and structure (not random).
+      More solid than consciousness (structure is tangible).
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "consciousness"
+      - "coherence"
+      - "truth"
+      - "memory"
+      - "beauty"  # Beauty is recognized pattern
+
+    antagonistic_with:
+      - "entropy"  # Chaos destroys pattern
+      - "madness"  # Distorts pattern recognition
+      - "war"  # Breaks structure
+
+    neutralizes: []
+
+    amplified_by:
+      - "consciousness"  # Awareness reveals patterns
+      - "coherence"  # Alignment allows pattern to emerge
+
+    visual_blending_rules:
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Turquoise + lavender = beautiful harmony
+        shape_effect: "nested"  # Pattern within consciousness sphere
+        motion_effect: "synchronized"
+        result_description: |
+          Consciousness witnessing pattern geometries.
+          Lavender sphere filled with turquoise fractals.
+          This is "seeing the Matrix" - awareness of underlying structure.
+          Pattern recognition at highest level.
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Turquoise + gold = integrated structure
+        shape_effect: "merge"  # Patterns integrate into coherent whole
+        motion_effect: "synchronized"
+        result_description: |
+          Pattern provides structure, coherence unifies it.
+          Fractal geometries within golden sphere.
+          Organized, harmonious, beautiful.
+        coherence_dependent: false
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "clash"  # Turquoise vs gray - structure vs chaos
+        shape_effect: "separate_interfering"
+        motion_effect: "chaotic"
+        result_description: |
+          Entropy breaks down pattern's geometric structures.
+          Fractals dissolve at edges, crystalline forms fragment.
+          At high coherence: patterns resist.
+          At low coherence: patterns collapse into chaos.
+        coherence_dependent: true
+
+      when_combined_with_beauty:
+        force: "beauty"
+        color_effect: "blend"
+        shape_effect: "merge"
+        motion_effect: "synchronized"
+        result_description: |
+          Beauty IS recognized pattern (Tier 4 emergence).
+          Pattern geometries become aesthetically perfect.
+          Golden ratio, fibonacci, sacred geometry fully expressed.
+          Most visually stunning force combination.
+        coherence_dependent: false
+
+    notes: |
+      Pattern is about SEEING structure in reality.
+      Works with organizing/perceptual forces.
+      Opposed by fragmenting/chaotic forces.
+      Pattern + Beauty = recognition that structure IS beauty.
+      Pattern + Consciousness = seeing the code/matrix.
+
+# IMPLEMENTATION NOTES:
+# - Pattern is the "blueprint" - the underlying structure of reality
+# - Fractal nature = self-similar at all scales (zoom in/out, same patterns)
+# - Golden spiral/Fibonacci = nature's preferred growth pattern
+# - Visual should feel mathematical, geometric, structured
+# - Can become rigid (stuck pattern) or revelatory (healthy pattern)

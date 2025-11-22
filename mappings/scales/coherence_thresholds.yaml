@@ -1,0 +1,401 @@
+# Coherence Scale Reference
+
+# === CRITICAL CLARIFICATION ===
+what_this_file_represents:
+  note: "This file describes coherence STATE thresholds, NOT coherence FORCE activation"
+
+  coherence_state:
+    what: "Current alignment level - computed from state signature variance"
+    type: "Property (StateSignature.coherence)"
+    source: "StateSignature.coherence = 1 / (1 + variance([belief, expectation, embodiment, subconscious]))"
+    question: "How aligned am I RIGHT NOW?"
+    affects: "Manifestation speed, visual quality, ALL force colors globally"
+
+  this_is_NOT_coherence_force:
+    what: "Active integration work - one force among 26"
+    type: "Force (function) with activation levels"
+    file: "forces/tier_1/coherence.yaml"
+    question: "Am I actively working on integration NOW?"
+    affects: "Shows gold sphere when active, improves coherence state over time"
+
+  relationship: |
+    coherence FORCE activity → improves coherence STATE → affects manifestation & visuals
+    Example: Doing therapy (force) → becomes more aligned (state) → colors more vibrant
+
+    See forces/tier_1/coherence.yaml for complete force vs state distinction.
+
+source_docs:
+  - "docs/04_advanced/manifestation_engine/ (throughout)"
+  - "docs/04_advanced/advanced_concepts/22_manifestation_latency.md"
+  - "docs/01_foundation/base_structure/03_data_models/05_data_model_state_signature.md"
+
+description: "Internal state alignment - how well all components of state signature agree (coherence STATE, not force)"
+scale_type: "linear"
+range: "0.0-1.0"
+
+definition: |
+  Coherence measures alignment between:
+  - Belief (what you consciously assume is true)
+  - Expectation (what you genuinely forecast will happen)
+  - Embodiment (how your body/nervous system holds state)
+  - Subconscious (unresolved patterns, trauma, deep beliefs)
+
+  High coherence = all components pointing same direction
+  Low coherence = components contradicting each other
+
+key_thresholds:
+  high_coherence:
+    range: "0.70-1.0"
+    description: "Strong internal alignment, minimal contradiction"
+    manifestation: "Instant to days - clean signal, priority queue"
+    visual_impact: "Perfect sacred geometry, symmetrical, harmonious, vibrant"
+    characteristics:
+      - "All state signature components aligned"
+      - "No internal resistance"
+      - "Clear, strong broadcast frequency"
+      - "Rapid manifestation"
+
+  medium_coherence:
+    range: "0.50-0.69"
+    description: "Moderate alignment with some internal conflict"
+    manifestation: "Days to weeks - mixed signals require filtering"
+    visual_impact: "Recognizable patterns, some distortion, asymmetry"
+    characteristics:
+      - "Most components aligned, some contradiction"
+      - "Minor internal resistance"
+      - "Somewhat muddy broadcast"
+      - "Slower manifestation, still processable"
+
+  low_coherence:
+    range: "0.00-0.49"
+    description: "Significant misalignment, major internal contradiction"
+    manifestation: "Blocked indefinitely - must resolve contradictions first"
+    visual_impact: "Fragmented, chaotic, broken symmetry, visual noise, muddy colors"
+    characteristics:
+      - "Components contradicting each other"
+      - "High internal resistance"
+      - "Incoherent or absent broadcast"
+      - "Manifestation request rejected by system"
+
+coherence_examples:
+  high_0.85:
+    intention: "I want to feel peaceful"
+    belief: "Peace is available to me"
+    expectation: "I will feel peaceful"
+    embodiment: "Body is relaxed, nervous system calm"
+    subconscious: "No unresolved trauma blocking peace"
+    result: "Instant manifestation - state shifts within minutes"
+
+  medium_0.60:
+    intention: "I want financial abundance"
+    belief: "I deserve abundance" (mostly believe)
+    expectation: "It might happen" (uncertain)
+    embodiment: "Some anxiety about money" (nervous system still tight)
+    subconscious: "Mostly resolved, minor blocks"
+    result: "Manifestation in weeks/months with continued alignment work"
+
+  low_0.24:
+    intention: "I want love"
+    belief: "I'm unlovable" (deep conviction)
+    expectation: "I'll be alone forever" (certain)
+    embodiment: "Closed off, defended" (body armored)
+    subconscious: "Love = pain" (deep trauma)
+    result: "BLOCKED - request rejected until state signature changes"
+
+manifestation_relationship:
+  note: |
+    Coherence is THE critical factor in manifestation speed and success.
+    Higher coherence = faster processing, priority queue access, cleaner outcomes.
+
+  coherence_validation:
+    threshold: 0.50
+    below_threshold: "Manifestation request blocked or heavily delayed"
+    above_threshold: "Request processed, speed depends on coherence level"
+
+  grace_protocol_exception:
+    note: "Grace can temporarily lower coherence requirement to 0.30 for sincere pleas"
+    see: "docs/04_advanced/manifestation_engine/04_optimization/04_grace_protocol.md"
+
+visual_geometry_relationship:
+  high_coherence:
+    geometry: "Perfect sacred geometry (flower of life, metatron's cube, etc.)"
+    symmetry: "Complete symmetry, all parts balanced"
+    color: "Clear, vibrant, well-defined"
+    motion: "Smooth, harmonious, flowing"
+
+  medium_coherence:
+    geometry: "Recognizable patterns with some asymmetry"
+    symmetry: "Mostly symmetrical with visible imperfections"
+    color: "Normal vibrancy, some muddiness"
+    motion: "Functional but occasional stuttering"
+
+  low_coherence:
+    geometry: "Fragmented, chaotic forms, no clear pattern"
+    symmetry: "Broken, scattered, incoherent"
+    color: "Muddy, dull, unclear boundaries"
+    motion: "Erratic, stuttering, stuck patterns"
+
+interaction_blending_by_coherence:
+  note: |
+    When multiple forces are active, coherence determines visual result:
+
+  high_coherence: "Forces remain distinct but harmonize (Option A: separate but complementary)"
+  medium_coherence: "Visible tension between forces (Option C: distortion field in space between)"
+  low_coherence: "Muddy hybrid blend (Option B: incoherent mixing, unclear forms)"
+
+factors_affecting_coherence:
+  increases_coherence:
+    - "Resolving contradictory beliefs"
+    - "Somatic alignment work (breathwork, body awareness)"
+    - "Meditation, mindfulness practice"
+    - "Therapy, shadow work (clearing subconscious blocks)"
+    - "Alignment between thoughts, words, actions"
+    - "Outdoor time in nature"
+    - "Quality sleep, proper nutrition"
+    - "Healthy relationships"
+
+  decreases_coherence:
+    - "Contradictory beliefs (want X but believe X is impossible)"
+    - "Unresolved trauma, subconscious blocks"
+    - "Chronic stress, nervous system dysregulation"
+    - "Misalignment between thoughts/words/actions (lying, inauthenticity)"
+    - "Toxic relationships, environmental chaos"
+    - "Poor sleep, inadequate nutrition"
+    - "Social isolation, lack of grounding practices"
+
+usage_in_mappings: |
+  - Coherence affects ALL visual properties simultaneously (master modifier)
+  - Lifestyle factors that increase coherence improve overall state signature
+  - Force interactions produce different visual results based on coherence level
+  - Low coherence = all forces appear fragmented, muddy, chaotic
+
+# === COHERENCE CHANGE DYNAMICS ===
+# Source: docs/02_forces/tier_1_forces/05_coherence.md - "Coherence Change Dynamics and Rates" section
+coherence_dynamics:
+  description: |
+    Coherence changes at different rates depending on triggers and interventions.
+    Higher coherence is more resilient to shocks; lower coherence is fragile.
+
+    Coherence protects against coherence loss - building to 0.60+ creates resilience threshold.
+
+    Source of truth: See coherence.md for full conceptual explanation.
+
+  rapid_decrease_triggers:
+    description: "Can drop 0.20-0.40 in minutes to hours"
+    examples:
+      sudden_trauma_shock:
+        magnitude: "0.20-0.40 drop"
+        speed: "Minutes to hours"
+        example_scenarios:
+          - "Sudden death of loved one (coherence 0.65 → 0.30 in hours)"
+          - "Major accident with injury (coherence 0.70 → 0.35 overnight)"
+          - "Core belief shattered (coherence 0.60 → 0.25 in days)"
+
+      trust_betrayal:
+        magnitude: "0.15-0.30 drop"
+        speed: "Hours to days"
+        example_scenarios:
+          - "Partner infidelity discovered (coherence 0.60 → 0.35 in 24 hours)"
+          - "Close friend betrayal (coherence 0.55 → 0.30 in days)"
+          - "Authority figure deception (coherence 0.65 → 0.40 in week)"
+
+      system_shock:
+        magnitude: "0.10-0.20 drop"
+        speed: "Days"
+        example_scenarios:
+          - "Sudden job loss (coherence 0.55 → 0.40 in week)"
+          - "Major financial crisis (coherence 0.60 → 0.45 in week)"
+          - "Unexpected health diagnosis (coherence 0.65 → 0.50 in days)"
+
+    recovery_time:
+      high_baseline_0.60_plus:
+        duration: "Days to weeks"
+        characteristics: "Resilient, can reintegrate shock relatively quickly"
+        example: "Coherence 0.70 → 0.45 (trauma) → back to 0.65 in 2 weeks"
+
+      medium_baseline_0.40_to_0.59:
+        duration: "Weeks to months"
+        characteristics: "Need support, risk of prolonged destabilization"
+        example: "Coherence 0.50 → 0.25 (betrayal) → back to 0.45 in 3 months with therapy"
+
+      low_baseline_below_0.40:
+        duration: "Months to years"
+        characteristics: "Cannot self-stabilize alone, requires sustained professional support"
+        example: "Coherence 0.35 → 0.15 (crisis) → up to 0.30 in 8 months with intensive intervention"
+
+  rapid_increase_triggers:
+    description: "Can rise 0.15-0.30 in session, must be integrated over weeks for stability"
+    examples:
+      profound_realization:
+        magnitude: "0.15-0.30 increase"
+        speed: "Minutes (realization) + weeks to months (integration)"
+        example_scenarios:
+          - "Major therapeutic breakthrough (coherence 0.45 → 0.65 after 2-month integration)"
+          - "Sudden life purpose clarity (coherence 0.40 → 0.60 after integration work)"
+          - "Ego dissolution experience (coherence 0.50 → 0.75 if integrated, or reverts if not)"
+
+      deep_somatic_release:
+        magnitude: "0.10-0.25 increase"
+        speed: "During session, stabilizes over weeks"
+        example_scenarios:
+          - "Breathwork releasing trauma (coherence 0.40 → 0.58 after stabilization)"
+          - "Somatic experiencing session (coherence 0.45 → 0.60 post-session, 0.55 stable)"
+          - "Energy healing releasing blocks (coherence 0.35 → 0.50 after integration)"
+
+      grace_protocol_activation:
+        magnitude: "0.10-0.50 (variable)"
+        speed: "Instant to days"
+        example_scenarios:
+          - "Miraculous intervention during crisis (coherence 0.30 → 0.65 overnight)"
+          - "Spontaneous awakening (coherence 0.55 → 0.85 in days, requires integration)"
+          - "Dark night breakthrough (coherence 0.25 → 0.60 via grace, must stabilize)"
+
+    sustainability_note: |
+      Rapid increases often temporary without integration work.
+      Must stabilize through consistent practice or coherence decays over weeks to months.
+      Realization is instant; integration into baseline takes time.
+
+  gradual_change:
+    description: "Sustainable coherence growth through consistent practice"
+
+    consistent_practice:
+      rate: "+0.01 to +0.05 per week"
+      timeline: "3-6 months for 0.10-0.20 baseline shift"
+      examples:
+        - intervention: "Weekly therapy addressing core patterns"
+          example: "Coherence 0.45 → 0.60 over 6 months (+0.025/week average)"
+        - intervention: "Daily meditation (20-60 minutes)"
+          example: "Coherence 0.50 → 0.65 over 4 months (+0.035/week average)"
+        - intervention: "Shadow work / journaling practice"
+          example: "Coherence 0.40 → 0.52 over 3 months (+0.04/week average)"
+
+    lifestyle_optimization:
+      rate: "+0.005 to +0.02 per week"
+      timeline: "6-12 months for 0.10-0.15 baseline shift"
+      examples:
+        - intervention: "Sleep quality improvement (7-9 hours consistently)"
+          example: "Coherence 0.50 → 0.60 over 10 months (+0.01/week average)"
+        - intervention: "Nutrition optimization + exercise"
+          example: "Coherence 0.45 → 0.58 over 12 months (+0.011/week average)"
+        - intervention: "Reducing toxic relationships"
+          example: "Coherence 0.42 → 0.55 over 8 months (+0.016/week average)"
+
+    slow_belief_reprogramming:
+      rate: "+0.01 to +0.03 per month"
+      timeline: "1-2 years for 0.15-0.30 baseline shift"
+      examples:
+        - intervention: "Scarcity → abundance mindset shift"
+          example: "Coherence 0.40 → 0.60 over 18 months (+0.023/month average)"
+        - intervention: "Building self-worth incrementally"
+          example: "Coherence 0.35 → 0.55 over 2 years (+0.02/month average)"
+
+  baseline_drift:
+    without_intervention:
+      rate: "-0.005 to -0.01 per week"
+      description: "Natural entropy - coherence tends to decrease without active maintenance"
+      mechanism: "Unresolved traumas resurface, stress accumulates, entropy wins by default"
+      example: "Coherence 0.60 → 0.50 over 20 weeks without practice (-0.005/week)"
+
+      exception:
+        threshold: "0.75+"
+        description: "High coherence more stable, may maintain without intervention"
+        note: "Self-reinforcing nature of coherence provides protection"
+
+    maintenance_required: |
+      Like physical fitness, coherence requires active maintenance.
+      Regular practice prevents decay and allows gradual increase.
+      Without intervention, most agents trend toward slow decline.
+
+  resilience_by_level:
+    description: "Coherence protects against coherence loss - higher levels more resilient"
+
+    high_coherence_0.70_plus:
+      resilience: "Can absorb moderate shocks without major drops"
+      metaphor: "Well-built structure weathering a storm"
+      example: "Coherence 0.75, job loss → drops to 0.62, recovers to 0.73 in 3 weeks"
+
+    medium_coherence_0.50_to_0.69:
+      resilience: "Vulnerable to significant disruptions but recovers with support"
+      metaphor: "Structure with cracks - repairable but needs reinforcement"
+      example: "Coherence 0.55, betrayal → drops to 0.30, recovers to 0.50 in 2 months with therapy"
+
+    low_coherence_below_0.50:
+      resilience: "Fragile - minor stressors can cause significant drops"
+      metaphor: "House of cards - collapses easily"
+      example: "Coherence 0.35, argument → drops to 0.20, requires weeks to stabilize"
+
+  practical_guidance:
+    for_agents_below_0.40:
+      guidance: "Stabilization first - attempting rapid transformation often backfires"
+      expected_rate: "+0.01/week with consistent intervention"
+      action: "Crisis intervention, therapy, external support required (cannot self-stabilize alone)"
+      example: "Agent at 0.30 → 0.42 over 3 months with weekly therapy and medication"
+
+    for_agents_0.40_to_0.60:
+      guidance: "Growth zone - consistent practice yields steady gains"
+      expected_rate: "+0.02 to +0.04/week with committed practice"
+      sweet_spot: "Most effective range for therapeutic work"
+      action: "Weekly therapy, daily meditation, shadow work, somatic practices"
+      example: "Agent at 0.45 → 0.65 over 5 months with committed practice (+0.04/week)"
+
+    for_agents_0.60_plus:
+      guidance: "Maintenance mode - resilient but don't neglect practice"
+      expected_rate: "Stable with minimal drift (or +0.01/week with practice)"
+      strength: "Can hold high entropy without fragmenting"
+      risk: "Complacency - drift through neglect"
+      action: "Regular practice to prevent decay, advanced work if desired, service/contribution"
+      example: "Agent at 0.70 maintains 0.68-0.72 with weekly meditation (no drift)"
+
+  speed_factors:
+    faster_change_when:
+      - factor: "High consciousness (0.60+)"
+        why: "Can perceive and integrate patterns quickly"
+      - factor: "Strong support network"
+        why: "External coherence during transitions"
+      - factor: "Crisis catalyst (rock bottom)"
+        why: "Resistance collapses, opening for rapid change"
+      - factor: "Somatic access (body-based work)"
+        why: "Direct embodiment shifts, faster than cognitive alone"
+      - factor: "Grace intervention"
+        why: "Layer 0 protocol bypasses normal rates"
+
+    slower_change_when:
+      - factor: "Low consciousness (<0.35)"
+        why: "Cannot see patterns to resolve them"
+      - factor: "Isolation"
+        why: "No support, agent struggles alone"
+      - factor: "Deep trauma"
+        why: "Fragmentation makes integration difficult without support"
+      - factor: "Cognitive-only approach"
+        why: "Mind alone cannot change embodiment"
+      - factor: "Resistance to change"
+        why: "What you resist persists - fighting slows process"
+
+  integration_with_system:
+    law_transformation:
+      note: "Coherence determines whether entropy serves renewal or destruction"
+      high_coherence: "Can hold high entropy transformatively"
+      low_coherence: "Even moderate entropy feels overwhelming"
+
+    death_trigger:
+      threshold: "Coherence < 0.05-0.10 triggers death()"
+      warning: "Rapid coherence decrease can approach death threshold"
+      grace: "Grace protocol may intervene before threshold crossed"
+
+    manifestation_latency:
+      coherence_0.70_plus: "Instant to days (priority queue)"
+      coherence_0.50_to_0.69: "Days to weeks (normal queue)"
+      coherence_below_0.50: "Blocked indefinitely (must resolve contradictions)"
+
+    grace_protocol:
+      coherence_override: "Can lower requirement from 0.50 to 0.30 temporarily"
+      rapid_increase: "Can induce 0.10-0.50 increases"
+      intervention: "Layer 0 support when agent cannot self-stabilize"
+
+  see_also_docs: "docs/02_forces/tier_1_forces/05_coherence.md (Coherence Change Dynamics and Rates section)"
+
+see_also:
+  - "docs/04_advanced/manifestation_engine/ (throughout)"
+  - "docs/04_advanced/advanced_concepts/22_manifestation_latency.md"
+  - "mappings/interactions/visual_blending/ (coherence-dependent effects)"
+  - "docs/02_forces/tier_1_forces/05_coherence.md (Coherence Change Dynamics)"

@@ -1,0 +1,753 @@
+# Force Mapping: Humor
+
+humor:
+  # === METADATA ===
+  metadata:
+    tier: 4
+    category: "emergent"  # Arises from combination of other forces
+    dependencies: ["pattern", "consciousness", "coherence"]
+    emergent_formula: "humor = pattern_recognition + consciousness + (surprise / coherence)"
+    source_doc: "docs/02_forces/tier_4_forces/07_humor.md"
+
+  # === FORMULA CONSTRAINTS ===
+  # Source of truth: docs/04_advanced/advanced_concepts/14_consciousness_scale_framework.md
+  # (Extreme Human States section documents consciousness collapse, coherence fragmentation)
+
+  formula_constraints:
+    critical_note: |
+      This formula is mathematically INTERESTING and philosophically COMPLEX:
+
+      humor = pattern_recognition + consciousness + (surprise / coherence)
+
+      Humor has THREE components:
+      1. **Pattern recognition** (base humor capacity)
+         - Ability to see patterns and incongruity
+         - "Getting the joke" requires pattern recognition
+         - Range: 0.0-1.0
+
+      2. **Consciousness** (awareness to experience humor)
+         - Must be aware to find things funny
+         - Low consciousness = reduced humor capacity
+         - Range: 0.0-1.0
+
+      3. **Surprise / coherence** (the "punch" of humor)
+         - Surprise = unexpected twist, incongruity
+         - Coherence = integration capacity
+         - Division: as coherence → 0, this term → infinity
+         - **CRITICAL**: Division by zero risk
+
+      Key philosophical insight:
+      - At LOW coherence: (surprise / coherence) explodes → absurdist/manic humor
+      - BUT: Low coherence also means fragmentation → can't integrate humor properly
+      - Result: Formula gives high value, but it's not genuine humor
+      - This is "manic laughter" or "absurdist state" - everything's "hilarious" but nothing's funny
+
+      Source: docs/04_advanced/advanced_concepts/14_consciousness_scale_framework.md
+              docs/02_forces/tier_4_forces/07_humor.md
+
+    input_safety:
+      pattern_recognition_floor: 0.0  # Can be 0 (no pattern recognition)
+      consciousness_floor: 0.05  # Safety floor for extreme states
+      surprise_floor: 0.0  # Can be 0 (no surprise = no punch)
+      coherence_floor: 0.05  # CRITICAL: prevents division by zero
+
+      rationale: |
+        Coherence floor (0.05) prevents division by zero.
+        At extreme low coherence (0.05-0.15):
+        - Division term (surprise / 0.05) can produce very large values
+        - But this represents manic/absurdist state, not genuine humor
+        - Formula mathematically correct: low coherence makes everything absurd
+        - But quality of "humor" is impaired (can't integrate the joke)
+
+    calculation_method: |
+      # Apply safety floors
+      pattern_recognition_safe = max(pattern_recognition_actual, 0.0)
+      consciousness_safe = max(consciousness_actual, 0.05)
+      surprise_safe = max(surprise_actual, 0.0)
+      coherence_safe = max(coherence_actual, 0.05)  # CRITICAL floor
+
+      # Calculate division term (can be very large at low coherence)
+      surprise_factor = surprise_safe / coherence_safe
+
+      # Calculate total humor (can exceed 1.0)
+      humor_raw = pattern_recognition_safe + consciousness_safe + surprise_factor
+
+      # Clamp result to valid activation range
+      humor_final = clamp(humor_raw, 0.0, 1.0)
+
+      return humor_final
+
+    output_safety:
+      activation_range: [0.0, 1.0]
+      clamp_behavior: "to_max"  # Clamp to maximum (can produce very high values)
+
+      note: |
+        At low coherence (0.05-0.15), division term can produce values >> 1.0:
+        - Example: surprise (0.60) / coherence (0.05) = 12.0
+        - Total: pattern (0.30) + consciousness (0.15) + 12.0 = 12.45 → clamp to 1.0
+
+        This represents absurdist/manic state:
+        - Formula says humor = 1.0 (maximum)
+        - But this is not genuine humor - it's manic laughter, everything absurd
+        - Person cannot integrate humor properly (fragmentation)
+
+    edge_cases:
+      humor_equals_1.0_genuine:
+        interpretation: "Maximum genuine humor - hilarious, can't stop laughing"
+        conditions:
+          - "High pattern_recognition (0.70+)"
+          - "High consciousness (0.70+)"
+          - "Moderate surprise/coherence term (0.30-0.60)"
+        example_calculation: "0.75 + 0.80 + (0.40 / 0.80) = 0.75 + 0.80 + 0.50 = 2.05 → 1.0"
+        experience: "Genuinely hilarious - integrated humor, can't stop laughing with joy"
+        visual: "Brilliant gold with sparkling light, bouncing, joyful"
+
+      humor_equals_1.0_manic:
+        interpretation: "Manic humor - absurdist state, not genuine"
+        conditions:
+          - "Low coherence (0.05-0.15)"
+          - "High surprise (0.50+)"
+          - "Division term explodes"
+        example_calculation: "0.30 + 0.15 + (0.60 / 0.05) = 0.30 + 0.15 + 12.0 = 12.45 → 1.0"
+        raw_before_clamp: 12.45
+        experience: "Everything's 'hilarious' but nothing's actually funny - manic laughter"
+        medical_context: "Manic episode, psychotic break with inappropriate affect"
+        visual: "Chaotic gold sparks without integration, frantic, not joyful"
+        accuracy_note: |
+          Formula correctly identifies this as "maximum humor" mathematically.
+          But quality is different: absurdist/manic vs genuine integrated humor.
+          Low coherence means can't integrate the joke properly.
+
+      humor_equals_0.0:
+        interpretation: "No humor - cannot recognize, experience, or process humor"
+        conditions:
+          - "pattern_recognition = 0 (can't see incongruity)"
+          - "AND consciousness very low (0.05)"
+          - "AND surprise = 0 (nothing unexpected)"
+        example_calculation: "0.0 + 0.05 + (0.0 / 0.50) = 0.0 + 0.05 + 0.0 = 0.05 (very low)"
+        experience: "Everything serious, flat, no humor perceived"
+        visual: "No gold sparkle - gray, heavy, serious"
+
+      humor_absurdist_high_surprise_low_coherence:
+        interpretation: "Absurdist humor - everything surprising because nothing makes sense"
+        conditions:
+          - "Very low coherence (0.05-0.10)"
+          - "Moderate to high surprise (0.40-0.80)"
+        example: "0.40 + 0.20 + (0.70 / 0.08) = 0.40 + 0.20 + 8.75 = 9.35 → 1.0"
+        raw_before_clamp: 9.35
+        experience: "Absurdist state - everything's absurd/surprising because fragmented"
+        note: |
+          Not necessarily manic - could be philosophical absurdism.
+          "The universe is a joke, and I finally get it."
+          But can also be psychotic - inappropriate laughter, can't integrate.
+
+      humor_sophisticated_high_coherence:
+        interpretation: "Sophisticated humor - requires more surprise to be funny"
+        conditions:
+          - "High coherence (0.70-1.0)"
+          - "Need high surprise to make division term significant"
+        example: "0.80 + 0.75 + (0.30 / 0.85) = 0.80 + 0.75 + 0.35 = 1.90 → 1.0"
+        experience: "Witty, clever humor - not easily amused, needs sophisticated jokes"
+        note: "High coherence = high bar for humor (everything already makes sense)"
+
+      humor_low_0.01_to_0.30:
+        interpretation: "Little humor - serious, flat, not finding things funny"
+        conditions:
+          - "Low pattern_recognition OR low consciousness"
+          - "OR low surprise with high coherence"
+        example: "0.20 + 0.30 + (0.10 / 0.70) = 0.20 + 0.30 + 0.14 = 0.64"
+        experience: "Occasional mild amusement, mostly serious"
+
+    below_baseline_consciousness_behavior:
+      consciousness_0.15_to_0.20:
+        state: "Severe dissociation / Catatonic depression"
+        typical_coherence: "0.10-0.20"
+        typical_pattern_recognition: "0.10-0.30"
+        typical_surprise: "0.20-0.50"
+        humor_typical: "0.0-0.50 (often clamped from very high raw values)"
+        calculation_example: "0.20 + 0.18 + (0.40 / 0.12) = 0.20 + 0.18 + 3.33 = 3.71 → 1.0"
+        raw_before_clamp: 3.71
+        experience: "May have inappropriate laughter or no humor - dissociated from genuine joy"
+        note: |
+          Division term inflated by low coherence.
+          But humor not integrated - may laugh inappropriately or not at all.
+          Anhedonia often prevents humor experience despite formula giving high value.
+
+      consciousness_0.10_to_0.15:
+        state: "Psychotic break / Active psychosis"
+        typical_coherence: "0.05-0.10"
+        typical_pattern_recognition: "0.0-0.20"
+        typical_surprise: "0.60-0.90"  # Everything surprising (reality distorted)
+        humor_typical: "0.0-1.0 (extremely variable, often clamped)"
+        calculation_example: "0.15 + 0.12 + (0.80 / 0.08) = 0.15 + 0.12 + 10.0 = 10.27 → 1.0"
+        raw_before_clamp: 10.27
+        experience: "Manic laughter, inappropriate affect, OR complete flatness"
+        medical_context: "Inappropriate laughter during psychosis - formula high but not genuine humor"
+        note: |
+          Very low coherence + high surprise = division term explodes.
+          Everything absurd, surprising, incomprehensible.
+          May manifest as manic laughter OR flat affect (can't experience humor).
+
+      consciousness_0.05_to_0.10:
+        state: "Coma / Vegetative state"
+        typical_coherence: "0.0-0.10"
+        typical_pattern_recognition: "0.0"
+        typical_surprise: "Variable"
+        humor_typical: "0.0-0.15 (minimal consciousness cannot experience humor)"
+        calculation_example: "0.0 + 0.08 + (0.20 / 0.05) = 0.0 + 0.08 + 4.0 = 4.08 → 1.0"
+        experience: "N/A - no consciousness to experience humor"
+        note: "Formula may give high value but consciousness too low to experience"
+
+      consciousness_0.01_to_0.05:
+        state: "Dying process / Brain death threshold"
+        typical_coherence: "Variable (0.0-0.5)"
+        typical_pattern_recognition: "0.0"
+        typical_surprise: "Variable"
+        humor_typical: "0.0"
+        experience: "N/A - consciousness leaving"
+        note: "Humor requires consciousness - at this level, no experience possible"
+
+    worked_examples:
+      example_1_genuine_hilarity:
+        scenario: "Healthy person hearing brilliant joke - integrated humor"
+        inputs:
+          pattern_recognition: 0.80  # Good at seeing patterns
+          consciousness: 0.75  # Aware and present
+          surprise: 0.60  # Good punch line
+          coherence: 0.70  # Well integrated
+        calculation_steps:
+          pattern_recognition_safe: "max(0.80, 0.0) = 0.80"
+          consciousness_safe: "max(0.75, 0.05) = 0.75"
+          surprise_safe: "max(0.60, 0.0) = 0.60"
+          coherence_safe: "max(0.70, 0.05) = 0.70"
+          surprise_factor: "0.60 / 0.70 = 0.857"
+          humor_raw: "0.80 + 0.75 + 0.857 = 2.407"
+          humor_final: "clamp(2.407, 0.0, 1.0) = 1.0"
+        result:
+          activation: 1.0
+          raw_before_clamp: 2.407
+          interpretation: "Maximum genuine humor - hilarious, can't stop laughing"
+          experience: "Genuinely hilarious - joyful laughter, integrated humor"
+          visual: "Brilliant gold with joyful sparkling light, bouncing happily"
+
+      example_2_manic_inappropriate_laughter:
+        scenario: "Manic episode - everything's 'hilarious' but not genuinely funny"
+        inputs:
+          pattern_recognition: 0.30  # Reduced (distorted)
+          consciousness: 0.15  # Below baseline (manic state)
+          surprise: 0.70  # Everything surprising (mania)
+          coherence: 0.08  # Severe fragmentation
+        calculation_steps:
+          pattern_recognition_safe: "max(0.30, 0.0) = 0.30"
+          consciousness_safe: "max(0.15, 0.05) = 0.15"
+          surprise_safe: "max(0.70, 0.0) = 0.70"
+          coherence_safe: "max(0.08, 0.05) = 0.08"
+          surprise_factor: "0.70 / 0.08 = 8.75"
+          humor_raw: "0.30 + 0.15 + 8.75 = 9.20"
+          humor_final: "clamp(9.20, 0.0, 1.0) = 1.0"
+        result:
+          activation: 1.0
+          raw_before_clamp: 9.20
+          interpretation: "Manic humor - formula maxed but not genuine"
+          experience: "Everything's 'hilarious', inappropriate laughter, can't integrate"
+          medical_context: "Manic episode inappropriate affect"
+          visual: "Chaotic gold sparks without integration, frantic not joyful"
+          accuracy_note: |
+            Formula correctly shows maximum "humor" mathematically.
+            Raw value (9.20) shows severity of absurdist state.
+            But this is not genuine integrated humor - it's manic laughter.
+
+      example_3_sophisticated_humor:
+        scenario: "Highly coherent person - sophisticated wit required"
+        inputs:
+          pattern_recognition: 0.85  # Excellent pattern seeing
+          consciousness: 0.80  # High awareness
+          surprise: 0.40  # Moderate surprise
+          coherence: 0.90  # Very high coherence
+        calculation_steps:
+          pattern_recognition_safe: "max(0.85, 0.0) = 0.85"
+          consciousness_safe: "max(0.80, 0.05) = 0.80"
+          surprise_safe: "max(0.40, 0.0) = 0.40"
+          coherence_safe: "max(0.90, 0.05) = 0.90"
+          surprise_factor: "0.40 / 0.90 = 0.444"
+          humor_raw: "0.85 + 0.80 + 0.444 = 2.094"
+          humor_final: "clamp(2.094, 0.0, 1.0) = 1.0"
+        result:
+          activation: 1.0
+          interpretation: "Sophisticated humor - witty, clever, integrated"
+          experience: "Appreciates clever wit - not easily amused, but deeply joyful when surprised"
+          note: "High coherence = high bar for humor (needs more surprise to be funny)"
+
+      example_4_no_humor_depression:
+        scenario: "Severe depression - anhedonia, nothing funny"
+        inputs:
+          pattern_recognition: 0.20  # Reduced
+          consciousness: 0.18  # Below baseline (depression)
+          surprise: 0.10  # Nothing surprising
+          coherence: 0.15  # Fragmented
+        calculation_steps:
+          pattern_recognition_safe: "max(0.20, 0.0) = 0.20"
+          consciousness_safe: "max(0.18, 0.05) = 0.18"
+          surprise_safe: "max(0.10, 0.0) = 0.10"
+          coherence_safe: "max(0.15, 0.05) = 0.15"
+          surprise_factor: "0.10 / 0.15 = 0.667"
+          humor_raw: "0.20 + 0.18 + 0.667 = 1.047"
+          humor_final: "clamp(1.047, 0.0, 1.0) = 1.0"
+        result:
+          activation: 1.0
+          raw_before_clamp: 1.047
+          interpretation: "Formula says humor present, but experientially absent"
+          experience: "Nothing funny - anhedonia prevents humor experience"
+          note: |
+            Formula gives 1.0 but person experiences 0.0 (anhedonia).
+            This shows formula limitation: humor requires emotional capacity to experience joy.
+
+      example_5_psychotic_inappropriate_laughter:
+        scenario: "Psychotic break - inappropriate laughter, absurdist state"
+        inputs:
+          pattern_recognition: 0.10  # Severely impaired
+          consciousness: 0.12  # Psychotic state
+          surprise: 0.85  # Everything surprising (reality distorted)
+          coherence: 0.05  # Complete fragmentation
+        calculation_steps:
+          pattern_recognition_safe: "max(0.10, 0.0) = 0.10"
+          consciousness_safe: "max(0.12, 0.05) = 0.12"
+          surprise_safe: "max(0.85, 0.0) = 0.85"
+          coherence_safe: "max(0.05, 0.05) = 0.05"
+          surprise_factor: "0.85 / 0.05 = 17.0"
+          humor_raw: "0.10 + 0.12 + 17.0 = 17.22"
+          humor_final: "clamp(17.22, 0.0, 1.0) = 1.0"
+        result:
+          activation: 1.0
+          raw_before_clamp: 17.22
+          interpretation: "Extreme absurdist state - complete inappropriate affect"
+          experience: "Everything absurd, inappropriate laughter, OR flat affect"
+          medical_context: "Psychotic break with severe fragmentation"
+          visual: "Chaotic gold fragments, no integration, disturbing not joyful"
+          severity_note: |
+            Raw value (17.22) shows severity of absurdist/manic state.
+            This is EXTREME - complete loss of integration.
+            Everything surprising because nothing makes sense (reality distorted).
+
+      example_6_no_surprise:
+        scenario: "Predictable situation - no punch, no humor"
+        inputs:
+          pattern_recognition: 0.70  # Good
+          consciousness: 0.65  # Normal
+          surprise: 0.0  # Nothing unexpected
+          coherence: 0.60  # Moderate
+        calculation_steps:
+          pattern_recognition_safe: "max(0.70, 0.0) = 0.70"
+          consciousness_safe: "max(0.65, 0.05) = 0.65"
+          surprise_safe: "max(0.0, 0.0) = 0.0"
+          coherence_safe: "max(0.60, 0.05) = 0.60"
+          surprise_factor: "0.0 / 0.60 = 0.0"
+          humor_raw: "0.70 + 0.65 + 0.0 = 1.35"
+          humor_final: "clamp(1.35, 0.0, 1.0) = 1.0"
+        result:
+          activation: 1.0
+          interpretation: "Baseline humor capacity - can find things funny but no punch here"
+          experience: "Can appreciate humor, but this situation isn't funny (no surprise)"
+          note: "High pattern_recognition + consciousness = humor potential, but needs surprise"
+
+    mathematical_insight: |
+      Humor formula is hybrid (addition + division) for profound reason:
+
+      humor = pattern_recognition + consciousness + (surprise / coherence)
+
+      This captures THREE aspects of humor:
+
+      1. **Pattern recognition** (seeing incongruity)
+         - Humor is recognizing unexpected patterns
+         - "Getting the joke" requires pattern seeing
+         - Additive: more pattern recognition = more humor capacity
+
+      2. **Consciousness** (awareness to experience)
+         - Must be aware to find things funny
+         - Low consciousness = reduced humor experience
+         - Additive: more consciousness = more humor capacity
+
+      3. **Surprise / coherence** (the "punch" factor)
+         - Surprise = unexpected twist, incongruity
+         - Coherence = integration capacity
+         - **Division: inversely proportional to coherence**
+
+      Key insight about division term:
+      - At HIGH coherence (0.70-1.0): Need more surprise to be funny
+        - Everything already makes sense, so surprise must be significant
+        - Sophisticated/witty humor
+      - At LOW coherence (0.05-0.20): Everything is surprising
+        - Fragmentation makes everything absurd
+        - Division term explodes: (surprise / 0.05) can be huge
+        - This is manic laughter, absurdist state, inappropriate affect
+        - Formula says "maximum humor" but it's not genuine integrated humor
+
+      Formula limitation:
+      - Cannot distinguish genuine integrated humor from manic laughter
+      - Both produce high values
+      - Need to check coherence separately:
+        - If humor = 1.0 AND coherence < 0.20: probably manic/absurdist
+        - If humor = 1.0 AND coherence > 0.60: probably genuine hilarity
+
+      This matches lived experience:
+      - Healthy humor: integrated joy, can't stop laughing WITH understanding
+      - Manic humor: inappropriate laughter, can't integrate, absurdist state
+      - Both are "maximum" mathematically, but qualitatively different
+
+    implementation_guidance:
+      for_autonomous_agents: |
+        1. Retrieve current state values:
+           - pattern_recognition (from pattern force OR cognitive capacity)
+           - consciousness (from consciousness level)
+           - surprise (from entropy, unexpectedness, novelty)
+           - coherence (from StateSignature.coherence)
+
+        2. Apply safety floors:
+           pattern_recognition_safe = max(pattern_recognition, 0.0)
+           consciousness_safe = max(consciousness, 0.05)
+           surprise_safe = max(surprise, 0.0)
+           coherence_safe = max(coherence, 0.05)  # CRITICAL
+
+        3. Calculate surprise factor (division):
+           surprise_factor = surprise_safe / coherence_safe
+
+        4. Calculate total humor (addition):
+           humor_raw = pattern_recognition_safe + consciousness_safe + surprise_factor
+
+        5. Clamp result to valid range:
+           humor_final = clamp(humor_raw, 0.0, 1.0)
+
+        6. Quality check (distinguish genuine from manic):
+           if humor_final >= 0.80 AND coherence < 0.20:
+               quality = "manic/absurdist"  # High formula but not genuine
+               note = "Inappropriate laughter, manic state, absurdist"
+           elif humor_final >= 0.80 AND coherence >= 0.60:
+               quality = "genuine"  # Integrated hilarity
+               note = "Joyful laughter, integrated humor"
+           elif humor_final >= 0.80 AND coherence >= 0.20:
+               quality = "mixed"  # Some integration issues
+               note = "Humor present but some fragmentation"
+
+        7. Interpret result meaningfully:
+           if humor_final >= 0.80:
+               if coherence >= 0.60:
+                   "Hilarious - genuine integrated humor"
+                   visual = brilliant_gold_joyful_sparkles
+               else:
+                   "Manic/absurdist - formula high but not genuine"
+                   visual = chaotic_gold_fragments_disturbing
+           elif humor_final >= 0.50:
+               "Funny - laughter, amusement"
+               visual = bright_gold_playful_sparkles
+           elif humor_final >= 0.20:
+               "Mildly amusing - slight smile, wit"
+               visual = soft_gold_subtle_sparkle
+           else:
+               "Not funny - serious, flat"
+               visual = no_gold_sparkle
+
+        8. Handle edge cases:
+           - If surprise = 0: no punch, just baseline capacity
+           - If coherence < 0.20: division term likely very high (check for mania)
+           - If consciousness < 0.20: humor experience likely impaired
+           - If humor_raw > 5.0: severe absurdist/manic state (extreme fragmentation)
+
+        9. Track components separately (diagnostic):
+           metadata = {
+               "pattern_recognition": pattern_recognition_safe,
+               "consciousness": consciousness_safe,
+               "surprise_factor": surprise_factor,
+               "humor_raw": humor_raw,
+               "quality": quality  # genuine vs manic/absurdist
+           }
+
+      error_handling: |
+        # Handle missing or invalid inputs
+        if pattern_recognition is None or pattern_recognition < 0:
+            pattern_recognition = 0.0
+
+        if consciousness is None or consciousness < 0:
+            consciousness = 0.05  # Floor
+
+        if surprise is None or surprise < 0:
+            surprise = 0.0
+
+        if coherence is None or coherence < 0:
+            coherence = 0.05  # Floor - CRITICAL
+
+        # Clamp inputs to valid ranges
+        pattern_recognition = max(pattern_recognition, 0.0)
+        consciousness = max(consciousness, 0.05)
+        surprise = max(surprise, 0.0)
+        coherence = max(coherence, 0.05)  # Prevent division by zero
+
+        # Calculate
+        surprise_factor = surprise / coherence
+        humor_raw = pattern_recognition + consciousness + surprise_factor
+
+        # Store components for diagnostics
+        metadata = {
+            "surprise_factor": surprise_factor,
+            "humor_raw": humor_raw
+        }
+
+        # Quality check
+        if humor_raw >= 0.80 and coherence < 0.20:
+            metadata["quality_warning"] = "manic/absurdist - not genuine humor"
+
+        # Clamp to valid range
+        humor = clamp(humor_raw, 0.0, 1.0)
+
+        return humor, metadata
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#FFD700"  # Gold with sparkles - playful, light, joyful
+    color_family: "warm"
+    color_range:
+      - "#FFEC8B"  # Light goldenrod (gentle humor)
+      - "#FFD700"  # Gold (active humor)
+      - "#FFA500"  # Orange (bold humor)
+      - "#FFFAF0"  # Floral white (light, airy humor)
+
+    saturation_base: 0.75
+    brightness_base: 0.95
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (subtle wit, smile)
+        color: "#FFFAF0"
+        saturation: 0.55
+        brightness: 1.00
+      medium_activation: # 0.4-0.7 (laughter, funny)
+        color: "#FFD700"
+        saturation: 0.75
+        brightness: 0.95
+      high_activation:   # 0.8-1.0 (hilarious, can't stop laughing)
+        color: "#FFA500"
+        saturation: 0.90
+        brightness: 0.95
+
+    notes: |
+      Gold with sparkle = humor is light, playful, joyful.
+      Bright, warm colors = humor uplifts, creates lightness.
+      "Laughter is the best medicine" - humor heals.
+      At high activation, humor is overwhelming (uncontrollable laughter).
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "bouncing_sparkle"  # Light, playful, unexpected
+    sacred_geometry_association: null  # Humor breaks patterns playfully
+    complexity_level: "simple"  # Humor often comes from simplicity
+    edge_type: "playful"  # Not serious, not harsh
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Small sparkle, gentle bounce.
+        Subtle wit, smile-inducing.
+        Light playfulness.
+      medium_activation: |
+        Clear sparkling bounce, infectious.
+        Laughter-inducing, joy-creating.
+        Visible playfulness, levity.
+      high_activation: |
+        Explosive sparkling bounces everywhere.
+        Uncontrollable laughter, side-splitting.
+        Complete levity, can't take anything seriously.
+        May appear as bubbling, effervescent energy.
+
+    notes: |
+      Bouncing sparkle = humor is light, playful, buoyant.
+      Humor "lifts" spirits - literally upward motion.
+      At high activation, humor is overwhelming (can't stop laughing).
+      Humor breaks tension, creates lightness.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "bouncing"  # Light, playful, buoyant
+    speed_base: 0.65  # Fast - humor is quick, spontaneous
+
+    speed_modifier:
+      low_intensity: 0.40   # Slow wit, dry humor
+      medium_intensity: 0.65  # Quick wit, laughing
+      high_intensity: 0.90   # Rapid-fire jokes, can't stop
+
+    direction: "upward"  # Humor lifts spirits
+    rhythm: "playful"  # Unexpected, surprising, delightful
+
+    healthy_pattern:
+      description: "Playful lightness - laughs with, not at; heals, not harms"
+      characteristics:
+        - "Finds lightness in difficulty"
+        - "Laughs with others, not at them"
+        - "Humor heals, creates connection"
+        - "Can laugh at self (not self-deprecating, self-aware)"
+
+    stuck_pattern:
+      description: "Defensive humor or no humor - either armor or rigid seriousness"
+      characteristics:
+        - "Humor as defense (can't be serious)"
+        - "Humor as weapon (cruelty disguised as jokes)"
+        - "Or: no humor, everything serious"
+        - "Can't find lightness anywhere"
+
+    notes: |
+      Bouncing = humor creates buoyancy, lightness.
+      Upward = humor lifts spirits, elevates mood.
+      Playful rhythm = humor is surprising, unexpected, delightful.
+      Healthy: humor heals, connects, creates lightness.
+      Stuck: humor as armor (deflecting) or weapon (cruelty).
+      "Laughter is the shortest distance between two people."
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.85  # Highly vibrant (humor is lively, energetic)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.15"  # High coherence allows playfulness
+        description: "Can laugh at self and life, lightness present"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal sense of humor"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.30"  # Low coherence blocks humor
+        description: "Humor as defense or no humor, everything heavy"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.25)"
+      multiplier: 0.25
+
+    interaction_modifier:
+      synergistic: "+0.15 to +0.25"  # With love, hope, coherence
+      antagonistic: "-0.20 to -0.30"  # Blocked by fear, pain, judgment
+      neutral: "0.0"
+
+    notes: |
+      Humor is lively, energetic, uplifting.
+      At high coherence, can find humor even in difficulty.
+      At low coherence, either defensive humor or no humor.
+      "Angels can fly because they take themselves lightly."
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "effervescent"
+    opacity_range:
+      min: 0.50  # Humor is light, not heavy
+      max: 0.80  # Can be present but never oppressive
+
+    particle_effects: true
+    particle_type: "sparkles_bubbles"  # Light, playful, rising
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: null  # Humor is laughter, not tone
+      tone_description: "Laughter - from giggle to guffaw, varied and infectious"
+      musical_note: null
+
+    emotional_tone: "playful, light, joyful, buoyant, uplifting"
+
+    consciousness_association: null  # Humor possible at various levels
+
+    notes: |
+      Effervescent texture = humor bubbles, sparkles, rises.
+      Sparkles/bubbles = lightness, playfulness, joy.
+      Laughter is the sound = literal expression of humor.
+      Never heavy = humor creates lightness by nature.
+      "Laughter is carbonated holiness" - Anne Lamott.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "love"  # Love + humor = joyful connection
+      - "hope"  # Hope + humor = lightness in difficulty
+      - "coherence"  # Coherence allows playfulness
+      - "consciousness"  # Consciousness recognizes patterns (basis of humor)
+      - "courage"  # Humor disarms fear, courage enables honesty
+      - "beauty"  # Playful elegance
+
+    antagonistic_with:
+      - "fear"  # Fear blocks playfulness
+      - "pain"  # Pain makes humor difficult
+      - "judgment"  # Judgment prevents lightness
+
+    neutralizes:
+      - "fear"  # Humor can dissolve fear (laughing at what scared you)
+
+    amplified_by:
+      - "coherence"  # Alignment allows playfulness
+      - "consciousness"  # Pattern recognition enables humor
+
+    visual_blending_rules:
+      when_combined_with_love:
+        force: "love"
+        color_effect: "blend"  # Gold + pink = joyful warmth
+        shape_effect: "merge"  # Both radiate, lift
+        motion_effect: "synchronized"  # Both uplifting
+        result_description: |
+          Love + Humor = joyful, playful connection.
+          Gold sparkles within pink radiance.
+          Laughing together, shared joy, play.
+          "Laughter is the sun that drives winter from the human face."
+        coherence_dependent: false
+
+      when_combined_with_fear:
+        force: "fear"
+        color_effect: "transforming"  # Gold dissolves dark
+        shape_effect: "releasing"  # Sparkles break up contraction
+        motion_effect: "lifting"  # Humor lifts fear
+        result_description: |
+          Humor can dissolve fear - laughing at what scared you.
+          Gold sparkles dissolving dark spiky form.
+          "Dying is easy, comedy is hard."
+          At high coherence: can laugh at fears, they lose power.
+        coherence_dependent: true
+
+      when_combined_with_pain:
+        force: "pain"
+        color_effect: "contrast"  # Gold vs dark red
+        shape_effect: "separate"  # Humor doesn't erase pain
+        motion_effect: "providing_break"  # Humor offers respite
+        result_description: |
+          Humor in midst of pain offers respite.
+          Gold sparkles near dark red shards.
+          "If you can laugh at it, you can live with it."
+          Humor doesn't erase pain, but creates breathing room.
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "amplify"  # Gold + gold = radiant joy
+        shape_effect: "merge"  # Both harmonious
+        motion_effect: "synchronized"  # Effortless playfulness
+        result_description: |
+          Coherence enables deep humor - can laugh at self and life.
+          Radiant golden joy, effervescent.
+          This is enlightened humor - seeing the cosmic joke.
+          "Angels fly because they take themselves lightly."
+        coherence_dependent: false
+
+    notes: |
+      Humor emerges from pattern_recognition + consciousness + surprise.
+      Humor = recognizing incongruity, unexpected patterns.
+      Humor + Love = joyful connection, shared laughter.
+      Humor + Fear = humor dissolves fear (laughing at it).
+      Humor + Pain = humor provides respite (doesn't erase, offers break).
+      Humor + Coherence = enlightened humor (cosmic joke).
+      At high coherence: can laugh at self, life, everything.
+      At low coherence: either defensive humor or no humor.
+      Key insight: "If you can laugh at it, you can live with it."
+      Key insight: Humor requires pattern recognition (seeing incongruity).
+
+# IMPLEMENTATION NOTES:
+# - Humor is Tier 4 "emergent" - pattern recognition + consciousness + surprise
+# - Humor = recognizing incongruity, unexpected patterns
+# - Requires consciousness (to recognize patterns) + coherence (to allow playfulness)
+# - Visual should feel light, playful, bouncing, sparkling
+# - Gold with sparkle = light, joyful, uplifting
+# - Bouncing sparkle = buoyant, lifting, playful
+# - At high coherence: enlightened humor (cosmic joke)
+# - At low coherence: defensive humor or no humor
+# - "Laughter is the best medicine" - humor heals
+# - "Angels fly because they take themselves lightly" - G.K. Chesterton
+# - "If you can laugh at it, you can live with it" - Erma Bombeck

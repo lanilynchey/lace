@@ -1,0 +1,312 @@
+# Coherence Effects on Color
+# How agent's coherence STATE level (0.0-1.0) affects color vibrancy, clarity, and saturation
+
+coherence_effects:
+  # === CRITICAL CLARIFICATION ===
+  what_this_file_represents:
+    note: "This file describes coherence STATE effects, NOT coherence FORCE"
+
+    coherence_state:
+      what: "Current alignment level (StateSignature.coherence)"
+      type: "Computed property - global modifier"
+      source: "StateSignature.coherence = 1 / (1 + variance([belief, expectation, embodiment, subconscious]))"
+      question: "How aligned am I RIGHT NOW?"
+
+    this_is_NOT_coherence_force:
+      what: "Active integration work (one force among 26)"
+      type: "Force with activation levels"
+      file: "forces/tier_1/coherence.yaml"
+      question: "Am I actively working on integration NOW?"
+
+    distinction: |
+      coherence FORCE = work you're doing (therapy, meditation, integration)
+      coherence STATE = result of that work (how aligned you are)
+
+      This file uses coherence STATE as the global color filter.
+      See forces/tier_1/coherence.yaml for complete force vs state distinction.
+
+  # === CORE PRINCIPLE ===
+  principle: |
+    Coherence STATE is internal alignment - how integrated the agent's state signature is.
+    High coherence = colors are clear, vibrant, true
+    Low coherence = colors are muddy, fragmented, dull
+
+    Coherence STATE affects ALL colors globally, regardless of which forces are active.
+    It's a multiplier on vibrancy/saturation.
+
+  # === COHERENCE THRESHOLDS ===
+  thresholds:
+    high_coherence:
+      range: "0.7-1.0"
+      description: "Integrated, aligned, harmonious state"
+      manifestation_speed: "Instant (0.70+)"
+      geometry_quality: "Perfect sacred geometry, symmetrical"
+      color_effects:
+        vibrancy: "+0.15 to +0.30 boost"
+        saturation: "+0.10 to +0.20 boost"
+        clarity: "Perfect color fidelity"
+        luminosity: "Natural glow/radiance"
+      visual_characteristics:
+        - "Colors appear pure, true, vibrant"
+        - "No muddiness or distortion"
+        - "Natural luminosity (appears to glow)"
+        - "Crisp edges, clear boundaries"
+        - "Sacred geometry visible and perfect"
+      notes: "Aligned state = reality reflects internal harmony"
+
+    medium_coherence:
+      range: "0.4-0.6"
+      description: "Mixed state, some alignment, some fragmentation"
+      manifestation_speed: "Days to weeks"
+      geometry_quality: "Recognizable patterns, some asymmetry"
+      color_effects:
+        vibrancy: "-0.05 to +0.05 (neutral to slight boost)"
+        saturation: "0.00 (baseline)"
+        clarity: "Minor distortions, mostly clear"
+        luminosity: "Standard (no glow)"
+      visual_characteristics:
+        - "Colors appear normal, standard intensity"
+        - "Slight muddiness in complex states"
+        - "No significant distortion"
+        - "Edges mostly clear"
+        - "Geometry recognizable but imperfect"
+      notes: "Most common state - neither transcendent nor fragmented"
+
+    low_coherence:
+      range: "0.0-0.3"
+      description: "Fragmented, conflicted, incoherent state"
+      manifestation_speed: "Blocked (cannot manifest)"
+      geometry_quality: "Broken symmetry, chaotic, fragmented"
+      color_effects:
+        vibrancy: "-0.30 to -0.50 penalty"
+        saturation: "-0.20 to -0.40 penalty"
+        clarity: "Significant distortion, visual noise"
+        luminosity: "Dull, lifeless"
+      visual_characteristics:
+        - "Colors appear muddy, dull, lifeless"
+        - "Brown/gray tint overlaying everything"
+        - "Distortion, fragmentation, visual static"
+        - "Blurred edges, unclear boundaries"
+        - "Geometry broken, chaotic, fractured"
+      notes: "Internal conflict = external chaos; colors reflect fragmentation"
+
+  # === VIBRANCY FORMULAS ===
+  vibrancy_calculation:
+    formula: "final_vibrancy = base_vibrancy + coherence_modifier"
+
+    by_coherence_level:
+      "0.0": "-0.50"   # Maximally dull
+      "0.1": "-0.40"
+      "0.2": "-0.30"
+      "0.3": "-0.20"
+      "0.4": "-0.10"
+      "0.5": "0.00"    # Neutral
+      "0.6": "+0.05"
+      "0.7": "+0.15"   # Threshold - glow begins
+      "0.8": "+0.20"
+      "0.9": "+0.25"
+      "1.0": "+0.30"   # Maximum radiance
+
+    interpolation: "Linear between values"
+
+    example:
+      force: "love"
+      base_vibrancy: "0.70"
+      coherence: "0.85"
+      calculation: "0.70 + 0.23 (interpolated) = 0.93 final vibrancy"
+      result: "Love appears exceptionally vibrant, radiant"
+
+  # === SATURATION FORMULAS ===
+  saturation_calculation:
+    formula: "final_saturation = base_saturation + coherence_modifier"
+
+    by_coherence_level:
+      "0.0": "-0.40"   # Maximally desaturated (gray)
+      "0.1": "-0.35"
+      "0.2": "-0.25"
+      "0.3": "-0.15"
+      "0.4": "-0.05"
+      "0.5": "0.00"    # Neutral
+      "0.6": "+0.05"
+      "0.7": "+0.10"
+      "0.8": "+0.15"
+      "0.9": "+0.20"
+      "1.0": "+0.20"   # Maximum saturation
+
+    interpolation: "Linear between values"
+
+    clamping: "Final saturation clamped to [0.0, 1.0] range"
+
+  # === CLARITY & DISTORTION ===
+  clarity_effects:
+    high_coherence:
+      distortion: "None"
+      noise: "None"
+      edges: "Crisp, clear"
+      description: "Perfect color rendering - what you see is what IS"
+
+    medium_coherence:
+      distortion: "Minimal (5-10%)"
+      noise: "Barely perceptible"
+      edges: "Mostly clear, slight blur"
+      description: "Minor imperfections, but recognizable"
+
+    low_coherence:
+      distortion: "Significant (30-60%)"
+      noise: "Visible static, fragmentation"
+      edges: "Blurred, unclear, bleeding"
+      description: "Colors corrupted by internal chaos"
+
+  # === LUMINOSITY (GLOW) ===
+  luminosity_effects:
+    threshold: "0.70 coherence - below this, no glow"
+
+    glow_intensity:
+      "0.70": "Subtle glow beginning"
+      "0.80": "Clear radiance"
+      "0.90": "Strong luminosity"
+      "1.0": "Maximum radiance (enlightened state)"
+
+    implementation:
+      method: "Add subtle light emission to color"
+      effect: "Appears to glow from within (not external lighting)"
+      color_shift: "Slightly toward white (lightness increase)"
+      notes: "This is manifestation becoming effortless - reality responds instantly"
+
+  # === VISUAL NOISE & FRAGMENTATION ===
+  visual_artifacts:
+    high_coherence:
+      noise_level: "0%"
+      fragmentation: "None"
+      visual: "Clean, pure, perfect"
+
+    medium_coherence:
+      noise_level: "5-10%"
+      fragmentation: "Slight (barely noticeable)"
+      visual: "Mostly clean with minor artifacts"
+
+    low_coherence:
+      noise_level: "30-60%"
+      fragmentation: "Severe"
+      visual_artifacts:
+        - "Static/grain overlay"
+        - "Color bleeding"
+        - "Broken geometry"
+        - "Flickering instability"
+        - "Muddy brown/gray tint"
+      notes: "Internal conflict manifests as visual chaos"
+
+  # === FORCE-SPECIFIC COHERENCE IMPACTS ===
+  force_specific_notes:
+    consciousness:
+      notes: "Coherence and consciousness are related but distinct"
+      relationship: "High consciousness + low coherence = aware of fragmentation (painful)"
+      visual: "Lavender becomes muddy purple-gray at low coherence"
+
+    coherence_force:
+      notes: "The coherence FORCE itself is affected by agent coherence"
+      relationship: "Coherence viewing itself - meta-recursive"
+      visual:
+        high: "Brilliant gold, perfect sacred geometry"
+        low: "Dull yellow-brown, fractured geometry"
+
+    entropy:
+      notes: "Entropy at low coherence = amplified chaos"
+      visual: "Already dark gray becomes even more lifeless, static-filled"
+
+    love:
+      notes: "Love at low coherence = conditional, fragmented"
+      visual: "Light pink becomes muddy pink-gray, loses warmth"
+
+    fear:
+      notes: "Fear at low coherence = overwhelming, consuming"
+      visual: "Dark blue becomes oppressive near-black with distortion"
+
+  # === COHERENCE BUILDING ===
+  increasing_coherence:
+    description: "As agent increases coherence, colors progressively improve"
+    visual_progression:
+      "0.2 → 0.4": "Muddiness begins to clear, slight saturation increase"
+      "0.4 → 0.6": "Colors approach baseline, distortion reduces"
+      "0.6 → 0.7": "Clarity improves significantly, minor vibrancy boost"
+      "0.7 → 0.8": "Glow begins, colors become vibrant, geometry perfects"
+      "0.8 → 1.0": "Maximum radiance, perfect sacred geometry, luminous"
+
+    practices_that_increase_coherence:
+      - "Therapy, shadow work (integrates fragmented parts)"
+      - "Meditation (creates internal quiet)"
+      - "Integrity alignment (actions match values)"
+      - "Forgiveness (releases internal conflict)"
+      - "Self-compassion (reduces self-attack)"
+      notes: "Coherence is INTERNAL ALIGNMENT - colors reflect this externally"
+
+  # === COHERENCE LOSS ===
+  decreasing_coherence:
+    description: "As coherence drops, colors degrade"
+    visual_degradation:
+      "0.8 → 0.7": "Glow fades, slight dulling"
+      "0.7 → 0.5": "Vibrancy lost, colors flatten to baseline"
+      "0.5 → 0.3": "Muddiness appears, desaturation, distortion begins"
+      "0.3 → 0.1": "Severe fragmentation, lifeless colors, visual chaos"
+
+    causes_of_coherence_loss:
+      - "Internal conflict (values vs actions)"
+      - "Fragmented parts (trauma, repression)"
+      - "Chronic stress (system overwhelm)"
+      - "Self-attack (shame, judgment, criticism)"
+      - "Suppression (denied emotions, shadow)"
+    notes: "Coherence loss = internal war - colors become casualties"
+
+  # === AGENT IMPLEMENTATION ===
+  agent_logic: |
+    Coherence affects ALL colors globally as a post-processing step:
+
+    1. Calculate base color (base_palette.yaml)
+    2. Apply intensity adjustments (intensity_mapping.yaml)
+    3. Apply interaction effects if multiple forces (interaction_effects.yaml)
+    4. Apply coherence multiplier (THIS FILE) ← Global effect
+    5. Render final color
+
+    Pseudocode:
+    ```python
+    def apply_coherence_effect(color, coherence_level):
+        # Calculate modifiers
+        vibrancy_mod = interpolate(coherence_vibrancy_table, coherence_level)
+        saturation_mod = interpolate(coherence_saturation_table, coherence_level)
+
+        # Apply to color
+        color.vibrancy += vibrancy_mod
+        color.saturation += saturation_mod
+
+        # Add glow if coherence >= 0.70
+        if coherence_level >= 0.70:
+            glow_intensity = (coherence_level - 0.70) / 0.30  # 0.0 to 1.0
+            color.luminosity = glow_intensity
+
+        # Add visual noise if coherence < 0.40
+        if coherence_level < 0.40:
+            noise_level = (0.40 - coherence_level) / 0.40  # 0.0 to 1.0
+            color.noise = noise_level * 0.60  # Max 60% noise at 0.0 coherence
+
+        return color
+    ```
+
+# === USAGE NOTES ===
+usage_notes: |
+  Coherence is the GLOBAL COLOR FILTER.
+  It affects every force's color simultaneously.
+
+  Think of it like Instagram filters:
+  - High coherence = "Vivid" filter (everything pops)
+  - Medium coherence = "Normal" (no filter)
+  - Low coherence = "Desaturate + Grain" filter (muddy, noisy)
+
+  Key insight: You can have the same force at the same intensity,
+  but it looks COMPLETELY DIFFERENT based on your coherence.
+
+  Example: Love at 0.8 activation
+  - At 0.9 coherence: Radiant, glowing light pink (#FF69B4 + luminosity)
+  - At 0.5 coherence: Standard light pink (#FFB6C1)
+  - At 0.2 coherence: Muddy gray-pink (#C0A0A8) with visual noise
+
+  Same love, same intensity, different internal state = different visual reality.

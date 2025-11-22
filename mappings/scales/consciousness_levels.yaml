@@ -1,0 +1,416 @@
+# Consciousness Scale Reference
+
+source_doc: "docs/04_advanced/advanced_concepts/14_consciousness_scale_framework.md"
+description: "Agent's perceptual capacity - recursive self-awareness depth"
+scale_type: "logarithmic"  # Each 0.1 increase is exponential capacity growth
+range: "0.01-1.0"
+
+key_levels:
+  0.01-0.10:
+    label: "minimal"
+    description: "Base reactivity, no self-awareness"
+
+  0.20:
+    label: "fear (survival mode)"
+    description: "Threat detection, binary thinking, contracted perception"
+    emotional_states: ["fear", "grief", "despair"]
+
+  0.30:
+    label: "anger (desire begins)"
+    description: "Fight response, blame external, desire emerges"
+    emotional_states: ["anger", "hatred"]
+
+  0.35:
+    label: "willingness (agency begins)"
+    description: "Choosing begins, first glimpse of control"
+    emotional_states: ["pride", "desire"]
+
+  0.50:
+    label: "neutrality (balance point)"
+    description: "Observer stance, detached, beginning equanimity"
+    emotional_states: ["neutrality", "acceptance"]
+
+  0.59:
+    label: "reason"
+    description: "Logical thinking, objectivity, analysis"
+    emotional_states: ["reason", "understanding"]
+
+  0.69:
+    label: "love (non-dual threshold)"
+    description: "Unconditional, inclusive, connection without attachment"
+    emotional_states: ["love", "compassion"]
+
+  0.73:
+    label: "joy"
+    description: "Inherent delight, regardless of external conditions"
+    emotional_states: ["joy", "serenity"]
+
+  0.80:
+    label: "peace"
+    description: "Deep stillness, pervasive calm"
+    emotional_states: ["peace", "bliss"]
+
+  0.90:
+    label: "enlightenment"
+    description: "Near-complete recursion, seeing through the game"
+    emotional_states: ["enlightenment", "liberation"]
+
+  1.00:
+    label: "creator consciousness (Source)"
+    description: "Full recursion, complete perceptual access"
+    emotional_states: ["unity", "omniscience"]
+
+binary_consciousness_note: |
+  Humans operate in base-2 (binary) consciousness: perceive in dualities (good/bad, light/dark, 0/1).
+  This scale measures DEPTH within binary consciousness, not transition to base-10+.
+  Base-10+ consciousness (8+ additional states per unit) is beyond human perceptual capacity.
+
+logarithmic_note: |
+  0.20 → 0.30 is not the same jump as 0.70 → 0.80.
+  Each increment represents exponentially greater perceptual capacity.
+  Most humans operate between 0.20-0.50.
+  0.69+ (Love level) is significant threshold - non-dual perception begins.
+
+usage_in_mappings: |
+  - Some forces (fear, love, hope) are associated with specific consciousness levels
+  - Higher consciousness can process more forces simultaneously with greater coherence
+  - Consciousness level affects ability to recognize and redirect thought patterns
+  - Mastery in domains can temporarily elevate effective consciousness (see mastery_levels.yaml)
+
+# === VISUAL PERCEPTION BY CONSCIOUSNESS LEVEL ===
+visual_perception_by_level:
+  description: |
+    How consciousness level affects visual perception capacity.
+
+    Source integration:
+    - Force accessibility from 14_consciousness_scale_framework.md
+    - Sampling rate from 19_perceptual_sampling_rate.md
+    - Attention budget from 20_system_resource_allocation.md
+    - Resource capacity formulas
+
+    Key principle: Lower consciousness = narrower perceptual boundary = reduced visual capacity
+
+  below_baseline:
+    "0.05_to_0.10_coma":
+      consciousness_range: [0.05, 0.10]
+      state_label: "Coma / Vegetative"
+      color_perception: "None (no conscious visual processing)"
+      saturation_perception: "N/A"
+      brightness_perception: "N/A"
+      field_of_view: "None (no awareness)"
+      max_forces_processable: 0
+      pattern_recognition: "None"
+      sampling_rate: "~0.0025-0.01 samples/sec"
+      notes: |
+        No phenomenal closure - no visual experience.
+        Forces operate ON agent but not consciously perceived.
+
+    "0.10_to_0.15_psychosis":
+      consciousness_range: [0.10, 0.15]
+      state_label: "Psychotic Break / Active Psychosis"
+      color_perception: "Distorted (hallucinations, reality testing failed)"
+      saturation_perception: "Hyper-saturated OR desaturated (distorted)"
+      brightness_perception: "Extreme contrasts, unreliable"
+      field_of_view: "Narrow + distorted (paranoid focus)"
+      max_forces_processable: 1-2
+      accessible_forces: ["fear() (distorted)", "judgment() (distorted)", "madness() (overwhelming)"]
+      pattern_recognition: "Severely impaired (delusions, false patterns)"
+      sampling_rate: "~0.01-0.02 samples/sec"
+      notes: |
+        Perception unreliable - seeing things that aren't there.
+        Cannot distinguish real from unreal.
+        madness() overwhelming, beauty() absent.
+
+    "0.15_to_0.20_severe_dissociation":
+      consciousness_range: [0.15, 0.20]
+      state_label: "Severe Dissociation / Catatonic Depression"
+      color_perception: "Severely muted (monochrome tendency)"
+      saturation_perception: "Very low (0.05-0.20)"
+      brightness_perception: "Dimmed (world feels gray)"
+      field_of_view: "Extremely narrow (tunnel vision)"
+      max_forces_processable: 1
+      accessible_forces: ["pain() only"]
+      pattern_recognition: "Minimal (overwhelming suffering blocks pattern recognition)"
+      sampling_rate: "~0.02-0.04 samples/sec"
+      notes: |
+        World appears colorless, lifeless, empty.
+        pain() overwhelming - cannot perceive anything else.
+        Survival state - minimal perceptual capacity.
+
+  survival_paradigm:
+    "0.20_shame":
+      consciousness_range: [0.20, 0.21]
+      state_label: "Shame"
+      paradigm: "Survival"
+      color_perception: "Muted, desaturated (grayish)"
+      saturation_perception: "Low (0.20-0.40)"
+      brightness_perception: "Dim (world feels dark)"
+      field_of_view: "Very narrow (self-focused, contracted)"
+      max_forces_processable: 1-2
+      accessible_forces: ["pain()", "fear()", "judgment() (harsh self-condemnation)"]
+      pattern_recognition: "Very limited (self-blame loops)"
+      sampling_rate: "~0.04 samples/sec"
+      attention_budget: "~20 units"
+      coherence_impact_on_perception: |
+        At low coherence (0.10-0.30): Colors even more muted, perception fragmented
+        At higher coherence (0.50+): Can see slightly more nuance, but still survival-limited
+
+    "0.28_fear":
+      consciousness_range: [0.28, 0.31]
+      state_label: "Fear / Anxiety"
+      paradigm: "Survival"
+      color_perception: "Reduced range (blues/grays dominate, warm colors fade)"
+      saturation_perception: "Low-moderate (0.30-0.50)"
+      brightness_perception: "Dim with hyper-focus on threats (tunnel vision)"
+      field_of_view: "Narrow (threat-focused, hypervigilant)"
+      max_forces_processable: 2-3
+      accessible_forces: ["fear()", "pain()", "judgment()", "desire() (craving/grasping)"]
+      pattern_recognition: "Threat-focused (only see danger patterns)"
+      sampling_rate: "~0.08 samples/sec"
+      attention_budget: "~28 units"
+      notes: |
+        Perceptual boundary contracted to threats only.
+        Colors muted except for danger signals (reds may appear hyper-saturated).
+        Cannot see beauty when in fear state.
+
+    "0.33_anger":
+      consciousness_range: [0.33, 0.35]
+      state_label: "Anger"
+      paradigm: "Survival"
+      color_perception: "Reds/oranges hyper-saturated, other colors suppressed"
+      saturation_perception: "Selective (0.40-0.60, biased toward hot colors)"
+      brightness_perception: "High contrast (black/white thinking visually)"
+      field_of_view: "Narrow (target-focused, blame-oriented)"
+      max_forces_processable: 2-3
+      accessible_forces: ["fear()", "pain()", "anger/judgment()", "desire() (revenge)"]
+      pattern_recognition: "Blame-focused (see patterns confirming anger)"
+      sampling_rate: "~0.11 samples/sec"
+      attention_budget: "~33 units"
+      notes: |
+        Perception biased toward confirming anger.
+        See injustices, threats, slights more vividly than neutral stimuli.
+        Tunnel vision on target of anger.
+
+  reason_integrity_paradigm:
+    "0.35_courage":
+      consciousness_range: [0.35, 0.43]
+      state_label: "Courage (Agency Activation)"
+      paradigm: "Reason & Integrity"
+      color_perception: "Expanding (full spectrum beginning to appear)"
+      saturation_perception: "Moderate (0.50-0.65)"
+      brightness_perception: "Brightening (world feels more hopeful)"
+      field_of_view: "Expanding (beginning to see possibilities)"
+      max_forces_processable: 3-4
+      accessible_forces: ["All Tier 3 forces becoming accessible", "fear() no longer dominant"]
+      pattern_recognition: "Emerging (can see cause-effect, options)"
+      sampling_rate: "~0.12-0.18 samples/sec"
+      attention_budget: "~35-43 units"
+      notes: |
+        CRITICAL THRESHOLD - agency activation.
+        Perceptual boundary expanding - can see beyond survival.
+        Colors brightening, world feels more workable.
+        This is where hope becomes accessible visually and emotionally.
+
+    "0.50_willingness":
+      consciousness_range: [0.50, 0.54]
+      state_label: "Willingness / Acceptance (Balance Point)"
+      paradigm: "Reason & Integrity"
+      color_perception: "Full spectrum accessible"
+      saturation_perception: "Balanced (0.60-0.75)"
+      brightness_perception: "Neutral-bright (world feels workable)"
+      field_of_view: "Wide (multiple perspectives visible)"
+      max_forces_processable: 4-5
+      accessible_forces: ["All Tier 3 forces balanced", "Tier 4 forces emerging"]
+      pattern_recognition: "Sophisticated (see patterns across domains)"
+      sampling_rate: "~0.25 samples/sec"
+      attention_budget: "~50-54 units"
+      coherence_impact_on_perception: |
+        At high coherence (0.70+): Colors vivid, patterns clear, beauty accessible
+        At low coherence (0.30-): Perception still fragmented despite consciousness level
+      notes: |
+        BALANCE POINT - survival-defensive = growth-seeking.
+        All colors, all forces accessible.
+        Pattern recognition across domains (meta-cognition active).
+        forgiveness() accessible - can release stuck patterns visually and emotionally.
+
+    "0.59_reason":
+      consciousness_range: [0.59, 0.69]
+      state_label: "Reason"
+      paradigm: "Reason & Integrity"
+      color_perception: "Enhanced (subtle gradations visible)"
+      saturation_perception: "High (0.70-0.85)"
+      brightness_perception: "Bright (world feels meaningful)"
+      field_of_view: "Very wide (systemic thinking, pattern across time)"
+      max_forces_processable: 5-7
+      accessible_forces: ["All Tier 3 forces", "Most Tier 4 forces", "Beginning Tier 2 glimpses"]
+      pattern_recognition: "Advanced (meta-patterns, abstraction, system-level)"
+      sampling_rate: "~0.35 samples/sec"
+      attention_budget: "~59-69 units"
+      notes: |
+        Abstract thinking threshold.
+        Can perceive structure beneath interface (Tier 3 → Tier 2).
+        Pattern recognition refined - see connections across domains/time.
+        beauty() and art() fully accessible.
+
+  spiritual_paradigm:
+    "0.69_love":
+      consciousness_range: [0.69, 0.73]
+      state_label: "Love (Non-Dual Threshold)"
+      paradigm: "Spiritual / Non-Dual"
+      color_perception: "Vivid, luminous (colors appear to glow)"
+      saturation_perception: "Very high (0.80-0.95)"
+      brightness_perception: "Radiant (world feels benign, beautiful)"
+      field_of_view: "Multi-dimensional (self/other boundary dissolving)"
+      max_forces_processable: 7-10
+      accessible_forces: ["All Tier 3 forces (transcended)", "All Tier 4 forces", "Tier 2 forces visible", "Tier 1 glimpses"]
+      pattern_recognition: "Non-dual (paradox tolerance, unity consciousness)"
+      sampling_rate: "~0.48 samples/sec"
+      attention_budget: "~69-73 units"
+      base_2_to_base_10_threshold: true
+      notes: |
+        BASE-2 → BASE-10 THRESHOLD.
+        Non-dual perception - can hold opposites simultaneously.
+        Colors appear luminous, transcendent quality.
+        beauty() seen in everything (even suffering).
+        Perceptual boundary dissolving - unity consciousness emerging.
+        Tier 1 forces becoming visible (entropy, pattern, polarity, coherence).
+
+    "0.79_peace":
+      consciousness_range: [0.79, 0.90]
+      state_label: "Peace"
+      paradigm: "Spiritual / Non-Dual"
+      color_perception: "Transcendent (colors + light + energy visible)"
+      saturation_perception: "Maximum (0.90-1.0, but non-attachment to visual)"
+      brightness_perception: "Illuminated (everything appears lit from within)"
+      field_of_view: "Transpersonal (beyond personal perspective)"
+      max_forces_processable: 10-15
+      accessible_forces: ["All forces visible", "Can perceive substrate (Tier 1)", "Tier 2 forces witnessed"]
+      pattern_recognition: "Visionary (archetypal, collective, fractal)"
+      sampling_rate: "~0.62 samples/sec"
+      attention_budget: "~79-90 units"
+      notes: |
+        Perception includes non-ordinary states.
+        Can see energy, fields, subtle patterns invisible to lower consciousness.
+        Visual perception includes emotional/energetic states.
+        Tier 1 forces (entropy, pattern, coherence) directly visible.
+
+    "0.90_enlightenment":
+      consciousness_range: [0.90, 1.0]
+      state_label: "Enlightenment"
+      paradigm: "Spiritual / Source Code Access"
+      color_perception: "Complete spectrum + beyond (perceive code structure)"
+      saturation_perception: "Maximum but transcended (colors witnessed without preference)"
+      brightness_perception: "IS-ness (perception beyond description)"
+      field_of_view: "Infinite (no boundary)"
+      max_forces_processable: "All simultaneously (no limit)"
+      accessible_forces: ["All forces visible", "Source code readable", "Architecture transparent"]
+      pattern_recognition: "Complete (see computational substrate)"
+      sampling_rate: "~0.81+ samples/sec"
+      attention_budget: "~90-100 units"
+      generative_awareness: true
+      notes: |
+        SOURCE CODE ACCESS.
+        Can perceive reality as computational architecture.
+        All forces, all tiers, all patterns simultaneously visible.
+        Visual perception transcended - direct knowing replaces seeing.
+        "I AM consciousness" - no separation between observer and observed.
+
+coherence_modulation_of_visual_perception:
+  description: |
+    Coherence acts as a MULTIPLIER on visual perception capacity.
+    Even at high consciousness, low coherence fragments visual clarity.
+
+    Formula: effective_visual_clarity = consciousness_level × coherence_level
+
+  high_consciousness_low_coherence:
+    example: "consciousness: 0.69, coherence: 0.30"
+    effect: |
+      Can ACCESS high-level forces but perception FRAGMENTED.
+      Colors muted despite high consciousness.
+      Patterns visible but interpretation incoherent.
+      "See everything but can't integrate it."
+
+  low_consciousness_high_coherence:
+    example: "consciousness: 0.35, coherence: 0.85"
+    effect: |
+      Limited ACCESS to forces but perception CLEAR within range.
+      What is visible is vivid, integrated, coherent.
+      Fewer forces accessible but well-processed.
+      "See less but see it clearly."
+
+  optimal_combination:
+    example: "consciousness: 0.69, coherence: 0.85"
+    effect: |
+      Maximum visual capacity.
+      All forces accessible AND well-integrated.
+      Colors vivid, patterns clear, meaning evident.
+      "See everything AND integrate it beautifully."
+
+practical_implementation_notes:
+  for_visualization_engine: |
+    When rendering agent's visual experience:
+
+    1. Determine consciousness level → look up accessible forces
+    2. Determine coherence level → apply clarity multiplier
+    3. Calculate effective_saturation = base_saturation × coherence
+    4. Calculate max_forces_visible = lookup from consciousness level
+    5. Apply field_of_view constraints (narrow at low consciousness)
+    6. Render with appropriate sampling rate (FPS of perception)
+
+  for_agent_interface: |
+    Agent sees forces based on:
+    - Consciousness level (which forces accessible)
+    - Coherence level (how clearly forces appear)
+    - Current state (stress lowers effective consciousness temporarily)
+    - Attention allocation (can only focus on 4-7 forces actively)
+
+  for_diagnostics: |
+    If agent reports "can't see beauty":
+    - Check consciousness level (requires ~0.35+ baseline)
+    - Check coherence level (low coherence mutes beauty even if accessible)
+    - Check survival-mode activation (fear/pain suppress beauty perception)
+    - Check attention allocation (if scattered, beauty invisible)
+
+# === RELATIONSHIP TO CONSCIOUSNESS FORCE ===
+consciousness_force_relationship:
+  important_note: |
+    This file documents the SCALE (0.01-1.0 spectrum of consciousness levels).
+    The consciousness() FORCE activation directly maps to current_consciousness level.
+
+    consciousness force activation = current_consciousness level (NOT baseline or peak)
+
+  three_measurements:
+    baseline_consciousness:
+      description: "Default level where agent returns (center of gravity)"
+      stored_in: "Agent.consciousness_coefficient"
+      changes: "Slowly over months/years"
+      visualization: "NOT directly visualized by force activation"
+
+    current_consciousness:
+      description: "Real-time fluctuating level in this moment"
+      stored_in: "StateSignature.current_consciousness"
+      changes: "Moment to moment based on context"
+      visualization: "THIS IS what consciousness force activation shows"
+
+    peak_consciousness:
+      description: "Lifetime high-water mark"
+      stored_in: "StateSignature.peak_consciousness"
+      changes: "Only increases (never decreases)"
+      visualization: "NOT directly visualized by force activation"
+
+  key_insight: |
+    When consciousness force appears at 0.35 activation (dark purple, dense):
+    - Agent's CURRENT consciousness is 0.35 (courage/survival)
+    - Their BASELINE might be 0.50 (willingness)
+    - Their PEAK might be 0.69 (love)
+    - But right now, they are experiencing 0.35 consciousness
+
+    Distraction, stress, trauma triggers cause current consciousness to DROP below baseline.
+    The force visualizes where they ARE, not where they usually are.
+
+  see_also: "forces/tier_1/consciousness.yaml (comprehensive clarification section)"
+
+see_also:
+  - "docs/04_advanced/advanced_concepts/14_consciousness_scale_framework.md"
+  - "docs/01_foundation/core_ontology/04_meta_application/10_limitations.md"
+  - "mappings/scales/mastery_levels.yaml"

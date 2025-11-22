@@ -1,0 +1,70 @@
+# Particle Effects
+# Additional visual effects for enhanced representation
+
+particle_effects:
+  principle: |
+    Particle effects ENHANCE primary geometry, not replace it.
+    Used for forces with certain qualities:
+    - Sparkles: Playfulness, luck, magic
+    - Trails: Motion, flow, history
+    - Dust: Age, decay, entropy
+    - Sparks: Creation, energy, war
+    - Glow: Consciousness, love, enlightenment
+
+  forces_with_particles:
+    humor:
+      particle_type: "sparkles"
+      density: "Medium"
+      color: "Gold with rainbow shimmer"
+      behavior: "Float, twinkle, playful"
+    
+    luck:
+      particle_type: "subtle_sparkles"
+      density: "Low"
+      color: "Bright green, barely visible"
+      behavior: "Converge at synchronicity points"
+    
+    creation:
+      particle_type: "emanating_sparks"
+      density: "High during burst"
+      color: "Spring green, bright"
+      behavior: "Explosive outward from center"
+    
+    entropy:
+      particle_type: "decay_dust"
+      density: "Medium"
+      color: "Gray, fading"
+      behavior: "Dissipating, dissolving"
+    
+    war:
+      particle_type: "combat_sparks"
+      density: "High"
+      color: "Red/orange"
+      behavior: "Violent scatter on collision"
+    
+    consciousness:
+      particle_type: "subtle_glow"
+      density: "Low"
+      color: "Lavender, luminous"
+      behavior: "Gentle pulse, ambient"
+    
+    love:
+      particle_type: "warm_glow"
+      density: "Medium"
+      color: "Pink/gold, soft"
+      behavior: "Radiating gently outward"
+    
+    madness:
+      particle_type: "chaotic_fragments"
+      density: "High, erratic"
+      color: "Purple, flickering"
+      behavior: "Random, impossible trajectories"
+
+  coherence_impact:
+    high_coherence: "Particles organized, beautiful"
+    medium_coherence: "Particles present, somewhat ordered"
+    low_coherence: "Particles chaotic or absent"
+
+  activation_dependency:
+    low_activation: "Few or no particles"
+    high_activation: "Maximum particle density"

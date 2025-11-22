@@ -1,0 +1,189 @@
+# Lifestyle Factor: Intimacy Depth
+
+intimacy_depth:
+  # === METADATA ===
+  metadata:
+    category: "social_connections"
+    measurement_type: "subjective"  # Quality of intimate connection
+    update_frequency: "monthly"
+    importance: "critical"  # Deep intimate bonds = core human need
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Intimacy starved - no deep intimate relationships, superficial only"
+      indicators:
+        - "No one knows the real you"
+        - "No relationships where fully vulnerable"
+        - "Keep walls up, perform, hide"
+        - "Intimate relationships distant, shallow, or absent"
+        - "Chronic loneliness even if socially active"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Some intimacy - 1-2 relationships with real depth, growing vulnerability"
+      indicators:
+        - "1-2 people know you deeply"
+        - "Can be vulnerable sometimes"
+        - "Intimacy present but still guarded"
+        - "Growing capacity for deeper connection"
+        - "Occasional deep conversations, mutual sharing"
+
+    high:
+      range: "0.8-1.0"
+      description: "Deep intimacy - rich intimate relationships, comfortable with vulnerability"
+      indicators:
+        - "Multiple people know you authentically"
+        - "Can be fully vulnerable, seen, known"
+        - "Intimate partner relationship (if applicable) deeply satisfying"
+        - "Close friendships with real depth"
+        - "Feel deeply connected, not alone"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    love:
+      low: -0.35    # Hard to feel/give love without intimacy
+      medium: +0.15
+      high: +0.40   # Deep intimacy = love made visible
+      notes: "Intimacy is love's expression - vulnerability creates love"
+
+    coherence:
+      low: -0.30    # Fragmented self when can't be authentic
+      medium: +0.10
+      high: +0.35   # Being fully seen = integration
+      notes: "We become whole through being known - intimacy integrates self"
+
+    fear:
+      low: +0.30    # Walls up = fear dominates
+      medium: -0.10
+      high: -0.35   # Vulnerability faced repeatedly = fear diminishes
+      notes: "Intimacy requires facing fear of being seen - practice reduces fear"
+
+    shame:
+      low: +0.35    # Shame thrives in hiding
+      medium: -0.15
+      high: -0.45   # Shame dissolves when witnessed with love
+      notes: "Shame can't survive being known and loved anyway - intimacy heals shame"
+
+    belonging:
+      low: -0.40    # No intimacy = no true belonging
+      medium: +0.15
+      high: +0.40   # Deep connection = profound belonging
+      notes: "Belong = be + longing - intimacy fulfills longing to be seen"
+
+    authenticity:
+      low: -0.35    # Performing, not being
+      medium: +0.10
+      high: +0.35   # Can be real self
+      notes: "Intimacy allows authenticity - safe to remove masks"
+
+    trust:
+      low: -0.30    # Can't trust if can't be vulnerable
+      medium: +0.10
+      high: +0.35   # Deep trust built through shared vulnerability
+      notes: "Trust built through vulnerability over time - intimacy is trust made visible"
+
+    loneliness:
+      low: +0.45    # Profoundly lonely without intimacy
+      medium: -0.15
+      high: -0.45   # Deep connection dissolves loneliness
+      notes: "Can be surrounded by people and lonely - intimacy is the antidote"
+
+    self_worth:
+      low: -0.30    # Hard to value self if no one knows real you
+      medium: +0.10
+      high: +0.35   # Being loved as you are = proof of worth
+      notes: "Intimacy validates worth - 'I see all of you and love you anyway'"
+
+    courage:
+      low: -0.20    # Takes courage to be vulnerable
+      medium: +0.10
+      high: +0.25   # Intimacy builds courage
+      notes: "Vulnerability is courage - intimacy is courage practice"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "session_to_session"  # Single deep conversation can shift everything
+    chronic_impact: "transformative"  # Long-term intimacy reshapes identity, capacity
+    recovery_time: "Intimacy capacity can be rebuilt but takes time, safe relationships"
+
+    notes: |
+      Intimacy is built slowly, brick by brick.
+      Trust = vulnerability + time + consistency.
+      "Slow is fast" in intimacy - rushing creates false intimacy.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - all_relational_forces: "Intimacy amplifies love, trust, connection, belonging"
+      - healing: "Deep relationships are healing - we heal in connection"
+      - growth: "Intimacy accelerates personal growth (mirror effect)"
+
+    dampens:
+      - shame: "Intimacy is shame's primary antidote"
+      - fear: "Safe vulnerability reduces fear over time"
+      - loneliness: "Deep connection dissolves isolation"
+
+    synergizes_with:
+      - therapy: "Therapeutic relationship teaches intimacy skills"
+      - self_compassion: "Can't give what you don't have - self-intimacy → other-intimacy"
+      - vulnerability: "Vulnerability is gateway to intimacy"
+
+  # === NOTES ===
+  notes: |
+    Intimacy = "into-me-see" - being fully known.
+    Intimacy is not just romantic - friendships, family can be deeply intimate.
+
+    Key insights:
+    - Vulnerability is strength, not weakness
+    - "I see all of you and love you anyway" = deepest intimacy
+    - Shame cannot survive being witnessed with compassion
+    - We heal in relationship - isolation perpetuates wounds
+    - Intimacy requires risk - might be rejected, but worth it
+
+    Types of intimacy:
+    - Emotional (feelings shared)
+    - Intellectual (thoughts, ideas, beliefs)
+    - Physical (touch, sexual connection)
+    - Experiential (shared activities, memories)
+    - Spiritual (values, meaning, transcendence)
+    Full intimacy = all dimensions.
+
+    Intimacy requires:
+    - Safety (won't be judged, betrayed, abandoned)
+    - Vulnerability (willing to be seen)
+    - Reciprocity (mutual sharing, not one-sided)
+    - Time (can't rush, built slowly)
+    - Repair (inevitable ruptures, can be repaired)
+
+    Blocks to intimacy:
+    - Shame ("If you really knew me, you'd leave")
+    - Fear of rejection/abandonment
+    - Past betrayals (trust damaged)
+    - Cultural messages (vulnerability = weakness)
+    - Perfectionism (must be flawless to be loved)
+    All can be healed, but need safe relationships to practice.
+
+    Intimacy paradox:
+    - Want to be known AND fear being known
+    - Long for connection AND build walls
+    - Need intimacy AND fear vulnerability
+    Normal human contradiction - courage to choose connection despite fear.
+
+    Brené Brown: "Vulnerability is the birthplace of love, belonging, joy, courage, empathy, and creativity."
+    All the things we want require vulnerability.
+
+    Gender and intimacy:
+    - Men often starved for emotional intimacy (cultural conditioning)
+    - Women often have richer intimate friendships
+    - Romantic partnerships can't be only source of intimacy (too much pressure)
+    - Men need intimate male friendships (often lacking)
+
+    "To be loved but not known is comforting but superficial.
+    To be known but not loved is our greatest fear.
+    But to be fully known and truly loved - this is a lot like being loved by God.
+    It is what we need more than anything."
+
+    Intimacy is not luxury - it's necessity.
+    We are wired for connection - isolation is trauma.

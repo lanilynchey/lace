@@ -1,0 +1,310 @@
+# Force Mapping: Forgiveness
+
+forgiveness:
+  # === METADATA ===
+  metadata:
+    tier: 3
+    category: "interface"  # Emotional/experiential force
+    dependencies: ["love", "truth", "time"]
+    source_doc: "docs/02_forces/tier_3_forces/06_forgiveness.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#E0BBE4"  # Soft lavender-pink - gentle, releasing, peaceful
+    color_family: "cool"
+    color_range:
+      - "#D8BFD8"  # Thistle (gentle forgiveness)
+      - "#E0BBE4"  # Soft lavender-pink (active forgiveness)
+      - "#F5E6F1"  # Very light lavender (deep forgiveness)
+      - "#FDFBFF"  # Near white with lavender tint (complete release)
+
+    saturation_base: 0.45
+    brightness_base: 0.88
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (beginning to forgive)
+        color: "#D8BFD8"
+        saturation: 0.40
+        brightness: 0.83
+      medium_activation: # 0.4-0.7 (active forgiveness)
+        color: "#E0BBE4"
+        saturation: 0.45
+        brightness: 0.88
+      high_activation:   # 0.8-1.0 (complete release)
+        color: "#FDFBFF"
+        saturation: 0.25
+        brightness: 0.98
+
+    notes: |
+      Lavender-pink represents gentleness, release, peace, softening.
+      Blend of love (pink) and consciousness (lavender) = aware compassion.
+      As forgiveness deepens, becomes lighter, more ethereal.
+      At highest levels, approaches white - complete release, no residue.
+      Soft, gentle colors - forgiveness is not harsh.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "releasing_wave"  # Letting go, dissolving, freeing
+    sacred_geometry_association: "vesica_piscis"  # Overlapping circles - reconciliation
+    complexity_level: "medium"
+    edge_type: "soft"  # Gentle, not forceful
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Small wave beginning to release.
+        Edges softening, not yet fully let go.
+        Process beginning, resistance present.
+      medium_activation: |
+        Clear wave dissolving bonds.
+        Visible release happening.
+        Vesica piscis showing reconciliation.
+      high_activation: |
+        Radiant wave completely releasing all.
+        Chains dissolving, weights lifting.
+        Complete letting go, total freedom.
+        May appear as light dissolving darkness.
+
+    notes: |
+      Releasing wave = letting go, freeing, unbinding.
+      Vesica piscis = two circles overlapping (you + other reconciling).
+      As forgiveness increases, bonds dissolve, weights lift.
+      Not forceful - forgiveness is gentle release.
+      "Letting go" literally - releasing what was held.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "releasing"  # Letting go, unbinding, freeing
+    speed_base: 0.35  # Slow - forgiveness takes time
+
+    speed_modifier:
+      low_intensity: 0.20   # Slow release, beginning process
+      medium_intensity: 0.35  # Active forgiveness
+      high_intensity: 0.55   # Release flowing, but never rushed
+
+    direction: "outward_releasing"  # Letting go, freeing
+    rhythm: "wave_like"  # Comes in waves, gradual
+
+    healthy_pattern:
+      description: "Conscious release - forgiving for own freedom, not condoning harm"
+      characteristics:
+        - "Releases resentment for own peace"
+        - "Sees humanity in others (and self)"
+        - "Doesn't require reconciliation to forgive"
+        - "Forgiveness is gift to self"
+
+    stuck_pattern:
+      description: "Forced forgiveness or resentment - either premature or unable to release"
+      characteristics:
+        - "Forced 'forgiveness' that's really denial"
+        - "'I should forgive' without actually releasing"
+        - "Or: chronic resentment, can't let go"
+        - "Forgiveness as obligation, not liberation"
+
+    notes: |
+      Releasing motion = letting go, unbinding, freeing.
+      Wave-like rhythm = forgiveness comes in waves, gradual process.
+      Healthy: forgiveness as liberation for self, not condoning harm.
+      Stuck: either forced/premature or unable to release.
+      "Forgiveness is not for them, it's for you."
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.70  # Moderately vibrant (forgiveness is freeing)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.20"  # High coherence enables deep forgiveness
+        description: "Complete release, total freedom, no residue"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal forgiveness process"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.25"  # Low coherence makes forgiveness fragile
+        description: "Forced forgiveness or chronic resentment"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.30)"
+      multiplier: 0.30
+
+    interaction_modifier:
+      synergistic: "+0.20 to +0.30"  # With love, coherence, consciousness
+      antagonistic: "-0.15 to -0.25"  # Resisted by judgment, pain, fear
+      neutral: "0.0"
+
+    notes: |
+      Forgiveness is freeing - releases burden, creates lightness.
+      At high coherence, forgiveness is complete - total release.
+      At low coherence, either forced (premature) or blocked (resentment).
+      Forgiveness requires strength (coherence + consciousness).
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "soft"
+    opacity_range:
+      min: 0.50  # Somewhat translucent (forgiveness is light)
+      max: 0.75  # Can be present but never heavy
+
+    particle_effects: true
+    particle_type: "dissolving_chains"  # Bonds breaking, weights lifting
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: 396  # Solfeggio frequency for "liberation from fear and guilt"
+      tone_description: "Gentle, releasing, like wind chimes or soft bells - freeing"
+      musical_note: "G"
+
+    emotional_tone: "releasing, gentle, freeing, peaceful, lightening"
+
+    consciousness_association: null  # Forgiveness possible at various levels
+
+    notes: |
+      Soft texture = forgiveness is gentle, not harsh.
+      Dissolving chains = karmic bonds releasing, weights lifting.
+      Wind chimes = gentle, peaceful, freeing sound.
+      396 Hz = liberation (forgiveness frees from guilt/resentment).
+      Never heavy - forgiveness creates lightness.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "love"  # Love enables forgiveness
+      - "coherence"  # Coherence enables release
+      - "consciousness"  # Awareness allows forgiveness
+      - "truth"  # Truth shows what actually happened
+
+    antagonistic_with:
+      - "judgment"  # Judgment resists forgiveness
+      - "pain"  # Pain makes forgiveness difficult
+      - "fear"  # Fear holds onto resentment
+
+    neutralizes:
+      - "karma"  # Forgiveness releases karmic bonds
+      - "resentment"  # Forgiveness dissolves resentment
+
+    amplified_by:
+      - "love"  # Love deepens forgiveness
+      - "coherence"  # Alignment enables release
+      - "consciousness"  # Awareness clarifies forgiveness
+
+    visual_blending_rules:
+      when_combined_with_love:
+        force: "love"
+        color_effect: "blend"  # Lavender-pink + pink = deep compassion
+        shape_effect: "merge"  # Both radiate, release
+        motion_effect: "synchronized"  # Love enables forgiveness
+        result_description: |
+          Love enables deep forgiveness.
+          Soft lavender-pink merging with pink radiance.
+          Compassionate release - seeing humanity, letting go.
+          "Forgive them, for they know not what they do."
+          Love sees beyond harm to wounded being.
+        coherence_dependent: false
+
+      when_combined_with_karma:
+        force: "karma"
+        color_effect: "transforming"  # Lavender-pink dissolves brown
+        shape_effect: "releasing"  # Chains dissolve
+        motion_effect: "freeing"  # Karmic bonds release
+        result_description: |
+          Forgiveness releases karmic chains.
+          Soft lavender-pink wave dissolving brown chains.
+          "The lesson was learned, the debt is released."
+          Forgiveness doesn't erase karma - it transforms it.
+          From binding to wisdom, from chain to freedom.
+        coherence_dependent: false
+
+      when_combined_with_pain:
+        force: "pain"
+        color_effect: "soothing"  # Lavender-pink softens dark red
+        shape_effect: "nested"  # Pain held within forgiveness
+        motion_effect: "gentle"  # Forgiveness doesn't erase pain but releases resentment
+        result_description: |
+          Forgiveness holds pain gently while releasing resentment.
+          Dark red jagged shards within soft lavender-pink sphere.
+          At high coherence: pain acknowledged, resentment released.
+          At low coherence: pain used to justify holding on.
+          "It happened, it hurt, and I release my grip on revenge."
+        coherence_dependent: true
+
+      when_combined_with_judgment:
+        force: "judgment"
+        color_effect: "softening"  # Lavender-pink softens judgment's harshness
+        shape_effect: "transforming"  # Sharp edges soften
+        motion_effect: "releasing"  # Judgment releases into understanding
+        result_description: |
+          Forgiveness transforms judgment to understanding.
+          Soft lavender-pink wave softening judgment's sharp edges.
+          From condemnation to compassion.
+          "I see why you did what you did, and I release you."
+          Judgment → Understanding → Forgiveness.
+        coherence_dependent: false
+
+      when_combined_with_fear:
+        force: "fear"
+        color_effect: "soothing"  # Lavender-pink soothes dark contraction
+        shape_effect: "releasing"  # Defensive spikes retract
+        motion_effect: "calming"  # Forgiveness releases fear
+        result_description: |
+          Forgiveness releases fear of being hurt again.
+          Soft lavender-pink wave around dark spiky form.
+          Spikes retract - no longer need defense.
+          "You can't hurt me anymore, I release you."
+          Forgiveness as protection - letting go protects peace.
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Lavender-pink + gold = integrated release
+        shape_effect: "nested"  # Forgiveness within alignment
+        motion_effect: "harmonized"  # Complete, integrated release
+        result_description: |
+          Coherence enables complete forgiveness.
+          Soft lavender-pink wave within golden sphere.
+          Total release, no residue, complete freedom.
+          This is "radical forgiveness" - total letting go.
+          From wholeness, can release without losing self.
+        coherence_dependent: false
+
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Lavender-pink + lavender = conscious release
+        shape_effect: "nested"  # Forgiveness within awareness
+        motion_effect: "witnessed"  # Conscious forgiveness
+        result_description: |
+          Consciousness allows seeing clearly to forgive.
+          Soft lavender-pink within lavender sphere.
+          "I see what happened, I see the humanity, I choose to release."
+          Forgiveness is conscious choice, not forced.
+        coherence_dependent: false
+
+    notes: |
+      Forgiveness is liberation - primarily for self, not other.
+      "Holding resentment is like drinking poison and expecting the other person to die."
+      Forgiveness + Love = compassionate release (seeing humanity).
+      Forgiveness + Karma = karmic chains dissolve (lesson learned, debt released).
+      Forgiveness + Pain = pain acknowledged, resentment released.
+      Forgiveness + Judgment = condemnation transforms to understanding.
+      Forgiveness + Fear = defense no longer needed.
+      Forgiveness + Coherence = radical forgiveness (complete release).
+      Forgiveness + Consciousness = conscious choice to release.
+      At high coherence: forgiveness complete, no residue.
+      At low coherence: forced/premature or blocked/resentful.
+      Key insight: Forgiveness is for YOU, not for them.
+      Key insight: Forgiveness ≠ condoning harm or reconciliation required.
+
+# IMPLEMENTATION NOTES:
+# - Forgiveness is Tier 3 "interface" force - experiential/emotional
+# - Forgiveness is gift to self - releases burden of resentment
+# - Forgiveness ≠ condoning harm (can forgive and still have boundaries)
+# - Forgiveness ≠ reconciliation required (can forgive from distance)
+# - Healthy forgiveness: conscious release for own freedom
+# - Stuck forgiveness: forced/premature or blocked/resentful
+# - Visual should feel soft, releasing, gentle, lightening
+# - Lavender-pink = blend of love and consciousness (compassionate awareness)
+# - At high coherence: complete release, total freedom
+# - At low coherence: either forced or blocked
+# - Key insight: "Resentment is drinking poison expecting other to die"
+# - Key insight: Forgiveness releases karmic chains (transforms to wisdom)
+# - Key insight: Can forgive and still acknowledge harm (both/and)
+# - "Forgive them, for they know not what they do" - seeing humanity

@@ -1,0 +1,192 @@
+# Lifestyle Factor: Meal Timing (Circadian Eating)
+
+meal_timing:
+  # === METADATA ===
+  metadata:
+    category: "food_nutrition"
+    measurement_type: "objective"  # Eating window measurable
+    update_frequency: "daily"
+    importance: "high"  # When you eat affects how food is metabolized
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Poor timing - constant grazing, late-night eating, no eating rhythm"
+      indicators:
+        - "Eating throughout day and night (16+ hour window)"
+        - "Late-night meals, snacks before bed"
+        - "No consistent meal times"
+        - "Breakfast late or skipped entirely"
+        - "Constant access to food, frequent snacking"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Moderate timing - somewhat regular meals, 12-14 hour eating window"
+      indicators:
+        - "12-14 hour eating window"
+        - "Mostly regular meal times"
+        - "Occasional late eating"
+        - "Some overnight fasting"
+        - "3 meals + snacks, somewhat structured"
+
+    high:
+      range: "0.8-1.0"
+      description: "Circadian aligned - 8-12 hour eating window, aligned with daylight, overnight fast"
+      indicators:
+        - "8-12 hour eating window (time-restricted eating)"
+        - "Eating during daylight hours primarily"
+        - "12+ hour overnight fast"
+        - "Early dinner (before 7pm ideally)"
+        - "Breakfast within 2 hours of waking"
+        - "Aligned with circadian rhythm"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    metabolic_health:
+      low: -0.35    # Constant eating = metabolic dysfunction
+      medium: 0.0
+      high: +0.30   # Time-restricted eating = metabolic optimization
+      notes: "Insulin resistance from constant eating - body needs fasting periods"
+
+    autophagy:
+      low: -0.30    # No cellular cleanup without fasting
+      medium: +0.05
+      high: +0.30   # Extended fasting triggers autophagy (cellular recycling)
+      notes: "Autophagy = cellular cleanup, only happens during fasting - anti-aging mechanism"
+
+    sleep_quality:
+      low: -0.30    # Late eating disrupts sleep
+      medium: -0.05
+      high: +0.20   # Early dinner = better sleep
+      notes: "Digestion during sleep = poor sleep quality; 3+ hour gap before bed ideal"
+
+    energy_stability:
+      low: -0.25    # Constant eating = blood sugar roller coaster
+      medium: 0.0
+      high: +0.25   # Consistent meal timing = stable energy
+      notes: "Meal timing regularity trains body when to expect food - stable energy"
+
+    circadian_rhythm:
+      low: -0.25    # Eating at night = circadian disruption
+      medium: 0.0
+      high: +0.25   # Aligned eating supports circadian rhythm
+      notes: "Eating is circadian zeitgeber (time cue) - timing affects all body clocks"
+
+    inflammation:
+      low: +0.25    # Constant eating = chronic inflammation
+      medium: 0.0
+      high: -0.20   # Fasting periods = anti-inflammatory
+      notes: "Fasting triggers anti-inflammatory pathways - constant eating prevents this"
+
+    weight_regulation:
+      low: -0.25    # Constant eating = weight gain
+      medium: 0.0
+      high: +0.20   # Time restriction = easier weight management
+      notes: "Not just what you eat, but when - late eating = more fat storage"
+
+    hunger_regulation:
+      low: -0.20    # Constant eating = dysregulated hunger hormones
+      medium: 0.0
+      high: +0.20   # Consistent timing = hunger predictable
+      notes: "Ghrelin (hunger) and leptin (satiety) regulated by meal timing consistency"
+
+    digestion:
+      low: -0.20    # Constant digestion = system never rests
+      medium: 0.0
+      high: +0.20   # Digestive rest periods = system repair
+      notes: "Gut needs rest - constant eating = no time for repair, cleanup"
+
+    longevity:
+      low: -0.20    # Constant eating = accelerated aging
+      medium: 0.0
+      high: +0.25   # Fasting periods = longevity pathways activated
+      notes: "Caloric restriction mimicry - fasting activates longevity genes without reducing calories"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "days"  # Feel effects within days of changing timing
+    chronic_impact: "significant"  # Long-term metabolic health affected
+    recovery_time: "Weeks to restore metabolic flexibility"
+
+    notes: |
+      Time-restricted eating (TRE) = eating within 8-12 hour window.
+      Intermittent fasting (IF) = various fasting protocols.
+      Both powerful tools, but timing consistency also matters.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - sleep_quality: "Early dinner = better sleep"
+      - autophagy: "Fasting triggers cellular cleanup"
+      - metabolic_health: "Consistent timing = metabolic optimization"
+
+    dampens:
+      - insulin_resistance: "Fasting periods improve insulin sensitivity"
+      - inflammation: "Fasting is anti-inflammatory"
+      - digestive_issues: "Digestive rest allows repair"
+
+    synergizes_with:
+      - diet_quality: "Timing + quality = optimal nutrition"
+      - circadian_rhythm: "Aligned eating reinforces rhythm"
+      - exercise: "Fasted exercise = metabolic benefits (if tolerated)"
+
+  # === NOTES ===
+  notes: |
+    When you eat affects metabolic response to food.
+    Same meal eaten morning vs night = different effects.
+
+    Key insights:
+    - Circadian rhythm affects metabolism - eat when insulin sensitive (morning/day)
+    - Late eating = more fat storage, less fat burning
+    - Overnight fast (12-16 hours) = metabolic magic
+    - Breakfast = "break fast" - ends overnight fast
+    - Skipping breakfast less problematic than late-night eating
+    - Consistency matters - body learns when to expect food
+
+    Time-restricted eating (TRE):
+    - 16:8 (16 hours fasting, 8 hours eating) most common
+    - 14:10, 12:12 also beneficial (easier to maintain)
+    - Eating window aligned with daylight ideal
+    - Example: 10am-6pm eating window
+    - Not about eating less, about eating in narrower window
+
+    Benefits of overnight fasting (12+ hours):
+    - Autophagy (cellular cleanup)
+    - Fat burning (metabolic switch)
+    - Growth hormone release
+    - Insulin sensitivity improvement
+    - Inflammation reduction
+    - Better sleep (no digestion during sleep)
+
+    Circadian eating principles:
+    - Eat when sun is up (daylight hours)
+    - Larger meals earlier (breakfast/lunch > dinner)
+    - Early dinner (before 7pm if possible, 3+ hours before bed)
+    - Consistent meal times (body learns rhythm)
+    - Avoid late-night eating/snacking
+
+    Late-night eating problems:
+    - Disrupts sleep (active digestion)
+    - Wrong time for metabolism (insulin resistance at night)
+    - Circadian misalignment (eating signals day to body clocks)
+    - Increased fat storage
+    - Poor digestion (digestive function lower at night)
+
+    Who should be careful:
+    - Pregnant/nursing
+    - Children/teens (growing)
+    - Eating disorder history
+    - Certain medical conditions
+    - Taking medications with food requirements
+    Consult healthcare provider.
+
+    Meal timing vs calorie restriction:
+    - TRE = when you eat (not necessarily eating less)
+    - Benefits independent of calorie reduction
+    - Many find naturally eat less in narrow window (satiety signals work better)
+    - But can maintain same calories in shorter window if desired
+
+    "Eat breakfast like a king, lunch like a prince, dinner like a pauper" - old wisdom, modern science confirms.
+
+    Your body expects food when sun is up - align eating with light-dark cycle for optimal health.

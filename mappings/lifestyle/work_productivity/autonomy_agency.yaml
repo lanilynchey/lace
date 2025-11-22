@@ -1,0 +1,204 @@
+# Lifestyle Factor: Autonomy & Agency
+
+autonomy_agency:
+  # === METADATA ===
+  metadata:
+    category: "work_productivity"
+    measurement_type: "subjective"  # Felt sense of control, choice, self-direction
+    update_frequency: "monthly"
+    importance: "critical"  # Autonomy is fundamental psychological need
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "No autonomy - micromanaged, controlled, no choice in how work is done"
+      indicators:
+        - "Every detail prescribed, controlled"
+        - "No input into decisions affecting you"
+        - "Constant surveillance, micromanagement"
+        - "Feel like cog in machine, replaceable"
+        - "No control over schedule, methods, priorities"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Some autonomy - some choice in methods, occasional input, partial control"
+      indicators:
+        - "Some freedom in how to do work"
+        - "Occasional input into decisions"
+        - "Mix of prescribed and flexible"
+        - "Some control over schedule, methods"
+        - "Feel somewhat valued for judgment"
+
+    high:
+      range: "0.8-1.0"
+      description: "High autonomy - self-directed, trusted, significant control over work"
+      indicators:
+        - "Significant freedom in approach, methods"
+        - "Trusted to make decisions"
+        - "Control over schedule, priorities, methods"
+        - "Valued for expertise, judgment"
+        - "Feel like agent, not object"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    meaning:
+      low: -0.40    # No autonomy = meaninglessness
+      medium: +0.10
+      high: +0.40   # Autonomy essential for meaning
+      notes: "Can't find meaning in work you don't control - agency required for purpose"
+
+    motivation:
+      low: -0.40    # No autonomy = no intrinsic motivation
+      medium: +0.10
+      high: +0.40   # Autonomy = primary motivator (self-determination theory)
+      notes: "Intrinsic motivation requires autonomy - can't be motivated by someone else's choices"
+
+    creativity:
+      low: -0.35    # No autonomy = no creativity
+      medium: +0.10
+      high: +0.35   # Autonomy enables creativity
+      notes: "Creativity requires freedom to experiment, try, fail - can't be prescribed"
+
+    engagement:
+      low: -0.40    # Disengagement inevitable without autonomy
+      medium: +0.10
+      high: +0.35   # Autonomy = engagement
+      notes: "Can't be engaged in what you don't control - agency required"
+
+    mastery:
+      low: -0.30    # Can't develop mastery without autonomy
+      medium: +0.10
+      high: +0.30   # Autonomy allows skill development
+      notes: "Mastery requires ability to stretch, challenge self - autonomy needed"
+
+    stress:
+      low: +0.40    # No control = maximum stress (learned helplessness)
+      medium: -0.05
+      high: -0.30   # Control reduces stress
+      notes: "Control is key to stress - same demands with control = manageable; without = overwhelming"
+
+    burnout:
+      low: +0.45    # No autonomy = burnout fast track
+      medium: +0.05
+      high: -0.30   # Autonomy prevents burnout
+      notes: "Autonomy is burnout's primary antidote - without it, burnout inevitable"
+
+    self_worth:
+      low: -0.35    # Treated as object = worthlessness
+      medium: +0.05
+      high: +0.30   # Trusted as agent = worth confirmed
+      notes: "Being treated as competent agent = worth confirmed; as object to control = diminished"
+
+    resentment:
+      low: +0.40    # Powerlessness breeds resentment
+      medium: 0.0
+      high: -0.20   # Autonomy allows ownership, reduces resentment
+      notes: "Can't resent what you chose - resentment comes from powerlessness"
+
+    learned_helplessness:
+      low: +0.45    # No control = learned helplessness develops
+      medium: 0.0
+      high: -0.30   # Autonomy prevents/reverses helplessness
+      notes: "Chronic lack of control = learned helplessness - giving up trying"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Single experience of powerlessness is demoralizing
+    chronic_impact: "severe"  # Chronic lack of autonomy = depression, helplessness, health problems
+    recovery_time: "Months to recover from chronic learned helplessness"
+
+    notes: |
+      Control is fundamental need - lack of it is psychologically toxic.
+      Learned helplessness from chronic powerlessness can become depression.
+      Recovery requires experiencing agency again - evidence that actions matter.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - all_positive_work_factors: "Autonomy makes everything better"
+      - intrinsic_motivation: "Autonomy = primary intrinsic motivator"
+      - engagement: "Can't be engaged without agency"
+
+    dampens:
+      - burnout: "Autonomy is burnout's antidote"
+      - stress: "Control reduces perceived stress"
+      - resentment: "Choice prevents resentment"
+
+    synergizes_with:
+      - mastery: "Autonomy + mastery + purpose = motivation (Daniel Pink)"
+      - meaning: "Autonomy enables meaning-making"
+      - trust: "Autonomy requires trust, builds trust"
+
+  # === NOTES ===
+  notes: |
+    Autonomy is fundamental psychological need (self-determination theory).
+    Control over environment is evolutionary advantage - we're wired to seek it.
+
+    Key insights:
+    - Autonomy ≠ independence (can have autonomy within interdependence)
+    - Autonomy = self-direction, not isolation
+    - Control over process > control over outcome
+    - Participation in decisions affecting you = minimum autonomy
+    - Micromanagement is psychological violence (extreme but true)
+
+    Self-Determination Theory (Deci & Ryan):
+    Three basic psychological needs:
+    1. Autonomy (self-direction, choice)
+    2. Competence (mastery, effectiveness)
+    3. Relatedness (connection, belonging)
+    All three needed for wellbeing.
+
+    Control and stress:
+    - Same stressor + control = manageable
+    - Same stressor - control = overwhelming
+    - Control is stress buffer
+    - "Demand-control model" - high demand + low control = burnout
+    - High demand + high control = engaged challenge
+
+    Autonomy supportive vs controlling:
+    - Supportive: "How do you want to approach this?"
+    - Controlling: "Do it exactly this way"
+    - Supportive: "What do you think?"
+    - Controlling: "Just do what I say"
+    - Supportive: Trust + guidance
+    - Controlling: Surveillance + prescription
+
+    Learned helplessness (Seligman):
+    - Chronic powerlessness → giving up trying
+    - "Nothing I do matters" belief
+    - Generalizes beyond original context
+    - Looks like depression (essentially is)
+    - Reversible with repeated experiences of agency
+
+    Workplace autonomy indicators:
+    - Can choose methods (how to do work)
+    - Can influence decisions (voice matters)
+    - Can manage time/schedule
+    - Trusted to self-direct
+    - Measured by outcomes, not compliance
+    - Treated as professional, not child
+
+    Autonomy paradox:
+    - Infinite choice = paralyzing
+    - No choice = demoralizing
+    - Sweet spot = meaningful choice within structure
+    - "Bounded autonomy" - freedom within framework
+
+    Cultural differences:
+    - Western culture = high autonomy emphasis
+    - Eastern cultures = harmony, interdependence valued
+    - But autonomy still need cross-culturally (expression varies)
+
+    Parenting parallel:
+    - Authoritarian (no autonomy) = rebellion or learned helplessness
+    - Permissive (too much autonomy, no structure) = anxiety
+    - Authoritative (autonomy with structure) = optimal
+
+    "You can lead a horse to water, but you can't make it drink."
+    Can't make people do anything - they have to choose.
+    Wise leadership creates conditions where people choose well.
+
+    Low autonomy jobs = depression, illness, mortality risk.
+    Not just unpleasant - literally deadly.
+    Control over work = control over life.

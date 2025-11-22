@@ -1,7 +1,7 @@
 # Advanced Concepts
 ### Deep Mechanics, Persistent Patterns, Grace Protocol, and Philosophical Context
 
-**Last Updated:** November 2025
+**Last Updated:** November 21, 2025
 **Status:** Advanced Reference Document
 
 ---
@@ -361,8 +361,11 @@ This document collection contains advanced LACE concepts that operate at the sou
 
 **[14_consciousness_scale_framework.md](14_consciousness_scale_framework.md)**
 - Consciousness scale from 0.01 to 1.0 (logarithmic)
-- Critical thresholds: 0.35 (awareness), 0.50 (choice), 0.69 (mastery), 0.90 (transcendence)
-- Level characteristics and capabilities
+- **Extreme human states (0.01-0.20):** Coma, psychosis, severe dissociation, dying process
+- **Standard human range (0.20-1.0):** Shame through Enlightenment
+- Critical thresholds: 0.35 (courage/agency), 0.50 (willingness/balance), 0.69 (love/non-dual), 0.90 (enlightenment/source code)
+- Force calculation behavior at extreme low consciousness (division by zero handling, formula constraints)
+- Level characteristics, force accessibility, and recovery pathways
 - Consciousness as bandwidth expansion and resolution increase
 
 ---

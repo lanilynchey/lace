@@ -1,0 +1,360 @@
+# Lifestyle Factor: Purpose & Work Alignment
+
+purpose_work_alignment:
+  # === METADATA ===
+  metadata:
+    category: "work_productivity"
+    measurement_type: "subjective"  # Felt sense of meaning, alignment with values
+    update_frequency: "monthly"
+    importance: "critical"  # Work takes 1/3+ of waking life - must be meaningful
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "No alignment - meaningless work, value conflict, soul-crushing"
+      indicators:
+        - "Work feels meaningless, pointless"
+        - "Values compromised regularly"
+        - "No connection to larger purpose"
+        - "Just a paycheck (nothing else)"
+        - "Dread Mondays, count down to retirement"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Some alignment - parts meaningful, some purpose, mixed feelings"
+      indicators:
+        - "Some aspects of work meaningful"
+        - "Occasional sense of purpose"
+        - "Values mostly respected (some compromise)"
+        - "Mix of meaning and meaninglessness"
+        - "Work okay, but not calling"
+
+    high:
+      range: "0.8-1.0"
+      description: "Strong alignment - meaningful work, purpose clear, values honored"
+      indicators:
+        - "Work feels deeply meaningful"
+        - "Clear sense of purpose (why this matters)"
+        - "Values honored, integrity intact"
+        - "Contribution to something larger than self"
+        - "Work as calling, not just job"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    meaning:
+      low: -0.50    # Meaningless work = life meaningless (1/3+ of time)
+      medium: +0.05
+      high: +0.45   # Meaningful work = life meaningful
+      notes: "Work is 1/3+ of waking life - must be meaningful or life feels meaningless"
+
+    life_satisfaction:
+      low: -0.40    # Misaligned work = dissatisfaction pervades life
+      medium: 0.0
+      high: +0.35   # Aligned work = deep satisfaction
+      notes: "Can't be happy in life while miserable in work - too much time there"
+
+    burnout:
+      low: +0.50    # Meaningless work = burnout fast track
+      medium: +0.10
+      high: -0.35   # Meaningful work = burnout resistant
+      notes: "Meaning is burnout's primary antidote - purpose provides resilience"
+
+    motivation:
+      low: -0.45    # No meaning = no intrinsic motivation
+      medium: +0.05
+      high: +0.40   # Purpose = powerful motivator
+      notes: "Extrinsic motivation alone unsustainable - need intrinsic (purpose provides)"
+
+    engagement:
+      low: -0.40    # Meaningless = disengagement inevitable
+      medium: +0.05
+      high: +0.35   # Purpose = deep engagement
+      notes: "Can't stay engaged in meaningless work - soul refuses"
+
+    vitality:
+      low: -0.40    # Soul-crushing work = vitality drained
+      medium: 0.0
+      high: +0.35   # Purposeful work = energizing
+      notes: "Meaningful work gives energy; meaningless work drains it"
+
+    self_worth:
+      low: -0.35    # Meaningless work = feel worthless
+      medium: 0.0
+      high: +0.30   # Meaningful contribution = worth confirmed
+      notes: "Work that matters = you matter; work that doesn't = you don't"
+
+    integrity:
+      low: -0.40    # Values compromised = integrity eroded
+      medium: -0.05
+      high: +0.30   # Values honored = integrity intact
+      notes: "Compromising values for paycheck = slow death of self"
+
+    depression:
+      low: +0.40    # Meaninglessness = depression trajectory
+      medium: +0.05
+      high: -0.25   # Purpose = depression protective
+      notes: "Meaningless work is depressogenic - soul knows waste of life"
+
+    resentment:
+      low: +0.40    # Giving life to meaningless = profound resentment
+      medium: +0.05
+      high: -0.20   # Aligned work = gratitude
+      notes: "Resentment inevitable when trading life for meaninglessness"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Single day of meaningful work feels different
+    chronic_impact: "life_defining"  # Career alignment shapes entire life trajectory
+    recovery_time: "Months to years to change career; meaning reframe can be immediate"
+
+    notes: |
+      Work is too much of life to be meaningless.
+      Single day in purpose vs out = different experience of day.
+      Years in aligned work vs misaligned = completely different life.
+      Can find meaning in current work (reframe) OR change work entirely.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - meaning: "Work meaning = life meaning (1/3 of waking hours)"
+      - engagement: "Purpose = deep engagement"
+      - vitality: "Meaningful work energizes"
+
+    dampens:
+      - burnout: "Purpose is burnout's primary antidote"
+      - depression: "Meaning protects against depression"
+      - resentment: "Alignment prevents resentment"
+
+    synergizes_with:
+      - autonomy: "Purpose + autonomy + mastery = motivation (Daniel Pink)"
+      - mastery: "Meaningful work worth mastering"
+      - values_clarity: "Know values → seek alignment"
+
+  # === NOTES ===
+  notes: |
+    Work takes 1/3+ of waking life (90,000 hours over lifetime).
+    Too much time to spend in meaninglessness.
+    Your soul knows this.
+
+    Key insights:
+    - Meaning is primary burnout antidote (not work-life balance alone)
+    - Can't be happy in life while miserable at work (too much time there)
+    - Values compromise = integrity erosion = slow self-destruction
+    - "Just a paycheck" works short-term, destroys long-term
+    - Meaningful work energizes; meaningless work drains
+    - Purpose > pay (beyond basic needs met)
+
+    Job vs Career vs Calling (Amy Wrzesniewski):
+
+    **Job:**
+    - Work for money only
+    - No meaning beyond paycheck
+    - Count down to weekend, retirement
+    - Disengaged, resentful
+
+    **Career:**
+    - Work for advancement, achievement
+    - Meaning from success, status
+    - Engaged, ambitious
+    - But still extrinsic (external validation)
+
+    **Calling:**
+    - Work for purpose, contribution
+    - Meaning from work itself
+    - Intrinsically motivated
+    - Would do even if not paid (though need to be paid)
+
+    Research: Same job can be experienced as job, career, or calling.
+    Difference = mindset, meaning-making, not job itself.
+
+    (But some jobs easier to find meaning in than others - not just mindset.)
+
+    Finding meaning in work:
+
+    **Contribution to others:**
+    - Who benefits from your work?
+    - How does it help people?
+    - Even indirect (supporting those who directly help)
+
+    **Excellence, craft:**
+    - Meaning from doing work well
+    - Mastery as purpose
+    - Pride in quality
+
+    **Connection, team:**
+    - Meaning from relationships at work
+    - Shared mission
+    - Belonging to community
+
+    **Learning, growth:**
+    - Work as development opportunity
+    - Becoming more capable
+    - Stretching, expanding
+
+    **Values expression:**
+    - Work allows you to live values
+    - Integrity between beliefs and actions
+    - Authentic self-expression
+
+    When work lacks meaning:
+
+    **Two paths:**
+
+    **1. Find meaning in current work (reframe):**
+    - Connect to larger purpose (how does this help?)
+    - Find craft, excellence opportunity
+    - Build relationships, community
+    - Extract learning, growth
+    - Temporary (consciously chosen, not stuck)
+
+    **2. Change work (realign):**
+    - Assess: values, strengths, interests
+    - Explore: what work aligns?
+    - Plan: financial runway, transition
+    - Act: take steps toward aligned work
+    - Patience: may take time, but heading toward alignment
+
+    Questions to assess alignment:
+
+    **Purpose:**
+    - "Why does this work matter?"
+    - "Who benefits? How?"
+    - "What larger mission does this serve?"
+    - Can you answer? Do you believe answer?
+
+    **Values:**
+    - "Does this work honor my values?"
+    - "What compromises am I making?"
+    - "Can I be authentic here?"
+    - "Is my integrity intact?"
+
+    **Impact:**
+    - "Am I making difference I want to make?"
+    - "Is this the contribution I want to offer?"
+    - "Does the world need this?"
+
+    **Engagement:**
+    - "Do I feel engaged, alive doing this?"
+    - "Time fly or drag?"
+    - "Energized or drained?"
+
+    **Future:**
+    - "Can I do this for years to come?"
+    - "Am I growing or stagnating?"
+    - "Is this building toward something?"
+
+    If answers are "no", "don't know", or "stuck" - misalignment exists.
+
+    Daniel Pink's Drive (intrinsic motivation):
+
+    Three elements:
+    1. **Autonomy** - Self-direction, choice
+    2. **Mastery** - Getting better at something that matters
+    3. **Purpose** - Contributing to something larger than self
+
+    All three needed for sustained motivation.
+    Money motivates only to point of basic needs met.
+    Beyond that, intrinsic motivation required.
+    Purpose is foundation.
+
+    Viktor Frankl (logotherapy):
+    - Meaning is primary human need
+    - Survive anything with "why"
+    - Meaninglessness is suffering
+    - Work is primary meaning source for many
+
+    "He who has a why to live can bear almost any how."
+
+    Bullshit Jobs (David Graeber):
+    - Many jobs are meaningless (workers know it)
+    - "Jobs that even workers feel shouldn't exist"
+    - Profound psychological toll (depression, shame, rage)
+    - Soul knows when wasting life
+    - Can't gaslight self indefinitely
+
+    Meaningful work characteristics:
+
+    **Helps others:**
+    - Directly or indirectly
+    - Contribution to wellbeing, progress
+    - Service orientation
+
+    **Aligns with values:**
+    - Integrity between beliefs and work
+    - Authentic expression
+    - No soul compromise
+
+    **Uses strengths:**
+    - What you're good at
+    - Natural talents, developed skills
+    - Competence + contribution
+
+    **Allows growth:**
+    - Stretching, learning
+    - Mastery development
+    - Not static
+
+    **Provides autonomy:**
+    - Self-direction
+    - Trusted, respected
+    - Agency, not object
+
+    All five = ideal.
+    Three+ = sufficient.
+    One or none = problem.
+
+    Career change considerations:
+
+    **Financial:**
+    - Save 6-12 months expenses (runway)
+    - Reduce overhead if possible
+    - Consider gradual transition
+    - Purpose > pay, but need to survive
+
+    **Identity:**
+    - Career is often identity
+    - Letting go = loss, grieving
+    - Who am I without this?
+    - Growth through transition
+
+    **Practical:**
+    - Transferable skills (you have more than you think)
+    - Network (connections matter)
+    - Explore before jumping (informational interviews, side projects)
+    - Patience (good transitions take time)
+
+    **Psychological:**
+    - Fear of change (normal)
+    - Sunk cost fallacy (years invested - but future more important than past)
+    - Others' opinions (your life, not theirs)
+    - Permission (you're allowed to change)
+
+    Red flags (get out):
+    - Consistent values compromise (integrity erosion)
+    - No meaning found despite effort
+    - Physical/mental health deteriorating
+    - Resentment, depression deepening
+    - Counting down years to retirement (wasting life)
+
+    You are trading your finite life for this work.
+    Your life is the cost.
+    Is this work worth your life?
+
+    That's the question.
+    Answer honestly.
+    Act accordingly.
+
+    "The two most important days in your life are the day you are born and the day you find out why." - Mark Twain
+
+    "Don't ask what the world needs. Ask what makes you come alive, and go do it. Because what the world needs is people who have come alive." - Howard Thurman
+
+    Life is too short for meaningless work.
+    You don't get these years back.
+    Find work that matters.
+    Or find the meaning in the work you have.
+    But don't spend your one life in meaninglessness.
+
+    Your soul won't forgive you.
+    (And it shouldn't.)
+

@@ -1,0 +1,386 @@
+# Force Mapping: Coherence
+
+coherence:
+  # === METADATA ===
+  metadata:
+    tier: 1
+    category: "primordial"
+    dependencies: ["pattern", "consciousness"]
+    source_doc: "docs/02_forces/tier_1_forces/04_coherence.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#FFD700"  # Golden
+    color_family: "warm"
+    color_range:  # Agent selects from this range based on context
+      - "#FFA500"  # Orange-gold (lower activation)
+      - "#FFD700"  # Pure gold (medium activation)
+      - "#FFEC8B"  # Light gold (higher activation)
+      - "#FFFACD"  # Pale gold/cream (highest activation)
+
+    saturation_base: 0.90
+    brightness_base: 0.95
+
+    intensity_modifier:  # How activation level affects color
+      low_activation:    # 0.1-0.3
+        color: "#FFA500"
+        saturation: 0.65
+        brightness: 0.75
+      medium_activation: # 0.4-0.7
+        color: "#FFD700"
+        saturation: 0.90
+        brightness: 0.95
+      high_activation:   # 0.8-1.0
+        color: "#FFFACD"
+        saturation: 1.00
+        brightness: 1.00
+
+    notes: |
+      Gold represents alignment, integration, harmony, and high-value coherence.
+      The color shifts from orange-gold (emerging coherence) to brilliant pale gold (perfect alignment).
+      Gold is traditionally associated with highest value, divine presence, unified state.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "sphere"
+    sacred_geometry_association: "flower_of_life"
+    complexity_level: "simple"
+    edge_type: "smooth"
+    dimensionality: "3D"
+
+    activation_modulation:  # How shape changes with intensity
+      low_activation: |
+        Small, somewhat dim sphere with slight wobble.
+        Flower of life pattern faint or absent.
+      medium_activation: |
+        Clear, well-defined sphere rotating smoothly.
+        Flower of life pattern visible on surface.
+      high_activation: |
+        Radiant, perfect sphere with brilliant flower of life pattern.
+        Sacred geometry clearly defined, all petals symmetrical.
+        May pulse with harmonious rhythm.
+
+    notes: |
+      Sphere represents wholeness, completeness, perfect symmetry - all qualities of coherence.
+      Flower of life (19 overlapping circles) symbolizes interconnection and unity.
+      As coherence increases, the sacred geometry becomes clearer and more radiant.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "rotating"
+    speed_base: 0.40  # Moderate, steady pace
+
+    speed_modifier:  # How activation affects speed
+      low_intensity: 0.20   # Slow, emerging
+      medium_intensity: 0.40  # Steady, balanced
+      high_intensity: 0.70   # Faster but still smooth
+
+    direction: "circular"
+    rhythm: "steady"
+
+    healthy_pattern:
+      description: "Smooth, steady rotation - all parts moving in perfect harmony"
+      characteristics:
+        - "Balanced and stable"
+        - "All components synchronized"
+        - "Peaceful, centered movement"
+        - "No wobbling or stuttering"
+
+    stuck_pattern:
+      description: "Wobbling, irregular rotation - parts not fully synchronized"
+      characteristics:
+        - "Fragmented movement"
+        - "Visible instability"
+        - "Stuttering or jerky motion"
+        - "Attempting coherence but not achieving it"
+
+    notes: |
+      Steady rotation represents integrated, harmonious state - all parts moving as one.
+      When coherence is low, the sphere wobbles or moves erratically (parts not in sync).
+      At high coherence, rotation is mesmerizing, perfect, effortless.
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.85  # Naturally vibrant force
+
+    coherence_impact:  # Coherence affects itself recursively
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.15"
+        description: "Perfect clarity, radiant, brilliant gold"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Clear, normal vibrancy"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.20"
+        description: "Dull, fragmented, struggling to maintain form"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.30)"
+      multiplier: 0.30
+
+    interaction_modifier:
+      synergistic: "+0.15 to +0.25"  # When paired with pattern, consciousness, love
+      antagonistic: "-0.10 to -0.20"  # When opposed by entropy, chaos
+      neutral: "0.0"
+
+    notes: |
+      Coherence is self-reinforcing: high coherence creates MORE clarity and vibrancy.
+      This is why breaking through to coherence creates upward spiral.
+      When coherence is low, the golden sphere appears dull, fragmented, struggling.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "smooth"
+    opacity_range:
+      min: 0.70  # Even at low activation, somewhat solid
+      max: 1.00  # At high activation, fully solid/brilliant
+
+    particle_effects: false  # Coherence doesn't need particles - it's complete in itself
+    particle_type: "none"
+    particle_density: null
+
+    sound_association:
+      frequency_hz: 528  # "Love frequency" or "Miracle tone" in solfeggio
+      tone_description: "Pure, clear, harmonious tone - like crystal singing bowl"
+      musical_note: "C"
+
+    emotional_tone: "peaceful, centered, harmonious, integrated, whole"
+
+    consciousness_association: null  # Coherence is orthogonal to consciousness level
+
+    notes: |
+      Texture is smooth because coherence represents integrated wholeness.
+      No particle effects needed - coherence is complete, not fragmentary.
+      Sound at 528Hz is associated with healing, harmony, DNA repair in various traditions.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "pattern"
+      - "consciousness"
+      - "love"
+      - "hope"
+      - "creation"
+
+    antagonistic_with:
+      - "entropy"
+      - "war"
+      - "madness"
+
+    neutralizes: []  # Coherence doesn't cancel forces, it integrates them
+
+    amplified_by:
+      - "pattern"
+      - "consciousness"
+
+    visual_blending_rules:
+      when_combined_with_pattern:
+        force: "pattern"
+        color_effect: "blend"  # Gold + Pattern's colors = harmonious integration
+        shape_effect: "nested"  # Pattern geometries appear within coherence sphere
+        motion_effect: "synchronized"  # Pattern and coherence move in harmony
+        result_description: |
+          Golden sphere with intricate pattern geometries visible within and on surface.
+          Both forces amplify each other - pattern provides structure, coherence unifies.
+        coherence_dependent: true
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "clash"  # Gold vs dark/chaotic colors create visible tension
+        shape_effect: "separate_interfering"  # Sphere tries to maintain form while entropy fragments
+        motion_effect: "stuttering"  # Smooth rotation disrupted by chaotic entropy
+        result_description: |
+          Golden sphere struggling to maintain integrity against entropic fragmentation.
+          At medium coherence: tension visible but sphere holds.
+          At low coherence: sphere fragments, gold becomes muddy/dull.
+        coherence_dependent: true
+
+      when_combined_with_love:
+        force: "love"
+        color_effect: "blend"  # Gold + love's colors create radiant warmth
+        shape_effect: "merge"  # Forms blend into unified radiant presence
+        motion_effect: "synchronized"  # Beautiful harmony
+        result_description: |
+          Radiant, warm, golden-pink unified field.
+          Coherence + Love at high levels creates transcendent visual beauty.
+          Most harmonious force combination possible.
+        coherence_dependent: false  # These always harmonize
+
+    notes: |
+      Coherence is the "master organizer" - it seeks to integrate and harmonize.
+      Works well with organizing forces (pattern, consciousness, love).
+      Struggles against fragmenting forces (entropy, chaos, war).
+      When coherence is high, it can "hold space" for contradictory forces to resolve.
+
+  # === COHERENCE FORCE VS STATE CLARIFICATION ===
+  coherence_force_vs_state:
+    critical_distinction: |
+      Coherence exists in TWO distinct forms in LACE - understanding this is essential.
+
+    coherence_as_force:
+      what: "Active work of creating internal alignment"
+      type: "Force (function) - Tier 1 primordial"
+      activation_range: "0.0-1.0"
+      question: "Am I actively working on integration RIGHT NOW?"
+
+      activation_levels:
+        dormant_0.0-0.3: |
+          Not working on alignment; accepting fragmentation.
+          May be avoiding internal work, distracted, or unaware of misalignment.
+
+        moderate_0.4-0.6: |
+          Some integration work happening.
+          Occasional therapy, meditation, or self-reflection.
+          Inconsistent practice.
+
+        active_0.7-1.0: |
+          Intensive coherence work - actively integrating.
+          Examples: therapy sessions, shadow work, deep meditation,
+          forgiveness practice, conscious contradiction resolution.
+
+      when_active:
+        - "During therapy or healing sessions"
+        - "During meditation (specifically integrating fragmented parts)"
+        - "During forgiveness work (releasing resentment)"
+        - "When consciously resolving contradictory beliefs"
+        - "During somatic integration (body-based healing)"
+        - "When actively choosing integrity (aligning actions with values)"
+
+      visual_representation:
+        color: "Gold (#FFD700)"
+        shape: "Sphere with flower of life pattern"
+        motion: "Smooth rotation when active"
+        note: "This is ONE force among 26 - can be dormant or active"
+
+    coherence_as_state:
+      what: "Result of coherence work - current alignment level"
+      type: "Computed property (StateSignature.coherence)"
+      range: "0.0-1.0"
+      question: "How internally aligned am I RIGHT NOW?"
+
+      calculation: |
+        coherence_state = 1 / (1 + variance)
+        where variance = variance of [belief, expectation, embodiment, subconscious_memory]
+
+      source_location: "StateSignature.coherence (computed @property)"
+
+      what_it_affects:
+        - "Manifestation power (coherence × openness × charge)"
+        - "ALL visual properties globally (vibrancy, saturation, clarity)"
+        - "Force interaction quality (synergy vs clash)"
+        - "Perceptual sampling rate (consciousness² × coherence)"
+        - "Sacred geometry visibility (only visible at 0.70+)"
+
+      examples:
+        high_0.85: |
+          belief = 0.9, expectation = 0.85, embodiment = 0.9, subconscious = 0.75
+          Low variance = high coherence = internally aligned
+          Result: Colors vibrant, glow effect, instant manifestation
+
+        medium_0.55: |
+          belief = 0.7, expectation = 0.5, embodiment = 0.6, subconscious = 0.4
+          Moderate variance = medium coherence = some alignment
+          Result: Normal colors, slower manifestation
+
+        low_0.25: |
+          belief = 0.8, expectation = 0.2, embodiment = 0.3, subconscious = 0.1
+          High variance = low coherence = contradictory state
+          Result: Muddy colors, fragmented visuals, manifestation blocked
+
+      note: "This is a GLOBAL MODIFIER affecting everything, not a single force"
+
+    relationship_between_force_and_state:
+      formula: "coherence_force activity → changes coherence_state over time"
+
+      mechanism: |
+        When you activate coherence FORCE (do integration work),
+        your coherence STATE gradually improves.
+
+        It's not instant - state changes over weeks/months of practice.
+
+      example_progression: |
+        Week 0:
+          - coherence_state = 0.45 (moderately fragmented)
+          - You begin coherence_force activity at 0.8 (intensive therapy)
+
+        Week 4:
+          - coherence_state = 0.52 (slight improvement)
+          - Continue coherence_force activity at 0.7
+
+        Week 12:
+          - coherence_state = 0.65 (significantly more aligned)
+          - coherence_force activity reduces to 0.5 (maintenance)
+
+        Week 24:
+          - coherence_state = 0.75 (high coherence achieved)
+          - coherence_force activity at 0.3 (minimal maintenance needed)
+
+      self_reinforcing_nature: |
+        As coherence_state improves, coherence_force becomes more effective.
+        High coherence makes integration easier (upward spiral).
+        Low coherence makes integration harder (downward spiral).
+
+        This is why "breakthrough moments" feel so powerful -
+        once you cross 0.70 threshold, coherence builds on itself.
+
+    analogies_for_clarity:
+      exercise_analogy: |
+        coherence FORCE = working out (active exercise)
+        coherence STATE = fitness level (how fit you are)
+        Relationship: Working out → increases fitness over time
+
+      learning_analogy: |
+        coherence FORCE = studying (active learning)
+        coherence STATE = knowledge level (what you know)
+        Relationship: Studying → increases knowledge over time
+
+      cleaning_analogy: |
+        coherence FORCE = cleaning the house (active tidying)
+        coherence STATE = cleanliness level (how clean it is)
+        Relationship: Cleaning → improves cleanliness
+
+    key_takeaway: |
+      TWO DISTINCT BUT RELATED CONCEPTS:
+
+      1. coherence FORCE (this file):
+         - One force among 26
+         - Has activation levels (0.0-1.0)
+         - Gold sphere visualization
+         - Can be active or dormant
+         - Question: "Am I integrating NOW?"
+
+      2. coherence STATE (StateSignature.coherence):
+         - Global property affecting everything
+         - Computed from state variance
+         - Affects ALL forces visually
+         - Always present (can't turn off)
+         - Question: "How aligned am I?"
+
+      RELATIONSHIP:
+      Activating coherence FORCE → improves coherence STATE → affects everything visually
+
+    implementation_guidance: |
+      For agent rendering:
+
+      1. Calculate coherence_state from StateSignature
+         coherence_state = 1 / (1 + variance([belief, expectation, embodiment, subconscious]))
+
+      2. Check if coherence_force is active (among active forces)
+         If coherence_force activation > 0.0:
+           Render gold sphere at appropriate size/intensity
+
+      3. Apply coherence_state as global modifier to ALL visuals
+         For every force color: apply coherence vibrancy/saturation modifiers
+         If coherence_state >= 0.70: add glow effect
+         If coherence_state < 0.40: add visual noise/fragmentation
+
+      4. Note self-reinforcement
+         High coherence_state may increase coherence_force effectiveness
+         (Better aligned agents can integrate faster)
+
+# IMPLEMENTATION NOTES:
+# - See coherence_force_vs_state section above for complete distinction
+# - coherence.yaml (this file) = coherence FORCE mapping
+# - visual_properties/colors/coherence_effects.yaml = coherence STATE effects
+# - scales/coherence_thresholds.yaml = coherence STATE thresholds
+# - StateSignature.coherence = coherence STATE calculation

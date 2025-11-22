@@ -1,0 +1,157 @@
+# Lifestyle Factor: Nature Exposure
+
+nature_exposure:
+  # === METADATA ===
+  metadata:
+    category: "environment_nature"
+    measurement_type: "objective"  # Time spent in natural environments
+    update_frequency: "weekly"
+    importance: "high"  # Humans evolved in nature - disconnect has consequences
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Nature deprived - entirely indoor, urban, no regular nature contact"
+      indicators:
+        - "Less than 30 minutes per week in nature"
+        - "Entirely indoor lifestyle"
+        - "Urban environment, concrete and screens"
+        - "No contact with plants, animals, natural spaces"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Some nature - regular outdoor time, occasional natural spaces"
+      indicators:
+        - "1-3 hours per week in nature"
+        - "Regular walks outside, parks"
+        - "Some plants at home, occasional hikes"
+        - "Mix of urban and natural environments"
+
+    high:
+      range: "0.8-1.0"
+      description: "Nature integrated - daily outdoor time, regular immersion in natural spaces"
+      indicators:
+        - "4+ hours per week in nature"
+        - "Daily outdoor time (even brief)"
+        - "Regular hikes, forest bathing, ocean/mountain time"
+        - "Plants integrated into living space"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    coherence:
+      low: -0.15    # Nature deprivation fragments
+      medium: +0.10
+      high: +0.25   # Nature restores coherence powerfully
+      notes: "Nature's patterns naturally entrain our systems toward coherence"
+
+    consciousness:
+      low: -0.10    # Disconnection from nature narrows awareness
+      medium: +0.05
+      high: +0.20   # Nature expands awareness, awe, perspective
+      notes: "Nature provides scale - humbling, perspective-shifting, awe-inducing"
+
+    peace:
+      low: -0.10
+      medium: +0.15
+      high: +0.30   # Nature profoundly calming
+      notes: "Nature automatically activates parasympathetic (rest and digest)"
+
+    stress:
+      low: +0.15    # Indoor/urban increases stress
+      medium: -0.10
+      high: -0.30   # Nature dramatically reduces stress
+      notes: "Cortisol drops measurably within 20 minutes in nature"
+
+    creativity:
+      low: -0.10
+      medium: +0.10
+      high: +0.20   # Nature inspires, clears mind for creativity
+      notes: "Default mode network resets in nature - insights emerge"
+
+    pattern:
+      low: -0.05
+      medium: +0.05
+      high: +0.15   # Nature reveals patterns - fractals, golden ratio, cycles
+      notes: "Nature is pattern teacher - sacred geometry everywhere"
+
+    beauty:
+      low: -0.10
+      medium: +0.10
+      high: +0.25   # Nature is beauty - golden ratio, fractals, perfect proportions
+      notes: "Beauty is not arbitrary - nature shows us the template"
+
+    gratitude:
+      low: -0.10
+      medium: +0.10
+      high: +0.25   # Nature inspires gratitude, wonder, awe
+      notes: "Hard to be ungrateful while watching sunset or forest"
+
+    vitality:
+      low: -0.15    # Indoor lifestyle depletes vitality
+      medium: +0.10
+      high: +0.20   # Nature restores energy, life force
+      notes: "Phytoncides (forest chemicals) boost immune function, energy"
+
+    perspective:
+      low: -0.10    # Without nature, lose sense of place in larger whole
+      medium: +0.05
+      high: +0.20   # Nature provides cosmic perspective
+      notes: "Stars, mountains, ocean - remind us we're part of something vast"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # 20 minutes in nature reduces stress measurably
+    chronic_impact: "cumulative"  # Regular nature exposure = sustained wellbeing
+    recovery_time: "Benefits fade within days, return quickly upon exposure"
+
+    notes: |
+      "Forest bathing" (Shinrin-yoku) shows measurable health benefits.
+      Nature exposure:
+      - Lowers blood pressure
+      - Reduces cortisol
+      - Boosts immune function (NK cells)
+      - Improves mood
+      - Increases focus (attention restoration)
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - exercise: "Outdoor exercise > indoor (green exercise)""
+      - meditation: "Nature meditation = amplified benefits"
+      - social_connection: "Nature time together deepens bonds"
+
+    dampens:
+      - anxiety: "Nature is natural anxiolytic"
+      - rumination: "Nature interrupts obsessive thinking"
+      - attention_fatigue: "Nature restores directed attention"
+
+    synergizes_with:
+      - sunlight: "Nature + sun = vitamin D, circadian rhythm"
+      - grounding: "Bare feet on earth = electrical grounding"
+      - awe: "Nature primary source of awe experiences"
+
+  # === NOTES ===
+  notes: |
+    Humans evolved in nature for millions of years, indoors for thousands.
+    We're nature, not separate from it - "nature deprivation disorder" is real.
+
+    Key insights:
+    - Biophilia = innate human love of nature
+    - Attention Restoration Theory - nature restores depleted attention
+    - Stress Reduction Theory - nature activates parasympathetic
+    - Fractal patterns in nature = optimal for nervous system
+    - "Forest bathing" (Shinrin-yoku) = documented health practice
+
+    Specific nature elements:
+    - Trees: phytoncides boost immune function
+    - Water: negative ions, calming presence
+    - Birdsong: automatically calming to nervous system
+    - Green: color itself is restorative
+    - Natural light: circadian rhythm regulation
+
+    Urban living = chronic low-grade nature deprivation.
+    "In every walk with nature, one receives far more than he seeks." - John Muir
+
+    Even houseplants help - bring nature indoors if can't go out.
+    Window with view of nature > window with view of buildings.

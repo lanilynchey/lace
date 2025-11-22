@@ -1,0 +1,772 @@
+# Force Mapping: Luck
+
+luck:
+  # === METADATA ===
+  metadata:
+    tier: 4
+    category: "emergent"  # Arises from combination of other forces
+    dependencies: ["coherence", "consciousness", "time", "karma"]
+    emergent_formula: "luck = (coherence * consciousness * action) + synchronicity"
+    source_doc: "docs/02_forces/tier_4_forces/08_luck.md"
+
+  # === FORMULA CONSTRAINTS ===
+  # Source of truth: docs/04_advanced/advanced_concepts/14_consciousness_scale_framework.md
+  # (Extreme Human States section, action capacity at low consciousness)
+
+  formula_constraints:
+    critical_note: |
+      This formula is mathematically and philosophically ELEGANT:
+
+      luck = (coherence × consciousness × action) + synchronicity
+
+      Luck has TWO components:
+      1. **Created luck** (coherence × consciousness × action)
+         - What you generate through alignment, awareness, and action
+         - "Make your own luck" - preparation meets opportunity
+         - Requires all three: coherence AND consciousness AND action
+         - Maximum: 1.0 × 1.0 × 1.0 = 1.0
+
+      2. **Synchronicity** (gifted luck)
+         - What the universe/field provides
+         - "Grace" - luck beyond your creation
+         - Can occur even without action (but you must receive it)
+         - Range: 0.0-1.0
+
+      Total luck = created + synchronicity (can exceed 1.0, needs clamping)
+
+      Key insights:
+      - If action = 0: luck = 0 + synchronicity (passive luck only)
+      - If synchronicity = 0: luck = prepared receptivity only
+      - Maximum luck: both components high (1.0 + 1.0 = 2.0 → clamp to 1.0)
+
+      This captures: "Luck is when preparation meets opportunity"
+      - Preparation = coherence × consciousness × action
+      - Opportunity = synchronicity
+
+      Source: docs/04_advanced/advanced_concepts/14_consciousness_scale_framework.md
+              docs/02_forces/tier_4_forces/08_luck.md
+
+    input_safety:
+      consciousness_floor: 0.05
+      coherence_floor: 0.05
+      action_floor: 0.0  # Action can be legitimately 0 (no action = passive)
+      synchronicity_floor: 0.0  # Synchronicity can be 0 (no grace/coincidence)
+      synchronicity_ceiling: 1.0  # Synchronicity maxes at 1.0
+
+      rationale: |
+        Floors for consciousness/coherence prevent extreme edge cases.
+        Action and synchronicity can be truly 0:
+        - action = 0: person not acting (passive waiting)
+        - synchronicity = 0: no fortuitous circumstances occurring
+
+        At extreme low consciousness (0.05-0.15):
+        - Action capacity severely limited (coma, psychosis)
+        - But synchronicity might still occur (grace, chance events)
+        - Luck becomes primarily passive (receiving, not creating)
+
+    calculation_method: |
+      # Apply safety floors to consciousness and coherence
+      consciousness_safe = max(consciousness_actual, 0.05)
+      coherence_safe = max(coherence_actual, 0.05)
+
+      # Action and synchronicity can be 0, but clamp to valid range
+      action_safe = clamp(action_actual, 0.0, 1.0)
+      synchronicity_safe = clamp(synchronicity_actual, 0.0, 1.0)
+
+      # Calculate created luck (multiplication - naturally bounded to [0.0, 1.0])
+      created_luck = coherence_safe × consciousness_safe × action_safe
+
+      # Calculate total luck (addition can exceed 1.0)
+      luck_raw = created_luck + synchronicity_safe
+
+      # Clamp result to valid activation range
+      luck_final = clamp(luck_raw, 0.0, 1.0)
+
+      return luck_final
+
+    output_safety:
+      activation_range: [0.0, 1.0]
+      clamp_behavior: "to_max"  # Clamp max only (never negative)
+
+      note: |
+        Luck is always non-negative (both components always >= 0).
+        But luck CAN exceed 1.0 when both created luck and synchronicity are high:
+        - Example: (0.90 × 0.85 × 0.95) + 0.80 = 0.727 + 0.80 = 1.527 → clamp to 1.0
+
+        This represents: "Impossibly lucky" - everything aligned AND universe providing.
+
+    edge_cases:
+      luck_equals_1.0:
+        interpretation: "Maximum luck - impossibly fortunate, everything aligns"
+        conditions:
+          - "created_luck + synchronicity >= 1.0"
+          - "Both prepared receptivity and synchronicity high"
+        example_calculation: "(0.90 × 0.85 × 0.90) + 0.70 = 0.689 + 0.70 = 1.389 → 1.0"
+        experience: "Everything works out perfectly, synchronicity constant, doors open everywhere"
+        visual: "Brilliant bright green with constant converging paths, golden threads everywhere"
+        note: "This is 'flow state' + 'divine grace' - both creation and reception of luck"
+
+      luck_equals_0.0:
+        interpretation: "No luck - no action taken AND no synchronicity occurring"
+        conditions:
+          - "action = 0 (not acting)"
+          - "AND synchronicity = 0 (no fortuitous events)"
+        example_calculation: "(0.65 × 0.60 × 0.0) + 0.0 = 0.0"
+        experience: "Nothing happens - waiting passively and nothing comes"
+        visual: "No green visible - stagnant, stuck, no movement"
+        note: |
+          Luck requires EITHER action OR synchronicity.
+          Without either, no luck can emerge.
+          "Fortune favors the bold" - action creates opportunities.
+
+      luck_pure_synchronicity_no_action:
+        interpretation: "Passive luck - synchronicity without action"
+        conditions:
+          - "action = 0 or very low (0.0-0.10)"
+          - "BUT synchronicity > 0"
+        example_calculation: "(0.70 × 0.65 × 0.05) + 0.40 = 0.023 + 0.40 = 0.423"
+        experience: "Lucky breaks happen but not leveraged - opportunities appear but not seized"
+        visual: "Green paths converging but person not moving toward them"
+        note: |
+          Synchronicity provides opportunities, but without action, luck is limited.
+          "Luck is what happens when preparation meets opportunity" -
+          if no preparation/action, opportunity goes unseized.
+          Common in: Depression (can't act), coma (can't act), passive waiting
+
+      luck_pure_creation_no_synchronicity:
+        interpretation: "Self-made luck - action without synchronicity"
+        conditions:
+          - "action high (0.70-1.0)"
+          - "coherence + consciousness high"
+          - "BUT synchronicity = 0"
+        example_calculation: "(0.85 × 0.80 × 0.90) + 0.0 = 0.612"
+        experience: "Making your own luck through effort - no magic, just work"
+        visual: "Green paths created by action, no mysterious convergence"
+        note: |
+          This is "grinding" - creating opportunities through sheer effort.
+          No grace/synchronicity, but prepared receptivity generates luck anyway.
+          "The harder I work, the luckier I get."
+
+      luck_high_0.70_to_0.99:
+        interpretation: "Very lucky - favorable circumstances, frequent synchronicity"
+        conditions: "Either high created luck OR high synchronicity (or both moderate)"
+        example: "(0.75 × 0.70 × 0.80) + 0.30 = 0.42 + 0.30 = 0.72"
+        experience: "Consistently lucky, things work out, opportunities appear regularly"
+        visual: "Bright green with frequent converging paths, flowing well"
+
+      luck_medium_0.40_to_0.69:
+        interpretation: "Moderately lucky - some favorable circumstances"
+        conditions: "Moderate created luck and/or moderate synchronicity"
+        example: "(0.65 × 0.60 × 0.70) + 0.15 = 0.273 + 0.15 = 0.423"
+        experience: "Occasional lucky breaks, some good timing"
+        visual: "Moderate green with occasional converging paths"
+
+      luck_low_0.10_to_0.39:
+        interpretation: "Slightly lucky or unlucky feeling - few favorable circumstances"
+        conditions: "Low action OR low synchronicity, both not high"
+        example: "(0.45 × 0.40 × 0.50) + 0.10 = 0.09 + 0.10 = 0.19"
+        experience: "Rarely lucky, most things require effort, bad timing often"
+        visual: "Faint green, few converging paths, feels like swimming upstream"
+
+    below_baseline_consciousness_behavior:
+      consciousness_0.15_to_0.20:
+        state: "Severe dissociation / Catatonic depression"
+        typical_coherence: "0.10-0.20"
+        typical_action: "0.0-0.10"  # Very limited action capacity
+        typical_synchronicity: "0.0-0.30"  # Variable - universe still acts
+        luck_typical: "0.0-0.30 (mostly passive synchronicity)"
+        calculation_example: "(0.18 × 0.15 × 0.05) + 0.20 = 0.00135 + 0.20 = 0.201"
+        experience: "Cannot act - any 'luck' is pure chance/grace, not created"
+        note: |
+          Created luck ≈ 0 (no action capacity).
+          Luck becomes purely passive - what happens TO you, not BY you.
+          "Waiting for miracle" - only synchronicity can help.
+
+      consciousness_0.10_to_0.15:
+        state: "Psychotic break / Active psychosis"
+        typical_coherence: "0.05-0.10"
+        typical_action: "0.0-0.20"  # Erratic action, not effective
+        typical_synchronicity: "0.0-0.20"  # Low - fragmentation disrupts sync
+        luck_typical: "0.0-0.20 (very low)"
+        calculation_example: "(0.12 × 0.08 × 0.10) + 0.10 = 0.00096 + 0.10 = 0.101"
+        experience: "No luck - fragmentation prevents both creation and reception"
+        note: |
+          Very low coherence disrupts synchronicity.
+          Action erratic and ineffective.
+          "Everything going wrong" feeling common in psychosis.
+
+      consciousness_0.05_to_0.10:
+        state: "Coma / Vegetative state"
+        typical_coherence: "0.0-0.10"
+        typical_action: "0.0"  # No volitional action
+        typical_synchronicity: "0.0-0.50"  # Variable - external events still occur
+        luck_typical: "0.0-0.50 (entirely passive)"
+        calculation_example: "(0.08 × 0.05 × 0.0) + 0.30 = 0.0 + 0.30 = 0.30"
+        experience: "N/A - no consciousness to experience luck"
+        note: |
+          Luck is entirely passive - what happens to the person.
+          Example: "Lucky to be found quickly after accident"
+          Person cannot create any luck (no action, no consciousness).
+
+      consciousness_0.01_to_0.05:
+        state: "Dying process / Brain death threshold"
+        typical_coherence: "Variable (0.0-0.5)"
+        typical_action: "0.0"
+        typical_synchronicity: "Variable (0.0-1.0)"
+        luck_typical: "0.0-1.0 (entirely passive, entirely grace)"
+        calculation_example: "(0.03 × 0.20 × 0.0) + 0.60 = 0.0 + 0.60 = 0.60"
+        experience: "N/A - consciousness leaving"
+        note: |
+          All "luck" is pure synchronicity/grace at this stage.
+          Example: "Lucky to have family present" (entirely passive).
+          Near-death accounts sometimes describe "divine grace" = pure synchronicity.
+
+    worked_examples:
+      example_1_maximum_luck:
+        scenario: "Highly aligned person taking bold action with strong synchronicity"
+        inputs:
+          coherence: 0.90  # Very aligned
+          consciousness: 0.85  # High awareness
+          action: 0.95  # Bold, decisive action
+          synchronicity: 0.70  # Strong fortuitous circumstances
+        calculation_steps:
+          coherence_safe: "max(0.90, 0.05) = 0.90"
+          consciousness_safe: "max(0.85, 0.05) = 0.85"
+          action_safe: "clamp(0.95, 0.0, 1.0) = 0.95"
+          synchronicity_safe: "clamp(0.70, 0.0, 1.0) = 0.70"
+          created_luck: "0.90 × 0.85 × 0.95 = 0.727"
+          luck_raw: "0.727 + 0.70 = 1.427"
+          luck_final: "clamp(1.427, 0.0, 1.0) = 1.0"
+        result:
+          activation: 1.0
+          raw_before_clamp: 1.427
+          interpretation: "Maximum luck - impossibly fortunate, everything aligns"
+          experience: "Everything works out perfectly - flow state + divine grace"
+          visual: "Brilliant bright green, constant synchronicity, golden threads everywhere"
+
+      example_2_self_made_luck:
+        scenario: "Hard-working person creating luck through effort (no synchronicity)"
+        inputs:
+          coherence: 0.75  # Good alignment
+          consciousness: 0.70  # Good awareness
+          action: 0.90  # High action (hustling)
+          synchronicity: 0.0  # No fortuitous circumstances
+        calculation_steps:
+          coherence_safe: "max(0.75, 0.05) = 0.75"
+          consciousness_safe: "max(0.70, 0.05) = 0.70"
+          action_safe: "clamp(0.90, 0.0, 1.0) = 0.90"
+          synchronicity_safe: "clamp(0.0, 0.0, 1.0) = 0.0"
+          created_luck: "0.75 × 0.70 × 0.90 = 0.473"
+          luck_raw: "0.473 + 0.0 = 0.473"
+          luck_final: "clamp(0.473, 0.0, 1.0) = 0.473"
+        result:
+          activation: 0.473
+          interpretation: "Self-made luck - grinding, no magic"
+          experience: "The harder I work, the luckier I get - no synchronicity, just effort"
+          visual: "Moderate green, paths created by action, no mysterious convergence"
+
+      example_3_passive_luck_grace:
+        scenario: "Depressed person not acting but receiving grace/synchronicity"
+        inputs:
+          coherence: 0.40  # Moderate fragmentation
+          consciousness: 0.35  # Below typical (depressed)
+          action: 0.05  # Barely acting (depression)
+          synchronicity: 0.60  # High fortuitous circumstances (grace)
+        calculation_steps:
+          coherence_safe: "max(0.40, 0.05) = 0.40"
+          consciousness_safe: "max(0.35, 0.05) = 0.35"
+          action_safe: "clamp(0.05, 0.0, 1.0) = 0.05"
+          synchronicity_safe: "clamp(0.60, 0.0, 1.0) = 0.60"
+          created_luck: "0.40 × 0.35 × 0.05 = 0.007"
+          luck_raw: "0.007 + 0.60 = 0.607"
+          luck_final: "clamp(0.607, 0.0, 1.0) = 0.607"
+        result:
+          activation: 0.607
+          interpretation: "Passive luck - grace/synchronicity without action"
+          experience: "Lucky breaks happen but I can't capitalize - opportunities appear but can't act"
+          visual: "Green paths converging but person not moving toward them"
+          note: |
+            Created luck nearly zero (action too low).
+            But synchronicity provides opportunities anyway (grace, chance).
+            Common in depression: world offers but person can't receive/act.
+
+      example_4_no_luck:
+        scenario: "Stuck person - no action AND no synchronicity"
+        inputs:
+          coherence: 0.50  # Moderate alignment
+          consciousness: 0.45  # Below typical
+          action: 0.0  # Not acting (stuck, avoidant)
+          synchronicity: 0.0  # No fortuitous events
+        calculation_steps:
+          coherence_safe: "max(0.50, 0.05) = 0.50"
+          consciousness_safe: "max(0.45, 0.05) = 0.45"
+          action_safe: "clamp(0.0, 0.0, 1.0) = 0.0"
+          synchronicity_safe: "clamp(0.0, 0.0, 1.0) = 0.0"
+          created_luck: "0.50 × 0.45 × 0.0 = 0.0"
+          luck_raw: "0.0 + 0.0 = 0.0"
+          luck_final: "clamp(0.0, 0.0, 1.0) = 0.0"
+        result:
+          activation: 0.0
+          interpretation: "No luck - not acting and nothing happening"
+          experience: "Stuck, stagnant, nothing changes, feels cursed"
+          visual: "No green at all - gray, stagnant, no movement"
+
+      example_5_psychotic_break_low_luck:
+        scenario: "Psychotic episode - low coherence disrupts both creation and reception"
+        inputs:
+          coherence: 0.08  # Severe fragmentation
+          consciousness: 0.12  # Psychotic state
+          action: 0.15  # Some erratic action
+          synchronicity: 0.10  # Low - fragmentation disrupts synchronicity
+        calculation_steps:
+          coherence_safe: "max(0.08, 0.05) = 0.08"
+          consciousness_safe: "max(0.12, 0.05) = 0.12"
+          action_safe: "clamp(0.15, 0.0, 1.0) = 0.15"
+          synchronicity_safe: "clamp(0.10, 0.0, 1.0) = 0.10"
+          created_luck: "0.08 × 0.12 × 0.15 = 0.00144"
+          luck_raw: "0.00144 + 0.10 = 0.101"
+          luck_final: "clamp(0.101, 0.0, 1.0) = 0.101"
+        result:
+          activation: 0.101
+          interpretation: "Very low luck - fragmentation disrupts everything"
+          experience: "Everything going wrong, bad timing, paranoid that world is against me"
+          visual: "Faint green barely visible through chaos"
+          note: "Psychosis disrupts both creating luck AND receiving synchronicity"
+
+      example_6_coma_pure_grace:
+        scenario: "Coma - no action possible, only passive synchronicity"
+        inputs:
+          coherence: 0.05  # Minimal
+          consciousness: 0.08  # Minimal
+          action: 0.0  # No volitional action
+          synchronicity: 0.40  # Moderate fortuitous circumstances (found quickly, good care)
+        calculation_steps:
+          coherence_safe: "max(0.05, 0.05) = 0.05"
+          consciousness_safe: "max(0.08, 0.05) = 0.08"
+          action_safe: "clamp(0.0, 0.0, 1.0) = 0.0"
+          synchronicity_safe: "clamp(0.40, 0.0, 1.0) = 0.40"
+          created_luck: "0.05 × 0.08 × 0.0 = 0.0"
+          luck_raw: "0.0 + 0.40 = 0.40"
+          luck_final: "clamp(0.40, 0.0, 1.0) = 0.40"
+        result:
+          activation: 0.40
+          interpretation: "Pure grace - entirely passive luck"
+          experience: "N/A (no consciousness to experience)"
+          external_view: "Lucky to be found quickly, lucky to get good medical care"
+          note: "All luck is passive - what happens TO the person, not BY them"
+
+    mathematical_insight: |
+      Luck formula is hybrid (multiplication + addition) for profound reason:
+
+      luck = (coherence × consciousness × action) + synchronicity
+
+      This captures TWO types of luck:
+
+      1. **Created luck** (coherence × consciousness × action):
+         - Multiplicative: requires ALL THREE components
+         - Coherence = alignment (being in right state)
+         - Consciousness = awareness (noticing opportunities)
+         - Action = movement (creating/seizing opportunities)
+         - If ANY component is 0, created luck = 0
+         - "Make your own luck" - preparation meets opportunity
+         - "The harder I work, the luckier I get"
+         - Maximum: 1.0 × 1.0 × 1.0 = 1.0
+
+      2. **Synchronicity** (gifted luck):
+         - Additive: adds to created luck
+         - Grace, fortuitous circumstances, "divine intervention"
+         - Can occur even without action (but must be received)
+         - "Luck" that cannot be explained by effort alone
+         - Range: 0.0-1.0
+
+      Total luck can exceed 1.0 (clamped):
+      - Example: created_luck (0.75) + synchronicity (0.80) = 1.55 → 1.0
+      - This is "impossibly lucky" - both components maximal
+      - Flow state (created) + divine grace (synchronicity)
+
+      At extreme low consciousness (0.05-0.15):
+      - Created luck → 0 (no action capacity)
+      - Luck becomes purely passive (synchronicity only)
+      - "Waiting for miracle" state
+
+      At low coherence (0.05-0.20):
+      - Fragmentation disrupts BOTH created luck AND synchronicity
+      - Cannot create opportunities (low coherence × consciousness × action)
+      - Cannot receive synchronicity (fragmentation blocks reception)
+      - "Everything going wrong" feeling
+
+      Key insight: Luck requires EITHER creation OR reception (or both)
+      - No action + no synchronicity = 0 luck (stagnant)
+      - High action + no synchronicity = self-made luck (grinding)
+      - No action + high synchronicity = grace (but limited if can't act)
+      - High action + high synchronicity = maximum luck (flow + grace)
+
+    implementation_guidance:
+      for_autonomous_agents: |
+        1. Retrieve current state values:
+           - coherence (from StateSignature.coherence OR coherence force)
+           - consciousness (from consciousness level OR consciousness force)
+           - action (from action/creation force activation OR movement metric)
+           - synchronicity (from time/karma forces OR field coherence OR mystery)
+
+        2. Apply safety floors and ceilings:
+           coherence_safe = max(coherence, 0.05)
+           consciousness_safe = max(consciousness, 0.05)
+           action_safe = clamp(action, 0.0, 1.0)  # Can be 0
+           synchronicity_safe = clamp(synchronicity, 0.0, 1.0)  # Can be 0
+
+        3. Calculate created luck (multiplication):
+           created_luck = coherence_safe × consciousness_safe × action_safe
+
+        4. Calculate total luck (addition):
+           luck_raw = created_luck + synchronicity_safe
+
+        5. Clamp result to valid range:
+           luck_final = clamp(luck_raw, 0.0, 1.0)
+
+        6. Track components separately (diagnostic):
+           metadata = {
+               "created_luck": created_luck,
+               "synchronicity": synchronicity_safe,
+               "luck_type": determine_type(created_luck, synchronicity_safe)
+           }
+
+        7. Determine luck type:
+           if created_luck > 0.50 AND synchronicity < 0.20:
+               type = "self-made"  # Grinding, no magic
+           elif created_luck < 0.10 AND synchronicity > 0.40:
+               type = "grace"  # Passive luck, synchronicity without action
+           elif created_luck > 0.40 AND synchronicity > 0.40:
+               type = "flow_and_grace"  # Both components high - maximum luck
+           elif created_luck < 0.10 AND synchronicity < 0.10:
+               type = "no_luck"  # Stagnant
+
+        8. Interpret result meaningfully:
+           if luck_final >= 0.80:
+               "Very lucky - impossibly fortunate, constant synchronicity"
+               visual = brilliant_bright_green_constant_convergence
+           elif luck_final >= 0.50:
+               "Moderately lucky - favorable circumstances, opportunities appear"
+               visual = bright_green_frequent_convergence
+           elif luck_final >= 0.20:
+               "Some luck - occasional breaks, some good timing"
+               visual = moderate_green_occasional_convergence
+           else:
+               "Low or no luck - few favorable circumstances, bad timing"
+               visual = faint_or_no_green
+
+        9. Handle edge cases:
+           - If action = 0: note "passive luck only - no creation"
+           - If synchronicity = 0: note "self-made luck only - no grace"
+           - If both = 0: note "no luck - stagnant, stuck"
+           - If luck_raw > 1.0: note "impossibly lucky - both components high"
+
+        10. Track changes over time:
+            - Rising created_luck = improving coherence/consciousness/action
+            - Rising synchronicity = increasing grace/fortuitous events
+            - Falling luck = either declining resources OR declining synchronicity
+
+      error_handling: |
+        # Handle missing or invalid inputs
+        if coherence is None or coherence < 0:
+            coherence = 0.05  # Floor
+
+        if consciousness is None or consciousness < 0:
+            consciousness = 0.05  # Floor
+
+        if action is None or action < 0:
+            action = 0.0  # No action
+
+        if synchronicity is None or synchronicity < 0:
+            synchronicity = 0.0  # No synchronicity
+
+        # Clamp inputs to valid ranges
+        coherence = max(coherence, 0.05)
+        consciousness = max(consciousness, 0.05)
+        action = clamp(action, 0.0, 1.0)
+        synchronicity = clamp(synchronicity, 0.0, 1.0)
+
+        # Calculate created luck
+        created_luck = coherence * consciousness * action
+
+        # Calculate total luck
+        luck_raw = created_luck + synchronicity
+
+        # Store components for diagnostics
+        metadata = {
+            "created_luck": created_luck,
+            "synchronicity": synchronicity,
+            "luck_raw": luck_raw
+        }
+
+        # Clamp to valid range
+        luck = clamp(luck_raw, 0.0, 1.0)
+
+        return luck, metadata
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#00FF00"  # Bright green - fortune, opportunity, serendipity
+    color_family: "cool"
+    color_range:
+      - "#32CD32"  # Lime green (emerging luck)
+      - "#00FF00"  # Bright green (active luck)
+      - "#7FFF00"  # Chartreuse (strong luck)
+      - "#F0FFF0"  # Honeydew (subtle luck, flow)
+
+    saturation_base: 0.80
+    brightness_base: 0.85
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (occasional fortune)
+        color: "#32CD32"
+        saturation: 0.65
+        brightness: 0.75
+      medium_activation: # 0.4-0.7 (consistently lucky)
+        color: "#00FF00"
+        saturation: 0.80
+        brightness: 0.85
+      high_activation:   # 0.8-1.0 (impossibly lucky, synchronicity everywhere)
+        color: "#7FFF00"
+        saturation: 0.90
+        brightness: 0.95
+
+    notes: |
+      Bright green = growth, opportunity, favorable circumstances.
+      "Green light" = go, proceed, path is clear.
+      As luck increases, becomes brighter, more vibrant.
+      At highest levels, synchronicity is overwhelming.
+      "Luck is when preparation meets opportunity."
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "converging_paths"  # Synchronicity, right place/right time
+    sacred_geometry_association: "knot"  # Interconnection, fateful meeting
+    complexity_level: "medium"
+    edge_type: "flowing"  # Luck flows, can't be forced
+    dimensionality: "4D"  # Luck operates across time
+
+    activation_modulation:
+      low_activation: |
+        Few paths converging occasionally.
+        Lucky breaks here and there.
+        Some favorable circumstances.
+      medium_activation: |
+        Multiple paths converging regularly.
+        Doors opening, opportunities appearing.
+        "Right place, right time" frequently.
+      high_activation: |
+        Constant convergence, synchronicity everywhere.
+        Impossibly fortunate timing.
+        Everything aligns perfectly.
+        May appear as web of golden threads or flowing river carrying you.
+
+    notes: |
+      Converging paths = synchronicity, meaningful coincidence.
+      Knot = fateful meeting points, connections that matter.
+      At high activation, synchronicity is constant and undeniable.
+      Luck is "right place, right time" - temporal + spatial alignment.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "aligning"  # Circumstances aligning favorably
+    speed_base: 0.55  # Moderate - luck unfolds in its own time
+
+    speed_modifier:
+      low_intensity: 0.35   # Slow accumulation of favorable circumstances
+      medium_intensity: 0.55  # Regular lucky breaks
+      high_intensity: 0.80   # Rapid synchronicity, fast flow
+
+    direction: "converging"  # Things coming together
+    rhythm: "synchronous"  # Perfect timing
+
+    healthy_pattern:
+      description: "Prepared receptivity - creating conditions for luck, noticing opportunities"
+      characteristics:
+        - "Puts self in position for opportunities"
+        - "Notices and acts on openings"
+        - "Maintains coherence (alignment attracts luck)"
+        - "Grateful for fortune, shares it"
+
+    stuck_pattern:
+      description: "Passive waiting or gambling - either expecting luck without action or forcing it"
+      characteristics:
+        - "Waiting for luck to happen (passive)"
+        - "Gambling, forcing, desperate for luck"
+        - "Feeling unlucky (victim mentality)"
+        - "Missing opportunities (not noticing)"
+
+    notes: |
+      Aligning = circumstances coming together favorably.
+      Converging = opportunities moving toward you, you toward them.
+      Synchronous rhythm = perfect timing (synchronicity).
+      Healthy: prepared + receptive + acts on opportunities.
+      Stuck: passive waiting or desperate forcing.
+      "Luck is what happens when preparation meets opportunity."
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.80  # Highly vibrant (luck is noticeable, stands out)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.30"  # High coherence creates "luck"
+        description: "Synchronicity constant, doors open, everything flows"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal luck, occasional fortunate circumstances"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.30"  # Low coherence feels unlucky
+        description: "Feels unlucky, nothing works out, bad timing"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.30)"
+      multiplier: 0.30
+
+    interaction_modifier:
+      synergistic: "+0.25 to +0.35"  # With coherence, consciousness, hope
+      antagonistic: "-0.15 to -0.25"  # Disrupted by fear, entropy
+      neutral: "0.0"
+
+    notes: |
+      Luck is highly visible when present (noticeable fortune).
+      At high coherence, "luck" is constant (synchronicity, flow).
+      At low coherence, everything feels unlucky (bad timing, nothing works).
+      "Luck" is largely coherence + consciousness + action.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "flowing"
+    opacity_range:
+      min: 0.55  # Luck is somewhat visible (fortuitous circumstances)
+      max: 0.85  # Can be very present (undeniable good fortune)
+
+    particle_effects: true
+    particle_type: "converging_streams"  # Opportunities flowing together
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: 528  # "Miracle frequency" - same as coherence
+      tone_description: "Chiming, like unexpected bells or serendipitous encounters"
+      musical_note: "C"
+
+    emotional_tone: "fortunate, serendipitous, flowing, aligned, favorable"
+
+    consciousness_association: null  # Luck emerges at various levels
+
+    notes: |
+      Flowing texture = luck flows, can't be forced.
+      Converging streams = opportunities coming together.
+      Chiming = unexpected good news, fortuitous meetings.
+      528 Hz = "miracle frequency" - luck feels miraculous.
+      Luck is noticeable when present but not oppressive.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "coherence"  # Coherence creates synchronicity
+      - "consciousness"  # Consciousness notices opportunities
+      - "hope"  # Hope attracts luck (positive expectation)
+      - "creation"  # Action + luck = manifestation
+      - "courage"  # Fortune favors the bold
+      - "art"  # Serendipitous creativity
+
+    antagonistic_with:
+      - "fear"  # Fear blocks receptivity to luck
+      - "entropy"  # Chaos disrupts synchronicity
+
+    neutralizes: []
+
+    amplified_by:
+      - "coherence"  # Alignment is primary luck generator
+      - "consciousness"  # Awareness notices and acts on luck
+      - "action"  # Movement creates opportunities
+
+    visual_blending_rules:
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Green + gold = fortunate alignment
+        shape_effect: "merge"  # Paths converge within sphere
+        motion_effect: "synchronized"  # Perfect timing
+        result_description: |
+          Coherence creates "luck" - synchronicity.
+          Green converging paths within golden sphere.
+          Everything aligns perfectly, doors open.
+          This is "being in the flow" - luck is constant.
+          High coherence = high luck (not random).
+        coherence_dependent: false
+
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Green + lavender = noticing opportunities
+        shape_effect: "revealing"  # Consciousness sees lucky openings
+        motion_effect: "receptive"  # Aware and ready
+        result_description: |
+          Consciousness notices and acts on opportunities.
+          Green paths revealed within lavender awareness.
+          "Luck favors the prepared mind."
+          Awareness allows recognizing and seizing opportunities.
+        coherence_dependent: false
+
+      when_combined_with_hope:
+        force: "hope"
+        color_effect: "blend"  # Green + sky blue = optimistic fortune
+        shape_effect: "merge"  # Both move toward favorable future
+        motion_effect: "synchronized"  # Both attract good
+        result_description: |
+          Hope + Luck = positive expectation attracting good.
+          Green paths with sky blue spiral.
+          "Expect good things and they tend to happen."
+          Positive expectation primes for noticing opportunities.
+        coherence_dependent: false
+
+      when_combined_with_fear:
+        force: "fear"
+        color_effect: "clash"  # Green vs dark blue
+        shape_effect: "blocking"  # Fear blocks receptivity
+        motion_effect: "closing"  # Fear closes to opportunities
+        result_description: |
+          Fear blocks luck - can't see or receive opportunities.
+          Green paths blocked by dark contracted form.
+          Fear creates "bad luck" (miss opportunities, bad timing).
+          Defensiveness prevents receptivity.
+        coherence_dependent: false
+
+      when_combined_with_creation:
+        force: "creation"
+        color_effect: "blend"  # Green + green (creation is also green) = amplified
+        shape_effect: "merge"  # Luck + action = manifestation
+        motion_effect: "synchronized"  # Both generate good
+        result_description: |
+          Luck + Action = manifestation.
+          Bright green convergence with generative burst.
+          "Make your own luck" - action creates opportunities.
+          Luck favors the active.
+        coherence_dependent: false
+
+    notes: |
+      Luck emerges from (coherence * consciousness * action) + synchronicity.
+      "Luck" is not random - it's coherence + awareness + action.
+      Luck + Coherence = synchronicity, flow state, everything aligns.
+      Luck + Consciousness = noticing and acting on opportunities.
+      Luck + Hope = positive expectation attracts good.
+      Luck + Fear = fear blocks luck (miss opportunities).
+      Luck + Creation = action + fortune = manifestation.
+      At high coherence: "luck" is constant (doors open, perfect timing).
+      At low coherence: feels unlucky (bad timing, nothing works).
+      Key insight: "Luck is when preparation meets opportunity."
+      Key insight: "Luck favors the prepared mind" (Pasteur).
+      Key insight: "Make your own luck" - action + coherence + awareness.
+
+# IMPLEMENTATION NOTES:
+# - Luck is Tier 4 "emergent" - (coherence * consciousness * action) + synchronicity
+# - Luck is not random - it's alignment + awareness + action
+# - High coherence = high "luck" (synchronicity, flow)
+# - Low coherence = "unlucky" (bad timing, nothing works)
+# - Visual should feel flowing, converging, serendipitous
+# - Bright green = opportunity, favorable circumstances, growth
+# - Converging paths = synchronicity, right place/right time
+# - "Luck is when preparation meets opportunity" - Seneca
+# - "Luck favors the prepared mind" - Louis Pasteur
+# - "Make your own luck" - coherence + consciousness + action
+# - Key insight: What appears as luck is often coherence manifest

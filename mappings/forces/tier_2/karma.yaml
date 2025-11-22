@@ -1,0 +1,308 @@
+# Force Mapping: Karma
+
+karma:
+  # === METADATA ===
+  metadata:
+    tier: 2
+    category: "governing"  # Foundational force that shapes reality
+    dependencies: ["time", "pattern"]
+    source_doc: "docs/02_forces/tier_2_forces/02_karma.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#8B4513"  # Saddle brown - earthy, weighty, consequential
+    color_family: "warm"
+    color_range:
+      - "#654321"  # Dark brown (heavy karma, consequences)
+      - "#8B4513"  # Saddle brown (active karma)
+      - "#A0522D"  # Sienna (lighter karmic load)
+      - "#D2691E"  # Chocolate (resolved karma)
+
+    saturation_base: 0.60
+    brightness_base: 0.50
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (light karmic load)
+        color: "#D2691E"
+        saturation: 0.50
+        brightness: 0.60
+      medium_activation: # 0.4-0.7 (active karma working out)
+        color: "#8B4513"
+        saturation: 0.60
+        brightness: 0.50
+      high_activation:   # 0.8-1.0 (heavy karmic consequences)
+        color: "#654321"
+        saturation: 0.70
+        brightness: 0.40
+
+    notes: |
+      Brown represents earth, weight, groundedness, consequences manifesting.
+      Earthy = karma is real, tangible, has weight and substance.
+      Darker brown = heavier karmic consequences, "reaping what was sown".
+      Lighter brown = karma resolving, consequences integrated.
+      Not black (judgment) - karma is neutral law, not moral punishment.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "interwoven_chains"  # Connected, causal, linked
+    sacred_geometry_association: "infinity_symbol"  # Eternal cycle, cause-effect loop
+    complexity_level: "complex"
+    edge_type: "defined"  # Clear causal links
+    dimensionality: "4D"  # Karma operates across time
+
+    activation_modulation:
+      low_activation: |
+        Few simple chains, loose connections.
+        Light karmic ties, easily resolved.
+        Clear cause-effect visible.
+      medium_activation: |
+        Multiple interwoven chains, visible complexity.
+        Active karma working out.
+        Consequences manifesting from past actions.
+      high_activation: |
+        Dense web of interlocking chains.
+        Heavy karmic load, complex entanglements.
+        Many consequences converging.
+        May appear as weighted net or web.
+
+    notes: |
+      Chains = causal links, one thing leads to another.
+      Interwoven = complex web of causes and effects.
+      Infinity symbol = eternal cycle until resolved/integrated.
+      At high activation, appears as heavy net or web of consequences.
+      Not punishment - natural law of cause and effect.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "returning"  # What goes out comes back
+    speed_base: 0.35  # Slow, patient - karma takes time
+
+    speed_modifier:
+      low_intensity: 0.20   # Karma slow to manifest
+      medium_intensity: 0.35  # Normal karmic timing
+      high_intensity: 0.60   # Rapid karmic return (immediate consequences)
+
+    direction: "circular"  # What goes around comes around
+    rhythm: "wave_like"  # Cycles, returns, periods
+
+    healthy_pattern:
+      description: "Conscious action - aware of consequences, takes responsibility, learns and integrates"
+      characteristics:
+        - "Aware actions create consequences"
+        - "Takes responsibility for past actions"
+        - "Learns from results, adjusts behavior"
+        - "Karma as teacher, not punishment"
+
+    stuck_pattern:
+      description: "Karmic loop - repeating same patterns, not learning, victim mentality"
+      characteristics:
+        - "Same problems keep happening"
+        - "Blames others for consequences"
+        - "Doesn't see own role in patterns"
+        - "Karma feels like punishment or bad luck"
+
+    notes: |
+      Returning motion = consequences come back to source.
+      Circular = cycles until learned/integrated.
+      Wave-like rhythm = karma has cycles, seasons, periods.
+      Healthy: sees karma as feedback, learns, evolves.
+      Stuck: repeats patterns, doesn't learn, feels victimized.
+      "What you send out returns to you" - fundamental law.
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.60  # Moderate vibrancy (karma is real but not flashy)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.15"  # High coherence clarifies karma
+        description: "Karma visible, clear cause-effect, rapid learning"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal karmic visibility"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.20"  # Low coherence obscures karma
+        description: "Karma feels random, can't see patterns, repeat cycles"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.25)"
+      multiplier: 0.25
+
+    interaction_modifier:
+      synergistic: "+0.15 to +0.20"  # With time, pattern, truth
+      antagonistic: "0.0"  # Karma doesn't oppose - it teaches
+      neutral: "0.0"
+
+    notes: |
+      Karma is earthy, real, substantial.
+      At high coherence, can see patterns clearly - "I did X, Y happened".
+      At low coherence, karma feels random, unfair - can't see own role.
+      Coherence allows learning from karma rather than repeating.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "weighted"
+    opacity_range:
+      min: 0.60  # Karma is tangible, has presence
+      max: 0.90  # Can be very heavy, undeniable
+
+    particle_effects: true
+    particle_type: "trailing_links"  # Connections, causal chains
+    particle_density: "moderate_to_dense"
+
+    sound_association:
+      frequency_hz: 396  # Solfeggio frequency for "liberation from fear and guilt"
+      tone_description: "Deep, resonant, like Tibetan singing bowl - grounding, consequential"
+      musical_note: "G (low register)"
+
+    emotional_tone: "consequential, weighted, patient, inevitable, teaching"
+
+    consciousness_association: null  # Karma operates at all consciousness levels
+
+    notes: |
+      Weighted texture = karma has substance, can be felt.
+      Trailing links = visible connections between cause and effect.
+      Deep resonant sound = karma is grounding, earthy, real.
+      396 Hz = liberation from guilt (karma integrated transforms to freedom).
+      High opacity = karma is real, tangible, undeniable.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "time"  # Time reveals karma
+      - "pattern"  # Pattern shows karmic cycles
+      - "truth"  # Truth clarifies karma
+      - "memory"  # Memory recalls past actions
+      - "hope"  # Hope creates positive karmic momentum
+      - "judgment"  # What you judge, you attract (karmic mirror)
+      - "courage"  # Courageous actions create positive karma
+
+    antagonistic_with:
+      - "forgiveness"  # Forgiveness releases karma
+
+    neutralizes: []
+
+    amplified_by:
+      - "time"  # More time = more karma accumulates
+      - "coherence"  # High coherence makes karma visible
+
+    visual_blending_rules:
+      when_combined_with_time:
+        force: "time"
+        color_effect: "blend"  # Brown + silver = karma unfolding over time
+        shape_effect: "merge"  # Chains flow through time stream
+        motion_effect: "synchronized"  # Both reveal consequences
+        result_description: |
+          Time reveals karmic consequences.
+          Brown chains flowing through silver stream.
+          Past actions manifesting as present circumstances.
+          "Time will tell" - karma unfolds temporally.
+          Patience required - karma works on its own schedule.
+        coherence_dependent: false
+
+      when_combined_with_pattern:
+        force: "pattern"
+        color_effect: "blend"  # Brown + turquoise = karmic patterns visible
+        shape_effect: "merge"  # Chains form geometric patterns
+        motion_effect: "synchronized"  # Both reveal cycles
+        result_description: |
+          Pattern reveals karmic cycles.
+          Brown chains forming turquoise geometric patterns.
+          "This has happened before" - recognizing cycles.
+          At high coherence: patterns clear, can break cycles.
+          At low coherence: patterns invisible, repeat unconsciously.
+        coherence_dependent: true
+
+      when_combined_with_truth:
+        force: "truth"
+        color_effect: "blend"  # Brown + clear/white = karma illuminated
+        shape_effect: "merge"  # Truth clarifies causal chains
+        motion_effect: "synchronized"  # Both reveal reality
+        result_description: |
+          Truth clarifies karma - can see cause-effect clearly.
+          Brown chains illuminated by clear light.
+          Taking responsibility - "I did this, this resulted."
+          No denial, no blame - just clear seeing.
+        coherence_dependent: false
+
+      when_combined_with_forgiveness:
+        force: "forgiveness"
+        color_effect: "transforming"  # Brown lightens, dissolves
+        shape_effect: "dissolving"  # Chains release, break
+        motion_effect: "releasing"  # Letting go
+        result_description: |
+          Forgiveness releases karmic chains.
+          Brown chains lightening, dissolving.
+          Self-forgiveness releases personal karma.
+          Forgiving others releases relational karma.
+          Karma doesn't "go away" - it transforms to wisdom.
+          "The lesson was learned, the chain can release."
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Brown + gold = integrated karma
+        shape_effect: "nested"  # Karma held within coherence
+        motion_effect: "harmonized"  # Karma working with alignment
+        result_description: |
+          Coherence allows conscious karma - aware action.
+          Brown chains within golden sphere.
+          Can see consequences before acting.
+          Creates "good karma" consciously (aligned action).
+          Karma becomes teacher, not tormentor.
+        coherence_dependent: false
+
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Brown + lavender = witnessing karma
+        shape_effect: "nested"  # Karma within awareness
+        motion_effect: "observed"  # Consciousness sees patterns
+        result_description: |
+          Consciousness witnesses karmic patterns.
+          Brown chains within lavender sphere.
+          Awareness allows breaking cycles.
+          "I see what I've been doing" - pattern recognition.
+          Consciousness is the key to karmic liberation.
+        coherence_dependent: false
+
+      when_combined_with_creation:
+        force: "creation"
+        color_effect: "blend"  # Brown + creation's colors = new karma
+        shape_effect: "merge"  # Creating new causal chains
+        motion_effect: "generating"  # Actions create consequences
+        result_description: |
+          Every creation initiates new karma.
+          Brown chains extending from created forms.
+          "What I make will have consequences."
+          Conscious creation = aware of karmic implications.
+          Creation + consciousness = responsible manifestation.
+        coherence_dependent: false
+
+    notes: |
+      Karma is neutral law - not punishment, just cause and effect.
+      "What goes around comes around" - fundamental principle.
+      Karma + Time = consequences unfold over time.
+      Karma + Pattern = recognizing cycles, "this again".
+      Karma + Truth = taking responsibility, clear seeing.
+      Karma + Forgiveness = release, transformation to wisdom.
+      Karma + Consciousness = seeing patterns, breaking cycles.
+      Karma + Coherence = aligned action, conscious consequences.
+      At high consciousness + coherence: karma becomes conscious creation.
+      At low consciousness + coherence: karma feels like punishment.
+      Key insight: Karma is teacher, showing results of actions.
+      Key insight: Forgiveness releases karma (lesson learned).
+
+# IMPLEMENTATION NOTES:
+# - Karma is Tier 2 "governing" force - fundamental law of reality
+# - Not moral judgment - neutral cause and effect
+# - "As you sow, so shall you reap" - biblical expression is accurate
+# - Karma operates across time - consequences may be delayed
+# - Healthy relationship: sees karma as feedback, learns, evolves
+# - Stuck relationship: repeats patterns, feels victimized, doesn't learn
+# - Visual should feel weighty, earthy, connected, consequential
+# - Chains represent causal links - one thing leads to another
+# - At high coherence: karma visible, clear patterns, rapid learning
+# - At low coherence: karma obscured, patterns invisible, repeat cycles
+# - Key insight: Consciousness + coherence allow breaking karmic cycles
+# - Key insight: Forgiveness releases karma (transforms to wisdom)
+# - Key insight: Every action creates karma - be conscious

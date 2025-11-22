@@ -1,0 +1,190 @@
+# Lifestyle Factor: Sunlight Exposure
+
+sunlight_exposure:
+  # === METADATA ===
+  metadata:
+    category: "environment_nature"
+    measurement_type: "objective"  # Minutes per day outdoors, especially morning
+    update_frequency: "daily"
+    importance: "critical"  # Sunlight regulates fundamental biological rhythms
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Sun deprived - entirely indoor, minimal natural light exposure"
+      indicators:
+        - "Less than 15 minutes outdoor per day"
+        - "Mostly artificial light"
+        - "No morning sun exposure"
+        - "Work/live in windowless or dim spaces"
+        - "Feel sluggish, mood low"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Some sun - regular but brief outdoor time, some natural light"
+      indicators:
+        - "15-45 minutes outdoor per day"
+        - "Some morning light exposure"
+        - "Mix of natural and artificial light"
+        - "Occasional sunny days fully utilized"
+        - "Generally okay energy and mood"
+
+    high:
+      range: "0.8-1.0"
+      description: "Good sun exposure - daily outdoor time, morning light prioritized"
+      indicators:
+        - "45+ minutes outdoor per day"
+        - "Morning sun exposure (within 1-2 hours of waking)"
+        - "Primarily natural light during day"
+        - "Regular time in full sun (safely)"
+        - "Energy and mood stable, seasonal rhythm aligned"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    circadian_rhythm:
+      low: -0.40    # Disrupted circadian rhythm = cascade of problems
+      medium: +0.10
+      high: +0.35   # Morning sun = master clock synchronization
+      notes: "Morning light is circadian anchor - sets all biological rhythms"
+
+    sleep_quality:
+      low: -0.30    # No sun = poor sleep (melatonin dysregulation)
+      medium: +0.05
+      high: +0.25   # Sun during day = melatonin at night
+      notes: "Light during day → darkness produces melatonin → deep sleep"
+
+    mood:
+      low: -0.35    # Sun deprivation = depression (seasonal affective disorder)
+      medium: +0.10
+      high: +0.30   # Sun = natural antidepressant
+      notes: "Sunlight triggers serotonin production - nature's Prozac"
+
+    energy:
+      low: -0.30    # No sun = chronic fatigue
+      medium: +0.10
+      high: +0.25   # Sun energizes directly
+      notes: "Mitochondria respond to light - energy production affected"
+
+    vitamin_D:
+      low: -0.35    # Deficiency = immune, bone, mood issues
+      medium: +0.10
+      high: +0.30   # Adequate D3 synthesis
+      notes: "Sun = only natural D3 source; deficiency epidemic in modern indoor life"
+
+    immune_function:
+      low: -0.25    # Vitamin D deficiency = immune compromise
+      medium: +0.05
+      high: +0.20   # Adequate D3 = robust immunity
+      notes: "Vitamin D is immune regulator - deficiency = vulnerability to illness"
+
+    alertness:
+      low: -0.25    # Dim indoor light = chronic grogginess
+      medium: +0.10
+      high: +0.25   # Bright light = alertness signal
+      notes: "Light = wake signal; artificial light insufficient, needs natural brightness"
+
+    seasonal_alignment:
+      low: -0.20    # Disconnected from natural rhythms
+      medium: +0.05
+      high: +0.20   # Aligned with seasons, day length
+      notes: "We evolved with sun - tracking sunrise/sunset aligns biology with earth"
+
+    inflammation:
+      low: +0.20    # Vitamin D deficiency = increased inflammation
+      medium: 0.0
+      high: -0.15   # Adequate D3 = anti-inflammatory
+      notes: "Vitamin D is powerful anti-inflammatory - deficiency drives chronic inflammation"
+
+    mental_clarity:
+      low: -0.20    # Brain fog from circadian disruption
+      medium: +0.05
+      high: +0.20   # Clear mind from aligned rhythms
+      notes: "Circadian rhythm affects brain function - disruption = cognitive impairment"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Morning sun immediately improves alertness, mood
+    chronic_impact: "cumulative"  # Long-term deprivation = serious health consequences
+    recovery_time: "Days to weeks to restore circadian rhythm, longer for vitamin D stores"
+
+    notes: |
+      Morning light (within 1-2 hours of waking) is most critical.
+      Even 10 minutes of morning sun = significant benefit.
+      Cloudy day = still beneficial (10,000+ lux vs 300 lux indoor).
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - sleep_quality: "Sun during day → melatonin at night"
+      - mood: "Sunlight = serotonin production"
+      - circadian_alignment: "Light is master clock synchronizer"
+
+    dampens:
+      - seasonal_depression: "Light therapy treats SAD effectively"
+      - sleep_problems: "Morning light treats insomnia"
+      - low_energy: "Light = wake signal"
+
+    synergizes_with:
+      - nature_exposure: "Outdoor time combines sun + nature benefits"
+      - exercise: "Outdoor exercise = sun + movement"
+      - vitamin_D_foods: "Sun + dietary D = optimal levels"
+
+  # === NOTES ===
+  notes: |
+    Sunlight is not optional - it's biological necessity.
+    We evolved under sun for millions of years, indoors for thousands.
+
+    Key insights:
+    - Morning light (within 1-2 hours of waking) = most critical
+    - Bright light needed (10,000+ lux) - through window insufficient (glass blocks important wavelengths)
+    - Even cloudy day = vastly brighter than indoor (10,000 vs 300 lux)
+    - Artificial light cannot replace sun (wrong spectrum, insufficient brightness)
+    - Evening light exposure = circadian disruption (blue light at night)
+
+    Circadian rhythm effects:
+    - Sleep-wake cycle
+    - Hormone production (cortisol, melatonin, growth hormone)
+    - Body temperature
+    - Digestion
+    - Immune function
+    - Mood regulation
+    - Cognitive performance
+    All synchronized by light-dark cycle.
+
+    Vitamin D functions:
+    - Bone health (calcium absorption)
+    - Immune regulation
+    - Mood regulation (serotonin)
+    - Inflammation control
+    - Gene expression (affects 1000+ genes)
+    - Cancer prevention
+    Deficiency = widespread problems.
+
+    Seasonal Affective Disorder (SAD):
+    - Winter depression from lack of light
+    - Affects 5-10% population severely, many more mildly
+    - Light therapy (10,000 lux, 20-30 min morning) = effective treatment
+    - Prevention: maximize light exposure during short days
+
+    Modern problem:
+    - Indoor lifestyle = chronic sun deprivation
+    - Artificial light insufficient (wrong spectrum, too dim)
+    - Blue light at night (screens) = circadian disruption
+    - Result: epidemic of sleep problems, mood disorders, vitamin D deficiency
+
+    Practical strategies:
+    - Morning sun exposure (10-30 min, no sunglasses to allow retinal input)
+    - Work near window (natural light even if not direct sun)
+    - Outdoor lunch breaks
+    - Evening: dim lights, no screens, or use blue blockers
+    - SAD lamp in winter (10,000 lux, morning use)
+
+    Sun safety:
+    - Morning/evening sun = minimal burn risk, maximum circadian benefit
+    - Midday sun = vitamin D synthesis but burn risk (moderate exposure)
+    - Sunscreen blocks D3 synthesis (balance needed)
+    - Skin type matters (fair = less time needed)
+
+    "Let there be light" - literal health requirement.
+    Sun is free medicine - go outside.

@@ -1,0 +1,231 @@
+# Base Color Palette
+# Primary color associations for each force (extracted from force mappings)
+
+base_palette:
+  # === TIER 1: PRIMORDIAL FORCES ===
+  tier_1:
+    entropy:
+      hex: "#2F2F2F"
+      name: "Dark Gray"
+      family: "neutral"
+      description: "Chaos, formlessness, decay - near black"
+
+    consciousness:
+      hex: "#E6E6FA"
+      name: "Lavender"
+      family: "cool"
+      description: "Awareness, witnessing, ethereal light"
+
+    pattern:
+      hex: "#40E0D0"
+      name: "Turquoise"
+      family: "cool"
+      description: "Order, structure, information clarity"
+
+    coherence:
+      hex: "#FFD700"
+      name: "Gold"
+      family: "warm"
+      description: "Unity, harmony, integration"
+
+    polarity:
+      hex: "#808080"
+      name: "Pure Gray"
+      family: "neutral"
+      description: "Duality, balance point, oscillating"
+
+  # === TIER 2: GOVERNING FORCES ===
+  tier_2:
+    time:
+      hex: "#C0C0C0"
+      name: "Silver"
+      family: "neutral"
+      description: "Flow, progression, temporal container"
+
+    karma:
+      hex: "#8B4513"
+      name: "Saddle Brown"
+      family: "warm"
+      description: "Cause-effect, consequence, weight"
+
+    truth:
+      hex: "#FFFFFF"
+      name: "Pure White"
+      family: "neutral"
+      description: "Clarity, reality, revelation"
+
+    memory:
+      hex: "#9370DB"
+      name: "Medium Purple"
+      family: "cool"
+      description: "Recording, archive, layered past"
+
+    death:
+      hex: "#000000"
+      name: "Pure Black"
+      family: "neutral"
+      description: "Ending, void, completion"
+
+    creation:
+      hex: "#00FF7F"
+      name: "Spring Green"
+      family: "cool"
+      description: "Beginning, emergence, genesis"
+
+  # === TIER 3: INTERFACE/EMOTIONAL FORCES ===
+  tier_3:
+    fear:
+      hex: "#1C1C3A"
+      name: "Dark Blue-Purple"
+      family: "cool"
+      description: "Threat, contraction, survival mode"
+
+    desire:
+      hex: "#DC143C"
+      name: "Crimson"
+      family: "warm"
+      description: "Wanting, reaching, passion"
+
+    love:
+      hex: "#FFB6C1"
+      name: "Light Pink"
+      family: "warm"
+      description: "Connection, warmth, expansion"
+
+    hope:
+      hex: "#87CEEB"
+      name: "Sky Blue"
+      family: "cool"
+      description: "Aspiration, uplift, possibility"
+
+    pain:
+      hex: "#4B0000"
+      name: "Very Dark Red"
+      family: "warm"
+      description: "Suffering, wound, blood"
+
+    forgiveness:
+      hex: "#E0BBE4"
+      name: "Soft Lavender-Pink"
+      family: "cool"
+      description: "Release, softening, healing"
+
+    judgment:
+      hex: "#4B0082"
+      name: "Indigo"
+      family: "cool"
+      description: "Assessment, discernment, weighing"
+
+  # === TIER 4: EMERGENT FORCES ===
+  tier_4:
+    courage:
+      hex: "#FF8C00"
+      name: "Dark Orange"
+      family: "warm"
+      description: "Bravery, boldness, facing fear"
+
+    war:
+      hex: "#8B0000"
+      name: "Dark Red"
+      family: "warm"
+      description: "Conflict, aggression, violence"
+
+    madness:
+      hex: "#663399"
+      name: "Rebecca Purple"
+      family: "cool"
+      description: "Chaos, fragmentation, insanity"
+
+    beauty:
+      hex: "#FFD700"
+      name: "Iridescent Gold"
+      family: "warm"
+      description: "Aesthetic harmony, pleasing form"
+
+    art:
+      hex: "#FF1493"
+      name: "Deep Pink"
+      family: "warm"
+      description: "Creation, expression, aesthetic act"
+
+    music:
+      hex: "#9370DB"
+      name: "Medium Purple"
+      family: "cool"
+      description: "Rhythm, harmony, temporal beauty"
+
+    humor:
+      hex: "#FFD700"
+      name: "Gold with Sparkle"
+      family: "warm"
+      description: "Lightness, surprise, play"
+
+    luck:
+      hex: "#00FF00"
+      name: "Bright Green"
+      family: "cool"
+      description: "Synchronicity, fortune, serendipity"
+
+# === COLOR FAMILY GROUPINGS ===
+color_families:
+  warm:
+    description: "Active, energizing, passionate, expanding"
+    forces:
+      - karma
+      - desire
+      - love
+      - pain
+      - courage
+      - war
+      - beauty
+      - art
+      - humor
+    color_temperature: "Red, orange, yellow spectrum"
+
+  cool:
+    description: "Calming, contemplative, flowing, contracting"
+    forces:
+      - consciousness
+      - pattern
+      - creation
+      - fear
+      - hope
+      - forgiveness
+      - judgment
+      - madness
+      - music
+      - luck
+    color_temperature: "Blue, green, purple spectrum"
+
+  neutral:
+    description: "Structural, functional, balanced, achromatic"
+    forces:
+      - entropy
+      - polarity
+      - time
+      - truth
+      - death
+    color_temperature: "Black, white, gray spectrum"
+
+# === USAGE NOTES ===
+usage_notes: |
+  Base Palette Purpose:
+  - Defines the PRIMARY color identity for each force
+  - This is the starting point before any modifiers are applied
+  - Agent looks up base color first, then applies:
+    1. Intensity modifiers (see intensity_mapping.yaml)
+    2. Interaction effects (see interaction_effects.yaml)
+    3. Coherence effects (see coherence_effects.yaml)
+
+  Color Selection Principles:
+  - Colors must be visually distinguishable
+  - Hex codes ensure exact reproduction
+  - Color families (warm/cool/neutral) create intuitive associations
+  - Related forces have related colors (but remain distinct)
+
+  Agent Implementation:
+  ```python
+  def get_base_color(force_name):
+      palette = load_yaml('base_palette.yaml')
+      return palette['base_palette'][tier][force_name]['hex']
+  ```

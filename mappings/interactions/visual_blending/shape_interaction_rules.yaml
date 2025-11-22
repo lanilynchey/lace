@@ -1,0 +1,313 @@
+# Shape Interaction Rules
+# How shapes interact when multiple forces are present
+# References: force_to_force/ files for interaction types
+
+shape_interaction_rules:
+  # === PRINCIPLE ===
+  principle: |
+    Defines HOW shapes interact based on force relationship type.
+    force_to_force/ defines WHAT relationship exists.
+
+    Options when shapes meet:
+    - Merge: Blend into hybrid form
+    - Separate: Distinct geometries, no touching
+    - Interpenetrate: Pass through each other
+    - Orbit: Circle around common center
+    - Collide: Bounce, clash, resist
+    - Transform: One shape becomes the other
+
+  # === SYNERGISTIC SHAPE INTERACTIONS ===
+  synergistic:
+    method: "harmonious_coexistence"
+    description: "Shapes enhance each other, share space beautifully"
+
+    sub_methods:
+      overlapping_sacred_geometry:
+        when: "Both forces have sacred geometry"
+        visual: "Geometries overlay, creating more complex pattern"
+        example: "Flower of Life (coherence) + Golden Spiral (pattern) = Combined sacred pattern"
+
+      nested_forms:
+        when: "One force contains another conceptually"
+        visual: "Smaller shape inside larger (Russian doll)"
+        example: "Love (radiating sphere) contains Hope (ascending spiral within)"
+
+      complementary_positioning:
+        when: "Shapes naturally fit together"
+        visual: "Positioned to enhance, not compete"
+        example: "Standing pillar (courage) with radiating warmth (love) around it"
+
+    examples:
+      love_forgiveness:
+        shapes: "Radiating sphere (love) + Releasing wave (forgiveness)"
+        result: "Sphere with gentle waves flowing outward"
+        feel: "Warmth releasing, flowing forgiveness"
+
+      pattern_coherence:
+        shapes: "Fractal (pattern) + Unified sphere (coherence)"
+        result: "Fractal contained in perfect sphere - sacred geometry"
+        feel: "Order integrated into wholeness"
+
+      consciousness_truth:
+        shapes: "Sphere (consciousness) + Crystal (truth)"
+        result: "Crystalline sphere - awareness of reality"
+        feel: "Clear seeing, enlightened perception"
+
+  # === ANTAGONISTIC SHAPE INTERACTIONS ===
+  antagonistic:
+    method: "visible_conflict"
+    description: "Shapes clash, resist, compete for space"
+
+    sub_methods:
+      separate_interfering:
+        when: "High coherence - conflict managed"
+        visual: "Distinct shapes near each other, tension visible"
+        effect: "Field distortion between them (like magnets repelling)"
+
+      colliding_bouncing:
+        when: "Medium coherence - active conflict"
+        visual: "Shapes bounce off each other, ricochet"
+        effect: "Kinetic energy, visible impact"
+
+      chaotic_intersection:
+        when: "Low coherence - unmanaged conflict"
+        visual: "Shapes interpenetrating messily, fragmenting"
+        effect: "Visual glitching, broken geometries"
+
+    examples:
+      fear_desire:
+        shapes: "Spiky sphere (fear) + Reaching tendrils (desire)"
+        result: "Tendrils trying to reach, spikes blocking - stuttering"
+        feel: "Paralysis, frozen conflict"
+
+      creation_death:
+        shapes: "Emanating burst (creation) + Void (death)"
+        result: "Burst emerging from void, or void consuming burst"
+        feel: "Life/death edge, stark opposition"
+
+      love_judgment:
+        shapes: "Radiating sphere (love) + Scales (judgment)"
+        result: "Scales interrupting radiation, warmth blocked"
+        feel: "Conditional love, assessment interrupting flow"
+
+  # === NEUTRALIZING SHAPE INTERACTIONS ===
+  neutralizing:
+    method: "mutual_dampening"
+    description: "Shapes lose definition, become less distinct"
+
+    effects:
+      opacity_reduction: "Both shapes become more transparent"
+      definition_loss: "Edges blur, forms less distinct"
+      size_reduction: "Both shapes appear smaller/weaker"
+      motion_stilling: "Movement slows or stops"
+
+    examples:
+      fear_courage:
+        shapes: "Spiky sphere (fear) + Standing pillar (courage)"
+        result: "Both dimmed, spikes soften, pillar wavers"
+        feel: "Stalemate, neither winning"
+
+      polarity_equilibrium:
+        shape: "Cube (polarity)"
+        result: "Cube at perfect gray (#808080), minimal presence"
+        feel: "Neutral, no movement, balance point"
+
+      hope_despair:
+        shapes: "Rising spiral (hope) + void/darkness (despair)"
+        result: "Spiral barely visible, struggling to rise"
+        feel: "Apathy, barely hanging on"
+
+  # === TRANSMUTATION SHAPE INTERACTIONS ===
+  transmutation:
+    method: "morphing_transformation"
+    description: "One shape transforms into another over time"
+
+    implementation:
+      technique: "Animated morphing (shape interpolation)"
+      duration: "Based on transformation speed"
+      direction: "Start shape → End shape"
+      intermediate_forms: "May pass through hybrid states"
+
+    examples:
+      pain_to_forgiveness:
+        start: "Jagged shards (pain)"
+        end: "Releasing wave (forgiveness)"
+        morph: "Shards soften → edges round → become wave"
+        feel: "Wounds healing, softening, releasing"
+
+      fear_to_courage:
+        start: "Spiky sphere (fear - defensive)"
+        end: "Standing pillar (courage - resolute)"
+        morph: "Sphere spikes retract → form stands → becomes pillar"
+        feel: "Defense becoming offense, standing firm"
+
+      judgment_to_compassion:
+        start: "Scales (judgment - weighing)"
+        end: "Radiating sphere (love/compassion)"
+        morph: "Scales balance → dissolve → sphere emerges"
+        feel: "Critique softening into warmth"
+
+  # === SYNTHESIS SHAPE INTERACTIONS ===
+  synthesis:
+    method: "emergent_form"
+    description: "New shape emerges from combination"
+
+    implementation:
+      technique: "Third form appears at intersection"
+      location: "Where force geometries overlap"
+      relationship: "Not blend of inputs - entirely new"
+
+    examples:
+      fear_desire_creates_war:
+        inputs: "Spiky sphere (fear) + Reaching tendrils (desire)"
+        emergent: "Clashing fragments (war)"
+        result: "New aggressive geometry emerges from conflict"
+
+      consciousness_pattern_creates_beauty:
+        inputs: "Sphere (consciousness) + Fractal (pattern)"
+        emergent: "Golden ratio spiral (beauty)"
+        result: "Aesthetic perfection emerges from awareness + order"
+
+      love_hope_creates_joy:
+        inputs: "Radiating sphere (love) + Rising spiral (hope)"
+        emergent: "Bouncing sphere with sparkles (humor/joy)"
+        result: "Playful radiance emerges"
+
+  # === COMPLEX INTERACTIONS (3+ shapes) ===
+  multiple_shapes:
+    dominant_focus:
+      rule: "Strongest force gets primary visual emphasis"
+      implementation: "Dominant shape full detail, others simplified or peripheral"
+
+    orbit_pattern:
+      when: "Multiple forces of similar strength"
+      visual: "Shapes orbit around common center"
+      example: "Healing triad - Love, Forgiveness, Coherence orbiting unified center"
+
+    layered_composition:
+      when: "Forces at different conceptual levels"
+      visual: "Background, middle, foreground layers"
+      example: "Consciousness (background sphere) + Pattern (middle fractal) + Love (foreground radiance)"
+
+    field_distortion:
+      when: "High complexity (4+ forces)"
+      visual: "Space itself distorts, shapes embedded in warped field"
+      example: "Multiple antagonistic forces - field shows stress lines, tears"
+
+  # === COHERENCE EFFECTS ON SHAPES ===
+  coherence_impact:
+    high_coherence:
+      range: "0.7-1.0"
+      effects:
+        - "Perfect sacred geometry visible"
+        - "Clean shape interactions (no glitching)"
+        - "Harmonious spatial relationships"
+        - "Emergent forms clear and beautiful"
+
+    medium_coherence:
+      range: "0.4-0.6"
+      effects:
+        - "Recognizable shapes, some distortion"
+        - "Interactions mostly clear"
+        - "Some spatial awkwardness"
+        - "Emergence partial"
+
+    low_coherence:
+      range: "0.0-0.3"
+      effects:
+        - "Broken geometries, fragmented"
+        - "Chaotic intersections"
+        - "Spatial incoherence (impossible geometry)"
+        - "Emergence fails"
+
+  # === SIZE RELATIONSHIPS ===
+  relative_sizing:
+    principle: "Size reflects activation level + tier importance"
+
+    size_calculation:
+      formula: "size = base_size * activation_level * tier_multiplier"
+      tier_multipliers:
+        tier_1: "1.2 (larger - primordial)"
+        tier_2: "1.0 (standard)"
+        tier_3: "0.9 (slightly smaller - personal)"
+        tier_4: "0.8 (smaller - emergent)"
+
+    dominance_display:
+      when: "One force much stronger than others"
+      visual: "Dominant shape large, others small around it"
+      example: "Fear at 0.9 dominates - huge spiky sphere, love at 0.3 barely visible"
+
+  # === SPATIAL ARRANGEMENT ===
+  positioning_rules:
+    synergistic: "Close, touching, overlapping (harmonious proximity)"
+    antagonistic: "Separated, facing off, tension between (fighting for space)"
+    neutralizing: "Occupying same space, both faded (mutual cancellation)"
+    transmutation: "One location, morphing in place (transformation)"
+    synthesis: "New shape at intersection point (emergence location)"
+
+  # === IMPLEMENTATION PSEUDOCODE ===
+  agent_implementation: |
+    def position_shapes(forces, coherence):
+        # 1. Get interaction type
+        interaction = get_interaction_type(forces)
+
+        # 2. Get base shapes
+        shapes = [get_primary_shape(f) for f in forces]
+
+        # 3. Calculate sizes
+        sizes = [calc_size(f.activation, f.tier) for f in forces]
+
+        # 4. Position based on interaction type
+        if interaction == "synergistic":
+            positions = harmonious_layout(shapes, sizes)
+            apply_sacred_geometry_overlay()
+
+        elif interaction == "antagonistic":
+            if coherence >= 0.7:
+                positions = separated_tension(shapes, sizes)
+            elif coherence >= 0.4:
+                positions = collision_course(shapes, sizes)
+            else:
+                positions = chaotic_intersection(shapes, sizes)
+
+        elif interaction == "neutralizing":
+            positions = same_location(shapes, sizes)
+            reduce_opacity(shapes)
+            blur_edges(shapes)
+
+        elif interaction == "transmutation":
+            position = single_location
+            animate_morph(shapes[0], shapes[1])
+
+        elif interaction == "synthesis":
+            positions = input_locations(shapes[0], shapes[1])
+            emergent_shape = create_emergent(forces)
+            place_at_intersection(emergent_shape)
+
+        # 5. Apply coherence effects
+        if coherence < 0.4:
+            apply_fragmentation(shapes)
+            add_visual_glitching()
+
+        return positioned_shapes
+
+  # === USAGE NOTES ===
+  usage_notes: |
+    Shape interactions define SPATIAL RELATIONSHIPS.
+
+    Clean separation:
+    - force_to_force/ = WHAT relationship
+    - This file = HOW shapes relate spatially
+
+    Agent uses:
+    1. Determine interaction type (force_to_force/)
+    2. Apply spatial rules (this file)
+    3. Modulate by coherence
+    4. Render positioned shapes
+
+    Key principle: Space tells story of relationship.
+    - Close = harmonious
+    - Separated = conflict
+    - Overlapped = neutralized
+    - Morphing = transforming
+    - New at center = emerging

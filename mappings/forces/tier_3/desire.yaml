@@ -1,0 +1,284 @@
+# Force Mapping: Desire
+
+desire:
+  # === METADATA ===
+  metadata:
+    tier: 3
+    category: "interface"  # Emotional/experiential force
+    dependencies: ["polarity", "entropy"]
+    source_doc: "docs/02_forces/tier_3_forces/02_desire.md"
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#DC143C"  # Crimson - intense, passionate red
+    color_family: "warm"
+    color_range:
+      - "#8B0000"  # Dark red (desperate craving)
+      - "#DC143C"  # Crimson (active desire)
+      - "#FF6347"  # Tomato red (passionate drive)
+      - "#FF7F50"  # Coral (lighter longing)
+
+    saturation_base: 0.85
+    brightness_base: 0.65
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (mild preference)
+        color: "#FF7F50"
+        saturation: 0.60
+        brightness: 0.70
+      medium_activation: # 0.4-0.7 (strong wanting)
+        color: "#DC143C"
+        saturation: 0.85
+        brightness: 0.65
+      high_activation:   # 0.8-1.0 (craving, obsession)
+        color: "#8B0000"
+        saturation: 0.95
+        brightness: 0.50
+
+    notes: |
+      Red represents passion, drive, wanting, reaching.
+      Crimson = blood, life force, vitality, hunger.
+      As desire increases, becomes darker, more intense.
+      At highest levels, dark red = craving, addiction, obsession.
+      Lighter coral = gentle longing, preference, interest.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "reaching_tendrils"  # Grasping, extending outward
+    sacred_geometry_association: null  # Desire is about lack/incompleteness
+    complexity_level: "complex"
+    edge_type: "organic"  # Flowing, reaching, alive
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Few tendrils extending gently outward.
+        Reaching but not desperate.
+        Curious, interested, open.
+      medium_activation: |
+        Multiple tendrils actively reaching.
+        Clear movement toward objects of desire.
+        Energetic, motivated, driven.
+      high_activation: |
+        Dense mass of grasping tendrils.
+        Desperate reaching in all directions.
+        Frantic, obsessive, never satisfied.
+        Tendrils may appear to writhe or claw.
+
+    notes: |
+      Tendrils = reaching for, grasping at, extending toward.
+      Not rooted sphere like coherence - always extending beyond self.
+      At low levels, gentle reaching (curiosity, interest).
+      At high levels, desperate grasping (addiction, craving).
+      Shape embodies "I want, I need, I must have."
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "reaching"  # Extending toward objects
+    speed_base: 0.65  # Fast - desire is urgent
+
+    speed_modifier:
+      low_intensity: 0.35   # Gentle longing
+      medium_intensity: 0.65  # Active wanting
+      high_intensity: 0.90   # Desperate craving
+
+    direction: "outward"  # Always toward external objects
+    rhythm: "pulsing"  # Waves of wanting
+
+    healthy_pattern:
+      description: "Motivated drive - clear goals, sustainable pursuit, can release attachment"
+      characteristics:
+        - "Knows what it wants"
+        - "Pursues with energy but not desperation"
+        - "Can let go if needed"
+        - "Desire motivates without consuming"
+
+    stuck_pattern:
+      description: "Craving and addiction - never satisfied, desperate grasping"
+      characteristics:
+        - "Insatiable wanting"
+        - "Achieving goals brings no satisfaction"
+        - "Constant hunger, never filled"
+        - "Desire becomes suffering"
+
+    notes: |
+      Reaching motion = extending toward what is wanted.
+      Pulsing rhythm = waves of desire arise and subside.
+      Healthy: desire motivates action, achieves goals, releases.
+      Stuck: craving never satisfied, achievement feels hollow.
+      This is the "hedonic treadmill" - always wanting more.
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.80  # Highly vibrant (desire is vivid, energizing)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "-0.15"  # High coherence reduces desperate wanting
+        description: "Desire present but not desperate, can pursue without attachment"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal desire and motivation"
+      low_coherence:     # 0.0-0.3
+        modifier: "+0.25"  # Low coherence amplifies craving
+        description: "Desire becomes craving, desperate grasping, addiction"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.30)"
+      multiplier: 0.30
+
+    interaction_modifier:
+      synergistic: "+0.15 to +0.20"  # With fear (desperate need), pain (seeking relief)
+      antagonistic: "-0.15 to -0.25"  # Opposed by love (acceptance), coherence (wholeness)
+      neutral: "0.0"
+
+    notes: |
+      Desire is energizing, motivating, vivid.
+      At low coherence, becomes addiction - grasping for wholeness externally.
+      At high coherence, can desire without desperation - already whole.
+      Desire + low coherence = craving, addiction, suffering.
+      Desire + high coherence = motivated action, clear pursuit, healthy ambition.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "smooth"
+    opacity_range:
+      min: 0.60  # Somewhat translucent (desire is visible but not solid)
+      max: 0.85  # Can be very present
+
+    particle_effects: true
+    particle_type: "trails"  # Following after objects of desire
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: 417  # Solfeggio frequency for "change and transformation"
+      tone_description: "Urgent, driving, like building musical crescendo"
+      musical_note: "C#"
+
+    emotional_tone: "wanting, reaching, driven, hungry, passionate"
+
+    consciousness_association: 0.30  # Desire consciousness level (Hawkins scale)
+
+    notes: |
+      Smooth texture = desire flows, reaches, extends.
+      Trails = following after what is wanted.
+      Building crescendo = desire builds, intensifies.
+      At 0.30 consciousness = above fear but still externally focused.
+      Desire seeks fulfillment outside self.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "fear"  # Fear of not getting = desperate desire
+      - "pain"  # Pain creates desire for relief
+      - "hope"  # Hope + desire = active pursuit
+
+    antagonistic_with:
+      - "love"  # Love accepts, desire wants
+      - "coherence"  # Coherence is whole, desire feels lack
+      - "death"  # Death ends desire
+
+    neutralizes: []
+
+    amplified_by:
+      - "fear"  # Fear amplifies desperate wanting
+      - "pain"  # Pain increases desire for relief
+      - "low_coherence"  # Fragmentation creates seeking
+
+    visual_blending_rules:
+      when_combined_with_fear:
+        force: "fear"
+        color_effect: "blend"  # Dark red + dark blue = dark purple-red
+        shape_effect: "merge"  # Grasping tendrils with defensive spikes
+        motion_effect: "frantic"  # Desperate reaching + recoiling
+        result_description: |
+          Fear + Desire = desperate grasping.
+          Want but afraid to reach, or reach desperately.
+          Dark crimson with defensive spikes on tendrils.
+          Frantic motion - reaching and pulling back simultaneously.
+          This is "anxious attachment" - want but fear rejection.
+        coherence_dependent: false
+
+      when_combined_with_love:
+        force: "love"
+        color_effect: "blend"  # Crimson + rose/gold = warm radiance
+        shape_effect: "transforming"  # Tendrils soften, open like petals
+        motion_effect: "flowing"  # Reaching becomes giving
+        result_description: |
+          Love transforms desire from grasping to giving.
+          Crimson softens to rose, tendrils become petals.
+          Reaching outward becomes radiating outward.
+          At high coherence: desire becomes devotion, service.
+          At medium coherence: healthy passion, motivated love.
+          At low coherence: desire still dominates, love tints it.
+        coherence_dependent: true
+
+      when_combined_with_pain:
+        force: "pain"
+        color_effect: "blend"  # Dark red + dark colors = deep suffering
+        shape_effect: "merge"  # Grasping desperately for relief
+        motion_effect: "frantic"  # Desperate seeking
+        result_description: |
+          Pain + Desire = craving for relief, addiction.
+          Dark, intense colors.
+          Desperate grasping for anything to stop the pain.
+          This is the mechanism of addiction - pain seeking relief through desire.
+        coherence_dependent: false
+
+      when_combined_with_hope:
+        force: "hope"
+        color_effect: "blend"  # Crimson + bright colors = energized pursuit
+        shape_effect: "synchronized"  # Both reach forward
+        motion_effect: "synchronized"  # Moving together toward future
+        result_description: |
+          Hope + Desire = motivated action, active pursuit.
+          Bright, energized colors.
+          Reaching toward envisioned future.
+          This is healthy ambition - hope provides vision, desire provides drive.
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Crimson + gold = warm radiance
+        shape_effect: "nested"  # Desire held within coherence
+        motion_effect: "dampened"  # Coherence reduces desperate quality
+        result_description: |
+          Coherence transforms desire from lack to motivated action.
+          Tendrils less desperate, more directed.
+          Golden light softens crimson intensity.
+          Can want without needing - already whole.
+          This is "conscious desire" - preference without attachment.
+        coherence_dependent: false
+
+      when_combined_with_creation:
+        force: "creation"
+        color_effect: "blend"  # Crimson + creation's colors
+        shape_effect: "merge"  # Desire provides energy for creation
+        motion_effect: "synchronized"  # Both generative
+        result_description: |
+          Desire provides drive for creative action.
+          Wanting to make, build, bring into being.
+          Energetic, passionate creation.
+          Desire as fuel for manifestation.
+        coherence_dependent: false
+
+    notes: |
+      Desire at 0.30 consciousness = above fear, below acceptance.
+      Desire seeks fulfillment externally (relationship to lack).
+      At higher consciousness, desire transforms to preference without attachment.
+      Fear + Desire = anxious grasping.
+      Love + Desire = devotion, passionate service.
+      Pain + Desire = addiction, craving.
+      Hope + Desire = motivated action, healthy ambition.
+      Coherence transforms desire from desperate to directed.
+
+# IMPLEMENTATION NOTES:
+# - Desire calibrates at 0.30 consciousness (Hawkins scale)
+# - Not inherently negative - provides motivation, drive, creative fuel
+# - Healthy desire = clear goals, energetic pursuit, can release
+# - Stuck desire = craving, addiction, never satisfied
+# - Visual should feel reaching, extending, passionate, urgent
+# - At low coherence: desperate grasping (seeking wholeness externally)
+# - At high coherence: motivated action (already whole, pursuing preferences)
+# - Key insight: desire + pain = addiction mechanism
+# - Key insight: desire + love = devotion, service

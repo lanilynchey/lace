@@ -1,0 +1,149 @@
+# Lifestyle Factor: Meditation Practice
+
+meditation_practice:
+  # === METADATA ===
+  metadata:
+    category: "mental_spiritual"
+    measurement_type: "objective_and_subjective"  # Minutes per day + quality of practice
+    update_frequency: "daily"
+    importance: "high"  # Direct coherence and consciousness training
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "No practice - no regular meditation or contemplative practice"
+      indicators:
+        - "No meditation practice"
+        - "Mind constantly busy, reactive"
+        - "No pause between stimulus and response"
+        - "Identified with thoughts/emotions"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Regular practice - 5-20 minutes daily, establishing habit"
+      indicators:
+        - "5-20 minutes daily"
+        - "Can observe thoughts sometimes"
+        - "Some space between stimulus and response"
+        - "Beginning to disidentify from thoughts"
+        - "Still struggling but committed"
+
+    high:
+      range: "0.8-1.0"
+      description: "Established practice - 20+ minutes daily, deep practice"
+      indicators:
+        - "20+ minutes daily consistently"
+        - "Can observe thoughts/emotions without identification"
+        - "Clear space between stimulus and response"
+        - "Presence accessible throughout day"
+        - "Practice deepening, insights emerging"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    consciousness:
+      low: -0.10    # No training in awareness
+      medium: +0.20  # Direct consciousness training
+      high: +0.35   # Sustained practice dramatically expands awareness
+      notes: "Meditation is direct consciousness training - literally practicing awareness"
+
+    coherence:
+      low: 0.0
+      medium: +0.25  # Meditation integrates, aligns, creates internal harmony
+      high: +0.40   # Deep practice = profound coherence
+      notes: "Meditation is coherence training - integrating fragmented awareness"
+
+    fear:
+      low: 0.0
+      medium: -0.20  # Practice reduces fear reactivity
+      high: -0.35   # Deep practice allows witnessing fear without identification
+      notes: "Meditation creates space around fear - can observe without being consumed"
+
+    judgment:
+      low: 0.0
+      medium: -0.15  # Practice softens harsh judgment
+      high: -0.30   # Deep practice transforms judgment to discernment
+      notes: "Witnessing thoughts includes judging thoughts - can see without condemning"
+
+    pain:
+      low: 0.0
+      medium: -0.15  # Practice changes relationship to pain
+      high: -0.25   # Deep practice allows pain without suffering
+      notes: "Pain inevitable, suffering optional - meditation reveals the difference"
+
+    love:
+      low: 0.0
+      medium: +0.15  # Practice opens heart, cultivates compassion
+      high: +0.25   # Deep practice reveals love as natural state
+      notes: "Loving-kindness naturally emerges with practice"
+
+    peace:
+      low: 0.0
+      medium: +0.20  # Practice creates inner peace
+      high: +0.35   # Deep practice = unshakeable peace
+      notes: "Peace is not absence of noise, it's silence within noise - meditation trains this"
+
+    clarity:
+      low: 0.0
+      medium: +0.20  # Mental fog lifts
+      high: +0.30   # Mind becomes clear, sharp, focused
+      notes: "Meditation is defragmentation for mind - reorganizes, clarifies"
+
+    reactivity:
+      low: 0.0
+      medium: -0.25  # Space between stimulus and response grows
+      high: -0.40   # Can choose response vs automatic reaction
+      notes: "Viktor Frankl: 'Between stimulus and response there is a space' - meditation expands this space"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Single session creates noticeable calm
+    chronic_impact: "transformative"  # Long-term practice reshapes brain (neuroplasticity)
+    recovery_time: "Benefits fade within days of stopping, return quickly upon resuming"
+
+    notes: |
+      Meditation effects are both immediate (calm, clarity) and cumulative (structural brain changes).
+      Neuroplasticity research shows meditation literally changes brain structure.
+      "Neurons that fire together wire together" - meditation rewires brain toward presence.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - all_contemplative_practices: "Meditation deepens prayer, journaling, reflection"
+      - self_awareness: "Primary tool for knowing thyself"
+      - emotional_regulation: "Ability to feel without being overwhelmed"
+
+    dampens:
+      - reactivity: "Automatic responses decrease"
+      - rumination: "Obsessive thinking decreases"
+      - identification_with_thoughts: "Thoughts seen as weather, not self"
+
+    synergizes_with:
+      - therapy: "Meditation + therapy = powerful combination"
+      - exercise: "Both create embodied presence"
+      - nature: "Nature meditation = amplified benefits"
+
+  # === NOTES ===
+  notes: |
+    Meditation is not about stopping thoughts - it's about changing relationship to thoughts.
+    "You can't stop the waves, but you can learn to surf." - Jon Kabat-Zinn
+
+    Key insights:
+    - Meditation = training attention (most important skill)
+    - Thoughts are not facts, not self, not commands
+    - Gap between thoughts = where peace lives
+    - Witnessing = freedom (I am not my thoughts)
+    - Consistency > duration (5 min daily > 60 min weekly)
+
+    Types of meditation:
+    - Concentration (focus on one thing)
+    - Mindfulness (open awareness)
+    - Loving-kindness (cultivate compassion)
+    - Body scan (embodied awareness)
+    - All train different aspects of consciousness
+
+    "The mind is a wonderful servant but a terrible master."
+    Meditation trains us to be master, not servant.
+
+    Resistance to meditation is normal - mind resists being observed.
+    "The monkey mind doesn't want to sit still."

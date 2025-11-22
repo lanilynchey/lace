@@ -1,0 +1,304 @@
+# Lifestyle Factor: Self-Compassion
+
+self_compassion:
+  # === METADATA ===
+  metadata:
+    category: "mental_spiritual"
+    measurement_type: "subjective"  # How you relate to yourself in difficulty
+    update_frequency: "weekly"
+    importance: "critical"  # Self-relationship underlies everything
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Self-criticism - harsh inner critic, no self-kindness, punishing self-talk"
+      indicators:
+        - "Harsh, critical inner voice dominates"
+        - "Beat yourself up for mistakes"
+        - "No self-kindness in difficulty"
+        - "Much harsher to self than to others"
+        - "Perfectionism, self-punishment"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Mixed - some self-kindness, some criticism, learning self-compassion"
+      indicators:
+        - "Sometimes kind to self, sometimes harsh"
+        - "Recognize self-criticism, working on it"
+        - "Occasional self-compassion in difficulty"
+        - "Still some perfectionism, but softening"
+        - "Growing awareness of self-talk"
+
+    high:
+      range: "0.8-1.0"
+      description: "Self-compassionate - kind inner voice, treat self as friend, gentleness default"
+      indicators:
+        - "Kind, supportive inner voice"
+        - "Treat self as would treat good friend"
+        - "Gentleness with mistakes, failures"
+        - "Recognize shared humanity in struggle"
+        - "Self-compassion as default response to difficulty"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    shame:
+      low: +0.45    # Self-criticism = shame amplifier
+      medium: +0.05
+      high: -0.40   # Self-compassion = shame antidote
+      notes: "Shame cannot survive compassion - they're incompatible states"
+
+    self_worth:
+      low: -0.40    # Self-attack = worthlessness
+      medium: +0.05
+      high: +0.35   # Self-compassion confirms worth
+      notes: "How you treat yourself = what you believe you deserve"
+
+    emotional_resilience:
+      low: -0.35    # Self-criticism weakens resilience
+      medium: +0.05
+      high: +0.35   # Self-compassion builds resilience
+      notes: "Compassion = emotional safety net - enables risk, growth"
+
+    growth:
+      low: -0.30    # Self-criticism prevents growth (too unsafe)
+      medium: +0.10
+      high: +0.30   # Self-compassion enables growth
+      notes: "Growth requires safety - criticism creates threat, compassion creates safety"
+
+    anxiety:
+      low: +0.30    # Self-criticism = constant threat
+      medium: 0.0
+      high: -0.25   # Self-compassion reduces anxiety
+      notes: "Self-criticism = self-as-threat; self-compassion = self-as-ally"
+
+    depression:
+      low: +0.35    # Self-attack = depression fuel
+      medium: +0.05
+      high: -0.30   # Self-compassion protective against depression
+      notes: "Depression = attack on self - compassion interrupts attack"
+
+    courage:
+      low: -0.30    # Can't be brave when beating yourself up
+      medium: +0.05
+      high: +0.25   # Compassion enables courage (safe to try)
+      notes: "Courage requires knowing you'll be okay if you fail - compassion provides that"
+
+    perfectionism:
+      low: +0.40    # Self-criticism drives perfectionism
+      medium: +0.10
+      high: -0.35   # Compassion releases perfectionism
+      notes: "Perfectionism = attempt to avoid self-attack - compassion makes it unnecessary"
+
+    coherence:
+      low: -0.30    # Self-attack creates internal war
+      medium: +0.05
+      high: +0.30   # Self-compassion creates internal peace
+      notes: "Compassion = peace with self - coherence foundation"
+
+    motivation:
+      low: -0.25    # Criticism demotivates long-term
+      medium: 0.0
+      high: +0.25   # Compassion motivates sustainably
+      notes: "Criticism works short-term, burns out. Compassion sustains motivation."
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Single compassionate moment shifts state
+    chronic_impact: "life_changing"  # Self-relationship is foundation of wellbeing
+    recovery_time: "Practice accessible any time, but habit takes months"
+
+    notes: |
+      Self-compassion changes everything - it's relationship with yourself.
+      Single compassionate moment = relief, safety.
+      Sustained practice = transformed self-relationship.
+      This is not self-indulgence - it's survival skill.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - growth: "Safe to try, fail, learn"
+      - courage: "Compassion enables risk"
+      - resilience: "Compassion = emotional safety net"
+
+    dampens:
+      - shame: "Compassion is shame's kryptonite"
+      - perfectionism: "Compassion releases impossible standards"
+      - self_attack: "Compassion interrupts criticism cycle"
+
+    synergizes_with:
+      - therapy: "Compassion = therapy's goal often"
+      - meditation: "Loving-kindness meditation builds this"
+      - vulnerability: "Compassion makes vulnerability possible"
+
+  # === NOTES ===
+  notes: |
+    Self-compassion is treating yourself as you'd treat a good friend.
+    Not self-pity, not self-indulgence - it's basic kindness to self.
+
+    Key insights:
+    - You can't hate yourself into loving yourself
+    - You can't shame yourself into change (sustainable change)
+    - Self-criticism ≠ motivation (it's self-attack)
+    - Compassion ≠ letting yourself off hook (it's taking responsibility WITH kindness)
+    - How you talk to yourself matters immensely
+
+    Kristin Neff's three components:
+
+    **1. Self-Kindness vs Self-Judgment**
+    - Warm understanding toward self in failure/suffering
+    - Active soothing, comforting
+    - vs harsh criticism, attack
+
+    **2. Common Humanity vs Isolation**
+    - Recognize suffering is part of being human
+    - Everyone struggles, makes mistakes
+    - vs "only me" isolation, feeling defective
+
+    **3. Mindfulness vs Over-Identification**
+    - Balanced awareness of painful thoughts/feelings
+    - Neither suppressing nor ruminating
+    - vs drowning in emotion, or avoiding it
+
+    Why self-compassion matters:
+
+    **Mental health:**
+    - Less anxiety, depression, stress
+    - Greater emotional resilience
+    - Better able to cope with difficulty
+    - Reduced perfectionism, shame
+
+    **Growth:**
+    - More likely to try new things (safer to fail)
+    - More motivated (from care, not criticism)
+    - Better able to learn from mistakes
+    - Greater courage, willingness
+
+    **Relationships:**
+    - More compassionate to others (can't give what you don't have)
+    - Healthier boundaries (worth protecting)
+    - Less defensive (secure in worth)
+    - More authentic (less performance)
+
+    Self-compassion vs self-esteem:
+
+    **Self-esteem:**
+    - Based on achievement, comparison
+    - "I'm good because I'm better than..."
+    - Fragile (depends on success)
+    - Can lead to narcissism, defensiveness
+
+    **Self-compassion:**
+    - Based on humanity, worth
+    - "I'm worthy because I'm human"
+    - Stable (not based on performance)
+    - Leads to genuine self-acceptance
+
+    Common objections:
+
+    "Isn't self-compassion self-indulgent?"
+    - No - it's basic human kindness applied to self
+    - Indulgence = harmful excess
+    - Compassion = care for wellbeing
+    - You can't pour from empty cup
+
+    "Won't I become lazy without self-criticism?"
+    - Research says opposite: compassion more motivating long-term
+    - Criticism = motivation from fear (unsustainable)
+    - Compassion = motivation from care (sustainable)
+    - Athletes with self-compassion train harder, recover better
+
+    "I don't deserve compassion"
+    - Compassion not earned - it's birthright
+    - You deserve it because you're human
+    - Everyone deserves compassion
+    - This thought itself needs compassion
+
+    How to practice self-compassion:
+
+    **Self-compassion break (Kristin Neff):**
+    When struggling, say to yourself:
+    1. "This is a moment of suffering" (mindfulness)
+    2. "Suffering is part of life" (common humanity)
+    3. "May I be kind to myself" (self-kindness)
+
+    **Supportive touch:**
+    - Hand on heart
+    - Hug yourself
+    - Gentle hand on cheek
+    - Physical comfort activates care system
+
+    **Compassionate self-talk:**
+    - "What would I say to a friend in this situation?"
+    - Say that to yourself
+    - Tone matters - warm, gentle, understanding
+
+    **Reframe self-criticism:**
+    - Notice harsh inner voice
+    - Ask: "Is this helping?"
+    - Rephrase with kindness:
+      - Criticism: "You idiot, how could you mess that up?"
+      - Compassion: "You made a mistake. Everyone does. What can you learn?"
+
+    **Loving-kindness meditation:**
+    - Traditional practice for cultivating compassion
+    - Phrases like "May I be safe, may I be healthy, may I live with ease"
+    - Start with self, extend to others
+
+    **Common humanity reminders:**
+    - "I'm not alone in this"
+    - "Everyone struggles"
+    - "Making mistakes is part of being human"
+    - Isolation intensifies suffering - connection eases it
+
+    Self-compassion in action:
+
+    **When you fail:**
+    - Criticism: "I'm such a loser, I can't do anything right"
+    - Compassion: "I'm disappointed, but everyone fails sometimes. What can I learn?"
+
+    **When you're suffering:**
+    - Criticism: "I shouldn't feel this way, I'm weak"
+    - Compassion: "This is really hard. It's okay to struggle. How can I support myself?"
+
+    **When you don't meet standard:**
+    - Criticism: "I'm not good enough, I'll never be good enough"
+    - Compassion: "I'm doing my best. I'm learning, growing. That's enough."
+
+    Self-compassion is not:
+    - Self-pity (feeling sorry for yourself)
+    - Self-indulgence (letting yourself off hook)
+    - Self-esteem (based on comparison/achievement)
+    - Weak (it takes strength)
+
+    Self-compassion is:
+    - Self-kindness (basic humanity)
+    - Self-responsibility (with gentleness)
+    - Self-worth (inherent, not earned)
+    - Strength (foundation of resilience)
+
+    Research findings (Kristin Neff, Christopher Germer):
+    - Self-compassion predicts wellbeing better than self-esteem
+    - Associated with less anxiety, depression, perfectionism
+    - Associated with more resilience, motivation, life satisfaction
+    - Can be learned (not fixed trait)
+    - Practice increases it significantly
+
+    "If your compassion does not include yourself, it is incomplete." - Buddha
+
+    The voice in your head - you're stuck with it for life.
+    Make it a kind one.
+    You deserve a supportive inner ally, not harsh inner critic.
+
+    Self-compassion is not luxury - it's necessity.
+    You cannot heal in environment of self-attack.
+    Compassion creates safety for growth, healing, change.
+
+    Start today:
+    When you notice self-criticism, pause.
+    Place hand on heart.
+    Say: "May I be kind to myself in this moment."
+
+    That's enough. That's the practice.
+    Everything else grows from that one kind moment.
+

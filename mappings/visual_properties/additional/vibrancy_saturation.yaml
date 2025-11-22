@@ -1,0 +1,56 @@
+# Vibrancy & Saturation
+# Overall energy and color intensity modulation
+
+vibrancy_saturation:
+  principle: |
+    Vibrancy = overall visual energy, "aliveness"
+    Saturation = color purity (vivid vs washed out)
+    
+    Both are primarily affected by COHERENCE (not activation).
+    Coherence = global multiplier on all visual intensity.
+
+  vibrancy_scale:
+    high: "0.8-1.0 - Radiant, glowing, energetic"
+    medium: "0.5-0.7 - Standard, balanced"
+    low: "0.0-0.4 - Dull, lifeless, faded"
+
+  saturation_scale:
+    high: "0.8-1.0 - Pure, vivid colors"
+    medium: "0.5-0.7 - Normal color intensity"
+    low: "0.0-0.4 - Desaturated, gray-tinted"
+
+  coherence_multiplier:
+    formula: |
+      vibrancy = base_vibrancy + (coherence - 0.5) * 0.6
+      saturation = base_saturation + (coherence - 0.5) * 0.4
+      
+      At coherence 0.0: -0.30 vibrancy, -0.20 saturation
+      At coherence 0.5: +0.00 (baseline)
+      At coherence 1.0: +0.30 vibrancy, +0.20 saturation
+
+  force_base_vibrancy:
+    high_vibrancy_forces:
+      - love: 0.75
+      - creation: 0.80
+      - hope: 0.70
+      - beauty: 0.85
+      - humor: 0.75
+    
+    medium_vibrancy_forces:
+      - consciousness: 0.60
+      - pattern: 0.65
+      - coherence: 0.70
+      - music: 0.60
+      - art: 0.65
+    
+    low_vibrancy_forces:
+      - entropy: 0.30
+      - death: 0.20
+      - fear: 0.40
+      - pain: 0.35
+      - madness: 0.45
+
+  interaction_effects:
+    synergistic: "+0.10 to +0.20 vibrancy boost"
+    antagonistic: "-0.15 to -0.30 vibrancy penalty"
+    neutralizing: "-0.20 to -0.40 (muddy desaturation)"

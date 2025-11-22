@@ -1,0 +1,219 @@
+# Lifestyle Factor: Breath Work Practice
+
+breath_work:
+  # === METADATA ===
+  metadata:
+    category: "physical_body"
+    measurement_type: "objective_and_subjective"  # Minutes per day + quality/type
+    update_frequency: "daily"
+    importance: "high"  # Breath is direct nervous system access point
+
+  # === THRESHOLDS ===
+  thresholds:
+    low:
+      range: "0.0-0.3"
+      description: "Unconscious breathing - no awareness, chest breathing, stress patterns"
+      indicators:
+        - "No conscious breath practice"
+        - "Shallow chest breathing (not diaphragmatic)"
+        - "Breath holding during stress"
+        - "No awareness of breath patterns"
+        - "Breathing is entirely unconscious"
+
+    medium:
+      range: "0.4-0.7"
+      description: "Some practice - occasional conscious breathing, growing awareness"
+      indicators:
+        - "5-10 minutes daily breath practice"
+        - "Some diaphragmatic breathing"
+        - "Occasional breath awareness"
+        - "Use breath for stress management sometimes"
+        - "Beginning to notice breath patterns"
+
+    high:
+      range: "0.8-1.0"
+      description: "Regular practice - consistent breath work, deep awareness, diaphragmatic default"
+      indicators:
+        - "10+ minutes daily breath practice"
+        - "Primarily diaphragmatic breathing"
+        - "Frequent breath awareness throughout day"
+        - "Use breath as primary nervous system regulator"
+        - "Breath integrated into life, not just practice"
+
+  # === FORCE IMPACTS ===
+  force_impacts:
+    coherence:
+      low: -0.20    # Unconscious, dysregulated breathing fragments
+      medium: +0.15
+      high: +0.30   # Conscious breathing creates coherence
+      notes: "Breath is only autonomic function we can consciously control - bridge to coherence"
+
+    stress:
+      low: +0.25    # Shallow breathing = stress signal to body
+      medium: -0.15
+      high: -0.35   # Breath work is fastest stress reducer
+      notes: "Deep breathing = direct parasympathetic activation - stress impossible with slow breathing"
+
+    anxiety:
+      low: +0.20    # Rapid breathing = anxiety feedback loop
+      medium: -0.15
+      high: -0.30   # Breath work breaks anxiety cycle
+      notes: "Anxiety and slow breathing are physiologically incompatible"
+
+    presence:
+      low: -0.15    # Unconscious breathing = unconscious living
+      medium: +0.15
+      high: +0.30   # Breath awareness = instant presence
+      notes: "Can't breathe in past or future - breath is always now"
+
+    energy:
+      low: -0.20    # Shallow breathing = poor oxygenation
+      medium: +0.10
+      high: +0.25   # Proper breathing = optimal energy
+      notes: "Oxygen is energy - shallow breathing = chronic under-oxygenation"
+
+    emotional_regulation:
+      low: -0.20    # No breath tool for emotion management
+      medium: +0.20
+      high: +0.35   # Breath is master emotion regulator
+      notes: "Can't change emotion directly, but can change breath - emotion follows"
+
+    heart_rate_variability:
+      low: -0.25    # Poor breathing = low HRV (stress indicator)
+      medium: +0.10
+      high: +0.30   # Breath work increases HRV (resilience marker)
+      notes: "HRV = nervous system flexibility - breath work primary way to improve"
+
+    blood_pressure:
+      low: +0.15    # Shallow breathing = higher BP
+      medium: 0.0
+      high: -0.20   # Deep breathing lowers BP
+      notes: "Breath work as effective as medication for mild hypertension"
+
+    inflammation:
+      low: +0.15    # Stress breathing = inflammatory
+      medium: 0.0
+      high: -0.20   # Certain breath patterns anti-inflammatory
+      notes: "Slow breathing activates vagus nerve - anti-inflammatory cascade"
+
+    sleep_quality:
+      low: -0.15    # Stress breathing patterns persist into sleep
+      medium: 0.0
+      high: +0.20   # Breath work before bed improves sleep
+      notes: "Breathing down-regulates nervous system - perfect sleep prep"
+
+  # === TEMPORAL DYNAMICS ===
+  temporal_dynamics:
+    acute_impact: "immediate"  # Single breath cycle can shift state
+    chronic_impact: "transformative"  # Regular practice rewires nervous system
+    recovery_time: "Benefits immediate, return with single breath"
+
+    notes: |
+      Breath is fastest state-change tool - works in seconds.
+      5 minutes of breath work = measurable nervous system shift.
+      Regular practice = baseline nervous system changes (trait, not just state).
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    amplifies:
+      - meditation: "Breath is common meditation anchor"
+      - stress_management: "Breath is primary stress tool"
+      - emotional_regulation: "Breath regulates emotion directly"
+
+    dampens:
+      - anxiety: "Slow breathing physiologically incompatible with anxiety"
+      - panic: "Box breathing stops panic attacks"
+      - stress: "Instant parasympathetic activation"
+
+    synergizes_with:
+      - meditation: "Breath + awareness = powerful combination"
+      - exercise: "Breath awareness improves performance"
+      - cold_exposure: "Wim Hof method combines both"
+
+  # === NOTES ===
+  notes: |
+    Breath is the remote control for nervous system.
+    Only autonomic function we can consciously control - use it.
+
+    Key insights:
+    - Breath = direct line to nervous system (sympathetic/parasympathetic)
+    - Can't be anxious while breathing slowly (physiological impossibility)
+    - Average person: 12-20 breaths/min (stressed), optimal: 5-6 breaths/min
+    - Exhale longer than inhale = parasympathetic (calming)
+    - Inhale longer than exhale = sympathetic (energizing)
+    - Breath holding = stress signal (many people unconsciously hold)
+
+    Diaphragmatic vs chest breathing:
+    - Chest breathing = stress breathing (shallow, rapid)
+    - Diaphragmatic = relaxed breathing (deep, slow, belly expands)
+    - Most people chest breathe habitually (stress pattern)
+    - Diaphragmatic breathing = full oxygen exchange, nervous system calm
+
+    Basic breath work techniques:
+
+    **Box Breathing (4-4-4-4):**
+    - Inhale 4 counts
+    - Hold 4 counts
+    - Exhale 4 counts
+    - Hold 4 counts
+    - Repeat
+    - Effect: Calming, focus, stops panic
+
+    **4-7-8 Breathing:**
+    - Inhale 4 counts
+    - Hold 7 counts
+    - Exhale 8 counts
+    - Effect: Deep relaxation, sleep aid
+
+    **Coherent Breathing (5-5):**
+    - Inhale 5 counts
+    - Exhale 5 counts
+    - 6 breaths per minute = optimal HRV
+    - Effect: Maximum heart rate variability, coherence
+
+    **Wim Hof Breathing:**
+    - 30-40 deep breaths (rapid)
+    - Hold after exhale (1-3 minutes)
+    - Recovery breath
+    - Effect: Energizing, immune boost, stress resilience
+
+    **Alternate Nostril:**
+    - Close right nostril, inhale left
+    - Close left nostril, exhale right
+    - Inhale right, exhale left
+    - Repeat
+    - Effect: Balance, calm, focus
+
+    **2:1 Exhale:**
+    - Exhale twice as long as inhale
+    - Any count (4-8, 5-10, etc.)
+    - Effect: Maximum parasympathetic activation
+
+    Breath and emotion:
+    - Anxiety = rapid, shallow, chest
+    - Calm = slow, deep, diaphragmatic
+    - Anger = forceful, irregular
+    - Joy = light, easy, expansive
+    - Can change emotion by changing breath
+
+    Breath awareness practice:
+    - Simply notice breath (no changing)
+    - Watch natural rhythm
+    - Feel sensation (nose, chest, belly)
+    - Notice pause between breaths
+    - This is meditation
+
+    "Breath is the bridge between body and mind" - Thich Nhat Hanh
+
+    When to use:
+    - Stress/anxiety = slow deep breathing
+    - Before sleep = 4-7-8
+    - During work = coherent breathing
+    - Need energy = Wim Hof style
+    - Panic attack = box breathing
+    - Any time = just notice breath
+
+    Breath is free, always available, immediately effective.
+    Most underutilized tool for wellbeing.
+
+    "If you want to conquer the anxiety of life, live in the moment, live in the breath." - Amit Ray

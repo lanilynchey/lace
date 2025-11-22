@@ -1,0 +1,725 @@
+# Force Mapping: Courage
+
+courage:
+  # === METADATA ===
+  metadata:
+    tier: 4
+    category: "emergent"  # Arises from combination of other forces
+    dependencies: ["fear", "coherence", "consciousness"]
+    emergent_formula: "courage = coherence + consciousness - fear_dominance"
+    source_doc: "docs/02_forces/tier_4_forces/01_courage.md"
+
+  # === FORMULA CONSTRAINTS ===
+  # Source of truth: docs/04_advanced/advanced_concepts/14_consciousness_scale_framework.md
+  # (Extreme Human States section documents consciousness as low as 0.01, fear paralysis states)
+
+  formula_constraints:
+    critical_note: |
+      This formula is mathematically and philosophically PROFOUND:
+
+      courage = coherence + consciousness - fear_dominance
+
+      Courage = (internal resources) - (what opposes courage)
+      - Resources: coherence (alignment) + consciousness (awareness)
+      - Opposition: fear_dominance (how much fear controls)
+
+      Key insight: If fear > resources, courage goes NEGATIVE (clamped to 0).
+      This is ACCURATE: when fear overwhelms your resources, courage cannot emerge.
+      You are paralyzed, frozen, collapsed by fear.
+
+      Conversely: If resources > fear, courage emerges and can exceed 1.0 (clamped).
+      This is ACCURATE: with high coherence + consciousness and low fear = unwavering courage.
+
+      Source: docs/04_advanced/advanced_concepts/14_consciousness_scale_framework.md
+              docs/02_forces/tier_4_forces/01_courage.md
+
+    input_safety:
+      consciousness_floor: 0.05
+      coherence_floor: 0.05
+      fear_dominance_floor: 0.0  # Fear can legitimately be 0 (no fear present)
+      fear_dominance_ceiling: 1.0  # Fear dominance maxes at 1.0 (total control)
+
+      rationale: |
+        Floors for consciousness/coherence prevent extreme edge cases.
+        Fear_dominance has natural bounds [0.0, 1.0]:
+        - 0.0 = fear absent or not controlling
+        - 1.0 = fear completely dominates (paralysis)
+
+    calculation_method: |
+      # Apply safety floors to consciousness and coherence
+      consciousness_safe = max(consciousness_actual, 0.05)
+      coherence_safe = max(coherence_actual, 0.05)
+
+      # Clamp fear_dominance to valid range
+      fear_dominance_safe = clamp(fear_dominance_actual, 0.0, 1.0)
+
+      # Calculate courage (can produce negative or >1.0 values)
+      courage_raw = coherence_safe + consciousness_safe - fear_dominance_safe
+
+      # Clamp result to valid activation range
+      courage_final = clamp(courage_raw, 0.0, 1.0)
+
+      return courage_final
+
+    output_safety:
+      activation_range: [0.0, 1.0]
+      clamp_behavior: "to_range"  # Clamp both min (negative) and max (>1.0)
+
+      note: |
+        Unlike multiplication (always positive), addition/subtraction can produce:
+        - Negative values (when fear > resources) → clamp to 0.0
+        - Values >1.0 (when resources high, fear low) → clamp to 1.0
+
+        Both are meaningful:
+        - Negative before clamp = fear paralysis (courage impossible)
+        - >1.0 before clamp = unwavering courage (fear minimal, resources maximal)
+
+    edge_cases:
+      courage_equals_1.0:
+        interpretation: "Unwavering courage - fear minimal, resources maximal"
+        conditions:
+          - "coherence + consciousness high (1.5+)"
+          - "AND fear_dominance low (0.0-0.3)"
+        example_calculation: "0.90 + 0.85 - 0.15 = 1.60 → clamped to 1.0"
+        experience: "Unshakeable, grounded confidence - fear present but not controlling"
+        visual: "Brilliant orange pillar of light, immovable, radiant"
+        note: "Not absence of fear - resources so abundant that fear cannot dominate"
+
+      courage_equals_0.0:
+        interpretation: "Fear paralysis - courage impossible, overwhelmed"
+        conditions:
+          - "fear_dominance > (coherence + consciousness)"
+          - "Resources insufficient to face fear"
+        example_calculation_1: "0.30 + 0.25 - 0.80 = -0.25 → clamped to 0.0"
+        example_calculation_2: "0.10 + 0.15 - 0.90 = -0.65 → clamped to 0.0"
+        experience: "Frozen, paralyzed, collapsed by fear - cannot act"
+        medical_context: "Panic attack, PTSD freeze response, overwhelming terror"
+        visual: "No orange visible - dark blue fear dominates completely"
+        note: |
+          Negative raw value indicates HOW MUCH fear exceeds resources.
+          -0.25 = slightly paralyzed, -0.65 = severely paralyzed.
+          This matches lived experience: "Fear was bigger than I could handle."
+
+      courage_very_low_0.01_to_0.20:
+        interpretation: "Minimal courage - barely able to act, fear nearly paralyzing"
+        conditions:
+          - "fear_dominance only slightly less than resources"
+          - "0.01 ≤ (coherence + consciousness - fear_dominance) ≤ 0.20"
+        example: "0.40 + 0.35 - 0.70 = 0.05"
+        experience: "Trembling, barely holding on, forcing yourself to act"
+        visual: "Faint orange flicker trying to emerge from dark blue fear"
+        note: "This IS what it feels like to act despite overwhelming fear"
+
+      courage_threshold_0.20:
+        interpretation: "Courage threshold - minimum to act despite fear (Hawkins scale)"
+        conditions: "courage activation ≥ 0.20"
+        significance: |
+          0.20 consciousness = courage level on Hawkins scale.
+          Below 0.20: fear dominates (shame, guilt, apathy, grief, fear levels).
+          At 0.20+: can choose action despite fear.
+        example: "0.50 + 0.45 - 0.75 = 0.20"
+        experience: "Just enough courage to take action, even if scared"
+        visual: "Small but steady orange pillar standing firm"
+
+      courage_medium_0.40_to_0.70:
+        interpretation: "Steady courage - can act despite fear, grounded"
+        conditions: "Healthy resources, moderate fear"
+        example: "0.65 + 0.60 - 0.50 = 0.75 → clamped to 0.75"
+        experience: "Feel the fear and do it anyway - grounded, steady"
+        visual: "Clear orange pillar standing firm, advancing"
+
+      courage_high_0.80_to_1.0:
+        interpretation: "Unwavering courage - fear minimal or resources abundant"
+        conditions: "High coherence + consciousness, low fear"
+        example: "0.90 + 0.85 - 0.20 = 1.55 → clamped to 1.0"
+        experience: "Absolutely certain, grounded confidence, unshakeable"
+        visual: "Brilliant orange-gold pillar radiating strength"
+
+    below_baseline_consciousness_behavior:
+      consciousness_0.15_to_0.20:
+        state: "Severe dissociation / Catatonic depression"
+        typical_coherence: "0.10-0.20"
+        typical_fear_dominance: "0.60-0.90"
+        courage_typical: "0.0 (often negative before clamp)"
+        calculation_example: "0.18 + 0.15 - 0.85 = -0.52 → 0.0"
+        experience: "Complete fear paralysis - cannot move, cannot act"
+        note: |
+          Resources too depleted to generate courage.
+          Fear dominance overwhelming relative to available coherence/consciousness.
+
+      consciousness_0.10_to_0.15:
+        state: "Psychotic break / Active psychosis"
+        typical_coherence: "0.05-0.10"
+        typical_fear_dominance: "0.70-1.0"
+        courage_typical: "0.0 (deeply negative before clamp)"
+        calculation_example: "0.12 + 0.08 - 0.95 = -0.75 → 0.0"
+        experience: "Terror, paranoia, complete overwhelm - courage impossible"
+        note: |
+          Extreme fragmentation + low consciousness = minimal resources.
+          High fear dominance (persecutory delusions, terror) overwhelms.
+          Raw negative value (-0.75) shows severity of fear paralysis.
+
+      consciousness_0.05_to_0.10:
+        state: "Coma / Vegetative state"
+        typical_coherence: "0.0-0.10"
+        typical_fear_dominance: "Variable (0.0-0.5)"
+        courage_typical: "0.0-0.10 (if fear low) or 0.0 (if fear present)"
+        calculation_example: "0.08 + 0.05 - 0.20 = -0.07 → 0.0"
+        experience: "N/A - minimal consciousness, no volitional action"
+        note: "Courage requires consciousness to choose action - at this level, no choice"
+
+      consciousness_0.01_to_0.05:
+        state: "Dying process / Brain death threshold"
+        typical_coherence: "Variable (0.0-0.5)"
+        typical_fear_dominance: "Variable (0.0-1.0)"
+        courage_typical: "0.0"
+        experience: "N/A - consciousness leaving"
+        note: "Courage as chosen response requires consciousness"
+
+    worked_examples:
+      example_1_unwavering_courage:
+        scenario: "Highly coherent person facing minor fear with awareness"
+        inputs:
+          coherence: 0.90  # Very aligned
+          consciousness: 0.85  # High awareness
+          fear_dominance: 0.15  # Fear present but minimal control
+        calculation_steps:
+          coherence_safe: "max(0.90, 0.05) = 0.90"
+          consciousness_safe: "max(0.85, 0.05) = 0.85"
+          fear_dominance_safe: "clamp(0.15, 0.0, 1.0) = 0.15"
+          courage_raw: "0.90 + 0.85 - 0.15 = 1.60"
+          courage_final: "clamp(1.60, 0.0, 1.0) = 1.0"
+        result:
+          activation: 1.0
+          interpretation: "Unwavering courage - absolutely certain, grounded"
+          experience: "I feel the fear and I'm totally okay - grounded confidence"
+          visual: "Brilliant orange-gold pillar, unshakeable, radiating strength"
+
+      example_2_steady_courage:
+        scenario: "Healthy person giving important presentation (nervous but acting)"
+        inputs:
+          coherence: 0.65  # Healthy alignment
+          consciousness: 0.60  # Normal awareness
+          fear_dominance: 0.50  # Moderate fear (nervousness)
+        calculation_steps:
+          coherence_safe: "max(0.65, 0.05) = 0.65"
+          consciousness_safe: "max(0.60, 0.05) = 0.60"
+          fear_dominance_safe: "clamp(0.50, 0.0, 1.0) = 0.50"
+          courage_raw: "0.65 + 0.60 - 0.50 = 0.75"
+          courage_final: "clamp(0.75, 0.0, 1.0) = 0.75"
+        result:
+          activation: 0.75
+          interpretation: "Steady courage - acting despite nervousness"
+          experience: "I'm scared but I'm doing it - feel the fear and do it anyway"
+          visual: "Clear orange pillar standing firm, advancing steadily"
+
+      example_3_threshold_courage:
+        scenario: "Depressed person barely getting out of bed - minimal courage"
+        inputs:
+          coherence: 0.50  # Some alignment maintained
+          consciousness: 0.45  # Below typical but functioning
+          fear_dominance: 0.75  # High fear/avoidance
+        calculation_steps:
+          coherence_safe: "max(0.50, 0.05) = 0.50"
+          consciousness_safe: "max(0.45, 0.05) = 0.45"
+          fear_dominance_safe: "clamp(0.75, 0.0, 1.0) = 0.75"
+          courage_raw: "0.50 + 0.45 - 0.75 = 0.20"
+          courage_final: "clamp(0.20, 0.0, 1.0) = 0.20"
+        result:
+          activation: 0.20
+          interpretation: "Threshold courage - just barely able to act"
+          experience: "Every action takes enormous effort, forcing myself to move"
+          visual: "Small orange flicker trying to emerge, wobbly but standing"
+          recovery_note: "This IS courage - acting despite overwhelming fear/avoidance"
+
+      example_4_fear_paralysis:
+        scenario: "Panic attack - complete fear overwhelm, courage impossible"
+        inputs:
+          coherence: 0.30  # Moderate fragmentation
+          consciousness: 0.25  # Reduced awareness (panic state)
+          fear_dominance: 0.80  # Fear completely dominates
+        calculation_steps:
+          coherence_safe: "max(0.30, 0.05) = 0.30"
+          consciousness_safe: "max(0.25, 0.05) = 0.25"
+          fear_dominance_safe: "clamp(0.80, 0.0, 1.0) = 0.80"
+          courage_raw: "0.30 + 0.25 - 0.80 = -0.25"
+          courage_final: "clamp(-0.25, 0.0, 1.0) = 0.0"
+        result:
+          activation: 0.0
+          raw_before_clamp: -0.25
+          interpretation: "Fear paralysis - courage impossible, frozen"
+          experience: "Cannot move, cannot act, completely overwhelmed by fear"
+          medical_context: "Panic attack freeze response"
+          visual: "No orange visible - dark blue fear dominates completely"
+          accuracy_note: |
+            Negative raw value (-0.25) shows fear exceeds resources by that amount.
+            This IS what panic/freeze feels like: fear bigger than you can handle.
+
+      example_5_severe_fear_paralysis:
+        scenario: "PTSD flashback / psychotic terror - severe overwhelm"
+        inputs:
+          coherence: 0.10  # Severe fragmentation
+          consciousness: 0.15  # Below baseline
+          fear_dominance: 0.90  # Nearly total fear control
+        calculation_steps:
+          coherence_safe: "max(0.10, 0.05) = 0.10"
+          consciousness_safe: "max(0.15, 0.05) = 0.15"
+          fear_dominance_safe: "clamp(0.90, 0.0, 1.0) = 0.90"
+          courage_raw: "0.10 + 0.15 - 0.90 = -0.65"
+          courage_final: "clamp(-0.65, 0.0, 1.0) = 0.0"
+        result:
+          activation: 0.0
+          raw_before_clamp: -0.65
+          interpretation: "Severe fear paralysis - complete collapse"
+          experience: "Terror beyond anything I can handle - completely collapsed"
+          medical_context: "PTSD flashback, psychotic terror, dissociative freeze"
+          visual: "No orange at all - dark blue/black fear totally dominant"
+          severity_note: |
+            Raw value -0.65 indicates SEVERE overwhelm (vs -0.25 moderate).
+            Fear exceeds resources by massive amount.
+            This matches severe PTSD/psychosis: "I was gone, fear had me completely."
+
+      example_6_recklessness_vs_courage:
+        scenario: "Low coherence 'courage' - potentially reckless/false bravado"
+        inputs:
+          coherence: 0.15  # Low alignment (fragmented)
+          consciousness: 0.70  # Good awareness
+          fear_dominance: 0.10  # Low fear (possibly suppressed/denied)
+        calculation_steps:
+          coherence_safe: "max(0.15, 0.05) = 0.15"
+          consciousness_safe: "max(0.70, 0.05) = 0.70"
+          fear_dominance_safe: "clamp(0.10, 0.0, 1.0) = 0.10"
+          courage_raw: "0.15 + 0.70 - 0.10 = 0.75"
+          courage_final: "clamp(0.75, 0.0, 1.0) = 0.75"
+        result:
+          activation: 0.75
+          interpretation: "Numerically high courage BUT low coherence = potentially reckless"
+          experience: "Feels like courage but might be false bravado or recklessness"
+          warning: |
+            Formula gives 0.75 courage, BUT:
+            - Low coherence (0.15) = fragmentation, lack of integration
+            - This can manifest as recklessness (ignoring real danger)
+            - OR false bravado (pretending no fear when fear suppressed)
+            - True courage requires BOTH resources (coherence + consciousness)
+
+            Implementation should flag: "High courage but low coherence - check for recklessness"
+          visual: "Orange pillar present but unstable/wobbling (low coherence affects quality)"
+
+    mathematical_insight: |
+      Courage formula is additive/subtractive (not multiplicative) for deep reason:
+
+      courage = coherence + consciousness - fear_dominance
+
+      This captures: Resources (additive) vs Opposition (subtractive)
+      - Coherence + Consciousness = internal resources available
+      - Fear_dominance = what opposes/reduces courage
+
+      Key insights:
+      1. Courage can go NEGATIVE (before clamp): Fear > Resources = paralysis
+         - Example: -0.65 = fear massively exceeds resources (severe PTSD)
+         - Example: -0.10 = fear slightly exceeds resources (barely frozen)
+
+      2. Courage can exceed 1.0 (before clamp): Resources > Fear = unwavering
+         - Example: 1.60 = resources massively exceed fear (total confidence)
+         - Example: 1.10 = resources slightly exceed maximum = solid courage
+
+      3. Courage threshold at 0.20 (Hawkins scale):
+         - Below 0.20: fear dominates (shame, guilt, apathy, grief, fear)
+         - At 0.20+: can choose action despite fear (courage threshold)
+
+      4. Low coherence undermines courage quality:
+         - Can have numerically high courage (0.75) with low coherence (0.15)
+         - But low coherence = fragmentation = recklessness or false bravado
+         - True courage requires BOTH coherence and consciousness
+
+      At extreme low consciousness/coherence (below 0.20), formula often produces
+      negative raw values, indicating courage is mathematically impossible.
+      This matches lived experience of fear paralysis, freeze response, terror collapse.
+
+    implementation_guidance:
+      for_autonomous_agents: |
+        1. Retrieve current state values:
+           - coherence (from StateSignature.coherence OR coherence force)
+           - consciousness (from consciousness level OR consciousness force)
+           - fear_dominance (from fear force activation OR computed from fear presence)
+
+        2. Apply safety floors and ceilings:
+           coherence_safe = max(coherence, 0.05)
+           consciousness_safe = max(consciousness, 0.05)
+           fear_dominance_safe = clamp(fear_dominance, 0.0, 1.0)
+
+        3. Calculate courage (can be negative or >1.0):
+           courage_raw = coherence_safe + consciousness_safe - fear_dominance_safe
+
+        4. Track raw value before clamping (diagnostic):
+           if courage_raw < 0.0:
+               severity = abs(courage_raw)  # How much fear exceeds resources
+               note = f"Fear paralysis severity: {severity}"
+
+        5. Clamp result to valid range:
+           courage_final = clamp(courage_raw, 0.0, 1.0)
+
+        6. Interpret result meaningfully:
+           if courage_final >= 0.80:
+               "Unwavering courage - grounded confidence"
+               visual = brilliant_orange_gold_pillar
+           elif courage_final >= 0.40:
+               "Steady courage - acting despite fear"
+               visual = clear_orange_pillar_advancing
+           elif courage_final >= 0.20:
+               "Threshold courage - barely able to act"
+               visual = small_orange_flicker_wobbly
+           elif courage_final > 0.0:
+               "Minimal courage - nearly paralyzed"
+               visual = faint_orange_trying_to_emerge
+           else:  # courage_final = 0.0
+               if courage_raw < 0.0:
+                   "Fear paralysis - courage impossible"
+                   visual = no_orange_fear_dominates
+               else:
+                   "No courage - resources equal fear exactly"
+
+        7. Quality check (coherence-dependent):
+           if courage_final >= 0.40 AND coherence < 0.30:
+               warning = "High courage but low coherence - potential recklessness or false bravado"
+               # Consider visual modifier: orange pillar but unstable/wobbling
+
+        8. Handle edge cases:
+           - If coherence < 0.20 AND consciousness < 0.20: courage likely 0.0 (below baseline)
+           - If fear_dominance > 0.80: courage likely 0.0 (severe fear)
+           - If courage_raw > 1.0: unwavering courage (clamp to 1.0 but note abundance)
+
+        9. Track changes over time (courage building/collapsing):
+           - Rising courage = resources increasing OR fear decreasing
+           - Falling courage = resources depleting OR fear increasing
+           - Sudden drop to 0.0 = fear overwhelm (panic, trigger, flashback)
+
+      error_handling: |
+        # Handle missing or invalid inputs
+        if coherence is None or coherence < 0:
+            coherence = 0.05  # Floor
+
+        if consciousness is None or consciousness < 0:
+            consciousness = 0.05  # Floor
+
+        if fear_dominance is None or fear_dominance < 0:
+            fear_dominance = 0.0  # No fear
+
+        # Clamp inputs to valid ranges
+        coherence = max(coherence, 0.05)
+        consciousness = max(consciousness, 0.05)
+        fear_dominance = clamp(fear_dominance, 0.0, 1.0)
+
+        # Calculate
+        courage_raw = coherence + consciousness - fear_dominance
+
+        # Store raw value for diagnostics
+        metadata = {"courage_raw": courage_raw}
+        if courage_raw < 0.0:
+            metadata["fear_paralysis_severity"] = abs(courage_raw)
+
+        # Clamp to valid range
+        courage = clamp(courage_raw, 0.0, 1.0)
+
+        return courage, metadata
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#FF8C00"  # Dark orange - bold, warm, confident
+    color_family: "warm"
+    color_range:
+      - "#FF6347"  # Tomato (emerging courage)
+      - "#FF8C00"  # Dark orange (active courage)
+      - "#FFA500"  # Orange (strong courage)
+      - "#FFD700"  # Gold (courage → confidence)
+
+    saturation_base: 0.85
+    brightness_base: 0.75
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (finding courage)
+        color: "#FF6347"
+        saturation: 0.75
+        brightness: 0.65
+      medium_activation: # 0.4-0.7 (acting courageously)
+        color: "#FF8C00"
+        saturation: 0.85
+        brightness: 0.75
+      high_activation:   # 0.8-1.0 (unwavering courage)
+        color: "#FFA500"
+        saturation: 0.90
+        brightness: 0.85
+
+    notes: |
+      Orange represents boldness, action despite fear, confidence.
+      Warm color = courage is energizing, activating.
+      Brighter than fear's dark cold = courage brings light.
+      Moving toward gold (coherence) at high activation.
+      "Courage is not absence of fear, but action despite it."
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "standing_pillar"  # Upright, firm, unwavering
+    sacred_geometry_association: "vertical_line"  # Standing firm, spine straight
+    complexity_level: "simple"
+    edge_type: "defined"  # Clear, firm, not wobbling
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Small pillar beginning to rise.
+        Wobbling slightly but standing.
+        Finding footing, gaining strength.
+      medium_activation: |
+        Clear pillar standing firm.
+        Vertical, strong, unwavering.
+        Spine straight, head up.
+      high_activation: |
+        Brilliant pillar of light standing unshakeable.
+        Absolutely firm, radiating strength.
+        Immovable, grounded, confident.
+        May appear as warrior or mountain.
+
+    notes: |
+      Pillar = standing firm, not collapsing or fleeing.
+      Vertical = upright posture, not bowed or contracted.
+      At low activation: finding courage, wobbly but standing.
+      At high activation: unshakeable, grounded, confident.
+      "Spine straight, heart open" - embodied courage.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "advancing"  # Moving forward despite fear
+    speed_base: 0.55  # Moderate - courage is deliberate, not reckless
+
+    speed_modifier:
+      low_intensity: 0.35   # Tentative forward movement
+      medium_intensity: 0.55  # Steady advance
+      high_intensity: 0.75   # Bold, decisive action
+
+    direction: "forward"  # Into fear, not away from it
+    rhythm: "steady"  # Reliable, consistent, grounded
+
+    healthy_pattern:
+      description: "Grounded courage - feeling fear and acting anyway, aligned action"
+      characteristics:
+        - "Acknowledges fear without being controlled by it"
+        - "Acts from values, not comfort"
+        - "Grounded, not reckless"
+        - "Courage serves purpose, not ego"
+
+    stuck_pattern:
+      description: "Recklessness or false bravado - either foolhardy or performative"
+      characteristics:
+        - "Reckless risk-taking (ignoring real danger)"
+        - "False bravado (pretending no fear)"
+        - "'Courage' as performance, not genuine"
+        - "Foolhardiness mistaken for courage"
+
+    notes: |
+      Advancing motion = moving toward, not away from.
+      Forward direction = into fear, not fleeing from it.
+      Steady rhythm = courage is reliable, not erratic.
+      Healthy: feels fear and acts anyway, grounded.
+      Stuck: either reckless (no discernment) or false (pretending).
+      "Courage is fear that has said its prayers."
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.80  # Highly vibrant (courage is energizing)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.20"  # High coherence amplifies courage
+        description: "Unwavering courage, grounded confidence"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal courage, steady"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.25"  # Low coherence makes courage fragile or reckless
+        description: "Fragile courage or reckless bravado"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.30)"
+      multiplier: 0.30
+
+    interaction_modifier:
+      synergistic: "+0.20 to +0.30"  # With hope, love, coherence
+      antagonistic: "-0.20 to -0.30"  # Opposed by fear (but not destroyed)
+      neutral: "0.0"
+
+    notes: |
+      Courage is energizing, activating, empowering.
+      At high coherence, courage is grounded, unshakeable.
+      At low coherence, courage is either fragile or reckless.
+      Coherence allows courage to be both bold and wise.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "firm"
+    opacity_range:
+      min: 0.70  # Courage is solid, tangible
+      max: 0.95  # Can be very present, grounding
+
+    particle_effects: true
+    particle_type: "grounding_roots"  # Anchored, stable, firm
+    particle_density: "moderate"
+
+    sound_association:
+      frequency_hz: 285  # Solfeggio frequency for "healing tissues and organs"
+      tone_description: "Deep, grounding, like war drum or heartbeat - steady, powerful"
+      musical_note: "C# (low register)"
+
+    emotional_tone: "bold, grounded, confident, advancing, unwavering"
+
+    consciousness_association: 0.20  # Courage threshold (Hawkins scale)
+
+    notes: |
+      Firm texture = courage is solid, grounded, tangible.
+      Grounding roots = courage anchors, stabilizes, supports.
+      War drum/heartbeat = courage has rhythm, power, steadiness.
+      285 Hz = healing (courage heals fear wounds).
+      At 0.20 consciousness = threshold where fear no longer dominates.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "hope"  # Hope + courage = empowered action
+      - "love"  # Love + courage = fierce compassion
+      - "coherence"  # Coherence grounds courage
+      - "creation"  # Courage enables creation
+      - "beauty"  # Pursuing beauty requires courage
+      - "humor"  # Humor disarms fear, courage enables honesty
+      - "luck"  # Fortune favors the bold
+      - "karma"  # Courageous actions create positive karma
+
+    antagonistic_with:
+      - "fear"  # Courage faces fear (not destroyed by it, but in tension)
+
+    neutralizes: []  # Courage doesn't neutralize fear - it acts despite it
+
+    amplified_by:
+      - "coherence"  # Alignment strengthens courage
+      - "consciousness"  # Awareness clarifies courage
+      - "hope"  # Hope inspires courage
+
+    visual_blending_rules:
+      when_combined_with_fear:
+        force: "fear"
+        color_effect: "contrast"  # Orange vs dark blue - stark contrast
+        shape_effect: "facing"  # Pillar facing spiky sphere
+        motion_effect: "advancing_despite"  # Moving forward into fear
+        result_description: |
+          Courage faces fear - this is the essence.
+          Orange pillar standing firm before dark spiky form.
+          Fear is present, courage acts anyway.
+          At high coherence: courage steady, fear manageable.
+          At low coherence: courage fragile, fear overwhelming (or recklessness).
+          "Feel the fear and do it anyway."
+        coherence_dependent: true
+
+      when_combined_with_hope:
+        force: "hope"
+        color_effect: "blend"  # Orange + sky blue = empowered action
+        shape_effect: "merge"  # Pillar with rising spiral
+        motion_effect: "synchronized"  # Both move forward
+        result_description: |
+          Hope + Courage = empowered action toward better future.
+          Orange pillar with sky blue spiral rising.
+          Belief that it can get better (hope) + willingness to act (courage).
+          This is resilience - hope provides vision, courage provides action.
+        coherence_dependent: false
+
+      when_combined_with_love:
+        force: "love"
+        color_effect: "blend"  # Orange + pink = fierce compassion
+        shape_effect: "merge"  # Pillar with radiating sphere
+        motion_effect: "synchronized"  # Both advance/radiate
+        result_description: |
+          Love + Courage = fierce compassion, protective care.
+          Orange pillar with pink radiance.
+          "Mama bear" energy - fierce protection of what is loved.
+          Courage to love openly, despite vulnerability.
+          "Courage to love" - opening heart despite risk.
+        coherence_dependent: false
+
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "blend"  # Orange + gold = grounded confidence
+        shape_effect: "merge"  # Pillar within sphere
+        motion_effect: "harmonized"  # Grounded, aligned action
+        result_description: |
+          Coherence + Courage = grounded confidence.
+          Orange pillar within golden sphere.
+          Not just brave, but aligned - courage from wholeness.
+          This is true confidence - not bravado, but grounded strength.
+        coherence_dependent: false
+
+      when_combined_with_creation:
+        force: "creation"
+        color_effect: "blend"  # Orange + green = bold manifestation
+        shape_effect: "merge"  # Pillar supporting burst
+        motion_effect: "synchronized"  # Both generate
+        result_description: |
+          Courage enables creation.
+          Orange pillar supporting green burst.
+          Courage to create, to make, to birth despite fear.
+          "Courage to be seen" - putting work into world.
+          Creation requires courage (vulnerability of making).
+        coherence_dependent: false
+
+      when_combined_with_pain:
+        force: "pain"
+        color_effect: "contrast"  # Orange vs dark red
+        shape_effect: "facing"  # Pillar enduring jagged shards
+        motion_effect: "steady_despite"  # Standing firm through pain
+        result_description: |
+          Courage to endure pain, to keep going.
+          Orange pillar standing firm with dark red shards.
+          Not numb to pain - courage feels it and continues.
+          This is endurance, resilience, grit.
+          "Courage is grace under pressure."
+        coherence_dependent: false
+
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Orange + lavender = conscious courage
+        shape_effect: "nested"  # Pillar within awareness
+        motion_effect: "witnessed"  # Aware of fear, choosing courage
+        result_description: |
+          Conscious courage - aware of fear, choosing to act.
+          Orange pillar within lavender sphere.
+          "I see the fear, and I choose courage anyway."
+          Consciousness allows choice - courage is chosen, not automatic.
+        coherence_dependent: false
+
+    notes: |
+      Courage at 0.20 consciousness = threshold where fear no longer dominates.
+      Below 0.20: fear controls (shame, guilt, apathy, grief, fear).
+      At 0.20+: courage enables action despite fear.
+      Courage + Hope = resilient action toward better future.
+      Courage + Love = fierce compassion, protective care.
+      Courage + Coherence = grounded confidence (not bravado).
+      Courage + Creation = courage to make, to be seen, to birth.
+      Courage + Pain = endurance, resilience, grit.
+      Courage + Fear = faces fear, acts despite it (essential tension).
+      At high coherence: courage is grounded, wise, steady.
+      At low coherence: courage is fragile, reckless, or false bravado.
+      Key insight: "Courage is not absence of fear, but action despite it."
+      Key insight: Courage is threshold - below = fear dominates, at/above = can act.
+
+# IMPLEMENTATION NOTES:
+# - Courage is Tier 4 "emergent" force - arises from coherence + consciousness - fear_dominance
+# - Courage at 0.20 consciousness = threshold level (Hawkins scale)
+# - Below 0.20: fear dominates (shame, guilt, apathy, grief, fear levels)
+# - At 0.20+: can act despite fear (courage, neutrality, willingness, acceptance, etc.)
+# - Courage ≠ absence of fear (feels fear and acts anyway)
+# - Courage ≠ recklessness (has discernment, not foolhardy)
+# - Visual should feel bold, grounded, firm, advancing
+# - Orange represents boldness, warmth, action, confidence
+# - Pillar = standing firm, upright, unwavering
+# - At high coherence: courage grounded, steady, wise
+# - At low coherence: courage fragile, reckless, or false bravado
+# - Key insight: Courage is chosen response to fear (not automatic)
+# - Key insight: "Feel the fear and do it anyway" - essence of courage
+# - "Courage is grace under pressure" - Hemingway
