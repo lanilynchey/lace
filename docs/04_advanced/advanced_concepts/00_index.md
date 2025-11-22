@@ -1,7 +1,7 @@
 # Advanced Concepts
 ### Deep Mechanics, Persistent Patterns, Grace Protocol, and Philosophical Context
 
-**Last Updated:** November 21, 2025
+**Last Updated:** November 2025
 **Status:** Advanced Reference Document
 
 ---

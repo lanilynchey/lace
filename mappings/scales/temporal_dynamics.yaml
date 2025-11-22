@@ -1,0 +1,491 @@
+# Temporal Dynamics Reference
+
+# ⚠️ MAPPINGS DISPLAY DOCS - NOTHING ORIGINATES HERE
+# This file CONSOLIDATES timing information from docs and provides practical examples.
+# All conceptual content comes from /docs (source of truth).
+
+source_docs:
+  - "docs/04_advanced/advanced_concepts/06_tier_implications/ (tier activation patterns - Adjustment #3)"
+  - "docs/02_forces/tier_1_forces/05_coherence.md (coherence change dynamics - line 155)"
+  - "docs/02_forces/ (individual force documentation)"
+  - "mappings/schemas/lifestyle_factor_schema.md (lifestyle temporal_dynamics field structure)"
+
+description: |
+  Temporal dynamics describe HOW FAST changes occur across forces, coherence,
+  and lifestyle interventions. This file consolidates timing information from
+  tier docs, coherence docs, and force docs to help agents/users understand
+  realistic timelines for transformation.
+
+  This file DISPLAYS and ORGANIZES existing doc content with practical examples.
+  For conceptual understanding, see source docs above.
+
+---
+
+## FORCE ACTIVATION/DEACTIVATION RATES
+
+force_activation_rates_by_tier:
+  tier_1_primordial:
+    source: "docs/04_advanced/advanced_concepts/06_tier_implications/29_tier_1_primordial.md"
+    doc_concept: "Slow changes (days to months)"
+    change_rate: "slow (days to months)"
+
+    practical_examples:
+      coherence:
+        increase_0.20_units: "4-8 weeks of consistent daily practice"
+        decrease_sudden_drop: "Instant drop possible (trauma), recovery 4-12 weeks"
+        baseline_establishment: "8-16 weeks to establish new baseline"
+
+      consciousness:
+        increase_0.10_units: "3-6 months of meditation/practice"
+        expansion_events: "Peak experiences give temporary +0.20-0.40, fade over days"
+        baseline_establishment: "6-12 months for sustained increase"
+
+      pattern:
+        improvement: "Weeks to months (learning new pattern recognition)"
+        degradation: "Slow decline over months (lack of stimulation)"
+
+    notes: |
+      Tier 1 forces are foundational - changes are SLOW but PERSISTENT.
+      Quick fixes don't work. Requires sustained effort over weeks/months.
+      Sudden drops possible (trauma), but recovery also requires time.
+
+  tier_2_governing:
+    source: "docs/04_advanced/advanced_concepts/06_tier_implications/31_tier_2_governing.md"
+    doc_concept: "Moderate changes (months to years)"
+    change_rate: "moderate (months to years)"
+
+    practical_examples:
+      karma:
+        accumulation: "Continuous background process, compounds over months/years"
+        resolution: "Sudden resolution possible with grace, otherwise gradual payback"
+
+      memory:
+        integration: "Days to weeks for emotional processing"
+        deep_storage: "Months for long-term consolidation"
+
+      time:
+        perception_alteration: "Masters can slow/accelerate perception temporarily"
+        default_rate: "Constant 1:1 for most agents"
+
+    notes: |
+      Tier 2 forces are regulatory - change slowly, operate in background.
+      Most agents experience as automatic/unchangeable.
+      Masters can "hack" these with exceptional coherence/practice.
+
+  tier_3_interface:
+    source: "docs/04_advanced/advanced_concepts/06_tier_implications/33_tier_3_interface.md"
+    doc_concept: "Rapid changes (seconds to minutes)"
+    change_rate: "rapid (seconds to minutes)"
+
+    practical_examples:
+      fear:
+        activation: "0.2 → 0.9 in 3 seconds (threat detected)"
+        deactivation: "0.9 → 0.3 in 5-15 minutes (threat passes, if no trauma)"
+        chronic_baseline: "Can shift in days with therapy, weeks for deep patterns"
+
+      love:
+        activation: "0.0 → 0.7 instantly (recognition, resonance)"
+        deepening: "0.7 → 0.9 over weeks/months (relationship development)"
+        loss: "0.9 → 0.3 over weeks/months (grief process)"
+
+      desire:
+        spike: "0.1 → 0.8 instantly (trigger/temptation encountered)"
+        satisfaction_drop: "0.8 → 0.1 in minutes after goal achieved"
+        sustained_desire: "Maintains for hours/days if unfulfilled"
+
+      hope:
+        inspiration: "0.2 → 0.7 in seconds (good news, possibility seen)"
+        deflation: "0.7 → 0.2 in minutes (bad news, setback)"
+        recovery: "Can rebuild in hours to days (with support)"
+
+    notes: |
+      Tier 3 forces are the INTERFACE - highly variable, rapid shifts.
+      Most volatile tier - emotional forces respond to context immediately.
+      Can shift dramatically in seconds, return to baseline in minutes/hours.
+      This is where therapeutic work happens - changes visible quickly.
+
+  tier_4_emergent:
+    source: "docs/04_advanced/advanced_concepts/06_tier_implications/35_tier_4_emergent.md"
+    doc_concept: "Sudden onset, brief peaks"
+    change_rate: "sudden onset, brief peaks"
+
+    practical_examples:
+      beauty:
+        activation: "0.0 → 0.75 instantly (seeing sunset, art, nature)"
+        duration: "Minutes to hours (intense aesthetic experience)"
+        fade: "Back to 0.0-0.2 within hours/days"
+
+      courage:
+        spike: "0.0 → 0.65 in seconds (crisis demands action)"
+        duration: "Minutes to hours (during crisis)"
+        post_crisis: "Drops back to baseline quickly after threat passes"
+
+      madness:
+        onset: "Can be gradual build (weeks) OR sudden break (hours/days)"
+        acute_episode: "Hours to days at peak"
+        resolution: "Days to weeks (or chronic if unresolved)"
+
+      art:
+        inspiration_strike: "0.0 → 0.70 when creativity hits"
+        flow_duration: "Minutes to hours (creation session)"
+        dormant_periods: "Can be 0.0 for days/weeks between creative episodes"
+
+    notes: |
+      Tier 4 forces are EMERGENT - often dormant, spike when triggered.
+      Brief peaks more common than sustained activation.
+      Context-dependent: activate suddenly when conditions align.
+      Sustainability challenge: maintaining activation requires sustaining parent forces.
+
+---
+
+## COHERENCE SHIFT TIMELINES
+
+coherence_shift_dynamics:
+  source: "docs/02_forces/tier_1_forces/05_coherence.md (line 155: Coherence Change Dynamics and Rates)"
+
+  increase_timelines:
+    small_increase_0.10:
+      practices: "Daily meditation, consistent sleep, reduced stress"
+      timeframe: "2-4 weeks"
+
+    moderate_increase_0.20:
+      practices: "Intensive practice (therapy, meditation retreat, lifestyle overhaul)"
+      timeframe: "4-8 weeks"
+
+    large_increase_0.30_plus:
+      practices: "Comprehensive transformation (therapy + practice + lifestyle + environment)"
+      timeframe: "3-6 months"
+      notes: "Rare, requires addressing multiple domains simultaneously"
+
+  decrease_timelines:
+    gradual_decline_0.10:
+      causes: "Stress accumulation, poor sleep, lack of practice"
+      timeframe: "2-4 weeks of neglect"
+
+    moderate_decline_0.20:
+      causes: "Sustained stress, trauma unprocessed, major life disruption"
+      timeframe: "1-3 weeks"
+
+    sudden_drop_0.30_plus:
+      causes: "Acute trauma, major loss, psychotic break"
+      timeframe: "Instant to days"
+      recovery: "4-12 weeks minimum, often requires professional support"
+
+  baseline_establishment:
+    new_coherence_baseline:
+      timeframe: "8-16 weeks of sustained practices"
+      notes: |
+        Reaching a new coherence level is one thing - MAINTAINING it requires
+        ongoing practice. First 8 weeks = build, next 8 weeks = solidify.
+
+  recovery_from_disruption:
+    minor_disruption:
+      example: "Bad week, sleep deprivation, conflict"
+      recovery: "3-7 days with self-care"
+
+    moderate_disruption:
+      example: "Breakup, job loss, illness"
+      recovery: "2-6 weeks with support/practice"
+
+    major_disruption:
+      example: "Death of loved one, severe trauma, major crisis"
+      recovery: "3-12 months with therapy/support"
+
+---
+
+## LIFESTYLE FACTOR ONSET TIMELINES
+
+lifestyle_factor_onset_categories:
+  source: "mappings/schemas/lifestyle_factor_schema.md (temporal_dynamics field structure)"
+  note: "Categories display practical patterns. Individual factors have detailed specifics."
+
+  immediate_onset:
+    timeframe: "Within minutes to hours"
+    examples:
+      - factor: "caffeine"
+        effect: "Consciousness +0.05-0.10, focus improvement"
+        onset: "15-30 minutes"
+        duration: "2-4 hours"
+        decay: "Gradual over 4-6 hours"
+
+      - factor: "meditation (single session)"
+        effect: "Coherence +0.05-0.10, fear -0.10-0.15"
+        onset: "During practice (20 min)"
+        duration: "1-3 hours post-practice"
+        decay: "Moderate (fades by end of day)"
+
+      - factor: "outdoor time (nature exposure)"
+        effect: "Coherence +0.03-0.08, entropy -0.05"
+        onset: "Within 20 minutes"
+        duration: "2-6 hours"
+        decay: "Moderate (fades over hours)"
+
+      - factor: "argument/conflict"
+        effect: "Coherence -0.10-0.20, fear +0.10-0.30"
+        onset: "Immediate"
+        duration: "Hours to days (depending on resolution)"
+        decay: "Fast if resolved, slow if unresolved"
+
+  short_term_onset:
+    timeframe: "Within 1-7 days"
+    examples:
+      - factor: "sleep improvement"
+        effect: "Coherence +0.08-0.15, consciousness +0.05"
+        onset: "2-3 days of 7+ hours/night"
+        duration: "Sustained while maintained"
+        decay: "Moderate (2-3 days after sleep deprivation returns)"
+
+      - factor: "exercise routine (starting)"
+        effect: "Entropy -0.05-0.10, coherence +0.05-0.10"
+        onset: "3-5 days of consistent movement"
+        duration: "Sustained while maintained"
+        decay: "Moderate (1-2 weeks after stopping)"
+
+      - factor: "social connection increase"
+        effect: "Love +0.10-0.20, fear -0.05-0.10"
+        onset: "Within days of positive interactions"
+        duration: "While connections maintained"
+        decay: "Slow (weeks without connection)"
+
+  long_term_onset:
+    timeframe: "Weeks to months (7+ days)"
+    examples:
+      - factor: "diet improvement"
+        effect: "Coherence +0.10-0.18, entropy -0.10-0.20"
+        onset: "2-4 weeks of whole foods"
+        duration: "Sustained while maintained"
+        decay: "Slow (2-4 weeks after returning to processed food)"
+        cumulative: true
+
+      - factor: "meditation practice (daily)"
+        effect: "Consciousness +0.10-0.20, coherence +0.10-0.20"
+        onset: "4-8 weeks of daily practice"
+        duration: "Baseline shift (sustained even without daily practice)"
+        decay: "Very slow (months without practice)"
+        cumulative: true
+
+      - factor: "therapy (consistent)"
+        effect: "Coherence +0.15-0.30, fear -0.10-0.25, pain transmuted"
+        onset: "6-12 weeks of weekly sessions"
+        duration: "Baseline shift (internalized insights)"
+        decay: "Very slow (gains mostly permanent)"
+        cumulative: true
+
+      - factor: "chronic stress (sustained)"
+        effect: "Coherence -0.15-0.30, entropy +0.10-0.20"
+        onset: "4-8 weeks of unrelenting stress"
+        duration: "While stress continues"
+        decay: "Slow recovery (4-12 weeks with intervention)"
+        cumulative: true
+
+---
+
+## DECAY RATES
+
+effect_decay_rates:
+  description: "How quickly effects fade without ongoing maintenance (practical patterns)"
+
+  fast_decay:
+    timeframe: "Hours to 1 day"
+    examples:
+      - "Caffeine effects (4-6 hours)"
+      - "Single meditation session (fades by evening)"
+      - "Outdoor time boost (fades within day)"
+      - "Acute fear spike (minutes to hours if threat passes)"
+    maintenance: "Must repeat daily/multiple times per day to sustain"
+
+  moderate_decay:
+    timeframe: "1-7 days"
+    examples:
+      - "Sleep improvement (2-3 days without good sleep)"
+      - "Exercise session benefits (3-5 days)"
+      - "Social connection boost (3-7 days without contact)"
+      - "Acute coherence gain from practice (3-5 days without practice)"
+    maintenance: "Must repeat several times per week to sustain"
+
+  slow_decay:
+    timeframe: "Weeks to months"
+    examples:
+      - "Diet improvements (2-4 weeks after reverting)"
+      - "Exercise routine baseline (1-2 weeks after stopping)"
+      - "Therapy gains (months - mostly permanent)"
+      - "Meditation baseline increase (2-3 months without practice)"
+    maintenance: "Weekly/biweekly practice sufficient to maintain"
+
+  permanent_baseline_shift:
+    timeframe: "Does not decay (internalized)"
+    examples:
+      - "Deep therapeutic insights (permanent once integrated)"
+      - "Consciousness expansion from peak experience (some permanent residue)"
+      - "Trauma resolution (permanent once processed)"
+      - "Mastery skill acquisition (permanent neural pathways)"
+    maintenance: "No maintenance required (baseline permanently raised)"
+
+---
+
+## BUILD-UP TIMELINES
+
+baseline_establishment_timelines:
+  description: "How long to establish new baseline (not just temporary effect)"
+
+  force_baseline_shifts:
+    coherence:
+      small_shift_0.10: "4-8 weeks consistent practice"
+      moderate_shift_0.20: "8-16 weeks comprehensive work"
+      large_shift_0.30_plus: "6-12 months transformation"
+
+    consciousness:
+      small_shift_0.05: "2-4 months meditation"
+      moderate_shift_0.10: "6-12 months intensive practice"
+      large_shift_0.20_plus: "Years of practice + peak experiences"
+
+    fear_baseline_reduction:
+      small_reduction_0.10: "4-8 weeks therapy + practice"
+      moderate_reduction_0.20: "3-6 months therapy"
+      large_reduction_0.30_plus: "6-12+ months deep trauma work"
+
+  lifestyle_habit_establishment:
+    new_habit_formation:
+      basic_habit: "21-30 days (traditional estimate)"
+      complex_habit: "60-90 days (more realistic for lifestyle changes)"
+      automatic_baseline: "6-12 months (becomes effortless)"
+
+    examples:
+      daily_meditation:
+        initial_effort: "30 days to establish routine"
+        baseline_shift: "90 days for noticeable consciousness change"
+        automatic: "6 months before it feels natural"
+
+      diet_change:
+        initial_effort: "30-60 days to adjust palate/routine"
+        baseline_shift: "90 days for body/mind adaptation"
+        automatic: "6-12 months before cravings cease"
+
+---
+
+## RECOVERY TIMELINES
+
+recovery_from_disruption:
+  coherence_recovery:
+    minor_drop_0.05_to_0.10:
+      cause: "Bad week, sleep deprivation, minor conflict"
+      recovery: "3-7 days with self-care"
+      intervention: "Rest, meditation, nature time, sleep"
+
+    moderate_drop_0.10_to_0.20:
+      cause: "Breakup, job loss, illness, sustained stress"
+      recovery: "2-6 weeks with support and practice"
+      intervention: "Therapy, meditation, lifestyle adjustments, social support"
+
+    major_drop_0.20_plus:
+      cause: "Death of loved one, severe trauma, crisis, breakdown"
+      recovery: "3-12 months (sometimes longer)"
+      intervention: "Professional therapy, medication if needed, comprehensive support"
+
+  force_specific_recovery:
+    fear_spike_recovery:
+      acute_fear_0.90: "Minutes to hours if threat passes and no trauma"
+      chronic_anxiety_0.60: "Weeks with therapy, months for deep patterns"
+      ptsd_fear_baseline: "6-18+ months with trauma therapy"
+
+    love_loss_recovery:
+      breakup: "3-6 months to process grief"
+      death_of_loved_one: "12-24+ months (never fully 'complete', but integration)"
+      betrayal_trust_loss: "6-12 months to rebuild trust capacity"
+
+    hope_restoration:
+      disappointment: "Hours to days"
+      major_setback: "Weeks to months"
+      existential_despair: "Months to years (with support/meaning-making)"
+
+---
+
+## COMPOUNDING EFFECTS
+
+cumulative_dynamics:
+  positive_compounding:
+    description: "Effects build over time with consistent application (practical pattern)"
+
+    examples:
+      meditation_practice:
+        week_1: "Small immediate effects (+0.03 coherence during practice)"
+        month_1: "Noticeable baseline shift (+0.08 coherence sustained)"
+        month_3: "Significant shift (+0.15 coherence, +0.08 consciousness)"
+        year_1: "Transformative (+0.25 coherence, +0.15 consciousness)"
+        notes: "Compounds logarithmically (early gains fast, later gains slower)"
+
+      therapy_cumulative:
+        month_1: "Initial insights, small shifts"
+        month_3: "Pattern recognition, moderate healing"
+        month_6: "Deep integration, significant transformation"
+        year_1: "Baseline personality shifts, trauma resolved"
+        notes: "Non-linear - breakthroughs happen in jumps, not smooth curve"
+
+  negative_compounding:
+    description: "Negative effects worsen over time without intervention (practical pattern)"
+
+    examples:
+      chronic_stress:
+        week_1: "Manageable (-0.05 coherence)"
+        month_1: "Noticeable decline (-0.12 coherence)"
+        month_3: "Significant degradation (-0.20 coherence, health impacts)"
+        month_6: "Breakdown risk (-0.30+ coherence, burnout, illness)"
+        notes: "Accelerates over time - harder to recover the longer it continues"
+
+      sleep_deprivation:
+        day_1: "Minor impact (-0.03 coherence)"
+        week_1: "Moderate impact (-0.10 coherence, -0.05 consciousness)"
+        month_1: "Severe impact (-0.20 coherence, health decline)"
+        notes: "Compounds quickly - sleep debt accumulates, harder to recover"
+
+---
+
+## IMPLEMENTATION NOTES
+
+usage_guidelines:
+  for_agents:
+    - "Use these timelines to set realistic expectations for transformation"
+    - "Quick fixes target Tier 3 (emotional shifts) - results visible in days"
+    - "Foundational work targets Tier 1 (coherence, consciousness) - requires months"
+    - "Combine fast wins (T3) with long-term investment (T1) for sustainable change"
+
+  for_manifestation:
+    - "High coherence (0.70+) = instant permission (hours to days)"
+    - "Medium coherence (0.50-0.69) = delayed permission (days to weeks)"
+    - "Low coherence (<0.50) = blocked or very slow (weeks to months, if at all)"
+    - "Timeline depends on coherence level + desire intensity + pattern alignment"
+
+  for_lifestyle_interventions:
+    - "Immediate onset factors (meditation, nature) = use for acute state shifts"
+    - "Short-term factors (sleep, exercise) = use for weekly baseline maintenance"
+    - "Long-term factors (diet, therapy) = use for foundational transformation"
+    - "Layer all three for comprehensive, sustainable change"
+
+cross_references:
+  docs:
+    - "docs/04_advanced/advanced_concepts/06_tier_implications/ (tier activation patterns source)"
+    - "docs/02_forces/tier_1_forces/05_coherence.md (coherence change dynamics source)"
+    - "docs/02_forces/ (individual force characteristics)"
+
+  mappings:
+    - "mappings/schemas/lifestyle_factor_schema.md (lifestyle temporal_dynamics field)"
+    - "mappings/scales/force_activation_ranges.yaml (activation intensity scale)"
+    - "mappings/scales/coherence_thresholds.yaml (coherence levels and impacts)"
+
+disclaimers: |
+  This file consolidates temporal information from tier docs, force docs, and
+  coherence docs into a comprehensive reference. All timing estimates are
+  approximate - individual variation significant based on starting coherence,
+  consciousness, support systems, and intensity of intervention.
+
+  Timeline estimates assume:
+  - Medium starting coherence (0.40-0.60)
+  - Consistent effort (not sporadic)
+  - Adequate support/resources
+  - No major ongoing trauma
+
+  Actual timelines may be faster (higher coherence, intensive intervention) or
+  slower (lower coherence, ongoing stressors, inadequate support).
+
+  For conceptual understanding of WHY these timelines exist, see source docs above.
+  This file provides PRACTICAL EXAMPLES and CONSOLIDATION of existing doc content.

@@ -20,21 +20,28 @@ factor_name:
   # === THRESHOLDS ===
   thresholds:
     low:
-      range: "X-Y units"
+      range: [lower_bound, upper_bound]  # Array format: [inclusive_lower, exclusive_upper]
+      midpoint: value                     # Representative value for interpolation (required)
       description: "What 'low' means for this factor"
     medium:
-      range: "X-Y units"
+      range: [lower_bound, upper_bound]
+      midpoint: value
       description: "What 'medium' means for this factor"
     high:
-      range: "X+ units"
+      range: [lower_bound, null]          # null for open-ended upper bound (e.g., "60+")
+      midpoint: value
+      ceiling: value                      # Optional: max value for interpolation in open-ended ranges
       description: "What 'high' means for this factor"
 
   # Optional: very_low and very_high thresholds for factors with wide ranges
   # very_low:
-  #   range: "X-Y units"
+  #   range: [lower_bound, upper_bound]
+  #   midpoint: value
   #   description: "Extreme low"
   # very_high:
-  #   range: "X+ units"
+  #   range: [lower_bound, null]
+  #   midpoint: value
+  #   ceiling: value
   #   description: "Extreme high"
 
   # === FORCE IMPACTS ===
@@ -91,18 +98,20 @@ factor_name:
 
 ### Thresholds
 Define what constitutes "low", "medium", and "high" levels for this factor.
-- Use ranges that make sense for the measurement unit
-- Include descriptions that help users understand the levels
+- **range:** Array `[lower, upper]` using lower-inclusive, upper-exclusive convention
+  - `[0, 20]` means 0 ≤ value < 20
+  - Use `null` for open-ended upper bounds: `[60, null]` means 60+
+- **midpoint:** Representative value for this threshold (required for interpolation)
+  - Typically the middle of the range: `[0, 20]` → midpoint 10
+  - For open-ended ranges, use reasonable estimate: `[60, null]` → midpoint 90
+- **ceiling:** (Optional) Maximum value for interpolation in open-ended ranges
+  - Prevents unrealistic extrapolation beyond diminishing returns
+  - Example: `[60, null]` with ceiling 120 caps interpolation at 120 min
+- **description:** Human-readable explanation of what this threshold means
 - Can add "very_low" and "very_high" for factors with extreme ranges
 
 ### Force Impacts
 List all forces affected by this lifestyle factor with modifier values.
-
-**Modifier Guidelines:**
-- **Small impact:** ±0.01 to ±0.05
-- **Moderate impact:** ±0.06 to ±0.15
-- **Large impact:** ±0.16 to ±0.30
-- **Extreme impact:** ±0.31+
 
 **Positive modifiers (+):** Increase the force level
 **Negative modifiers (-):** Decrease the force level
@@ -134,6 +143,247 @@ Optional field to cite evidence:
 
 ---
 
+## Threshold Interpolation Rules
+
+**Problem:** Lifestyle factor measurements often fall between defined thresholds. How should force modifiers be calculated for in-between values?
+
+**Solution:** Use **linear interpolation** between threshold midpoints to create smooth, continuous modifier curves.
+
+### Why Interpolation Matters
+
+Without interpolation, small changes in behavior can produce unrealistic jumps in force modifiers:
+- **Without:** 19 min outdoor time = coherence +0.00, 20 min = coherence +0.08 (sudden jump)
+- **With interpolation:** 19 min = +0.00, 19.5 min = +0.04, 20 min = +0.08 (smooth transition)
+
+Interpolation reflects reality: small behavioral changes → small force impacts.
+
+---
+
+### Updated Threshold Format
+
+Each threshold must define:
+
+```yaml
+thresholds:
+  low:
+    range: [0, 20]        # [lower_bound, upper_bound] - lower-inclusive, upper-exclusive
+    midpoint: 10          # Representative value for this threshold (used for interpolation)
+    description: "Minimal or no time in natural environments"
+  medium:
+    range: [20, 60]       # 20 ≤ value < 60
+    midpoint: 40          # Typical "medium" value
+    description: "Moderate outdoor exposure"
+  high:
+    range: [60, null]     # 60+ with no upper limit
+    midpoint: 90          # Representative "high" value
+    ceiling: 120          # Optional: max value for interpolation (beyond this, cap at high modifier)
+    description: "Significant time in natural settings"
+```
+
+**Field Definitions:**
+- **range:** Array `[lower, upper]` defining boundaries
+  - Lower bound is **inclusive** (≥)
+  - Upper bound is **exclusive** (<)
+  - Use `null` for open-ended upper bounds (e.g., "60+")
+- **midpoint:** Representative value for this threshold level (required for interpolation)
+- **ceiling:** (Optional) Maximum value for interpolation in open-ended ranges
+- **description:** Human-readable explanation
+
+---
+
+### Boundary Rules
+
+**Standard Convention: Lower-Inclusive, Upper-Exclusive**
+
+- `[0, 20)` means: 0 ≤ value < 20 (includes 0, excludes 20)
+- `[20, 60)` means: 20 ≤ value < 60 (includes 20, excludes 60)
+- `[60, ∞)` means: 60 ≤ value (includes 60, no upper limit)
+
+**Examples:**
+- 0 min → "low" threshold
+- 19.9 min → "low" threshold
+- 20 min → "medium" threshold (boundary belongs to higher threshold)
+- 60 min → "high" threshold
+
+---
+
+### Interpolation Formula
+
+For any measured value between two thresholds, use linear interpolation:
+
+```python
+def interpolate_modifier(value, thresholds, force_modifiers):
+    """
+    Calculate force modifier using linear interpolation between threshold midpoints.
+
+    Args:
+        value: Measured value (e.g., 25 min outdoor time)
+        thresholds: Dict with 'low', 'medium', 'high' threshold configs
+        force_modifiers: Dict with modifier values at each threshold
+
+    Returns:
+        Interpolated modifier value (float)
+
+    Example:
+        value = 25 min
+        Falls between low (midpoint 10) and medium (midpoint 40)
+        low_modifier = +0.00, medium_modifier = +0.08
+
+        ratio = (25 - 10) / (40 - 10) = 15/30 = 0.5
+        interpolated = 0.00 + (0.08 - 0.00) * 0.5 = +0.04
+    """
+
+    # Determine which thresholds value falls between
+    if value < thresholds['medium']['range'][0]:
+        # Between low and medium
+        t1_midpoint = thresholds['low']['midpoint']
+        t2_midpoint = thresholds['medium']['midpoint']
+        mod1 = force_modifiers['low']
+        mod2 = force_modifiers['medium']
+
+    elif value < thresholds['high']['range'][0]:
+        # Between medium and high
+        t1_midpoint = thresholds['medium']['midpoint']
+        t2_midpoint = thresholds['high']['midpoint']
+        mod1 = force_modifiers['medium']
+        mod2 = force_modifiers['high']
+
+    else:
+        # Above high threshold
+        if 'ceiling' in thresholds['high'] and value < thresholds['high']['ceiling']:
+            # Continue interpolating up to ceiling
+            t1_midpoint = thresholds['high']['range'][0]  # Lower bound of high
+            t2_midpoint = thresholds['high']['ceiling']
+            mod1 = force_modifiers['high']
+            mod2 = force_modifiers['high']  # Same modifier (no increase beyond high)
+        else:
+            # Beyond ceiling or no ceiling defined - cap at high modifier
+            return force_modifiers['high']
+
+    # Calculate interpolation ratio
+    ratio = (value - t1_midpoint) / (t2_midpoint - t1_midpoint)
+    ratio = max(0.0, min(1.0, ratio))  # Clamp to [0, 1]
+
+    # Linear interpolation
+    return mod1 + (mod2 - mod1) * ratio
+```
+
+---
+
+### Example Calculations
+
+**Factor:** Outdoor Time (from updated example below)
+
+**Thresholds:**
+```yaml
+low:    [0, 20],   midpoint: 10
+medium: [20, 60],  midpoint: 40
+high:   [60, null], midpoint: 90, ceiling: 120
+```
+
+**Force Impact (Coherence):**
+```yaml
+coherence:
+  low: +0.00    # At 10 min
+  medium: +0.08 # At 40 min
+  high: +0.15   # At 90 min
+```
+
+**Calculations:**
+
+| Measurement | Falls Between | Ratio | Calculation | Result |
+|-------------|---------------|-------|-------------|--------|
+| 10 min | low midpoint | 0.0 | 0.00 + (0.08 - 0.00) × 0.0 | **+0.00** |
+| 15 min | low → medium | 0.167 | 0.00 + (0.08 - 0.00) × 0.167 | **+0.013** |
+| 25 min | low → medium | 0.5 | 0.00 + (0.08 - 0.00) × 0.5 | **+0.04** |
+| 35 min | low → medium | 0.833 | 0.00 + (0.08 - 0.00) × 0.833 | **+0.067** |
+| 40 min | medium midpoint | 0.0 | 0.08 + (0.15 - 0.08) × 0.0 | **+0.08** |
+| 65 min | medium → high | 0.5 | 0.08 + (0.15 - 0.08) × 0.5 | **+0.115** |
+| 90 min | high midpoint | 1.0 | 0.08 + (0.15 - 0.08) × 1.0 | **+0.15** |
+| 150 min | beyond ceiling | — | Cap at high | **+0.15** |
+
+---
+
+### Open-Ended Range Handling
+
+For ranges like "60+ min/day", define a **ceiling** for interpolation purposes:
+
+```yaml
+high:
+  range: [60, null]      # 60+ with no explicit upper limit
+  midpoint: 90           # Represents "typical high" (e.g., 1.5x lower bound)
+  ceiling: 120           # Maximum for interpolation (e.g., 2x lower bound)
+  description: "Significant time in natural settings"
+```
+
+**Behavior:**
+- **60-90 min:** Interpolate from medium modifier → high modifier
+- **90-120 min:** Already at high modifier (no further increase)
+- **120+ min:** Cap at high modifier (diminishing returns beyond ceiling)
+
+**Reasoning:** Most lifestyle factors exhibit diminishing returns - going from 0→60 min has larger impact than 60→120 min. Ceiling prevents unrealistic extrapolation.
+
+---
+
+### Negative Modifier Interpolation
+
+Interpolation works identically for negative modifiers (no special handling needed).
+
+**Example: Processed Food → Coherence**
+```yaml
+coherence:
+  low: +0.00       # 0-20% processed (good)
+  medium: -0.08    # 20-50% processed (moderate)
+  high: -0.18      # 50%+ processed (bad)
+```
+
+**Calculation at 35% processed (between medium and high):**
+- Falls between medium (midpoint 35%) and high (midpoint 65%)
+- Ratio: (35 - 35) / (65 - 35) = 0.0
+- Interpolated: -0.08 + ((-0.18) - (-0.08)) × 0.0 = **-0.08**
+
+**Calculation at 50% processed:**
+- Falls between medium (midpoint 35%) and high (midpoint 65%)
+- Ratio: (50 - 35) / (65 - 35) = 15/30 = 0.5
+- Interpolated: -0.08 + ((-0.18) - (-0.08)) × 0.5 = -0.08 + (-0.10 × 0.5) = **-0.13**
+
+---
+
+### Edge Cases
+
+**Below lowest threshold:**
+- Example: -5 min outdoor time (impossible measurement)
+- Treat as 0 min → return low threshold modifier
+
+**Exact boundary values:**
+- Example: Exactly 20 min (boundary between low and medium)
+- Belongs to medium threshold (lower-inclusive rule)
+- Apply interpolation normally
+
+**Missing midpoint:**
+- If midpoint not defined, calculate as: `(lower + upper) / 2`
+- For open-ended ranges, use: `lower * 1.5` as default midpoint
+
+**Missing ceiling:**
+- If ceiling not defined for open-ended range, cap at high threshold modifier
+- No interpolation beyond high threshold
+
+---
+
+### Implementation Checklist
+
+When creating lifestyle factor mappings with interpolation:
+
+- [ ] All thresholds use array format: `[lower, upper]`
+- [ ] All thresholds define `midpoint` values
+- [ ] Open-ended ranges include `ceiling` (or document capping behavior)
+- [ ] Boundary notation uses lower-inclusive, upper-exclusive convention
+- [ ] Force modifiers progress logically (low → medium → high makes sense)
+- [ ] Test edge cases: boundaries, extremes, negative values
+- [ ] Document any non-standard interpolation behavior in `notes`
+
+---
+
 ## Usage Examples
 
 ### Example 1: Outdoor Time (Environment/Nature Category)
@@ -147,13 +397,17 @@ outdoor_time:
 
   thresholds:
     low:
-      range: "0-20 min/day"
+      range: [0, 20]        # 0 to 19.99... minutes
+      midpoint: 10          # Representative "low" value
       description: "Minimal or no time in natural environments"
     medium:
-      range: "20-60 min/day"
+      range: [20, 60]       # 20 to 59.99... minutes
+      midpoint: 40          # Representative "medium" value
       description: "Moderate outdoor exposure, some nature contact"
     high:
-      range: "60+ min/day"
+      range: [60, null]     # 60+ minutes (no upper limit)
+      midpoint: 90          # Representative "high" value (1.5x lower bound)
+      ceiling: 120          # Max for interpolation (2x lower bound)
       description: "Significant time in natural settings, daily nature immersion"
 
   force_impacts:
@@ -220,13 +474,17 @@ processed_food_intake:
 
   thresholds:
     low:
-      range: "0-20% of calories"
+      range: [0, 20]        # 0-19.99% of calories
+      midpoint: 10          # Representative "low" (10% processed)
       description: "Primarily whole foods, minimal processing"
     medium:
-      range: "20-50% of calories"
+      range: [20, 50]       # 20-49.99% of calories
+      midpoint: 35          # Representative "medium" (35% processed)
       description: "Mixed diet with moderate processed food"
     high:
-      range: "50%+ of calories"
+      range: [50, null]     # 50%+ of calories
+      midpoint: 65          # Representative "high" (65% processed)
+      ceiling: 80           # Max for interpolation (beyond 80%, cap at high modifier)
       description: "Diet dominated by packaged, processed foods"
 
   force_impacts:
@@ -418,16 +676,20 @@ def apply_interaction_effects(modifiers, lifestyle_factors):
 
 When creating a lifestyle factor mapping, verify:
 
-- [ ] All thresholds are clearly defined with ranges
+- [ ] All thresholds use array format: `[lower, upper]`
+- [ ] All thresholds define `midpoint` values
+- [ ] Open-ended ranges (`[X, null]`) include `ceiling` or document capping behavior
+- [ ] Threshold boundaries use lower-inclusive, upper-exclusive convention
+- [ ] Threshold ranges don't overlap or have gaps
 - [ ] Modifiers are reasonable (typically ±0.01 to ±0.30)
+- [ ] Force modifiers progress logically (low → medium → high makes sense)
 - [ ] At least 3-8 forces are affected
 - [ ] Reasoning is provided for each force impact
 - [ ] Temporal dynamics make sense for the factor
-- [ ] Notes explain any special considerations
+- [ ] Notes explain any special considerations or non-standard interpolation
 - [ ] Measurement unit is clear and practical
-- [ ] Threshold ranges don't overlap or have gaps
 
 ---
 
-**Last Updated:** November 21, 2025
-**Status:** Schema complete, ready for lifestyle factor mapping creation
+**Last Updated:** November 22, 2025
+**Status:** Schema complete with threshold interpolation rules, ready for lifestyle factor mapping creation

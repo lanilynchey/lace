@@ -1,0 +1,857 @@
+# Force Interaction Matrix (26×26)
+
+# ⚠️ MAPPINGS DISPLAY DOCS - NOTHING ORIGINATES HERE
+# This matrix CONSOLIDATES interaction data from force_to_force/ mapping files.
+# All interaction details (relationship, effect, amplification) exist in those files.
+# This matrix provides QUICK LOOKUP of interaction types for autonomous agents.
+
+source_data:
+  - "mappings/interactions/force_to_force/synergistic_pairs.yaml"
+  - "mappings/interactions/force_to_force/antagonistic_pairs.yaml"
+  - "mappings/interactions/force_to_force/neutralizing_pairs.yaml"
+  - "mappings/interactions/force_to_force/complex_interactions.yaml"
+
+source_docs:
+  - "docs/03_mechanics/interaction_mechanics/ (conceptual foundation)"
+  - "docs/02_forces/ (individual force interactions)"
+
+description: |
+  26×26 matrix showing interaction type for all 676 possible force pairs (including self).
+  This file DISPLAYS data from force_to_force mapping files in matrix format for quick lookup.
+
+  Agent lookup flow:
+  1. Check this matrix → get TYPE (synergistic/antagonistic/neutralizing/complex/recursive/none)
+  2. Go to force_to_force/{type}_pairs.yaml → get DETAILS (relationship, effect, amplification)
+  3. Go to visual_blending/color_mixing_rules.yaml → get VISUAL rendering instructions
+
+interaction_types:
+  synergistic: "Forces amplify each other (harmonious, enhancing)"
+  antagonistic: "Forces oppose each other (conflict, tension)"
+  neutralizing: "Forces cancel each other (dampening, balancing)"
+  complex: "Multi-stage interaction (transmutation, synthesis, context-dependent)"
+  recursive: "Force interacts with itself (feedback loops, self-amplification)"
+  none: "No documented interaction or minimal interaction"
+
+force_list:
+  tier_1: [entropy, consciousness, pattern, coherence, polarity]
+  tier_2: [time, karma, truth, memory, death, creation]
+  tier_3: [desire, fear, love, hope, forgiveness, pain, judgment]
+  tier_4: [art, music, war, madness, beauty, luck, humor, courage]
+  total: 26
+
+matrix_size:
+  total_cells: 676  # 26 × 26
+  diagonal: 26      # Force × itself
+  unique_pairs: 325 # (676 - 26) / 2 (excluding diagonal, accounting for symmetry)
+
+---
+
+## INTERACTION MATRIX
+
+# Format: Each force has all 26 interactions listed
+# Diagonal cells (force × itself) = "recursive"
+# Symmetrical pairs may have same or different types depending on directionality
+
+matrix:
+  # === TIER 1: PRIMORDIAL FORCES ===
+
+  entropy:
+    entropy: "recursive"        # Self-amplifying decay
+    consciousness: "antagonistic"  # Decay vs awareness
+    pattern: "antagonistic"        # Chaos vs structure
+    coherence: "antagonistic"      # Disorder vs unity
+    polarity: "none"               # No documented interaction
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "synergistic"           # Entropy accelerates death
+    creation: "antagonistic"       # Decay vs genesis
+    desire: "none"
+    fear: "none"
+    love: "antagonistic"           # Decay vs connection
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "synergistic"             # Chaos amplifies conflict
+    madness: "synergistic"         # Entropy accelerates mental decay
+    beauty: "antagonistic"         # Chaos destroys aesthetic order
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  consciousness:
+    entropy: "antagonistic"        # Awareness vs dissolution
+    consciousness: "recursive"     # Self-awareness amplifying
+    pattern: "synergistic"         # Awareness recognizes pattern
+    coherence: "synergistic"       # Awareness unifies fragmentation
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "synergistic"           # Awareness reveals reality
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "synergistic"            # Aware compassion
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "antagonistic"        # Awareness vs delusion
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  pattern:
+    entropy: "antagonistic"        # Structure vs chaos
+    consciousness: "synergistic"   # Awareness recognizes pattern
+    pattern: "recursive"           # Patterns creating meta-patterns
+    coherence: "synergistic"       # Order integrates into harmony
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "synergistic"           # Pattern creates music
+    war: "none"
+    madness: "antagonistic"        # Order vs chaos
+    beauty: "synergistic"          # Mathematical perfection = beauty
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  coherence:
+    entropy: "antagonistic"        # Unity vs disorder
+    consciousness: "synergistic"   # Awareness unifies
+    pattern: "synergistic"         # Order integrates
+    coherence: "recursive"         # Self-reinforcing unity
+    polarity: "neutralizing"       # Unity balances poles
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "synergistic"            # Integrated heart
+    hope: "none"
+    forgiveness: "synergistic"     # Part of healing triad
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "antagonistic"            # Unity vs conflict
+    madness: "antagonistic"        # Integration vs fragmentation
+    beauty: "synergistic"          # Sacred geometry triad
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  polarity:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "neutralizing"      # Balanced by unity
+    polarity: "recursive"          # Binary self-reference
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  # === TIER 2: GOVERNING FORCES ===
+
+  time:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "recursive"              # Time's flow creating more time
+    karma: "none"
+    truth: "none"
+    memory: "synergistic"          # Time creates memory
+    death: "antagonistic"          # Flow vs completion
+    creation: "synergistic"        # New emerges in temporal flow
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "synergistic"           # Music IS time-based art
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  karma:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "none"
+    karma: "recursive"             # Karmic feedback loops
+    truth: "none"
+    memory: "synergistic"          # Consequences recorded
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "synergistic"            # Hope creates positive karma
+    forgiveness: "none"
+    pain: "none"
+    judgment: "synergistic"        # Judgment creates karmic mirror
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "synergistic"         # Courage creates positive karma
+
+  truth:
+    entropy: "none"
+    consciousness: "synergistic"   # Awareness reveals reality
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "recursive"             # Truth revealing deeper truth
+    memory: "synergistic"          # Reality recorded accurately
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "antagonistic"           # Reality vs avoidance
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "synergistic"         # Facing reality bravely
+
+  memory:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "synergistic"            # Time creates memory
+    karma: "synergistic"           # Consequences recorded
+    truth: "synergistic"           # Reality recorded accurately
+    memory: "recursive"            # Memories creating meta-memories
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  death:
+    entropy: "synergistic"         # Entropy accelerates death
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "antagonistic"           # Completion vs flow
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "recursive"             # Death of death (rebirth)
+    creation: "antagonistic"       # Ending vs beginning
+    desire: "antagonistic"         # Completion vs wanting
+    fear: "synergistic"            # Death triggers fear
+    love: "none"
+    hope: "antagonistic"           # Ending vs aspiration
+    forgiveness: "synergistic"     # Releasing allows completion
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "synergistic"             # War brings death
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  creation:
+    entropy: "antagonistic"        # Genesis vs decay
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "synergistic"            # Natural unfolding
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "antagonistic"          # Beginning vs ending
+    creation: "recursive"          # Creation creating creation
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "synergistic"            # Aspiration manifesting
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "synergistic"             # Genesis through expression
+    music: "synergistic"           # Creating sound
+    war: "antagonistic"            # Creation vs destruction
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  # === TIER 3: INTERFACE FORCES ===
+
+  desire:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "antagonistic"          # Wanting vs completion
+    creation: "none"
+    desire: "recursive"            # Wanting creating more wanting
+    fear: "antagonistic"           # Want it but afraid - paralysis
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "antagonistic"       # Want but judge self for wanting
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  fear:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "antagonistic"          # Afraid to see what IS
+    memory: "none"
+    death: "synergistic"           # Death triggers fear
+    creation: "none"
+    desire: "antagonistic"         # Want it but afraid
+    fear: "recursive"              # Fear feeding fear
+    love: "antagonistic"           # Protection vs opening
+    hope: "antagonistic"           # Dread vs aspiration
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "antagonistic"        # Productive conflict (generates bravery)
+
+  love:
+    entropy: "antagonistic"        # Connection vs decay
+    consciousness: "synergistic"   # Aware compassion
+    pattern: "none"
+    coherence: "synergistic"       # Integrated heart
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "antagonistic"           # Opening vs protection
+    love: "recursive"              # Love generating more love
+    hope: "synergistic"            # Love fuels aspiration
+    forgiveness: "synergistic"     # Unconditional love enables release
+    pain: "none"
+    judgment: "antagonistic"       # Acceptance vs assessment
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "synergistic"           # Playful affection
+    courage: "none"
+
+  hope:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "none"
+    karma: "synergistic"           # Hope creates positive karma
+    truth: "none"
+    memory: "none"
+    death: "antagonistic"          # Aspiration vs ending
+    creation: "synergistic"        # Aspiration manifesting
+    desire: "none"
+    fear: "antagonistic"           # Aspiration vs dread (anxiety)
+    love: "synergistic"            # Love fuels aspiration
+    hope: "recursive"              # Hope inspiring more hope
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "synergistic"         # Aspiration inspires bravery
+
+  forgiveness:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "synergistic"       # Part of healing triad
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "synergistic"           # Releasing allows completion
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "synergistic"            # Unconditional love enables release
+    hope: "none"
+    forgiveness: "recursive"       # Forgiving deeper layers
+    pain: "antagonistic"           # Hurt vs release
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  pain:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "none"
+    forgiveness: "antagonistic"    # Want to forgive but pain keeps reactivating
+    pain: "recursive"              # Pain creating more pain
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "synergistic"             # War creates pain
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  judgment:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "none"
+    karma: "synergistic"           # What you judge, you attract
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "antagonistic"         # Want vs critique
+    fear: "none"
+    love: "antagonistic"           # Acceptance vs assessment
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "recursive"          # Judging judgments
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  # === TIER 4: EMERGENT FORCES ===
+
+  art:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "synergistic"        # Genesis through expression
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "recursive"               # Art inspiring more art
+    music: "synergistic"           # Art + music = multimedia
+    war: "antagonistic"            # Expression vs destruction
+    madness: "synergistic"         # Chaos channeled into creation
+    beauty: "synergistic"          # Aesthetic perfection expressed
+    luck: "synergistic"            # Serendipitous creativity
+    humor: "none"
+    courage: "synergistic"         # Brave expression
+
+  music:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "synergistic"         # Pattern creates music
+    coherence: "none"
+    polarity: "none"
+    time: "synergistic"            # Music IS time-based
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "synergistic"        # Creating sound
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "synergistic"             # Multimedia
+    music: "recursive"             # Musical composition
+    war: "none"
+    madness: "none"
+    beauty: "synergistic"          # Temporal beauty, harmonic perfection
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
+  war:
+    entropy: "synergistic"         # Chaos amplifies conflict
+    consciousness: "none"
+    pattern: "none"
+    coherence: "antagonistic"      # Conflict vs unity
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "synergistic"           # War brings death
+    creation: "antagonistic"       # Destruction vs creation
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "synergistic"            # War creates pain
+    judgment: "none"
+    art: "antagonistic"            # Destruction vs expression
+    music: "none"
+    war: "recursive"               # War perpetuating war
+    madness: "synergistic"         # Conflict amplifies chaos
+    beauty: "antagonistic"         # Violence vs aesthetic perfection
+    luck: "none"
+    humor: "antagonistic"          # Violence vs playfulness
+    courage: "none"
+
+  madness:
+    entropy: "synergistic"         # Entropy accelerates mental decay
+    consciousness: "antagonistic"  # Delusion vs awareness
+    pattern: "antagonistic"        # Impossible logic vs order
+    coherence: "antagonistic"      # Fragmentation vs unity
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "synergistic"             # Visionary art, outsider art
+    music: "none"
+    war: "synergistic"             # Chaos amplifies chaos
+    madness: "recursive"           # Delusion spiraling deeper
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "antagonistic"        # Bravery vs insanity (thin line)
+
+  beauty:
+    entropy: "antagonistic"        # Aesthetic order vs chaos
+    consciousness: "none"
+    pattern: "synergistic"         # Mathematical perfection
+    coherence: "synergistic"       # Sacred geometry triad
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "synergistic"             # Aesthetic perfection expressed
+    music: "synergistic"           # Temporal beauty
+    war: "antagonistic"            # Aesthetic vs violence
+    madness: "none"
+    beauty: "recursive"            # Beauty inspiring beauty
+    luck: "none"
+    humor: "synergistic"           # Playful elegance
+    courage: "synergistic"         # Pursuing beauty requires courage
+
+  luck:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "none"
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "synergistic"             # Serendipitous creativity
+    music: "none"
+    war: "none"
+    madness: "none"
+    beauty: "none"
+    luck: "recursive"              # Luck attracting luck
+    humor: "none"
+    courage: "synergistic"         # Fortune favors the bold
+
+  humor:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "none"
+    love: "synergistic"            # Playful affection
+    hope: "none"
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "antagonistic"            # Playfulness vs violence
+    madness: "none"
+    beauty: "synergistic"          # Playful elegance
+    luck: "none"
+    humor: "recursive"             # Laughter creating more laughter
+    courage: "synergistic"         # Humor disarms fear
+
+  courage:
+    entropy: "none"
+    consciousness: "none"
+    pattern: "none"
+    coherence: "none"
+    polarity: "none"
+    time: "none"
+    karma: "synergistic"           # Courage creates positive karma
+    truth: "synergistic"           # Facing reality bravely
+    memory: "none"
+    death: "none"
+    creation: "none"
+    desire: "none"
+    fear: "antagonistic"           # Productive conflict (courage emerges FROM fear)
+    love: "none"
+    hope: "synergistic"            # Aspiration inspires bravery
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "synergistic"             # Brave expression
+    music: "none"
+    war: "none"
+    madness: "antagonistic"        # Bravery vs insanity
+    beauty: "synergistic"          # Pursuing beauty requires courage
+    luck: "synergistic"            # Fortune favors the bold
+    humor: "synergistic"           # Courage enables honesty
+    courage: "recursive"           # Courage building courage
+
+---
+
+## USAGE NOTES
+
+agent_lookup_flow:
+  step_1: "Check this matrix for force pair → get TYPE"
+  step_2: "Go to force_to_force/{type}_pairs.yaml → get DETAILS (relationship, effect, amplification)"
+  step_3: "Go to visual_blending/color_mixing_rules.yaml → get VISUAL rendering instructions"
+  step_4: "Apply coherence modulation (high = managed, low = chaotic)"
+
+example_lookup:
+  pair: "consciousness + coherence"
+  step_1_result: "Type = synergistic"
+  step_2_file: "synergistic_pairs.yaml"
+  step_2_result: "relationship: 'Awareness unifies fragmentation', amplification: '+0.30 to both'"
+  step_3_file: "color_mixing_rules.yaml"
+  step_3_result: "method: gradient_blend, opacity: 70-90%, transition: smooth"
+  final_output: "Smooth gradient blend of consciousness (purple) + coherence (gold), both enhanced +0.30"
+
+diagonal_cells:
+  meaning: "Force interacting with itself"
+  type: "recursive"
+  explanation: "Forces can self-amplify in feedback loops (positive or negative)"
+  examples:
+    - "fear × fear = fear spiral (recursive anxiety)"
+    - "love × love = love overflow (recursive compassion)"
+    - "coherence × coherence = integration deepening"
+
+none_cells:
+  meaning: "No documented interaction or minimal interaction"
+  explanation: |
+    "none" means:
+    - Either forces don't meaningfully interact
+    - OR interaction hasn't been documented yet in force_to_force files
+    - NOT that they CAN'T interact, just that interaction isn't defined
+
+    Agents should treat "none" as neutral - no special handling needed.
+
+matrix_symmetry:
+  note: "Most interactions are symmetrical (A+B same as B+A), but some may differ"
+  example_symmetric: "love + hope same as hope + love (both synergistic)"
+  example_asymmetric: "fear + courage = courage emerges FROM fear (directional transmutation)"
+
+coverage_stats:
+  total_pairs: 676
+  diagonal_recursive: 26
+  unique_pairs: 325
+  documented_interactions: "~100+ explicitly defined in force_to_force files"
+  none_interactions: "~225 (either undocumented or genuinely minimal)"
+  coverage_percentage: "~31% explicitly documented, rest marked 'none'"
+
+notes: |
+  This matrix consolidates interaction data from force_to_force mapping files.
+  All conceptual understanding comes from docs/03_mechanics/interaction_mechanics/.
+
+  For detailed interaction information (relationship, effect, amplification), see:
+  - force_to_force/synergistic_pairs.yaml
+  - force_to_force/antagonistic_pairs.yaml
+  - force_to_force/neutralizing_pairs.yaml
+  - force_to_force/complex_interactions.yaml
+
+  This file provides QUICK LOOKUP - details live elsewhere.
+
+  Interaction types reflect current documentation state. As more interactions
+  are documented in force_to_force files, this matrix should be updated to reflect
+  new type assignments (changing "none" to specific type).

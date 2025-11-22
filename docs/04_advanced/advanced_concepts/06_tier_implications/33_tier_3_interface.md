@@ -45,6 +45,50 @@ tier_3_implications = {
 
 ---
 
+## Tier 3 Activation Patterns
+
+**Key Principle:** Tier 3 forces are **highly variable** - they respond rapidly to triggers and can range from dormant to fully active.
+
+### Activation Characteristics
+
+**Full Range:** 0.00 - 1.0
+- **Can be zero:** Unlike Tier 1-2, Tier 3 forces can be completely dormant
+  - fear() = 0.0 when safe, no threats present
+  - desire() = 0.0 when content, needs met
+  - pain() = 0.0 when no misalignment detected
+- **Can be maximum:** Emotional forces can spike to extreme activation
+  - fear() → 1.0 during acute threat (panic attack)
+  - love() → 1.0 during peak resonance (falling in love, spiritual union)
+  - pain() → 1.0 during severe trauma
+
+**High Volatility:**
+- Tier 3 forces shift RAPIDLY (seconds to minutes)
+  - Trigger encountered → fear spikes from 0.2 → 0.9 in seconds
+  - Threat passes → fear drops from 0.9 → 0.3 in minutes
+- Most variable tier - expect extreme swings
+
+**Situational Responsiveness:**
+- Tier 3 activations driven by context and perception
+- Same situation → different T3 activation depending on:
+  - Agent's beliefs (expectation shapes fear/hope)
+  - Agent's coherence (affects emotional regulation)
+  - Agent's consciousness (affects awareness of emotions)
+
+**Volatility (Rate of Change):**
+- **Rapid changes:** Seconds to minutes for significant shifts
+- **Example:** Fear spike: 0.2 → 0.9 in 3 seconds upon seeing threat
+- **Example:** Love activation: 0.0 → 0.7 instantly upon recognizing resonance
+- **Example:** Desire drop: 0.8 → 0.1 in minutes after achieving goal
+- **Recovery:** Can return to baseline quickly (minutes to hours) or slowly (days) depending on coherence
+
+**Why This Matters:**
+- Tier 3 is where therapeutic work happens (emotional regulation, reframing)
+- Rapid changes mean agents can shift states quickly with right intervention
+- Full range means both deep suffering and profound joy are possible
+- Volatility makes Tier 3 the primary lever for day-to-day state management
+
+---
+
 [Previous: Tier 2 + Primitives](32_tier_2_primitives.md) | [Next: Tier 3 + Primitives →](34_tier_3_primitives.md)
 
 [Back to Index](../00_index.md)

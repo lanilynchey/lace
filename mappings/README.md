@@ -53,7 +53,7 @@ This `mappings/` directory? This is just one possible way to **visualize** what'
 **Purpose:** Experimental mappings that translate LACE's conceptual framework into visual, experiential, and measurable properties for prototyping visualization systems.
 
 **Status:** Phase 2 - Active Experimentation
-**Created:** November 21, 2025
+**Created:** November 2025
 **May Change:** Yes - this is exploratory work
 
 ### The Experiment:

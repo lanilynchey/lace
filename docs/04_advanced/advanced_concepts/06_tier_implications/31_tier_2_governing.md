@@ -46,6 +46,45 @@ tier_2_implications = {
 
 ---
 
+## Tier 2 Activation Patterns
+
+**Key Principle:** Tier 2 forces are **background regulators** - they maintain consistent operations without requiring conscious attention.
+
+### Activation Characteristics
+
+**Typical Range:** 0.30 - 0.70
+- **Background presence:** Tier 2 forces operate steadily in mid-range
+  - time() flows consistently (doesn't spike to 1.0 or drop to 0.0)
+  - karma() accumulates gradually (background accounting)
+  - memory() stores continuously (automatic process)
+- **Rarely dominant:** These forces regulate but don't overwhelm experience
+  - Not felt intensely like Tier 3 emotions
+  - Not dormant like Tier 4 situational forces
+
+**Rhythmic Variation:**
+- Some Tier 2 forces pulse or cycle (time, karma especially)
+- death() may activate more strongly during illness, aging
+- creation() may spike during generative periods
+
+**Stability:**
+- Moderate stability (more stable than T3, less than T1)
+- Changes over months to years (karma accumulation, memory deepening)
+- Can be "bent" by masters (slowing time perception, accelerating karma resolution)
+
+**Volatility (Rate of Change):**
+- **Moderate changes:** Months to years for significant shifts
+- **Example:** Karma accumulation: gradual build over months/years, sudden resolution possible with grace
+- **Example:** Memory deepening: slow integration over months, sudden recall during therapy
+- **Hackability:** Masters can accelerate or slow Tier 2 processes (time dilation, karma clearing)
+
+**Why This Matters:**
+- Tier 2 forces are the "operating system" - usually invisible but always running
+- Interventions here require mastery (advanced practice, exceptional coherence)
+- Changes are gradual but systematic
+- Most agents experience Tier 2 as automatic/unchangeable (only masters "hack" it)
+
+---
+
 [Previous: Tier 1 + Primitives](30_tier_1_primitives.md) | [Next: Tier 2 + Primitives →](32_tier_2_primitives.md)
 
 [Back to Index](../00_index.md)

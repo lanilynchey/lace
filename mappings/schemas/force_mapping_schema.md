@@ -377,6 +377,196 @@ When creating a force mapping, verify:
 
 ---
 
+## Tier-Specific Mapping Considerations
+
+**Source of Truth:** See `docs/04_advanced/advanced_concepts/06_tier_implications/` for complete tier characteristics and activation patterns.
+
+These guidelines translate tier philosophical characteristics into visual properties for mapping files.
+
+### **Tier 1 (Primordial Forces - Axioms)**
+
+**Source:** `docs/04_advanced/advanced_concepts/06_tier_implications/29_tier_1_primordial.md`
+
+**Activation Display:**
+- **Doc concept:** "Always present, never zero, slow changes" (0.20-0.80 typical range)
+- **Mapping rule:** Display Tier 1 forces at minimum 0.20 opacity even when "dormant"
+- **Visual cue:** Subtle glow or outline even at low activation (shows "always present")
+- **Motion cue:** Slow, steady changes (no instant jumps from 0 → 1)
+
+**Shape Complexity:**
+- **Why:** Foundational forces → foundational shapes
+- **Guidance:** Simple to medium (sphere, cube, torus, platonic solids, basic sacred geometry)
+- **Example:** coherence() = sphere (perfect symmetry), entropy() = dissolving cube
+
+**Color Palette:**
+- **Why:** Universal forces → archetypal colors
+- **Guidance:** Primary colors, foundational tones (gold, white, deep blue, silver)
+- **Saturation:** Moderate to high (clear, defined, not muted)
+
+**Motion Patterns:**
+- **Why:** High stability → steady motion
+- **Guidance:** Continuous, predictable, regular rhythm (rotating, pulsing, flowing)
+- **Avoid:** Erratic, chaotic, stuttering motion
+
+**Particle Effects:**
+- **Density:** Moderate (geometric patterns, subtle energy fields)
+- **Type:** Ordered, symmetrical (not chaotic)
+
+---
+
+### **Tier 2 (Governing Forces - Universal Laws)**
+
+**Source:** `docs/04_advanced/advanced_concepts/06_tier_implications/31_tier_2_governing.md`
+
+**Activation Display:**
+- **Doc concept:** "Background regulators, moderate baseline" (0.30-0.70 typical range)
+- **Mapping rule:** Display at medium opacity (0.30-0.70 range), less prominent than T3
+- **Visual cue:** Steady presence without overwhelming interface
+- **Motion cue:** Rhythmic, cyclical (especially time, karma)
+
+**Shape Complexity:**
+- **Why:** Regulatory forces → structured forms
+- **Guidance:** Medium complexity (more than T1, less than T4)
+- **Example:** time() = flowing helix, karma() = möbius strip (return loop)
+
+**Color Palette:**
+- **Why:** Universal regulators → neutral/cosmic tones
+- **Guidance:** Silver, gray, cosmic purple, transcendent tones
+- **Saturation:** Moderate (not vivid like T3, not primary like T1)
+
+**Motion Patterns:**
+- **Why:** Regulatory function → ordered cycles
+- **Guidance:** Cyclical, wave-like, regulatory (forward flow, return loops)
+- **Example:** time() flows forward, karma() cycles back
+
+**Particle Effects:**
+- **Density:** Moderate to high (trails, energy waves, temporal effects)
+- **Type:** Flowing, cyclical (not static, not chaotic)
+
+---
+
+### **Tier 3 (Interface Forces - Experience Layer)**
+
+**Source:** `docs/04_advanced/advanced_concepts/06_tier_implications/33_tier_3_interface.md`
+
+**Activation Display:**
+- **Doc concept:** "Highly variable, full 0.0-1.0 range, rapid shifts"
+- **Mapping rule:** Allow FULL opacity range including complete transparency (0.0)
+- **Visual cue:** Dramatic changes in size/intensity when activated
+- **Motion cue:** Can shift rapidly (fear contracts quickly, hope expands suddenly)
+
+**Shape Complexity:**
+- **Why:** Emotional forces → expressive forms
+- **Guidance:** Simple to complex (depends on emotional quality)
+- **Example:** fear() = contracting sphere (simple), love() = radiating mandala (complex)
+
+**Color Palette:**
+- **Why:** Interface forces → immediately recognizable
+- **Guidance:** VIVID, emotionally resonant, highly saturated
+- **Examples:** Fear=dark blue-gray, Love=radiant pink-gold, Hope=warm orange, Desire=magenta
+- **Saturation:** HIGH (emotions are intense when present)
+
+**Motion Patterns:**
+- **Why:** Emotional forces → expressive movement
+- **Guidance:** Variable, reflects emotional quality (expanding, contracting, radiating, freezing)
+- **Example:** Desire expands outward, fear contracts inward, love radiates, judgment pierces
+
+**Particle Effects:**
+- **Density:** HIGH (emotional expression benefits from rich visual feedback)
+- **Type:** Sparkles, energy bursts, trails, auras (expressive, dynamic)
+
+---
+
+### **Tier 4 (Emergent Forces - Composite Phenomena)**
+
+**Source:** `docs/04_advanced/advanced_concepts/06_tier_implications/35_tier_4_emergent.md`
+
+**Activation Display:**
+- **Doc concept:** "Often dormant, sudden activation, brief peaks, rarely exceeds 0.80"
+- **Mapping rule:** Can be completely invisible (0.0), appears suddenly when triggered
+- **Visual cue:** Dramatic entrance when activated (0.0 → 0.7 quickly)
+- **Motion cue:** Intense but brief (spike, then fade or stabilize)
+
+**Shape Complexity:**
+- **Why:** Emergent phenomena → emergent forms
+- **Guidance:** MOST COMPLEX (fractals, hybrid forms, multi-part, impossible geometry)
+- **Example:** madness() = fractured kaleidoscope, beauty() = perfect golden ratio spiral, war() = clashing shards
+
+**Color Palette:**
+- **Why:** Composite forces → blended or unique colors
+- **Guidance:** Combinations of parent force colors OR distinctive novel signatures
+- **Examples:**
+  - courage() = fear(blue) + hope(orange) + fire(red) = bronze-copper
+  - beauty() = pattern + coherence + consciousness = prismatic rainbow
+  - madness() = entropy(purple) + pattern(distorted) = fractured spectrum
+
+**Motion Patterns:**
+- **Why:** Emergent forces → complex movement
+- **Guidance:** Can be chaotic, sublime, multi-layered, clashing, or synthesized
+- **Example:** music() = harmonic waves, war() = explosive collisions, art() = creative spirals
+
+**Particle Effects:**
+- **Density:** HIGHEST (complex emergent phenomena)
+- **Type:** Complex combinations (fractured light, harmonic resonance, clashing energies)
+
+---
+
+### Summary Table (Visual Guidance)
+
+| Tier | Can Be 0.0? | Shape | Color | Motion | Particles |
+|------|------------|-------|-------|--------|-----------|
+| **T1** | No (min 0.20) | Simple-Medium | Primary/Archetypal | Steady | Moderate |
+| **T2** | Rare (min ~0.30) | Medium | Neutral/Cosmic | Cyclical | Mod-High |
+| **T3** | YES | Simple-Complex | VIVID Emotional | Variable | HIGH |
+| **T4** | YES (often) | Most Complex | Blended/Unique | Chaotic-Sublime | HIGHEST |
+
+---
+
+### Implementation Notes
+
+**These are VISUAL TRANSLATIONS of philosophical characteristics documented in /docs, not new concepts.**
+
+**When mapping a force:**
+1. Read force's philosophical documentation FIRST (`docs/02_forces/tier_X_forces/`)
+2. Check tier implication docs for tier-wide characteristics
+3. Use tier mapping guidance as BASELINE
+4. Adjust for force-specific nature (exceptions allowed when philosophically warranted)
+5. Document source references in mapping file
+
+**Example:**
+```yaml
+# mappings/forces/tier_1/coherence.yaml
+
+# SOURCE: docs/02_forces/tier_1_forces/05_coherence.md
+# TIER GUIDANCE: docs/04_advanced/advanced_concepts/06_tier_implications/29_tier_1_primordial.md
+
+# TIER-SPECIFIC BASELINE (from T1 characteristics):
+# - Activation: Never below 0.20 (always present)
+# - Shape: Simple (sphere - perfect symmetry)
+# - Color: Primary/archetypal (gold)
+# - Motion: Steady rotation (stable, predictable)
+# - Particles: Moderate geometric patterns
+
+# FORCE-SPECIFIC ADJUSTMENTS (from coherence.md):
+# - coherence FORCE (active integration work) vs coherence STATE (result)
+# - Sphere = wholeness, perfection, alignment
+# - Gold = high value, integration, "the golden thread"
+# - At high activation: flower of life pattern appears
+```
+
+**Exceptions are allowed:**
+- Tier provides baseline, force nature determines specifics
+- Example: polarity() (T1) may have oscillating motion despite T1 "steady" guidance
+- Example: beauty() (T4) may use simple perfect forms despite T4 "complex" guidance
+- Always document exceptions and their philosophical reasoning
+
+**Cross-Reference:**
+- **Source of truth:** `docs/04_advanced/advanced_concepts/06_tier_implications/`
+- **Individual force docs:** `docs/02_forces/tier_X_forces/`
+- **Force dependencies:** `docs/03_mechanics/inheritance_chains/`
+
+---
+
 ## Notes on Agent Modulation
 
 These mappings provide **base guidance**. The actual implementation will use autonomous agents to:
@@ -391,5 +581,5 @@ The mappings define the **possibility space** - agents navigate within that spac
 
 ---
 
-**Last Updated:** November 21, 2025
-**Status:** Schema complete, ready for force mapping creation
+**Last Updated:** November 22, 2025
+**Status:** Schema complete with tier-specific guidance, ready for force mapping creation

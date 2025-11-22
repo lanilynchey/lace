@@ -78,6 +78,159 @@ state_elevation_mechanic:
       result: "Effective consciousness: 0.59 + 0.16 = 0.75 (Joy level)"
       phenomenon: "Mathematical beauty, mystical states, eureka moments"
 
+mastery_engagement_force_impacts:
+  source_docs:
+    - "docs/04_advanced/advanced_concepts/18_mastery_progression.md (Force Activation During Mastery Engagement section)"
+
+  description: |
+    ⚠️ MAPPINGS DISPLAY DOCS - NOTHING ORIGINATES HERE
+    When agent engages domain where they have mastery (0.5+), MULTIPLE forces are affected.
+    This section quantifies the conceptual content from mastery_progression.md.
+    Consciousness boost (documented above) is PRIMARY but NOT the only effect.
+
+  virtuoso_master_0.90_to_1.00:
+    doc_concept: "Flow state, peak performance, transcendent experience"
+
+    force_impacts:
+      consciousness: "+0.15 to +0.20 (state elevation - already documented above)"
+      coherence: "+0.12 to +0.20 (mind-body integration, somatic coherence, no fragmentation)"
+      pattern: "+0.10 to +0.15 (expert-level pattern recognition becomes higher-order thinking)"
+      love: "+0.08 to +0.15 (flow creates deep satisfaction, connection to activity, aesthetic appreciation)"
+      fear: "-0.15 to -0.25 (confidence eliminates self-doubt, performance anxiety vanishes)"
+      desire: "-0.05 to -0.10 (contentment in mastery, present-moment absorption, reduced grasping)"
+      hope: "+0.05 to +0.10 (optimism from competence, positive future outlook)"
+      entropy: "-0.08 to -0.12 (chaos becomes organized, everything falls into place, clean execution)"
+      judgment: "-0.05 to -0.08 (self-criticism quiets, acceptance of process)"
+
+    doc_source_concepts:
+      - "Explains: Effortless performance, unity of self, timelessness"
+      - "Explains: Runner's high, musical ecstasy, mathematical beauty"
+      - "Explains: Seeing possibilities others can't, innovation"
+      - "Explains: Stage fright gone, bold creativity, fearless execution"
+
+  expert_advanced_0.70_to_0.90:
+    doc_concept: "Flow accessible with focus, growing integration, confident performance"
+
+    force_impacts:
+      consciousness: "+0.08 to +0.15 (state elevation - already documented above)"
+      coherence: "+0.06 to +0.12 (integration improving, fewer scattered thoughts)"
+      pattern: "+0.05 to +0.10 (pattern recognition solid, domain expertise clear)"
+      love: "+0.04 to +0.10 (enjoyment present, connection to work)"
+      fear: "-0.08 to -0.15 (confidence building, anxiety manageable)"
+      desire: "-0.03 to -0.06 (less grasping, more contentment)"
+      hope: "+0.03 to +0.06 (growing confidence in future performance)"
+      entropy: "-0.04 to -0.08 (organization emerging, less chaos)"
+      judgment: "-0.03 to -0.05 (self-criticism moderate, gentler on self)"
+
+    doc_source_concepts:
+      - "Performance still requires effort but feels good"
+      - "Flow state accessible with concentration"
+      - "Growing mastery, not yet effortless"
+
+  competent_intermediate_0.50_to_0.70:
+    doc_concept: "Competent but effortful, integration requires concentration, moderate confidence"
+
+    force_impacts:
+      consciousness: "+0.03 to +0.08 (state elevation - already documented above)"
+      coherence: "+0.02 to +0.05 (some integration, fragmentation still present under stress)"
+      pattern: "+0.02 to +0.05 (basic patterns recognized, learning continues)"
+      love: "+0.01 to +0.04 (mild enjoyment, satisfaction from progress)"
+      fear: "-0.03 to -0.06 (some confidence, anxiety still present)"
+      desire: "-0.01 to -0.03 (slight reduction in striving)"
+      hope: "+0.02 to +0.04 (moderate optimism)"
+      entropy: "-0.02 to -0.04 (slight organization improvement)"
+      judgment: "+0.01 to +0.03 (mild self-criticism when mistakes happen)"
+
+    doc_source_concepts:
+      - "Good enough for most applications"
+      - "Must think through steps deliberately"
+      - "Performance adequate but not transcendent"
+
+  beginner_novice_below_0.50:
+    doc_concept: "Conscious incompetence - struggle, high frustration, negative experience"
+
+    force_impacts:
+      consciousness: "no boost (below mastery threshold)"
+      coherence: "-0.05 to -0.12 (frustration fragments attention, scattered, overwhelmed)"
+      pattern: "+0.01 to +0.02 (minimal - still learning, pattern recognition weak)"
+      love: "-0.02 to -0.05 (frustration reduces enjoyment, struggle predominates)"
+      fear: "+0.10 to +0.20 (high anxiety, self-doubt, performance anxiety spikes)"
+      desire: "+0.05 to +0.10 (increased grasping, wanting to be better, striving)"
+      hope: "-0.05 to +0.05 (volatile - aspiration OR despair depending on progress)"
+      pain: "+0.05 to +0.12 (emotional pain from failure, mistakes sting)"
+      judgment: "+0.08 to +0.15 (high self-criticism, imposter syndrome, harsh inner voice)"
+      entropy: "+0.05 to +0.10 (chaos, disorganization, mistakes compound)"
+
+    doc_source_concepts:
+      - "Emotionally hardest stage - most people quit here"
+      - "Aware of mistakes and skill gap"
+      - "High frustration, struggling performance"
+
+  duration_and_decay:
+    during_engagement:
+      description: "All force impacts are ACTIVE while performing in mastery domain"
+      condition: "Must be actively engaged in the domain (not just thinking about it)"
+
+    after_disengagement:
+      immediate_fade:
+        timeframe: "5-15 minutes"
+        effect: "Force activations return toward baseline rapidly"
+        mechanism: "Flow state dissolves, physiological arousal normalizes"
+
+      residual_glow:
+        timeframe: "1-2 hours"
+        effect: "Slight elevation persists (10-30% of peak effect)"
+        mechanism: "Afterglow effect, positive mood carryover, confidence lingers"
+
+      baseline_shift:
+        timeframe: "Months to years of repeated engagement"
+        effect: "Permanent baseline increase in affected forces"
+        mechanism: "Neuroplasticity, embodied learning, identity integration"
+        example: "Master meditator (0.85 mastery) has higher baseline coherence (0.68) vs non-meditator (0.42)"
+
+  cross_domain_transfer:
+    description: |
+      Confidence and force activations transfer across domains based on similarity.
+      Doc source: mastery_progression.md cross-domain transfer section
+
+    same_domain:
+      transfer_percentage: "100%"
+      example: "Concert pianist performing Chopin (mastery 0.88) → full force impacts"
+
+    similar_domain:
+      transfer_percentage: "50-70%"
+      example: "Concert pianist (0.88) playing jazz piano (0.60) → 50-70% of force impacts transfer"
+      note: "Similar skill sets, muscle memory partially applicable"
+
+    different_domain:
+      transfer_percentage: "10-30%"
+      example: "Concert pianist (0.88) learning tennis (0.25) → 10-30% transfer (general confidence only)"
+      note: "Confidence in learning ability transfers, but technical mastery does not"
+
+    completely_novel:
+      transfer_percentage: "0-10%"
+      example: "Concert pianist (0.88) first time rock climbing (0.05) → 0-10% transfer (minimal)"
+      note: "Body awareness slightly better, but effectively a beginner"
+
+  domain_examples:
+    olympian_runner:
+      mastery: "0.92"
+      base_forces: "consciousness: 0.50, coherence: 0.48, fear: 0.35"
+      during_run_forces: "consciousness: 0.66 (+0.16), coherence: 0.65 (+0.17), fear: 0.15 (-0.20)"
+      phenomenon: "Runner's high, flow state, 'in the zone', timeless present moment"
+
+    concert_pianist:
+      mastery: "0.88"
+      base_forces: "consciousness: 0.54, coherence: 0.52, love: 0.45, pattern: 0.58"
+      during_performance_forces: "consciousness: 0.68 (+0.14), coherence: 0.64 (+0.12), love: 0.57 (+0.12), pattern: 0.68 (+0.10)"
+      phenomenon: "Musical ecstasy, transcendent experience, aesthetic rapture, timelessness"
+
+    beginner_guitarist:
+      mastery: "0.15"
+      base_forces: "consciousness: 0.48, coherence: 0.45, fear: 0.30, judgment: 0.38"
+      during_practice_forces: "consciousness: 0.48 (no boost), coherence: 0.38 (-0.07), fear: 0.45 (+0.15), judgment: 0.50 (+0.12)"
+      phenomenon: "Frustration, self-doubt, fingers hurt, sounds terrible, wants to quit"
+
 orthogonality_to_consciousness:
   note: |
     Mastery and consciousness are INDEPENDENT dimensions.

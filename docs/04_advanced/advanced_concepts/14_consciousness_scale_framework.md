@@ -1,6 +1,6 @@
 # Consciousness Scale Framework
 
-**Last Updated:** November 21, 2025
+**Last Updated:** November 2025
 **Status:** Advanced Concept
 **Inspired by:** David R. Hawkins' Map of Consciousness
 **Related:** [consciousness_terms.md](../../05_supporting/glossary/01_foundations/consciousness_terms.md), [Tier 3 Forces](../../02_forces/tier_3_forces/00_index.md), [survival_defensive_predominance.md](13_survival_defensive_predominance.md)

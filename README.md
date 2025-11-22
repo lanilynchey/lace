@@ -81,6 +81,8 @@ LACE/
 │       ├── project_summary/       ← Internal vision document (15 files)
 │       ├── glossary/              ← Complete terminology (41 files in 10 folders)
 │       └── common_misconceptions/ ← Critical clarifications (6 files)
+├── lineage/                       ← Intellectual foundations (9 comparative analyses spanning 2,400 years)
+│   └── 00_INDEX_AND_SYNTHESIS.md  ← Start here for complete overview
 ├── mappings/                      ← Experimental visualization layer (see mappings/README.md)
 ```
 
@@ -156,6 +158,8 @@ This repository represents the transition from private exploration to public art
 **If you want depth:** Read the force documentation in tier order (1 → 2 → 3 → 4).
 
 **If you want relationships:** See `docs/03_mechanics/force_graph/` for the complete interconnected map.
+
+**If you want context:** Explore `lineage/` to see how LACE relates to 9 foundational works from Lao Tzu to Hofstadter.
 
 ---
 
@@ -242,6 +246,8 @@ Full license text:
 https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 ---
+
+*"There is so much to know. So much so, that I know nothing at all. And everything I know could be wrong."*
 
 ## Contact
 For inquiries, collaborations, or theoretical discussion:
