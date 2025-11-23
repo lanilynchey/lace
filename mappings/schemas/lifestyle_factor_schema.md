@@ -143,6 +143,322 @@ Optional field to cite evidence:
 
 ---
 
+## Modifier Magnitude Decision Tree
+
+**Purpose:** Guidance for determining appropriate modifier sizes when creating lifestyle factor files
+
+**Principle:** Modifier magnitude should reflect the force's sensitivity to this lifestyle factor AND the lifestyle factor's overall importance.
+
+---
+
+### Magnitude Categories
+
+#### MINIMAL (±0.01 to ±0.08)
+**Use when:**
+- Very subtle effects
+- Force has low sensitivity to this factor
+- Factor has minor importance
+- Effects are indirect or secondary
+
+**Examples:**
+- Screen time's effect on pattern recognition: ±0.05
+- Meal timing's effect on consciousness: ±0.03
+- Air quality's effect on judgment: ±0.05
+
+**Characteristics:**
+- Barely noticeable impact
+- Multiple factors needed to see meaningful change
+- Often used for "nice to have" factors
+
+---
+
+#### SMALL (±0.08 to ±0.15)
+**Use when:**
+- Noticeable but not major effects
+- Force has moderate sensitivity to this factor
+- Factor has some importance but isn't foundational
+- Effects accumulate over time
+
+**Examples:**
+- Exercise's effect on entropy: -0.12
+- Diet quality's effect on coherence: +0.10
+- Nature exposure's effect on fear: -0.15
+- Gratitude practice's effect on hope: +0.12
+
+**Characteristics:**
+- Noticeable with consistent practice
+- Part of healthy baseline lifestyle
+- Contributes to overall wellbeing
+- Cumulative effects matter
+
+---
+
+#### MODERATE (±0.15 to ±0.30)
+**Use when:**
+- Significant, clearly noticeable effects
+- Force has high sensitivity to this factor
+- Factor has substantial importance
+- Effects are direct and measurable
+
+**Examples:**
+- Sleep quality's effect on coherence: -0.25 (low) / +0.15 (high)
+- Meditation practice's effect on fear: -0.20 (medium) / -0.35 (high)
+- Social connection quality's effect on love: +0.25
+- Exercise's effect on pain: -0.20
+
+**Characteristics:**
+- Clearly felt impact
+- Important for transformation
+- Direct cause-effect relationship
+- Measurable within days/weeks
+
+---
+
+#### LARGE (±0.30 to ±0.45)
+**Use when:**
+- Major, profound effects
+- Force has extreme sensitivity to this factor
+- Factor is foundational/critical
+- Effects are immediate and dramatic
+
+**Examples:**
+- Meditation practice's effect on coherence: +0.40 (high)
+- Sleep deprivation's effect on entropy: +0.30
+- Sunlight exposure's effect on circadian rhythm: -0.40 (low) / +0.35 (high)
+- Meditation practice's effect on consciousness: +0.35 (high)
+
+**Characteristics:**
+- Profound, transformative impact
+- Critical for healthy functioning
+- Often foundational practices (sleep, meditation, sunlight)
+- Effects visible quickly
+
+---
+
+#### EXTREME (±0.45+)
+**Use when:**
+- Life-or-death impacts
+- Complete system breakdown or breakthrough
+- Critical survival factors
+- Rare and exceptional circumstances
+
+**Examples:**
+- Severe sleep deprivation (36+ hours): entropy +0.50, coherence -0.45
+- Acute trauma: coherence -0.60, fear +0.55
+- Near-death experience: consciousness +0.70 (temporary peak)
+- Severe malnutrition: all forces -0.40 to -0.60
+
+**Characteristics:**
+- System-level crisis or breakthrough
+- Not sustainable (temporary extremes)
+- Rare in normal lifestyle mapping
+- Use sparingly, only for genuine extremes
+
+---
+
+### Decision Criteria
+
+**Ask these questions when determining magnitude:**
+
+1. **How sensitive is the force to this factor?**
+   - Low sensitivity → smaller modifier
+   - High sensitivity → larger modifier
+
+2. **How important is this lifestyle factor overall?**
+   - Minor factor → smaller modifier
+   - Critical factor → larger modifier
+
+3. **Is the effect direct or indirect?**
+   - Direct → larger modifier
+   - Indirect → smaller modifier
+
+4. **How quickly are effects felt?**
+   - Immediate → potentially larger (if also important)
+   - Delayed → potentially smaller (unless cumulative)
+
+5. **Is this foundational or supplementary?**
+   - Foundational (sleep, food, safety) → larger modifiers
+   - Supplementary (hobbies, preferences) → smaller modifiers
+
+---
+
+### Magnitude by Force Type
+
+**Tier 1 Forces (Primordial - slow-changing):**
+- Generally require LARGER modifiers to shift (0.15-0.40)
+- Effects accumulate over time
+- Foundational lifestyle factors have strongest impact
+- Examples: sleep → coherence (+0.15), meditation → consciousness (+0.35)
+
+**Tier 2 Forces (Governing - background):**
+- Generally use MODERATE modifiers (0.10-0.30)
+- Effects systematic and regulatory
+- Lifestyle factors influence rhythms and patterns
+- Examples: sunlight → circadian rhythm (+0.35), journaling → memory (+0.20)
+
+**Tier 3 Forces (Interface - fast-changing):**
+- Can use WIDER range (0.05-0.35) depending on directness
+- More responsive to lifestyle interventions
+- Therapeutic practices have strong effects
+- Examples: therapy → fear (-0.30), exercise → pain (-0.20)
+
+**Tier 4 Forces (Emergent - situational):**
+- Generally use SMALLER modifiers (0.05-0.20)
+- Harder to directly influence (emergent from parent forces)
+- Lifestyle factors work through parent force activation
+- Examples: creative practice → art (+0.15), play → humor (+0.10)
+
+---
+
+### Asymmetry Considerations
+
+**Negative effects often stronger than positive:**
+- Sleep deprivation: coherence -0.25 (large negative)
+- Good sleep: coherence +0.15 (moderate positive)
+- **Reason:** Easier to break down than build up
+
+**Threshold effects:**
+- Small lifestyle improvements: small modifiers
+- Crossing critical threshold: jump to larger modifier
+- Example: meditation 0→10 min = +0.10, 10→30 min = +0.25
+
+**Ceiling effects:**
+- Diminishing returns at high levels
+- First improvements = larger modifiers
+- Later improvements = smaller additional gains
+- Example: sleep 5→7 hours (+0.20), sleep 7→9 hours (+0.05)
+
+---
+
+### Common Patterns
+
+**Critical Foundational Factors (use LARGE modifiers):**
+- Sleep quality: -0.30 to +0.25
+- Sunlight exposure: -0.40 to +0.35
+- Meditation practice: +0.35 to +0.40 (high)
+- Severe trauma/crisis: -0.45 to -0.60
+
+**Important Regular Factors (use MODERATE modifiers):**
+- Exercise frequency: ±0.15 to ±0.25
+- Diet quality: ±0.10 to ±0.20
+- Social connection: ±0.15 to ±0.25
+- Therapy/counseling: ±0.20 to ±0.30
+
+**Supplementary Factors (use SMALL modifiers):**
+- Gratitude practice: ±0.08 to ±0.15
+- Journaling: ±0.08 to ±0.12
+- Nature exposure (supplementary): ±0.10 to ±0.15
+- Creative hobbies: ±0.05 to ±0.15
+
+**Minor/Indirect Factors (use MINIMAL modifiers):**
+- Room temperature: ±0.03 to ±0.08
+- Music listening (casual): ±0.05 to ±0.10
+- Meal timing (if adequate food): ±0.03 to ±0.08
+
+---
+
+### Validation Checks
+
+**When reviewing modifiers, verify:**
+
+✅ **Progression makes sense:**
+- low → medium → high should show logical progression
+- Larger lifestyle factor improvement = larger modifier change
+- No bizarre jumps (e.g., low: +0.05, medium: +0.40)
+
+✅ **Relative magnitude makes sense:**
+- More important factors have larger modifiers
+- More sensitive forces show larger changes
+- Foundational factors > supplementary factors
+
+✅ **Ranges are realistic:**
+- Total possible modifier from all lifestyle factors shouldn't exceed ±1.0
+- Single factor shouldn't dominate (unless genuinely critical)
+- Multiple moderate factors can compound to large total effect
+
+✅ **Asymmetry is appropriate:**
+- Negative effects often larger than positive (easier to break than build)
+- Makes sense given the force and factor relationship
+
+✅ **Matches existing patterns:**
+- Compare to similar lifestyle factors already created
+- Maintain consistency across files
+- Use established ranges as reference
+
+---
+
+### Examples by Scenario
+
+**Scenario 1: Creating "Cold Exposure" (physical_body)**
+
+Force: entropy
+- Sensitivity: High (cold stress triggers cellular adaptation)
+- Importance: Moderate (beneficial but not critical)
+- Effect: Direct (physical stimulus)
+- **Decision: MODERATE** → low: +0.10, medium: 0.0, high: -0.20
+
+Force: fear
+- Sensitivity: Moderate (cold can trigger fear response)
+- Importance: Low for this factor
+- Effect: Indirect (psychological response)
+- **Decision: SMALL** → low: +0.10, medium: +0.05, high: 0.0
+
+---
+
+**Scenario 2: Creating "Chronic Stress" (mental_spiritual)**
+
+Force: coherence
+- Sensitivity: Extreme (stress fragments coherence dramatically)
+- Importance: Critical (foundational nervous system state)
+- Effect: Direct and immediate
+- **Decision: LARGE** → low: +0.15, medium: 0.0, high: -0.40
+
+Force: fear
+- Sensitivity: Extreme (stress = chronic fear activation)
+- Importance: Critical
+- Effect: Direct
+- **Decision: LARGE** → low: -0.10, medium: +0.10, high: +0.35
+
+---
+
+**Scenario 3: Creating "Houseplants" (environment_nature)**
+
+Force: entropy
+- Sensitivity: Low (plants reduce visual chaos)
+- Importance: Minor (aesthetic/mood)
+- Effect: Indirect
+- **Decision: MINIMAL** → low: +0.03, medium: 0.0, high: -0.05
+
+Force: hope
+- Sensitivity: Low (caring for life provides minor uplift)
+- Importance: Minor
+- Effect: Indirect (symbolic)
+- **Decision: SMALL** → low: 0.0, medium: +0.05, high: +0.08
+
+---
+
+### Reference Table
+
+| Magnitude | Range | Typical Use | Force Tiers | Examples |
+|-----------|-------|-------------|-------------|----------|
+| **MINIMAL** | ±0.01-0.08 | Subtle, indirect effects | All tiers | Room temp, casual music |
+| **SMALL** | ±0.08-0.15 | Noticeable, supplementary | T1, T3, T4 | Gratitude, journaling, hobbies |
+| **MODERATE** | ±0.15-0.30 | Significant, important | All tiers | Exercise, diet, social connection |
+| **LARGE** | ±0.30-0.45 | Major, foundational | T1, T2 | Sleep, meditation, sunlight |
+| **EXTREME** | ±0.45+ | Life/death, rare | T1, T3 | Severe trauma, crisis, extremes |
+
+---
+
+### Notes
+
+- These are GUIDELINES, not rigid rules
+- Context matters - use judgment
+- When in doubt, start conservative (smaller) and adjust based on empirical feedback
+- Consult existing similar lifestyle factors for reference
+- Document reasoning in the file's notes section
+
+---
+
 ## Threshold Interpolation Rules
 
 **Problem:** Lifestyle factor measurements often fall between defined thresholds. How should force modifiers be calculated for in-between values?
@@ -681,7 +997,7 @@ When creating a lifestyle factor mapping, verify:
 - [ ] Open-ended ranges (`[X, null]`) include `ceiling` or document capping behavior
 - [ ] Threshold boundaries use lower-inclusive, upper-exclusive convention
 - [ ] Threshold ranges don't overlap or have gaps
-- [ ] Modifiers are reasonable (typically ±0.01 to ±0.30)
+- [ ] Modifiers are reasonable (typically ±0.01 to ±0.45, see Modifier Magnitude Decision Tree section above)
 - [ ] Force modifiers progress logically (low → medium → high makes sense)
 - [ ] At least 3-8 forces are affected
 - [ ] Reasoning is provided for each force impact

@@ -6,7 +6,316 @@ pattern:
     tier: 1
     category: "primordial"
     dependencies: []  # Pattern is foundational
-    source_doc: "docs/02_forces/tier_1_forces/03_pattern.md"
+    source_doc: "docs/02_forces/tier_1_forces/04_pattern.md"
+
+  # === PATTERN COMPLEXITY HIERARCHY ===
+  # Maps documented pattern types to complexity levels
+  # Source: docs/02_forces/tier_1_forces/04_pattern.md (pattern types, properties)
+  pattern_complexity_hierarchy:
+    description: |
+      Pattern complexity hierarchy organizes documented pattern types by sophistication.
+      This is SEPARATE from pattern activation level:
+      - ACTIVATION level (0.0-1.0) = how STRONGLY pattern force is active (visibility/clarity)
+      - COMPLEXITY level = how SOPHISTICATED the pattern itself is (inherent structure)
+
+      Both dimensions interact:
+      - High activation + simple pattern = binary pattern rendered very clearly
+      - High activation + complex pattern = fractal rendered with infinite detail
+      - Low activation + simple pattern = binary pattern dimly visible
+      - Low activation + complex pattern = fractal obscured, only outer layers visible
+
+      Reference: pattern.md documents pattern TYPES (repetition, symmetry, fractal, sequence, hierarchy, network)
+      This section organizes those types by COMPLEXITY (simple → emergent)
+
+    # === COMPLEXITY LEVEL 1: SIMPLE / BINARY ===
+    level_1_simple_binary:
+      complexity_range: "0.0-0.2"
+      name: "Simple / Binary"
+
+      definition: "Minimal pattern - basic repetition, on/off, yes/no, simple symmetry"
+
+      characteristics:
+        - "Minimal information (highly compressible, 1-2 bits)"
+        - "No nesting (flat structure, single layer)"
+        - "Easily recognizable (binary consciousness can fully grasp)"
+        - "Rigid (little flexibility or variation)"
+
+      pattern_types_at_this_level:
+        repetition: "AAAAA, tick-tock, on-off"
+        symmetry: "Simple bilateral (left/right mirror)"
+        sequence: "0,1,0,1,0,1"
+
+      examples:
+        - "Crystal lattice (simple repeating structure)"
+        - "Day/night cycle (binary temporal pattern)"
+        - "Binary code (0s and 1s)"
+
+      visual_representation:
+        shapes: "Simple geometric shapes (circles, squares, triangles)"
+        layers: "Single-layer patterns, no nesting"
+        boundaries: "Clear, sharp boundaries"
+        max_detail_ceiling: "Single geometric shape, no nesting or recursion"
+
+      max_visual_complexity:
+        description: "Simple pattern at 1.0 activation renders clearly but simply"
+        ceiling: "Binary is still binary - cannot render infinite detail"
+        at_high_activation: "Crisp, bright, obvious single shape"
+
+    # === COMPLEXITY LEVEL 2: SEQUENTIAL / ORDERED ===
+    level_2_sequential_ordered:
+      complexity_range: "0.2-0.4"
+      name: "Sequential / Ordered"
+
+      definition: "Organized progression - predictable sequences, simple cause-effect chains"
+
+      characteristics:
+        - "Moderate information (sequence described with simple rule)"
+        - "Linear progression (A→B→C, cause→effect)"
+        - "Predictable (next step can be forecasted)"
+        - "Some variation (more than binary, less than complex)"
+
+      pattern_types_at_this_level:
+        sequence: "1,2,3,4,5 or A,B,C,D (ordered progression)"
+        repetition: "ABCABC (multi-element cycle)"
+        hierarchy: "Simple two-level (parent→child)"
+
+      examples:
+        - "Musical scales (do-re-mi-fa-sol-la-ti-do)"
+        - "Developmental stages (seed→sprout→plant→flower)"
+        - "Simple food chain (grass→rabbit→fox)"
+
+      visual_representation:
+        shapes: "Spirals (ordered outward progression)"
+        layers: "2-3 layers maximum"
+        patterns: "Sequential/rhythmic patterns"
+        max_detail_ceiling: "2-3 layers maximum, simple progression"
+
+      max_visual_complexity:
+        description: "Sequential pattern at 1.0 activation shows clear progression"
+        ceiling: "Limited to 2-3 layers - cannot nest infinitely"
+        at_high_activation: "Clear step-by-step progression, easy to follow"
+
+    # === COMPLEXITY LEVEL 3: NESTED / HIERARCHICAL ===
+    level_3_nested_hierarchical:
+      complexity_range: "0.4-0.6"
+      name: "Nested / Hierarchical"
+
+      definition: "Patterns within patterns - hierarchical organization, recursive structure"
+
+      characteristics:
+        - "Significant information (requires multiple rules or layers)"
+        - "Multi-level organization (atom→molecule→cell→tissue)"
+        - "Recursive (pattern contains smaller versions of itself)"
+        - "Moderately complex (requires focused attention to fully grasp)"
+
+      pattern_types_at_this_level:
+        hierarchy: "Multi-level nested (atom→cell→organ→body→ecosystem)"
+        fractal: "Simple fractals (3-5 iterations, Koch snowflake)"
+        network: "Simple networks (family tree, org chart)"
+
+      examples:
+        - "Biological organization (cells→tissues→organs→systems)"
+        - "Simple fractals (fern, tree branching - few iterations)"
+        - "Musical composition (motif→phrase→section→movement)"
+
+      visual_representation:
+        shapes: "Fractal patterns (3-5 iterations visible)"
+        structure: "Tree structures (branching hierarchies)"
+        nesting: "Nested geometric shapes, multiple overlapping layers"
+        sacred_geometry: "Golden spiral starting to appear"
+        max_detail_ceiling: "5-7 layers maximum, clear hierarchy"
+
+      max_visual_complexity:
+        description: "Nested pattern at 1.0 activation shows full hierarchy"
+        ceiling: "Limited to 5-7 layers - finite depth"
+        at_high_activation: "All hierarchical levels visible, clear organization"
+
+    # === COMPLEXITY LEVEL 4: FRACTAL / SELF-SIMILAR ===
+    level_4_fractal_self_similar:
+      complexity_range: "0.6-0.8"
+      name: "Fractal / Self-Similar"
+
+      definition: "Infinite self-similarity across scales - 'as above, so below' fully expressed"
+
+      characteristics:
+        - "High information density (infinite detail at all scales)"
+        - "Scale invariance (same pattern at micro and macro levels)"
+        - "Deeply recursive (pattern repeats infinitely within itself)"
+        - "Beautiful (sacred geometry, golden ratio, Fibonacci)"
+
+      pattern_types_at_this_level:
+        fractal: "Complex fractals (Mandelbrot set, Julia sets, infinite iterations)"
+        hierarchy: "'As above, so below' (atom structure ≈ solar system structure)"
+        symmetry: "Rotational, radial, complex symmetries"
+        network: "Complex networks (neural networks, mycelium, internet)"
+
+      examples:
+        - "Romanesco broccoli (perfect fractal spirals)"
+        - "Coastlines (jagged at all scales - fractal dimension)"
+        - "Golden ratio in nature (nautilus shell, sunflower seeds)"
+
+      visual_representation:
+        shapes: "Infinitely detailed fractals (zoom reveals more detail endlessly)"
+        sacred_geometry: "Golden spiral prominently displayed, Fibonacci sequences visible"
+        crystalline: "Crystalline precision with organic flow"
+        detail: "Infinite depth - can zoom forever"
+        max_detail_ceiling: "NO CEILING - infinite detail possible"
+
+      max_visual_complexity:
+        description: "Fractal pattern at 1.0 activation renders infinite detail"
+        ceiling: "NO CEILING - fractal is fractal at all scales"
+        at_high_activation: "Sacred geometry everywhere, infinite zoom possible"
+
+      special_note: |
+        This is the pattern level where pattern.yaml shape_properties "high_activation" description applies:
+        "Highly complex, infinitely detailed fractal. Golden spiral prominent, Fibonacci sequences visible.
+        Nested patterns within patterns. Sacred geometry everywhere - nature's blueprint revealed."
+
+    # === COMPLEXITY LEVEL 5: EMERGENT / META-PATTERN ===
+    level_5_emergent_meta:
+      complexity_range: "0.8-1.0"
+      name: "Emergent / Meta-Pattern"
+
+      definition: "Pattern that creates NEW pattern at higher level - emergence, meta-cognition, systems creating systems"
+
+      characteristics:
+        - "Maximum information complexity (whole greater than sum of parts)"
+        - "Creates new level (macro-pattern not predictable from components)"
+        - "Self-organizing (pattern creates/maintains itself)"
+        - "Transcendent (meta-level - pattern recognizing pattern)"
+
+      pattern_types_at_this_level:
+        network: "Emergent networks (consciousness from neurons, culture from individuals)"
+        hierarchy: "Auto-catalytic hierarchies (patterns creating their own structure)"
+        meta_pattern: "Pattern of patterns (mathematics itself, language grammar, genetic code)"
+
+      examples:
+        - "Consciousness from neurons (billions of firings → subjective experience)"
+        - "Murmuration (thousands of starlings → emergent flock intelligence)"
+        - "Language (sounds → words → grammar → meaning → culture)"
+
+      visual_representation:
+        emergence: "Pattern becomes AWARE of itself"
+        recursion: "Recursive loops (consciousness observing consciousness)"
+        new_geometries: "New geometries emerging from base patterns"
+        phase_effects: "Shimmer/phase transition effects (system reorganizing)"
+        rendering_limit: "Beyond standard rendering - too complex for 2-bit perception"
+        max_detail_ceiling: "TRANSCENDS RENDERING - meta-level effects, shimmer, impossible geometries"
+
+      max_visual_complexity:
+        description: "Emergent pattern at 1.0 activation shows meta-level phenomena"
+        ceiling: "BEYOND CEILING - transcends normal rendering"
+        at_high_activation: "Impossible to fully render, shimmer effects, consciousness recognizing pattern"
+
+      special_note: |
+        This level represents pattern() × consciousness() = recognition that the pattern-recognizer IS a pattern.
+        Visual representation may include meta-effects like shimmer, phase transitions, or "the pattern seeing itself."
+        At this level, the visualization acknowledges its own limitation (2-bit rendering of 10-bit pattern).
+
+    # === COMPLEXITY PROGRESSION ===
+    complexity_progression:
+      description: |
+        How complexity emerges from simpler patterns.
+        Each level CONTAINS all lower levels - higher complexity = lower levels organized into new structure.
+
+      progression_chain:
+        step_1:
+          from: "Simple (binary)"
+          mechanism: "Repetition creates..."
+          to: "Sequential (ordered progression)"
+
+        step_2:
+          from: "Sequential (ordered)"
+          mechanism: "Sequences nest within sequences..."
+          to: "Nested (hierarchical structure)"
+
+        step_3:
+          from: "Nested (hierarchical)"
+          mechanism: "Hierarchies repeat at all scales..."
+          to: "Fractal (infinite self-similarity)"
+
+        step_4:
+          from: "Fractal (self-similar)"
+          mechanism: "Fractals interact and generate..."
+          to: "Emergent (new pattern at meta-level)"
+
+      key_insight: |
+        Emergence happens when pattern creates pattern-generating-capacity.
+        Each level is not just "more complex" - it's a PHASE TRANSITION to new organizational principle.
+
+      example_progression:
+        level_1: "Binary heartbeat (lub-dub, lub-dub)"
+        level_2: "Heartbeat varies with activity (faster running, slower resting)"
+        level_3: "Heart rate variability (beat-to-beat variation shows nested pattern)"
+        level_4: "HRV fractal dimension (healthy heart = more complex HRV fractal at all timescales)"
+        level_5: "Autonomic nervous system emerges from integrated heart/brain/body patterns"
+
+    # === IMPLEMENTATION FOR VISUAL AGENTS ===
+    agent_implementation_notes:
+      activation_vs_complexity: |
+        ACTIVATION affects VISIBILITY/CLARITY:
+        - Low activation (0.1-0.3): Pattern dim, unclear, hard to see
+        - High activation (0.8-1.0): Pattern bright, crisp, obvious
+
+        COMPLEXITY affects STRUCTURE/CONTENT:
+        - Simple pattern: Binary structure (even at high activation)
+        - Fractal pattern: Infinite detail structure (reveals more at high activation)
+
+      rendering_decision_tree: |
+        1. Determine pattern COMPLEXITY level (simple, sequential, nested, fractal, emergent)
+        2. Determine pattern ACTIVATION level (0.0-1.0)
+        3. Apply max_visual_complexity ceiling based on complexity level
+        4. Modulate visibility/clarity based on activation level
+        5. Render within complexity ceiling at activation-determined clarity
+
+      example_rendering:
+        simple_high_activation:
+          complexity: "simple_binary"
+          activation: 0.9
+          rendering: "Single bright circle, crisp edges, no nesting - CLEAR but SIMPLE"
+
+        fractal_high_activation:
+          complexity: "fractal_self_similar"
+          activation: 0.9
+          rendering: "Infinite fractal detail, golden spiral, sacred geometry - CLEAR and INFINITELY COMPLEX"
+
+        simple_low_activation:
+          complexity: "simple_binary"
+          activation: 0.2
+          rendering: "Faint circle, blurry edges - DIM and SIMPLE"
+
+        fractal_low_activation:
+          complexity: "fractal_self_similar"
+          activation: 0.2
+          rendering: "Fractal barely visible, only outer 1-2 layers shown - DIM but STRUCTURE HINTS AT COMPLEXITY"
+
+      coherence_interaction: |
+        Coherence affects BOTH:
+        - High coherence: Patterns emerge clearly (both activation and complexity visible)
+        - Low coherence: Patterns obscured, fragmented (even high-complexity patterns hard to see)
+
+        Formula: effective_pattern_visibility = activation × coherence
+        But complexity ceiling remains constant (determined by pattern type itself)
+
+    # === CROSS-REFERENCES ===
+    cross_references:
+      source_doc: "docs/02_forces/tier_1_forces/04_pattern.md"
+      pattern_types: "pattern.md lines 69-80 (repetition, symmetry, fractal, sequence, hierarchy, network)"
+      pattern_properties: "pattern.md lines 20-24 (self-similar, compressible, recognizable, resilient)"
+      as_above_so_below: "pattern.md line 84 (patterns repeat across scales)"
+
+      related_forces:
+        truth: "Truth is fidelity to source pattern"
+        memory: "Memories stored as patterns"
+        art: "Art compresses patterns into aesthetic form"
+        beauty: "Beauty IS recognized pattern (Tier 4)"
+        consciousness: "Consciousness recognizes patterns"
+        madness: "Pattern overload or collapse"
+
+      visual_properties_interaction:
+        shape_properties: "shape_properties section shows visual rendering by activation"
+        activation_modulation: "Low/medium/high activation determines CLARITY of pattern"
+        complexity_hierarchy: "THIS section determines CEILING for pattern complexity"
 
   # === COLOR PROPERTIES ===
   color_properties:

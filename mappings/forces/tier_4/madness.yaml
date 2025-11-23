@@ -1,0 +1,679 @@
+# Force Mapping: Madness
+
+madness:
+  # === METADATA ===
+  metadata:
+    tier: 4
+    category: "emergent"  # Arises from combination of other forces
+    dependencies: ["memory", "pattern", "coherence", "consciousness"]
+    emergent_formula: "madness = (distorted_pattern / coherence) + recursive_memory_loops"
+    source_doc: "docs/02_forces/tier_4_forces/07_madness.md"
+
+  # === FORMULA CONSTRAINTS ===
+  # Source of truth: docs/02_forces/tier_4_forces/07_madness.md
+  # (Pattern overload or coherence collapse - signal-to-noise ratio breakdown)
+
+  formula_constraints:
+    critical_note: |
+      This formula is HYBRID (division + addition - mathematically complex):
+
+      madness = (distorted_pattern / coherence) + recursive_memory_loops
+
+      Madness emerges from TWO mechanisms:
+      1. **Pattern processing overwhelm** (distorted_pattern / coherence)
+         - Division: as coherence → 0, this term → infinity
+         - Pattern overload when processing capacity exceeded
+         - Signal-to-noise ratio collapse
+         - **CRITICAL**: Division by zero risk
+
+      2. **Recursive memory loops** (unresolved recursion)
+         - Memory() loops that amplify without resolution
+         - Time() looped states creating feedback
+         - Additive: increases madness independently
+
+      Key philosophical insight:
+      - At LOW coherence (0.05-0.15): division term explodes → psychosis
+      - At MEDIUM coherence (0.40-0.60): controlled edge state → genius
+      - At HIGH coherence (0.80+): madness nearly impossible (integration prevents breakdown)
+
+      Source: docs/02_forces/tier_4_forces/07_madness.md
+
+    input_safety:
+      distorted_pattern_floor: 0.0  # Can be 0 (no distortion)
+      coherence_floor: 0.05  # CRITICAL: prevents division by zero
+      recursive_memory_loops_floor: 0.0  # Can be 0 (no loops)
+      recursive_memory_loops_ceiling: 1.0  # Maxes at 1.0
+
+      rationale: |
+        Coherence floor (0.05) prevents division by zero.
+        At extreme low coherence (0.05-0.15):
+        - Division term (distorted_pattern / 0.05) can produce very large values
+        - This represents psychotic breakdown, complete fragmentation
+        - Formula mathematically correct: low coherence → madness
+
+    calculation_method: |
+      # Apply safety floors
+      distorted_pattern_safe = max(distorted_pattern_actual, 0.0)
+      coherence_safe = max(coherence_actual, 0.05)  # CRITICAL floor
+      recursive_memory_loops_safe = clamp(recursive_memory_loops_actual, 0.0, 1.0)
+
+      # Calculate pattern overwhelm (division - can be very large at low coherence)
+      pattern_overwhelm = distorted_pattern_safe / coherence_safe
+
+      # Calculate total madness (addition - can exceed 1.0)
+      madness_raw = pattern_overwhelm + recursive_memory_loops_safe
+
+      # Clamp result to valid activation range
+      madness_final = clamp(madness_raw, 0.0, 1.0)
+
+      return madness_final
+
+    output_safety:
+      activation_range: [0.0, 1.0]
+      clamp_behavior: "to_max"  # Clamp to maximum (can produce very high values)
+
+      note: |
+        At low coherence (0.05-0.15), division term can produce values >> 1.0:
+        - Example: distorted_pattern (0.70) / coherence (0.05) = 14.0
+        - Total: 14.0 + recursive_loops (0.40) = 14.40 → clamp to 1.0
+
+        This represents complete psychotic breakdown - reality fragmentation.
+
+    edge_cases:
+      madness_equals_1.0_psychotic:
+        interpretation: "Complete madness - psychotic breakdown, reality detachment"
+        conditions:
+          - "Very low coherence (0.05-0.15)"
+          - "High distorted pattern (0.60+)"
+          - "Division term explodes"
+        example_calculation: "(0.75 / 0.08) + 0.35 = 9.375 + 0.35 = 9.725 → 1.0"
+        raw_before_clamp: 9.725
+        experience: "Complete reality fragmentation - hallucinations, delusions, psychosis"
+        medical_context: "Schizophrenia, psychotic break, severe mania"
+        visual: "Chaotic purple fragments, no coherent structure, disturbing"
+
+      madness_equals_1.0_productive_edge:
+        interpretation: "Genius madness - productive edge state (rare, controllable)"
+        conditions:
+          - "Medium coherence (0.50-0.70)"
+          - "Moderate distorted pattern (0.40-0.60)"
+          - "Can be controlled/channeled"
+        example_calculation: "(0.55 / 0.60) + 0.20 = 0.917 + 0.20 = 1.117 → 1.0"
+        raw_before_clamp: 1.117
+        experience: "Visionary insight - seeing beyond consensus, creative breakthrough"
+        note: "This is 'genius at madness edge' - coherence boundary creativity"
+        visual: "Purple spirals with structure, unconventional but comprehensible"
+
+      madness_equals_0.0:
+        interpretation: "No madness - coherent pattern processing, no overwhelm"
+        conditions:
+          - "No distorted pattern (0.0)"
+          - "AND no recursive loops (0.0)"
+        example_calculation: "(0.0 / 0.70) + 0.0 = 0.0"
+        experience: "Sanity - consensus reality, filtered signal, coherent processing"
+        visual: "No purple chaos - clear, ordered, filtered"
+
+      madness_low_0.01_to_0.20:
+        interpretation: "Mild dysfunction - neurosis, contained madness"
+        conditions:
+          - "Low distorted pattern OR high coherence containing it"
+          - "Minimal recursive loops"
+        example: "(0.15 / 0.70) + 0.05 = 0.214 + 0.05 = 0.264"
+        experience: "Quirks, neurotic patterns, mild irrationality (functional)"
+        visual: "Faint purple tendrils, mostly ordered"
+
+      madness_medium_0.40_to_0.70:
+        interpretation: "Edge state - creative madness, boundary dancing"
+        conditions:
+          - "Medium coherence (0.40-0.70)"
+          - "Moderate distorted pattern"
+        example: "(0.50 / 0.60) + 0.15 = 0.833 + 0.15 = 0.983"
+        experience: "Unconventional perception, visionary insight, artistic genius"
+        visual: "Purple spirals with structure - chaotic but navigable"
+
+      madness_high_0.80_to_1.0:
+        interpretation: "Severe madness - psychosis, complete breakdown OR breakthrough"
+        conditions:
+          - "Very low coherence (psychosis) OR controlled edge (genius)"
+        experience_psychotic: "Reality detachment, hallucinations, cannot function"
+        experience_genius: "Visionary breakthrough, pattern access beyond consensus"
+        note: "Same activation level - distinction is coherence + control"
+
+    three_category_model:
+      clinical_madness:
+        domain: "Pathological coherence breakdown"
+        mechanism: "Pattern processing overwhelm → dysfunction"
+        examples:
+          - "schizophrenia (reality fragmentation)"
+          - "bipolar disorder (coherence oscillation)"
+          - "severe depression (meaning collapse)"
+          - "psychotic episodes (signal/noise inversion)"
+        intervention: "Medical/therapeutic - restore baseline coherence"
+        lace_note: "Requires professional treatment, not philosophical framework"
+        coherence_typical: "0.05-0.20 (severe fragmentation)"
+        madness_typical: "0.80-1.0 (severe dysfunction)"
+
+      creative_madness:
+        domain: "Productive edge state"
+        mechanism: "Controlled coherence boundary → novel pattern access"
+        examples:
+          - "artistic genius (accessing unconventional patterns)"
+          - "visionary insight (seeing beyond consensus)"
+          - "breakthrough innovation (pattern recombination)"
+          - "flow state extremes (coherence edge dancing)"
+        intervention: "Channel/integrate - harness without descent"
+        lace_note: "This is where madness() becomes generative"
+        coherence_typical: "0.40-0.70 (edge state, controlled)"
+        madness_typical: "0.40-0.80 (productive chaos)"
+
+      spiritual_madness:
+        domain: "Transpersonal coherence expansion"
+        mechanism: "Ego dissolution → broader identity coherence"
+        examples:
+          - "mystical experiences (self-boundary dissolution)"
+          - "shamanic crisis (identity death/rebirth)"
+          - "kundalini awakening (energy overload)"
+          - "dark night of the soul (meaning structure collapse)"
+        intervention: "Integration support - expand container, don't suppress"
+        lace_note: "Temporary madness for permanent expansion"
+        coherence_typical: "0.30-0.60 (temporary collapse then expansion)"
+        madness_typical: "0.50-1.0 (temporary, transformative)"
+
+    worked_examples:
+      example_1_psychotic_breakdown:
+        scenario: "Psychotic episode - complete reality fragmentation"
+        inputs:
+          distorted_pattern: 0.85  # Reality severely distorted
+          coherence: 0.08  # Severe fragmentation
+          recursive_memory_loops: 0.50  # Paranoid loops
+        calculation_steps:
+          distorted_pattern_safe: "max(0.85, 0.0) = 0.85"
+          coherence_safe: "max(0.08, 0.05) = 0.08"
+          recursive_memory_loops_safe: "clamp(0.50, 0.0, 1.0) = 0.50"
+          pattern_overwhelm: "0.85 / 0.08 = 10.625"
+          madness_raw: "10.625 + 0.50 = 11.125"
+          madness_final: "clamp(11.125, 0.0, 1.0) = 1.0"
+        result:
+          activation: 1.0
+          raw_before_clamp: 11.125
+          interpretation: "Complete psychotic breakdown"
+          experience: "Hallucinations, delusions, reality completely fragmented"
+          medical_context: "Acute psychosis - requires immediate intervention"
+
+      example_2_artistic_genius:
+        scenario: "Artist at coherence edge - visionary creativity"
+        inputs:
+          distorted_pattern: 0.55  # Unconventional pattern access
+          coherence: 0.60  # Edge state but stable
+          recursive_memory_loops: 0.20  # Some obsessive loops (inspiration)
+        calculation_steps:
+          distorted_pattern_safe: "max(0.55, 0.0) = 0.55"
+          coherence_safe: "max(0.60, 0.05) = 0.60"
+          recursive_memory_loops_safe: "clamp(0.20, 0.0, 1.0) = 0.20"
+          pattern_overwhelm: "0.55 / 0.60 = 0.917"
+          madness_raw: "0.917 + 0.20 = 1.117"
+          madness_final: "clamp(1.117, 0.0, 1.0) = 1.0"
+        result:
+          activation: 1.0
+          raw_before_clamp: 1.117
+          interpretation: "Genius at madness edge - productive chaos"
+          experience: "Visionary insight, unconventional perception, creative breakthrough"
+          note: "Controlled madness - can function, creates transformative work"
+
+      example_3_mystical_experience:
+        scenario: "Spiritual awakening - temporary ego dissolution"
+        inputs:
+          distorted_pattern: 0.70  # Normal reality dissolving
+          coherence: 0.35  # Temporary collapse (ego death)
+          recursive_memory_loops: 0.30  # Identity questioning loops
+        calculation_steps:
+          distorted_pattern_safe: "max(0.70, 0.0) = 0.70"
+          coherence_safe: "max(0.35, 0.05) = 0.35"
+          recursive_memory_loops_safe: "clamp(0.30, 0.0, 1.0) = 0.30"
+          pattern_overwhelm: "0.70 / 0.35 = 2.0"
+          madness_raw: "2.0 + 0.30 = 2.30"
+          madness_final: "clamp(2.30, 0.0, 1.0) = 1.0"
+        result:
+          activation: 1.0
+          raw_before_clamp: 2.30
+          interpretation: "Spiritual madness - transformative temporary breakdown"
+          experience: "Ego dissolution, mystical union, boundary collapse"
+          note: "Temporary - coherence returns higher after integration"
+
+      example_4_functional_sanity:
+        scenario: "Healthy person - consensus reality, coherent processing"
+        inputs:
+          distorted_pattern: 0.10  # Minimal distortion
+          coherence: 0.70  # Good integration
+          recursive_memory_loops: 0.05  # Minimal looping
+        calculation_steps:
+          distorted_pattern_safe: "max(0.10, 0.0) = 0.10"
+          coherence_safe: "max(0.70, 0.05) = 0.70"
+          recursive_memory_loops_safe: "clamp(0.05, 0.0, 1.0) = 0.05"
+          pattern_overwhelm: "0.10 / 0.70 = 0.143"
+          madness_raw: "0.143 + 0.05 = 0.193"
+          madness_final: "clamp(0.193, 0.0, 1.0) = 0.193"
+        result:
+          activation: 0.193
+          interpretation: "Sanity - normal functioning"
+          experience: "Consensus reality, filtered signal, coherent processing"
+
+      example_5_neurotic_containment:
+        scenario: "Neurosis - contained madness, functional"
+        inputs:
+          distorted_pattern: 0.30  # Some irrational patterns
+          coherence: 0.65  # Good enough to contain
+          recursive_memory_loops: 0.15  # Obsessive thoughts contained
+        calculation_steps:
+          distorted_pattern_safe: "max(0.30, 0.0) = 0.30"
+          coherence_safe: "max(0.65, 0.05) = 0.65"
+          recursive_memory_loops_safe: "clamp(0.15, 0.0, 1.0) = 0.15"
+          pattern_overwhelm: "0.30 / 0.65 = 0.462"
+          madness_raw: "0.462 + 0.15 = 0.612"
+          madness_final: "clamp(0.612, 0.0, 1.0) = 0.612"
+        result:
+          activation: 0.612
+          interpretation: "Neurosis - contained dysfunction"
+          experience: "Quirks, anxiety, obsessions - functional but not optimal"
+
+    mathematical_insight: |
+      Madness formula is hybrid (division + addition) for profound reason:
+
+      madness = (distorted_pattern / coherence) + recursive_memory_loops
+
+      This captures TWO breakdown mechanisms:
+
+      1. **Pattern overwhelm** (distorted_pattern / coherence):
+         - Division: inversely proportional to coherence
+         - At HIGH coherence (0.70-1.0): Can process distorted patterns without breakdown
+         - At LOW coherence (0.05-0.20): Even small distortion overwhelms → psychosis
+         - Division term explodes at low coherence: (distorted / 0.05) = massive madness
+
+      2. **Recursive loops** (memory recursion):
+         - Additive: increases madness independently of coherence
+         - Unresolved memory loops amplify
+         - Paranoia, obsession, rumination
+         - Time() looped states creating feedback
+
+      Key insights:
+      - Madness ≠ opposite of sanity (different pattern processing)
+      - Sanity = consensus reality (agreement on what's real)
+      - Genius and madness share territory (both see beyond consensus)
+      - At coherence edge (0.40-0.70): genius possible (controlled chaos)
+      - Below coherence threshold (0.20): psychosis likely (uncontrolled chaos)
+
+      Formula limitation:
+      - Cannot distinguish clinical vs creative vs spiritual madness
+      - All three can produce high activation values
+      - Need to check coherence + control + duration separately:
+        - If madness = 1.0 AND coherence < 0.20 AND chronic: clinical (needs treatment)
+        - If madness = 1.0 AND coherence 0.40-0.70 AND controllable: creative (harness)
+        - If madness = 1.0 AND coherence 0.30-0.60 AND temporary: spiritual (integrate)
+
+    implementation_guidance:
+      for_autonomous_agents: |
+        1. Retrieve current state values:
+           - distorted_pattern (from pattern force with distortion metric)
+           - coherence (from StateSignature.coherence OR coherence force)
+           - recursive_memory_loops (from memory force with loop detection)
+
+        2. Apply safety floors:
+           distorted_pattern_safe = max(distorted_pattern, 0.0)
+           coherence_safe = max(coherence, 0.05)  # CRITICAL
+           recursive_memory_loops_safe = clamp(recursive_memory_loops, 0.0, 1.0)
+
+        3. Calculate pattern overwhelm (division):
+           pattern_overwhelm = distorted_pattern_safe / coherence_safe
+
+        4. Calculate total madness (addition):
+           madness_raw = pattern_overwhelm + recursive_memory_loops_safe
+
+        5. Clamp result to valid range:
+           madness_final = clamp(madness_raw, 0.0, 1.0)
+
+        6. Category classification (CRITICAL - not just activation level):
+           if madness_final >= 0.60:
+               if coherence < 0.20 and chronic:
+                   category = "clinical"  # Needs professional help
+                   warning = "CLINICAL PSYCHOSIS - REQUIRES INTERVENTION"
+               elif coherence >= 0.40 and coherence <= 0.70 and controllable:
+                   category = "creative"  # Genius edge state
+                   note = "Productive madness - channel into art/innovation"
+               elif coherence >= 0.30 and temporary:
+                   category = "spiritual"  # Transformative crisis
+                   note = "Spiritual madness - support integration"
+
+        7. Interpret result meaningfully:
+           if madness_final >= 0.80:
+               if category == "clinical":
+                   "Psychotic breakdown - immediate intervention needed"
+               elif category == "creative":
+                   "Visionary genius - unconventional perception, breakthrough"
+               elif category == "spiritual":
+                   "Mystical crisis - ego dissolution, transformative"
+           elif madness_final >= 0.40:
+               "Edge state - unconventional perception, productive chaos"
+           elif madness_final >= 0.20:
+               "Neurotic - contained madness, quirks, functional"
+           else:
+               "Sanity - consensus reality, coherent processing"
+
+        8. Safety warnings:
+           if madness_raw > 5.0:
+               severity = "SEVERE - raw value indicates extreme fragmentation"
+           if coherence < 0.15:
+               warning = "CRITICAL COHERENCE - psychosis likely"
+
+        9. Track components separately (diagnostic):
+           metadata = {
+               "pattern_overwhelm": pattern_overwhelm,
+               "recursive_loops": recursive_memory_loops_safe,
+               "madness_raw": madness_raw,
+               "category": category,  # clinical vs creative vs spiritual
+               "coherence": coherence_safe
+           }
+
+      error_handling: |
+        # Handle missing or invalid inputs
+        if distorted_pattern is None or distorted_pattern < 0:
+            distorted_pattern = 0.0
+
+        if coherence is None or coherence < 0:
+            coherence = 0.05  # Floor - CRITICAL
+
+        if recursive_memory_loops is None or recursive_memory_loops < 0:
+            recursive_memory_loops = 0.0
+
+        # Clamp inputs to valid ranges
+        distorted_pattern = max(distorted_pattern, 0.0)
+        coherence = max(coherence, 0.05)  # Prevent division by zero
+        recursive_memory_loops = clamp(recursive_memory_loops, 0.0, 1.0)
+
+        # Calculate
+        pattern_overwhelm = distorted_pattern / coherence
+        madness_raw = pattern_overwhelm + recursive_memory_loops
+
+        # Store components for diagnostics
+        metadata = {
+            "pattern_overwhelm": pattern_overwhelm,
+            "recursive_loops": recursive_memory_loops,
+            "madness_raw": madness_raw
+        }
+
+        # Category warning
+        if madness_raw >= 0.80 and coherence < 0.20:
+            metadata["warning"] = "CLINICAL PSYCHOSIS - PROFESSIONAL INTERVENTION REQUIRED"
+
+        # Clamp to valid range
+        madness = clamp(madness_raw, 0.0, 1.0)
+
+        return madness, metadata
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#663399"  # Rebecca Purple - chaos, fragmentation, distortion
+    color_family: "cool"
+    color_range:
+      - "#4B0082"  # Indigo (neurotic - contained madness)
+      - "#663399"  # Rebecca Purple (active madness)
+      - "#9370DB"  # Medium purple (creative madness)
+      - "#E6E6FA"  # Lavender (spiritual madness - temporary, light)
+
+    saturation_base: 0.75
+    brightness_base: 0.50
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (neurotic, quirks)
+        color: "#9370DB"
+        saturation: 0.60
+        brightness: 0.65
+      medium_activation: # 0.4-0.7 (edge state, creative)
+        color: "#663399"
+        saturation: 0.75
+        brightness: 0.50
+      high_activation:   # 0.8-1.0 (psychotic or visionary)
+        color: "#4B0082"
+        saturation: 0.85
+        brightness: 0.40
+
+    notes: |
+      Purple represents distortion, unconventional, beyond consensus.
+      Dark when psychotic (clinical), lighter when creative/spiritual.
+      Purple = boundary color (between warm/cool, between sanity/madness).
+      "Purple haze" - perception altered, reality distorted.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "fractal_chaos"  # Self-similar complexity, overwhelming
+    sacred_geometry_association: null  # Madness breaks sacred geometry (or sees too much)
+    complexity_level: "overwhelming"
+    edge_type: "fragmented"  # Broken, non-coherent
+    dimensionality: "4D"  # Madness perceives time non-linearly
+
+    activation_modulation:
+      low_activation: |
+        Slight distortion, minor fractals.
+        Quirks, neurotic patterns.
+        Mostly coherent with wobbles.
+      medium_activation: |
+        Clear fractal patterns, unconventional structure.
+        Creative chaos, visionary perception.
+        Structure present but non-consensus.
+      high_activation: |
+        Overwhelming fractal complexity.
+        Either: complete fragmentation (psychosis)
+        Or: genius-level pattern recognition (visionary)
+        Reality dissolves into recursive patterns.
+
+    notes: |
+      Fractal chaos = self-similar complexity overwhelming processing.
+      At low activation: contained quirks (neurosis).
+      At medium activation: productive edge state (genius).
+      At high activation: either breakdown (psychosis) or breakthrough (vision).
+      Madness sees patterns sanity filters out.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "recursive_spiraling"  # Looping, feedback, amplification
+    speed_base: 0.70  # Fast - madness is racing thoughts, overwhelm
+
+    speed_modifier:
+      low_intensity: 0.40   # Slow spiraling (neurotic rumination)
+      medium_intensity: 0.70  # Racing patterns (manic, creative)
+      high_intensity: 0.95   # Overwhelming speed (psychotic, can't filter)
+
+    direction: "inward_spiraling"  # Recursive, self-referential, looping
+    rhythm: "chaotic"  # Unpredictable, non-linear
+
+    healthy_pattern:
+      description: "Controlled edge state - visionary perception, creative breakthrough"
+      characteristics:
+        - "Accesses unconventional patterns (genius)"
+        - "Can integrate insights back to coherence"
+        - "Temporary madness for permanent expansion"
+        - "Channeled into art, innovation, vision"
+
+    stuck_pattern:
+      description: "Psychotic breakdown or chronic neurosis - dysfunction"
+      characteristics:
+        - "Reality detachment (hallucinations, delusions)"
+        - "Cannot integrate, cannot function"
+        - "Chronic rumination, obsession (neurosis)"
+        - "Madness consumes, no control"
+
+    notes: |
+      Recursive spiraling = patterns looping back on themselves.
+      Inward direction = madness is self-referential, internal.
+      Chaotic rhythm = madness is unpredictable, non-linear.
+      Healthy: controlled edge state, temporary, channeled.
+      Stuck: psychotic breakdown, chronic dysfunction.
+      "Genius and madness are but different manifestations."
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.70  # Vivid (madness is intense, overwhelming)
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "-0.50"  # High coherence prevents madness
+        description: "Madness nearly impossible - patterns integrated"
+      medium_coherence:  # 0.4-0.7
+        modifier: "-0.10"
+        description: "Edge state - controlled madness possible (genius)"
+      low_coherence:     # 0.0-0.3
+        modifier: "+0.40"  # Low coherence amplifies madness
+        description: "Psychosis - reality fragmentation, overwhelm"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.35)"
+      multiplier: 0.35
+
+    interaction_modifier:
+      synergistic: "+0.20 to +0.30"  # With entropy, memory loops, distorted pattern
+      antagonistic: "-0.40 to -0.60"  # Opposed by coherence, truth, consciousness (grounding)
+      neutral: "0.0"
+
+    notes: |
+      Madness is vivid, intense, overwhelming.
+      At high coherence, madness nearly impossible (integration prevents).
+      At low coherence, madness erupts (fragmentation enables).
+      Coherence is primary madness moderator.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "fragmented"
+    opacity_range:
+      min: 0.60  # Madness is quite visible (distortion noticeable)
+      max: 0.95  # Can be all-consuming
+
+    particle_effects: true
+    particle_type: "recursive_fractals"  # Self-similar, looping, overwhelming
+    particle_density: "dense_to_overwhelming"
+
+    sound_association:
+      frequency_hz: null  # Madness is discord, not harmonic
+      tone_description: "Chaotic, discordant, feedback loops, static overwhelming signal"
+      musical_note: null
+
+    emotional_tone: "chaotic, overwhelming, distorted, fragmented, unconventional"
+
+    consciousness_association: null  # Madness can occur at various levels (but worse at low)
+
+    notes: |
+      Fragmented texture = madness breaks coherent structure.
+      Recursive fractals = patterns looping, self-similar complexity.
+      Discord, feedback = signal-to-noise collapse.
+      Very high opacity = madness is undeniable, consuming.
+      Madness is pattern overwhelm - too much signal, no filter.
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "entropy"  # Chaos amplifies madness
+      - "memory"  # Recursive loops feed madness
+      - "pattern"  # Pattern overload creates madness
+      - "death"  # Near-death can induce temporary madness
+
+    antagonistic_with:
+      - "coherence"  # Coherence prevents/dissolves madness
+      - "truth"  # Reality grounding opposes madness
+      - "consciousness"  # Grounded awareness reduces madness
+
+    neutralizes: []
+
+    amplified_by:
+      - "entropy"  # Chaos feeds madness
+      - "low_coherence"  # Fragmentation enables madness
+      - "recursive_memory"  # Loops amplify madness
+
+    visual_blending_rules:
+      when_combined_with_coherence:
+        force: "coherence"
+        color_effect: "dissolving"  # Gold dissolves purple chaos
+        shape_effect: "integrating"  # Fractals organize into coherent patterns
+        motion_effect: "calming"  # Loops resolve
+        result_description: |
+          Coherence dissolves madness - integration prevents breakdown.
+          Golden sphere organizing purple fractal chaos.
+          At high coherence, madness cannot sustain (patterns integrate).
+          This is recovery - chaos reorganizing into order.
+        coherence_dependent: false
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "blend"  # Purple + gray = total chaos
+        shape_effect: "merge"  # Fractals fragmenting further
+        motion_effect: "amplifying"  # Chaos feeding chaos
+        result_description: |
+          Entropy + Madness = complete breakdown.
+          Purple chaos with gray dissolution.
+          Pattern overwhelm + formlessness = total collapse.
+          This is psychotic breakdown at maximum.
+        coherence_dependent: false
+
+      when_combined_with_art:
+        force: "art"
+        color_effect: "blend"  # Purple + pink = visionary art
+        shape_effect: "channeling"  # Madness channeled into expression
+        motion_effect: "creating"  # Chaos becomes art
+        result_description: |
+          Madness channeled into art - productive edge state.
+          Purple fractals expressed through pink creative gesture.
+          This is genius - madness controlled and manifested.
+          "The best artists are slightly mad."
+        coherence_dependent: false
+
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Purple + lavender = aware madness
+        shape_effect: "witnessing"  # Can observe madness without being consumed
+        motion_effect: "containing"  # Consciousness contains chaos
+        result_description: |
+          Consciousness witnesses madness without identification.
+          Purple chaos within lavender awareness sphere.
+          "I see the madness but I am not the madness."
+          This is meditation in chaos - observer stable.
+        coherence_dependent: false
+
+      when_combined_with_death:
+        force: "death"
+        color_effect: "blend"  # Purple + black = ego dissolution
+        shape_effect: "dissolving"  # Madness as death of old identity
+        motion_effect: "transforming"  # Death through madness to rebirth
+        result_description: |
+          Death + Madness = ego dissolution, identity death.
+          Purple chaos dissolving into black void.
+          Near-death experiences can induce temporary madness.
+          This is shamanic crisis - death/rebirth through chaos.
+        coherence_dependent: false
+
+    notes: |
+      Madness emerges from (distorted_pattern / coherence) + recursive_memory_loops.
+      Madness = signal-to-noise ratio collapse, pattern overwhelm.
+      Three categories: clinical (needs treatment), creative (harness), spiritual (integrate).
+      Madness + Coherence = madness dissolves (integration prevents).
+      Madness + Entropy = total breakdown (chaos + chaos).
+      Madness + Art = genius (productive edge state).
+      Madness + Consciousness = contained (witness without consuming).
+      Madness + Death = ego dissolution (shamanic crisis).
+      At high coherence (0.70+): madness nearly impossible.
+      At medium coherence (0.40-0.70): genius possible (controlled edge).
+      At low coherence (0.05-0.20): psychosis likely (uncontrolled chaos).
+      Key insight: Genius and madness share territory (both see beyond consensus).
+      Key insight: Sanity = consensus reality (filtered perception).
+      Key insight: Some truths require temporary madness (pattern breakthrough).
+
+# IMPLEMENTATION NOTES:
+# - Madness is Tier 4 "emergent" - (distorted_pattern / coherence) + recursive_memory_loops
+# - Madness = pattern overwhelm, signal-to-noise collapse
+# - Three categories: clinical (dysfunction), creative (productive), spiritual (transformative)
+# - At high coherence, madness nearly impossible (integration prevents breakdown)
+# - At low coherence, madness erupts (fragmentation enables psychosis)
+# - Visual should feel chaotic, fragmented, recursive, overwhelming
+# - Rebecca Purple = distortion, unconventional, beyond consensus
+# - Fractal chaos = self-similar complexity overwhelming processing
+# - CRITICAL DISCLAIMER: All mental health concerns require professional evaluation
+# - LACE does not diagnose, treat, or replace psychiatric/psychological care
+# - "Genius and madness are but different manifestations of the same phenomenon"
+# - "Sanity is consensus reality - madness sees beyond the veil"
+# - Key insight: Pattern overload when processing capacity exceeded

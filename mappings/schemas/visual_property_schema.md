@@ -3,7 +3,7 @@
 **Purpose:** Defines the structure for cross-cutting visual property files in `mappings/visual_properties/`
 
 **Format:** YAML (.yaml)
-**Organization:** Files organized into 4 subcategories (colors, shapes, motion, additional)
+**Organization:** Files organized into 4 subcategories (colors, shapes, motion, additional) plus 1 cross-cutting file (rendering hierarchy)
 
 **Note:** These files define **global visual systems** that apply across all forces, complementing the force-specific mappings.
 
@@ -22,6 +22,9 @@ Movement pattern definitions and speed/rhythm calibrations
 
 ### 4. Additional (`visual_properties/additional/`)
 Texture, opacity, particle effects, and other visual modifiers
+
+### 5. Rendering Hierarchy (`visual_properties/rendering_hierarchy.yaml`)
+Visual prominence and layering rules when multiple forces are active simultaneously
 
 ---
 

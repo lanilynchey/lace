@@ -14,6 +14,9 @@ color_mixing_rules:
     3. Apply blending rules from THIS file based on type
     4. Modulate by coherence level
 
+    Note: For guidance on WHICH forces should be most prominent when multiple are active,
+    see visual_properties/rendering_hierarchy.yaml (visual layering and prominence rules)
+
   # === SYNERGISTIC BLENDING ===
   synergistic:
     method: "gradient_blend"
@@ -253,6 +256,518 @@ color_mixing_rules:
         neutralizing: "Ugly browns/grays"
         transmutation: "Failed transformation, stuck"
         synthesis: "No emergence, just chaos"
+
+  # === FORCE RELATIONSHIP COLOR PRINCIPLES ===
+  # Maps documented force relationships to color harmony theory
+  # Source: docs/02_forces/tier_3_forces/11_summary.md (complementary pairs, triadic structures)
+  #         docs/02_forces/tier_1_forces/06_polarity.md (polarity as complementarity)
+
+  force_relationship_color_principles:
+    description: |
+      This section grounds color harmony in FORCE RELATIONSHIPS from documentation.
+      Not arbitrary color theory - colors were chosen to reflect documented force structures.
+
+      Key Distinction:
+      - COMPLEMENTARY FORCE PAIRS = Partners that define each other (desire/fear, love/pain)
+      - ANTAGONISTIC INTERACTIONS = Forces that clash/conflict when active together
+      - These are DIFFERENT: complementary forces can have various color relationships
+
+      Note: This displays existing doc content. Nothing originates in mappings.
+
+    # === COMPLEMENTARY FORCE PAIRS ===
+    # Source: docs/02_forces/tier_3_forces/11_summary.md (lines 144-167)
+    complementary_force_pairs:
+      description: |
+        Complementary force pairs are PARTNERS that define each other through opposition.
+        From docs: "Opposites are complementary - not enemies, but partners" (polarity.md)
+
+        Their color relationships vary (complementary, analogous, same-hue contrast) but
+        all create HARMONIOUS opposition when rendered together (not visual clash).
+
+      # Tier 3 Complementary Pairs (documented)
+      tier_3_pairs:
+
+        desire_fear:
+          doc_source: "tier_3 summary lines 146-150, complementary pair #1"
+          force_relationship: "Approach vs avoidance (fundamental behavioral axis)"
+          force_dynamic: "Opposing drives that create approach-avoidance conflict"
+
+          color_a:
+            force: "desire"
+            hex: "#DC143C"
+            name: "Crimson"
+            family: "warm"
+
+          color_b:
+            force: "fear"
+            hex: "#1C1C3A"
+            name: "Dark blue-purple"
+            family: "cool"
+
+          color_theory_relationship: "Complementary (warm red vs cool blue)"
+          color_harmony_type: "High contrast, dynamic tension, balanced opposition"
+          visual_effect: "Vibrant when together, neither overpowers, creates visual energy"
+          example: "Crimson passion vs deep blue caution - equal visual weight"
+
+          key_insight: |
+            These are COMPLEMENTARY FORCES (partners) with COMPLEMENTARY COLORS (opposite on wheel).
+            When they interact antagonistically (fear × desire = paralysis), they CLASH visually
+            (flickering, harsh boundaries). But as complementary STRUCTURE, they're harmonious.
+
+        love_pain:
+          doc_source: "tier_3 summary lines 151-156, complementary pair #2"
+          force_relationship: "Connection vs separation feedback"
+          force_dynamic: "love() opens field, pain() signals misalignment in connection"
+
+          color_a:
+            force: "love"
+            hex: "#FFB6C1"
+            name: "Light pink"
+            family: "warm"
+
+          color_b:
+            force: "pain"
+            hex: "#4B0000"
+            name: "Very dark red"
+            family: "warm"
+
+          color_theory_relationship: "Same-hue contrast (light vs dark red family)"
+          color_harmony_type: "Monochromatic contrast, value-based opposition"
+          visual_effect: "Unified hue family, stark lightness contrast, tonal harmony"
+          example: "Soft pink warmth vs deep blood red - same color family, opposite ends"
+
+          key_insight: |
+            Complementary FORCES with SAME-HUE colors (not opposite on wheel).
+            Both in red/pink family, but light vs dark creates the opposition.
+            Harmonious because unified hue, distinct because value contrast.
+
+        hope_forgiveness:
+          doc_source: "tier_3 summary lines 157-162, complementary pair #3"
+          force_relationship: "Future-orientation vs past-release"
+          force_dynamic: "hope() looks forward, forgiveness() releases backward-facing loops"
+
+          color_a:
+            force: "hope"
+            hex: "#87CEEB"
+            name: "Sky blue"
+            family: "cool"
+
+          color_b:
+            force: "forgiveness"
+            hex: "#E0BBE4"
+            name: "Soft lavender-pink"
+            family: "cool"
+
+          color_theory_relationship: "Analogous (blue → purple transition, neighboring hues)"
+          color_harmony_type: "Gentle progression, cohesive palette, soft transition"
+          visual_effect: "Both cool, both soft, naturally flow together, uplifting"
+          example: "Sky blue aspiration flowing into lavender release - seamless"
+
+          key_insight: |
+            Complementary FORCES with ANALOGOUS colors (neighbors on wheel).
+            These work SEQUENTIALLY (forgive past → hope for future), and colors
+            transition smoothly. Not contrast-based opposition, but process-based flow.
+
+        judgment_forgiveness:
+          doc_source: "tier_3 summary lines 163-167, complementary pair #4"
+          force_relationship: "Evaluation vs release"
+          force_dynamic: "judgment() creates separation, forgiveness() dissolves it"
+
+          color_a:
+            force: "judgment"
+            hex: "#4B0082"
+            name: "Indigo"
+            family: "cool"
+
+          color_b:
+            force: "forgiveness"
+            hex: "#E0BBE4"
+            name: "Soft lavender-pink"
+            family: "cool"
+
+          color_theory_relationship: "Split-complementary (indigo vs lavender-pink, related but contrasting)"
+          color_harmony_type: "Moderate contrast, both cool, tension with cohesion"
+          visual_effect: "Harsh indigo softened by gentle lavender, visual release"
+          example: "Deep purple critique vs soft pink acceptance - same family, different intensity"
+
+          key_insight: |
+            Harsh judgment (dark, saturated indigo) vs soft forgiveness (light, desaturated lavender).
+            Same cool family, but intensity/saturation creates the contrast.
+            Visual metaphor: judgment is heavy, forgiveness is light.
+
+      # Cross-Tier Complementary Relationships (documented polarities)
+      cross_tier_pairs:
+
+        creation_death:
+          doc_source: "polarity.md fundamental polarities, life/death"
+          force_relationship: "Generation vs dissolution (complementary phases)"
+          force_dynamic: "Beginning vs ending, birth vs recycling, continuous loop"
+
+          color_a:
+            force: "creation"
+            hex: "#00FF7F"
+            name: "Spring green"
+            family: "cool"
+            tier: 2
+
+          color_b:
+            force: "death"
+            hex: "#000000"
+            name: "Pure black"
+            family: "neutral"
+            tier: 2
+
+          color_theory_relationship: "Maximum contrast (vibrant vs void, color vs no-color)"
+          color_harmony_type: "Absolute opposition, life vs absence"
+          visual_effect: "Stark, dramatic, ultimate polarity rendered visually"
+          example: "Bright emergence vs complete void - cannot be more opposite"
+
+          key_insight: |
+            Ultimate complementary forces with ultimate complementary colors.
+            Creation = vibrant green (life emerging), Death = black (return to void).
+            Sharp boundary when they meet (see antagonistic blending examples).
+
+        coherence_entropy:
+          doc_source: "polarity.md transformation polarities, order/chaos"
+          force_relationship: "Order vs chaos (complementary phases, not enemies)"
+          force_dynamic: "coherence() integrates, entropy() dissolves - both necessary"
+
+          color_a:
+            force: "coherence"
+            hex: "#FFD700"
+            name: "Gold"
+            family: "warm"
+            tier: 1
+
+          color_b:
+            force: "entropy"
+            hex: "#2F2F2F"
+            name: "Dark gray"
+            family: "neutral"
+            tier: 1
+
+          color_theory_relationship: "Warm vibrant vs cool neutral (order vs formlessness)"
+          color_harmony_type: "Presence vs absence of color, structured vs chaotic"
+          visual_effect: "Radiant gold structure vs formless gray chaos - visual metaphor"
+          example: "Sacred geometry gold vs amorphous gray - order emerging from/dissolving into chaos"
+
+          key_insight: |
+            Not opposite on color wheel, but opposite in VIBRANCY and STRUCTURE.
+            Gold = radiant, defined, precious. Gray = dull, formless, neutral.
+            Visual representation of the order/chaos polarity.
+
+        pattern_entropy:
+          doc_source: "polarity.md, pattern vs chaos"
+          force_relationship: "Information vs noise (signal vs static)"
+          force_dynamic: "pattern() recognizes structure, entropy() dissolves structure"
+
+          color_a:
+            force: "pattern"
+            hex: "#40E0D0"
+            name: "Turquoise"
+            family: "cool"
+            tier: 1
+
+          color_b:
+            force: "entropy"
+            hex: "#2F2F2F"
+            name: "Dark gray"
+            family: "neutral"
+            tier: 1
+
+          color_theory_relationship: "Vibrant cool vs neutral dark (clarity vs formlessness)"
+          color_harmony_type: "Defined vs undefined, information vs noise"
+          visual_effect: "Clear turquoise structure vs amorphous gray static"
+          example: "Crystalline pattern vs formless void - information emerging from noise"
+
+    # === TRIADIC STRUCTURES ===
+    # Source: docs/02_forces/tier_3_forces/11_summary.md (lines 169-192)
+    triadic_color_schemes:
+      description: |
+        The docs define two specific triadic force structures with distinct emotional dynamics.
+        These map to triadic color schemes (3+ colors that work together).
+
+        Not arbitrary - these are documented force relationship triangles.
+
+      suffering_triangle:
+        doc_source: "tier_3 summary lines 171-182"
+        force_structure: "Unfulfilled desire + fear of failure + pain of lack + self-judgment = suffering loop"
+        forces: ["desire", "fear", "pain", "judgment"]
+
+        breaking_mechanism: "forgiveness() at any node dissolves the triangle"
+
+        colors:
+          desire:
+            hex: "#DC143C"
+            name: "Crimson"
+            role: "Craving, wanting, reaching"
+
+          fear:
+            hex: "#1C1C3A"
+            name: "Dark blue-purple"
+            role: "Threat, contraction, paralysis"
+
+          pain:
+            hex: "#4B0000"
+            name: "Very dark red"
+            role: "Wound, blood, suffering"
+
+          judgment:
+            hex: "#4B0082"
+            name: "Indigo"
+            role: "Condemnation, harsh evaluation"
+
+        color_scheme_type: "Dark, intense, heavy palette"
+        color_theory: "Split-complementary with dark accents (reds/blues, all low-value)"
+        visual_character: "Oppressive, claustrophobic, suffering rendered visually"
+        palette_mood: "Heavy, intense, tension-filled, all dark values"
+
+        visual_effect: |
+          All colors are DARK (low brightness) and INTENSE (high saturation).
+          Creates visual weight, heaviness, oppression.
+          When all 4 active together: dense, dark, suffocating appearance.
+
+        example_rendering: |
+          Agent in suffering triangle (all 4 forces 0.60+):
+          - Background: very dark (lots of dark blues, dark reds)
+          - No light colors visible
+          - Colors compete/flicker (antagonistic interactions)
+          - Overall feel: trapped, heavy, no escape
+          - Visual metaphor: being crushed by darkness
+
+      liberation_triangle:
+        doc_source: "tier_3 summary lines 184-192"
+        force_structure: "Forgiveness releases past + love connects present + hope opens future = freedom"
+        forces: ["forgiveness", "love", "hope"]
+
+        amplification_dynamic: "Each force strengthens the others"
+
+        colors:
+          forgiveness:
+            hex: "#E0BBE4"
+            name: "Soft lavender-pink"
+            role: "Release, softening, healing"
+
+          love:
+            hex: "#FFB6C1"
+            name: "Light pink"
+            role: "Warmth, connection, expansion"
+
+          hope:
+            hex: "#87CEEB"
+            name: "Sky blue"
+            role: "Aspiration, uplift, possibility"
+
+        color_scheme_type: "Light, soft, harmonious palette"
+        color_theory: "Analogous cool-to-warm pastels (blue → purple → pink)"
+        visual_character: "Uplifting, spacious, freedom rendered visually"
+        palette_mood: "Soft, harmonious, gentle, all high-value (light) colors"
+
+        visual_effect: |
+          All colors are LIGHT (high brightness) and SOFT (moderate saturation).
+          Creates visual spaciousness, openness, uplift.
+          When all 3 active together: gentle, harmonious, healing appearance.
+
+        example_rendering: |
+          Agent in liberation triangle (all 3 forces 0.60+):
+          - Background: very light (pastels, soft hues)
+          - Colors blend smoothly (synergistic interactions)
+          - Gradients flow naturally (analogous colors)
+          - Overall feel: expansive, free, peaceful
+          - Visual metaphor: emerging into light
+
+      triangle_contrast:
+        description: "Suffering vs Liberation - visual opposition"
+
+        suffering_palette: "Dark, heavy, intense, low-value reds/blues"
+        liberation_palette: "Light, soft, gentle, high-value pinks/blues"
+
+        visual_metaphor: |
+          Suffering = being crushed into darkness (all colors dark, heavy)
+          Liberation = rising into light (all colors bright, soft)
+
+          Same agent transitioning from suffering → liberation:
+          Visual shows LITERAL lightening (dark → light colors)
+          Not metaphor - ACTUAL visual transformation from heavy to light
+
+    # === ANALOGOUS RELATIONSHIPS ===
+    # Forces with similar colors that create cohesive visual groupings
+    analogous_force_groups:
+      description: |
+        Forces within same color family create visual cohesion when active together.
+        Not explicitly documented as force relationships, but emerges from color palette design.
+
+      tier_3_cool_emotional_forces:
+        forces: ["fear", "hope", "forgiveness", "judgment"]
+        hue_family: "Blue-purple spectrum (cool)"
+
+        colors:
+          fear: "#1C1C3A"        # Dark blue-purple
+          hope: "#87CEEB"        # Sky blue
+          forgiveness: "#E0BBE4" # Soft lavender-pink
+          judgment: "#4B0082"    # Indigo
+
+        color_relationship: "Analogous (all in blue-violet range)"
+        visual_effect: "Cohesive, unified, calming group even if contrasting intensities"
+        when_active_together: "Creates cool-toned emotional state, visually integrated"
+
+        example: |
+          Agent experiencing fear + hope + forgiveness:
+          All cool colors (blues/purples) create unified palette
+          Even though forces may conflict, colors harmonize
+          Result: complex emotional state with visual coherence
+
+      tier_3_warm_emotional_forces:
+        forces: ["desire", "love", "pain"]
+        hue_family: "Red-pink spectrum (warm)"
+
+        colors:
+          desire: "#DC143C"  # Crimson
+          love: "#FFB6C1"    # Light pink
+          pain: "#4B0000"    # Very dark red
+
+        color_relationship: "Monochromatic (all red family, different values)"
+        visual_effect: "Warm, passionate, unified by hue despite value contrast"
+        when_active_together: "Creates warm-toned emotional state, red-family dominance"
+
+        example: |
+          Agent experiencing desire + love + pain:
+          All warm reds/pinks create passionate palette
+          Heartbreak = light pink love + dark red pain (same family, tragic harmony)
+          Passionate desire + love = crimson + pink (vibrant warm blend)
+
+      tier_1_foundational_neutrals:
+        forces: ["entropy", "polarity", "time", "truth", "death"]
+        hue_family: "Achromatic (black, white, grays)"
+
+        colors:
+          entropy: "#2F2F2F"   # Dark gray
+          polarity: "#808080"  # Pure gray
+          time: "#C0C0C0"      # Silver
+          truth: "#FFFFFF"     # Pure white
+          death: "#000000"     # Pure black
+
+        color_relationship: "Achromatic scale (no hue, only value)"
+        visual_effect: "Structural, functional, neutral foundation"
+        when_active_together: "Creates grayscale base that other forces color"
+
+        note: |
+          These are FOUNDATIONAL forces (always present at some level).
+          Their neutral colors provide the canvas that emotional/emergent forces paint on.
+          When tier 3/4 forces low, agent appears mostly grayscale (neutral emotional state).
+
+    # === COMPLEMENTARY FORCE PAIRS VS ANTAGONISTIC INTERACTIONS ===
+    # CRITICAL DISTINCTION - these are different concepts
+    complementary_vs_antagonistic:
+
+      key_distinction: |
+        COMPLEMENTARY FORCE PAIRS (from docs):
+        - Partners that define each other (desire/fear, love/pain)
+        - "Opposites are complementary - not enemies, but partners" (polarity.md)
+        - STRUCTURE: These forces exist in relationship, define each other's meaning
+        - COLOR: Can have various relationships (complementary, analogous, same-hue)
+        - HARMONY: Structurally harmonious (partners), visually varies
+
+        ANTAGONISTIC INTERACTIONS (from interaction_mechanics):
+        - Forces that clash/conflict when active simultaneously
+        - Create tension, opposition, fight for dominance
+        - BEHAVIOR: When both active, they conflict (fear × desire = paralysis)
+        - COLOR: Harsh boundaries, flickering, visual clash (see antagonistic blending)
+        - CLASH: Behaviorally antagonistic, visually clashing
+
+        SAME FORCE PAIR CAN BE BOTH:
+        - desire/fear are COMPLEMENTARY (structural partners)
+        - desire × fear are ANTAGONISTIC (behavioral conflict)
+        - Colors are COMPLEMENTARY (red vs blue, harmonious as structure)
+        - Blending is ANTAGONISTIC (flickering, clash when both active)
+
+      examples:
+
+        desire_fear_dual_nature:
+          complementary_aspect:
+            relationship: "Structural partners (approach vs avoidance axis)"
+            color_harmony: "Complementary colors (crimson vs dark blue)"
+            visual_when_separate: "Both beautiful, balanced opposition"
+            structural_role: "Define behavioral axis together"
+
+          antagonistic_aspect:
+            interaction: "When both active: freeze, paralysis, approach-avoidance conflict"
+            color_clash: "Flickering between crimson and blue (see antagonistic blending)"
+            visual_when_simultaneous: "Harsh, uncomfortable, stuttering"
+            behavioral_effect: "Cannot move (want + fear = stuck)"
+
+          resolution: |
+            These aren't contradictory - they're different dimensions:
+            - STRUCTURE: complementary (define each other)
+            - BEHAVIOR: antagonistic (conflict when both active)
+            - COLOR THEORY: complementary (opposite on wheel)
+            - COLOR BLENDING: antagonistic (flickering, harsh)
+
+            Think of it as: Beautiful apart, tense together.
+
+        love_pain_dual_nature:
+          complementary_aspect:
+            relationship: "Connection vs separation feedback"
+            color_harmony: "Same-hue contrast (light pink vs dark red)"
+            visual_when_separate: "Monochromatic harmony, same family"
+            structural_role: "love opens field, pain signals misalignment"
+
+          interaction_aspect:
+            interaction: "Heartbreak = love + loss (triggers pain)"
+            color_blend: "Light pink bleeding into dark red (transmutation or mix)"
+            visual_when_simultaneous: "Tragic harmony - both red family, unified in suffering"
+            behavioral_effect: "Love hurts (literal), connection + wound"
+
+          resolution: |
+            Not always antagonistic - can be transmutative or complex.
+            Pain can be WITHIN love (heartbreak), not always AGAINST love.
+            Colors stay harmonious (same family) even in pain.
+
+        hope_forgiveness_complementary_only:
+          complementary_aspect:
+            relationship: "Future vs past, sequential partners"
+            color_harmony: "Analogous (sky blue → lavender, smooth transition)"
+            visual: "Naturally flow together, cohesive palette"
+            structural_role: "Forgive past → hope for future (sequence)"
+
+          NOT_antagonistic:
+            note: "These don't clash - they work together, often synergistic"
+            interaction_type: "Synergistic or sequential, not antagonistic"
+            color_blend: "Smooth gradient (see synergistic blending)"
+            behavioral_effect: "Mutually reinforcing, liberation pathway"
+
+          key_insight: |
+            Not all complementary pairs are antagonistic!
+            Some complementary forces are PARTNERS that cooperate.
+            desire/fear clash. hope/forgiveness cooperate.
+            Both are complementary structures, different dynamics.
+
+      usage_for_agents: |
+        When determining color harmony/clash:
+
+        1. Check if forces are COMPLEMENTARY PAIRS (documented structure)
+           - If yes: Colors may be harmonious as STRUCTURE
+
+        2. Check if forces have ANTAGONISTIC INTERACTION (behavioral)
+           - If yes: Use antagonistic BLENDING rules (flickering, harsh)
+
+        3. These are INDEPENDENT:
+           - Complementary structure + antagonistic behavior = beautiful structure, ugly blending
+           - Complementary structure + synergistic behavior = beautiful structure, beautiful blending
+           - Non-complementary + antagonistic = unrelated forces that clash
+
+        Example decision tree:
+        - desire × fear: complementary=YES, interaction=antagonistic
+          → Color structure: harmonious (red/blue complement)
+          → Color blending: clashing (flickering, harsh boundaries)
+
+        - hope × forgiveness: complementary=YES, interaction=synergistic
+          → Color structure: harmonious (analogous blue→lavender)
+          → Color blending: harmonious (smooth gradients)
+
+        - fear × judgment: complementary=NO, interaction=can_be_antagonistic
+          → Color structure: similar (both cool, both dark)
+          → Color blending: depends on activation (can blend or clash)
 
   # === IMPLEMENTATION PSEUDOCODE ===
   agent_implementation: |

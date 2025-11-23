@@ -14,6 +14,9 @@ interaction_effects:
     - Transmutation: One force transforms another
     - Synthesis: New emergent pattern
 
+    Note: For guidance on visual hierarchy/prominence when multiple forces are active,
+    see visual_properties/rendering_hierarchy.yaml (which forces dominate foreground vs background)
+
   # === SYNERGISTIC INTERACTIONS ===
   synergistic:
     description: "Compatible forces that amplify each other"

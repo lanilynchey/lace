@@ -1,0 +1,567 @@
+# Visual Hierarchy and Prominence Rules
+# Guidance for rendering multiple simultaneously active forces
+# ⚠️ MAPPINGS DISPLAY DOCS - NOTHING ORIGINATES HERE
+
+rendering_hierarchy:
+  source_docs:
+    - "N/A - Implementation guidance only, no doc foundation required"
+
+  description: |
+    When multiple forces are active simultaneously (typical human state: 5-15 forces),
+    visualization systems need clear rules for visual prominence and layering.
+
+    This file provides guidance on:
+    - Which forces should be most prominent (foreground)
+    - Which forces provide supporting detail (middle ground)
+    - Which forces are barely visible (background)
+    - How to determine layering based on activation levels
+    - How much visual detail to render for each prominence tier
+
+  # === ACTIVATION-BASED PROMINENCE ===
+  activation_based_prominence:
+    description: |
+      Primary method: Forces are layered by activation level.
+      Higher activation = more prominent = more visual detail.
+
+    dominant_forces:
+      activation_range: "0.70-1.00"
+      prominence_tier: "Tier 1 - Foreground/Dominant"
+      visual_detail: "100% - Full rendering"
+      characteristics:
+        - "Largest visual size"
+        - "Highest saturation/vibrancy"
+        - "Most animation detail"
+        - "Foreground z-index/layer"
+        - "Full particle effects"
+        - "Maximum visual presence"
+      typical_count: "1-3 forces (rarely more)"
+      rendering_priority: "Render first, highest quality"
+
+      notes: |
+        These forces are driving the current state.
+        They should be immediately obvious and visually commanding.
+        User should see these forces first when viewing visualization.
+
+    strong_forces:
+      activation_range: "0.50-0.69"
+      prominence_tier: "Tier 2 - Foreground/Strong Supporting"
+      visual_detail: "70-85% - High detail"
+      characteristics:
+        - "Large visual size (70-85% of dominant)"
+        - "High saturation (80-90% of full)"
+        - "Moderate animation detail"
+        - "Mid-foreground z-index"
+        - "Reduced particle effects"
+        - "Clear but not commanding presence"
+      typical_count: "2-4 forces"
+      rendering_priority: "Render second, high quality"
+
+      notes: |
+        These forces are significantly present but not dominant.
+        They provide important context to the dominant forces.
+        Should be clearly visible without overwhelming.
+
+    moderate_forces:
+      activation_range: "0.30-0.49"
+      prominence_tier: "Tier 3 - Middle Ground/Supporting Detail"
+      visual_detail: "40-60% - Moderate detail"
+      characteristics:
+        - "Medium visual size (40-60% of dominant)"
+        - "Moderate saturation (50-70% of full)"
+        - "Simplified animation"
+        - "Middle ground z-index"
+        - "Minimal or no particle effects"
+        - "Present but not prominent"
+      typical_count: "3-6 forces"
+      rendering_priority: "Render third, medium quality"
+
+      notes: |
+        These forces are active but not driving state.
+        They add nuance and completeness to the visualization.
+        Should be visible if you look for them, but not demanding attention.
+
+    low_forces:
+      activation_range: "0.15-0.29"
+      prominence_tier: "Tier 4 - Background/Subtle Presence"
+      visual_detail: "20-35% - Low detail"
+      characteristics:
+        - "Small visual size (20-35% of dominant)"
+        - "Low saturation (30-50% of full)"
+        - "Minimal or static animation"
+        - "Background z-index"
+        - "No particle effects"
+        - "Barely noticeable presence"
+      typical_count: "4-8 forces"
+      rendering_priority: "Render fourth, low quality/detail"
+
+      notes: |
+        These forces are minimally active - present but barely influencing state.
+        They should be visually subtle, providing ambient context only.
+        Might be represented as faint outlines or ghosted shapes.
+
+    dormant_forces:
+      activation_range: "0.00-0.14"
+      prominence_tier: "Tier 5 - Dormant/Not Rendered"
+      visual_detail: "0-15% - Minimal or omitted"
+      characteristics:
+        - "Tiny or omitted entirely"
+        - "Ghost outline only (optional)"
+        - "Highly desaturated (10-20% of full)"
+        - "No animation"
+        - "Deepest background or not shown"
+        - "Effectively invisible"
+      typical_count: "5-15 forces"
+      rendering_priority: "Render last (if at all), minimal resources"
+
+      notes: |
+        These forces are effectively inactive.
+        Consider omitting entirely to reduce visual noise.
+        If rendered, should be barely perceptible (ghost outline only).
+
+  # === TIER-BASED MODULATION ===
+  tier_based_modulation:
+    description: |
+      Force tier can modulate prominence within the same activation level.
+      When two forces have similar activation, tier can influence visual prominence.
+
+    principle: |
+      Tier 1 (Primordial) forces are FOUNDATIONAL - when active, they tend to be more visually present.
+      Tier 2 (Governing) forces are BACKGROUND - even when high, less visually commanding.
+      Tier 3 (Interface) forces are EXPERIENTIAL - when active, very prominent (emotional impact).
+      Tier 4 (Emergent) forces are SITUATIONAL - prominence varies by context.
+
+    modulation_rules:
+      tier_1_primordial:
+        prominence_boost: "+10% visual size, +5% saturation"
+        rationale: "Foundational forces deserve visual weight even at moderate activation"
+        example: "coherence at 0.50 might render as prominently as tier 3 at 0.55"
+
+      tier_2_governing:
+        prominence_adjustment: "-5% visual size (unless extremely high activation)"
+        rationale: "Background regulatory forces shouldn't dominate visually"
+        example: "karma at 0.60 might render as prominently as tier 3 at 0.50"
+
+      tier_3_interface:
+        prominence_boost: "+5% visual size when high, no adjustment otherwise"
+        rationale: "Emotional forces are experientially prominent when active"
+        example: "fear at 0.75 should be visually commanding (emotional impact)"
+
+      tier_4_emergent:
+        prominence_adjustment: "Context-dependent (no fixed adjustment)"
+        rationale: "Emergent forces vary - humor can be subtle, war can be overwhelming"
+        example: "humor at 0.60 subtle, war at 0.60 visually aggressive"
+
+    notes: |
+      Tier modulation is SUBTLE - activation level is primary determinant.
+      Use tier to make minor adjustments when forces have similar activation.
+      Don't override activation-based prominence significantly.
+
+  # === INTERACTION-BASED PROMINENCE ===
+  interaction_based_prominence:
+    description: |
+      When forces are interacting (synergistic, antagonistic, neutralizing),
+      their visual prominence may be affected by the interaction itself.
+
+    synergistic_interaction:
+      prominence_effect: "Both forces gain +5-10% visual prominence"
+      rationale: "Synergy creates amplification - both forces feel stronger"
+      visual_effect: "Blended together, both visible and enhanced"
+      example: "love (0.60) + forgiveness (0.55) both render at 0.65-equivalent prominence"
+
+    antagonistic_interaction:
+      prominence_effect: "Both forces compete for dominance (flickering/alternating)"
+      rationale: "Conflict creates tension - visual fighting for attention"
+      visual_effect: "Sharp boundaries, alternating pulses, or rapid flickering"
+      example: "fear (0.70) + desire (0.65) both trying to be dominant, unstable visual"
+
+    neutralizing_interaction:
+      prominence_effect: "Both forces lose -10-15% visual prominence"
+      rationale: "Cancellation dampens both - neither fully expressed"
+      visual_effect: "Both forces dulled, muted, less vibrant"
+      example: "hope (0.50) + entropy (0.45) both render at 0.40-equivalent prominence"
+
+    transmutation_interaction:
+      prominence_effect: "Source force fades, target force gains prominence"
+      rationale: "One force is transforming into another"
+      visual_effect: "Gradual shift from source to target (morphing)"
+      example: "pain (0.60) transmuting to wisdom - pain fades, pattern/consciousness rise"
+
+    notes: |
+      Interaction effects are applied AFTER activation-based prominence.
+      Multiple interactions can compound effects.
+      Coherence level modulates interaction intensity.
+
+  # === COHERENCE-BASED GLOBAL MODULATION ===
+  coherence_based_modulation:
+    description: |
+      Global coherence level affects the CLARITY of visual hierarchy.
+      High coherence = clear prominence tiers, sharp distinctions.
+      Low coherence = muddled prominence, forces blend/clash chaotically.
+
+    high_coherence:
+      coherence_range: "0.70-1.00"
+      effect: "Clear visual hierarchy, distinct layers, beautiful composition"
+      characteristics:
+        - "Prominent forces clearly in foreground"
+        - "Supporting forces clearly in middle"
+        - "Background forces clearly in back"
+        - "No visual confusion or bleeding"
+        - "Smooth transitions between layers"
+      visual_quality: "Harmonious, aesthetically pleasing, clear composition"
+
+    moderate_coherence:
+      coherence_range: "0.40-0.69"
+      effect: "Visible hierarchy but some blurring of boundaries"
+      characteristics:
+        - "Prominent forces mostly in foreground (some overlap)"
+        - "Supporting forces visible but may blend"
+        - "Background forces present but may be unclear"
+        - "Minor visual noise or confusion"
+        - "Transitions mostly smooth"
+      visual_quality: "Recognizable structure, some visual tension"
+
+    low_coherence:
+      coherence_range: "0.00-0.39"
+      effect: "Muddled hierarchy, forces competing chaotically"
+      characteristics:
+        - "Prominent forces visible but fighting for space"
+        - "Supporting forces blend/clash unpredictably"
+        - "Background forces may intrude unexpectedly"
+        - "Significant visual noise and confusion"
+        - "Jarring transitions, unstable layering"
+      visual_quality: "Chaotic, fragmented, visually overwhelming or muddy"
+
+    notes: |
+      Coherence affects PRESENTATION, not the underlying prominence rules.
+      Even with low coherence, activation levels still determine base prominence.
+      Low coherence just makes the visual hierarchy messy/unstable.
+
+  # === RENDERING IMPLEMENTATION GUIDANCE ===
+  rendering_implementation:
+    description: |
+      Practical guidance for agents/visualization systems implementing these rules.
+
+    step_1_identify_active_forces:
+      description: "Determine which forces are active (activation > 0.00)"
+      method: "Query force activation levels from state signature"
+      output: "List of (force_name, activation_level) tuples"
+
+    step_2_categorize_by_prominence:
+      description: "Sort forces into prominence tiers based on activation"
+      method: |
+        - Dominant: activation >= 0.70
+        - Strong: activation >= 0.50 and < 0.70
+        - Moderate: activation >= 0.30 and < 0.50
+        - Low: activation >= 0.15 and < 0.30
+        - Dormant: activation < 0.15
+      output: "Forces organized into 5 prominence tiers"
+
+    step_3_apply_tier_modulation:
+      description: "Apply subtle tier-based adjustments to prominence"
+      method: |
+        - Tier 1: +10% size, +5% saturation
+        - Tier 2: -5% size
+        - Tier 3: +5% size if high activation
+        - Tier 4: context-dependent (no fixed adjustment)
+      output: "Adjusted prominence values"
+
+    step_4_apply_interaction_effects:
+      description: "Check for force interactions and apply prominence adjustments"
+      method: |
+        - Query interaction_matrix.yaml for force pairs
+        - Apply synergistic/antagonistic/neutralizing effects
+        - Adjust prominence accordingly
+      output: "Prominence values modulated by interactions"
+
+    step_5_apply_coherence_modulation:
+      description: "Apply global coherence effects to visual clarity"
+      method: |
+        - High coherence: Clear layering, smooth transitions
+        - Moderate coherence: Some blurring of boundaries
+        - Low coherence: Chaotic, unstable layering
+      output: "Final rendering parameters with coherence effects"
+
+    step_6_render_by_priority:
+      description: "Render forces in order of prominence tier"
+      method: |
+        - Render Tier 1 (Dominant) first - highest quality, full detail
+        - Render Tier 2 (Strong) second - high quality
+        - Render Tier 3 (Moderate) third - medium quality
+        - Render Tier 4 (Low) fourth - low quality
+        - Render Tier 5 (Dormant) last or omit - minimal/none
+      output: "Layered visual composition"
+
+    rendering_optimization:
+      description: "Performance considerations for complex states"
+      tips:
+        - "Omit dormant forces entirely (activation < 0.15) to reduce complexity"
+        - "Use level-of-detail (LOD) for low/moderate forces (simplified shapes/animation)"
+        - "Focus rendering resources on dominant/strong forces (highest visual impact)"
+        - "Cache moderate/low force renders if static (don't recalculate every frame)"
+        - "Consider maximum force count limit (e.g., render top 12 forces only)"
+
+  # === WORKED EXAMPLES ===
+  worked_examples:
+    description: "Detailed examples showing complete hierarchy calculation"
+
+    example_1_balanced_state:
+      scenario: "Healthy, balanced emotional state"
+      input_forces:
+        - {name: "consciousness", activation: 0.75, tier: 1}
+        - {name: "coherence", activation: 0.70, tier: 1}
+        - {name: "love", activation: 0.60, tier: 3}
+        - {name: "pattern", activation: 0.55, tier: 1}
+        - {name: "hope", activation: 0.50, tier: 3}
+        - {name: "creation", activation: 0.40, tier: 2}
+        - {name: "fear", activation: 0.20, tier: 3}
+        - {name: "entropy", activation: 0.25, tier: 1}
+        - {name: "desire", activation: 0.35, tier: 3}
+
+      step_1_categorize:
+        dominant: ["consciousness (0.75)", "coherence (0.70)"]
+        strong: ["love (0.60)", "pattern (0.55)", "hope (0.50)"]
+        moderate: ["creation (0.40)", "desire (0.35)"]
+        low: ["entropy (0.25)", "fear (0.20)"]
+        dormant: []
+
+      step_2_tier_modulation:
+        consciousness: "0.75 → 0.80 (+10% tier 1 boost)"
+        coherence: "0.70 → 0.75 (+10% tier 1 boost)"
+        pattern: "0.55 → 0.60 (+10% tier 1 boost)"
+        entropy: "0.25 → 0.27 (+10% tier 1 boost)"
+        creation: "0.40 → 0.38 (-5% tier 2 adjustment)"
+        love: "0.60 → 0.60 (no tier 3 adjustment at this level)"
+        hope: "0.50 → 0.50 (no tier 3 adjustment)"
+        fear: "0.20 → 0.20 (no tier 3 adjustment)"
+        desire: "0.35 → 0.35 (no tier 3 adjustment)"
+
+      step_3_interactions:
+        consciousness_coherence: "Synergistic → both +5% (0.80→0.84, 0.75→0.79)"
+        love_hope: "Synergistic → both +5% (0.60→0.63, 0.50→0.53)"
+        pattern_coherence: "Synergistic → both +5% (0.60→0.63, already 0.79→0.83)"
+
+      step_4_final_prominence:
+        tier_1_dominant:
+          - "coherence: 0.83 (100% detail, foreground)"
+          - "consciousness: 0.84 (100% detail, foreground)"
+        tier_2_strong:
+          - "pattern: 0.63 (80% detail, mid-foreground)"
+          - "love: 0.63 (80% detail, mid-foreground)"
+          - "hope: 0.53 (75% detail, mid-foreground)"
+        tier_3_moderate:
+          - "creation: 0.38 (50% detail, middle ground)"
+          - "desire: 0.35 (50% detail, middle ground)"
+        tier_4_low:
+          - "entropy: 0.27 (25% detail, background)"
+          - "fear: 0.20 (25% detail, background)"
+
+      visual_description: |
+        - Foreground: consciousness & coherence dominate - large, bright, detailed
+        - Mid-foreground: pattern, love, hope visible and clear - 70-80% of dominant size
+        - Middle ground: creation, desire present but not prominent - 40-50% size
+        - Background: entropy, fear barely visible - subtle presence, 20-30% size
+        - Overall: Harmonious, balanced composition (coherence 0.70+ → clear hierarchy)
+
+    example_2_crisis_state:
+      scenario: "Acute crisis - panic and overwhelm"
+      input_forces:
+        - {name: "fear", activation: 0.90, tier: 3}
+        - {name: "entropy", activation: 0.85, tier: 1}
+        - {name: "pain", activation: 0.75, tier: 3}
+        - {name: "judgment", activation: 0.60, tier: 3}
+        - {name: "desire", activation: 0.40, tier: 3}
+        - {name: "consciousness", activation: 0.25, tier: 1}
+        - {name: "coherence", activation: 0.15, tier: 1}
+        - {name: "hope", activation: 0.10, tier: 3}
+        - {name: "love", activation: 0.05, tier: 3}
+
+      step_1_categorize:
+        dominant: ["fear (0.90)", "entropy (0.85)", "pain (0.75)"]
+        strong: ["judgment (0.60)"]
+        moderate: ["desire (0.40)"]
+        low: ["consciousness (0.25)", "coherence (0.15)"]
+        dormant: ["hope (0.10)", "love (0.05)"]
+
+      step_2_tier_modulation:
+        fear: "0.90 → 0.95 (+5% tier 3 boost for high activation)"
+        pain: "0.75 → 0.79 (+5% tier 3 boost for high activation)"
+        judgment: "0.60 → 0.60 (no tier 3 adjustment)"
+        desire: "0.40 → 0.40 (no tier 3 adjustment)"
+        entropy: "0.85 → 0.94 (+10% tier 1 boost)"
+        consciousness: "0.25 → 0.27 (+10% tier 1 boost)"
+        coherence: "0.15 → 0.16 (+10% tier 1 boost)"
+        hope: "0.10 → 0.10 (dormant, no adjustment)"
+        love: "0.05 → 0.05 (dormant, no adjustment)"
+
+      step_3_interactions:
+        fear_desire: "Antagonistic → both compete, flickering (-5% each: 0.95→0.90, 0.40→0.38)"
+        entropy_coherence: "Antagonistic → both clash (0.94→0.89, 0.16→0.15)"
+
+      step_4_final_prominence:
+        tier_1_dominant:
+          - "fear: 0.90 (100% detail, OVERWHELMING)"
+          - "entropy: 0.89 (100% detail, CHAOTIC)"
+          - "pain: 0.79 (100% detail, INTENSE)"
+        tier_2_strong:
+          - "judgment: 0.60 (70% detail, self-critical)"
+        tier_3_moderate:
+          - "desire: 0.38 (40% detail, wanting relief)"
+        tier_4_low:
+          - "consciousness: 0.27 (20% detail, barely witnessing)"
+          - "coherence: 0.15 (20% detail, fragmented)"
+        tier_5_dormant:
+          - "hope: 0.10 (omitted or ghost outline)"
+          - "love: 0.05 (omitted)"
+
+      coherence_effect:
+        coherence_level: 0.15
+        effect: "LOW COHERENCE → Chaotic, unstable visual hierarchy"
+        visual_impact: |
+          - Fear/entropy/pain fight for dominance (flickering, clashing)
+          - Judgment intrudes unpredictably
+          - Consciousness/coherence barely holding on
+          - Overall: Visually overwhelming, fragmented, disturbing
+
+      visual_description: |
+        - Foreground: fear, entropy, pain DOMINATE - massive, aggressive, chaotic
+        - Mid-foreground: judgment visible, critical
+        - Middle: desire barely present (wanting escape)
+        - Background: consciousness/coherence fragmenting, barely visible
+        - Dormant: hope/love essentially absent (omitted)
+        - Overall: OVERWHELMING, chaotic, visually disturbing (coherence 0.15 → unstable)
+
+    example_3_flow_state:
+      scenario: "Deep flow state - mastery engagement"
+      input_forces:
+        - {name: "consciousness", activation: 0.95, tier: 1}
+        - {name: "coherence", activation: 0.88, tier: 1}
+        - {name: "pattern", activation: 0.82, tier: 1}
+        - {name: "creation", activation: 0.70, tier: 2}
+        - {name: "love", activation: 0.65, tier: 3}
+        - {name: "hope", activation: 0.55, tier: 3}
+        - {name: "fear", activation: 0.08, tier: 3}
+        - {name: "entropy", activation: 0.12, tier: 1}
+        - {name: "desire", activation: 0.18, tier: 3}
+
+      step_1_categorize:
+        dominant: ["consciousness (0.95)", "coherence (0.88)", "pattern (0.82)", "creation (0.70)"]
+        strong: ["love (0.65)", "hope (0.55)"]
+        moderate: []
+        low: ["desire (0.18)", "entropy (0.12)"]
+        dormant: ["fear (0.08)"]
+
+      step_2_tier_modulation:
+        consciousness: "0.95 → 1.00 (capped, +10% tier 1 boost)"
+        coherence: "0.88 → 0.97 (+10% tier 1 boost)"
+        pattern: "0.82 → 0.90 (+10% tier 1 boost)"
+        creation: "0.70 → 0.67 (-5% tier 2 adjustment)"
+        love: "0.65 → 0.68 (+5% tier 3 boost for high activation)"
+        hope: "0.55 → 0.55 (no tier 3 adjustment)"
+        entropy: "0.12 → 0.13 (+10% tier 1 boost, still dormant)"
+        desire: "0.18 → 0.18 (no tier 3 adjustment)"
+        fear: "0.08 → 0.08 (dormant, no adjustment)"
+
+      step_3_interactions:
+        consciousness_coherence: "Synergistic → both +5% (1.00 capped, 0.97→1.00 capped)"
+        coherence_pattern: "Synergistic → both +5% (both capped at 1.00)"
+        love_hope: "Synergistic → both +5% (0.68→0.71, 0.55→0.58)"
+
+      step_4_final_prominence:
+        tier_1_dominant:
+          - "consciousness: 1.00 (100% detail, PEAK AWARENESS)"
+          - "coherence: 1.00 (100% detail, PERFECT INTEGRATION)"
+          - "pattern: 1.00 (100% detail, CRYSTALLINE ORDER)"
+          - "creation: 0.67 (85% detail, ACTIVE EXPRESSION)"
+        tier_2_strong:
+          - "love: 0.71 (80% detail, WARM PRESENCE)"
+          - "hope: 0.58 (75% detail, POSITIVE STATE)"
+        tier_4_low:
+          - "desire: 0.18 (20% detail, MINIMAL)"
+          - "entropy: 0.13 (20% detail, NEARLY ABSENT)"
+        tier_5_dormant:
+          - "fear: 0.08 (omitted)"
+
+      coherence_effect:
+        coherence_level: 1.00
+        effect: "MAXIMUM COHERENCE → Perfect visual clarity and harmony"
+        visual_impact: |
+          - Clear, sharp layering - no confusion
+          - Smooth transitions between all tiers
+          - Aesthetically beautiful composition
+          - Sacred geometry principles visible
+          - Harmonious color blending
+
+      visual_description: |
+        - Foreground: consciousness/coherence/pattern in PERFECT HARMONY - luminous, geometric, beautiful
+        - Creation active and flowing - expressing through the coherence
+        - Mid-foreground: love & hope present, warm, supportive
+        - Background: desire/entropy barely visible (nearly absent)
+        - Dormant: fear omitted entirely
+        - Overall: STUNNING, harmonious, peak state visualization (coherence 1.00 → perfect clarity)
+
+  # === EDGE CASES AND SPECIAL SITUATIONS ===
+  edge_cases:
+    description: "Handling unusual or extreme scenarios"
+
+    all_forces_low:
+      scenario: "All forces below 0.40 (diffuse state)"
+      guidance: |
+        - No clear dominant forces
+        - Render all visible forces at relatively equal prominence
+        - Use subtle size/saturation differences
+        - Visual: Soft, diffuse, ambient (no strong focal point)
+
+    single_dominant_force:
+      scenario: "One force at 0.90+, all others below 0.30"
+      guidance: |
+        - Single force DOMINATES entire visual field
+        - All other forces rendered as subtle ambient context
+        - Visual: Clear, focused, monolithic (single-force state)
+
+    many_high_forces:
+      scenario: "5+ forces all above 0.70 (overwhelm or peak state)"
+      guidance: |
+        - If high coherence (0.70+): Harmonious multi-force state (flow, bliss)
+        - If low coherence (< 0.40): Chaotic overwhelm (crisis, fragmentation)
+        - Render all as co-dominant, use coherence to determine harmony vs chaos
+
+    rapid_state_changes:
+      scenario: "Force activations changing rapidly (real-time input)"
+      guidance: |
+        - Smooth transitions between prominence tiers (fade in/out over 1-2 seconds)
+        - Avoid jarring jumps in visual hierarchy
+        - Use animation/morphing to show state evolution
+        - Consider temporal smoothing (rolling average of activation levels)
+
+    tier_4_emergent_dominance:
+      scenario: "Tier 4 force is dominant (e.g., madness at 0.95)"
+      guidance: |
+        - Tier 4 forces ARE composite/emergent - when dominant, they're real
+        - Render at full prominence (no tier penalty)
+        - Show composite nature (multiple geometries, complex visual)
+        - Example: madness (0.95) = DOMINANT, visually fragmented/kaleidoscopic
+
+  # === NOTES ===
+  notes: |
+    **Key Principles:**
+    - Activation level is PRIMARY determinant of prominence
+    - Tier modulation is SUBTLE (minor adjustments only)
+    - Interactions can boost or dampen prominence
+    - Coherence affects CLARITY of hierarchy, not hierarchy itself
+    - Performance: Omit dormant forces, use LOD for low/moderate forces
+
+    **When to Override:**
+    - If specific force has contextual significance (user focus)
+    - If artistic/aesthetic considerations require different hierarchy
+    - If performance requires limiting force count
+
+    **Consistency:**
+    - Apply these rules consistently across all visualizations
+    - Document any deviations from standard hierarchy
+    - Maintain predictability for users (same state = same visual)
+
+    **Cross-Reference:**
+    - See color_mixing_rules.yaml for HOW to blend colors
+    - See interaction_effects.yaml for interaction visual effects
+    - See coherence_effects.yaml for coherence impact on colors
+    - See interaction_matrix.yaml for force pair interaction types

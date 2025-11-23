@@ -90,19 +90,20 @@ This directory explores:
 mappings/                              ← YOU ARE HERE (experimental layer)
 ├── README.md (this file)
 │
-├── forces/                            # 26 force mappings (visual properties)
-│   ├── tier_1/ (5 primordial)
-│   ├── tier_2/ (6 governing)
-│   ├── tier_3/ (7 interface)
-│   └── tier_4/ (8 emergent)
+├── forces/                            # 26 force mappings COMPLETE (visual properties)
+│   ├── tier_1/ (5 primordial) ✅
+│   ├── tier_2/ (6 governing) ✅
+│   ├── tier_3/ (7 interface) ✅
+│   └── tier_4/ (8 emergent) ✅
 │
-├── visual_properties/                 # Cross-cutting visual systems
+├── visual_properties/                 # Cross-cutting visual systems (16 files)
 │   ├── colors/ (4 files)              # Base palette, intensity, interactions, coherence
 │   ├── shapes/ (4 files)              # Primitives, sacred geometry, complexity, textures
 │   ├── motion/ (4 files)              # Movement types, speeds, health patterns, rhythms
-│   └── additional/ (3 files)          # Vibrancy, opacity, particle effects
+│   ├── additional/ (3 files)          # Vibrancy, opacity, particle effects
+│   └── rendering_hierarchy.yaml       # Visual prominence and layering rules
 │
-├── lifestyle/                         # Lifestyle → force activation mappings (25 factors)
+├── lifestyle/                         # Lifestyle → force activation mappings (26 factors)
 │   ├── food_nutrition/
 │   ├── environment_nature/
 │   ├── social_connections/
@@ -112,23 +113,28 @@ mappings/                              ← YOU ARE HERE (experimental layer)
 │   ├── mental_spiritual/
 │   └── work_productivity/
 │
-├── interactions/                      # Force interaction effects (7 files)
+├── interactions/                      # Force interaction effects (8 files)
 │   ├── force_to_force/                # Synergistic, antagonistic, neutralizing, complex
 │   └── visual_blending/               # Color mixing, shape collision, motion rules
 │
-├── scales/                            # Reference links to framework scales
+├── scales/                            # Reference scales (5 files)
 │   ├── consciousness_levels.yaml      # 0.01-1.0 (links to docs)
 │   ├── mastery_levels.yaml            # 0.0-1.0 (links to docs)
 │   ├── coherence_thresholds.yaml      # 0.0-1.0 (links to docs)
-│   └── force_activation_ranges.yaml   # 0.0-1.0 (defined here)
+│   ├── force_activation_ranges.yaml   # 0.0-1.0 (defined here)
+│   └── temporal_dynamics.yaml         # Change rates and timelines
 │
-└── schemas/                           # Documentation of file structures
-    ├── force_mapping_schema.md
-    ├── lifestyle_factor_schema.md
-    └── visual_property_schema.md
+├── schemas/                           # File structure templates (3 files)
+│   ├── force_mapping_schema.md
+│   ├── lifestyle_factor_schema.md
+│   └── visual_property_schema.md
+│
+└── NAVIGATION_GUIDE.md                # Complete mapping directory guide
 ```
 
-**Total:** 82 experimental mapping files
+**Total:** 81 mapping files + 5 documentation files = 86 total files
+- Mappings: 26 forces, 16 visual properties, 26 lifestyle, 8 interactions, 5 scales
+- Documentation: 3 schemas, 2 guides (this file + NAVIGATION_GUIDE.md)
 
 ---
 

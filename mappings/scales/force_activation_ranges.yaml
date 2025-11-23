@@ -180,3 +180,264 @@ see_also:
   - "mappings/lifestyle/ (all lifestyle files modify force activation)"
   - "mappings/scales/coherence_thresholds.yaml"
   - "mappings/scales/consciousness_levels.yaml"
+  - "mappings/scales/temporal_dynamics.yaml (detailed timelines by tier)"
+
+---
+
+## ACTIVATION DYNAMICS (RATE OF CHANGE)
+
+activation_dynamics:
+  source_docs:
+    - "docs/04_advanced/advanced_concepts/06_tier_implications/ (tier activation patterns - Adjustment #3)"
+    - "mappings/scales/temporal_dynamics.yaml (detailed timelines - Adjustment #5)"
+
+  description: |
+    ⚠️ MAPPINGS DISPLAY DOCS - NOTHING ORIGINATES HERE
+    This section categorizes all 26 forces by HOW QUICKLY they can shift activation levels.
+    Complements temporal_dynamics.yaml (tier-by-tier) with cross-force categorical view.
+
+    For detailed timelines and examples, see temporal_dynamics.yaml.
+    For conceptual understanding of WHY forces change at different rates, see tier implication docs.
+
+  instant_shift:
+    timeframe: "Seconds (0-60 seconds)"
+    description: "Forces that can activate/deactivate nearly instantaneously in response to triggers"
+
+    forces:
+      - name: "fear"
+        tier: 3
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/33_tier_3_interface.md"
+        example: "0.2 → 0.9 in 3 seconds (threat detected)"
+        trigger_types: ["immediate threat perception", "sudden danger", "startle response"]
+
+      - name: "pain"
+        tier: 3
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/33_tier_3_interface.md"
+        example: "0.0 → 0.8 instantly (physical injury or emotional wound)"
+        trigger_types: ["physical injury", "acute emotional wound", "misalignment detected"]
+
+      - name: "desire"
+        tier: 3
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/33_tier_3_interface.md"
+        example: "0.1 → 0.8 instantly (trigger/temptation encountered)"
+        trigger_types: ["craving triggered", "temptation presented", "need recognized"]
+
+      - name: "beauty"
+        tier: 4
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/35_tier_4_emergent.md"
+        example: "0.0 → 0.75 instantly (seeing sunset, art, nature)"
+        trigger_types: ["aesthetic experience", "pattern perfection perceived", "sublime encounter"]
+
+      - name: "courage"
+        tier: 4
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/35_tier_4_emergent.md"
+        example: "0.0 → 0.65 in seconds (crisis demands action)"
+        trigger_types: ["crisis requiring action", "hero moment", "necessity overcomes fear"]
+
+    notes: |
+      Instant-shift forces are primarily Tier 3 (interface) and Tier 4 (emergent).
+      Activations can be dramatic and overwhelming when triggered.
+      Tier 3 activations tied to survival/emotional responses.
+      Tier 4 activations tied to emergent conditions aligning suddenly.
+
+  rapid_shift:
+    timeframe: "Minutes to hours (1 minute - 6 hours)"
+    description: "Forces that shift noticeably within minutes/hours but not instantly"
+
+    forces:
+      - name: "hope"
+        tier: 3
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/33_tier_3_interface.md"
+        example: "0.2 → 0.7 in seconds to minutes (inspiration, good news, possibility seen)"
+        activation_time: "Seconds to minutes"
+        deactivation_time: "Minutes to hours (deflation after setback)"
+
+      - name: "love"
+        tier: 3
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/33_tier_3_interface.md"
+        example: "0.0 → 0.7 in minutes (recognition, resonance)"
+        activation_time: "Minutes (instant recognition → minutes to feel fully)"
+        deactivation_time: "Weeks to months (loss, grief process)"
+
+      - name: "judgment"
+        tier: 3
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/33_tier_3_interface.md"
+        example: "Can spike in minutes (comparison triggered, criticism activated)"
+        activation_time: "Minutes"
+        deactivation_time: "Hours to days (requires conscious release)"
+
+      - name: "forgiveness"
+        tier: 3
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/33_tier_3_interface.md"
+        example: "Can activate in minutes (realization, compassion arises)"
+        activation_time: "Minutes to hours (insight → forgiveness)"
+        deactivation_time: "N/A (typically doesn't deactivate once granted)"
+
+      - name: "art"
+        tier: 4
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/35_tier_4_emergent.md"
+        example: "0.0 → 0.70 when creativity hits (inspiration strike)"
+        activation_time: "Minutes (inspiration → flow)"
+        deactivation_time: "Minutes to hours (creative session ends)"
+
+      - name: "music"
+        tier: 4
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/35_tier_4_emergent.md"
+        example: "Can activate rapidly when conditions align"
+        activation_time: "Minutes (music starts → absorption)"
+        deactivation_time: "Minutes to hours (music ends → fade)"
+
+    notes: |
+      Rapid-shift forces mostly Tier 3 with some Tier 4 emergent forces.
+      Changes noticeable within a session/interaction/event.
+      Therapeutic interventions can shift these forces quickly.
+      Deactivation often slower than activation (asymmetry).
+
+  gradual_shift:
+    timeframe: "Days to weeks (1 day - 8 weeks)"
+    description: "Forces that require sustained effort or time to shift significantly"
+
+    forces:
+      - name: "coherence"
+        tier: 1
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/29_tier_1_primordial.md"
+        example: "0.40 → 0.60 = 4-8 weeks of consistent daily practice"
+        increase_time: "4-8 weeks for 0.20 increase (intensive practice)"
+        decrease_time: "Instant drop possible (trauma), recovery 4-12 weeks"
+
+      - name: "consciousness"
+        tier: 1
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/29_tier_1_primordial.md"
+        example: "0.10 increase = 3-6 months of meditation/practice"
+        increase_time: "3-6 months for 0.10 increase"
+        decrease_time: "Temporary drops (minutes-hours), baseline stable"
+
+      - name: "pattern"
+        tier: 1
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/29_tier_1_primordial.md"
+        example: "Weeks to months (learning new pattern recognition)"
+        increase_time: "Weeks to months (skill development)"
+        decrease_time: "Slow decline over months (lack of stimulation)"
+
+      - name: "entropy"
+        tier: 1
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/29_tier_1_primordial.md"
+        example: "Gradual increase over days/weeks (illness, disorder accumulation)"
+        increase_time: "Days to weeks (natural tendency)"
+        decrease_time: "Days to weeks (cleaning, organizing, healing)"
+
+      - name: "polarity"
+        tier: 1
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/29_tier_1_primordial.md"
+        example: "Oscillation rate can shift over days/weeks (regulation improvement)"
+        increase_time: "Days to weeks (dysregulation builds)"
+        decrease_time: "Days to weeks (regulation practices)"
+
+    notes: |
+      Gradual-shift forces are ALL Tier 1 (primordial axioms).
+      These are foundational forces requiring sustained effort to change.
+      Quick fixes don't work - transformation takes consistent practice over time.
+      Changes compound: small daily shifts create major transformation over months.
+      Exception: Sudden drops possible (trauma), but recovery still requires time.
+
+  slow_shift:
+    timeframe: "Months to years (2 months - multiple years)"
+    description: "Forces that change very slowly, operating on long timescales"
+
+    forces:
+      - name: "karma"
+        tier: 2
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/31_tier_2_governing.md"
+        example: "Accumulates continuously, compounds over months/years"
+        increase_time: "Continuous background accumulation"
+        decrease_time: "Gradual payback over time OR sudden resolution with grace"
+
+      - name: "memory"
+        tier: 2
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/31_tier_2_governing.md"
+        example: "Days to weeks for emotional integration, months for deep storage"
+        formation_time: "Days to weeks (emotional processing)"
+        consolidation_time: "Months (long-term storage)"
+
+      - name: "time"
+        tier: 2
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/31_tier_2_governing.md"
+        example: "Perception alteration temporary (masters), default rate constant"
+        baseline_change: "Stable (1:1 for most agents)"
+        perception_shifts: "Temporary (minutes-hours for masters)"
+
+      - name: "truth"
+        tier: 2
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/31_tier_2_governing.md"
+        example: "Revelation can be instant, but integration takes time"
+        revelation_time: "Instant (truth seen)"
+        integration_time: "Months to years (living the truth)"
+
+      - name: "death"
+        tier: 2
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/31_tier_2_governing.md"
+        example: "Activation increases gradually as life progresses"
+        natural_increase: "Gradual over years/decades (aging)"
+        sudden_spike: "Possible (near-death experience, terminal diagnosis)"
+
+      - name: "creation"
+        tier: 2
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/31_tier_2_governing.md"
+        example: "Creative capacity builds over years of practice"
+        skill_development: "Years (mastery)"
+        creative_impulse: "Can spike rapidly (inspiration)"
+
+    notes: |
+      Slow-shift forces are ALL Tier 2 (governing/regulatory).
+      These operate in background, often invisible but always running.
+      Changes occur on long timescales (months, years, decades).
+      Most agents experience as automatic/unchangeable.
+      Masters can sometimes "hack" these with exceptional coherence.
+
+  situational_spike:
+    timeframe: "Instant activation, brief duration (minutes to hours)"
+    description: "Forces that spike suddenly when triggered but don't sustain (Tier 4 pattern)"
+
+    forces:
+      - name: "madness"
+        tier: 4
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/35_tier_4_emergent.md"
+        example: "Can build gradually (weeks) OR break suddenly (hours/days)"
+        activation: "Hours to days (acute episode)"
+        duration: "Hours to days at peak, then resolution or chronicity"
+
+      - name: "war"
+        tier: 4
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/35_tier_4_emergent.md"
+        example: "Can escalate rapidly when conflict forces align"
+        activation: "Minutes to hours (conflict erupts)"
+        duration: "Variable (minutes to years depending on scale)"
+
+      - name: "humor"
+        tier: 4
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/35_tier_4_emergent.md"
+        example: "Instant activation when pattern/surprise align correctly"
+        activation: "Instant (joke lands)"
+        duration: "Seconds to minutes (laughter fades)"
+
+      - name: "luck"
+        tier: 4
+        doc_source: "docs/04_advanced/advanced_concepts/06_tier_implications/35_tier_4_emergent.md"
+        example: "Can spike suddenly (synchronicity), can build gradually (preparation)"
+        activation: "Variable (instant grace OR gradual preparation)"
+        duration: "Brief windows (minutes-hours) unless sustained by parent forces"
+
+    notes: |
+      Situational-spike forces are Tier 4 (emergent phenomena).
+      Often dormant (0.0), then sudden activation when conditions align.
+      Brief peaks more common than sustained activation.
+      Maintaining activation requires sustaining parent force combinations.
+      Cannot be directly controlled - emerge from system state.
+
+  cross_reference:
+    note: |
+      For detailed timelines with specific examples, see:
+      - mappings/scales/temporal_dynamics.yaml (comprehensive tier-by-tier breakdown)
+
+      For conceptual understanding of WHY forces change at different rates, see:
+      - docs/04_advanced/advanced_concepts/06_tier_implications/ (tier activation patterns)
