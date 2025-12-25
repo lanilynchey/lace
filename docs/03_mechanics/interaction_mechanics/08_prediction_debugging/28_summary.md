@@ -17,7 +17,7 @@
 - Contamination differs from synthesis
 
 ### **This Is Where Complexity Lives:**
-- 26 forces × 26 forces = 676 possible pairwise interactions
+- 27 forces × 27 forces = 729 possible pairwise interactions
 - Add 3+ force combinations = infinite possibilities
 - Add feedback loops = exponential complexity
 - Add time = evolution

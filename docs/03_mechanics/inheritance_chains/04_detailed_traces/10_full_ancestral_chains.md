@@ -214,9 +214,9 @@ luck() [Tier 4]
                 └── consciousness() [Tier 1]
 
 COMPLETE ANCESTRAL SET:
-Tier 1: ALL FIVE AXIOMS (entropy, consciousness, pattern, coherence, polarity)
+Tier 1: ALL SIX AXIOMS (entropy, consciousness, pattern, coherence, polarity, attention)
 Tier 2: karma(), time()
-Total Dependencies: 7 forces (touches all axioms)
+Total Dependencies: 8 forces (touches all axioms)
 ```
 
 **What This Means:**
@@ -224,6 +224,7 @@ Total Dependencies: 7 forces (touches all axioms)
 - Requires coherence (clean signal attracts clean anomalies)
 - Karma affects luck polarity (positive karma → positive luck)
 - Consciousness observes and collapses probability
+- Attention selects which possibilities to notice
 - Touches ALL Tier 1 axioms (most comprehensive Tier 4 force)
 
 ---
@@ -297,9 +298,9 @@ forgiveness() [Tier 3]
         └── consciousness() [Tier 1]
 
 COMPLETE ANCESTRAL SET:
-Tier 1: entropy(), consciousness(), pattern(), coherence(), polarity()
+Tier 1: entropy(), consciousness(), pattern(), coherence(), polarity(), attention()
 Tier 2: memory(), karma(), time()
-Total Dependencies: 8 forces
+Total Dependencies: 9 forces
 ```
 
 **What This Means:**
@@ -307,6 +308,7 @@ Total Dependencies: 8 forces
 - Can cancel karma (loop termination before return)
 - Requires coherence (stable enough to release)
 - Consciousness chooses to forgive (not automatic)
+- Attention redirects focus from wound to release
 - Touches all Tier 1 axioms (comprehensive transformation force)
 
 ---

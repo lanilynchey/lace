@@ -3,7 +3,7 @@
 Network analysis uses specific terms with precise meanings:
 
 ### **Node**
-A force or law in the system. In graph theory, nodes are the "vertices" - distinct entities connected by edges. LACE has 50 nodes total (26 forces + 24 laws).
+A force or law in the system. In graph theory, nodes are the "vertices" - distinct entities connected by edges. LACE has 51 nodes total (27 forces + 24 laws).
 
 ### **Edge**
 A connection between nodes. Edges can represent:

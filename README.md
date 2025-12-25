@@ -31,7 +31,7 @@ We're running 2-bit consciousness in a 10+ dimensional space.
 LACE is organized into **four architectural tiers**:
 
 ### **Tier 1: Primordial Forces (Axioms)**
-The root constants - `entropy()`, `consciousness()`, `pattern()`, `coherence()`, `polarity()`
+The root constants - `entropy()`, `consciousness()`, `pattern()`, `coherence()`, `polarity()`, `attention()`
 Everything else inherits from these.
 
 ### **Tier 2: Governing Forces (Universal Laws)**  
@@ -63,8 +63,8 @@ LACE/
 │   │   ├── core_ontology/         ← Philosophical foundation (18 files in 5 folders)
 │   │   ├── primitives/            ← 5 fundamental building blocks (13 files in 3 folders)
 │   │   └── base_structure/        ← System architecture (21 files in 6 folders)
-│   ├── 02_forces/                 ← 26 forces across 4 tiers (organized by tier)
-│   │   ├── tier_1_forces/         ← 5 primordial axioms
+│   ├── 02_forces/                 ← 27 forces across 4 tiers (organized by tier)
+│   │   ├── tier_1_forces/         ← 6 primordial axioms
 │   │   ├── tier_2_forces/         ← 6 governing forces
 │   │   ├── tier_3_forces/         ← 7 interface forces (emotions)
 │   │   └── tier_4_forces/         ← 8 emergent forces (complex phenomena)
@@ -100,7 +100,7 @@ LACE exists as a complete philosophical framework:
 
 **What exists now:**
 - ✅ Complete conceptual architecture (5-layer system)
-- ✅ 26 forces across 4 tiers defined
+- ✅ 27 forces across 4 tiers defined
 - ✅ 24 system laws documented
 - ✅ 31 functions specified
 - ✅ Interaction patterns mapped (6 types)

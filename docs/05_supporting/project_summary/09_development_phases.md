@@ -39,7 +39,7 @@
 
 **Deliverables:**
 - [x] **Force → Color mappings**
-  - Base color palette (26 forces with hex codes, color families)
+  - Base color palette (27 forces with hex codes, color families)
   - Intensity mapping (activation level modulation)
   - Interaction effects (synergistic, antagonistic, neutralizing blending)
   - Coherence effects (global vibrancy/saturation modulation)

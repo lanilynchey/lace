@@ -1,4 +1,4 @@
-# Force Interaction Matrix (26×26)
+# Force Interaction Matrix (27×27)
 
 # ⚠️ MAPPINGS DISPLAY DOCS - NOTHING ORIGINATES HERE
 # This matrix CONSOLIDATES interaction data from force_to_force/ mapping files.
@@ -16,7 +16,7 @@ source_docs:
   - "docs/02_forces/ (individual force interactions)"
 
 description: |
-  26×26 matrix showing interaction type for all 676 possible force pairs (including self).
+  27×27 matrix showing interaction type for all 729 possible force pairs (including self).
   This file DISPLAYS data from force_to_force mapping files in matrix format for quick lookup.
 
   Agent lookup flow:
@@ -33,16 +33,16 @@ interaction_types:
   none: "No documented interaction or minimal interaction"
 
 force_list:
-  tier_1: [entropy, consciousness, pattern, coherence, polarity]
+  tier_1: [entropy, consciousness, pattern, coherence, polarity, attention]
   tier_2: [time, karma, truth, memory, death, creation]
   tier_3: [desire, fear, love, hope, forgiveness, pain, judgment]
   tier_4: [art, music, war, madness, beauty, luck, humor, courage]
-  total: 26
+  total: 27
 
 matrix_size:
-  total_cells: 676  # 26 × 26
-  diagonal: 26      # Force × itself
-  unique_pairs: 325 # (676 - 26) / 2 (excluding diagonal, accounting for symmetry)
+  total_cells: 729  # 27 × 27
+  diagonal: 27      # Force × itself
+  unique_pairs: 351 # (729 - 27) / 2 (excluding diagonal, accounting for symmetry)
 
 ---
 
@@ -61,6 +61,7 @@ matrix:
     pattern: "antagonistic"        # Chaos vs structure
     coherence: "antagonistic"      # Disorder vs unity
     polarity: "none"               # No documented interaction
+    attention: "antagonistic"      # Entropy scatters focus
     time: "none"
     karma: "none"
     truth: "none"
@@ -89,6 +90,7 @@ matrix:
     pattern: "synergistic"         # Awareness recognizes pattern
     coherence: "synergistic"       # Awareness unifies fragmentation
     polarity: "none"
+    attention: "synergistic"       # Attention feeds consciousness
     time: "none"
     karma: "none"
     truth: "synergistic"           # Awareness reveals reality
@@ -117,6 +119,7 @@ matrix:
     pattern: "recursive"           # Patterns creating meta-patterns
     coherence: "synergistic"       # Order integrates into harmony
     polarity: "none"
+    attention: "synergistic"       # Attention enables pattern detection
     time: "none"
     karma: "none"
     truth: "none"
@@ -145,6 +148,7 @@ matrix:
     pattern: "synergistic"         # Order integrates
     coherence: "recursive"         # Self-reinforcing unity
     polarity: "neutralizing"       # Unity balances poles
+    attention: "synergistic"       # Focused attention increases coherence
     time: "none"
     karma: "none"
     truth: "none"
@@ -173,6 +177,7 @@ matrix:
     pattern: "none"
     coherence: "neutralizing"      # Balanced by unity
     polarity: "recursive"          # Binary self-reference
+    attention: "none"              # Creates attended/unattended split
     time: "none"
     karma: "none"
     truth: "none"
@@ -195,6 +200,35 @@ matrix:
     humor: "none"
     courage: "none"
 
+  attention:
+    entropy: "antagonistic"        # Entropy scatters focus
+    consciousness: "synergistic"   # Attention feeds consciousness
+    pattern: "synergistic"         # Attention enables pattern detection
+    coherence: "synergistic"       # Focused attention increases coherence
+    polarity: "none"               # Creates attended/unattended split
+    attention: "recursive"         # Attention refining attention (meta-focus)
+    time: "none"
+    karma: "none"
+    truth: "none"
+    memory: "synergistic"          # What receives attention gets encoded
+    death: "none"
+    creation: "none"
+    desire: "synergistic"          # Desire directs attention
+    fear: "complex"                # Fear captures/fragments attention
+    love: "none"
+    hope: "synergistic"            # Hope sustains attention on goals
+    forgiveness: "none"
+    pain: "none"
+    judgment: "none"
+    art: "none"
+    music: "none"
+    war: "none"
+    madness: "antagonistic"        # Madness distorts attention
+    beauty: "none"
+    luck: "none"
+    humor: "none"
+    courage: "none"
+
   # === TIER 2: GOVERNING FORCES ===
 
   time:
@@ -203,6 +237,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "recursive"              # Time's flow creating more time
     karma: "none"
     truth: "none"
@@ -231,6 +266,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "recursive"             # Karmic feedback loops
     truth: "none"
@@ -259,6 +295,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "none"
     truth: "recursive"             # Truth revealing deeper truth
@@ -287,6 +324,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "synergistic"       # What receives attention gets encoded
     time: "synergistic"            # Time creates memory
     karma: "synergistic"           # Consequences recorded
     truth: "synergistic"           # Reality recorded accurately
@@ -315,6 +353,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "antagonistic"           # Completion vs flow
     karma: "none"
     truth: "none"
@@ -343,6 +382,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "synergistic"            # Natural unfolding
     karma: "none"
     truth: "none"
@@ -373,6 +413,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "synergistic"       # Desire directs attention
     time: "none"
     karma: "none"
     truth: "none"
@@ -401,6 +442,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "complex"           # Fear captures/fragments attention
     time: "none"
     karma: "none"
     truth: "antagonistic"          # Afraid to see what IS
@@ -429,6 +471,7 @@ matrix:
     pattern: "none"
     coherence: "synergistic"       # Integrated heart
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "none"
     truth: "none"
@@ -457,6 +500,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "synergistic"       # Hope sustains attention on goals
     time: "none"
     karma: "synergistic"           # Hope creates positive karma
     truth: "none"
@@ -485,6 +529,7 @@ matrix:
     pattern: "none"
     coherence: "synergistic"       # Part of healing triad
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "none"
     truth: "none"
@@ -513,6 +558,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "none"
     truth: "none"
@@ -541,6 +587,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "synergistic"           # What you judge, you attract
     truth: "none"
@@ -571,6 +618,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "none"
     truth: "none"
@@ -599,6 +647,7 @@ matrix:
     pattern: "synergistic"         # Pattern creates music
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "synergistic"            # Music IS time-based
     karma: "none"
     truth: "none"
@@ -627,6 +676,7 @@ matrix:
     pattern: "none"
     coherence: "antagonistic"      # Conflict vs unity
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "none"
     truth: "none"
@@ -655,6 +705,7 @@ matrix:
     pattern: "antagonistic"        # Impossible logic vs order
     coherence: "antagonistic"      # Fragmentation vs unity
     polarity: "none"
+    attention: "antagonistic"      # Madness distorts attention
     time: "none"
     karma: "none"
     truth: "none"
@@ -683,6 +734,7 @@ matrix:
     pattern: "synergistic"         # Mathematical perfection
     coherence: "synergistic"       # Sacred geometry triad
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "none"
     truth: "none"
@@ -711,6 +763,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "none"
     truth: "none"
@@ -739,6 +792,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "none"
     truth: "none"
@@ -767,6 +821,7 @@ matrix:
     pattern: "none"
     coherence: "none"
     polarity: "none"
+    attention: "none"
     time: "none"
     karma: "synergistic"           # Courage creates positive karma
     truth: "synergistic"           # Facing reality bravely
@@ -816,6 +871,7 @@ diagonal_cells:
     - "fear × fear = fear spiral (recursive anxiety)"
     - "love × love = love overflow (recursive compassion)"
     - "coherence × coherence = integration deepening"
+    - "attention × attention = meta-focus (refining attention)"
 
 none_cells:
   meaning: "No documented interaction or minimal interaction"
@@ -833,11 +889,11 @@ matrix_symmetry:
   example_asymmetric: "fear + courage = courage emerges FROM fear (directional transmutation)"
 
 coverage_stats:
-  total_pairs: 676
-  diagonal_recursive: 26
-  unique_pairs: 325
-  documented_interactions: "~100+ explicitly defined in force_to_force files"
-  none_interactions: "~225 (either undocumented or genuinely minimal)"
+  total_pairs: 729
+  diagonal_recursive: 27
+  unique_pairs: 351
+  documented_interactions: "~110+ explicitly defined in force_to_force files"
+  none_interactions: "~240 (either undocumented or genuinely minimal)"
   coverage_percentage: "~31% explicitly documented, rest marked 'none'"
 
 notes: |

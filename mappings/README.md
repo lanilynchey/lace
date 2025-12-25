@@ -33,7 +33,7 @@ docs/
 ├── CORE_ONTOLOGY.md           ← START HERE (philosophical foundation)
 ├── PRIMITIVES.md               ← Fundamental building blocks
 ├── BASE_STRUCTURE.md           ← System architecture
-├── TIER_1_FORCES.md            ← 5 primordial forces
+├── TIER_1_FORCES.md            ← 6 primordial forces
 ├── TIER_2_FORCES.md            ← 6 governing forces
 ├── TIER_3_FORCES.md            ← 7 interface forces
 ├── TIER_4_FORCES.md            ← 8 emergent forces
@@ -59,7 +59,7 @@ This `mappings/` directory? This is just one possible way to **visualize** what'
 ### The Experiment:
 
 This directory explores:
-1. **Force → Visual Properties:** How might the 26 forces appear visually? (color, shape, motion)
+1. **Force → Visual Properties:** How might the 27 forces appear visually? (color, shape, motion)
 2. **Lifestyle → Force Modifiers:** How might real-world inputs (sleep, diet, relationships) affect force activation?
 3. **Force Interactions → Visual Effects:** How might forces combining look? (harmonious vs clashing)
 4. **Coherence → Geometry:** How might internal alignment affect visual harmony?
@@ -90,8 +90,8 @@ This directory explores:
 mappings/                              ← YOU ARE HERE (experimental layer)
 ├── README.md (this file)
 │
-├── forces/                            # 26 force mappings COMPLETE (visual properties)
-│   ├── tier_1/ (5 primordial) ✅
+├── forces/                            # 27 force mappings COMPLETE (visual properties)
+│   ├── tier_1/ (6 primordial) ✅
 │   ├── tier_2/ (6 governing) ✅
 │   ├── tier_3/ (7 interface) ✅
 │   └── tier_4/ (8 emergent) ✅
@@ -132,8 +132,8 @@ mappings/                              ← YOU ARE HERE (experimental layer)
 └── NAVIGATION_GUIDE.md                # Complete mapping directory guide
 ```
 
-**Total:** 81 mapping files + 5 documentation files = 86 total files
-- Mappings: 26 forces, 16 visual properties, 26 lifestyle, 8 interactions, 5 scales
+**Total:** 82 mapping files + 5 documentation files = 87 total files
+- Mappings: 27 forces, 16 visual properties, 26 lifestyle, 8 interactions, 5 scales
 - Documentation: 3 schemas, 2 guides (this file + NAVIGATION_GUIDE.md)
 
 ---
@@ -222,7 +222,7 @@ All experimental mappings use **0.0-1.0 scales** (sourced from `/docs/`):
 ## 🚧 Experimental Status
 
 ### What's Stable (from framework):
-- ✅ 26 forces exist (documented in `/docs/`)
+- ✅ 27 forces exist (documented in `/docs/`)
 - ✅ Forces interact (documented in `INTERACTION_MECHANICS.md`)
 - ✅ Consciousness/Coherence/Mastery scales (documented throughout `/docs/`)
 

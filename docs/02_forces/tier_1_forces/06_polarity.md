@@ -219,4 +219,4 @@ if accept_both_poles_as_necessary():
 
 ---
 
-**Previous:** [05_coherence.md](05_coherence.md) | **Next:** [07_interaction_matrix.md](07_interaction_matrix.md)
+**Previous:** [05_coherence.md](05_coherence.md) | **Next:** [07_attention.md](07_attention.md)

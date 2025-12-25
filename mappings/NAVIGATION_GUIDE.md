@@ -10,7 +10,7 @@
 
 ```
 mappings/
-├── forces/                    # 26 force files (base visual properties per force)
+├── forces/                    # 27 force files (base visual properties per force)
 ├── visual_properties/         # 16 cross-cutting visual system files
 ├── interactions/              # 8 force interaction & visual blending files
 ├── lifestyle/                 # 34 lifestyle factor modifier files
@@ -29,12 +29,13 @@ mappings/
 
 **Which forces exist where:**
 
-**Tier 1 (Primordial) - 5 forces:**
+**Tier 1 (Primordial) - 6 forces:**
 - `forces/tier_1/entropy.yaml`
 - `forces/tier_1/consciousness.yaml`
 - `forces/tier_1/pattern.yaml`
 - `forces/tier_1/coherence.yaml`
 - `forces/tier_1/polarity.yaml`
+- `forces/tier_1/attention.yaml`
 
 **Tier 2 (Governing) - 6 forces:**
 - `forces/tier_2/time.yaml`
@@ -573,4 +574,4 @@ mappings/
 ---
 
 *Last Updated: November 22, 2025*
-*Total Files: 93+ (26 forces complete, 16 visual properties, 8 interactions, 34 lifestyle, 5 scales, 3 schemas)*
+*Total Files: 94+ (27 forces complete, 16 visual properties, 8 interactions, 34 lifestyle, 5 scales, 3 schemas)*

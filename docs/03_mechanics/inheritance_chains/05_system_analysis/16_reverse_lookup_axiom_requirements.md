@@ -2,22 +2,22 @@
 
 This section shows what axioms each force requires - a reverse index for quick lookup of minimum dependencies.
 
-### **Forces Requiring ALL 5 Axioms (Most Comprehensive):**
+### **Forces Requiring ALL 6 Axioms (Most Comprehensive):**
 
 ```
-luck() - entropy + consciousness + pattern + coherence + polarity
+luck() - entropy + consciousness + pattern + coherence + polarity + attention
   └─ Only force requiring complete Tier 1 foundation
-  └─ Field state + timing + randomness + alignment all needed
+  └─ Field state + timing + randomness + alignment + focus all needed
 
-forgiveness() - traces to all 5 axioms through its dependency tree
+forgiveness() - traces to all 6 axioms through its dependency tree
   └─ Requires consciousness (awareness), pattern (recognition),
-      coherence (restoration), polarity (judgment), entropy (time)
+      coherence (restoration), polarity (judgment), entropy (time), attention (redirect)
 
-judgment() - traces to all 5 axioms
-  └─ Pattern matching + consciousness + memory + polarity evaluation
+judgment() - traces to all 6 axioms
+  └─ Pattern matching + consciousness + memory + polarity evaluation + attention
 
-pain() - traces to all 5 axioms
-  └─ Coherence misalignment + consciousness + pattern + polarity distinction
+pain() - traces to all 6 axioms
+  └─ Coherence misalignment + consciousness + pattern + polarity distinction + attention
 ```
 
 ---
@@ -103,7 +103,7 @@ None - all forces require multiple axioms to function
 ### **Axiom Requirement Summary:**
 
 ```
-COMPREHENSIVE (5 axioms):
+COMPREHENSIVE (6 axioms):
   luck(), forgiveness(), judgment(), pain()
 
 COMPLEX (4 axioms):
@@ -129,7 +129,7 @@ ISOLATED (1 axiom):
 - Cannot build forces from single axioms
 
 **2. luck() is unique**
-- Only force explicitly requiring all 5 axioms
+- Only force explicitly requiring all 6 axioms
 - Most comprehensive, most complex
 - Demonstrates full system integration
 

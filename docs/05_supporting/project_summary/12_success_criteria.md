@@ -3,10 +3,10 @@
 **How LACE demonstrates validity:**
 
 ## **Minimum Viable Framework (Phase 1)**
-- [x] All forces documented with function signatures (26 forces across 4 tiers)
+- [x] All forces documented with function signatures (27 forces across 4 tiers)
 - [x] All laws defined and explained (24 laws: 11 core + 9 additional + 4 security)
 - [x] Hierarchy and inheritance chains mapped (complete dependency graphs)
-- [x] Force graph visualized (all 26 forces, relationships, pathways)
+- [x] Force graph visualized (all 27 forces, relationships, pathways)
 - [x] Data models specified (Agent, StateSignature, Timeline, FieldState)
 - [ ] Framework comprehensible to people beyond Lani
 

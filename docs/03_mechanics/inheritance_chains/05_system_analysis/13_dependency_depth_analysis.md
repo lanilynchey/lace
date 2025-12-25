@@ -1,12 +1,12 @@
 ## Dependency Depth Analysis
 
-This section shows all 26 forces organized by their dependency depth - how many tiers removed they are from the primordial axioms.
+This section shows all 27 forces organized by their dependency depth - how many tiers removed they are from the primordial axioms.
 
-### **Depth 0: Axiomatic Layer (5 forces)**
+### **Depth 0: Axiomatic Layer (6 forces)**
 **No dependencies - foundational building blocks**
 
 ```
-entropy(), consciousness(), pattern(), coherence(), polarity()
+entropy(), consciousness(), pattern(), coherence(), polarity(), attention()
 ```
 
 These are the irreducible forces from which everything else derives.
@@ -119,7 +119,7 @@ courage() - fear() + hope() + will()
 ### **Depth Summary:**
 
 ```
-DEPTH 0: 5 forces  (Tier 1 axioms)
+DEPTH 0: 6 forces  (Tier 1 axioms)
 DEPTH 1: 4 forces  (truth, creation, death, time)
 DEPTH 2: 3 forces  (memory, karma, beauty, love)
 DEPTH 3: 6 forces  (desire, fear, hope, judgment, luck, humor)

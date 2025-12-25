@@ -7,7 +7,7 @@
 
 ## Laws × Forces: How Regulation Works
 
-This section explains **how system laws constrain and regulate the 26 forces** across all four tiers.
+This section explains **how system laws constrain and regulate the 27 forces** across all four tiers.
 
 **Key principle:** Laws are deeper than forces. Forces execute operations; laws define the rules those operations must follow.
 
@@ -19,7 +19,7 @@ This section explains **how system laws constrain and regulate the 26 forces** a
 
 ```python
 # Every force eventually decays without maintenance
-affected_forces = "ALL 26 forces"
+affected_forces = "ALL 27 forces"
 
 examples = {
     "Tier_1_coherence": "Temporary - requires continuous input to maintain",
@@ -424,7 +424,7 @@ Think of LACE architecture this way:
 lace_stack = {
     "Hardware": "BIOS (universal constants)",
     "Kernel": "Laws (20 protocols)",
-    "Drivers": "Tier 1 forces (5 axioms)",
+    "Drivers": "Tier 1 forces (6 axioms)",
     "OS_Services": "Tier 2 forces (6 governors)",
     "Applications": "Tier 3 forces (7 interface)",
     "User_Programs": "Tier 4 forces (8 emergent)",

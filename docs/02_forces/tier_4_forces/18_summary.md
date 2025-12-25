@@ -38,7 +38,7 @@ courage() ← fear + hope + will
 
 ---
 
-*"Emergence is not magic - it's composition. From five axioms, infinite complexity."*
+*"Emergence is not magic - it's composition. From six axioms, infinite complexity."*
 
 ---
 

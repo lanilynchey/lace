@@ -231,7 +231,7 @@ Tao emphasizes receptivity; LACE includes agency.
 
 #### 4. **No System vs Systematic Architecture**
 - **Tao Te Ching:** Anti-systematic; resists categorization and structure
-- **LACE:** Highly systematic - 4 tiers, 26 forces, 24 laws, 5 layers
+- **LACE:** Highly systematic - 4 tiers, 27 forces, 24 laws, 5 layers
 
 Tao rejects systems; LACE builds one.
 

@@ -12,7 +12,7 @@ This document explains what "derived" means in LACE and categorizes derived forc
 
 **Definition:**
 When a force or concept is marked **[derived]**, it means:
-- **Not a standalone force** in the 26-force system
+- **Not a standalone force** in the 27-force system
 - **Derived from** or **composed of** existing documented forces
 - **Useful shorthand** for recurring patterns or measurements
 - **May be documented** in GLOSSARY but not in force tier files
@@ -165,17 +165,15 @@ These terms are referenced but may be emergent properties, agent behaviors, or F
 
 ---
 
-#### **attention()**
-**Current Understanding:** Directed consciousness focus; χ (Chi) primitive activation on specific target
+#### **attention()** - NOW A TIER 1 FORCE
 
-**Referenced in:** FORCE_GRAPH.md
+**UPDATE (December 2025):** attention() has been promoted to a full Tier 1 primordial force.
 
-**Analysis:**
-- May be emergent from consciousness() + volition
-- Could be χ (Chi) primitive expressing through conscious agent
-- Likely not a separate force but consciousness() in focused mode
+**Definition:** Selective allocation of observational capacity - the mechanism that determines WHAT gets observed (distinct from consciousness which is THAT observation occurs).
 
-**Status:** [May be emergent property rather than force]
+**See:** [Tier 1 Forces - attention()](../../../02_forces/tier_1_forces/07_attention.md)
+
+**Status:** [PROMOTED TO TIER 1 FORCE - No longer "derived"]
 
 ---
 
@@ -242,7 +240,8 @@ These terms are referenced but may be emergent properties, agent behaviors, or F
 - **Needs GLOSSARY entries:** 2 (grace, field_state) - fully specified elsewhere
 - **Needs full definition:** 3 (will, paradox, language) - Phase 2 work
 - **Future research:** 2 (gravity, dream) - Phase 3+ placeholders
-- **May not be forces:** 5 (attention, synchronicity, action, surrender, transcendence) - likely emergent/operational
+- **May not be forces:** 4 (synchronicity, action, surrender, transcendence) - likely emergent/operational
+- **Promoted to force:** 1 (attention) - now Tier 1 primordial force
 
 ---
 

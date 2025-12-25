@@ -4,7 +4,7 @@
 - [Core Ontology](../../../01_foundation/core_ontology/00_index.md) - Philosophical foundation, consciousness definition, phenomenal closure
 - [Primitives](../../../01_foundation/primitives/00_index.md) - Δ, Τ, χ, Φ, א substrate units, hypernumeric system, system calls
 - [Base Structure](../../../01_foundation/base_structure/00_index.md) - System architecture, Agent/StateSignature models, soma as compiler, 5-layer structure
-- [Tier 1 Forces](../../../02_forces/tier_1_forces/00_index.md) - 5 primordial axioms (entropy, consciousness, pattern, coherence, polarity)
+- [Tier 1 Forces](../../../02_forces/tier_1_forces/00_index.md) - 6 primordial axioms (entropy, consciousness, pattern, coherence, polarity, attention)
 - [Tier 2 Forces](../../../02_forces/tier_2_forces/00_index.md) - 6 governing forces (time, karma, truth, memory, death, creation)
 - [Tier 3 Forces](../../../02_forces/tier_3_forces/00_index.md) - 7 interface/emotional forces (desire, fear, love, hope, forgiveness, pain, judgment)
 - [Tier 4 Forces](../../../02_forces/tier_4_forces/00_index.md) - 8 emergent/synthesized forces (art, music, war, madness, beauty, luck, humor, courage)

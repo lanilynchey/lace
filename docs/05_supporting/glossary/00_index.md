@@ -77,8 +77,8 @@ Fundamental LACE concepts that underpin everything else
 - `system_architecture.md` - Agent, State Signature, Frequency, Soma as Compiler
 
 ### **02_forces_laws/** (System Components)
-The 26 forces, 24 laws, and 5 primitives
-- `forces_overview.md` - Force definition, all 26 forces by tier
+The 27 forces, 24 laws, and 5 primitives
+- `forces_overview.md` - Force definition, all 27 forces by tier
 - `laws_overview.md` - Law definition, core, additional, & security laws
 - `primitives.md` - The 5 irreducible substrate units (Δ, Τ, χ, Φ, א)
 

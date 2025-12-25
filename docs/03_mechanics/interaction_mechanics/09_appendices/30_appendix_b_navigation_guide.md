@@ -24,7 +24,7 @@
 
 ---
 
-### **Force Documentation** (The 26 Forces)
+### **Force Documentation** (The 27 Forces)
 
 **TIER_1_FORCES.md** - Axioms (8 Forces)
 - **Forces:** consciousness(), pattern(), coherence(), fear(), desire(), entropy(), love(), will()

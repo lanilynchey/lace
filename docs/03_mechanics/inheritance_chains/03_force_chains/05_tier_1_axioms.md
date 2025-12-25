@@ -128,3 +128,30 @@ polarity()
 - Conflict (incompatibility)
 
 ---
+
+### **attention()**
+```
+attention()
+├── No dependencies (axiomatic)
+
+→ consciousness() [Tier 1] (bidirectional - attention feeds what consciousness processes)
+→ memory() [Tier 2] (what is attended is remembered)
+→ truth() [Tier 2] (attention determines what can be verified)
+→ desire() [Tier 3] (attention amplifies wants)
+→ fear() [Tier 3] (threat detection requires attention)
+→ love() [Tier 3] (sustained attention deepens connection)
+→ hope() [Tier 3] (future-directed attention)
+→ pain() [Tier 3] (attention to misalignment)
+→ art() [Tier 4] (creative focus)
+→ beauty() [Tier 4] (aesthetic attention)
+→ luck() [Tier 4] (noticing opportunities)
+```
+
+**What attention enables:**
+- Selective observation (WHAT gets observed)
+- Resource allocation of consciousness
+- Pattern detection (focus reveals patterns)
+- Memory formation (attended → encoded)
+- Manifestation (attention → reality)
+
+---

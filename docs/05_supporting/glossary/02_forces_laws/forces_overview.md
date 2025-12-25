@@ -1,8 +1,8 @@
 # Forces Overview
 
-**The 26 Forces of LACE**
+**The 27 Forces of LACE**
 
-This document provides an overview of what forces are and lists all 26 documented forces across the four tiers.
+This document provides an overview of what forces are and lists all 27 documented forces across the four tiers.
 
 ---
 
@@ -15,18 +15,18 @@ This document provides an overview of what forces are and lists all 26 documente
 - Example: gravity(), love(), entropy(), fear()
 
 **Categories:**
-- Tier 1: Primordial/Axiomatic (5): entropy(), consciousness(), pattern(), coherence(), polarity()
+- Tier 1: Primordial/Axiomatic (6): entropy(), consciousness(), pattern(), coherence(), polarity(), attention()
 - Tier 2: Governing (6): time(), karma(), truth(), memory(), death(), creation()
 - Tier 3: Interface/Emotional (7): desire(), fear(), love(), hope(), forgiveness(), pain(), judgment()
 - Tier 4: Emergent/Synthesized (8): art(), music(), war(), madness(), beauty(), luck(), humor(), courage()
 
-**Total: 26 forces**
+**Total: 27 forces**
 
 ---
 
-## The 26 Forces by Tier
+## The 27 Forces by Tier
 
-### **Tier 1: Primordial Forces (5)**
+### **Tier 1: Primordial Forces (6)**
 The foundational axioms - irreducible forces that cannot be derived from anything simpler
 
 1. **entropy()** - Decay and Change
@@ -34,6 +34,7 @@ The foundational axioms - irreducible forces that cannot be derived from anythin
 3. **pattern()** - Structure and Form
 4. **coherence()** - Internal Harmony
 5. **polarity()** - Duality and Distinction
+6. **attention()** - Selective Allocation of Observational Capacity
 
 **Source:** [Tier 1 Forces](../../../02_forces/tier_1_forces/00_index.md)
 

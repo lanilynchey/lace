@@ -1,6 +1,6 @@
-## APPENDIX A: 26×26 Force Interaction Type Matrix
+## APPENDIX A: 27×27 Force Interaction Type Matrix
 
-This matrix provides quick-reference guidance for ALL 676 possible pairwise force interactions. Each cell shows the **primary interaction type** for that force pair.
+This matrix provides quick-reference guidance for ALL 729 possible pairwise force interactions. Each cell shows the **primary interaction type** for that force pair.
 
 **Reading the Matrix:**
 - **A** = Amplification (same-polarity forces reinforce)
@@ -15,7 +15,7 @@ This matrix provides quick-reference guidance for ALL 676 possible pairwise forc
 
 ---
 
-### **TIER 1 FORCES (5 Axioms)**
+### **TIER 1 FORCES (6 Axioms)**
 
 | Force ↓ / Force → | coherence() | desire() | fear() | will() | grace() |
 |-------------------|-------------|----------|--------|---------|---------|

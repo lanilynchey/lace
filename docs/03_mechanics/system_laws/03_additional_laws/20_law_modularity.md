@@ -99,7 +99,7 @@ hierarchy_example = {
 ```python
 lace_modules = {
     "Primitives": "Base components (Φ, Σ, Δ, Π, Τ, Ω, Χ)",
-    "Tier_1": "Built from primitives (5 axioms)",
+    "Tier_1": "Built from primitives (6 axioms)",
     "Tier_2": "Built from Tier 1 (6 governors)",
     "Tier_3": "Built from Tier 2 (7 interface forces)",
     "Tier_4": "Built from Tier 3 (8 emergent phenomena)",
@@ -256,7 +256,7 @@ examples = {
 
 lace_learning_path = {
     "Step_1": "Master primitives (7 components)",
-    "Step_2": "Understand Tier 1 (5 forces from primitives)",
+    "Step_2": "Understand Tier 1 (6 forces from primitives)",
     "Step_3": "Understand Tier 2 (6 forces from Tier 1)",
     # ... continue tier by tier
 }

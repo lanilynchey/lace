@@ -165,14 +165,15 @@ consciousness() + pattern() + coherence() + entropy()
 
 **For meaningful action:**
 ```
-All 5 axioms required
+All 6 axioms required
 = Add polarity() for desire, fear, judgment, karma
+= Add attention() for focus and selection
 = Enables goal-directed behavior and moral evaluation
 ```
 
 **For full LACE system:**
 ```
-All 5 axioms required
+All 6 axioms required
 = No force can be removed without cascading failures
 = System is minimally complete (no redundant axioms)
 ```
@@ -183,7 +184,7 @@ All 5 axioms required
 
 Every axiom is load-bearing. The system is **minimally complete**:
 - Remove any axiom → cascading failures
-- All 26 forces require at least one axiom
+- All 27 forces require at least one axiom
 - No axiom is redundant or optional
 
 This validates LACE's architectural integrity: it's complete but not bloated.

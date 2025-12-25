@@ -54,12 +54,12 @@ courage() [Tier 4]
 
 luck() [Tier 4]
   ├── 5 direct dependencies spanning all tiers
-  └── Touches ALL 5 axioms (entropy, consciousness, pattern, coherence, polarity)
+  └── Touches ALL 6 axioms (entropy, consciousness, pattern, coherence, polarity, attention)
       - Only force requiring complete Tier 1 foundation
 
 forgiveness() [Tier 4]
   ├── Complex synthesis requiring consciousness, memory, time, judgment
-  └── Touches ALL 5 axioms in complete tree
+  └── Touches ALL 6 axioms in complete tree
       - Deep integration across all tiers
 
 art() [Tier 4]

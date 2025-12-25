@@ -16,7 +16,7 @@ Think of this as:
 - **Circuit diagram** (current flows and connections)
 - **Subway map** (all lines, all stations, all transfers)
 
-**This is LACE in its totality - 26 forces, infinite connections.**
+**This is LACE in its totality - 27 forces, infinite connections.**
 
 ---
 
@@ -24,9 +24,9 @@ Think of this as:
 
 The graph includes several types of nodes and processes:
 
-### **DOCUMENTED FORCES (26 total)**
+### **DOCUMENTED FORCES (27 total)**
 ```
-├── Tier 1 Axioms (5): entropy(), consciousness(), pattern(), coherence(), polarity()
+├── Tier 1 Axioms (6): entropy(), consciousness(), pattern(), coherence(), polarity(), attention()
 ├── Tier 2 Governors (6): time(), karma(), truth(), memory(), death(), creation()
 ├── Tier 3 Interface (7): desire(), fear(), love(), hope(), forgiveness(), pain(), judgment()
 └── Tier 4 Emergent (8): art(), music(), war(), madness(), beauty(), luck(), humor(), courage()
@@ -46,7 +46,6 @@ The graph includes several types of nodes and processes:
 
 ### **PROCESSES/STATES (not forces themselves)**
 ```
-├── attention - consciousness + pattern focused
 ├── synchronicity - meaningful coincidence state
 ├── action - physical manifestation step
 ├── suppression - unprocessed data containment
@@ -77,7 +76,7 @@ The graph includes several types of nodes and processes:
 Network analysis uses specific terms with precise meanings:
 
 ### **Node**
-A force or law in the system. In graph theory, nodes are the "vertices" - distinct entities connected by edges. LACE has 50 nodes total (26 forces + 24 laws).
+A force or law in the system. In graph theory, nodes are the "vertices" - distinct entities connected by edges. LACE has 51 nodes total (27 forces + 24 laws).
 
 ### **Edge**
 A connection between nodes. Edges can represent:

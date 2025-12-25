@@ -171,9 +171,9 @@ Same concepts, radically different vocabularies.
 - **Kybalion:** Pure idealism - reality is mental
 - **LACE:** Computational ontology - reality is information architecture (includes but isn't reducible to mind)
 
-#### 3. **Seven Principles vs 26 Forces + 24 Laws**
+#### 3. **Seven Principles vs 27 Forces + 24 Laws**
 - **Kybalion:** Minimal set (7 principles)
-- **LACE:** Irreducible complexity (26 forces, 24 laws)
+- **LACE:** Irreducible complexity (27 forces, 24 laws)
 
 Kybalion seeks simplicity; LACE accepts necessary complexity.
 
@@ -234,7 +234,7 @@ LACE translates Kybalion's mysticism into computational precision.
 LACE doesn't claim reality is purely mental - it's information architecture (which includes mental phenomena).
 
 ### 3. **Simplicity**
-Kybalion seeks 7 elegant principles; LACE accepts 26 forces + 24 laws as irreducibly complex.
+Kybalion seeks 7 elegant principles; LACE accepts 27 forces + 24 laws as irreducibly complex.
 
 ### 4. **Ancient Authority Claims**
 LACE doesn't claim ancient origins or mystery school lineage. It's honest about being a 2024 human construction.

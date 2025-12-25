@@ -1,8 +1,8 @@
 # Framework Statistics
 
 **Primitives:** 5 (Δ, Τ, χ, Φ, א)
-**Forces:** 26 total
-- Tier 1 (Primordial): 5 forces
+**Forces:** 27 total
+- Tier 1 (Primordial): 6 forces
 - Tier 2 (Governing): 6 forces
 - Tier 3 (Interface): 7 forces
 - Tier 4 (Emergent): 8 forces

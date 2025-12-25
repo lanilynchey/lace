@@ -45,14 +45,15 @@ art()   music()   war()   madness() beauty()  luck()  humor() courage()
 ---
 ## The Complete Graph (Textual)
 
-### **All 26 Forces + 20 Laws = 46 Nodes**
+### **All 27 Forces + 24 Laws = 51 Nodes**
 ```
-ROOT LAYER (5 nodes):
+ROOT LAYER (6 nodes):
 ├─ entropy()
 ├─ consciousness()
 ├─ pattern()
 ├─ coherence()
-└─ polarity()
+├─ polarity()
+└─ attention()
 
 GOVERNANCE LAYER (6 nodes):
 ├─ time()

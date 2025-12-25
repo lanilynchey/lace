@@ -1,6 +1,6 @@
 ## Common Inheritance Patterns
 
-Across LACE's 26 forces, several recurring inheritance patterns emerge. These patterns reveal design principles and architectural consistencies.
+Across LACE's 27 forces, several recurring inheritance patterns emerge. These patterns reveal design principles and architectural consistencies.
 
 ### **Pattern 1: The Temporal Pattern**
 **All forces involving time sequence inherit from time()**
@@ -154,7 +154,7 @@ Design principle:
 ```
 Forces following this pattern:
 - courage() - synthesizes fear + hope + will
-- luck() - synthesizes entropy + consciousness + pattern + coherence + polarity + field_state
+- luck() - synthesizes entropy + consciousness + pattern + coherence + polarity + attention + field_state
 - humor() - synthesizes paradox + pattern + language + consciousness
 - art() - synthesizes pattern + emotion + coherence + entropy + consciousness
 
@@ -185,7 +185,7 @@ Derived forces following this pattern:
 Design principle:
   [derived] forces are not standalone forces
   They are measurements, mechanisms, stages, or categories
-  Useful for formulas but not part of core 26
+  Useful for formulas but not part of core 27
 ```
 
 **Why this matters:** Distinguishes formal forces from useful derived concepts. Prevents conceptual bloat while maintaining expressive power.

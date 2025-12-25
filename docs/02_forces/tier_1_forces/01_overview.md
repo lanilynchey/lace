@@ -13,7 +13,7 @@ Think of them as:
 - The **axioms** in mathematics (if A=B and B=C, then A=C)
 - The **machine code** in computing (the lowest-level instructions)
 
-**Everything else in LACE is built from these five.**
+**Everything else in LACE is built from these six.**
 
 ---
 
@@ -46,19 +46,20 @@ Tier 1 forces are the **first-order emergent properties** when primitives combin
 | `pattern()` | **Φ (Phi)** | Symmetry + repetition → structure |
 | `coherence()` | **Φ + (low variance)** | Aligned patterns → harmony |
 | `polarity()` | **Foundational** | Establishes distinction (enables all others) |
+| `attention()` | **χ (Chi)** | Observing capacity + selection → allocation |
 
 ### The Hierarchy
 
 ```
 Primitives (Δ, Τ, χ, Φ, א)
          ↓
-   Tier 1 Forces (entropy, consciousness, pattern, coherence, polarity)
+   Tier 1 Forces (entropy, consciousness, pattern, coherence, polarity, attention)
          ↓
    Tier 2 Forces (time, karma, truth, memory, death, creation)
          ↓
-   Tier 3 Forces (desire, fear, love, hope, forgiveness, pain)
+   Tier 3 Forces (desire, fear, love, hope, forgiveness, pain, judgment)
          ↓
-   Tier 4 Forces (art, music, war, madness, beauty, luck)
+   Tier 4 Forces (art, music, war, madness, beauty, luck, humor, courage)
 ```
 
 ### Why The Distinction Matters
@@ -78,14 +79,15 @@ Primitives (Δ, Τ, χ, Φ, א)
 
 ---
 
-## The Five Primordial Forces
+## The Six Primordial Forces
 ```
 TIER 1: AXIOMS
 ├── entropy()       → Ensures impermanence and motion
 ├── consciousness() → Enables recursive self-awareness
 ├── pattern()       → Governs all form and structure
 ├── coherence()     → Determines stability and harmony
-└── polarity()      → Establishes duality and opposition
+├── polarity()      → Establishes duality and opposition
+└── attention()     → Selects what collapses into reality
 ```
 
 ---

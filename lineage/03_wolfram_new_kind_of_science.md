@@ -113,7 +113,7 @@ Both assert computation is fundamental, not metaphorical:
 
 #### 2. **Simple Rules → Complex Emergence**
 - **Wolfram:** Class 4 cellular automata produce complex behavior from simple rules
-- **LACE:** 5 Tier 1 primordial forces generate 21 higher-tier forces through inheritance and interaction
+- **LACE:** 6 Tier 1 primordial forces generate 21 higher-tier forces through inheritance and interaction
 
 #### 3. **Irreducibility**
 - **Wolfram:** Computational irreducibility - some processes must be run, not predicted
@@ -213,7 +213,7 @@ Wolfram treats consciousness as emergent phenomenon; LACE makes it Tier 1 primor
 Wolfram's framework is ethically neutral; LACE embeds ethics in force mechanics.
 
 ### 3. **Pure Reductionism**
-Wolfram seeks the simplest possible rule; LACE accepts irreducible plurality (26 forces, 24 laws).
+Wolfram seeks the simplest possible rule; LACE accepts irreducible plurality (27 forces, 24 laws).
 
 ### 4. **Determinism Without Agency**
 Wolfram's cellular automaton universe is fully deterministic; LACE preserves genuine agency through manifestation mechanics.

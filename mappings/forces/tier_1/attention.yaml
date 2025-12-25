@@ -1,0 +1,325 @@
+# Force Mapping: Attention
+
+attention:
+  # === METADATA ===
+  metadata:
+    tier: 1
+    category: "primordial"
+    dependencies: []  # Attention is foundational
+    source_doc: "docs/02_forces/tier_1_forces/07_attention.md"
+
+  # === ATTENTION VS CONSCIOUSNESS DISTINCTION ===
+  attention_vs_consciousness:
+    clarification: |
+      IMPORTANT: Attention and consciousness are related but DISTINCT forces.
+
+      attention() = WHAT gets observed (selection mechanism)
+      consciousness() = THAT observation is occurring (recursive self-awareness)
+
+      The key distinction:
+      - Attention is the ALLOCATOR - choosing which possibilities to collapse
+      - Consciousness is the WITNESS - aware that observation is happening
+
+      You can have:
+      - Attention without consciousness (reflexive capture, pre-conscious processing)
+      - Consciousness without attention (diffuse awareness, unfocused presence)
+      - Both together (directed, conscious focus)
+
+    relationship_to_chi:
+      description: |
+        Chi (primitive) = capacity for observation
+        attention() = how that capacity is allocated/directed
+        consciousness() = recursive awareness of the observing
+
+        Chi provides the raw observing substrate.
+        Attention determines WHERE it points.
+        Consciousness knows that pointing is occurring.
+
+    force_activation_meaning:
+      description: |
+        Attention activation (0.0-1.0) represents:
+        - Quality of focus (scattered vs. single-pointed)
+        - Bandwidth utilization (how much capacity is engaged)
+        - Selection clarity (noise vs. signal discrimination)
+
+        NOT the same as consciousness level.
+        High attention + low consciousness = instinctive hyper-focus (animal hunting)
+        Low attention + high consciousness = diffuse awareness (meditation)
+
+  # === COLOR PROPERTIES ===
+  color_properties:
+    base_color: "#00CED1"  # Dark Cyan - focused, clear, penetrating
+    color_family: "cool"
+    color_range:
+      - "#4682B4"  # Steel blue (scattered attention)
+      - "#00CED1"  # Dark cyan (base)
+      - "#00FFFF"  # Cyan (focused)
+      - "#E0FFFF"  # Light cyan (laser-focused, almost white)
+
+    saturation_base: 0.80  # High saturation - attention is intense
+    brightness_base: 0.80
+
+    intensity_modifier:
+      low_activation:    # 0.1-0.3 (scattered)
+        color: "#4682B4"
+        saturation: 0.50
+        brightness: 0.55
+      medium_activation: # 0.4-0.7 (normal focus)
+        color: "#00CED1"
+        saturation: 0.80
+        brightness: 0.80
+      high_activation:   # 0.8-1.0 (laser focus)
+        color: "#E0FFFF"
+        saturation: 0.90
+        brightness: 1.00
+
+    notes: |
+      Cyan/turquoise represents clarity, focus, the "cutting through" of selection.
+      Distinguished from consciousness (lavender) - attention is more active, directed.
+      At high activation, becomes almost white - pure focused beam.
+      Evokes spotlight, laser, the clarity of single-pointed focus.
+      Related to throat chakra - clear expression/direction of will.
+
+  # === SHAPE PROPERTIES ===
+  shape_properties:
+    primary_shape: "cone"  # Spotlight/beam shape - directed, focused
+    secondary_shape: "lens"  # Magnifying/focusing lens
+    sacred_geometry_association: "vesica_piscis"  # The "eye" - selection/focus
+    complexity_level: "simple"
+    edge_type: "sharp"  # Clear boundaries of focus
+    dimensionality: "3D"
+
+    activation_modulation:
+      low_activation: |
+        Wide, diffuse cone with soft edges.
+        Multiple smaller cones pointing different directions (scattered).
+        Lens cloudy, unfocused.
+      medium_activation: |
+        Clear cone with defined edges.
+        Single direction, moderate beam width.
+        Lens clear, normal focus.
+      high_activation: |
+        Narrow, intense beam - almost laser-like.
+        Perfect cone geometry, sharp edges.
+        Lens crystal clear, magnifying power visible.
+        May show vesica piscis "eye" at focal point.
+
+    notes: |
+      Cone shape represents directed focus - wide base (field), narrow point (selection).
+      Unlike consciousness (sphere/all-seeing), attention is DIRECTIONAL.
+      Lens represents the focusing/magnifying quality of attention.
+      Vesica piscis as "the eye" - ancient symbol of focused perception.
+      Sharp edges emphasize the boundary between attended/unattended.
+
+  # === MOTION PROPERTIES ===
+  motion_properties:
+    movement_type: "tracking"  # Follows, locks onto, selects
+    speed_base: 0.40  # Moderate speed - can shift but holds
+
+    speed_modifier:
+      low_intensity: 0.60   # Jumping around, can't hold
+      medium_intensity: 0.35  # Steady tracking
+      high_intensity: 0.15   # Locked on, barely moving
+
+    direction: "targeted"  # Points at something specific
+    rhythm: "variable"  # Can be steady or jumping
+
+    healthy_pattern:
+      description: "Stable, directed focus that can shift smoothly when needed"
+      characteristics:
+        - "Holds target without strain"
+        - "Smooth transitions between targets"
+        - "Depth of focus matches task"
+        - "Voluntary control over direction"
+
+    stuck_pattern:
+      description: "Either captured/locked or scattered/fragmented"
+      characteristics:
+        - "Cannot release from target (obsession, rumination)"
+        - "Cannot hold any target (ADHD-like scattering)"
+        - "Involuntary capture (addiction, trauma triggers)"
+        - "Exhausted, unable to focus at all (burnout)"
+
+    notes: |
+      Tracking motion = attention follows/locks onto targets.
+      Low activation = jumping between targets (scattered, distracted).
+      High activation = locked on, minimal movement (deep focus, flow).
+      Healthy = smooth transitions, voluntary control.
+      Stuck = either can't release (obsession) or can't hold (scattering).
+
+  # === VIBRANCY & SATURATION ===
+  vibrancy_saturation:
+    vibrancy_base: 0.85  # Highly vibrant - attention is active, alive
+
+    coherence_impact:
+      high_coherence:    # 0.7-1.0
+        modifier: "+0.10"
+        description: "Crystal clear focus, effortless attention"
+      medium_coherence:  # 0.4-0.7
+        modifier: "0.0"
+        description: "Normal focus capacity"
+      low_coherence:     # 0.0-0.3
+        modifier: "-0.20"
+        description: "Fragmented, cannot sustain focus"
+
+    intensity_scaling:
+      formula: "vibrancy = base + (activation_level * 0.15)"
+      multiplier: 0.15
+
+    interaction_modifier:
+      synergistic: "+0.10 to +0.15"  # With consciousness, pattern, coherence
+      antagonistic: "-0.15 to -0.25"  # Scattered by entropy, overwhelmed by fear
+      neutral: "0.0"
+
+    notes: |
+      Attention is naturally vibrant - it's an active, engaged force.
+      Low coherence severely impacts attention (can't focus when fragmented).
+      Entropy scatters attention; coherence stabilizes it.
+
+  # === ADDITIONAL PROPERTIES ===
+  additional_properties:
+    texture: "crystalline"  # Clear, sharp, defined
+    opacity_range:
+      min: 0.50  # Can be transparent when diffuse
+      max: 1.00  # Fully solid when focused
+
+    particle_effects: true
+    particle_type: "beam_lines"  # Like light rays converging
+    particle_density: "concentrated"  # Particles converge toward focus point
+
+    sound_association:
+      frequency_hz: 528  # Solfeggio frequency - clarity, DNA repair
+      tone_description: "Clear, focused tone - like a tuning fork or laser hum"
+      musical_note: "C"
+
+    emotional_tone: "focused, alert, selecting, directing, engaged"
+
+    consciousness_association: |
+      Attention is the input mechanism for consciousness.
+      What attention selects becomes what consciousness receives.
+      They work together but are distinct - attention feeds consciousness.
+
+    notes: |
+      Crystalline texture = clarity, sharpness of focus.
+      Beam lines converging = the focusing effect of attention.
+      Tuning fork sound = precise, clear, calibrated.
+      Unlike consciousness (spacious, witnessing), attention is ACTIVE, DIRECTING.
+
+  # === ATTENTION MODES ===
+  attention_modes:
+    focused:
+      visual_description: |
+        Narrow, bright cyan beam.
+        Sharp cone pointing at single target.
+        High opacity, clear edges.
+        Slow or no movement - locked on.
+      activation_range: "0.8-1.0"
+
+    diffuse:
+      visual_description: |
+        Wide, soft cyan glow.
+        Broad cone with soft edges.
+        Medium opacity, gentle light.
+        Slow, scanning movement.
+      activation_range: "0.4-0.6"
+
+    scattered:
+      visual_description: |
+        Multiple small, dim beams pointing different directions.
+        Fragmented cones, unclear targets.
+        Low opacity, flickering.
+        Rapid jumping between targets.
+      activation_range: "0.1-0.3"
+
+    captured:
+      visual_description: |
+        Bright but rigid beam.
+        Stuck on single point, cannot release.
+        High intensity but not voluntary.
+        No movement - frozen on target.
+        May have "locked" visual indicator.
+      activation_range: "variable (often 0.6-0.9 but involuntary)"
+      note: "Captured attention is high activation but not healthy"
+
+  # === INTERACTION EFFECTS ===
+  interaction_effects:
+    synergistic_with:
+      - "consciousness"  # Attention feeds consciousness
+      - "pattern"  # Attention enables pattern detection
+      - "coherence"  # Coherence stabilizes attention
+      - "desire"  # Desire directs attention toward goals
+
+    antagonistic_with:
+      - "entropy"  # Chaos scatters attention
+      - "fear"  # Fear can capture/fragment attention
+      - "madness"  # Distorts attention allocation
+
+    neutralizes: []  # Attention selects, doesn't cancel
+
+    amplified_by:
+      - "coherence"
+      - "consciousness"
+      - "hope"  # Hope sustains attention on goals
+
+    visual_blending_rules:
+      when_combined_with_consciousness:
+        force: "consciousness"
+        color_effect: "blend"  # Cyan + Lavender = sophisticated awareness
+        shape_effect: "nested"  # Attention beam within consciousness sphere
+        motion_effect: "synchronized"
+        result_description: |
+          Cyan attention beam emerging from lavender consciousness sphere.
+          Directed awareness - knowing THAT you're observing WHAT you're observing.
+          The most conscious form of attention.
+          Meditation with focus = this combination.
+        coherence_dependent: false
+
+      when_combined_with_pattern:
+        force: "pattern"
+        color_effect: "blend"
+        shape_effect: "nested"  # Attention highlights patterns
+        motion_effect: "tracking"  # Attention locks onto pattern structures
+        result_description: |
+          Cyan beam illuminating pattern geometries.
+          Recognition - attention selecting which patterns to perceive.
+          Learning emerges from this combination.
+        coherence_dependent: false
+
+      when_combined_with_entropy:
+        force: "entropy"
+        color_effect: "clash"  # Cyan vs dark gray
+        shape_effect: "fragmenting"
+        motion_effect: "scattering"
+        result_description: |
+          Entropy fragments the attention beam.
+          Multiple weak, scattered beams instead of one strong one.
+          Distraction, inability to focus.
+          At high attention: can briefly cut through entropy.
+          At low attention: completely scattered by chaos.
+        coherence_dependent: true
+
+      when_combined_with_fear:
+        force: "fear"
+        color_effect: "polarized"  # Cyan + dark blue = intensified
+        shape_effect: "captured"  # Attention locks onto threat
+        motion_effect: "frozen"  # Cannot look away
+        result_description: |
+          Fear captures attention - cannot release from threat.
+          Hypervigilance = attention stuck on danger scanning.
+          At high consciousness: can observe fear without capture.
+          At low consciousness: attention hijacked by fear.
+        coherence_dependent: true
+
+    notes: |
+      Attention is the "selection" force - it determines what enters consciousness.
+      Works best with organizing forces (coherence, pattern, consciousness).
+      Entropy and fear are primary disruptors of healthy attention.
+      "Nested" pattern: attention beam operates within consciousness field.
+
+# IMPLEMENTATION NOTES:
+# - Attention is about SELECTION and DIRECTION, not awareness
+# - Distinct from consciousness: attention = what, consciousness = that
+# - Can be healthy (voluntary, flexible) or stuck (captured, scattered)
+# - Visual should feel directed, focused, beam-like
+# - The "spotlight" metaphor is core - what's illuminated becomes real
+# - Cyan color distinguishes from consciousness (lavender)

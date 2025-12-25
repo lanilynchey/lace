@@ -1,7 +1,7 @@
 # Scope & Boundaries
 
 ## **What's In Scope (Phase 1)**
-- Complete documentation of all forces (26 total: Tier 1-4)
+- Complete documentation of all forces (27 total: Tier 1-4)
 - All system laws defined (24 total: 11 core + 9 additional + 4 security)
 - Interaction mechanics mapped (6 types across all force combinations)
 - Inheritance chains traced (complete dependency graphs)

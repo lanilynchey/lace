@@ -18,6 +18,6 @@ Think of it as:
 - **Music** (how notes interact to create harmony/dissonance)
 - **Code** (how functions call and modify each other)
 
-**This is where 26 forces become infinite possibilities.**
+**This is where 27 forces become infinite possibilities.**
 
 ---

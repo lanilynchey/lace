@@ -13,7 +13,7 @@
 ### For New Readers (Start Here)
 1. [Overview](01_foundation/01_overview.md) - The complete neural network of reality
 2. [Terminology](01_foundation/02_terminology.md) - Graph concepts (nodes, edges, hubs, paths, loops)
-3. [Complete Textual Graph](05_complete_graph/12_complete_textual_graph.md) - All 26 forces + 24 laws mapped
+3. [Complete Textual Graph](05_complete_graph/12_complete_textual_graph.md) - All 27 forces + 24 laws mapped
 4. [Sample Pathways](05_complete_graph/13_sample_pathways.md) - Example traversals across the graph
 
 ### For Practitioners (Working with Forces)
@@ -35,7 +35,7 @@
 ### 01. Foundation
 **Understanding the force graph**
 
-- [01_overview.md](01_foundation/01_overview.md) - Overview: The complete neural network of reality (26 forces, infinite connections)
+- [01_overview.md](01_foundation/01_overview.md) - Overview: The complete neural network of reality (27 forces, infinite connections)
 - [02_terminology.md](01_foundation/02_terminology.md) - Force Type Legend + Graph Terminology (nodes, edges, degree, hubs, paths, loops, clustering, density)
 
 **Start here if:** You're new to the force graph concept
@@ -45,7 +45,7 @@
 ### 02. Network Tiers
 **The 4-tier force network structure**
 
-- [03_tier_1_primordial_network.md](02_network_tiers/03_tier_1_primordial_network.md) - Tier 1: The Five Axioms - Interconnections
+- [03_tier_1_primordial_network.md](02_network_tiers/03_tier_1_primordial_network.md) - Tier 1: The Six Axioms - Interconnections
 - [04_tier_2_governance_network.md](02_network_tiers/04_tier_2_governance_network.md) - Tier 2: The Six Governors - Hub Structure (temporal, karmic, creative, death flows)
 - [05_tier_3_interface_network.md](02_network_tiers/05_tier_3_interface_network.md) - Tier 3: The Seven Experience Forces - Star Pattern (freeze, courage, liberation, attachment patterns)
 - [06_tier_4_emergent_network.md](02_network_tiers/06_tier_4_emergent_network.md) - Tier 4: The Eight Composite Forces - Web Pattern (creative, transformation, courage clusters)
@@ -78,7 +78,7 @@
 ### 05. Complete Graph
 **Full network maps and traversals**
 
-- [12_complete_textual_graph.md](05_complete_graph/12_complete_textual_graph.md) - ASCII Representation + Complete Graph (All 26 forces + 24 laws = 50 nodes)
+- [12_complete_textual_graph.md](05_complete_graph/12_complete_textual_graph.md) - ASCII Representation + Complete Graph (All 27 forces + 24 laws = 51 nodes)
 - [13_sample_pathways.md](05_complete_graph/13_sample_pathways.md) - Sample Pathways: Trauma Loop, Ideological Warfare, Blessing Vector, Reincarnation Loop
 
 **Start here if:** You need the complete network reference or example traversals
@@ -140,7 +140,7 @@
 ## Key Concepts Summary
 
 ### The Network
-- **50 nodes total:** 26 forces + 24 system laws
+- **51 nodes total:** 27 forces + 24 system laws
 - **Infinite edges:** Forces interact in countless ways
 - **4-tier hierarchy:** Axioms → Governors → Interface → Emergent
 - **5 router forces:** consciousness, coherence, entropy, pattern, memory
@@ -166,7 +166,7 @@
 - **INHERITANCE_CHAINS.md** - Dependency graph (vertical/hierarchical)
 - **INTERACTION_MECHANICS.md** - How forces interact (horizontal/dynamic)
 - **SYSTEM_LAWS.md** - Regulatory constraints on the network
-- **TIER_1_FORCES.md** - The 5 axioms (network foundation)
+- **TIER_1_FORCES.md** - The 6 axioms (network foundation)
 - **TIER_2_FORCES.md** - The 6 governors (network routers)
 - **TIER_3_FORCES.md** - The 7 interface forces (experiential layer)
 - **TIER_4_FORCES.md** - The 8 emergent forces (composite synthesis)

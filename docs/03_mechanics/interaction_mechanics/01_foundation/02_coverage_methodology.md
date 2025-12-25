@@ -2,7 +2,7 @@
 
 **⚠️ Coverage Disclaimer:**
 
-This document shows **~30-40 high-impact interactions** sampled from **676 possible pairwise combinations** (26 forces × 26 forces). Full matrix documentation would require ~16,000+ lines and dedicated interactive tooling, planned for Phase 2+.
+This document shows **~30-40 high-impact interactions** sampled from **729 possible pairwise combinations** (27 forces × 27 forces). Full matrix documentation would require ~16,000+ lines and dedicated interactive tooling, planned for Phase 2+.
 
 **Why Sampling?**
 - **Practical utility** > exhaustive completeness for Phase 1

@@ -19,7 +19,7 @@ Complex systems are built from simple primitives:
 - All molecules ultimately reduce to quantum fields
 
 LACE proposes:
-- All reality reduces to 5 primordial forces (Tier 1) - *see TIER_1_FORCES.md*
+- All reality reduces to 6 primordial forces (Tier 1) - *see TIER_1_FORCES.md*
 - Everything else is composition, interaction, emergence - *see INTERACTION_MECHANICS.md*
 
 ### **3. State and Process**

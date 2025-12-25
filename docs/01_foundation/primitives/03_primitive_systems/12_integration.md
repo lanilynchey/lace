@@ -33,10 +33,11 @@ nostalgia() [Tier 4] - emergent from memory + emotion
 
 **Primitive Usage by Tier 1 Forces:**
 - **entropy()** → uses Δ (Delta) - change drives disorder
-- **consciousness()** → uses χ (Chi) - attention enables awareness
+- **consciousness()** → uses χ (Chi) - observation enables awareness
 - **pattern()** → uses Φ (Phi) - symmetry creates form
-- **coherence()** → uses Φ (Phi) + χ (Chi) - aligned attention on pattern
+- **coherence()** → uses Φ (Phi) + χ (Chi) - aligned observation on pattern
 - **polarity()** → uses all primitives - creates opposition/tension
+- **attention()** → uses χ (Chi) - selection allocates observation
 
 ---
 
@@ -147,7 +148,7 @@ This is the LACE architecture in action—everything from the most complex human
 
 **Everything else builds from here.**
 
-**Next:** These primitives combine to form the Tier 1 Axioms (entropy, consciousness, pattern, coherence, polarity). See [Tier 1 Forces](../../../02_forces/tier_1_forces/00_index.md).
+**Next:** These primitives combine to form the Tier 1 Axioms (entropy, consciousness, pattern, coherence, polarity, attention). See [Tier 1 Forces](../../../02_forces/tier_1_forces/00_index.md).
 
 ---
 

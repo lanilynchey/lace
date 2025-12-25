@@ -195,7 +195,7 @@
 6. **Recursion** - Forces create feedback loops with themselves
 
 ### Critical Insights
-- **676 possible pairwise combinations** (26 forces × 26 forces)
+- **729 possible pairwise combinations** (27 forces × 27 forces)
 - **~40 high-impact interactions documented** (with frameworks to predict all others)
 - **Lower tier + higher tier = leverage points** for transformation
 - **Contamination ≠ Synthesis** - Same forces, radically different outcomes

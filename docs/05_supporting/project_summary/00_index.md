@@ -75,7 +75,7 @@ This is LACE's internal master plan and vision document. It provides a comprehen
 
 ### **06_architecture.md**
 **Complete System Architecture**
-- Four-Tier Force Hierarchy (26 forces)
+- Four-Tier Force Hierarchy (27 forces)
 - System Laws (24 total)
 - 5-Layer Architecture (BIOS → Agent Interface)
 - Core Data Models
@@ -84,7 +84,7 @@ This is LACE's internal master plan and vision document. It provides a comprehen
 ### **07_statistics.md**
 **Framework Statistics**
 - 5 Primitives
-- 26 Forces (by tier)
+- 27 Forces (by tier)
 - 24 Laws
 - 31 Functions (by level)
 - 5 Layers

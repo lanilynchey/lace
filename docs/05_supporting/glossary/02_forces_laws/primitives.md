@@ -118,7 +118,7 @@ The primitives operate in a base-10+ consciousness space - they are not binary (
 ```
 Primitives (Δ, Τ, χ, Φ, א)           ← Substrate (base-10+, not directly perceivable)
     ↓
-Tier 1 Forces (entropy, consciousness, pattern, coherence, polarity)   ← Axioms
+Tier 1 Forces (entropy, consciousness, pattern, coherence, polarity, attention)   ← Axioms
     ↓
 Tier 2-4 Forces                       ← Emergent complexity
     ↓

@@ -25,7 +25,7 @@
 
 - Simple forces interact to create complexity
 - New properties arise from composition
-- Everything reduces to ~5 primordial axioms
+- Everything reduces to ~6 primordial axioms
 - The universe is elegantly minimal at its core
 
 **This is not mysticism. This is not materialism.**

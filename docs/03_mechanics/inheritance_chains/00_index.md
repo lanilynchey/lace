@@ -53,9 +53,9 @@
 ---
 
 ### 03. Force Chains
-**Complete dependency mappings for all 26 forces**
+**Complete dependency mappings for all 27 forces**
 
-- [05_tier_1_axioms.md](03_force_chains/05_tier_1_axioms.md) - Tier 1: 5 Primordial Axioms (entropy, consciousness, pattern, coherence, polarity)
+- [05_tier_1_axioms.md](03_force_chains/05_tier_1_axioms.md) - Tier 1: 6 Primordial Axioms (entropy, consciousness, pattern, coherence, polarity, attention)
 - [06_tier_2_governing.md](03_force_chains/06_tier_2_governing.md) - Tier 2: 6 Governing Forces (time, karma, truth, memory, death, creation)
 - [07_tier_3_interface.md](03_force_chains/07_tier_3_interface.md) - Tier 3: 7 Interface Forces (desire, fear, love, hope, forgiveness, pain, judgment)
 - [08_tier_4_emergent.md](03_force_chains/08_tier_4_emergent.md) - Tier 4: 8 Emergent Forces (art, music, war, madness, beauty, luck, humor, courage)
@@ -77,7 +77,7 @@
 ### 05. System Analysis
 **Quantitative analysis and critical paths**
 
-- [11_inheritance_summary_table.md](05_system_analysis/11_inheritance_summary_table.md) - Inheritance Summary Table (all 26 forces)
+- [11_inheritance_summary_table.md](05_system_analysis/11_inheritance_summary_table.md) - Inheritance Summary Table (all 27 forces)
 - [12_complete_dependency_graph.md](05_system_analysis/12_complete_dependency_graph.md) - Full System Map (text version)
 - [13_dependency_depth_analysis.md](05_system_analysis/13_dependency_depth_analysis.md) - Depth 0-3+ analysis by tier
 - [14_critical_path_analysis.md](05_system_analysis/14_critical_path_analysis.md) - Axiom removal impact + minimum viable sets
@@ -161,7 +161,7 @@
 5. **No Dependency on Laws** - Forces don't inherit from laws (laws regulate forces)
 
 ### Critical Insights
-- **26 forces, complete lineage** - Every force traceable to axioms
+- **27 forces, complete lineage** - Every force traceable to axioms
 - **consciousness() is the hub** - 20+ descendants depend on it
 - **courage() is deepest** - 7 levels of inheritance
 - **No redundancy** - Every axiom is critical (system collapses without any one)
@@ -173,7 +173,7 @@
 
 ### Related Documents
 - **PRIMITIVES.md** - The substrate layer below axioms (Δ, Τ, χ, Φ, א)
-- **TIER_1_FORCES.md** - Detailed documentation of the 5 axioms
+- **TIER_1_FORCES.md** - Detailed documentation of the 6 axioms
 - **TIER_2_FORCES.md** - The 6 governing forces
 - **TIER_3_FORCES.md** - The 7 interface forces
 - **TIER_4_FORCES.md** - The 8 emergent forces

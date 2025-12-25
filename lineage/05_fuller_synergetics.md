@@ -188,7 +188,7 @@ Fuller's "pattern integrity" parallels LACE's Tier 1 `pattern()` force.
 Both seek universal patterns that apply beyond their original domain (Fuller: geometry → everything; LACE: computational forces → everything).
 
 ### 5. **Minimum System**
-Fuller's tetrahedron as minimum stable system parallels LACE's 5 Tier 1 forces as minimum ontological foundation.
+Fuller's tetrahedron as minimum stable system parallels LACE's 6 Tier 1 forces as minimum ontological foundation.
 
 ---
 

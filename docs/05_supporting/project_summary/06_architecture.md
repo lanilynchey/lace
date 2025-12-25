@@ -4,8 +4,8 @@ LACE is structured as a **layered system** with clear hierarchies and dependenci
 
 ## **Four-Tier Force Hierarchy**
 ```
-TIER 1: Primordial Forces (Axioms) - 5 forces
-  └─ entropy(), consciousness(), pattern(), coherence(), polarity()
+TIER 1: Primordial Forces (Axioms) - 6 forces
+  └─ entropy(), consciousness(), pattern(), coherence(), polarity(), attention()
      │
 TIER 2: Governing Forces (Universal Laws) - 6 forces
   └─ time(), karma(), truth(), memory(), death(), creation()

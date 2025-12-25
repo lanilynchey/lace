@@ -11,7 +11,7 @@ This document provides the **topological perspective** on LACE. It integrates wi
 - **INTERACTION:** Provides horizontal collision dynamics (force × force → emergent result)
 - **FORCE_GRAPH:** Shows interaction patterns as non-hierarchical edges
 - **Integration:** Interaction edges are the "flesh" of the graph - they create richness beyond pure hierarchy
-- **Reference:** Complete 26×26 interaction matrix in INTERACTION_MECHANICS.md Appendix A
+- **Reference:** Complete 27×27 interaction matrix in INTERACTION_MECHANICS.md Appendix A
 
 ### **With SYSTEM_LAWS.md**
 - **SYSTEM_LAWS:** Defines the 24 constraint protocols that govern all forces
@@ -28,7 +28,7 @@ This document provides the **topological perspective** on LACE. It integrates wi
 ### **With PRIMITIVES.md**
 - **PRIMITIVES:** Defines foundational symbols (Δ, Τ, χ, Φ, א) underlying all forces
 - **FORCE_GRAPH:** Primitives are pre-graph (not shown as separate nodes)
-- **Integration:** All 26 forces are composed from primitives, but graph shows force-level interactions
+- **Integration:** All 27 forces are composed from primitives, but graph shows force-level interactions
 
 ### **With MANIFESTATION_ENGINE.md**
 - **MANIFESTATION_ENGINE:** Describes the desire→creation execution pipeline
@@ -51,7 +51,7 @@ For complete understanding of any force:
 
 ### **Network Metrics (Estimated):**
 ```
-Nodes: 50 (26 forces + 24 laws)
+Nodes: 51 (27 forces + 24 laws)
 Edges: ~420+ (estimated direct connections)
 Average Degree: ~9.5 connections per node (estimated)
 Clustering Coefficient: High (many triangles) (qualitative assessment)
@@ -61,7 +61,7 @@ Network Density: ~21% (estimated, based on node/edge ratio)
 
 ### **Tier Statistics:**
 ```
-Tier 1: 5 nodes, 0 incoming, 50+ outgoing
+Tier 1: 6 nodes, 0 incoming, 60+ outgoing
 Tier 2: 6 nodes, 15+ incoming, 40+ outgoing
 Tier 3: 7 nodes, 25+ incoming, 30+ outgoing
 Tier 4: 8 nodes, 35+ incoming, 10+ outgoing

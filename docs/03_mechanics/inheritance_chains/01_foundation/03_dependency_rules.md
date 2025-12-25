@@ -15,7 +15,7 @@ All inheritance chains in LACE follow these structural rules:
 ### **3. Axiom Grounding (All Roads Lead to Tier 1)**
 - **Rule:** Every force must trace back to at least one Tier 1 axiom
 - **Why:** Ensures all forces derive from fundamental building blocks
-- **Example:** Any force that cannot be traced to entropy(), consciousness(), pattern(), coherence(), or polarity() is incomplete
+- **Example:** Any force that cannot be traced to entropy(), consciousness(), pattern(), coherence(), polarity(), or attention() is incomplete
 
 ### **4. Conditional Dependencies (Context-Dependent)**
 - **Rule:** Some dependencies are marked [conditional] - required only in specific contexts

@@ -111,7 +111,7 @@ Both treat patterns as ontologically primary:
 
 #### 3. **Unity Producing Multiplicity**
 - **Lawlor:** One circle becomes vesica piscis becomes flower of life (infinite expansion from unity)
-- **LACE:** 5 Tier 1 forces generate 21 higher-tier forces through inheritance
+- **LACE:** 6 Tier 1 forces generate 21 higher-tier forces through inheritance
 
 #### 4. **Visual/Spatial Intelligence**
 - **Lawlor:** Geometry accesses non-verbal understanding

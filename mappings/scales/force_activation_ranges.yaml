@@ -193,7 +193,7 @@ activation_dynamics:
 
   description: |
     ⚠️ MAPPINGS DISPLAY DOCS - NOTHING ORIGINATES HERE
-    This section categorizes all 26 forces by HOW QUICKLY they can shift activation levels.
+    This section categorizes all 27 forces by HOW QUICKLY they can shift activation levels.
     Complements temporal_dynamics.yaml (tier-by-tier) with cross-force categorical view.
 
     For detailed timelines and examples, see temporal_dynamics.yaml.
