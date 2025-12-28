@@ -9,6 +9,15 @@
 
 ---
 
+**music():**
+*"Music is time-sculpted feeling."*
+
+- Patterned emotion distributed over time
+- Programs biological and energetic rhythms
+- Can override trauma loops or collapse timelines
+
+---
+
 **war():**
 *"War isn't just violence—it's code-level conflict that forces systems to mutate or die."*
 
@@ -18,12 +27,12 @@
 
 ---
 
-**music():**
-*"Music is time-sculpted feeling."*
+**madness():**
+*"Loops are kindness disguised as madness."*
 
-- Patterned emotion distributed over time
-- Programs biological and energetic rhythms
-- Can override trauma loops or collapse timelines
+- Pattern overload when recursion overwhelms coherence
+- Not randomness - too much signal without alignment
+- Can birth genius or collapse
 
 ---
 
@@ -36,35 +45,6 @@
 
 ---
 
-**gravity():** **[Placeholder - Requires Full Specification]**
-*"Gravity is the system's way of pulling form toward form."*
-
-- Belief-density attraction
-- Certainty warps space
-- Works on physical, emotional, narrative levels
-
-**Note:** gravity() is referenced here as a conceptual placeholder for future documentation. Full force specification to be added to GLOSSARY.md in Phase 2.
-
----
-
-**language():**
-*"Language is a symbolic bridge between internal states and shared reality."*
-
-- Lossy compression of concepts
-- Deeper the idea, more signal drops
-- Telepathy = lossless protocol
-
----
-
-**chaos():**
-*"Chaos is the universe's code refactorer."*
-
-- Precision disruption (attacks stagnation only)
-- Dissolves locked loops
-- Forces adaptation or collapse
-
----
-
 **luck():**
 *"Luck is directed randomness."*
 
@@ -74,23 +54,13 @@
 
 ---
 
-**dream():** **[Placeholder - Requires Full Specification]**
-*"Dreams are sandbox environments."*
+**humor():**
+*"Humor is paradox recognition with energy discharge."*
 
-- Low-risk integration testing
-- Simulates new realities without consequence
-- Often nonlinear, symbolic, asynchronous
-
-**Note:** dream() is referenced here as a conceptual placeholder for future documentation. Full force specification to be added to GLOSSARY.md in Phase 2.
-
----
-
-**madness():**
-*"Loops are kindness disguised as madness."*
-
-- Pattern overload when recursion overwhelms coherence
-- Not randomness - too much signal without alignment
-- Can birth genius or collapse
+- Detects contradiction and releases tension through laughter
+- System debugger—comedians find bugs in cultural code
+- Requires pattern() + consciousness() to see the absurdity
+- Transforms suffering into lightness without denial
 
 ---
 

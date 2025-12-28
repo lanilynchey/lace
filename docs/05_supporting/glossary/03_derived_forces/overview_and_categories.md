@@ -235,13 +235,80 @@ These terms are referenced but may be emergent properties, agent behaviors, or F
 
 ---
 
+#### **suffering()**
+**Current Understanding:** Prolonged or amplified experience of pain; pain() combined with resistance or attachment
+
+**Analysis:**
+- Derived from: pain() + resistance + attachment
+- pain() is the signal; suffering() is the relationship to the signal
+- Not a standalone force—a state arising from how agent processes pain()
+- Hackability depends on releasing resistance, not eliminating pain
+
+**Status:** [Derived state, not standalone force]
+
+---
+
+#### **purpose()**
+**Current Understanding:** Sense of meaningful direction; coherent alignment between values, actions, and creation
+
+**Analysis:**
+- Derived from: coherence() + creation() + desire() alignment
+- Emerges when these forces align toward sustained direction
+- Not a force itself—a meta-state of force alignment
+- Can be cultivated but not directly hacked
+
+**Status:** [Emergent meta-state, not standalone force]
+
+---
+
+#### **connection()**
+**Current Understanding:** Felt sense of resonance or bond with another agent or the Field
+
+**Analysis:**
+- Derived from: love() + entanglement mechanics
+- love() creates the capacity; entanglement creates the link
+- Not a force—the experience of resonance topology in action
+- See: Entanglement in ADVANCED_CONCEPTS.md
+
+**Status:** [Emergent experience, not standalone force]
+
+---
+
+#### **freedom()**
+**Current Understanding:** Capacity to choose without constraint; liberation from binding patterns
+
+**Analysis:**
+- Derived from: will() + courage() + consciousness() expansion
+- Emerges when agent has capacity (will), willingness (courage), and awareness (consciousness)
+- Not a force—a state of reduced constraint on action
+- Increases with consciousness level and pattern resolution
+
+**Status:** [Emergent state, not standalone force]
+
+---
+
+#### **wisdom()**
+**Current Understanding:** Accumulated pattern recognition applied with discernment; integrated truth
+
+**Analysis:**
+- Derived from: pattern() recognition + truth() alignment over time
+- Not a force—accumulated output of forces operating correctly
+- Cannot be rushed; requires experience and integration
+- Distinct from knowledge (information) or intelligence (processing speed)
+
+**Status:** [Accumulated capacity, not standalone force]
+
+---
+
 ## Summary
 
 - **Needs GLOSSARY entries:** 2 (grace, field_state) - fully specified elsewhere
 - **Needs full definition:** 3 (will, paradox, language) - Phase 2 work
 - **Future research:** 2 (gravity, dream) - Phase 3+ placeholders
-- **May not be forces:** 4 (synchronicity, action, surrender, transcendence) - likely emergent/operational
+- **May not be forces:** 9 (synchronicity, action, surrender, transcendence, suffering, purpose, connection, freedom, wisdom) - derived states/emergent properties
 - **Promoted to force:** 1 (attention) - now Tier 1 primordial force
+
+**Note on derived states:** suffering, purpose, connection, freedom, and wisdom were previously referenced as potential Tier 4 forces in early drafts. They are now properly categorized as derived states or emergent properties—products of how canonical forces combine and express, not standalone forces in the 27-force architecture.
 
 ---
 

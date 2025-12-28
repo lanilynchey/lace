@@ -259,8 +259,8 @@ This document collection contains advanced LACE concepts that operate at the sou
 - Hidden mechanisms revealed
 
 **[47_tier_4_hidden_nature.md](08_rich_notes/47_tier_4_hidden_nature.md)**
-- art, war, music, beauty, language, chaos, luck, dream, madness, courage
-- True nature of emergent forces
+- art, music, war, madness, beauty, luck, humor, courage
+- True nature of emergent forces (canonical 8)
 
 ---
 
@@ -276,6 +276,7 @@ This document collection contains advanced LACE concepts that operate at the sou
 
 **[50_all_tier_hackability.md](09_force_hackability/50_all_tier_hackability.md)**
 - Tier 1 forces (primordial axioms)
+- Tier 2 forces (governing)
 - Tier 3 forces (interface/emotional)
 - Tier 4 forces (emergent complexity)
 

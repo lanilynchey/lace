@@ -33,7 +33,7 @@
 2. **polarity()** - Binary consciousness hardwired
 3. **death()** - Threshold inevitable
 4. **madness()** - Corruption hard to control
-5. **suffering()** - Arises from resistance automatically
+5. **pain()** - Pain signals automatic; can modulate response but not eliminate signal
 
 ---
 
