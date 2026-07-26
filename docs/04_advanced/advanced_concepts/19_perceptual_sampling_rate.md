@@ -228,4 +228,4 @@ For implementation details, see:
 
 ---
 
-**Previous:** [18 Mastery Progression](18_mastery_progression.md) | **Next:** [20 Resource Management](20_resource_management.md)
+**Previous:** [18 Mastery Progression](18_mastery_progression.md) | **Next:** [20 System Resource Allocation](20_system_resource_allocation.md)

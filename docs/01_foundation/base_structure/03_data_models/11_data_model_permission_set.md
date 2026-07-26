@@ -130,7 +130,36 @@ Example: Enlightened being regresses into trauma → still has the knowledge/awa
 
 This is different from choice-based permissions (you can always choose differently), because once you've seen certain truths, they're permanent knowledge. The permission to ACT on that knowledge, however, is conditional on your current state.
 
-**[This integration with choice/knowledge requires further development and may be expanded in future iterations]**
+### The Asymmetry: Monotonic Knowledge, Conditional Permission
+
+Knowledge and permission behave differently because they track different things:
+
+```python
+class KnowledgeState:
+    """What an agent has integrated - monotonic, only grows"""
+    seen_truths: Set[str]
+
+    def integrate(self, truth: str) -> None:
+        self.seen_truths.add(truth)  # Additive only - no remove() exists
+
+class ExecutionPermission:
+    """What an agent can currently ACT FROM - conditional on live coherence"""
+    active_level: int  # Recalculated continuously, not stored as history
+
+    def recalculate(self, current_coherence: float) -> int:
+        """Re-derives permission from CURRENT state, ignoring past highs"""
+        return check_permission_elevation(current_coherence)  # See law_permission()
+```
+
+**Key distinction:**
+- `KnowledgeState` only grows (the rare exception is `law_forgetting()`, which suppresses access rather than deleting the underlying knowledge)
+- `ExecutionPermission` is recalculated fresh from current coherence each cycle (see `coherence_monitor` daemon in [Daemon Processes](../05_system_operations/17_daemon_processes.md)) — it retains no memory of past elevation
+
+**Why this matters:** the temporary-permission mechanics described above (grant on sustained coherence, revoke on coherence drop) clear the *permission*, not the *knowledge* that earned it. An agent who regresses doesn't become naive again - they become someone who knows but currently can't execute from that knowing, which is a distinct (and often more painful) state than not-yet-knowing.
+
+**See Also:**
+- [law_permission()](../../../03_mechanics/system_laws/03_additional_laws/17_law_permission.md) - the general permission-gating mechanism, including tiered knowledge-access (read/decode/apply)
+- [StateSignature: Regression & Recovery](05_data_model_state_signature.md) - the coherence-drop mechanics that trigger permission loss without knowledge loss
 
 ---
 

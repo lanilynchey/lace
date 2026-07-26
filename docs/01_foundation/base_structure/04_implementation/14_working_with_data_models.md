@@ -173,4 +173,4 @@ if "expanded_read" in [p for p, _ in agent.permissions.temporary_permissions]:
 
 ---
 
-**Previous:** [09_data_model_permission_set.md](../03_data_models/09_data_model_permission_set.md) | **Next:** [11_function_signatures.md](11_function_signatures.md)
+**Previous:** [13_data_model_competency.md](../03_data_models/13_data_model_competency.md) | **Next:** [15_function_signatures.md](15_function_signatures.md)

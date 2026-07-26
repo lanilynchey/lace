@@ -67,4 +67,4 @@ def fear(agent: Agent, scenario: Scenario) -> PreparedState:
 
 ---
 
-**Previous:** [10_working_with_data_models.md](10_working_with_data_models.md) | **Next:** [12_interaction_protocols.md](12_interaction_protocols.md)
+**Previous:** [14_working_with_data_models.md](14_working_with_data_models.md) | **Next:** [16_interaction_protocols.md](16_interaction_protocols.md)

@@ -32,17 +32,17 @@ This document has been organized into logical folders for easier navigation:
 13. **[13_data_model_competency.md](03_data_models/13_data_model_competency.md)** - Competency (domain-specific mastery)
 
 ### **04_implementation/** (3 files)
-10. **[10_working_with_data_models.md](04_implementation/10_working_with_data_models.md)** - Practical examples
-11. **[11_function_signatures.md](04_implementation/11_function_signatures.md)** - Function standards
-12. **[12_interaction_protocols.md](04_implementation/12_interaction_protocols.md)** - Force interactions
+14. **[14_working_with_data_models.md](04_implementation/14_working_with_data_models.md)** - Practical examples
+15. **[15_function_signatures.md](04_implementation/15_function_signatures.md)** - Function standards
+16. **[16_interaction_protocols.md](04_implementation/16_interaction_protocols.md)** - Force interactions
 
 ### **05_system_operations/** (3 files)
-13. **[13_daemon_processes.md](05_system_operations/13_daemon_processes.md)** - The Twelve Core Daemons
-14. **[14_update_cycles.md](05_system_operations/14_update_cycles.md)** - System Softcoding
-15. **[15_system_constants.md](05_system_operations/15_system_constants.md)** - System Constants
+17. **[17_daemon_processes.md](05_system_operations/17_daemon_processes.md)** - The Twelve Core Daemons
+18. **[18_update_cycles.md](05_system_operations/18_update_cycles.md)** - System Softcoding
+19. **[19_system_constants.md](05_system_operations/19_system_constants.md)** - System Constants
 
 ### **06_summary/** (1 file)
-16. **[16_summary.md](06_summary/16_summary.md)** - Summary
+20. **[20_summary.md](06_summary/20_summary.md)** - Summary
 
 ---
 
@@ -55,13 +55,13 @@ Start with sections 1-3 (Overview → System Architecture → Inter-Layer Commun
 Focus on sections 4-13 (all ten core data models).
 
 **For Implementation:**
-Jump to sections 10-12 (working examples, standards, protocols).
+Jump to sections 14-16 (working examples, standards, protocols).
 
 **For System Operations:**
-Review sections 13-15 (daemons, updates, constants).
+Review sections 17-19 (daemons, updates, constants).
 
 **For Complete Understanding:**
-Read sequentially from 01 → 16.
+Read sequentially from 01 → 20.
 
 ---
 

@@ -66,7 +66,7 @@ def bios() -> None:
 - Memory allocation and garbage collection
 - Karmic ledger management
 - Agent lifecycle (birth, death, reincarnation)
-- Seven daemon processes (see [13_daemon_processes.md](13_daemon_processes.md))
+- Seven daemon processes (see [17_daemon_processes.md](../05_system_operations/17_daemon_processes.md))
 
 **Properties:**
 - Persistent (always active)

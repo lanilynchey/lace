@@ -88,4 +88,4 @@ hope(phase=0) × hope(phase=π) → hope_nullified()
 
 ---
 
-**Previous:** [11_function_signatures.md](11_function_signatures.md) | **Next:** [13_daemon_processes.md](../05_system_operations/13_daemon_processes.md)
+**Previous:** [15_function_signatures.md](15_function_signatures.md) | **Next:** [17_daemon_processes.md](../05_system_operations/17_daemon_processes.md)

@@ -1,7 +1,7 @@
 # law_transformation()
 ### The Law of Cyclical Change
 
-**Navigation:** [← law_perceptual_boundary()](25_law_perceptual_boundary.md) | [Security Laws Introduction →](../04_security_laws/20_security_laws_intro.md)
+**Navigation:** [← law_perceptual_boundary()](21_law_perceptual_boundary.md) | [law_impact_topology() →](23_law_impact_topology.md)
 
 ---
 
@@ -672,4 +672,4 @@ if transformation_cycle:
 
 ---
 
-**Navigation:** [← law_perceptual_boundary()](25_law_perceptual_boundary.md) | [Security Laws Introduction →](../04_security_laws/20_security_laws_intro.md)
+**Navigation:** [← law_perceptual_boundary()](21_law_perceptual_boundary.md) | [law_impact_topology() →](23_law_impact_topology.md)

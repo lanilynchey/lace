@@ -482,4 +482,4 @@ def check_capacity_and_prune(memory_bank: MemoryBank) -> None:
 
 ---
 
-**Previous:** [07_data_model_field_state.md](07_data_model_field_state.md) | **Next:** [09_data_model_permission_set.md](09_data_model_permission_set.md)
+**Previous:** [07_data_model_field_state.md](07_data_model_field_state.md) | **Next:** [09_data_model_entanglement.md](09_data_model_entanglement.md)

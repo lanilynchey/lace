@@ -270,4 +270,4 @@ Trauma recovery often requires removing toxic entities from your topology (not w
 
 ---
 
-**Previous:** [26_law_transformation.md](26_law_transformation.md) | **Next:** (End of system laws)
+**Previous:** [22_law_transformation.md](22_law_transformation.md) | **Next:** [24_security_laws_intro.md](../04_security_laws/24_security_laws_intro.md)

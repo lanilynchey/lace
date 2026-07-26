@@ -807,7 +807,7 @@ collective_field_strengthens → enables(individual_evolution)
 # Mutual bootstrapping
 ```
 
-**See also:** [update_cycles.md](../../base_structure/05_system_operations/14_update_cycles.md) for complete system update mechanics and how collective readiness triggers evolutionary shifts.
+**See also:** [update_cycles.md](../../base_structure/05_system_operations/18_update_cycles.md) for complete system update mechanics and how collective readiness triggers evolutionary shifts.
 
 ### Connection to Manifestation Engine
 

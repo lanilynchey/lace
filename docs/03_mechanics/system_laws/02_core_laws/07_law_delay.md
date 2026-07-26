@@ -150,7 +150,7 @@ Law_delay() is enforced by:
 - **Coherence Monitor daemon** - Validates state signature alignment
 - **Timeline computation** - Calculates divergence and processing time
 
-**See:** [Daemon Processes](../../../01_foundation/base_structure/05_system_operations/13_daemon_processes.md) for system-level enforcement.
+**See:** [Daemon Processes](../../../01_foundation/base_structure/05_system_operations/17_daemon_processes.md) for system-level enforcement.
 
 ---
 

@@ -284,7 +284,7 @@ safety_block = removed_instantly
 - **Many can** do embodiment practice (requires discipline)
 - **Few can** access quantum stillness (advanced)
 
-**See Also:** [Function Library](../../function_library/00_index.md) - heal(), reprogram(), embody() | [Tier 3 Forces](../../../02_forces/tier_3_forces/00_index.md) - presence() | [System Laws](../../../03_mechanics/system_laws/00_index.md) - law_evolution() (gradual change protocol)
+**See Also:** [Function Library](../../function_library/00_index.md) - heal(), reprogram(), embody() | [Tier 3 Forces](../../../02_forces/tier_3_forces/00_index.md) - presence() | [law_transformation()](../../../03_mechanics/system_laws/03_additional_laws/22_law_transformation.md#evolution-transformation-with-memory) - gradual change protocol (evolution as transformation + memory)
 
 ---
 

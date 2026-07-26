@@ -492,4 +492,4 @@ For implementation details, see:
 
 ---
 
-**Previous:** [22 Manifestation Latency](22_manifestation_latency.md) | **Next:** [Integration & Summary](../11_summary/)
+**Previous:** [22 Manifestation Latency](22_manifestation_latency.md) | **Next:** [Integration & Summary](11_summary/59_summary.md)

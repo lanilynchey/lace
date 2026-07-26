@@ -1,7 +1,7 @@
 # Security Laws (19-22)
 ### System Protection
 
-**Navigation:** [← law_transformation()](../03_additional_laws/26_law_transformation.md) | [law_veil() →](21_law_veil.md)
+**Navigation:** [← law_impact_topology()](../03_additional_laws/23_law_impact_topology.md) | [law_veil() →](25_law_veil.md)
 
 ---
 
@@ -30,4 +30,4 @@ Whether this is:
 ---
 
 
-**Navigation:** [← law_transformation()](../03_additional_laws/26_law_transformation.md) | [law_veil() →](21_law_veil.md)
+**Navigation:** [← law_impact_topology()](../03_additional_laws/23_law_impact_topology.md) | [law_veil() →](25_law_veil.md)

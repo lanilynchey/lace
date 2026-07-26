@@ -19,6 +19,7 @@ COHERENCE_MINIMUM = 0.4             # Below this, manifestation fails
 PERMISSION_UNLOCK_THRESHOLD = 0.85  # Coherence needed for elevation
 RESONANCE_THRESHOLD = 0.1           # Max frequency delta for entanglement
 BEARABLE_THRESHOLD = 0.85           # Max emotional charge before suppression
+COLLECTIVE_READINESS_THRESHOLD = 0.90  # Aggregate field coherence needed to trigger system-wide updates
 
 # Primordial Axioms
 AXIOMS = [
@@ -45,6 +46,7 @@ These threshold values are **theoretical best guesses** based on:
 - PERMISSION_UNLOCK_THRESHOLD = 0.85 is deliberately high (mastery requires sustained discipline)
 - IMPRINT_THRESHOLD = 0.7 allows significant events to be remembered without overwhelming storage
 - RESONANCE_THRESHOLD = 0.1 permits ~10% frequency variation for entanglement
+- COLLECTIVE_READINESS_THRESHOLD = 0.90 set above individual PERMISSION_UNLOCK_THRESHOLD (0.85) - system-wide updates affect all agents simultaneously, so the bar for aggregate field coherence is set higher than any single agent's elevation threshold [proposed value - not previously specified anywhere in the docs, flag for review]
 
 **Future Work:**
 - Empirical testing may reveal more accurate constants
@@ -53,4 +55,4 @@ These threshold values are **theoretical best guesses** based on:
 
 ---
 
-**Previous:** [14_update_cycles.md](14_update_cycles.md) | **Next:** [16_summary.md](../06_summary/16_summary.md)
+**Previous:** [18_update_cycles.md](18_update_cycles.md) | **Next:** [20_summary.md](../06_summary/20_summary.md)

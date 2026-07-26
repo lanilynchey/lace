@@ -665,4 +665,4 @@ LACE documents what can be reasonably modeled. Some questions remain open:
 
 ---
 
-[← Back to Advanced Concepts Index](00_index.md)
+**Previous:** [16_meta_awareness_control.md](16_meta_awareness_control.md) | **Next:** [18_mastery_progression.md](18_mastery_progression.md)

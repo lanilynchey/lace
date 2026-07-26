@@ -616,4 +616,4 @@ If generative awareness enables thought control, then consciousness level 0.7+ a
 
 ---
 
-**Navigation:** [← Consciousness Scale Framework](14_consciousness_scale_framework.md) | [Advanced Concepts Index](00_index.md)
+**Previous:** [15_resonance_topology.md](15_resonance_topology.md) | **Next:** [17_entity_hierarchy.md](17_entity_hierarchy.md)

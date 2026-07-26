@@ -799,4 +799,4 @@ Most impactful to master (affect everything):
 
 ---
 
-**Previous:** [17_entity_hierarchy.md](17_entity_hierarchy.md) | **Next:** (End of advanced concepts)
+**Previous:** [17_entity_hierarchy.md](17_entity_hierarchy.md) | **Next:** [19_perceptual_sampling_rate.md](19_perceptual_sampling_rate.md)

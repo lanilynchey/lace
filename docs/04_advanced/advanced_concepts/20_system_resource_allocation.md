@@ -582,4 +582,4 @@ For implementation details, see:
 
 ---
 
-**Previous:** [19 Perceptual Sampling Rate](19_perceptual_sampling_rate.md) | **Next:** [21 Cache vs Live Processing](21_cache_processing.md)
+**Previous:** [19 Perceptual Sampling Rate](19_perceptual_sampling_rate.md) | **Next:** [21 Cache vs Live Processing](21_cache_vs_live_processing.md)

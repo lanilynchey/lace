@@ -834,4 +834,4 @@ As you master a domain, your perceptual boundary expands:
 
 ---
 
-**Previous:** [12_data_model_environmental_context.md](12_data_model_environmental_context.md) | **Next:** (End of data models)
+**Previous:** [12_data_model_environmental_context.md](12_data_model_environmental_context.md) | **Next:** [14_working_with_data_models.md](../04_implementation/14_working_with_data_models.md)

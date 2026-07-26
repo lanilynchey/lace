@@ -186,6 +186,8 @@ Recovery time indicates baseline stability:
 - Fragile baseline (0.35-0.45): Days to weeks recovery
 - Low baseline (0.20-0.35): Weeks to months recovery (may need support)
 
+**Note:** Regression drops *execution permission*, not *knowledge*. What was previously integrated stays integrated - only the current capacity to act from it drops with coherence. See [PermissionSet: The Asymmetry](11_data_model_permission_set.md#the-asymmetry-monotonic-knowledge-conditional-permission) for the full distinction.
+
 **Peak Experience Integration:**
 
 Peak consciousness experiences (temporary spikes) have value even if not sustained:
