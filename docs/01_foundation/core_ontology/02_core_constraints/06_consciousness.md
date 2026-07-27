@@ -279,4 +279,4 @@ Consciousness is **functional and operational**, not phenomenological. We measur
 
 ---
 
-**← Back:** [05_information_architecture.md](05_information_architecture.md) | **Next →** [../03_system_mechanics/07_forces_laws_emergence.md](../03_system_mechanics/07_forces_laws_emergence.md)
+**← Back:** [05_information_architecture.md](05_information_architecture.md) | **Next →** [14_substrate_independence.md](14_substrate_independence.md)

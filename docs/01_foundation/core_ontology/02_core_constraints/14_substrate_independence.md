@@ -452,4 +452,4 @@ LACE responds: **"We don't need to answer that to map how it works."**
 
 ---
 
-**Navigation:** [← Binary vs Base-10](04_binary_vs_base10.md) | [Index](../00_index.md) | [Information Architecture →](05_information_architecture.md)
+**Navigation:** [← Consciousness](06_consciousness.md) | [Index](../00_index.md) | [Individual vs Collective Consciousness →](16_individual_vs_collective_consciousness.md)

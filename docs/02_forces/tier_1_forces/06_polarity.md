@@ -215,7 +215,7 @@ if accept_both_poles_as_necessary():
     suffering = low  # Flowing with cycle
 ```
 
-**See:** [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/26_law_transformation.md) - System Laws
+**See:** [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/22_law_transformation.md) - System Laws
 
 ---
 

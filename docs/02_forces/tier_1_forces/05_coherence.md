@@ -463,7 +463,7 @@ Recovery speed depends on baseline coherence:
 ---
 
 **See:**
-- [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/26_law_transformation.md) - Coherence's role in transformation
+- [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/22_law_transformation.md) - Coherence's role in transformation
 - [StateSignature](../../01_foundation/base_structure/03_data_models/05_data_model_state_signature.md) - Consciousness recovery patterns
 - [Manifestation Latency](../../04_advanced/advanced_concepts/22_manifestation_latency.md) - Coherence impact on manifestation speed
 - [Entropy Activation Thresholds](02_entropy.md) - Coherence as container for entropy

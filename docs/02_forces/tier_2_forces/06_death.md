@@ -275,7 +275,7 @@ Each transformation involves a death:
 **Every generation requires prior dissolution.**
 **Every death enables subsequent generation.**
 
-**See:** [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/26_law_transformation.md) - System Laws
+**See:** [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/22_law_transformation.md) - System Laws
 
 ---
 

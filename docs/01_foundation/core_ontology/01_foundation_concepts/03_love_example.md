@@ -69,7 +69,7 @@ observe(agent_b, agent_a)
 
 **LACE view:** Pattern-matching algorithm identified frequency compatibility and increased probability of crossing paths. Still feels magical because the mechanism operates below conscious awareness.
 
-**Comment:** *The exact mechanics of how synchronicity daemon operates across spacetime is not yet fully determined in LACE - see SYSTEM_LAWS.md for current model*
+**Comment:** *The exact mechanics of how the pattern_matcher daemon operates across spacetime are not yet fully determined in LACE. Closest existing scaffolding: [FieldState](../../../01_foundation/base_structure/03_data_models/07_data_model_field_state.md) and the Middleware layer are described as non-local ("field effects can span space/time"), [love()](../../../02_forces/tier_3_forces/06_love.md) asserts entanglement is non-local ("transcends space/time"), and [Transcending Laws](../../../03_mechanics/system_laws/05_integration/34_transcending_laws.md) argues consciousness-as-field isn't bound by 3D distance in the same way bodies are. None of these specify pattern_matcher's actual cross-distance mechanism - non-locality is asserted as a property in three places, not mechanized anywhere. Genuinely open.*
 
 ---
 
@@ -264,13 +264,13 @@ def creation():
 ```
 
 **Fated vs Choice:**
-- **Fated (karma + pattern_matcher):** Certain meetings have high probability due to past-life contracts, unresolved patterns, or frequency destiny
+- **Fated (karma + pattern_matcher):** Certain meetings have high probability due to persistent patterns (probability biases encoded in state_signature from unresolved trauma/beliefs - NOT past-life contracts) or frequency destiny
 - **Choice (desire + free will):** You can choose to move toward or away from resonance at any moment
 
 **"The One" Question:**
 - **Not unique:** Multiple potential matches exist at compatible frequencies
 - **But contextual:** At your current frequency, certain matches are more harmonically aligned
-- **And karmic:** Some connections carry soul contracts (see ADVANCED_CONCEPTS.md - soul contracts) *- this concept not yet fully spec'd*
+- **And karmic:** Some connections carry strong persistent patterns - probability biases that make certain connections statistically more likely, NOT pre-birth soul contracts (see [Persistent Patterns vs Soul Contracts](../../../05_supporting/glossary/07_lace_innovations/persistent_patterns_vs_contracts.md) and [Persistent Patterns & Probability Biasing](../../../04_advanced/advanced_concepts/02_persistent_patterns/02_what_are_persistent_patterns.md))
 
 ---
 

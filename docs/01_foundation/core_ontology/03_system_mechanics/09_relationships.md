@@ -27,4 +27,4 @@ It's offering a **unifying syntax** - a way to express insights from multiple do
 
 ---
 
-**← Back:** [08_implications.md](08_implications.md) | **Next →** [../04_meta_application/10_limitations.md](../04_meta_application/10_limitations.md)
+**← Back:** [08_implications.md](08_implications.md) | **Next →** [15_determinism_vs_indeterminacy.md](15_determinism_vs_indeterminacy.md)

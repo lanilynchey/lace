@@ -342,7 +342,7 @@ evolution = transformation_cycle(
 - Evolution provides the direction (toward increasing sophistication)
 - Result: **Progressive transformation** = reality's creative method
 
-**See:** [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/26_law_transformation.md) - System Laws
+**See:** [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/22_law_transformation.md) - System Laws
 
 ---
 
@@ -686,7 +686,7 @@ your_choices = {
 - [memory()](../../02_forces/tier_2_forces/04_memory.md) - Preserves learning
 
 **Laws:**
-- [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/26_law_transformation.md) - Cyclical change
+- [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/22_law_transformation.md) - Cyclical change
 - [law_entropy()](../../03_mechanics/system_laws/02_core_laws/03_law_entropy.md) - Ensures variation
 - [law_causality()](../../03_mechanics/system_laws/02_core_laws/05_law_causality.md) - Links iterations
 

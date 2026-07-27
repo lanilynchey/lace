@@ -836,4 +836,4 @@ It is not:
 
 ---
 
-**← Back:** [../03_system_mechanics/09_relationships.md](../03_system_mechanics/09_relationships.md) | **Next →** [11_summary.md](11_summary.md)
+**← Back:** [../03_system_mechanics/15_determinism_vs_indeterminacy.md](../03_system_mechanics/15_determinism_vs_indeterminacy.md) | **Next →** [11_summary.md](11_summary.md)

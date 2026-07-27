@@ -100,7 +100,7 @@ If your state_signature contains trauma patterns around abandonment, you'll prob
 - Aligns with Buddhist impermanence (anicca)
 - Related to energy conservation (first law of thermodynamics)
 
-**See:** [law_transformation()](../../../03_mechanics/system_laws/03_additional_laws/26_law_transformation.md) - System Laws, [entropy()](../../../02_forces/tier_1_forces/02_entropy.md) - Tier 1 Forces, [creation()](../../../02_forces/tier_2_forces/07_creation.md) - Tier 2 Forces
+**See:** [law_transformation()](../../../03_mechanics/system_laws/03_additional_laws/22_law_transformation.md) - System Laws, [entropy()](../../../02_forces/tier_1_forces/02_entropy.md) - Tier 1 Forces, [creation()](../../../02_forces/tier_2_forces/07_creation.md) - Tier 2 Forces
 
 ---
 
@@ -163,7 +163,7 @@ entropy() provides variation (mutations, experiments)
 - Result of entropy() + coherence() + pattern() + time() + creation() working together
 - Universal pattern across all domains, not just biological
 
-**See:** [Evolutionary Process](../../../04_advanced/advanced_concepts/12_evolutionary_process.md) - Advanced Concepts, [creation()](../../../02_forces/tier_2_forces/07_creation.md) - Tier 2 Forces, [law_transformation()](../../../03_mechanics/system_laws/03_additional_laws/26_law_transformation.md) - System Laws
+**See:** [Evolutionary Process](../../../04_advanced/advanced_concepts/12_evolutionary_process.md) - Advanced Concepts, [creation()](../../../02_forces/tier_2_forces/07_creation.md) - Tier 2 Forces, [law_transformation()](../../../03_mechanics/system_laws/03_additional_laws/22_law_transformation.md) - System Laws
 
 ---
 

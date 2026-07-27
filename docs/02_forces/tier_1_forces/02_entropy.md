@@ -126,7 +126,7 @@ generation_phase = driven_by(creation())
 - Trust dissolution makes space for generation
 - Flow with the transformation cycle
 
-**See:** [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/26_law_transformation.md) - System Laws
+**See:** [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/22_law_transformation.md) - System Laws
 
 ## Entropy Activation Thresholds
 
@@ -340,7 +340,7 @@ The cycle cannot complete without entropy driving dissolution. But entropy must 
 
 **See:**
 - [law_variance_minimum()](../../03_mechanics/system_laws/02_core_laws/13_law_variance_minimum.md) - Enforcement of minimum entropy
-- [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/26_law_transformation.md) - Transformation cycle mechanics
+- [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/22_law_transformation.md) - Transformation cycle mechanics
 - [coherence()](05_coherence.md) - How coherence contains entropy
 
 ---

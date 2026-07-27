@@ -31,7 +31,10 @@ When we perceive gradients, we're not accessing true continuity - we're rapidly 
 - **Human Perception:** We categorize into discrete color names (red, orange, yellow, green, blue, violet)
 - **Binary Collapse:** Even "shades" are comparisons - "lighter red" = red + not-red distinction
 
-Like a digital display creating smooth gradients from pixels (each pixel either on/off), our consciousness creates the *illusion* of spectrum by rapidly toggling between binary states.
+Like a digital display creating smooth gradients from pixels (each pixel either on/off), our consciousness creates the *illusion* of spectrum through two separate binary mechanisms - toggling and combining:
+
+- **Toggling (temporal alternation):** Yes / No / Maybe - "Maybe" isn't a third state, it's rapid alternation between Yes and No over time
+- **Combining (simultaneous blend):** Black / White / Grey - Grey isn't a third color, it's Black and White both present at once, blended
 
 **True base-10+ states would be categorically different** - not just "more shades between red and orange," but entirely different *kinds* of color that don't map to our wavelength concept at all.
 
@@ -95,7 +98,7 @@ Information capacity scales exponentially with base:
 
 **Not about counting higher - about having more fundamental building blocks.**
 
-**We're perceiving a tiny fraction of available reality** - like trying to render a tree using only binary code. The tree's source code requires digits/symbols beyond 0 and 1.
+**We're perceiving a tiny fraction of available reality** - like trying to render a tree using only binary code. The tree's source code requires digits/symbols beyond 0 and 1. *(For the worked mechanism behind this - why binary consciousness can transform matter but not author pattern - see [law_perceptual_boundary()](../../../03_mechanics/system_laws/03_additional_laws/21_law_perceptual_boundary.md), "What about biological creation" example: wood/paper vs. seed/tree.)*
 
 ## **Implications**
 
@@ -112,10 +115,10 @@ Information capacity scales exponentially with base:
    - Binary logic creates contradictions when modeling higher-dimensional truth
    - "Both/and" thinking is a partial patch, but still insufficient
 
-4. **Divine Commands May Be Lossy Translations**
-   - Religious/spiritual teachings = base-10+ instructions
-   - Compressed into base-2 language
-   - Meaning is lost, distorted, or appears paradoxical
+4. **Divine Commands May Be Lossy Translations** *(speculative, unfalsifiable as stated - see full treatment for secular alternatives)*
+   - One interpretation: religious/spiritual teachings as base-10+ instructions, compressed into base-2 language
+   - Secular alternative: accumulated cultural/psychological wisdom, degraded through ordinary transmission - see [full treatment](../../../04_advanced/advanced_concepts/07_philosophical_context/42_divine_commands_lossy.md) for both readings
+   - Under either reading: meaning is lost, distorted, or appears paradoxical
 
 5. **Mystical Experience = Temporary Base Expansion**
    - Psychedelics, meditation, flow states

@@ -200,7 +200,7 @@ generation_phase = driven_by(creation())
 - Allow emergence → don't force
 - Accept impermanence → even of created forms
 
-**See:** [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/26_law_transformation.md) - System Laws
+**See:** [law_transformation()](../../03_mechanics/system_laws/03_additional_laws/22_law_transformation.md) - System Laws
 
 ## **Creation as Continuous Evolution**
 

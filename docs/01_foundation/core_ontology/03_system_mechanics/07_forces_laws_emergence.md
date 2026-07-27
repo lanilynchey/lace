@@ -73,4 +73,4 @@ Like how:
 
 ---
 
-**← Back:** [../02_core_constraints/06_consciousness.md](../02_core_constraints/06_consciousness.md) | **Next →** [08_implications.md](08_implications.md)
+**← Back:** [../02_core_constraints/17_free_will_code_authorship.md](../02_core_constraints/17_free_will_code_authorship.md) | **Next →** [08_implications.md](08_implications.md)

@@ -653,4 +653,4 @@ You are neither puppet nor god. You are agent within lawful-but-open system.
 
 ---
 
-**Navigation:** [← Forces, Laws, and Emergence](07_forces_laws_emergence.md) | [Index](../00_index.md) | [Implications →](08_implications.md)
+**Navigation:** [← Relationships](09_relationships.md) | [Index](../00_index.md) | [Limitations & Humility →](../04_meta_application/10_limitations.md)
