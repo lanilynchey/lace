@@ -77,7 +77,7 @@
 - **Compiler:** Field resonance (energetic, non-physical)
 - **Physical form:** Not needed, can interact with physical realm without body
 - **Permissions:** Influence physical reality through field manipulation, idea generation, synchronicity
-- **Can perceive multiple timelines/probabilities** (limited precognition)
+- **Can perceive multiple probable trajectories** (limited precognition)
 - **Retain connection to former human experience**
 
 **Function:**

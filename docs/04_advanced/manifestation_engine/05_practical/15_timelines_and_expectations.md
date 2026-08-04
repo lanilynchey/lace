@@ -6,7 +6,7 @@
 - **Timeline:** Minutes to hours
 - **Coherence Required:** 0.4-0.6 (low-moderate)
 - **Examples:** Find parking, run into friend, get free coffee
-- **Why Fast:** Low resistance, no safety blocks, small timeline shift
+- **Why Fast:** Low resistance, no safety blocks, small state mutation
 
 ### **Medium Shifts** (job, relationship, move)
 - **Timeline:** Weeks to months
@@ -24,7 +24,7 @@
 - **Timeline:** Years to lifetime
 - **Coherence Required:** 0.85-0.98 (very high to master)
 - **Examples:** Find life purpose, spiritual awakening, become who you're meant to be
-- **Why Lifetime:** Fundamental identity shift, ego dissolution required, entire worldline change
+- **Why Lifetime:** Fundamental identity shift, ego dissolution required, entire trajectory redirection
 
 **Factors Affecting Speed:**
 

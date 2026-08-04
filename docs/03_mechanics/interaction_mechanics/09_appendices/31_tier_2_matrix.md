@@ -4,7 +4,7 @@ This matrix shows how the 6 Tier 2 (Governing) forces interact with each other:
 
 | Force A ↓ / Force B → | time() | karma() | truth() | memory() | death() | creation() |
 |----------------------|--------|---------|---------|----------|---------|------------|
-| **time()** | Recursion: Timelines loop, déjà vu | Amplification: Karma compounds over time | Transmutation: Truth degrades over time (historical revisionism) | Synthesis: Sequential memory storage | Collision: Death marks time endpoint | Amplification: Creation requires time to unfold |
+| **time()** | Recursion: Trajectory loops, déjà vu | Amplification: Karma compounds over time | Transmutation: Truth degrades over time (historical revisionism) | Synthesis: Sequential memory storage | Collision: Death marks time endpoint | Amplification: Creation requires time to unfold |
 | **karma()** | Amplification: Delayed consequences create time pressure | Recursion: Karmic patterns self-perpetuate | Synthesis: Karmic truth = aligned consequences | Synthesis: Karma stored as memory imprints | Cancellation: Death clears episodic karma but carries balance | Transmutation: Creation shifts karmic trajectory |
 | **truth()** | Transmutation: Historical truth erodes with time | Synthesis: True actions create aligned karma | Recursion: Truth self-validates through coherence | Collision: Memory distorts truth (unreliable narrator) | Collision: Death reveals ultimate truth vs. lived delusion | Synthesis: Creation truth = manifested coherence |
 | **memory()** | Synthesis: Time sequences memories | Synthesis: Memory stores karmic imprints | Collision: Memories distort objective truth | Recursion: Recalling memory rewrites it | Collision: Death wipes episodic, preserves implicit | Amplification: Memory fuels creative patterns |
@@ -28,7 +28,7 @@ This matrix shows how the 6 Tier 2 (Governing) forces interact with each other:
 - truth() + death() = Truth confrontation (life review reveals delusions)
 
 **Recursion Loops:**
-- time() loops = Groundhog Day, cyclic timelines
+- time() loops = Groundhog Day, cyclic trajectory patterns
 - karma() loops = Persistent patterns across lifetimes
 - truth() self-validates = Coherent signals reinforce themselves
 - memory() rewrites = Recall changes the memory

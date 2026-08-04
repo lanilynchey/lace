@@ -541,7 +541,7 @@ if pattern_generating(new_form):
 
 **1. Manifestation Mechanics:**
 - Cannot manifest without releasing old patterns
-- Holding old state signature blocks new timeline matching
+- Holding old state signature blocks new state mutation
 - Dissolution of unwanted creates space for desired
 - See: MANIFESTATION_ENGINE.md - clearing is prerequisite
 
@@ -556,10 +556,10 @@ if pattern_generating(new_form):
 - Actions that force premature transformation = high karmic weight
 - Harmonizing with cycle vs fighting it determines consequences
 
-**4. Timeline Dynamics:**
-- Worldlines constantly transform
-- Shifting timelines = dissolving old, generating new
-- Resistance to timeline change = attachment to old pattern
+**4. Trajectory Dynamics:**
+- Your trajectory constantly transforms
+- Redirecting a trajectory = dissolving old, generating new
+- Resistance to redirection = attachment to old pattern
 
 ### **Evolution: Transformation with Memory**
 

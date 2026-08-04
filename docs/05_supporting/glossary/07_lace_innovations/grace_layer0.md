@@ -30,7 +30,7 @@ Grace follows protocols (we just can't perceive them). It's systematic, not arbi
 1. Reality as executable code (ontological claim, not metaphor)
 2. Base-2/base-10+ dimensional consciousness model
 3. Soma as required compiler (embodiment necessity)
-4. State signature as broadcast frequency (timeline matching mechanism)
+4. State signature as broadcast frequency (state mutation mechanism)
 5. Phenomenal closure (process definition of consciousness)
 6. Persistent patterns vs soul contracts (current-state vs pre-fate)
 7. Grace as Layer 0 protocol (computational meta-intervention)

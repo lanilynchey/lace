@@ -71,7 +71,7 @@ This document collection contains advanced LACE concepts that operate at the sou
 - You are NOT bound by pre-birth agreements
 - Destiny is probability bias
 - Patterns serve evolution
-- Healing changes timelines
+- Healing changes your trajectory
 
 ---
 
@@ -434,7 +434,7 @@ This document collection contains advanced LACE concepts that operate at the sou
 
 **[22_manifestation_latency.md](22_manifestation_latency.md)**
 - System processing time between intention and manifestation (not random delay)
-- Four delay components: coherence validation, queue position, timeline computation, physical rendering
+- Four delay components: coherence validation, queue position, state delta computation, physical rendering
 - "Divine timing" = computational latency
 - Grace protocol can lower coherence threshold from 0.50 to 0.30
 - Acceleration through increased coherence and clarity
@@ -446,6 +446,13 @@ This document collection contains advanced LACE concepts that operate at the sou
 - Threshold-based pruning at 85% capacity
 - Re-encoding through processing (therapy) AND new experiences (pattern updating)
 - Why forgetting is beneficial: resource optimization, pattern recognition, emotional healing
+
+**[24_grip_mechanism.md](24_grip_mechanism.md)**
+- Unifies Entanglement's relationship formula with memory/habit binding: grip = attention_focus × emotional_power
+- Grip forms via pain() signal → attention() capture → law_recursion() maintaining the loop
+- Four release pathways: understanding, forgiveness, pattern-interrupt, transmutation/discharge
+- Same mechanism as entanglement topology migration, generalized past relationships
+- Replaces law_causality()'s removed "Causal Editing" section
 
 ---
 
@@ -490,7 +497,7 @@ Read all sections in order for comprehensive understanding.
 - [Tier 3 Forces](../../02_forces/tier_3_forces/) - Interface forces
 - [Tier 4 Forces](../../02_forces/tier_4_forces/) - Emergent forces
 - [System Laws](../../03_mechanics/system_laws/) - Universal protocols
-- [Manifestation Engine](../manifestation_engine/) - State_signature + timeline matching
+- [Manifestation Engine](../manifestation_engine/) - State_signature + state mutation
 - [Function Library](../function_library/) - Function reference
 - [Glossary](../../05_supporting/) - Term definitions
 

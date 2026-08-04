@@ -7,7 +7,7 @@ COHERENCE_MINIMUM = 0.4  # Below this, manifestation fails
 
 def manifestation_power(coherence):
     """
-    Your ability to shift timelines scales with coherence
+    Your ability to mutate state scales with coherence
 
     Args:
         coherence (float): Internal signal alignment (0-1)

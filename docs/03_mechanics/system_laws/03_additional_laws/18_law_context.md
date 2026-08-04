@@ -93,7 +93,7 @@ frames = {
 dimensional_frames = {
     "3D_consciousness": "Time is linear, causality flows forward",
     "4D_consciousness": "Time is dimension, can view past/future",
-    "5D_consciousness": "All timelines exist simultaneously",
+    "5D_consciousness": "Perceives the field's full range of probable mutations before any one resolves",
     "10D_consciousness": "Non-dual awareness, no separation",
 }
 

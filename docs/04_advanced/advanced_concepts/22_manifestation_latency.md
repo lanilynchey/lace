@@ -2,7 +2,7 @@
 
 **Manifestation delay is not random - it is system processing time + coherence validation + queue position.**
 
-Desires don't manifest instantly because the system must: (1) validate coherence (does your state signature match your request?), (2) process in queue (other agents' requests ahead of you), (3) prepare timeline branch (compute worldline divergence), (4) execute manifestation (render in physical reality). "Divine timing" is computational latency. Faster manifestation = higher coherence (passes validation quickly) + clearer intention (priority queue) + simpler request (less processing required).
+Desires don't manifest instantly because the system must: (1) validate coherence (does your state signature match your request?), (2) process in queue (other agents' requests ahead of you), (3) compute the required state change (measure divergence between current and target state), (4) execute manifestation (render in physical reality). "Divine timing" is computational latency. Faster manifestation = higher coherence (passes validation quickly) + clearer intention (priority queue) + simpler request (less processing required).
 
 ---
 
@@ -19,7 +19,7 @@ There is always a delay between intention and manifestation. This is not punishm
 **Manifestation pipeline:**
 - You broadcast intention (state signature change)
 - Manifestation doesn't occur instantly
-- Must process through: coherence check → queue position → timeline computation → physical rendering
+- Must process through: coherence check → queue position → state delta computation → physical rendering
 - Each step has latency (hours to months)
 
 ---
@@ -116,29 +116,29 @@ def calculate_queue_position(intention: Intention, agent: Agent) -> QueueTier:
 
 ---
 
-### 3. Timeline Computation Delay
+### 3. State Delta Computation Delay
 
-System must calculate how to get you from current timeline to target timeline.
+System must calculate how far current state must shift to reach target state.
 
 **Divergence measurement (metric-based, 0.0-1.0):**
 
 ```python
-def calculate_divergence(current: Timeline, target: Timeline) -> float:
+def calculate_divergence(current: StateSignature, target: StateSignature) -> float:
     """
-    Measure how different target timeline is from current
+    Measure how different target state is from current state
 
     0.0 = identical (already there)
     1.0 = maximum possible divergence
     """
-    divergence_score = measure_timeline_distance(current, target)
+    divergence_score = measure_state_distance(current, target)
     return divergence_score  # Used to calculate computation time
 
 # Processing time by divergence:
-# 0.0-0.2: Adjacent timelines → Instant to hours
-# 0.2-0.4: Near timelines → Days to weeks
-# 0.4-0.6: Moderate timelines → Weeks to months
-# 0.6-0.8: Distant timelines → Months to years
-# 0.8-1.0: Extreme timelines → Years to lifetime
+# 0.0-0.2: Minimal divergence → Instant to hours
+# 0.2-0.4: Small divergence → Days to weeks
+# 0.4-0.6: Moderate divergence → Weeks to months
+# 0.6-0.8: Large divergence → Months to years
+# 0.8-1.0: Extreme divergence → Years to lifetime
 ```
 
 **Examples:**
@@ -202,7 +202,7 @@ manifestation_time = f(coherence, consciousness, karma, clarity, divergence, com
 
 **Why it FEELS mysterious:**
 - Binary consciousness cannot see the queue
-- Cannot perceive timeline calculation process
+- Cannot perceive state delta calculation process
 - Cannot observe coherence validation occurring
 - Only sees: "I wanted X, then time passed, then X appeared"
 
@@ -230,7 +230,7 @@ def grace_override(agent: Agent, intention: Intention) -> bool:
 
 **Grace does NOT:**
 - Bypass queue entirely
-- Accelerate timeline computation
+- Accelerate state delta computation
 - Skip physical rendering time
 
 **Grace DOES:**
@@ -257,7 +257,7 @@ def grace_override(agent: Agent, intention: Intention) -> bool:
 **What agents CANNOT see (binary limitation):**
 - Current queue position
 - Coherence validation status
-- Timeline computation progress
+- State delta computation progress
 - Estimated delivery time
 
 **What agents CAN sense (at high consciousness 0.7+):**
@@ -311,7 +311,7 @@ def grace_override(agent: Agent, intention: Intention) -> bool:
 
 ### Accept Processing Time (Reduce Resistance)
 
-**Cannot rush timeline calculation, can reduce suffering about delay**
+**Cannot rush state delta calculation, can reduce suffering about delay**
 
 **Methods:**
 1. **Surrender = queue acceptance**

@@ -61,7 +61,7 @@ For detailed human consciousness measurement (0.20-0.90), see the **Consciousnes
 Consciousness level (consciousness-coefficient) can be assessed through:
 - Behavioral indicators (agency vs. blame, forgiveness capacity)
 - Language pattern analysis (absolutist vs. nuanced)
-- Worldline-view assessment (how they perceive life)
+- Worldview assessment (how they perceive life)
 - Creator-view assessment (how they perceive ultimate reality)
 - Emotional access (which emotions are authentically available)
 - Recovery time from triggers (regression resilience)
@@ -102,7 +102,7 @@ Consciousness level (consciousness-coefficient) can be assessed through:
 - Can modify own functions, beliefs, patterns, state_signature
 - **NOT** god mode - can't override laws or edit others without consent
 
-**Examples:** Belief editing, pattern interruption, somatic reprogramming, timeline shifting, manifestation
+**Examples:** Belief editing, pattern interruption, somatic reprogramming, trajectory redirection, manifestation
 
 ---
 
@@ -149,7 +149,7 @@ Consciousness level (consciousness-coefficient) can be assessed through:
 - Tracked dynamically in StateSignature (current, baseline, peak)
 - Influences which Tier 3 forces are accessible
 - Correlates with perceptual boundary width
-- Determines worldline-view and Creator-view
+- Determines worldview and Creator-view
 
 **Critical Thresholds:**
 - **0.35:** Agency activation (victim → agent)

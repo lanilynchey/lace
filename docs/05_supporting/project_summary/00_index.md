@@ -64,7 +64,7 @@ This is LACE's internal master plan and vision document. It provides a comprehen
 **Manifestation Mechanics**
 - Soma as Compiler
 - State Signature formula
-- Timeline matching process (7 steps)
+- State mutation process (7 steps)
 - Not instant creation
 
 ### **05_scope_boundaries.md**

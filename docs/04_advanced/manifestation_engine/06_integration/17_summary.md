@@ -8,8 +8,8 @@
 4. **Crash Conditions** (trauma loops, incoherence, safety blocks)
 5. **Encrypted Variables** (hidden drivers of manifestation)
 6. **Soma as Compiler** (body encodes frequency, not mind)
-7. **Worldline Matching** (resonance-based timeline selection)
-8. **Field Querying** (your frequency searches possibility space)
+7. **State Alignment Mechanics** (resonance-based mutation targeting)
+8. **Field Validation** (your computed mutation checked against shared constraints)
 9. **Coherence as Cost** (internal alignment determines power)
 
 **Bottom Line:**
@@ -18,11 +18,11 @@ You don't manifest what you want.
 
 You manifest what you ARE (somatically encoded state signature).
 
-Change your frequency → change your match → change your reality.
+Change your frequency → change your mutation → change your reality.
 
 ---
 
-*"Your body is coding the frequency in real-time, and your field is querying the matching worldline."*
+*"Your body is coding the frequency in real-time, and the field validates the mutation before it renders."*
 
 ---
 

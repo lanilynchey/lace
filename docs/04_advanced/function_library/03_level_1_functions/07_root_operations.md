@@ -6,47 +6,47 @@ These are the fundamental APIs available to all conscious agents.
 
 **Already covered - see below**
 
-Returns your current timeline based on your encoded self-state.
+Computes and renders your current state mutation based on your encoded self-state.
 
 ```python
 def manifest(state_signature):
     """
-    Core manifestation function - matches agent to worldline
+    Core manifestation function - computes and renders agent's state mutation
 
     Args:
         state_signature (StateSignature): Encoded self-state
 
     Returns:
-        Timeline: Matching experiential path
+        StateDelta: The rendered mutation
 
     Properties:
         - Requires somatic encoding (body must compile frequency)
-        - Coherence determines match quality
+        - Coherence determines mutation quality
         - Incoherent signals are rejected
 
     Dependencies:
         - encrypt() - Hashes state into frequency
-        - find_closest_worldline() - Searches possibility space
-        - load_timeline() - Renders matched reality
+        - compute_target_alignment() - Measures gap between current and target state
+        - render() - Renders the computed mutation
 
     Examples:
         >>> manifest(StateSignature(belief=0.9, expectation=0.8))
-        Timeline(frequency=0.85, coherence=0.87)
+        StateDelta(frequency=0.85, coherence=0.87)
     """
     # Step 1: Encrypt state signature into broadcast frequency
     broadcast_frequency = encrypt(state_signature)
 
-    # Step 2: Find closest vibrational match in worldline field
-    match = find_closest_worldline(broadcast_frequency)
+    # Step 2: Compute alignment with target state
+    alignment = compute_target_alignment(broadcast_frequency, state_signature.target_frequency)
 
-    # Step 3: Load and render that timeline
-    return load_timeline(match)
+    # Step 3: Compute and render the mutation
+    return render(compute_state_mutation(alignment))
 ```
 
 **What this means:**
 - Your state_signature (belief + expectation + embodiment + subconscious_memory) is hashed into a frequency
-- That frequency resonates with a set of available worldlines
-- The system finds the closest vibrational match and shifts your experiential reality to that line
+- That frequency determines how far your current state is from your intended target
+- The system computes the resulting mutation and renders it into your experiential reality
 
 ---
 
@@ -161,7 +161,7 @@ def time(position):
     Properties:
         - Present moment has full API access
         - Past/future are restricted views
-        - You can only change timelines from the present
+        - You can only redirect your trajectory from the present
 
     Dependencies:
         - unlock_access() - Grants full permissions
@@ -183,7 +183,7 @@ def time(position):
 **What this means:**
 - The present moment has full API access
 - Past and future are restricted views (read-only memories/projections)
-- You can only change timelines from the present
+- You can only redirect your trajectory from the present
 
 ---
 

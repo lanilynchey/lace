@@ -1,52 +1,48 @@
-## Worldline Matching Mechanics
+## State Alignment Mechanics
 
-**How the system finds your match**
+**Revision note:** This document previously modeled manifestation as searching a database of pre-existing "worldlines" and selecting the closest match. It has been rewritten around direct state mutation instead - see [`working/timeline_model_revision.md`](../../../../working/timeline_model_revision.md) and [`StateTrajectory`](../../../01_foundation/base_structure/03_data_models/06_data_model_timeline.md) for the full reasoning and replacement schema.
+
+**How the system computes your next state**
 
 ```python
-def find_closest_worldline(broadcast_frequency):
+def calculate_target_alignment(current_frequency, intention_frequency):
     """
-    Query worldline database for closest vibrational match
+    How closely current state aligns with an intended target state
 
     Process:
-        1. Receive broadcast_frequency
-        2. Search all available worldlines
-        3. Calculate resonance match for each
-        4. Return highest resonance worldline
+        1. Receive current state_signature frequency
+        2. Receive intention's target frequency
+        3. Calculate alignment between the two
+        4. Feed alignment into compute_state_mutation() (see StateTrajectory),
+           which uses it to narrow or widen the mutation's variance
 
     Returns:
-        Timeline: Closest matching experiential path
+        float: Alignment score (0-1) - how far current state is from target
+
+    Note: This does NOT search a database of pre-existing alternatives.
+    There is one current state and one intended target; this measures
+    the gap between them directly, which then determines how large and
+    how certain the resulting mutation is.
     """
-    # Get all possible worldlines
-    worldlines = query_timeline_database()
-
-    # Calculate resonance for each
-    matches = []
-    for worldline in worldlines:
-        resonance = calculate_resonance(broadcast_frequency, worldline.frequency)
-        matches.append((worldline, resonance))
-
-    # Sort by resonance (highest first)
-    matches.sort(key=lambda x: x[1], reverse=True)
-
-    # Return best match
-    best_match = matches[0][0]
-    return best_match
+    alignment = calculate_resonance(current_frequency, intention_frequency)
+    return alignment
 ```
 
 ### **Resonance Calculation**
 
 ```python
-def calculate_resonance(agent_frequency, worldline_frequency):
+def calculate_resonance(current_frequency, target_frequency):
     """
-    How closely two frequencies match
+    How closely current state matches an intended target
 
-    Formula:
-        resonance = 1 - abs(agent_frequency - worldline_frequency)
+    Formula (unchanged from before - this was always just a distance
+    formula, never actually dependent on multiverse framing):
+        resonance = 1 - abs(current_frequency - target_frequency)
 
     Returns:
-        float: 0-1 (1 = perfect match, 0 = no match)
+        float: 0-1 (1 = perfect alignment, 0 = no alignment)
     """
-    difference = abs(agent_frequency - worldline_frequency)
+    difference = abs(current_frequency - target_frequency)
     resonance = 1 - difference
 
     return resonance
@@ -55,22 +51,24 @@ def calculate_resonance(agent_frequency, worldline_frequency):
 **Example:**
 
 ```python
-# Your frequency:
-agent_frequency = 0.75  # Moderately high vibration
+# Your current frequency:
+current_frequency = 0.75  # Moderately high vibration
 
-# Available worldlines:
-worldline_a.frequency = 0.76  # Very close
-worldline_b.frequency = 0.45  # Far
-worldline_c.frequency = 0.74  # Very close
+# Your intended target:
+intended_frequency = 0.76  # Very close to current - small mutation needed
 
 # Resonance:
-resonance(agent, worldline_a) = 0.99  # Best match
-resonance(agent, worldline_b) = 0.70  # Poor match
-resonance(agent, worldline_c) = 0.99  # Also good match
+resonance(current, intended) = 0.99  # High alignment, small state delta required
 
 # Result:
-manifest(worldline_a OR worldline_c)  # Whichever has higher coherence
+# compute_state_mutation() computes a small, high-confidence mutation
+# toward the intended target - not a "jump" to a pre-existing alternative worldline
 ```
+
+**What changed and why:** the underlying math is identical to before - `1 - abs(difference)` was never actually a claim about multiverse structure, just a distance formula. What changed is what the two numbers being compared *mean*: previously, "your frequency" vs. "a candidate worldline pulled from a database of many." Now, "your current state" vs. "your own intended target" - one comparison, not a search across many pre-existing options, and the result feeds directly into how the state actually mutates rather than which pre-built reality gets selected.
 
 ---
 
+**See Also:** [StateTrajectory](../../../01_foundation/base_structure/03_data_models/06_data_model_timeline.md) - `compute_state_mutation()`, the function this alignment score feeds into | [Manifestation Latency](../../../04_advanced/advanced_concepts/22_manifestation_latency.md) - how divergence (the inverse of alignment) determines processing delay
+
+---

@@ -128,6 +128,8 @@ else:
 - **Pain + acceptance = transformation** - resistance creates suffering
 - **No pain, no signal** - you'd destroy yourself without feedback
 
+**See:** [The Grip Mechanism](../../04_advanced/advanced_concepts/24_grip_mechanism.md) - pain's signal is what captures attention() in the first place, forming the grip that memories/relationships/habits maintain.
+
 ---
 
 ---

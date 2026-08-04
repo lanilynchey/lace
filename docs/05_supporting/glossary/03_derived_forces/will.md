@@ -30,7 +30,7 @@ def will(agent, options):
 ## Key Properties
 
 - **Requires consciousness** - Will is conscious choice, not automatic reaction
-- **Collapses probability** - Selecting one timeline from many possible
+- **Collapses probability** - Directing which of many possible outcomes the state mutates toward
 - **Intentional** - Deliberate, not impulsive or reactive
 - **Persistent** - Will maintains direction despite obstacles
 - **Free (within constraints)** - Agency exists, but patterns bias

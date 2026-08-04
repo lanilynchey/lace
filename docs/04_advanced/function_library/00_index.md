@@ -66,9 +66,9 @@
 ### 04. Level 2 Functions
 **System overrides and cosmic protocols**
 
-- [09_system_overrides.md](04_level_2_functions/09_system_overrides.md) - System Overrides (11 functions): edit_timeline(), retrieve(), invoke_override(), quantum_jump(), encode_pattern(), loop_detected(), download(), activate(), merge(), remember(), reprogram()
+- [09_system_overrides.md](04_level_2_functions/09_system_overrides.md) - System Overrides (11 functions): edit_trajectory(), retrieve(), invoke_override(), quantum_jump(), encode_pattern(), loop_detected(), download(), activate(), merge(), remember(), reprogram()
 
-**Start here if:** You need advanced timeline/reality manipulation functions
+**Start here if:** You need advanced trajectory/reality manipulation functions
 
 ---
 
@@ -141,7 +141,7 @@
 
 ### The 3 Function Levels
 1. **Level 1: Root Operations** - Core force APIs (manifest, karma, heal, time, etc.)
-2. **Level 2: System Overrides** - Advanced compositions (timeline editing, quantum jump, etc.)
+2. **Level 2: System Overrides** - Advanced compositions (trajectory editing, quantum jump, etc.)
 3. **Level 3: Phenomena** - Rendered phenomena (light, gravity, emotion, etc.)
 
 ### Critical Insights
@@ -153,7 +153,7 @@
 ### Function Categories
 - **Manifestation:** manifest(), time(), synchronicity(), encode_pattern()
 - **Healing:** heal(), compress(), reprogram(), break_loop()
-- **Timeline:** edit_timeline(), retrieve(), quantum_jump()
+- **Trajectory:** edit_trajectory(), retrieve(), quantum_jump()
 - **Consciousness:** ascend(), download(), remember(), activate()
 - **Relationship:** relationship(), merge(), call()
 - **Phenomena:** All Level 3 functions
@@ -163,7 +163,7 @@
 ## Cross-References
 
 ### Related Documents
-- **BASE_STRUCTURE.md** - Data models (Agent, StateSignature, Timeline, Event)
+- **BASE_STRUCTURE.md** - Data models (Agent, StateSignature, StateTrajectory, Event)
 - **INTERACTION_MECHANICS.md** - How forces interact (function implementations use these)
 - **SYSTEM_LAWS.md** - Laws that regulate function behavior
 - **INHERITANCE_CHAINS.md** - Force dependencies (functions build on these)

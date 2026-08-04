@@ -26,8 +26,8 @@
 1. [Broadcast Frequency](01_foundation/03_broadcast_frequency.md) - Frequency calculation and weighting
 2. [Crash Conditions](03_mechanics/06_crash_conditions.md) - Why manifestation fails
 3. [SOMA Compiler](03_mechanics/08_soma_compiler.md) - Somatic encryption
-4. [Worldline Matching](03_mechanics/09_worldline_matching.md) - Resonance calculation
-5. [Field Querying](03_mechanics/10_field_querying.md) - The worldline database
+4. [State Alignment Mechanics](03_mechanics/09_worldline_matching.md) - Resonance calculation
+5. [Field Validation Mechanism](03_mechanics/10_field_querying.md) - The shared Field
 
 ---
 
@@ -60,8 +60,8 @@
 - [06_crash_conditions.md](03_mechanics/06_crash_conditions.md) - Crash Conditions: Why manifestation fails (trauma loop, incoherent signal, unsafe to manifest)
 - [07_encrypted_variables.md](03_mechanics/07_encrypted_variables.md) - Encrypted Variables: belief, expectation, embodiment, subconscious memory (detailed)
 - [08_soma_compiler.md](03_mechanics/08_soma_compiler.md) - SOMA Compiler: Somatic encryption (body can't lie, examples, encoding hypotheses)
-- [09_worldline_matching.md](03_mechanics/09_worldline_matching.md) - Worldline Matching Mechanics + resonance calculation
-- [10_field_querying.md](03_mechanics/10_field_querying.md) - Field Querying Mechanism: worldline database + creation AND matching
+- [09_worldline_matching.md](03_mechanics/09_worldline_matching.md) - State Alignment Mechanics: resonance calculation
+- [10_field_querying.md](03_mechanics/10_field_querying.md) - Field Validation Mechanism: the shared Field, creation IS manifestation
 
 **Start here if:** You want deep technical understanding of how it works
 
@@ -150,7 +150,7 @@
 state_signature = belief + expectation + embodiment + subconscious_memory
 ```
 
-Your state signature broadcasts a frequency. The field matches you to a worldline of similar vibration.
+Your state signature broadcasts a frequency. The field validates the resulting state mutation and it renders into perceptible reality.
 
 ### The 7-Step Pipeline
 1. **impulse()** - Desire arises
@@ -169,7 +169,7 @@ Your state signature broadcasts a frequency. The field matches you to a worldlin
 ### Critical Insights
 - **The body can't lie** - SOMA encodes truth, not words
 - **Coherence is required** - Internal alignment is the cost
-- **Creation AND matching** - Both/and, not either/or
+- **Creation IS manifestation** - the same act, not two mechanisms needing reconciliation
 - **Weighting matters** - Embodiment > Expectation > Belief > Memory
 
 ---

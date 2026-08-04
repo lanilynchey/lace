@@ -45,7 +45,7 @@ def law_delay(request: Manifestation) -> Response:
 - **Timing is not arbitrary** - it's based on readiness
 - **Delays protect you** - from destabilizing manifestations
 - **Impatience creates incoherence** - which creates more delay
-- **Trust the timeline** - system knows when you're ready
+- **Trust the process** - system knows when you're ready
 
 ### **Why Delays Happen**
 ```python
@@ -62,12 +62,12 @@ delay_reasons = {
 ```python
 # How to reduce delay:
 def accelerate_manifestation(desire: Desire):
-    """Speed up timeline"""
+    """Speed up manifestation"""
 
     # 1. Increase coherence
     align(beliefs, desires, actions)
 
-    # 2. Release attachment to timeline
+    # 2. Release attachment to a specific arrival time
     surrender(need_for_speed)
 
     # 3. Embody the frequency
@@ -104,11 +104,11 @@ Law_delay() enforces delays through four distinct processing stages:
 - **Normal queue:** Weeks to months (medium coherence)
 - **Low priority:** Months to years (low coherence)
 
-**3. Timeline Computation**
-- **0.0-0.2 divergence:** Instant to hours (adjacent timelines)
-- **0.2-0.4 divergence:** Days to weeks (near timelines)
+**3. State Delta Computation**
+- **0.0-0.2 divergence:** Instant to hours (minimal divergence)
+- **0.2-0.4 divergence:** Days to weeks (small divergence)
 - **0.4-0.6 divergence:** Weeks to months (moderate divergence)
-- **0.6-0.8 divergence:** Months to years (distant timelines)
+- **0.6-0.8 divergence:** Months to years (large divergence)
 - **0.8-1.0 divergence:** Years to lifetime (extreme divergence)
 
 **4. Physical Rendering**
@@ -126,7 +126,7 @@ Law_delay() enforces delays through four distinct processing stages:
 total_delay = (
     coherence_validation_delay +    # Instant to indefinite
     queue_position_delay +           # Minutes to years
-    timeline_computation_delay +     # Based on divergence
+    state_delta_computation_delay +  # Based on divergence
     physical_rendering_delay         # Based on complexity
 )
 
@@ -148,7 +148,7 @@ Grace protocol can temporarily lower coherence threshold:
 Law_delay() is enforced by:
 - **Manifestation Queue daemon** - Processes requests with delay tracking
 - **Coherence Monitor daemon** - Validates state signature alignment
-- **Timeline computation** - Calculates divergence and processing time
+- **State delta computation** - Calculates divergence and processing time
 
 **See:** [Daemon Processes](../../../01_foundation/base_structure/05_system_operations/17_daemon_processes.md) for system-level enforcement.
 

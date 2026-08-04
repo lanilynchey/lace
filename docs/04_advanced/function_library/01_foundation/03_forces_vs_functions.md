@@ -34,7 +34,7 @@ When LACE says:
 ### Level 2 Functions = Advanced Compositions
 **These compose multiple forces:**
 - `quantum_jump()` - Uses manifest() + coherence() at threshold
-- `edit_timeline()` - Requires quantum stillness (special state)
+- `edit_trajectory()` - Requires quantum stillness (special state)
 - `reprogram()` - Composes install() + embody() + rehearse()
 
 ### Level 3 Functions = Rendered Phenomena

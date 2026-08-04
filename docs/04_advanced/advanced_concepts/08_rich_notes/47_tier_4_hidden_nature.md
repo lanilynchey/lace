@@ -14,7 +14,7 @@
 
 - Patterned emotion distributed over time
 - Programs biological and energetic rhythms
-- Can override trauma loops or collapse timelines
+- Can override trauma loops or collapse mutation delay to near-instant
 
 ---
 

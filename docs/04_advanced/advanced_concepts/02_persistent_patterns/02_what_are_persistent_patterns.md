@@ -28,7 +28,7 @@ class PersistentPattern:
     resistance_level: float      # How hard to edit (0=easy, 1=extremely difficult)
 
     # Field Dynamics
-    manifestation_frequency: float  # Which worldlines this pattern matches to
+    manifestation_frequency: float  # Which mutations this pattern biases toward
 ```
 
 **See Also:** [GLOSSARY.md - Persistent Patterns](../../../05_supporting/glossary/00_index.md), [BASE_STRUCTURE.md lines 344-360](../../../01_foundation/base_structure/00_index.md), [PRIMITIVES.md - Elo primitive](../../../01_foundation/primitives/00_index.md)

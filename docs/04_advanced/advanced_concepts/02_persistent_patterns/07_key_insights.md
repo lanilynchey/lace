@@ -15,13 +15,13 @@
 - Once healed, pattern dissolves
 - No external "contract" to complete
 
-**4. Healing Changes Timelines**
+**4. Healing Redirects Your Trajectory**
 - Trauma work → reduces subconscious_memory
 - Belief work → updates belief component
-- Result: Different frequency → different worldline matches
-- You literally shift timelines by healing
+- Result: Different frequency → different mutation outcomes
+- You literally redirect your trajectory by healing
 
-**See Also:** [Manifestation Engine](../../manifestation_engine/00_index.md) for state_signature + timeline matching mechanics
+**See Also:** [Manifestation Engine](../../manifestation_engine/00_index.md) for state_signature + state mutation mechanics
 
 ---
 

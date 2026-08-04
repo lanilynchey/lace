@@ -8,7 +8,7 @@ def persistent_pattern_purpose():
         2. Reinforce belief systems → attracts confirming experiences
         3. Stabilize identity → maintains coherent self-model
         4. Signal growth opportunities → shows what needs healing
-        5. Create probability biases → influences timeline matching
+        5. Create probability biases → influences state mutation
 
     Key Insight: Patterns are NOT pre-fated. They're current-state
     encodings that CAN BE EDITED through Generative Awareness.

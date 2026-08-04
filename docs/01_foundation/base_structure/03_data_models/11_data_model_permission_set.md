@@ -12,7 +12,7 @@ class PermissionSet:
     exec: str = "restricted"   # Manifestation, psychic ability
 
     # Elevated Permissions (Mystics, Masters)
-    # read: str = "expanded"   # Karma, timelines, others
+    # read: str = "expanded"   # Karma, others' trajectories, others
     # write: str = "transdimensional"  # Field-level changes
     # exec: str = "partial_root"  # Create/override local systems
 
@@ -54,7 +54,7 @@ def check_permission_elevation(agent: Agent) -> None:
         if duration >= STABILITY_DURATION:
             unlock_temporary_permission(
                 agent,
-                permission="expanded_read",  # Can read karma, timelines, others
+                permission="expanded_read",  # Can read karma, others' trajectories, others
                 duration=duration * 0.5  # Permission lasts half of stability time
             )
 

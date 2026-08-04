@@ -1,13 +1,13 @@
 # Manifestation Terms
 
-## **Timeline / Worldline**
-**Definition:** Possible experiential path through reality
+## **StateTrajectory**
+**Definition:** The single actual path an agent's state has taken through reality - not one of many possible paths (see [`working/timeline_model_revision.md`](../../../../working/timeline_model_revision.md) for the full revision from the old "Timeline/Worldline" model)
 
 **Properties:**
 - Has frequency signature
-- Contains potential events
-- Probability of matching = alignment with agent frequency
-- You don't create timelines - you match to existing ones
+- Contains actual events (what happened, not what might have)
+- Projection confidence = likelihood the currently-computing next state resolves as projected
+- You don't select a trajectory - your mutations directly compose the one you have
 
 ---
 

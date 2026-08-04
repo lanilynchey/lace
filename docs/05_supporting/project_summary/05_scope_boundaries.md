@@ -5,10 +5,10 @@
 - All system laws defined (24 total: 11 core + 9 additional + 4 security)
 - Interaction mechanics mapped (6 types across all force combinations)
 - Inheritance chains traced (complete dependency graphs)
-- Data models specified (Agent, StateSignature, Timeline, FieldState)
+- Data models specified (Agent, StateSignature, StateTrajectory, FieldState)
 - Illustrative pseudocode for all functions (31 total across 3 levels)
 - Visual diagrams (force graph, hierarchy, architecture)
-- Manifestation mechanics (soma as compiler, state signature broadcasting, timeline matching)
+- Manifestation mechanics (soma as compiler, state signature broadcasting, state mutation)
 
 ## **What's Out of Scope (For Now)**
 - Fully executable simulation engine

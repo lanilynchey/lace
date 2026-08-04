@@ -808,9 +808,9 @@ new_belief = "I'm capable"
 old_frequency = encode(old_belief, ...)  # Low vibration
 new_frequency = encode(new_belief, ...)  # Higher vibration
 
-# Different timeline matches:
-old_match = worldline_match(old_frequency)  # Limited reality
-new_match = worldline_match(new_frequency)  # Expanded reality
+# Different resulting mutations:
+old_mutation = compute_state_mutation(old_frequency)  # Limited reality
+new_mutation = compute_state_mutation(new_frequency)  # Expanded reality
 
 # Authorship → changes broadcast → changes manifestation
 ```

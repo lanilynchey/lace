@@ -46,7 +46,7 @@ def creation(seed_idea: Idea, field_state: FieldState) -> Form:
     Descendants:
         - art() [Tier 4] - Creative expression
         - innovation() [emergent] - Novel patterns
-        - manifestation() [implicit] - Worldline selection
+        - manifestation() [implicit] - State rendering
     """
     if field_state == "fertile":
         pattern = crystallize(seed_idea)
@@ -94,31 +94,32 @@ field_fertility = {
 # If any factor is low, creation is blocked
 ```
 
-## **Creation vs. Manifestation**
+## **Creation and Manifestation**
 ```python
-# Creation = bringing NEW patterns into form
+# Creation = a force that generates novel patterns
 creation(novel_idea) → new_form
 
-# Manifestation = selecting existing worldline
-manifest(state_signature) → matching_timeline
+# Manifestation = the universal pipeline any pattern renders through
+manifest(state_signature) → rendered_mutation
 
-# Related but distinct:
-# Creation adds to possibility space
-# Manifestation navigates existing space
+# Related, not competing:
+# creation() is a specific Tier 2 force - generates genuinely novel patterns
+# manifest() is the universal rendering pipeline - everything renders through
+# it, including what creation() generates
 ```
 
-**See:** [Manifestation Engine](../../04_advanced/manifestation_engine/00_index.md) for complete manifestation mechanics
+**See:** [Manifestation Engine](../../04_advanced/manifestation_engine/00_index.md) for complete manifestation mechanics, and [Field Validation Mechanism](../../04_advanced/manifestation_engine/03_mechanics/10_field_querying.md) - "Creation IS Manifestation" for why these were never two competing delivery mechanisms
 
 **Key Distinction:**
 - **creation()** is a Tier 2 **force** - crystallizes novel patterns into form
-- **manifest()** is a **process/function** - frequency-based timeline matching
-- creation() can create truly new things (art, innovation, novel solutions)
-- manifest() selects from existing worldlines based on your state_signature
+- **manifest()** is a **process/function** - the universal rendering pipeline (see [StateTrajectory](../../01_foundation/base_structure/03_data_models/06_data_model_timeline.md))
+- creation() can generate truly new things (art, innovation, novel solutions) - reorganizing existing energy/pattern into new configuration, never ex nihilo
+- manifest() is how ANY state mutation actually renders, whether it originated from creation() or a simpler cause
 - Both require coherence, but creation requires higher levels (bringing something new into existence)
 
 **Example:**
 - Writing a symphony = creation() (novel pattern never existed before)
-- Attracting a romantic partner = manifest() (matching to timeline where that person exists)
+- Attracting a romantic partner = manifest() (mutating your state until a compatible partner's presence is the coherent outcome)
 
 ## **Creation Blockers**
 ```python

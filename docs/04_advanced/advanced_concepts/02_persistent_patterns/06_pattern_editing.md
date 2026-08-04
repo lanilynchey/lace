@@ -29,11 +29,11 @@ def edit_persistent_pattern(agent: Agent, pattern: PersistentPattern):
         # 4. Recalculate frequency
         new_frequency = agent.state_signature.frequency  # Now higher
 
-        # 5. Manifestation engine queries new worldlines
-        new_timelines = match_worldline(new_frequency, agent.coherence, agent.context)
+        # 5. Manifestation engine computes new mutation
+        new_mutation = compute_state_mutation(new_frequency, agent.coherence, agent.context)
 
         # Pattern no longer attracts abandonment experiences
-        # Different timeline matches become accessible
+        # Different mutation outcomes become accessible
         # Free will used to EDIT code, not "fulfill contract"
 
     return updated_pattern

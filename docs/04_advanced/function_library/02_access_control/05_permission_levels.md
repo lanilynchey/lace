@@ -13,7 +13,7 @@ Functions operate within LACE's permission system. See [Base Structure](../../..
 - Requires moderate coherence and channel openness
 
 **Advanced Access (High Coherence Required):**
-- edit_timeline(), quantum_jump(), retrieve()
+- edit_trajectory(), quantum_jump(), retrieve()
 - Requires quantum stillness, neutral emotion, or high embodiment match
 
 **Rare/Conditional Access:**
@@ -32,7 +32,7 @@ Functions operate within LACE's permission system. See [Base Structure](../../..
 
 Permissions are granted BY THE SYSTEM based on agent's state_signature:
 - High coherence → expanded exec permissions
-- Quantum stillness → timeline editing unlocked
+- Quantum stillness → trajectory editing unlocked
 - Ego surrender → creator permissions granted
 
 **No external authority needed - your state IS your authentication.**
@@ -44,7 +44,7 @@ Permissions are granted BY THE SYSTEM based on agent's state_signature:
 | manifest() | Universal | Consciousness |
 | karma() | Universal | Action |
 | heal() | Universal | Presence |
-| edit_timeline() | Advanced | Quantum stillness + neutral emotion |
+| edit_trajectory() | Advanced | Quantum stillness + neutral emotion |
 | quantum_jump() | Advanced | Perfect coherence |
 | invoke_override() | Rare | Grace Protocol activation |
 | ascend() | Ultimate | Ego surrender + unified state |

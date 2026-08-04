@@ -160,7 +160,7 @@ desire() operates differently across the consciousness spectrum - same force, di
 - Compulsive shopping/acquisition
 - Gambling addiction
 
-**Worldline-view through desire lens:**
+**Worldview through desire lens:**
 - "I'll never have enough"
 - "I need this to survive"
 - "Without X, I am worthless"
@@ -195,7 +195,7 @@ desire() operates differently across the consciousness spectrum - same force, di
 - Learning new skills
 - Building wealth/security
 
-**Worldline-view through desire lens:**
+**Worldview through desire lens:**
 - "I want X and can work toward it"
 - "My desires are achievable"
 - "Success is possible with effort"
@@ -230,7 +230,7 @@ desire() operates differently across the consciousness spectrum - same force, di
 - Deep learning/wisdom-seeking
 - Authentic relationship desires
 
-**Worldline-view through desire lens:**
+**Worldview through desire lens:**
 - "I want to contribute something meaningful"
 - "My desires serve larger purpose"
 - "Fulfillment comes from alignment, not acquisition"
@@ -265,7 +265,7 @@ desire() operates differently across the consciousness spectrum - same force, di
 - Pursuing goals without attachment to outcomes
 - Desiring and releasing simultaneously
 
-**Worldline-view through desire lens:**
+**Worldview through desire lens:**
 - "Everything is already perfect, AND I enjoy co-creating"
 - "I want nothing, I lack nothing, I desire everything"
 - "Wanting is play, not pain"

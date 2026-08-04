@@ -56,9 +56,9 @@ This glossary provides comprehensive definitions for all LACE terminology, organ
 
 **R:** [Reality as Executable Code](07_lace_innovations/reality_as_code.md), [Root Tracking](09_practical/root_tracking.md)
 
-**S:** [Soma as Compiler](01_foundations/system_architecture.md#soma-as-compiler), [State Signature](01_foundations/system_architecture.md#state-signature), [simulation()](03_derived_forces/simulation.md), [surrender()](03_derived_forces/overview_and_categories.md#surrender), [synchronicity()](03_derived_forces/overview_and_categories.md#synchronicity)
+**S:** [Soma as Compiler](01_foundations/system_architecture.md#soma-as-compiler), [State Signature](01_foundations/system_architecture.md#state-signature), [StateTrajectory](05_manifestation/manifestation_terms.md#statetrajectory), [simulation()](03_derived_forces/simulation.md), [surrender()](03_derived_forces/overview_and_categories.md#surrender), [synchronicity()](03_derived_forces/overview_and_categories.md#synchronicity)
 
-**T:** [Timeline/Worldline](05_manifestation/manifestation_terms.md#timeline--worldline), [Transformation Cycle](04_system/operational_terms.md#transformation-cycle), [transcendence()](03_derived_forces/overview_and_categories.md#transcendence)
+**T:** [Transformation Cycle](04_system/operational_terms.md#transformation-cycle), [transcendence()](03_derived_forces/overview_and_categories.md#transcendence)
 
 **U:** [Userspace](04_system/system_layers.md#userspace-layer-3)
 
@@ -102,7 +102,7 @@ How LACE's computational reality operates
 
 ### **05_manifestation/** (Creation Mechanics)
 How state becomes experience
-- `manifestation_terms.md` - Timeline/Worldline, Coherence, Entanglement
+- `manifestation_terms.md` - StateTrajectory, Coherence, Entanglement
 
 ### **06_philosophy/** (Epistemology & Ontology)
 LACE's philosophical positions

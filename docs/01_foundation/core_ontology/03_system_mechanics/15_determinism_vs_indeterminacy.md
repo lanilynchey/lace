@@ -162,7 +162,7 @@ def entropy():
 - Quantum measurements are probabilistic (wave function collapse unpredictable)
 - Mutations occur randomly (genetic variation source)
 - Thoughts arise unpredictably (consciousness not fully determined)
-- Specific timelines manifest vs others (which worldline selected has random element)
+- Specific outcomes manifest vs others (which outcome resolves has a random element)
 
 **Without entropy():** System would be perfectly deterministic, fully calculable, no genuine novelty.
 
@@ -252,12 +252,12 @@ if agent.consciousness >= 0.70:
     # Agent has authorship capacity
 ```
 
-**3. Specific timeline selection:**
+**3. Specific outcome resolution:**
 ```python
 # Manifestation is probabilistic:
-state_signature.broadcast() → matches to worldline_set
+state_signature.broadcast() → computes a state mutation
 # Coherence determines LIKELIHOOD
-# But which specific timeline? Has stochastic element
+# But which specific outcome resolves? Has stochastic element
 
 # High coherence = high probability of desired outcome
 # NOT certainty (entropy introduces variation)
@@ -517,20 +517,21 @@ def optimal_approach():
 
 **LACE's position:** Laws enforce deterministically WITHIN a cycle, but laws themselves can evolve (see base_structure/system_operations/update_cycles).
 
-### Q5: How does this relate to many-worlds interpretation?
+### Q5: How does this relate to many-worlds interpretation? (Revised: it doesn't, anymore)
 
 **Many-worlds quantum mechanics:** All possibilities happen, universe splits.
 
-**LACE version:**
-- All probability timelines exist in field
-- Agent's state_signature selects which branch experienced
-- Other branches remain real (just not experienced by this agent)
+**LACE previously allowed this framing** (all probability timelines exist in field, state_signature "selects" which branch is experienced, other branches "remain real" unexperienced). This has been revised - see [`working/timeline_model_revision.md`](../../../../working/timeline_model_revision.md) and [`StateTrajectory`](../../base_structure/03_data_models/06_data_model_timeline.md). LACE's model doesn't require many-worlds, and is actually a cleaner fit for single-outcome collapse:
+
+- There is one reality; `entropy()` injects genuine randomness into which single outcome a given mutation resolves to
+- No unchosen outcome "remains real" anywhere - it was never instantiated, not sitting unexperienced in some other branch
+- Still genuinely indeterministic (entropy's randomness is real, not just epistemic uncertainty about a hidden branch) - it just doesn't require positing an unobservable multiverse to explain it
 
 **Is this deterministic or indeterministic?**
-- Deterministic: All branches exist
-- Indeterministic: Which branch you experience has stochastic element
+- Deterministic: laws (causality, coherence-scaling) hold absolutely, structure is fixed
+- Indeterministic: `entropy()` genuinely randomizes which specific outcome a mutation resolves to, within that fixed structure
 
-**LACE allows for both interpretations.**
+**LACE's revised position:** single-outcome collapse with genuine stochastic injection, not many-worlds branching.
 
 ## Integration with Existing LACE Concepts
 
@@ -590,10 +591,10 @@ contradiction(beliefs) → manifestation(blocked)
 
 **Stochastic:**
 ```python
-# Which specific timeline selected has random element:
-worldline_match = closest_frequency(
+# Which specific outcome resolves has a random element:
+computed_mutation = closest_target(
     state_signature.broadcast(),
-    available_timelines,
+    intended_target,
     tolerance = entropy_injection()  # Adds variation
 )
 ```

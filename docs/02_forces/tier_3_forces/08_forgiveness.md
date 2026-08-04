@@ -142,6 +142,8 @@ forgiveness() → {
 - **You can't manifest cleanly with open loops** - forgiveness enables creation
 - **Forgiveness is power** - you edit the past's hold on you
 
+**See:** [The Grip Mechanism](../../04_advanced/advanced_concepts/24_grip_mechanism.md) - forgiveness is one of four release pathways; "unlock_bandwidth" above is the same bandwidth attention() allocates.
+
 ---
 
 ---

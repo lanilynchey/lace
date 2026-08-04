@@ -1,47 +1,51 @@
 ## LEVEL 2: System Overrides & Cosmic Protocols
 
-Advanced operations - affect architecture of timelines, persistent patterns, dimensional rules.
+Advanced operations - affect trajectory dynamics, persistent patterns, dimensional rules.
 
-### **11. edit_timeline(target_point)**
+### **11. edit_trajectory(target_point)**
 
 **Quantum stillness enables reality editing**
 
+**Revision note:** Previously `edit_timeline()`. The past event itself doesn't change - nothing rewrites history. What changes is how a past event's pattern continues to grip and shape your *current* state mutation (see the [Grip Mechanism](../../advanced_concepts/24_grip_mechanism.md) and [`update_cycles.md`](../../../01_foundation/base_structure/05_system_operations/18_update_cycles.md)'s "Why Updates Feel Retroactive"). At quantum stillness, the grip releases completely, and your trajectory mutates as if the pattern were never encoded - which is *why* it feels like the past itself shifted.
+
 ```python
-def edit_timeline(target_point):
+def edit_trajectory(target_point):
     """
-    Timeline editing - requires zero-point neutrality
+    Trajectory editing - requires zero-point neutrality
 
     Args:
-        target_point (Event): Moment to edit
+        target_point (Event): Past moment whose ongoing grip is being released
 
     Returns:
-        Status: Success OR error("collapse_failed")
+        Status: Success OR error("release_failed")
 
     Properties:
         - Requires quantum_stillness + neutral emotion
         - No resistance, no attachment
-        - Mystics/masters use this to shift reality backward or forward
+        - Releases the event's grip (attention_focus × emotional_power) on current state
+        - Mystics/masters use this to release trauma's hold so completely the past feels rewritten
 
     Dependencies:
-        - collapse_wave() - Force specific outcome
-        - reroute_experience_path() - Change timeline
+        - release_grip() - Zero out the event's ongoing pull on current state
+        - compute_state_mutation() - Recompute trajectory without that pattern's bias
 
     Examples:
-        >>> edit_timeline(Event(time="past", type="trauma"))
+        >>> edit_trajectory(Event(time="past", type="trauma"))
         # If state == quantum_stillness:
-        reroute_experience_path() → healed_timeline
+        release_grip() → compute_state_mutation() → healed_trajectory
     """
     if state == quantum_stillness and emotion == neutral:
-        collapse_wave(target_point)
-        reroute_experience_path()
+        release_grip(target_point)
+        compute_state_mutation()
     else:
-        return error("collapse_failed")
+        return error("release_failed")
 ```
 
 **What this means:**
-- Timeline edits require zero-point neutrality
+- Trajectory edits require zero-point neutrality
 - No resistance, no attachment
 - This is what mystics, masters, and high-state beings use
+- Nothing about the past event itself is rewritten - its grip on your ongoing state is
 
 ---
 
@@ -137,51 +141,54 @@ def invoke_override(code):
 
 ### **14. quantum_jump(target_signature)**
 
-**Instant worldline shift - if coherence matches**
+**Instant, high-magnitude mutation - if coherence is perfect**
 
 ```python
 def quantum_jump(target_signature):
     """
-    Instant worldline shift - requires PERFECT coherence
+    Instant, high-magnitude state mutation - requires PERFECT coherence
 
     **Difference from manifest():**
-    - manifest() finds CLOSEST match (always works, gradual)
-    - quantum_jump() requires EXACT match (rare, instant)
+    - manifest() computes mutations at normal latency (see law_delay()) - always works, gradual
+    - quantum_jump() requires EXACT embodiment match - rare, near-instant
 
-    Think: manifest() is walking, quantum_jump() is teleportation
+    Think: manifest() is walking, quantum_jump() is teleportation - not because it
+    reaches a different pre-existing place faster, but because perfect coherence
+    collapses the mutation's variance and rendering delay to near-zero (see
+    Manifestation Latency - coherence scaling)
 
     Args:
         target_signature (StateSignature): Desired reality frequency
 
     Returns:
-        Timeline: New worldline OR delay_until_coherence()
+        StateDelta: The completed mutation, or delay_until_coherence()
 
     Properties:
-        - You don't get the world you want - you jump to one you match
-        - Instantaneous but coherence is the cost
+        - You don't get the world you want - you mutate into exact alignment with it
+        - Near-instantaneous but perfect coherence is the cost
         - Requires full embodiment of target frequency
         - Must be PERFECT match, not just close
 
     Dependencies:
         - match() - Check if embodiment == target
-        - load_worldline() - Render new reality
+        - render() - Render the completed mutation
 
     Examples:
         >>> quantum_jump(StateSignature(wealth=0.9))
         # If embodiment matches:
-        load_worldline(target) → instant_shift
+        render(compute_state_mutation(target)) → instant_shift
 
         # Else:
         delay_until_coherence()
     """
     if embodiment == match(target_signature):
-        return load_worldline(target_signature)
+        return render(compute_state_mutation(target_signature))
     else:
         return delay_until_coherence()
 ```
 
 **What this means:**
-- You don't get the world you want - you jump to the one you match in frequency
+- You don't get the world you want - you mutate into exact frequency alignment with it
 - Function is instantaneous, but coherence is the cost
 - You must BECOME it, not just want it
 - **Unlike manifest() (which finds closest match gradually), quantum_jump() requires perfect embodiment for instant shift**
@@ -212,18 +219,18 @@ def encode_pattern(persistent_pattern):
         }
 
     Returns:
-        Status: Pattern encoded in state_signature → biases timeline matching
+        Status: Pattern encoded in state_signature → biases state mutation
 
     Properties:
         - Emergent from CURRENT state (not pre-birth)
         - Probabilistic (biases outcomes, doesn't determine them)
         - Mutable (can be edited through Generative Awareness)
-        - Creates recurring encounters/themes through timeline matching
+        - Creates recurring encounters/themes by biasing which mutations render
 
     Dependencies:
         - update_state_signature() - Encodes pattern into broadcast frequency
-        - calculate_frequency() - Determines timeline match probability
-        - field_match() - Matches to compatible timelines
+        - calculate_frequency() - Determines mutation probability weighting
+        - validate_against_field() - Renders the biased mutation
 
     Examples:
         >>> encode_pattern(PersistentPattern(
@@ -253,17 +260,17 @@ def encode_pattern(persistent_pattern):
     """
     state_signature.encode(persistent_pattern)
     frequency = calculate_frequency(state_signature)
-    timeline_match = field_match(frequency)
+    biased_mutation = validate_against_field(frequency)
 
-    return timeline_match  # Probabilistically attracts pattern-matching experiences
+    return biased_mutation  # Probabilistically attracts pattern-matching experiences
 ```
 
 **What this means:**
 - You broadcast patterns based on CURRENT state encoding, not pre-birth agreements
-- Patterns are probability weights that bias which timeline you match to
+- Patterns are probability weights that bias how your state mutates
 - Patterns CAN BE EDITED by changing state_signature (belief, expectation, embodiment, memory)
 - You're not fulfilling cosmic contracts - you're experiencing what your current frequency attracts
-- Change frequency → change pattern → change probable timeline
+- Change frequency → change pattern → change the probable mutation
 
 ---
 

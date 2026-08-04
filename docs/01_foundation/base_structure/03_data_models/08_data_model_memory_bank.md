@@ -479,6 +479,7 @@ def check_capacity_and_prune(memory_bank: MemoryBank) -> None:
 - [Memory Compression & Pruning](../../../04_advanced/advanced_concepts/23_memory_compression_pruning.md) for complete compression/pruning mechanics
 - [System Resource Allocation](../../../04_advanced/advanced_concepts/20_system_resource_allocation.md) for storage costs
 - [Perceptual Sampling Rate](../../../04_advanced/advanced_concepts/19_perceptual_sampling_rate.md) for what enters memory
+- [The Grip Mechanism](../../../04_advanced/advanced_concepts/24_grip_mechanism.md) - why charge-heavy memories hold on, and the four ways to actually release one (charge-based storage here is the same mechanism as Entanglement's relationship formula)
 
 ---
 

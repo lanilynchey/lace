@@ -34,7 +34,7 @@ heal(trauma="original wound that created need")
 # 6. Manifest new pattern
 manifest(new_state_signature)
 # Broadcast updated frequency
-# Match to healthier worldline
+# Mutate toward healthier state
 
 # Result: Loop broken, new pattern established
 ```
@@ -92,8 +92,8 @@ new_sig = StateSignature(
 
 # 8. Call manifest
 manifest(new_sig)
-# System finds worldline match at frequency 0.75
-# Loads timeline with "dream job" events
+# System computes mutation at frequency 0.75
+# Renders state with "dream job" events
 
 # 9. Watch for synchronicities
 synchronicity(agent)
@@ -110,7 +110,7 @@ else:
 # Result: Career transition manifests through "synchronistic" events
 ```
 
-**Key Insight:** Manifestation isn't magical - it's frequency matching. Must BECOME the state (embodiment) to match the worldline.
+**Key Insight:** Manifestation isn't magical - it's frequency-driven mutation. Must BECOME the state (embodiment) for the mutation to render.
 
 ---
 

@@ -47,7 +47,7 @@ fear_cascade = [
 ]
 
 # Fear generates catastrophic future simulations
-time_projection = simulate_timelines(future, filter="worst_case")
+time_projection = simulate_futures(future, filter="worst_case")
 ```
 
 ---
@@ -156,8 +156,8 @@ future_orientation = absent
 
 **hope()** - CRITICAL LOW
 ```python
-timeline_collapse = True
-future_timelines_visible = 0
+future_perception_collapse = True
+probable_futures_visible = 0
 
 "Will I ever feel normal again?" → answer feels like "no"
 "Can I be happy alone?" → answer feels like "no"

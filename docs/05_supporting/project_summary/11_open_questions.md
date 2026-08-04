@@ -11,7 +11,7 @@ These are areas where LACE continues to develop understanding:
 ## **Implementation Questions**
 - [Answered - See MANIFESTATION_ENGINE.md] What's the actual formula for state_signature()?
 - [Answered - See MANIFESTATION_ENGINE.md, BASE_STRUCTURE.md] How is "coherence" quantified computationally?
-- [Answered - See BASE_STRUCTURE.md] What data structure represents a "worldline"?
+- [Answered - See BASE_STRUCTURE.md] What data structure represents an agent's state trajectory?
 - [Partially Addressed] How is probability collapse modeled?
 
 ## **Scope Questions**

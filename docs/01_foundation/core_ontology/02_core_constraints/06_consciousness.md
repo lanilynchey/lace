@@ -218,7 +218,7 @@ How does observation enable modification?
 - **Belief editing:** Recognize "I'm unworthy" belief → trace inheritance → rewrite to "I'm learning"
 - **Pattern interruption:** See loop (fear → avoidance → fear) → insert new function (fear → presence → integration)
 - **Somatic reprogramming:** Notice body holds scarcity encoding → practice embodying abundance → recompile state_signature
-- **Timeline shifting:** Recognize current worldline trajectory → adjust frequency → match to preferred timeline
+- **Trajectory redirection:** Recognize current trajectory → adjust frequency → mutate toward preferred state
 - **Manifestation mastery:** Understand you're broadcasting → align belief+expectation+embodiment → coherent signal → rapid materialization
 
 **Generative Awareness ≠ God Mode:**

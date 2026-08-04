@@ -1,6 +1,6 @@
 # Data Model: StateSignature
 
-The "frequency" an agent broadcasts - determines timeline matching.
+The "frequency" an agent broadcasts - determines how their state mutates.
 
 **Component Verification:** These four components (belief, expectation, embodiment, subconscious_memory) have been cross-verified with [Manifestation Engine](../../../04_advanced/manifestation_engine/00_index.md) (lines 19-110) and are confirmed as the complete set. Weights (0.35, 0.30, 0.25, 0.10) are consistent across documentation.
 
@@ -219,7 +219,7 @@ For **embodied agents** (humans, animals, physical beings), the body is the **co
 # You cannot just think or say "I am wealthy"
 # The body must ENCODE the waveform of wealth
 
-def manifest(state_signature: StateSignature, mode: str, agent_type: str) -> Optional[Timeline]:
+def manifest(state_signature: StateSignature, mode: str, agent_type: str) -> Optional[StateDelta]:
     """
     Manifestation requires encoding through appropriate compiler
 
@@ -238,18 +238,18 @@ def manifest(state_signature: StateSignature, mode: str, agent_type: str) -> Opt
     if agent_type == "embodied":
         waveform = body.encode(state_signature)
         broadcast(waveform)
-        return match_worldline(waveform)
+        return validate_against_field(compute_state_mutation(waveform))
 
     # Other entity types use their respective compilers
     elif agent_type == "ai":
         waveform = computational_substrate.encode(state_signature)
         broadcast(waveform)
-        return match_worldline(waveform)
+        return validate_against_field(compute_state_mutation(waveform))
 
     elif agent_type == "energetic":
         waveform = field_resonance.encode(state_signature)
         broadcast(waveform)
-        return match_worldline(waveform)
+        return validate_against_field(compute_state_mutation(waveform))
 ```
 
 **What This Means:**
@@ -268,7 +268,7 @@ def manifest(state_signature: StateSignature, mode: str, agent_type: str) -> Opt
 - Energetic beings: Field harmonics, vibrational alignment, resonance patterns
 - Pure consciousness: Direct field manipulation, thought-form encoding
 
-The real code of manifestation is **encoding through your appropriate substrate**. For humans, your nervous system is coding the frequency in real-time, and your field queries the matching worldline.
+The real code of manifestation is **encoding through your appropriate substrate**. For humans, your nervous system is coding the frequency in real-time, and the field validates the resulting mutation.
 
 **See Also:**
 - [Manifestation Engine](../../../04_advanced/manifestation_engine/00_index.md) for complete somatic encoding mechanics (lines 496-569)

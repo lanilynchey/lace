@@ -10,7 +10,7 @@
 | 4. repetition_loop() | memory() [Tier 2], consciousness() [Tier 1] | Encode into system through sustained attention | [Tier 2 Forces](../../../02_forces/tier_2_forces/00_index.md) - memory(), [Tier 1 Forces](../../../02_forces/tier_1_forces/00_index.md) - consciousness() |
 | 5. energetic_request() | creation() [Tier 2] | Broadcast state_signature to field | [Tier 2 Forces](../../../02_forces/tier_2_forces/00_index.md) - creation() |
 | 6. delay_buffer() | law_delay() [System Law], karma() [Tier 2] | Coherence check + karmic constraint gating | [System Laws](../../../03_mechanics/system_laws/00_index.md) - law_delay(), [Tier 2 Forces](../../../02_forces/tier_2_forces/00_index.md) - karma() |
-| 7. deliver_outcome() | time() [Tier 2], polarity() [Tier 1] | Timeline shift execution + form crystallization | [Tier 2 Forces](../../../02_forces/tier_2_forces/00_index.md) - time(), [Tier 1 Forces](../../../02_forces/tier_1_forces/00_index.md) - polarity() |
+| 7. deliver_outcome() | time() [Tier 2], polarity() [Tier 1] | State mutation execution + form crystallization | [Tier 2 Forces](../../../02_forces/tier_2_forces/00_index.md) - time(), [Tier 1 Forces](../../../02_forces/tier_1_forces/00_index.md) - polarity() |
 
 **Forces That Can Interfere:**
 - **fear() [Tier 3]** - Can block or distort signal at encoding step (step 2) by triggering safety mechanisms

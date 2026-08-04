@@ -118,10 +118,10 @@ strength = entanglement_strength(agent_a, agent_b)
 # strength = 1 - (0.03 / 0.1) = 0.97  # Very strong!
 ```
 
-## Timeline Matching
+## State Mutation
 
 ```python
-# Agent wants to shift timeline
+# Agent wants to mutate toward a new state
 target_state = StateSignature(
     belief=0.9,
     expectation=0.85,
@@ -133,21 +133,20 @@ target_frequency = target_state.frequency  # 0.825
 
 # Check if accessible
 if agent.state_signature.coherence >= COHERENCE_MINIMUM:  # 0.4
-    # Generate possibility space
     context = {
         "location": agent.location,
         "karma": agent.karma_balance,
         "permissions": agent.access_level
     }
 
-    # Find match
-    new_timeline = match_worldline(target_frequency, context)
+    # Compute and validate the mutation
+    mutation = compute_state_mutation(agent.state_signature, target_state, agent.state_signature.coherence)
+    validated = validate_against_field(mutation, agent)
 
-    if new_timeline:
-        print(f"Timeline shift available: {new_timeline.worldline_id}")
-        print(f"Frequency match: {new_timeline.frequency}")
+    if validated:
+        print(f"Mutation available, target frequency: {target_frequency}")
     else:
-        print("No accessible timeline at target frequency")
+        print("No accessible mutation at target frequency")
 else:
     print("Coherence too low - manifestation blocked")
 ```
@@ -163,7 +162,7 @@ check_permission_elevation(agent)
 
 # Temporary permission granted
 print(agent.permissions.temporary_permissions)
-# [("expanded_read", 3600)]  # Can read karma/timelines for 1 hour
+# [("expanded_read", 3600)]  # Can read karma/others' trajectories for 1 hour
 
 # While elevated, agent can access more
 if "expanded_read" in [p for p, _ in agent.permissions.temporary_permissions]:

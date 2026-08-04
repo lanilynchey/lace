@@ -732,7 +732,7 @@ def collective_healing(agent: Agent):
 
 Field-partitioning isn't fixed. Two established mechanisms allow it:
 
-- **Within a lifetime:** [Persistent Patterns](../../../04_advanced/advanced_concepts/02_persistent_patterns/02_what_are_persistent_patterns.md) - healing changes state_signature frequency, which changes which field/timeline you match to.
+- **Within a lifetime:** [Persistent Patterns](../../../04_advanced/advanced_concepts/02_persistent_patterns/02_what_are_persistent_patterns.md) - healing changes state_signature frequency, which changes which field/collective your state mutates toward.
 - **Across lifetimes:** [Levels of Reincarnation](../../../04_advanced/advanced_concepts/03_reincarnation/11_levels_of_reincarnation.md) - consciousness and karma at death determine regression, cycling, ascension to guide-level, or merger with Source.
 
 **Examples:** Immigrating to a new culture (switching cultural fields), consciousness expansion (cultural → universal field), cults (narrowing to a subgroup field).
@@ -822,19 +822,19 @@ collective_field_strengthens → enables(individual_evolution)
 
 **Individual manifestation:**
 ```python
-agent.state_signature.broadcast() → match_worldline(field)
+agent.state_signature.broadcast() → validate_against_field(compute_state_mutation())
 ```
 
 **Collective manifestation:**
 ```python
 collective_coherence = average([agent.state_signature for agent in humanity])
-collective_coherence.broadcast() → match_collective_worldline(field)
-# Creates "consensus reality" timeline
+collective_coherence.broadcast() → validate_against_field(compute_state_mutation())
+# Creates "consensus reality"
 ```
 
 **Why individual manifestation sometimes fails:**
-- Your frequency doesn't match desired timeline
-- BUT collective frequency might override (pulled into consensus timeline)
+- Your frequency doesn't align with the desired mutation
+- BUT collective frequency might override (pulled into consensus reality instead)
 - High consciousness can override collective (but requires strong coherence)
 
 **Working with collective:**

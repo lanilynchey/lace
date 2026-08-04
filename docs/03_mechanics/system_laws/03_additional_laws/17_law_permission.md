@@ -208,7 +208,7 @@ def manifest(desire: Desire) -> bool:
 abilities_by_level = {
     1: ["meditation", "prayer", "intention_setting"],
     2: ["shadow_work", "belief_reprogramming", "perspective_shifts"],
-    3: ["healing_touch", "synchronicity_mastery", "timeline_hopping"],
+    3: ["healing_touch", "synchronicity_mastery", "trajectory_redirection"],
     4: ["reality_editing", "law_bending", "dimensional_access"],  # Creator only
 }
 # Progress through levels via coherence development

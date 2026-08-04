@@ -2,7 +2,7 @@
 
 **Key Distinction:**
 - **memory()** [Tier 2 force] = individual agent's **local** memory (MemoryBank stored in agent instance)
-- **Akashic Archive** = **universal** memory (all agents, all lifetimes, all timelines)
+- **Akashic Archive** = **universal** memory (all agents, all lifetimes, the one shared reality's full history)
 
 ```python
 # Local vs. Universal Memory

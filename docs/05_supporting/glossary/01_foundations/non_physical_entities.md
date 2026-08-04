@@ -132,9 +132,9 @@ Many "alien" encounters may be interactions with non-physical entities rather th
 ### **Non-Physical Entities (Field Resonance Compiler)**
 - Used by: Guides, master-level entities, regressed entities, Source
 - Consciousness executes through field manipulation
-- Can operate across multiple locations/timelines
+- Can operate across multiple locations at once
 - Immune to death() (no body to degrade)
-- Less dense sensory input, more timeline perception
+- Less dense sensory input, more direct field perception (less throttled by `Tau`/perceptual sampling rate)
 
 ---
 

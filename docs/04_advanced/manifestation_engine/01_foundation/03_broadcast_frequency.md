@@ -8,7 +8,7 @@ def calculate_broadcast_frequency(state_signature):
     Weighted sum of state components = your vibrational output
 
     Returns:
-        float: 0-1 frequency that queries the field
+        float: 0-1 frequency used to compute your state mutation, validated by the field
     """
     return (
         state_signature.belief * 0.35 +

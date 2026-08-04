@@ -30,7 +30,7 @@ if signal_incoherent():
 
 **What this means:**
 - Conflicting frequencies cancel each other
-- System can't match to a single worldline
+- System can't compute a coherent mutation
 - Request is discarded as noise
 
 **Example:**
@@ -270,7 +270,7 @@ safety_block = removed_instantly
 - Sustained meditation practice (usually years)
 - Ability to enter and maintain quantum stillness
 - No ego resistance (complete surrender)
-- See [Function Library](../../function_library/00_index.md):839-869 - edit_timeline() for mechanics
+- See [Function Library](../../function_library/00_index.md):839-869 - edit_trajectory() for mechanics
 
 **Key Insight:** You don't need manifestation success to update the safety program. Multiple pathways exist:
 - Micro-wins build safety evidence incrementally

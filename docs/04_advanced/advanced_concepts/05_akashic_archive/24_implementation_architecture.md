@@ -83,7 +83,7 @@ class AkashicImplementation:
 # Indexing System
 akashic_indexing = {
     "primary_key": "soul_id",  # Persistent across incarnations
-    "secondary_index": "timeline_id",  # Which worldline event occurred in
+    "secondary_index": "instance_id",  # Which incarnation event occurred in
     "tertiary_index": "force_signature",  # What forces were active
     "query_method": "frequency_matching",  # Broadcast query, receive resonant records
 }

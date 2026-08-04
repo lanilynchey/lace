@@ -1,23 +1,21 @@
-# Data Model: Timeline / Worldline
+# Data Model: StateTrajectory
 
-A possible experiential path through reality.
+**Revision note:** This document previously modeled reality as many pre-existing "worldlines" that agents matched/jumped between. It has been rewritten around a single continuously-mutating reality instead - see [`working/timeline_model_revision.md`](../../../../working/timeline_model_revision.md) for the full reasoning. The rest of the framework has since been brought in line with this model; this file remains the canonical reference for the `StateTrajectory` schema and terminology.
+
+The single, actual path an agent's state has taken through reality - not one of many possible paths.
 
 ```python
-class Timeline:
-    """A possible worldline - one potential reality path"""
-
-    # Identity
-    worldline_id: UUID
-    frequency: float           # Vibrational signature
+class StateTrajectory:
+    """The record of what actually happened, plus what's currently computing next"""
 
     # Contents
-    events: List[Event]        # Key moments in this timeline
-    probability: float         # Likelihood given current state (0-1)
-    coherence: float           # Internal consistency (0-1)
+    events: List[Event]                          # Key moments in this trajectory
+    projection_confidence: float                  # Likelihood currently-computing next state resolves as projected (0-1)
+    coherence: float                              # Internal consistency (0-1)
 
     # Relationships
-    branches_from: Optional[UUID]      # Parent timeline
-    branches_to: List[UUID]            # Possible futures
+    previous_state: Optional[UUID]                # Prior point in this same trajectory
+    projected_next: Optional[StateProjection]     # Single continuously-updating projection, not a menu of alternatives
 
     # Metadata
     dimensionality: int        # How many dimensions agent perceives
@@ -25,107 +23,99 @@ class Timeline:
 ```
 
 **Key Insight:**
-- Infinite timelines exist simultaneously
-- You don't "create" your timeline - you **match** to one
-- Manifestation = jumping to adjacent timeline with higher coherence
+- There is one reality; this is the record of your actual path through it
+- You don't "match" to a pre-existing path - your state mutations *are* the path, computed directly
+- Manifestation = a state mutation becoming rendered/perceptible, not a jump to a different pre-existing timeline
 
-## Timeline Matching Protocol
+## State Mutation Protocol
 
-How agents connect to worldlines based on frequency (probabilistic model):
+How an agent's state actually changes, given intention and coherence (probabilistic, not deterministic):
 
 ```python
-def match_worldline(agent_frequency: float, coherence: float, context: Dict) -> Timeline:
+def compute_state_mutation(current_state: StateSignature, intention: Intention, coherence: float) -> StateDelta:
     """
-    Find probabilistic frequency match in worldline space
+    Compute how current state mutates given intention
 
-    Matching is PROBABILISTIC, not deterministic:
-    - High coherence = narrow distribution (almost deterministic)
-    - Low coherence = wide distribution (scattered, unpredictable)
-    - Accounts for manifestation variance and uncertainty
+    Mutation is PROBABILISTIC, not deterministic:
+    - High coherence = narrow distribution (outcome nearly certain)
+    - Low coherence = wide distribution (scattered, unpredictable outcome)
+    - Accounts for entropy() injection and manifestation variance
 
     Args:
-        agent_frequency: Agent's calculated state_signature frequency (0-1)
+        current_state: Agent's current state_signature
+        intention: What the agent is oriented toward
         coherence: Agent's internal signal alignment (0-1)
-        context: Current location, permissions, karma, persistent patterns
 
     Returns:
-        Timeline probabilistically matched to agent's frequency
+        StateDelta representing the computed mutation
 
     Algorithm:
-        1. Generate possibility space (all accessible timelines given context)
-        2. Filter by permission level (can't access restricted worldlines)
-        3. Calculate probability weights using Gaussian distribution
-        4. Return probabilistically selected timeline (weighted by frequency proximity)
+        1. Determine candidate mutation space (consistent with current state + intention)
+        2. Filter by permission level (can't mutate into restricted states)
+        3. Calculate mutation using Gaussian distribution centered on intended target
+        4. Return the computed mutation (variance narrowed by coherence)
     """
-    # Generate accessible worldlines
-    worldlines = generate_possibility_space(context)
-
-    # Filter by permissions
-    viable = [w for w in worldlines if w.access_requirement <= agent.access_level]
-
     # Calculate variance based on coherence
-    # Higher coherence = lower variance = tighter distribution
+    # Higher coherence = lower variance = tighter distribution around intended outcome
     base_variance = 0.1  # Base noise level
     sigma = base_variance / (1 + coherence)  # Coherence narrows distribution
 
-    # Calculate probability weights (Gaussian distribution)
-    probability_weights = []
-    for w in viable:
-        freq_diff = w.frequency - agent_frequency
-        weight = exp(-((freq_diff)**2) / (2 * sigma**2))
-        probability_weights.append(weight)
+    # Sample the actual mutation from a distribution centered on the intended target
+    delta = sample_gaussian(mean=intention.target_state, sigma=sigma)
 
-    # Normalize weights
-    total_weight = sum(probability_weights)
-    normalized_weights = [w / total_weight for w in probability_weights]
+    # Filter against permission level
+    if not within_permission(delta, agent.access_level):
+        delta = clamp_to_permitted(delta)
 
-    # Probabilistically select timeline
-    selected = random.choice(viable, weights=normalized_weights)
-
-    return selected
+    return delta
 ```
 
-**Matching Behavior:**
-- **Probabilistic matching** (not exact deterministic)
-- High coherence (0.9) → very tight distribution (almost deterministic)
+**Mutation Behavior:**
+- **Probabilistic outcome** (not exact deterministic) - the same underlying math as before, just describing how far the *actual* outcome lands from the *intended* one, not which pre-existing timeline gets selected
+- High coherence (0.9) → very tight distribution (outcome nearly certain)
 - Moderate coherence (0.6) → moderate spread (some variance)
-- Low coherence (0.3) → wide distribution (scattered manifestation)
-- Most likely match = closest frequency, but variance possible
+- Low coherence (0.3) → wide distribution (scattered outcome)
+- Most likely outcome = closest to intended target, but variance possible
 
-## Timeline Stickiness
+## Trajectory Inertia
 
-How hard is it to jump timelines?
+How hard is it to redirect an ongoing trajectory?
 
 ```python
-def calculate_stickiness(agent: Agent, current_timeline: Timeline) -> float:
+def calculate_inertia(agent: Agent, current_trajectory: StateTrajectory) -> float:
     """
-    Stickiness = resistance to timeline shifting
+    Inertia = resistance to a trajectory changing direction
 
-    Formula: stickiness = inhabitance_duration * emotional_investment
+    Formula: inertia = duration_in_pattern * emotional_investment
 
     Properties:
-    - Longer in timeline → harder to shift
-    - Higher emotional attachment → stronger inertia
-    - Fresh incarnation → low stickiness (easy to shift)
-    - Trauma bonding → very high stickiness (stuck in loop)
+    - Longer sustained pattern → harder to redirect
+    - Higher emotional attachment → stronger resistance
+    - Fresh pattern → low inertia (easy to redirect)
+    - Trauma-bonded pattern → very high inertia (stuck in loop)
+
+    Note: This is the same formula as grip strength in
+    The Grip Mechanism (attention_focus × emotional_power) - duration in
+    a pattern is a proxy for sustained attention. Same mechanism, applied
+    to trajectory direction instead of a specific memory or relationship.
     """
-    duration = time_in_timeline(agent, current_timeline)  # seconds
-    investment = emotional_attachment_level(agent, current_timeline)  # 0-1
+    duration = time_in_pattern(agent, current_trajectory)  # seconds
+    investment = emotional_attachment_level(agent, current_trajectory)  # 0-1
 
-    stickiness = (duration / 86400) * investment  # Normalize by days
-    return stickiness
+    inertia = (duration / 86400) * investment  # Normalize by days
+    return inertia
 
 
-def shift_difficulty(current_stickiness: float, frequency_delta: float) -> str:
+def redirect_difficulty(current_inertia: float, mutation_magnitude: float) -> str:
     """
-    Determine how difficult a timeline shift will be
+    Determine how difficult a trajectory redirection will be
 
     Returns: "easy", "moderate", "difficult", or "requires_major_event"
     """
-    difficulty_score = current_stickiness * frequency_delta
+    difficulty_score = current_inertia * mutation_magnitude
 
     if difficulty_score < 0.1:
-        return "easy"  # Fresh in timeline, small shift
+        return "easy"  # Fresh pattern, small redirection
     elif difficulty_score < 0.3:
         return "moderate"  # Requires intention and coherence
     elif difficulty_score < 0.6:
@@ -135,43 +125,48 @@ def shift_difficulty(current_stickiness: float, frequency_delta: float) -> str:
 ```
 
 **Key Properties:**
-- Fresh incarnation = low stickiness (reality is malleable)
-- Long inhabitance + attachment = high stickiness (reality feels solid)
-- Large frequency shifts = harder than small adjustments
-- Trauma creates "stickiness loops" (hardest to escape)
+- Fresh pattern = low inertia (trajectory is malleable)
+- Long duration + attachment = high inertia (trajectory feels fixed)
+- Large intended mutations = harder than small adjustments
+- Trauma creates inertia loops (hardest to redirect) - see [The Grip Mechanism](../../../04_advanced/advanced_concepts/24_grip_mechanism.md) for the release pathways
 
-## Worldline Branching Mechanics
+## Choice Points
 
-Timelines branch at **choice points** - moments where free will creates divergence.
+Choice points are moments where free will directs which mutation actually occurs.
 
 ```python
-# When a branch occurs:
-def create_branch(parent_timeline: Timeline, choice: Decision) -> Timeline:
+def choice_point(agent: Agent, decision: Decision, trajectory: StateTrajectory) -> StateDelta:
     """
-    Timelines branch at free will moments
+    Choice does NOT branch reality - it determines which single mutation
+    actually happens. Unchosen options are never instantiated; they have
+    no ontological status. See free_will_code_authorship() - freedom is
+    sequential self-authorship (can't change this moment's choice, can
+    change how you respond going forward), not selection among branches.
 
-    Branch triggers:
+    Trigger conditions (same moments that would have "branched" under
+    the old model - now simply moments of higher mutation-magnitude):
     - Significant decision (high karma weight)
-    - Quantum measurement (observer collapse)
+    - Quantum measurement (observer collapse - see law_observation())
     - Grace intervention (system override)
-    - Collective field shift (group manifestation)
+    - Collective field shift (see update_cycles.md - collective_field.readiness)
     """
-    new_timeline = Timeline(
-        worldline_id=generate_id(),
-        frequency=calculate_new_frequency(choice),
-        branches_from=parent_timeline.worldline_id
+    mutation = compute_state_mutation(
+        current_state=agent.state_signature,
+        intention=decision.chosen_intention,
+        coherence=agent.state_signature.coherence
     )
 
-    parent_timeline.branches_to.append(new_timeline.worldline_id)
+    trajectory.events.append(Event(decision, mutation, timestamp=now()))
+    trajectory.previous_state = trajectory.current_state_id
 
-    return new_timeline
+    return mutation
 ```
 
 **Key Properties:**
-- Each decision creates new branch; old path remains accessible
-- Quantum mechanics: observer measurement = branch point
-- All branches exist simultaneously in superposition
-- Agent experiences ONE branch but can shift between adjacent timelines
+- Each decision produces one mutation; nothing else is instantiated
+- Quantum mechanics: observer measurement = mutation-determining event, not a branch point
+- There is one trajectory; it has one actual history
+- The agent experiences the single trajectory that is actually occurring - there is no "other branch" to shift between, only a different mutation that could have been chosen and wasn't
 
 ---
 

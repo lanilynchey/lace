@@ -9,7 +9,7 @@ The computational lens isn't just philosophical - it's practical. Here are appli
 - Simulate frequency if you take path A vs path B
 - Compare coherence levels in each scenario
 - Identify which forces would activate (desire? fear? obligation?)
-- Predict timeline match probability
+- Predict the probable state mutation
 
 **Status:** Concept validated; detailed methodology to be developed in dedicated document
 
@@ -34,7 +34,7 @@ The computational lens isn't just philosophical - it's practical. Here are appli
 - Identify incoherence: "I say 'abundant' but my body encodes 'scarcity'"
 - Apply soma as compiler: adjust embodiment first (body must match words)
 - Rebroadcast coherent frequency
-- Verify timeline matching
+- Verify the mutation renders coherently
 
 **Status:** See MANIFESTATION_ENGINE.md for technical details; application guide in development
 

@@ -6,7 +6,7 @@
 tier_2_implications = {
     "time()": {
         "default": "Linear progression, fixed frame rate",
-        "with_mastery": "Slow/accelerate perception, edit timelines, access past/future",
+        "with_mastery": "Slow/accelerate perception, edit trajectory, access past/future",
         "method": "Extreme presence, altered states, quantum stillness",
     },
 

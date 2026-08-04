@@ -164,7 +164,7 @@ def energetic_request(signal):
     return broadcast(signal, field)
 ```
 
-This is where your frequency actually queries the worldline database.
+This is where your frequency actually gets validated against the shared Field (see [Field Validation Mechanism](../03_mechanics/10_field_querying.md)).
 
 ---
 
@@ -194,8 +194,8 @@ Physical world adjusts to match
 ```python
 def deliver_outcome(signal):
     """Render in material plane"""
-    worldline_shift = match_frequency(signal)
-    return render(worldline_shift)
+    state_mutation = compute_state_mutation(signal)
+    return render(state_mutation)
 ```
 
 **Examples:**

@@ -65,7 +65,7 @@ All agents exist on consciousness spectrum (0.0-1.0) and use different compilers
 ---
 
 ## **State Signature**
-**Definition:** Encoded self-state that determines timeline matching and manifestation
+**Definition:** Encoded self-state that determines how state mutates and manifestation renders
 
 **Components:**
 - Belief (what you assume is true)
@@ -83,7 +83,7 @@ All agents exist on consciousness spectrum (0.0-1.0) and use different compilers
 **Definition:** Vibrational signature broadcasted by agent's state_signature
 
 **Properties:**
-- Determines timeline matching
+- Determines how state mutates
 - Ranges 0-1 (low coherence to high coherence)
 - Can shift as agent evolves/heals/regresses
 - Compatibility = small frequency difference between agents

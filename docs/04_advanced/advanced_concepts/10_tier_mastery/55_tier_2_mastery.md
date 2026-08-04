@@ -14,7 +14,7 @@
 **1. Time Manipulation (working with Τ)**
 - **Flow state cultivation** - High coherence slows Tau subjectively
 - **Presence practice** - Expand "now" awareness (5-10 min daily)
-- **Timeline shifting** - Consciously choose responses to "jump" branches
+- **Trajectory redirection** - Consciously choose responses that redirect where the state mutates next
 - **Result:** Subjective time control, ability to "slow down" critical moments
 
 **2. Karma Transmutation**

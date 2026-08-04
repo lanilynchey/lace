@@ -13,15 +13,15 @@ pattern_abandonment = PersistentPattern(
     ),
     origin="trauma",
     probability_weight=0.75,  # Strong bias
-    manifestation_frequency=0.48,  # Matches to low-frequency timelines
+    manifestation_frequency=0.48,  # Mutates toward low-frequency outcomes
     mutable=True,  # CAN be healed
     resistance_level=0.7  # Difficult but not impossible
 )
 
 # How it works:
 # Your state_signature broadcasts frequency 0.48
-# Manifestation engine queries worldline database
-# Returns timelines where abandonment themes are probabilistically likely
+# Manifestation engine computes mutation probability
+# Returns outcomes where abandonment themes are probabilistically likely
 # You experience "I keep attracting people who leave"
 # Feels like destiny → Actually probability bias from current trauma encoding
 ```
@@ -31,7 +31,7 @@ pattern_abandonment = PersistentPattern(
 # Heal trauma → reduce subconscious_memory (0.8 → 0.3)
 # Update beliefs → increase belief (0.3 → 0.7)
 # New frequency: (0.7*0.35 + 0.6*0.30 + 0.6*0.25 + 0.3*0.10) = 0.62
-# Engine now matches DIFFERENT timelines
+# Engine now mutates state toward DIFFERENT outcomes
 # Pattern broken via state editing, not "contract completion"
 ```
 
@@ -58,14 +58,14 @@ pattern_unavailable = PersistentPattern(
 # Why this keeps happening:
 # NOT because you "signed a contract to learn about love"
 # BUT because your current state broadcasts 0.52 frequency
-# Which probabilistically matches timelines where:
+# Which probabilistically mutates your state toward outcomes where:
 #   - Partners are emotionally unavailable
 #   - Relationships reinforce "not worthy" belief
 #   - Pattern gets reinforced (recursion loop)
 
 # Free will is preserved:
 # You can CHOOSE to heal the wound (Generative Awareness)
-# Healing changes your broadcast → different matches
+# Healing changes your broadcast → different mutation outcomes
 # No pre-fate, just probability + current state
 ```
 

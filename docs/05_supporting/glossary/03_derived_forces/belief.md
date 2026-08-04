@@ -19,7 +19,7 @@ constant_thought → belief → emotion → manifestation → individual_reality
 1. constant_thought: Repeated mental pattern (conscious or unconscious)
 2. belief: Pattern solidifies into assumed truth about reality
 3. emotion: Belief generates Tier 3 force activation (desire, fear, hope, etc.)
-4. manifestation: Emotion drives action/coherence shift → worldline selection
+4. manifestation: Emotion drives action/coherence shift → state mutation
 5. individual_reality: Constant manifestation creates persistent patterns → lived experience
 ```
 
@@ -110,7 +110,7 @@ def change_belief(old_belief):
 - ❌ "Beliefs are permanent" - all beliefs can be repatterned with sustained effort
 - ❌ "Positive thinking = positive beliefs" - beliefs require deeper integration than surface thoughts
 - ✅ beliefs are FILTERS through which you experience reality, not reality itself
-- ✅ changing beliefs changes experience, which can change worldline trajectory
+- ✅ changing beliefs changes experience, which can redirect your trajectory
 
 ---
 

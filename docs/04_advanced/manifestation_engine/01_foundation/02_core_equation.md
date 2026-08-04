@@ -1,6 +1,6 @@
 ## Core Equation: State Signature
 
-Your **state_signature** is the encoded self-state that determines which timeline you match.
+Your **state_signature** is the encoded self-state that determines how you mutate and what renders.
 
 ```python
 state_signature = (

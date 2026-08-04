@@ -28,13 +28,13 @@ New Age spirituality often lacks formal structure and testability. LACE provides
 
 **✅ Correct:**
 - creation() requires: clear intention + coherent action + TIME
-- Constraints: physical laws, coherence requirements, timeline delays
-- Manifestation is worldline selection, not reality fabrication
+- Constraints: physical laws, coherence requirements, mutation delays
+- Manifestation is state mutation, not reality fabrication
 - Most creation unfolds temporally (see time() + creation() interaction)
 - Coherence gap between current state and desired state determines difficulty
 
 **Reality Check:**
-You can't manifest a million dollars instantly if your current coherence is misaligned. creation() operates within physics - you're selecting timelines, not violating thermodynamics.
+You can't manifest a million dollars instantly if your current coherence is misaligned. creation() operates within physics - you're mutating state, not violating thermodynamics.
 
 ---
 

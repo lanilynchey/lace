@@ -22,7 +22,7 @@ broadcast_frequency = (0.4*0.35) + (0.3*0.30) + (0.3*0.25) + (0.9*0.10)
 **Why current state fails:**
 - Conscious desire: "I want loving relationship"
 - Unconscious broadcast: Fear, abandonment, unworthiness (0.395 frequency)
-- Field matches to: Abandonment-reinforcing relationship
+- Field validates a mutation toward: Abandonment-reinforcing relationship
 
 **Solution Stack:**
 
@@ -83,7 +83,7 @@ new_frequency = (0.8*0.35) + (0.6*0.30) + (0.8*0.25) + (0.2*0.10)
 # = 0.28 + 0.18 + 0.20 + 0.02 = 0.68 (HIGH)
 
 manifest(new_state)
-# Field returns match: secure attachment relationship
+# Field validates and renders: secure attachment relationship
 # Synchronicity: Meet person at coherence-matching frequency
 ```
 
@@ -184,7 +184,7 @@ new_frequency = (0.875*0.35) + (0.8*0.30) + (0.9*0.25) + (0.15*0.10)
 # = 0.306 + 0.24 + 0.225 + 0.015 = 0.786 (HIGH)
 
 manifest(optimized_state)
-# Field returns matches:
+# Field validates and renders:
 # - Unexpected money (windfall, gift, refund)
 # - Opportunity (raise, client, investment)
 # - Synchronicity (right person, right time, right offer)

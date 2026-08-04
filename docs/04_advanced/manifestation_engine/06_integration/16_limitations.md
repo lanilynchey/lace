@@ -55,17 +55,17 @@ manifest("fast sports car")  # ALLOWED - known concept
 **6. Outcomes Beyond Permission Level**
 ```python
 if agent.permissions.exec == "restricted":
-    manifest("timeline editing")  # REJECTED - insufficient permissions
+    manifest("direct reality architecture editing")  # REJECTED - insufficient permissions
 # Why: See "Permission Levels" in this doc and FUNCTION_LIBRARY.md
 # Permissions unlock with coherence increase
 ```
 
 ### **CAN Manifest (Within Constraints):**
 
-**1. Matching Worldlines Within Physics**
+**1. Mutating State Within Physics**
 ```python
 manifest("perfect health")  # ALLOWED
-# Shifts to worldline where body heals within biological possibility
+# Computes a mutation where body heals within biological possibility
 ```
 
 **2. Synchronicities That Align Wills**

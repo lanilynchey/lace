@@ -13,12 +13,12 @@ say("I am wealthy")
 embody(wealth_pattern)
 # → Body encodes frequency
 # → Field receives clean signal
-# → Matching worldline renders
+# → Matching mutation renders
 ```
 
 ### **Somatic Encryption**
 
-**Your body is coding the frequency, and your field is querying the matching worldline.**
+**Your body is coding the frequency, and the field validates the resulting mutation.**
 
 ```python
 def somatic_encryption(desired_state):
@@ -30,7 +30,7 @@ def somatic_encryption(desired_state):
         2. Body encodes matching frequency
         3. Nervous system stabilizes
         4. Broadcast occurs
-        5. Field matches worldline
+        5. Field validates the computed mutation
 
     Required Body States for Common Desires:
         - Wealth: Safe, expanded, unhurried, worthy
@@ -43,7 +43,7 @@ def somatic_encryption(desired_state):
         waveform = body.encode(desired_state)
         stabilize(nervous_system)
         broadcast(waveform)
-        return match_worldline(waveform)
+        return validate_against_field(compute_state_mutation(waveform))
     else:
         return null  # Body cannot encode = no manifestation
 ```
@@ -55,21 +55,21 @@ def somatic_encryption(desired_state):
 - Breath shallow
 - Muscles tense
 - → Encodes threat frequency
-- → Matches threatening worldline
+- → Renders a threatening mutation
 
 **Confidence:**
 - Body expands
 - Breath deep
 - Posture open
 - → Encodes safety frequency
-- → Matches abundant worldline
+- → Renders an abundant mutation
 
 **Trauma (Frozen):**
 - Body immobile
 - Breath held
 - Dissociation active
 - → Encodes repetition loop frequency
-- → Matches familiar pain worldline
+- → Renders a familiar-pain mutation (see [The Grip Mechanism](../../advanced_concepts/24_grip_mechanism.md) for why this repeats)
 
 ---
 

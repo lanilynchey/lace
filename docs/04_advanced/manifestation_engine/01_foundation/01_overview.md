@@ -10,7 +10,7 @@
 
 **Manifestation is not wishful thinking. It's computational frequency matching.**
 
-Your state_signature broadcasts a frequency. The field matches you to a worldline of similar vibration. Experience is the rendering of that matched timeline.
+Your state_signature broadcasts a frequency. That frequency determines how your state mutates, and the field validates the mutation before it renders. Experience is the rendering of that mutation - not a jump to a different pre-existing timeline.
 
 This document contains the complete technical implementation of how manifestation works.
 
@@ -69,7 +69,7 @@ thought: "I am building financial freedom" (clear direction)
 → Result: High-power, targeted manifestation
 ```
 
-**Integration Note:** These three components feed into your **state_signature** (belief + expectation + embodiment + subconscious_memory), which broadcasts the frequency that matches you to worldlines.
+**Integration Note:** These three components feed into your **state_signature** (belief + expectation + embodiment + subconscious_memory), which broadcasts the frequency that determines how your state mutates.
 
 **See Also:**
 - [Core Equation](02_core_equation.md) - state_signature components
@@ -90,13 +90,13 @@ When an agent's state_signature remains static for prolonged periods (pattern en
 # Normal manifestation:
 state_signature = calculate(belief, expectation, embodiment, subconscious_memory)
 broadcast_frequency = state_signature.frequency
-matched_worldline = field_query(broadcast_frequency)
+computed_mutation = validate_against_field(broadcast_frequency)
 # Result: Aligned reality manifestation
 
 # Stagnant manifestation:
 state_signature = static_pattern  # No variance over time
 broadcast_frequency = repetitive_signal  # Same frequency repeatedly
-matched_worldline = stale_timeline  # Already exhausted possibilities
+computed_mutation = stale_repetition  # Already exhausted this pattern
 # Result: "Stuck in a loop" - same experiences repeat
 ```
 
@@ -104,7 +104,7 @@ matched_worldline = stale_timeline  # Already exhausted possibilities
 
 1. **Same experiences repeating** - Different faces, same patterns
 2. **Manifestations feel hollow** - Get what you want, but it doesn't satisfy
-3. **Timelines feel predetermined** - Loss of agency, "going through the motions"
+3. **Your trajectory feels predetermined** - Loss of agency, "going through the motions"
 4. **Low novelty despite effort** - Trying new things that feel like old things
 5. **Emotional flatness** - Neither peaks nor valleys in experience
 
@@ -114,7 +114,7 @@ When stagnation threshold is crossed, **law_variance_minimum()** triggers forced
 
 - **Breaks repetitive broadcast patterns** - Forced frequency shift
 - **Introduces novelty to state_signature** - Disrupts static components
-- **Opens new worldline possibilities** - Expands manifestation potential
+- **Opens new mutation possibilities** - Expands manifestation potential
 - **Restores oscillation** - Re-enables genuine choice and variance
 
 **The Paradox:** What appears as "bad luck" or "unwanted disruption" is often the system correcting stagnation to restore manifestation capacity.

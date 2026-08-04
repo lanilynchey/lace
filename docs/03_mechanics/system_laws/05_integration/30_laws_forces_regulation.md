@@ -261,7 +261,7 @@ misconception = "Grace breaks law_causality()"
 
 reality = {
     "grace": "Operates via quantum jump (dimensional shift)",
-    "causality_still_holds": "Cause: grace invoked → Effect: timeline shifted",
+    "causality_still_holds": "Cause: grace invoked → Effect: trajectory redirected",
     "not_violation": "Different causal pathway, not causality erasure",
 }
 

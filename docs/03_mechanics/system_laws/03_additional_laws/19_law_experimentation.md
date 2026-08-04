@@ -120,7 +120,7 @@ manifestation_tests = {
     "synchronicity_generation": "Test: Can I attract specific events?",
     "intention_setting": "Test: Does clear intention speed manifestation?",
     "frequency_matching": "Test: Shift inner state, observe outer shift",
-    "timeline_hopping": "Test: Can I access alternate probabilities?",
+    "trajectory_redirection": "Test: Can I consciously redirect which probable outcome renders?",
 }
 
 # Results vary by coherence level

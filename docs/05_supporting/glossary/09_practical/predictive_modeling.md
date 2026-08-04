@@ -2,7 +2,7 @@
 
 ## **Predictive Modeling**
 
-**Definition:** Using LACE to model potential futures by simulating state_signature shifts and calculating resulting timeline matches
+**Definition:** Using LACE to model potential futures by simulating state_signature shifts and calculating the resulting state mutation
 
 **Methodology (Conceptual):**
 ```python
@@ -24,10 +24,10 @@ def predict_outcome(current_state, proposed_change):
     new_frequency = encode(proposed_signature)
     new_coherence = calculate_coherence(proposed_signature)
 
-    # 4. Model timeline match
-    probable_timeline = field_match(new_frequency, new_coherence)
+    # 4. Model the state mutation
+    probable_outcome = validate_against_field(new_frequency, new_coherence)
 
-    return probable_timeline  # What you'd likely experience
+    return probable_outcome  # What you'd likely experience
 ```
 
 **Practical Example:**

@@ -83,12 +83,12 @@ StateSignature
   └─ subconscious_memory (0.0-1.0)
   → Broadcasts as frequency via soma (body as compiler)
 
-Timeline
-  ├─ worldline_id
-  ├─ frequency
+StateTrajectory
   ├─ events
+  ├─ projection_confidence
   ├─ coherence
-  └─ probability
+  ├─ previous_state
+  └─ projected_next
 
 FieldState
   ├─ coherence_level
@@ -109,11 +109,11 @@ FieldState
 **Akashic Archive** (universal memory system)
 - Field-based distributed storage model
 - Frequency-gated access (not universally readable)
-- Encodes all events, states, and patterns across all timelines
+- Encodes all events, states, and patterns of the one shared reality
 
-**Manifestation Engine** (state signature → timeline matching)
+**Manifestation Engine** (state signature → state mutation)
 - Complete mechanics documented in MANIFESTATION_ENGINE.md
-- Soma as compiler, probabilistic matching, coherence requirements
+- Soma as compiler, probabilistic mutation outcome, coherence requirements
 
 ---
 

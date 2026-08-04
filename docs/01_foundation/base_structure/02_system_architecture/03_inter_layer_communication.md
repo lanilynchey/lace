@@ -20,9 +20,9 @@ How the five layers interact and pass information.
 ┌─────────────────────────────────────────────────────────────────┐
 │  MIDDLEWARE (Layer 2)                                           │
 │  ↓ processes state_signature                                    │
-│  ↓ queries timeline database                                    │
-│  ↓ calculates frequency match                                   │
-│  ↓ routes to appropriate worldline                              │
+│  ↓ validates against the Field                                  │
+│  ↓ calculates frequency alignment                                │
+│  ↓ renders the computed mutation                                 │
 └─────────────────────────────────────────────────────────────────┘
                           ↓
 ┌─────────────────────────────────────────────────────────────────┐
@@ -63,30 +63,30 @@ target_frequency = frequency_of("financial_abundance")  # 0.75
 
 # Check coherence
 if agent.state_signature.coherence >= COHERENCE_MINIMUM:
-    # Find matching timeline
-    timeline = match_worldline(target_frequency, agent.context)
+    # Compute the mutation
+    mutation = compute_state_mutation(target_frequency, agent.context)
 else:
     return "MANIFESTATION_FAILED: Insufficient coherence"
 
 # 4. KERNEL (Layer 1) - Law validation
-if violates_karma(timeline):
+if violates_karma(mutation):
     return "DENIED: Karmic debt outstanding"
 
-if violates_causality(timeline):
-    return "DENIED: Timeline branch not accessible from current state"
+if violates_causality(mutation):
+    return "DENIED: Mutation not reachable from current state"
 
 # Log attempt
-akashic_logger.log(agent.soul_id, "manifestation_attempt", timeline.worldline_id)
+akashic_logger.log(agent.soul_id, "manifestation_attempt", mutation)
 
 # 5. BIOS (Layer 0) - Constant validation
-if timeline.frequency > agent.max_frequency:  # Based on soul maturity
+if mutation.frequency > agent.max_frequency:  # Based on soul maturity
     return "DENIED: Frequency exceeds agent capability"
 
 # 6. APPROVED - Execute transition
-execute_timeline_shift(agent, timeline)
+render(mutation)
 
 # 7. RESPONSE FLOWS BACK
-# Kernel confirms shift
+# Kernel confirms mutation
 # Middleware updates field state
 # Userspace renders new reality
 # Agent experiences manifestation
@@ -111,7 +111,7 @@ if grace_protocol_applicable(agent):
 
 # BIOS: (No involvement unless fundamental law suspension needed)
 
-# RESPONSE: Healing manifests through timeline shift + body update
+# RESPONSE: Healing manifests through state mutation + body update
 ```
 
 ## Layer Access Patterns

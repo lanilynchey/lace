@@ -21,7 +21,7 @@
 - Distributed storage
 - Accessible at elevated permission levels
 - Uploads on death() protocol
-- Contains all timelines, all choices, all experiences
+- Contains the single reality's full history: all events, all choices, all experiences
 
 **See:** ADVANCED_CONCEPTS.md for deeper exploration
 
@@ -38,11 +38,11 @@
 - Not deterministic—biases probability, doesn't eliminate choice
 
 **How It Works:**
-If your state_signature contains trauma patterns around abandonment, you'll probabilistically match timelines where abandonment themes recur—not because you "agreed" to this before birth, but because that's the frequency you're currently broadcasting.
+If your state_signature contains trauma patterns around abandonment, your state will probabilistically mutate toward abandonment themes recurring—not because you "agreed" to this before birth, but because that's the frequency you're currently broadcasting.
 
 **Example:** "I keep attracting unavailable partners" = persistent pattern in state_signature, not pre-fated soul contract
 
-**LACE's Position:** Things are **probable**, not pre-fated. Your encoded patterns bias which timeline you experience, but free will and pattern editing remain possible.
+**LACE's Position:** Things are **probable**, not pre-fated. Your encoded patterns bias how your state mutates, but free will and pattern editing remain possible.
 
 **See Also:** ADVANCED_CONCEPTS.md Section 1 (lines 24-272) - Complete explanation of persistent patterns vs soul contracts distinction, PRIMITIVES.md (Elo primitive), MANIFESTATION_ENGINE.md (state_signature)
 

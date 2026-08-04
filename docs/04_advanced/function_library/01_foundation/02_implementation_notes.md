@@ -1,6 +1,6 @@
 ## Implementation Notes
 
-This document uses **pseudo-code** to illustrate function logic. Helper functions (encrypt(), find_closest_worldline(), transmute(), etc.) represent:
+This document uses **pseudo-code** to illustrate function logic. Helper functions (encrypt(), compute_target_alignment(), transmute(), etc.) represent:
 
 1. **Internal utilities** - Lower-level operations (implementation details for Phase 2)
 2. **Force interactions** - Some are shorthand for force operations documented in INTERACTION_MECHANICS.md
@@ -16,7 +16,7 @@ This document uses **informal typing** appropriate for Phase 1 conceptual docume
 **Defined Types** (see [Base Structure](../../../01_foundation/base_structure/00_index.md)):
 - `Agent` - Conscious entity
 - `StateSignature` - Encoded self-state
-- `Timeline` - Worldline path
+- `StateTrajectory` - The single actual path taken
 - `Event` - Occurrence
 
 **Informal Types** (Phase 2 will formalize):

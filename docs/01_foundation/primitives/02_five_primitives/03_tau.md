@@ -49,7 +49,7 @@ Time in LACE has TWO components:
 1. **Objective Time** - Physical processes that occur regardless of observation (trees grow, stars burn, entropy increases)
 2. **Subjective Time** - Observer-relative rendering based on state_signature and consciousness level
 
-**LACE's Position:** Every version of you exists NOW across different timelines. What changes is which version you're experiencing based on your current state_signature. Physical time progresses (aging, decay), but experiential time is rendered per observer.
+**LACE's Position:** There is one you, on one continuously-mutating trajectory - not multiple pre-existing versions across parallel timelines. What varies is how densely you sample Tau's pulse (your `consciousness_bandwidth`), which changes how that single trajectory *feels* to move through. Physical time progresses (aging, decay), but experiential time is rendered per observer.
 
 **How Tau Varies Between Observers:**
 
@@ -81,7 +81,7 @@ Time in LACE has TWO components:
 - LACE interpretation: Mass affects consciousness field → also affects Tau rendering (subjective effect)
 - Both objective spacetime curvature AND subjective consciousness state modify time experience
 
-**Implication:** There is no single "universal now"—only local renderings of temporal progression. The universe has an objective timeline (physical causality), but consciousness renders it differently based on state.
+**Implication:** There is no single "universal now"—only local renderings of temporal progression. The universe has one objective trajectory (physical causality), but consciousness renders it differently based on state.
 
 ---
 

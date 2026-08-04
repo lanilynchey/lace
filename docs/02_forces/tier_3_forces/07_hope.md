@@ -32,8 +32,8 @@ def hope(agent: Agent) -> ExpandedField:
 
     Primitive Foundation:
         - Built from Τ (Tau) + χ (Chi) + Φ (Phi)
-        - hope() = Multiple timelines + Conscious expansion + Pattern possibilities
-        - Tau enables multi-timeline modeling (simultaneous future paths)
+        - hope() = Widened future-possibility perception + Conscious expansion + Pattern possibilities
+        - Tau enables multi-outcome modeling (simultaneous probable future paths, projected but not yet rendered)
         - Chi expands consciousness to perceive more possibilities
         - Phi structures potential outcome patterns
         - See [Primitives](../../01_foundation/primitives/00_index.md) for primitive specifications
@@ -67,7 +67,7 @@ despair = time_horizon → 0  # "No future worth living"
 # With hope, time horizon extends
 hope = time_horizon → ∞     # "Good things are possible"
 
-# Hope literally opens access to more timelines
+# Hope literally opens access to more of the field's probable next-states
 ```
 
 ## **Hope vs. Denial**

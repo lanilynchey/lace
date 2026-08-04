@@ -215,6 +215,12 @@ Attention is not consciousness "in focused mode." Attention is the **allocation 
 
 **You don't just have attention. You ARE attention occurring - selecting reality moment by moment.**
 
+## Attention's Role in Grip
+
+Attention's "captured" mode (see Modes of Attention, above) is the mechanism behind why memories, relationships, and habits hold onto you - grip strength is `attention_focus × emotional_power`, and release requires actually reducing attention capture, not just deciding to stop caring.
+
+**See:** [The Grip Mechanism](../../04_advanced/advanced_concepts/24_grip_mechanism.md) for the complete unified treatment.
+
 ---
 
 **Previous:** [06_polarity.md](06_polarity.md) | **Next:** [08_interaction_matrix.md](08_interaction_matrix.md)

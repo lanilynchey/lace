@@ -39,13 +39,13 @@ class GraceProtocol:
 
         Effects:
             - Karma cancelled (mirrored action not returned)
-            - Timeline edited (past rewritten)
+            - Trajectory edited (a past pattern's grip released so completely it feels rewritten)
             - Healing accelerated (wounds transmute instantly)
             - Doors opened (impossible becomes possible)
         """
         if all_conditions_met:
             cancel_karma()
-            edit_timeline()
+            edit_trajectory()
             accelerate_healing()
             open_doors()
             return miracle_rendered

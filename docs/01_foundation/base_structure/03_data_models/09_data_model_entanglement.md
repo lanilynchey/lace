@@ -286,6 +286,9 @@ entanglement = Entanglement(
 # Impact: You're affected by their public actions/state, they cannot be affected by you
 ```
 
+**See Also:**
+- [The Grip Mechanism](../../../04_advanced/advanced_concepts/24_grip_mechanism.md) - `entanglement_strength_coefficient` generalized past relationships to memories and habits; the same formula, same migration mechanics, same four release pathways
+
 ---
 
 **Previous:** [08_data_model_memory_bank.md](08_data_model_memory_bank.md) | **Next:** [10_data_model_location_imprint.md](10_data_model_location_imprint.md)

@@ -135,7 +135,7 @@ agent.identity = "I am my beliefs"
 when thought("I'm worthless"):
     agent.believes("I AM worthless")  # Total identification
     agent.feels(shame_automatically)
-    agent.manifests(low_value_timeline)
+    agent.manifests(low_value_mutation)
 
     # Agent has no control - IS the thought
     agent.control_over_thoughts = False
@@ -158,7 +158,7 @@ when thought("I'm worthless"):
     generative_awareness.generates("I am learning and growing")
 
     agent.feels(hope_from_new_thought)
-    agent.manifests(growth_timeline)
+    agent.manifests(growth_mutation)
 
     # Agent has control - DIRECTS thoughts
     agent.control_over_thoughts = True
@@ -444,7 +444,7 @@ random_thought("I might fail") → automatic
   → unconscious_repetition() → automatic
     → belief("I'm a failure") → automatic
       → emotion(fear, shame) → automatic
-        → manifestation(failure_timeline) → automatic
+        → manifestation(failure_mutation) → automatic
 
 # Agent has no control - passenger in own life
 ```
@@ -462,7 +462,7 @@ thought("I might fail") → observed by generative_awareness
   → conscious_repetition("I am learning") → chosen
     → belief("I can grow") → consciously formed
       → emotion(hope, courage) → follows chosen thought
-        → manifestation(growth_timeline) → consciously directed
+        → manifestation(growth_mutation) → consciously directed
 
 # Agent has control - driver of own life
 ```

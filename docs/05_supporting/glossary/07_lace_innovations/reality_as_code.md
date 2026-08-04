@@ -19,7 +19,7 @@ This is LACE's central ontological claim (not metaphor or analogy). Reality genu
 - Forces are functions that operate on state
 - Laws are immutable protocols
 - Agents are self-aware processes
-- Manifestation is state → timeline matching
+- Manifestation is state → state mutation
 - Death is process termination → data persistence
 - Reincarnation is process respawn with archived state
 

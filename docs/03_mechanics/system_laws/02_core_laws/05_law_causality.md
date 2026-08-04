@@ -32,7 +32,7 @@ def law_causality(event: Event) -> Event:
     Enforcement:
         - Nothing happens without cause
         - Effects are proportional to causes
-        - Timelines maintained via causal anchoring
+        - Trajectory integrity maintained via causal anchoring
     """
     if event.executed:
         log(event, akashic_record)
@@ -63,23 +63,9 @@ action → effect → amplifies(action) → larger_effect → ...
 [cause_a, cause_b, cause_c] → [effect_1, effect_2]
 ```
 
-### **Causal Editing**
-```python
-# Can you change the past?
-# No - but you can reinterpret causality
+### **On "Changing the Past"**
 
-# Option 1: Reframe meaning
-past_event.interpretation = new_meaning
-# Effect on present changes
-
-# Option 2: Forgiveness
-past_event.emotional_charge = 0
-# Causal link weakens
-
-# Option 3: Timeline jump
-quantum_jump(different_worldline)
-# Different causal history
-```
+You cannot change the past - causality holds, cause precedes effect, the event happened. What you *can* change is how much grip that past event has on your present. That mechanism (attention_focus × emotional_power, and the four ways to reduce it) isn't a causality question - it's covered in full at [The Grip Mechanism](../../../04_advanced/advanced_concepts/24_grip_mechanism.md).
 
 ### **Real-World Evidence**
 

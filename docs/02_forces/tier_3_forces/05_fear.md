@@ -158,7 +158,7 @@ fear() operates differently across consciousness levels - same threat-detection 
 - Hypervigilance (can't relax, ever)
 - Paranoia (everyone is threat)
 
-**Worldline-view through fear lens:**
+**Worldview through fear lens:**
 - "Life is frightening/evil/terrifying"
 - "I am not safe anywhere"
 - "Disaster is imminent"
@@ -194,7 +194,7 @@ fear() operates differently across consciousness levels - same threat-detection 
 - Manageable anxiety (can function despite worry)
 - Courage in action (feel fear, do it anyway)
 
-**Worldline-view through fear lens:**
+**Worldview through fear lens:**
 - "Threats exist but are manageable"
 - "I can protect myself"
 - "Not everything is dangerous"
@@ -230,7 +230,7 @@ fear() operates differently across consciousness levels - same threat-detection 
 - Facing fears for growth (exposure as practice)
 - Teaching others to work with fear
 
-**Worldline-view through fear lens:**
+**Worldview through fear lens:**
 - "Fear is information, not truth"
 - "Most fear is mind-created"
 - "Presence dissolves projected fear"
@@ -266,7 +266,7 @@ fear() operates differently across consciousness levels - same threat-detection 
 - Teaching from fearless presence (transmission)
 - No fear of fear (secondary fear dissolved)
 
-**Worldline-view through fear lens:**
+**Worldview through fear lens:**
 - "Fear is phenomenon occurring in awareness"
 - "I am not fear, I am the space in which fear arises"
 - "Life/death both perfect expressions of IS-ness"

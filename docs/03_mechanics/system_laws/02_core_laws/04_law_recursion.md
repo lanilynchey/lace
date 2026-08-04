@@ -85,6 +85,8 @@ def break_loop(pattern: Pattern) -> bool:
 - **Historical:** "Those who don't learn history repeat it"
 - **Spiritual:** Reincarnation, karmic lessons
 
+**See:** [The Grip Mechanism](../../../04_advanced/advanced_concepts/24_grip_mechanism.md) - this law explains why unresolved grip repeats; the four breaking-loop options above map onto that document's four release pathways.
+
 ---
 
 **Navigation:** [← law_entropy()](03_law_entropy.md) | [law_causality() →](05_law_causality.md)

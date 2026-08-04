@@ -18,26 +18,28 @@ def update_engine() -> None:
     """
     if collective_field.readiness >= COLLECTIVE_READINESS_THRESHOLD:
         reveal_to_collective(newly_recognized_laws, new_possibilities, new_dimensions)
-        shift_collective_timeline_branch()  # NOT a literal history rewrite - see "Key Distinction" below
+        expand_collective_recognition()  # NOT a literal history rewrite - see "Key Distinction" below
 ```
 
-## What This Means (Soft Ontological Interpretation)
+## What This Means (Single-Reality Interpretation)
 
-The universe operates like software with version control, but through timeline branching rather than literal retroactive changes:
+The universe operates as one continuously-running system with expanding collective access, not through branching or version-selection:
 
-- **Not static** - probability fields evolve, new timelines become accessible
-- **"Retroactive updates"** = Collective field collapses new probabilities into experience
-  - NOT changing past within a timeline
-  - BUT shifting which timeline branch collective consciousness inhabits
-  - Causality holds WITHIN timelines; "updates" = shifting between timelines
-- **Collective unlocks** - When enough agents are ready, new worldlines become accessible
-- **Non-linear deployment** - Updates don't follow chronological time (timelines exist simultaneously)
+- **Not static** - collective recognition expands; what's not yet recognized isn't a parallel thing waiting somewhere, it's simply not-yet-perceived
+- **"Retroactive updates"** = collective recognition reorganizes around newly-revealed truth
+  - NOT changing the past
+  - BUT changing how much of the one, fixed past/present collective consciousness has access to
+  - Causality holds absolutely; "updates" = revelation reaching more of the collective, never a change to what happened
+- **Collective unlocks** - when `collective_field.readiness` crosses threshold, previously un-recognized aspects of the one reality become accessible
+- **Non-linear deployment** - collective readiness can cross its threshold independent of any single agent's discovery timeline; it doesn't propagate at the pace of one person figuring something out
 
 **Key Distinction:**
 - NOT: "Past literally changes" (would violate law_causality)
-- BUT: "Collective consciousness shifts to timeline where different past was always true"
-- All timelines exist simultaneously; "updates" = transition between branches
-- Mandela effect = timeline shift, not retroactive rewriting
+- BUT: "Collective recognition catches up to a past/present that was always exactly what it was"
+- There is one reality; "updates" = more of it becoming collectively known
+- Mandela effect = collective field-cache drift, not a timeline shift (see below)
+
+**On the Mandela Effect specifically:** individual memory retrieval already relies partly on the shared field, not pure first-hand encoding (see `MemoryBank`, and `law_veil()`'s collective-scale operation above). If the field's stored version of some detail drifts - through the same lossy compression `law_symbolism()` already describes for any transmitted content, or through ordinary entropy - agents syncing to that field-copy inherit the same wrong detail. That's why the error correlates across unrelated people instead of behaving like independent random misremembering: it's shared-cache drift, not many people independently hallucinating the identical wrong fact. Nothing about the past changed; the field's cached copy of it degraded.
 
 ## Examples of System Updates
 
@@ -59,11 +61,11 @@ The universe operates like software with version control, but through timeline b
 ## How Updates Feel
 
 ```python
-# Before patch:
-reality.dimension_access = [1, 2, 3]  # 3D only
+# Before collective readiness threshold crossed:
+reality.dimension_access = [1, 2, 3]  # 3D recognized
 
-# After patch (retroactively installed):
-reality.dimension_access = [1, 2, 3, 4, 5]  # 5D unlocked
+# After collective readiness threshold crossed:
+reality.dimension_access = [1, 2, 3, 4, 5]  # 5D now recognized (was always there)
 
 # Agent experience:
 "Wait, was this always possible?"
@@ -71,15 +73,15 @@ reality.dimension_access = [1, 2, 3, 4, 5]  # 5D unlocked
 "The rules seem different now"
 ```
 
-## Why Retroactive Updates Work
+## Why Updates Feel Retroactive (Even Though Nothing Is)
 
-Time is not a fixed line - it's a **rendering variable**.
+Reality is not a finished book the Kernel reads from outside time. It is continuously being computed, right now, with nothing pre-written to look ahead into. `Kernel` (see [System Architecture](../02_system_architecture/02_system_architecture.md)) is infrastructure, not a conscious viewer - it has no "perspective," and nothing is sitting pre-completed for it to survey.
 
-From the kernel's perspective (outside time):
-- All moments exist simultaneously
-- Updates can be inserted at any "frame"
-- Agents experience them as sequential discoveries
-- The patch hits you "now," but was installed "upstream"
+What actually happens:
+- Kernel is the unthrottled execution layer producing state changes directly - not an observer of reality, the process generating it
+- Agents perceive at a rate-limited interval (see `Tau` / `perceptual_sampling_rate`) - Kernel has no such bottleneck, not because it sees everything at once, but because it isn't sampling anything; it's the source
+- Recognition reaches the collective once `collective_field.readiness` crosses threshold - not because the update was sitting pre-computed somewhere waiting, but because the threshold itself was just crossed, now
+- Nothing was "installed upstream" in a past frame - recognition simply becomes possible now, because readiness arrived now
 
 ## Implications
 

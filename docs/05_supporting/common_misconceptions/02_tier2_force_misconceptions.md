@@ -90,11 +90,11 @@ Your memory of an event is your CURRENT reconstruction of a PAST interpretation,
 - creation() requires: intention + coherence + ACTION + time
 - Can't violate physics or create from nothing
 - Coherence gap determines difficulty
-- Timeline delay inherent (most creation unfolds temporally)
-- "Manifesting partner" ≠ forcing specific person; it's selecting timeline where compatible partner exists
+- Mutation delay inherent (most creation unfolds temporally)
+- "Manifesting partner" ≠ forcing specific person; it's mutating your state so a compatible partner's presence becomes the coherent outcome
 
 **The Work:**
-creation() isn't magic - it's aligning your field (thoughts/emotions/actions) with desired pattern, then persistently acting until worldline converges. Coherence + action + patience.
+creation() isn't magic - it's aligning your field (thoughts/emotions/actions) with desired pattern, then persistently acting until the mutation converges. Coherence + action + patience.
 
 ---
 

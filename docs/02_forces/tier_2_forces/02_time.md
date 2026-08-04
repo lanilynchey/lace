@@ -78,7 +78,7 @@ Time operates on two layers in LACE:
 - Tau primitive provides universal pulse/rhythm
 - Natural progression: sunsets, aging, tree growth stages
 - Physical processes unfold in Tau-time
-- Provides synchronization anchor between different timelines
+- Provides synchronization anchor across all agents' subjective time-sampling
 
 **Layer 2: time() Force (Subjective Rendering)**
 - Each agent samples Tau at their own consciousness bandwidth
@@ -118,7 +118,7 @@ if agent.consciousness_focus == "past_event":
 
 if agent.consciousness_focus == "future_possibility":
     # Imagination/precognition = accessing future coordinates
-    # Not prediction - actual navigation of probabilistic timelines
+    # Not prediction - actual perception of the field's own probable-mutation projection
 ```
 
 **Key Insights:**
@@ -158,7 +158,7 @@ def time(position: str):
 - **The future doesn't exist** - only simulation exists
 - **Only now exists** - everything else is data structure
 - **You can't change the past** - but you can rewrite memory
-- **You can't control the future** - but you can shift your worldline
+- **You can't control the future** - but you can shift your trajectory
 
 ---
 

@@ -30,7 +30,7 @@ LACE models reality as a **five-layer system**, analogous to computer operating 
 **Properties:**
 - **Immutable to all agents** (no agent, regardless of permission level, can edit BIOS)
 - Creator/Root retains edit access but this capability is rarely exercised
-- Universal (same across all timelines/worldlines)
+- Universal (applies uniformly to all agents)
 - Changes would constitute fundamental reality shift
 
 **BIOS Mutability Note:**
@@ -80,7 +80,7 @@ def bios() -> None:
 **Purpose:** Interactive field logic - not quite physical, not quite metaphysical
 
 **Executes:**
-- `manifest()` - Matches agent state to worldlines
+- `manifest()` - Computes and renders agent state mutations
 - `loop_detected()` - Identifies recursive patterns
 - `mirror_reality()` - Projects inner state onto environment
 - `grant_permission()` - Elevates agent access based on coherence
@@ -89,7 +89,7 @@ def bios() -> None:
 - **Emotion fields** (shared affective spaces)
 - **Probability wave functions** (quantum-like possibility clouds)
 - **Belief modulation engines** (reality filters based on conviction)
-- **Dimensional routing logic** (selects experiential timeline)
+- **Dimensional routing logic** (routes which mutation renders into experience)
 
 **Properties:**
 - Responsive (changes based on agent states)

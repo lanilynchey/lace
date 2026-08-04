@@ -3,7 +3,7 @@
 ### **Level 1 Functions (Root Operations)**
 | Function | Primary Role | Key Dependency |
 |----------|-------------|----------------|
-| manifest() | Timeline matching | state_signature |
+| manifest() | State mutation | state_signature |
 | karma() | Action mirroring | charge() |
 | heal() | Trauma transmutation | presence |
 | time() | Access control | position |
@@ -17,7 +17,7 @@
 ### **Level 2 Functions (System Overrides)**
 | Function | Primary Role | Access Level |
 |----------|-------------|--------------|
-| edit_timeline() | Reality editing | Advanced |
+| edit_trajectory() | Reality editing | Advanced |
 | retrieve() | Past-self access | Advanced |
 | invoke_override() | Grace protocol | Rare |
 | quantum_jump() | Instant shift | Advanced |

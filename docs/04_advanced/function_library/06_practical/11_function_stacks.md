@@ -12,7 +12,7 @@ reprogram() [Level 2 function] - Dissolve limiting beliefs, install expansive
   ↓
 embody(target_state) - Rehearse new pattern somatically
   ↓
-manifest(state_signature) [Level 1 function] - Broadcast frequency, match worldline
+manifest(state_signature) [Level 1 function] - Broadcast frequency, compute mutation
   ↓
 synchronicity() [Level 1 function] - Watch for field guidance markers
   ↓
@@ -22,7 +22,7 @@ Rendered Reality Match
 ```
 
 **Usage Notes:**
-- manifest() runs continuously in background (always matching state to worldline)
+- manifest() runs continuously in background (always computing mutations from current state)
 - quantum_jump() is rare - only when embodiment perfectly matches target
 - synchronicity() confirms alignment throughout process
 

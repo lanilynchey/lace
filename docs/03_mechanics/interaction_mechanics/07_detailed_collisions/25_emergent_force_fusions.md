@@ -233,7 +233,7 @@ def anomalous_edge_hope_language(hopeful_state):
 
     Properties:
         - Poetry, prophecy, and fiction are forms of hopeful language
-        - They encode worldlines into syntax
+        - They encode future possibility into syntax
         - Without hope, language becomes descriptive only
         - With hope, it becomes generative
     """

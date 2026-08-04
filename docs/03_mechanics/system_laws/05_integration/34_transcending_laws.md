@@ -47,24 +47,24 @@ manifestation_process = {
 **At 5D+ Consciousness (non-linear/simultaneous time):**
 ```python
 manifestation_process = {
-    "all_timelines": exist_simultaneously,
-    "selection": choose_timeline_where_already_wealthy,
-    "shift": collapse_into_that_timeline,
+    "embodiment": perfect_match(target_signature),
+    "variance": collapses_to_near_zero,
+    "delay": compressed_to_near_zero,
     "manifestation": "instant" (from 3D perspective)
 }
 
 # law_delay() still exists, but:
-# In 5D, all moments are NOW
-# "Past" wealth-building already happened in selected timeline
+# In 5D, perceiving the field directly (not just Tau-sampled increments) means
+# the mutation's variance and rendering delay collapse toward zero at perfect coherence
 # From 3D perspective: instant manifestation
-# From 5D perspective: selecting pre-existing timeline
+# From 5D perspective: the delay was already paid in full coherence, not in waiting
 ```
 
-**Real-world reports:** Mystics describe "collapsing timelines," "quantum jumping," "instant manifestation." Not breaking law_delay() - **accessing a frame where delay is already complete**.
+**Real-world reports:** Mystics describe "collapsing timelines," "quantum jumping," "instant manifestation." Not breaking law_delay() - **accessing a frame where the delay itself collapses to near-zero, via `quantum_jump()`**.
 
 **The Mechanism:**
-- 3D: One timeline, linear progression (must wait)
-- 5D: All timelines exist, navigation possible (select timeline where waiting already happened)
+- 3D: Gradual mutation, linear progression (must wait for coherence to build)
+- 5D: Perfect coherence achievable directly, delay compresses toward zero (no pre-existing "already wealthy" version to select - the mutation itself completes almost instantly)
 - Law still enforced - but YOU moved across dimensions
 
 ---
@@ -102,7 +102,7 @@ causality_chain = {
 **Real-world reports:**
 - Healing "retroactively" (therapy that changes the MEANING of past events → changes their causal impact)
 - Quantum mechanics: Wheeler's delayed-choice experiment (future measurement affects past state)
-- Mystical traditions: Ancestral healing, timeline editing, karmic debt erasure
+- Mystical traditions: Ancestral healing, trajectory editing, karmic debt erasure
 
 **The Mechanism:**
 - 3D: Causality is linear arrow (A → B → C)

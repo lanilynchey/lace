@@ -22,7 +22,7 @@ This document has been organized into logical folders for easier navigation:
 ### **03_data_models/** (10 files)
 4. **[04_data_model_agent.md](03_data_models/04_data_model_agent.md)** - Agent structure
 5. **[05_data_model_state_signature.md](03_data_models/05_data_model_state_signature.md)** - StateSignature (frequency & coherence)
-6. **[06_data_model_timeline.md](03_data_models/06_data_model_timeline.md)** - Timeline/Worldline
+6. **[06_data_model_timeline.md](03_data_models/06_data_model_timeline.md)** - StateTrajectory
 7. **[07_data_model_field_state.md](03_data_models/07_data_model_field_state.md)** - FieldState
 8. **[08_data_model_memory_bank.md](03_data_models/08_data_model_memory_bank.md)** - MemoryBank
 9. **[09_data_model_entanglement.md](03_data_models/09_data_model_entanglement.md)** - Entanglement (field connections)

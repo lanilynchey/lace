@@ -78,7 +78,7 @@ if agent.state == hopeful:
     express(absent_realities)
 
 # Poetry, prophecy, fiction
-# Encoding worldlines that don't exist yet
+# Encoding possibilities that don't exist yet
 # Hope makes new words possible
 ```
 
