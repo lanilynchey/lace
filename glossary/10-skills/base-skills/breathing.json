@@ -1,0 +1,7 @@
+{
+  "id": "baseskill_breathing",
+  "name": "Breathing",
+  "is": "term",
+  "definition": "Taking air in and letting it out.",
+  "part_of": "body_base_skills"
+}

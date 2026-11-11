@@ -1,0 +1,7 @@
+{
+  "id": "surroundings_weather",
+  "name": "Weather",
+  "is": "term",
+  "definition": "What the sky and air are doing.",
+  "part_of": "surroundings_environment"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_dissatisfaction",
+  "name": "Dissatisfaction",
+  "is": "step",
+  "definition": "Not being content.",
+  "part_of": "",
+  "used_in": [
+    "chain_boredom"
+  ]
+}

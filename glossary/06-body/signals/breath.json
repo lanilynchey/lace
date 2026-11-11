@@ -1,0 +1,7 @@
+{
+  "id": "signal_breath",
+  "name": "Breath",
+  "is": "term",
+  "definition": "How you are breathing.",
+  "part_of": "body_body_signals"
+}

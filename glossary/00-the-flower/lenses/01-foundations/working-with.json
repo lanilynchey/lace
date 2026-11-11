@@ -1,0 +1,10 @@
+{
+  "id": "lens_working_with",
+  "name": "Working With",
+  "is": "term",
+  "definition": "It can't bloom in the dark. It grows toward whatever light there is.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_unbreakable_rules"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_satiety",
+  "name": "Satiety",
+  "is": "step",
+  "definition": "Being full.",
+  "part_of": "",
+  "used_in": [
+    "chain_hunger"
+  ]
+}

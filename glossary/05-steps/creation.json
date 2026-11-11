@@ -1,0 +1,11 @@
+{
+  "id": "step_creation",
+  "name": "Creation",
+  "is": "step",
+  "definition": "How Creation happens, step by step.",
+  "part_of": "",
+  "used_in": [
+    "chain_imagination"
+  ],
+  "opens": "chain_creation"
+}

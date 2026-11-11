@@ -1,0 +1,7 @@
+{
+  "id": "base_instance",
+  "name": "Instance",
+  "is": "term",
+  "definition": "One existence. Used instead of \"life.\"",
+  "part_of": "base_base_system"
+}

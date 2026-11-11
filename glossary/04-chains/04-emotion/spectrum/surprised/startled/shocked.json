@@ -1,0 +1,16 @@
+{
+  "id": "emotion_shocked",
+  "name": "Shocked",
+  "is": "emotion",
+  "definition": "Hit hard by something unexpected.",
+  "part_of": "emotion_startled",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_surprised",
+        "emotion_startled"
+      ]
+    }
+  ]
+}

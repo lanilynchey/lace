@@ -1,0 +1,13 @@
+{
+  "id": "step_goal",
+  "name": "Goal",
+  "is": "step",
+  "definition": "A desire made definite.",
+  "part_of": "",
+  "used_in": [
+    "chain_discipline",
+    "chain_ambition",
+    "chain_achievement"
+  ],
+  "opens": "chain_goal"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_pulled",
+  "name": "Pulled",
+  "is": "term",
+  "definition": "Something red in the grass pulls your eyes, and you're looking at a poppy.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "chain_attention"
+  ]
+}

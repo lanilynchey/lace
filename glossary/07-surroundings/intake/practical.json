@@ -1,0 +1,23 @@
+{
+  "id": "intake_practical",
+  "name": "Practical",
+  "is": "term",
+  "definition": "What you need to know to get things done.",
+  "part_of": "surroundings_intake",
+  "entries": [
+    "Laws",
+    "Policies",
+    "Contracts",
+    "Notices",
+    "Notifications",
+    "Instructions",
+    "Schedules",
+    "Prices",
+    "Menus",
+    "Labels",
+    "Receipts",
+    "Statements",
+    "Scores",
+    "Forecasts"
+  ]
+}

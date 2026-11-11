@@ -1,0 +1,18 @@
+{
+  "id": "chain_resilience",
+  "name": "Resilience",
+  "is": "chain",
+  "definition": "Coming back from an impact.",
+  "part_of": "chain_change",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "surroundings_impact",
+    "step_response",
+    "step_coping",
+    "step_adaptation",
+    "step_recovery",
+    "step_learning",
+    "step_growth"
+  ]
+}

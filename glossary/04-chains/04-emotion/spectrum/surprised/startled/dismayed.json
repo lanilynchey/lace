@@ -1,0 +1,16 @@
+{
+  "id": "emotion_dismayed",
+  "name": "Dismayed",
+  "is": "emotion",
+  "definition": "Upset by an unwelcome surprise.",
+  "part_of": "emotion_startled",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_surprised",
+        "emotion_startled"
+      ]
+    }
+  ]
+}

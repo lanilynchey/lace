@@ -1,0 +1,22 @@
+{
+  "id": "record_0002",
+  "chain": "chain_attention",
+  "moment": "A notification lands mid-sentence",
+  "steps": [
+    {
+      "step": "step_trigger",
+      "gate": 1,
+      "what": "Your phone buzzes while you are halfway through a sentence."
+    },
+    {
+      "step": "step_detection",
+      "gate": 1,
+      "what": "You register the buzz."
+    },
+    {
+      "step": "step_selection",
+      "gate": 0,
+      "what": "You keep your attention on the sentence."
+    }
+  ]
+}

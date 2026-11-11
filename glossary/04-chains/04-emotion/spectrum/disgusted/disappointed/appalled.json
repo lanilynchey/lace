@@ -1,0 +1,16 @@
+{
+  "id": "emotion_appalled",
+  "name": "Appalled",
+  "is": "emotion",
+  "definition": "Shocked by how wrong something is.",
+  "part_of": "emotion_disappointed",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_disgusted",
+        "emotion_disappointed"
+      ]
+    }
+  ]
+}

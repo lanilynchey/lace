@@ -1,0 +1,11 @@
+{
+  "id": "link_impact_sparks_resilience",
+  "name": "Impact sparks Resilience",
+  "is": "link",
+  "definition": "An impact starts Resilience at its Impact step.",
+  "part_of": "structure_sparks",
+  "from": "surroundings_impact",
+  "at": "",
+  "to": "chain_resilience",
+  "enters": "surroundings_impact"
+}

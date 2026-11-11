@@ -1,0 +1,10 @@
+{
+  "id": "step_regulation",
+  "name": "Regulation",
+  "is": "step",
+  "definition": "Bringing it back to a steady level.",
+  "part_of": "",
+  "used_in": [
+    "chain_arousal"
+  ]
+}

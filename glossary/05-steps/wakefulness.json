@@ -1,0 +1,10 @@
+{
+  "id": "step_wakefulness",
+  "name": "Wakefulness",
+  "is": "step",
+  "definition": "Being awake.",
+  "part_of": "",
+  "used_in": [
+    "chain_sleep"
+  ]
+}

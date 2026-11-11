@@ -1,0 +1,7 @@
+{
+  "id": "baseskill_listening",
+  "name": "Listening",
+  "is": "term",
+  "definition": "Taking in what someone else is saying.",
+  "part_of": "body_base_skills"
+}

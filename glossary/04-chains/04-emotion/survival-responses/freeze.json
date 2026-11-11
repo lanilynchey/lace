@@ -1,0 +1,7 @@
+{
+  "id": "response_freeze",
+  "name": "freeze",
+  "is": "term",
+  "definition": "Going still in front of the threat.",
+  "part_of": "chain_fear"
+}

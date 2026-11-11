@@ -1,0 +1,13 @@
+{
+  "id": "step_exposure",
+  "name": "Exposure",
+  "is": "step",
+  "definition": "Coming into contact with something.",
+  "part_of": "",
+  "used_in": [
+    "chain_belief_formation",
+    "chain_skill",
+    "chain_persuasion",
+    "chain_preference"
+  ]
+}

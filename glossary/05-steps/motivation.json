@@ -1,0 +1,13 @@
+{
+  "id": "step_motivation",
+  "name": "Motivation",
+  "is": "step",
+  "definition": "The drive to act.",
+  "part_of": "",
+  "used_in": [
+    "chain_action",
+    "chain_hope",
+    "chain_need"
+  ],
+  "opens": "chain_motivation"
+}

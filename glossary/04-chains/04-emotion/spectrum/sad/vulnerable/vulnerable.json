@@ -1,0 +1,15 @@
+{
+  "id": "emotion_vulnerable",
+  "name": "Vulnerable",
+  "is": "emotion",
+  "definition": "Open to being hurt.",
+  "part_of": "emotion_sad",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_sad"
+      ]
+    }
+  ]
+}

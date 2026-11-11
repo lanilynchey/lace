@@ -1,0 +1,10 @@
+{
+  "id": "step_fear",
+  "name": "Fear",
+  "is": "step",
+  "definition": "The emotion that rises when you sense danger.",
+  "part_of": "",
+  "used_in": [
+    "chain_fear"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "proximity_altered",
+  "name": "Altered",
+  "is": "term",
+  "definition": "A version of it that someone changed.",
+  "part_of": "intake_proximity",
+  "order": 3
+}

@@ -1,0 +1,13 @@
+{
+  "id": "emotion_surprised",
+  "name": "Surprised",
+  "is": "emotion",
+  "definition": "Caught off guard by something unexpected.",
+  "part_of": "emotions_emotional_spectrum",
+  "places": [
+    {
+      "level": "main",
+      "under": []
+    }
+  ]
+}

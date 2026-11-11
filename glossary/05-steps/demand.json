@@ -1,0 +1,10 @@
+{
+  "id": "step_demand",
+  "name": "Demand",
+  "is": "step",
+  "definition": "Something asked of you.",
+  "part_of": "",
+  "used_in": [
+    "chain_stress"
+  ]
+}

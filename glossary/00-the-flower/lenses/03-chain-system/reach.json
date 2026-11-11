@@ -1,0 +1,10 @@
+{
+  "id": "lens_reach",
+  "name": "Reach",
+  "is": "term",
+  "definition": "One person plants a garden, then the whole street does.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_chain_reach"
+  ]
+}

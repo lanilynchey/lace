@@ -1,0 +1,12 @@
+{
+  "id": "step_values",
+  "name": "Values",
+  "is": "step",
+  "definition": "What matters most to you.",
+  "part_of": "",
+  "used_in": [
+    "chain_legacy",
+    "chain_fulfillment"
+  ],
+  "opens": "chain_values"
+}

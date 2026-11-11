@@ -1,0 +1,15 @@
+{
+  "id": "emotion_tired",
+  "name": "Tired",
+  "is": "emotion",
+  "definition": "Low on energy.",
+  "part_of": "emotion_bad",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_bad"
+      ]
+    }
+  ]
+}

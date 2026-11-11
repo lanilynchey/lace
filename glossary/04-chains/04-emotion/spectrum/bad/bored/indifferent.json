@@ -1,0 +1,16 @@
+{
+  "id": "emotion_indifferent",
+  "name": "Indifferent",
+  "is": "emotion",
+  "definition": "Not caring either way.",
+  "part_of": "emotion_bored",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_bad",
+        "emotion_bored"
+      ]
+    }
+  ]
+}

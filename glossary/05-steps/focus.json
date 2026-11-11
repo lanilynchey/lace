@@ -1,0 +1,10 @@
+{
+  "id": "step_focus",
+  "name": "Focus",
+  "is": "step",
+  "definition": "Attention held on one thing.",
+  "part_of": "",
+  "used_in": [
+    "chain_attention"
+  ]
+}

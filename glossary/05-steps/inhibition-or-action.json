@@ -1,0 +1,20 @@
+{
+  "id": "step_inhibition_or_action",
+  "name": "Inhibition or Action",
+  "is": "step",
+  "definition": "Holding back, or acting.",
+  "part_of": "",
+  "used_in": [
+    "chain_impulse"
+  ],
+  "sides": [
+    {
+      "name": "Inhibition",
+      "then": "stops"
+    },
+    {
+      "name": "Action",
+      "then": "chain_action"
+    }
+  ]
+}

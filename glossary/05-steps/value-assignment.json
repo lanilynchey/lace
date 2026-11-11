@@ -1,0 +1,10 @@
+{
+  "id": "step_value_assignment",
+  "name": "Value Assignment",
+  "is": "step",
+  "definition": "Deciding how much something matters.",
+  "part_of": "",
+  "used_in": [
+    "chain_appreciation"
+  ]
+}

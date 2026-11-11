@@ -1,0 +1,10 @@
+{
+  "id": "lens_hail",
+  "name": "Hail",
+  "is": "term",
+  "definition": "Hail flattens the whole bed in one afternoon.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "surroundings_impact"
+  ]
+}

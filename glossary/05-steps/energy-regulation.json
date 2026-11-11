@@ -1,0 +1,11 @@
+{
+  "id": "step_energy_regulation",
+  "name": "Energy Regulation",
+  "is": "step",
+  "definition": "The body balancing energy taken in and energy spent.",
+  "part_of": "",
+  "used_in": [
+    "chain_hunger"
+  ],
+  "opens": "chain_energy_regulation"
+}

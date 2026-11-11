@@ -1,0 +1,10 @@
+{
+  "id": "step_perceived_wrong",
+  "name": "Perceived Wrong",
+  "is": "step",
+  "definition": "Seeing that someone did you wrong.",
+  "part_of": "",
+  "used_in": [
+    "chain_forgiveness"
+  ]
+}

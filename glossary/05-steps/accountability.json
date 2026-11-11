@@ -1,0 +1,11 @@
+{
+  "id": "step_accountability",
+  "name": "Accountability",
+  "is": "step",
+  "definition": "Answering for what you committed to.",
+  "part_of": "",
+  "used_in": [
+    "chain_commitment",
+    "chain_reconciliation"
+  ]
+}

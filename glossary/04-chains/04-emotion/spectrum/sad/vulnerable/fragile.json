@@ -1,0 +1,16 @@
+{
+  "id": "emotion_fragile",
+  "name": "Fragile",
+  "is": "emotion",
+  "definition": "Feeling easily broken.",
+  "part_of": "emotion_vulnerable",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_vulnerable"
+      ]
+    }
+  ]
+}

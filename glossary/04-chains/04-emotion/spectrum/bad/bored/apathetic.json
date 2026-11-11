@@ -1,0 +1,16 @@
+{
+  "id": "emotion_apathetic",
+  "name": "Apathetic",
+  "is": "emotion",
+  "definition": "Without the energy to care.",
+  "part_of": "emotion_bored",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_bad",
+        "emotion_bored"
+      ]
+    }
+  ]
+}

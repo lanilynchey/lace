@@ -1,0 +1,11 @@
+{
+  "id": "step_definition",
+  "name": "Definition",
+  "is": "step",
+  "definition": "Making it clear and exact.",
+  "part_of": "",
+  "used_in": [
+    "chain_goal",
+    "chain_design"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "need_needs",
+  "name": "Needs",
+  "is": "term",
+  "definition": "What you can't go without.",
+  "part_of": "chain_need",
+  "by_stake": [
+    {
+      "stake": "stake_survival",
+      "needs": [
+        "need_air",
+        "resource_food",
+        "resource_water",
+        "chain_sleep",
+        "need_warmth",
+        "need_shelter",
+        "step_safety"
+      ]
+    },
+    {
+      "stake": "stake_social",
+      "needs": [
+        "chain_belonging"
+      ]
+    },
+    {
+      "stake": "stake_self",
+      "needs": [
+        "chain_self_esteem"
+      ]
+    }
+  ],
+  "stake_order": [
+    "stake_survival",
+    "stake_social",
+    "stake_self"
+  ],
+  "met_by": [
+    "chain_hunger",
+    "chain_thirst",
+    "chain_sleep",
+    "chain_fatigue"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_novelty",
+  "name": "Novelty",
+  "is": "step",
+  "definition": "Something new to you.",
+  "part_of": "",
+  "used_in": [
+    "chain_curiosity"
+  ]
+}

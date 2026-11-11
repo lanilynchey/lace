@@ -1,0 +1,10 @@
+{
+  "id": "lens_break",
+  "name": "Break",
+  "is": "term",
+  "definition": "Pull it up, and the chain stops at any step.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_chain_break"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_growth",
+  "name": "Growth",
+  "is": "step",
+  "definition": "Becoming more than you were.",
+  "part_of": "",
+  "used_in": [
+    "chain_resilience"
+  ]
+}

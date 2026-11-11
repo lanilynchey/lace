@@ -1,0 +1,16 @@
+{
+  "id": "emotion_inspired",
+  "name": "Inspired",
+  "is": "emotion",
+  "definition": "Stirred to make or do something.",
+  "part_of": "emotion_optimistic",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_optimistic"
+      ]
+    }
+  ]
+}

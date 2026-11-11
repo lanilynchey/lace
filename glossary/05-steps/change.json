@@ -1,0 +1,11 @@
+{
+  "id": "step_change",
+  "name": "Change",
+  "is": "step",
+  "definition": "The steps of Chain Change.",
+  "part_of": "",
+  "used_in": [
+    "chain_transformation"
+  ],
+  "opens": "chain_change"
+}

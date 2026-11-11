@@ -1,0 +1,11 @@
+{
+  "id": "step_consistency",
+  "name": "Consistency",
+  "is": "step",
+  "definition": "Doing it the same way, every time.",
+  "part_of": "",
+  "used_in": [
+    "chain_routine",
+    "chain_commitment"
+  ]
+}

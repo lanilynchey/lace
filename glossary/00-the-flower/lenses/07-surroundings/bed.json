@@ -1,0 +1,10 @@
+{
+  "id": "lens_bed",
+  "name": "Bed",
+  "is": "term",
+  "definition": "A bed, a bouquet, a meadow: flowers are always part of a group.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "surroundings_groups"
+  ]
+}

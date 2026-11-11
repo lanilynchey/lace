@@ -1,0 +1,10 @@
+{
+  "id": "step_behavioural_adjustment",
+  "name": "Behavioural Adjustment",
+  "is": "step",
+  "definition": "Changing what you do in response.",
+  "part_of": "",
+  "used_in": [
+    "chain_fatigue"
+  ]
+}

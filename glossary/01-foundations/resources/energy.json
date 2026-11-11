@@ -1,0 +1,43 @@
+{
+  "id": "resource_energy",
+  "name": "Energy",
+  "is": "term",
+  "definition": "The supply your body runs on.",
+  "part_of": "base_system_resources",
+  "refilled_by": [
+    "need_needs"
+  ],
+  "depleted_by": [
+    {
+      "what": "chain_action",
+      "more_with": "step_effort"
+    },
+    {
+      "what": "emotions_emotion",
+      "more_with": "emotions_charge"
+    },
+    {
+      "what": "chain_stress",
+      "more_with": ""
+    }
+  ],
+  "low_from": "supply_worn",
+  "when_low": [
+    {
+      "what": "Worse decisions.",
+      "affects": "chain_decision"
+    },
+    {
+      "what": "A weaker hold on your feelings.",
+      "affects": "emotions_emotion_checkpoint"
+    },
+    {
+      "what": "More inner conflict.",
+      "affects": "rule_competing_chains"
+    },
+    {
+      "what": "Fatigue sets in.",
+      "affects": "chain_fatigue"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "chain_desire",
+  "name": "Desire",
+  "is": "chain",
+  "definition": "From wanting something to it coming true (or not).",
+  "part_of": "base_base_functions",
+  "kind": "chain",
+  "locked": true,
+  "steps": [
+    "step_desire",
+    "step_wish",
+    "step_visualization",
+    "emotions_emotion",
+    "step_belief",
+    "step_intention",
+    "step_alignment",
+    "step_action",
+    "step_persistence",
+    "step_outcome",
+    "step_reflection"
+  ]
+}

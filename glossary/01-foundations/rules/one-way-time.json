@@ -1,0 +1,7 @@
+{
+  "id": "rule_one_way_time",
+  "name": "One-Way Time",
+  "is": "rule",
+  "definition": "Time only goes one way.",
+  "part_of": "base_base_rules"
+}

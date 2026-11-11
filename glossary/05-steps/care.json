@@ -1,0 +1,10 @@
+{
+  "id": "step_care",
+  "name": "Care",
+  "is": "step",
+  "definition": "Looking after someone's wellbeing.",
+  "part_of": "",
+  "used_in": [
+    "chain_love"
+  ]
+}

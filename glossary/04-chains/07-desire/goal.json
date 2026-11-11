@@ -1,0 +1,18 @@
+{
+  "id": "chain_goal",
+  "name": "Goal",
+  "is": "chain",
+  "definition": "A desire made definite.",
+  "part_of": "chain_desire",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_desire",
+    "step_definition",
+    "step_intention",
+    "step_planning",
+    "step_action",
+    "step_monitoring",
+    "step_achievement_or_revision"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "link_survival_scan_tilts_perception",
+  "name": "Survival Scan tilts Perception",
+  "is": "link",
+  "definition": "Survival Scan changes how Perception runs at its Detection step.",
+  "part_of": "structure_tilts",
+  "from": "attention_survival_scan",
+  "at": "",
+  "to": "chain_perception",
+  "enters": "step_detection"
+}

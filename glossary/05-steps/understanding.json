@@ -1,0 +1,11 @@
+{
+  "id": "step_understanding",
+  "name": "Understanding",
+  "is": "step",
+  "definition": "Grasping something well enough to explain and use it.",
+  "part_of": "",
+  "used_in": [
+    "chain_communication"
+  ],
+  "opens": "chain_understanding"
+}

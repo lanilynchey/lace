@@ -1,0 +1,7 @@
+{
+  "id": "emotions_layered_emotion",
+  "name": "Layered Emotion",
+  "is": "term",
+  "definition": "An emotion towards an emotion (scared of being happy).",
+  "part_of": "emotions_emotion"
+}

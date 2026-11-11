@@ -1,0 +1,22 @@
+{
+  "id": "emotion_disappointed",
+  "name": "Disappointed",
+  "is": "emotion",
+  "definition": "Let down when something fell short of what you hoped.",
+  "part_of": "emotion_disgusted",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_hurt"
+      ]
+    },
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_disgusted"
+      ]
+    }
+  ]
+}

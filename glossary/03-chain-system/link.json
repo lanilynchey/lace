@@ -1,0 +1,7 @@
+{
+  "id": "structure_link",
+  "name": "Link",
+  "is": "term",
+  "definition": "A connection between chains.",
+  "part_of": "structure_chain"
+}

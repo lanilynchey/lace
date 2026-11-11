@@ -1,0 +1,7 @@
+{
+  "id": "signal_heartbeat",
+  "name": "Heartbeat",
+  "is": "term",
+  "definition": "How fast and hard your heart beats.",
+  "part_of": "body_body_signals"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_tilts",
+  "name": "Tilts",
+  "is": "term",
+  "definition": "Its scent changes which way the bee flies.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "structure_tilts"
+  ]
+}

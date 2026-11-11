@@ -1,0 +1,10 @@
+{
+  "id": "step_concept",
+  "name": "Concept",
+  "is": "step",
+  "definition": "An idea given shape.",
+  "part_of": "",
+  "used_in": [
+    "chain_invention"
+  ]
+}

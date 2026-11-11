@@ -1,0 +1,15 @@
+{
+  "id": "emotion_repelled",
+  "name": "Repelled",
+  "is": "emotion",
+  "definition": "Pushed away by something.",
+  "part_of": "emotion_disgusted",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_disgusted"
+      ]
+    }
+  ]
+}

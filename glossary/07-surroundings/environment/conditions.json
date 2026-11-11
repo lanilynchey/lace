@@ -1,0 +1,7 @@
+{
+  "id": "surroundings_conditions",
+  "name": "Conditions",
+  "is": "term",
+  "definition": "What is going on in a place, like construction.",
+  "part_of": "surroundings_environment"
+}

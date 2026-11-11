@@ -1,0 +1,11 @@
+{
+  "id": "form_death",
+  "name": "Death",
+  "is": "term",
+  "definition": "The end of the Current State.",
+  "part_of": "base_instance",
+  "comes_by": [
+    "cycle_fade",
+    "surroundings_impact"
+  ]
+}

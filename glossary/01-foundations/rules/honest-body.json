@@ -1,0 +1,7 @@
+{
+  "id": "rule_honest_body",
+  "name": "Honest Body",
+  "is": "rule",
+  "definition": "Breath, posture and nerves can't be faked.",
+  "part_of": "base_base_rules"
+}

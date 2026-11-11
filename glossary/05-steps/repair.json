@@ -1,0 +1,10 @@
+{
+  "id": "step_repair",
+  "name": "Repair",
+  "is": "step",
+  "definition": "Mending what was broken.",
+  "part_of": "",
+  "used_in": [
+    "chain_reconciliation"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_novel_solution",
+  "name": "Novel Solution",
+  "is": "step",
+  "definition": "A solution no one had before.",
+  "part_of": "",
+  "used_in": [
+    "chain_invention"
+  ]
+}

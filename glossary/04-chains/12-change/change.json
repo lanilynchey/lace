@@ -1,0 +1,18 @@
+{
+  "id": "chain_change",
+  "name": "Change",
+  "is": "chain",
+  "definition": "The steps of Chain Change.",
+  "part_of": "rule_chain_change",
+  "kind": "chain",
+  "locked": false,
+  "steps": [
+    "step_notice",
+    "step_dissatisfaction_or_opportunity",
+    "step_intention",
+    "step_preparation",
+    "step_experimentation",
+    "step_repetition",
+    "step_integration"
+  ]
+}

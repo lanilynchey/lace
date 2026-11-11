@@ -1,0 +1,13 @@
+{
+  "id": "step_comparison",
+  "name": "Comparison",
+  "is": "step",
+  "definition": "Setting two things side by side.",
+  "part_of": "",
+  "used_in": [
+    "chain_self_concept",
+    "chain_social_comparison",
+    "chain_satisfaction",
+    "chain_preference"
+  ]
+}

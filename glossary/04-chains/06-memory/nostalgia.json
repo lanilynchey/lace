@@ -1,0 +1,17 @@
+{
+  "id": "chain_nostalgia",
+  "name": "Nostalgia",
+  "is": "chain",
+  "definition": "A warm longing for the past.",
+  "part_of": "chain_memory",
+  "emotion": "emotion_nostalgic",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_trigger",
+    "step_memory",
+    "step_emotional_reconstruction",
+    "step_longing_or_affection",
+    "step_reflection"
+  ]
+}

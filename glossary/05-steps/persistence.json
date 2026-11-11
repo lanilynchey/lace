@@ -1,0 +1,12 @@
+{
+  "id": "step_persistence",
+  "name": "Persistence",
+  "is": "step",
+  "definition": "Keeping going.",
+  "part_of": "",
+  "used_in": [
+    "chain_desire",
+    "chain_ambition",
+    "chain_hope"
+  ]
+}

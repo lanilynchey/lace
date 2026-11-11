@@ -1,0 +1,10 @@
+{
+  "id": "lens_taking_in",
+  "name": "Taking In",
+  "is": "term",
+  "definition": "It takes in light, water and soil. You take in the flower.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "surroundings_intake"
+  ]
+}

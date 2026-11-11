@@ -1,0 +1,11 @@
+{
+  "id": "step_need",
+  "name": "Need",
+  "is": "step",
+  "definition": "From a need running low to it being met.",
+  "part_of": "",
+  "used_in": [
+    "chain_design"
+  ],
+  "opens": "chain_need"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "record_0011",
+  "chain": "chain_creation",
+  "moment": "Your first wonky vase on a pottery wheel",
+  "steps": [
+    {
+      "step": "step_inspiration",
+      "gate": 1,
+      "what": "A handmade vase in a shop window."
+    },
+    {
+      "step": "step_visualization",
+      "gate": 1,
+      "what": "You picture one of your own, with flowers, on your table."
+    },
+    {
+      "step": "step_intention",
+      "gate": 1,
+      "what": "You sign up for a pottery class."
+    },
+    {
+      "step": "step_design",
+      "gate": 1,
+      "what": "Tall, with a narrow neck.",
+      "opened": {
+        "chain": "chain_design",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_action",
+      "gate": 1,
+      "what": "You throw it on the wheel.",
+      "opened": {
+        "chain": "chain_action",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_refinement",
+      "gate": 1,
+      "what": "It leans. You trim and reshape what you can."
+    },
+    {
+      "step": "step_finished_work",
+      "gate": 1,
+      "what": "Your first wonky vase."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "step_interaction",
+  "name": "Interaction",
+  "is": "step",
+  "definition": "Dealing with each other.",
+  "part_of": "",
+  "used_in": [
+    "chain_trust",
+    "chain_friendship"
+  ]
+}

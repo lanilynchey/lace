@@ -1,0 +1,7 @@
+{
+  "id": "level_main",
+  "name": "main",
+  "is": "term",
+  "definition": "One of the seven main emotions.",
+  "part_of": "emotions_emotional_spectrum"
+}

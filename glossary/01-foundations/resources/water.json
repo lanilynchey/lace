@@ -1,0 +1,27 @@
+{
+  "id": "resource_water",
+  "name": "Water",
+  "is": "term",
+  "definition": "What you drink.",
+  "part_of": "base_system_resources",
+  "refilled_by": [
+    "step_water_seeking"
+  ],
+  "depleted_by": [
+    {
+      "what": "step_drinking",
+      "more_with": ""
+    }
+  ],
+  "low_from": "supply_worn",
+  "when_low": [
+    {
+      "what": "The Survival Scan is set off.",
+      "affects": "attention_survival_scan"
+    },
+    {
+      "what": "Thirst cannot be met.",
+      "affects": "chain_thirst"
+    }
+  ]
+}

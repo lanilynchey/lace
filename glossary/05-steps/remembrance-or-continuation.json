@@ -1,0 +1,20 @@
+{
+  "id": "step_remembrance_or_continuation",
+  "name": "Remembrance or Continuation",
+  "is": "step",
+  "definition": "Being remembered, or the work carrying on.",
+  "part_of": "",
+  "used_in": [
+    "chain_legacy"
+  ],
+  "sides": [
+    {
+      "name": "Remembrance",
+      "then": "ends"
+    },
+    {
+      "name": "Continuation",
+      "then": "form_evolution"
+    }
+  ]
+}

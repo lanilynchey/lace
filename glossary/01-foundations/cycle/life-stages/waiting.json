@@ -1,0 +1,8 @@
+{
+  "id": "stage_waiting",
+  "name": "Waiting",
+  "is": "term",
+  "definition": "Broken down, and not yet part of something new.",
+  "part_of": "cycle_life_stages",
+  "begins_at": "form_death"
+}

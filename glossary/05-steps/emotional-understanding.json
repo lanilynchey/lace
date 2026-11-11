@@ -1,0 +1,10 @@
+{
+  "id": "step_emotional_understanding",
+  "name": "Emotional Understanding",
+  "is": "step",
+  "definition": "Grasping what someone else feels.",
+  "part_of": "",
+  "used_in": [
+    "chain_empathy"
+  ]
+}

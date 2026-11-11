@@ -1,0 +1,7 @@
+{
+  "id": "group_class",
+  "name": "Class",
+  "is": "term",
+  "definition": "People learning together.",
+  "part_of": "surroundings_groups"
+}

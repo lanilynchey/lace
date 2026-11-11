@@ -1,0 +1,7 @@
+{
+  "id": "body_skill_carryover",
+  "name": "Skill Carryover",
+  "is": "term",
+  "definition": "A skill gives a head start on related ones.",
+  "part_of": "body_skills"
+}

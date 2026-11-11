@@ -1,0 +1,23 @@
+{
+  "id": "chain_communication",
+  "name": "Communication",
+  "is": "chain",
+  "definition": "How a thought gets from one person into another's chains, and back.",
+  "part_of": "base_base_functions",
+  "kind": "chain",
+  "locked": true,
+  "steps": [
+    "step_thought",
+    "step_intention",
+    "step_encoding",
+    "step_expression",
+    "step_transmission",
+    "step_reception",
+    "step_decoding",
+    "step_perception",
+    "emotions_emotion",
+    "step_response",
+    "step_feedback",
+    "step_understanding"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "step_like_or_dislike",
+  "name": "Like or Dislike",
+  "is": "step",
+  "definition": "Whether you are drawn to it or not.",
+  "part_of": "",
+  "used_in": [
+    "chain_preference"
+  ],
+  "sides": [
+    {
+      "name": "Like",
+      "then": "carries on"
+    },
+    {
+      "name": "Dislike",
+      "then": "carries on"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_scan",
+  "name": "Scan",
+  "is": "term",
+  "definition": "You check a flower for bees before you lean in to smell it.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "attention_survival_scan"
+  ]
+}

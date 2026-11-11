@@ -1,0 +1,7 @@
+{
+  "id": "state_path_mapping",
+  "name": "Path Mapping",
+  "is": "term",
+  "definition": "Confront your Current State, define your Desired State, map the path between them.",
+  "part_of": "state_the_gap"
+}

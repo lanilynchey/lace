@@ -1,0 +1,12 @@
+{
+  "id": "step_reciprocity",
+  "name": "Reciprocity",
+  "is": "step",
+  "definition": "Giving and getting back in kind.",
+  "part_of": "",
+  "used_in": [
+    "chain_connection",
+    "chain_belonging",
+    "chain_friendship"
+  ]
+}

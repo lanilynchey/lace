@@ -1,0 +1,17 @@
+{
+  "id": "step_feedback",
+  "name": "Feedback",
+  "is": "step",
+  "definition": "Information that comes back about what you did.",
+  "part_of": "",
+  "used_in": [
+    "chain_identity",
+    "chain_learning",
+    "chain_skill",
+    "chain_mastery",
+    "chain_communication",
+    "chain_energy_regulation",
+    "chain_hunger",
+    "chain_thirst"
+  ]
+}

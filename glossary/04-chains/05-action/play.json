@@ -1,0 +1,17 @@
+{
+  "id": "chain_play",
+  "name": "Play",
+  "is": "chain",
+  "definition": "Doing something for its own enjoyment.",
+  "part_of": "chain_action",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_opportunity",
+    "step_interest",
+    "step_spontaneous_engagement",
+    "step_experimentation",
+    "step_enjoyment",
+    "step_learning"
+  ]
+}

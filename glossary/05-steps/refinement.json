@@ -1,0 +1,12 @@
+{
+  "id": "step_refinement",
+  "name": "Refinement",
+  "is": "step",
+  "definition": "Improving it in small ways.",
+  "part_of": "",
+  "used_in": [
+    "chain_mastery",
+    "chain_creation",
+    "chain_invention"
+  ]
+}

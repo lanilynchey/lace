@@ -1,0 +1,11 @@
+{
+  "id": "step_self_evaluation",
+  "name": "Self-Evaluation",
+  "is": "step",
+  "definition": "Judging yourself.",
+  "part_of": "",
+  "used_in": [
+    "chain_self_esteem",
+    "chain_shame"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "emotion_violated",
+  "name": "Violated",
+  "is": "emotion",
+  "definition": "Feeling a boundary was forced.",
+  "part_of": "emotion_bitter",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_bitter"
+      ]
+    }
+  ]
+}

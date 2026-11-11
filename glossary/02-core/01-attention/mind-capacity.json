@@ -1,0 +1,7 @@
+{
+  "id": "attention_mind_capacity",
+  "name": "Mind Capacity",
+  "is": "term",
+  "definition": "How much you can hold in mind at once.",
+  "part_of": "core_attention"
+}

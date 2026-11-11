@@ -1,0 +1,11 @@
+{
+  "id": "step_completion",
+  "name": "Completion",
+  "is": "step",
+  "definition": "Finishing, stopping or abandoning the action.",
+  "part_of": "",
+  "used_in": [
+    "chain_action",
+    "chain_achievement"
+  ]
+}

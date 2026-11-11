@@ -1,0 +1,7 @@
+{
+  "id": "rule_unbreakable_rules",
+  "name": "Unbreakable Rules",
+  "is": "rule",
+  "definition": "The rules can't be broken. You can only work with them.",
+  "part_of": "base_base_rules"
+}

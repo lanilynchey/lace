@@ -1,0 +1,17 @@
+{
+  "id": "chain_social_comparison",
+  "name": "Social Comparison",
+  "is": "chain",
+  "definition": "Measuring yourself against other people.",
+  "part_of": "chain_identity",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_attention",
+    "step_comparison",
+    "step_evaluation",
+    "emotions_emotional_response",
+    "step_self_assessment",
+    "step_adjustment"
+  ]
+}

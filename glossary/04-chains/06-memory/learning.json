@@ -1,0 +1,19 @@
+{
+  "id": "chain_learning",
+  "name": "Learning",
+  "is": "chain",
+  "definition": "Taking something in and keeping it.",
+  "part_of": "chain_memory",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "surroundings_intake",
+    "step_attention",
+    "step_comprehension",
+    "step_encoding",
+    "step_practice",
+    "step_feedback",
+    "step_memory",
+    "step_application"
+  ]
+}

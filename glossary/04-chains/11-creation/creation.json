@@ -1,0 +1,18 @@
+{
+  "id": "chain_creation",
+  "name": "Creation",
+  "is": "chain",
+  "definition": "How Creation happens, step by step.",
+  "part_of": "cycle_creation",
+  "kind": "chain",
+  "locked": false,
+  "steps": [
+    "step_inspiration",
+    "step_visualization",
+    "step_intention",
+    "step_design",
+    "step_action",
+    "step_refinement",
+    "step_finished_work"
+  ]
+}

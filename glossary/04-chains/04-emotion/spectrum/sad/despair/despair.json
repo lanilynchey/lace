@@ -1,0 +1,15 @@
+{
+  "id": "emotion_despair",
+  "name": "Despair",
+  "is": "emotion",
+  "definition": "Having lost hope.",
+  "part_of": "emotion_sad",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_sad"
+      ]
+    }
+  ]
+}

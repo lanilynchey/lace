@@ -1,0 +1,7 @@
+{
+  "id": "rule_nothing_is_destroyed",
+  "name": "Nothing Is Destroyed",
+  "is": "rule",
+  "definition": "Nothing is destroyed, only changed.",
+  "part_of": "base_base_rules"
+}

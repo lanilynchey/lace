@@ -1,0 +1,16 @@
+{
+  "id": "emotion_free",
+  "name": "Free",
+  "is": "emotion",
+  "definition": "Feeling held back by nothing.",
+  "part_of": "emotion_content",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_content"
+      ]
+    }
+  ]
+}

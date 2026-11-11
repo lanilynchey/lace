@@ -1,0 +1,7 @@
+{
+  "id": "rule_nothing_from_nothing",
+  "name": "Nothing From Nothing",
+  "is": "rule",
+  "definition": "Nothing is made from nothing. Everything made comes from what already exists.",
+  "part_of": "base_base_rules"
+}

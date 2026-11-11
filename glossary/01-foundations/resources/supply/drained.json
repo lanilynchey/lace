@@ -1,0 +1,8 @@
+{
+  "id": "supply_drained",
+  "name": "Drained",
+  "is": "term",
+  "definition": "Nothing left to give.",
+  "part_of": "supply_supply",
+  "order": 1
+}

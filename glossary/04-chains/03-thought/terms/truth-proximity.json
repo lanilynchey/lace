@@ -1,0 +1,7 @@
+{
+  "id": "thought_truth_proximity",
+  "name": "Truth Proximity",
+  "is": "term",
+  "definition": "Lived is truer than told.",
+  "part_of": "chain_belief_formation"
+}

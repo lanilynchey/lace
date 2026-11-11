@@ -1,0 +1,7 @@
+{
+  "id": "state_consciousness",
+  "name": "Consciousness",
+  "is": "term",
+  "definition": "Something you are, not something you have. A process that keeps happening.",
+  "part_of": "state_current"
+}

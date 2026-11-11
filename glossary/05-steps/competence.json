@@ -1,0 +1,10 @@
+{
+  "id": "step_competence",
+  "name": "Competence",
+  "is": "step",
+  "definition": "Being able to do it well.",
+  "part_of": "",
+  "used_in": [
+    "chain_confidence"
+  ]
+}

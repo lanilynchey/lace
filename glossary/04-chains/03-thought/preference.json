@@ -1,0 +1,19 @@
+{
+  "id": "chain_preference",
+  "name": "Preference",
+  "is": "chain",
+  "definition": "How a preference forms.",
+  "part_of": "chain_values",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "step_preference",
+  "steps": [
+    "step_exposure",
+    "emotions_emotional_response",
+    "step_like_or_dislike",
+    "step_comparison",
+    "step_preference",
+    "step_choice",
+    "step_reinforcement"
+  ]
+}

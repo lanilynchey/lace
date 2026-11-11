@@ -1,0 +1,11 @@
+{
+  "id": "step_engagement",
+  "name": "Engagement",
+  "is": "step",
+  "definition": "Being absorbed in what you are doing.",
+  "part_of": "",
+  "used_in": [
+    "chain_enjoyment",
+    "chain_fulfillment"
+  ]
+}

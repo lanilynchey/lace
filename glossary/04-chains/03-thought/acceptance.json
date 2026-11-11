@@ -1,0 +1,17 @@
+{
+  "id": "chain_acceptance",
+  "name": "Acceptance",
+  "is": "chain",
+  "definition": "Taking something in as real and adjusting to it.",
+  "part_of": "chain_belief_formation",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_reality",
+    "step_recognition",
+    "emotions_emotional_response",
+    "step_processing",
+    "step_acknowledgment",
+    "step_adaptation"
+  ]
+}

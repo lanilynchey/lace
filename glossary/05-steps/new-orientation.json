@@ -1,0 +1,10 @@
+{
+  "id": "step_new_orientation",
+  "name": "New Orientation",
+  "is": "step",
+  "definition": "A new direction for yourself.",
+  "part_of": "",
+  "used_in": [
+    "chain_transformation"
+  ]
+}

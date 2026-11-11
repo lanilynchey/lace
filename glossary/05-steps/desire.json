@@ -1,0 +1,14 @@
+{
+  "id": "step_desire",
+  "name": "Desire",
+  "is": "step",
+  "definition": "From wanting something to it coming true (or not).",
+  "part_of": "",
+  "used_in": [
+    "chain_desire",
+    "chain_adventure",
+    "chain_goal",
+    "chain_hope"
+  ],
+  "opens": "chain_desire"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "state_signature_state_stagnation",
+  "name": "Signature State Stagnation",
+  "is": "term",
+  "definition": "Current State relatively unchanged for a prolonged period of time.",
+  "part_of": "state_signature"
+}

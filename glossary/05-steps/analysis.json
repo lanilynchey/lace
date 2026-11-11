@@ -1,0 +1,11 @@
+{
+  "id": "step_analysis",
+  "name": "Analysis",
+  "is": "step",
+  "definition": "Breaking something down to examine it.",
+  "part_of": "",
+  "used_in": [
+    "chain_problem_solving",
+    "chain_reasoning"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_risk_evaluation",
+  "name": "Risk Evaluation",
+  "is": "step",
+  "definition": "Weighing what could go wrong.",
+  "part_of": "",
+  "used_in": [
+    "chain_adventure"
+  ]
+}

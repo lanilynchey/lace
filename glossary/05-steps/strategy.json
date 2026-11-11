@@ -1,0 +1,10 @@
+{
+  "id": "step_strategy",
+  "name": "Strategy",
+  "is": "step",
+  "definition": "A way chosen to handle it.",
+  "part_of": "",
+  "used_in": [
+    "chain_emotional_regulation"
+  ]
+}

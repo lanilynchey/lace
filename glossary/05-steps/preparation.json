@@ -1,0 +1,11 @@
+{
+  "id": "step_preparation",
+  "name": "Preparation",
+  "is": "step",
+  "definition": "Getting ready.",
+  "part_of": "",
+  "used_in": [
+    "chain_achievement",
+    "chain_change"
+  ]
+}

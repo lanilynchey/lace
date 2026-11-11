@@ -1,0 +1,10 @@
+{
+  "id": "structure_gate",
+  "name": "Gate",
+  "is": "term",
+  "definition": "Every arrow in a chain: the step passes (1) or the chain stops (0).",
+  "part_of": "structure_chain",
+  "checks": [
+    "Every arrow in a record is 1 or 0."
+  ]
+}

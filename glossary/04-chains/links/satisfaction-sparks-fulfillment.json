@@ -1,0 +1,11 @@
+{
+  "id": "link_satisfaction_sparks_fulfillment",
+  "name": "Satisfaction sparks Fulfillment",
+  "is": "link",
+  "definition": "The Fulfillment or Dissatisfaction step of Satisfaction starts Fulfillment.",
+  "part_of": "structure_sparks",
+  "from": "chain_satisfaction",
+  "at": "step_fulfillment_or_dissatisfaction",
+  "to": "chain_fulfillment",
+  "enters": ""
+}

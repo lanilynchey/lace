@@ -1,0 +1,7 @@
+{
+  "id": "group_team",
+  "name": "Team",
+  "is": "term",
+  "definition": "People working toward the same goal together.",
+  "part_of": "surroundings_groups"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "skill_capable",
+  "name": "Capable",
+  "is": "term",
+  "definition": "You know what you're bad at.",
+  "part_of": "body_skill_levels",
+  "order": 2
+}

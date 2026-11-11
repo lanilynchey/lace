@@ -1,0 +1,10 @@
+{
+  "id": "lens_the_gap",
+  "name": "The Gap",
+  "is": "term",
+  "definition": "The bare patch of soil between the garden you have and the one you picture.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "state_the_gap"
+  ]
+}

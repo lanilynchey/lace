@@ -1,0 +1,11 @@
+{
+  "id": "link_perception_sparks_memory",
+  "name": "Perception sparks Memory",
+  "is": "link",
+  "definition": "The Response step of Perception starts Memory.",
+  "part_of": "structure_sparks",
+  "from": "chain_perception",
+  "at": "step_response",
+  "to": "chain_memory",
+  "enters": ""
+}

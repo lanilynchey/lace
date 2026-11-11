@@ -1,0 +1,7 @@
+{
+  "id": "state_past",
+  "name": "Past State",
+  "is": "term",
+  "definition": "Who and how it was.",
+  "part_of": "core_state"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "circle_middle",
+  "name": "middle",
+  "is": "term",
+  "definition": "People you know well but are not closest to.",
+  "part_of": "surroundings_circles",
+  "order": 3
+}

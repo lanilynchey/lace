@@ -1,0 +1,15 @@
+{
+  "id": "emotion_aggressive",
+  "name": "Aggressive",
+  "is": "emotion",
+  "definition": "Ready to attack.",
+  "part_of": "emotion_angry",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_angry"
+      ]
+    }
+  ]
+}

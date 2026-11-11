@@ -1,0 +1,12 @@
+{
+  "id": "step_recovery",
+  "name": "Recovery",
+  "is": "step",
+  "definition": "The body repairing itself.",
+  "part_of": "",
+  "used_in": [
+    "chain_fatigue",
+    "chain_resilience"
+  ],
+  "opens": "chain_recovery"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "chain_meaning_making",
+  "name": "Meaning-Making",
+  "is": "chain",
+  "definition": "Working out what something means to you.",
+  "part_of": "chain_memory",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "step_meaning",
+  "steps": [
+    "step_occurrence",
+    "step_perception",
+    "step_context",
+    "step_personal_significance",
+    "step_narrative",
+    "step_integration"
+  ]
+}

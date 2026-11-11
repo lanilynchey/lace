@@ -1,0 +1,7 @@
+{
+  "id": "surroundings_groups",
+  "name": "Groups",
+  "is": "term",
+  "definition": "People who share something.",
+  "part_of": "surroundings_surroundings"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_drinking",
+  "name": "Drinking",
+  "is": "step",
+  "definition": "Taking in water.",
+  "part_of": "",
+  "used_in": [
+    "chain_thirst"
+  ]
+}

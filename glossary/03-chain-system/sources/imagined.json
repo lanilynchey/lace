@@ -1,0 +1,7 @@
+{
+  "id": "source_imagined",
+  "name": "imagined",
+  "is": "term",
+  "definition": "You pictured it. It did not happen.",
+  "part_of": "structure_source"
+}

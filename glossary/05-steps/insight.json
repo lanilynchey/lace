@@ -1,0 +1,12 @@
+{
+  "id": "step_insight",
+  "name": "Insight",
+  "is": "step",
+  "definition": "Suddenly seeing how something is.",
+  "part_of": "",
+  "used_in": [
+    "chain_reflection",
+    "chain_innovation",
+    "chain_invention"
+  ]
+}

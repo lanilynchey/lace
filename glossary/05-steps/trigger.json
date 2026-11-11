@@ -1,0 +1,19 @@
+{
+  "id": "step_trigger",
+  "name": "Trigger",
+  "is": "step",
+  "definition": "Something inside or outside prompts a response.",
+  "part_of": "",
+  "used_in": [
+    "chain_attention",
+    "chain_habit",
+    "chain_conditioning",
+    "chain_imagination",
+    "chain_emotion",
+    "chain_arousal",
+    "chain_action",
+    "chain_impulse",
+    "chain_nostalgia",
+    "chain_trauma_response"
+  ]
+}

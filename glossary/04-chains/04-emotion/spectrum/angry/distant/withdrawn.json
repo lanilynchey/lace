@@ -1,0 +1,16 @@
+{
+  "id": "emotion_withdrawn",
+  "name": "Withdrawn",
+  "is": "emotion",
+  "definition": "Closed in on yourself.",
+  "part_of": "emotion_distant",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_distant"
+      ]
+    }
+  ]
+}

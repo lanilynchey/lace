@@ -1,0 +1,16 @@
+{
+  "id": "emotion_aroused",
+  "name": "Aroused",
+  "is": "emotion",
+  "definition": "Stirred up and alert.",
+  "part_of": "emotion_playful",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_playful"
+      ]
+    }
+  ]
+}

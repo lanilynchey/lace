@@ -1,0 +1,10 @@
+{
+  "id": "step_difference",
+  "name": "Difference",
+  "is": "step",
+  "definition": "Not being the same.",
+  "part_of": "",
+  "used_in": [
+    "chain_conflict"
+  ]
+}

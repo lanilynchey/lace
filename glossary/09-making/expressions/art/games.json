@@ -1,0 +1,7 @@
+{
+  "id": "artform_games",
+  "name": "Games",
+  "is": "term",
+  "definition": "Art you play.",
+  "part_of": "expression_art"
+}

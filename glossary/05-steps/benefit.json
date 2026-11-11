@@ -1,0 +1,10 @@
+{
+  "id": "step_benefit",
+  "name": "Benefit",
+  "is": "step",
+  "definition": "Something good you received.",
+  "part_of": "",
+  "used_in": [
+    "chain_gratitude"
+  ]
+}

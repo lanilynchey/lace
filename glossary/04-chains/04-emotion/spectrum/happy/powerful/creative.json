@@ -1,0 +1,16 @@
+{
+  "id": "emotion_creative",
+  "name": "Creative",
+  "is": "emotion",
+  "definition": "Full of new ideas.",
+  "part_of": "emotion_powerful",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_powerful"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "emotion_hurt",
+  "name": "Hurt",
+  "is": "emotion",
+  "definition": "In emotional pain.",
+  "part_of": "emotion_sad",
+  "used_in": [
+    "chain_forgiveness"
+  ],
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_sad"
+      ]
+    }
+  ]
+}

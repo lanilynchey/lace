@@ -1,0 +1,7 @@
+{
+  "id": "emotions_emotion_role",
+  "name": "Emotion Role",
+  "is": "term",
+  "definition": "What an emotion is for. Anger is protection, to some degree.",
+  "part_of": "emotions_emotion"
+}

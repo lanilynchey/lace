@@ -1,0 +1,43 @@
+{
+  "id": "record_0012",
+  "chain": "chain_change",
+  "moment": "Moving to a new city",
+  "steps": [
+    {
+      "step": "step_notice",
+      "gate": 1,
+      "what": "You notice your life has felt the same for a long time."
+    },
+    {
+      "step": "step_dissatisfaction_or_opportunity",
+      "gate": 1,
+      "what": "A job comes up in another city.",
+      "side": "Opportunity"
+    },
+    {
+      "step": "step_intention",
+      "gate": 1,
+      "what": "You decide to go."
+    },
+    {
+      "step": "step_preparation",
+      "gate": 1,
+      "what": "You find a flat, pack and say goodbyes."
+    },
+    {
+      "step": "step_experimentation",
+      "gate": 1,
+      "what": "You try new routes, cafes and people."
+    },
+    {
+      "step": "step_repetition",
+      "gate": 1,
+      "what": "The same walk and the same shop, week after week."
+    },
+    {
+      "step": "step_integration",
+      "gate": 1,
+      "what": "The new city is home."
+    }
+  ]
+}

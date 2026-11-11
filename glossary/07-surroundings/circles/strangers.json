@@ -1,0 +1,8 @@
+{
+  "id": "circle_strangers",
+  "name": "strangers",
+  "is": "term",
+  "definition": "People you do not know.",
+  "part_of": "surroundings_circles",
+  "order": 6
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_principle",
+  "name": "Principle",
+  "is": "step",
+  "definition": "A rule you live by.",
+  "part_of": "",
+  "used_in": [
+    "chain_values"
+  ]
+}

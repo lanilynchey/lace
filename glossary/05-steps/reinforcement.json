@@ -1,0 +1,20 @@
+{
+  "id": "step_reinforcement",
+  "name": "Reinforcement",
+  "is": "step",
+  "definition": "The last step of a chain. Reaching it is full Chain Progression.",
+  "part_of": "",
+  "used_in": [
+    "chain_thought",
+    "chain_belief_formation",
+    "chain_habit",
+    "chain_avoidance",
+    "chain_confidence",
+    "chain_self_esteem",
+    "chain_anxiety",
+    "chain_action",
+    "chain_motivation",
+    "chain_memory",
+    "chain_preference"
+  ]
+}

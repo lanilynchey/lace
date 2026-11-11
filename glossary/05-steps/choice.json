@@ -1,0 +1,12 @@
+{
+  "id": "step_choice",
+  "name": "Choice",
+  "is": "step",
+  "definition": "Picking one option.",
+  "part_of": "",
+  "used_in": [
+    "chain_morality",
+    "chain_commitment",
+    "chain_preference"
+  ]
+}

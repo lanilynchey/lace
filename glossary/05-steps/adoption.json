@@ -1,0 +1,10 @@
+{
+  "id": "step_adoption",
+  "name": "Adoption",
+  "is": "step",
+  "definition": "Other people taking it up.",
+  "part_of": "",
+  "used_in": [
+    "chain_innovation"
+  ]
+}

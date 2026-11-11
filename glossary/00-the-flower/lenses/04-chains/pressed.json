@@ -1,0 +1,10 @@
+{
+  "id": "lens_pressed",
+  "name": "Pressed",
+  "is": "term",
+  "definition": "The flower from your wedding, pressed in a book.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "chain_memory"
+  ]
+}

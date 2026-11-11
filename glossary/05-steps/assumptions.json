@@ -1,0 +1,10 @@
+{
+  "id": "step_assumptions",
+  "name": "Assumptions",
+  "is": "step",
+  "definition": "What you take as true without checking.",
+  "part_of": "",
+  "used_in": [
+    "chain_reasoning"
+  ]
+}

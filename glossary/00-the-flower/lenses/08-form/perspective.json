@@ -1,0 +1,11 @@
+{
+  "id": "lens_perspective",
+  "name": "Perspective",
+  "is": "term",
+  "definition": "Decoration to a person, food to a bee, a reproductive structure to a botanist.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "form_the_form",
+    "body_skills"
+  ]
+}

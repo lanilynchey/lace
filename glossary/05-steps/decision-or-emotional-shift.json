@@ -1,0 +1,20 @@
+{
+  "id": "step_decision_or_emotional_shift",
+  "name": "Decision or Emotional Shift",
+  "is": "step",
+  "definition": "Choosing to forgive, or feeling it change.",
+  "part_of": "",
+  "used_in": [
+    "chain_forgiveness"
+  ],
+  "sides": [
+    {
+      "name": "Decision",
+      "then": "chain_decision"
+    },
+    {
+      "name": "Emotional Shift",
+      "then": "chain_emotion"
+    }
+  ]
+}

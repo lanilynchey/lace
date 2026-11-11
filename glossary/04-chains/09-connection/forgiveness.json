@@ -1,0 +1,17 @@
+{
+  "id": "chain_forgiveness",
+  "name": "Forgiveness",
+  "is": "chain",
+  "definition": "Letting go of the charge from a wrong.",
+  "part_of": "chain_connection",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_perceived_wrong",
+    "emotion_hurt",
+    "step_processing",
+    "step_reappraisal",
+    "step_decision_or_emotional_shift",
+    "step_charge_drops"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "reach_individual",
+  "name": "Individual",
+  "is": "term",
+  "definition": "One person.",
+  "part_of": "rule_chain_reach",
+  "order": 1
+}

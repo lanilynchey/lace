@@ -1,0 +1,7 @@
+{
+  "id": "state_symbiotic_state",
+  "name": "Symbiotic State",
+  "is": "term",
+  "definition": "When Current and Desired State have nearly met.",
+  "part_of": "core_state"
+}

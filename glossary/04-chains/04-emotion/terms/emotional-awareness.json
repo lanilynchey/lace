@@ -1,0 +1,10 @@
+{
+  "id": "emotions_emotional_awareness",
+  "name": "Emotional Awareness",
+  "is": "term",
+  "definition": "Seeing the emotion as it is. Being okay with it, sitting in it.",
+  "part_of": "emotions_emotion",
+  "used_in": [
+    "chain_emotional_regulation"
+  ]
+}

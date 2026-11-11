@@ -1,0 +1,10 @@
+{
+  "id": "step_implementation",
+  "name": "Implementation",
+  "is": "step",
+  "definition": "Putting it into practice.",
+  "part_of": "",
+  "used_in": [
+    "chain_innovation"
+  ]
+}

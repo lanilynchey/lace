@@ -1,0 +1,7 @@
+{
+  "id": "rule_chain_length",
+  "name": "Chain Length",
+  "is": "rule",
+  "definition": "How long a chain has sat at its furthest step.",
+  "part_of": "structure_chain"
+}

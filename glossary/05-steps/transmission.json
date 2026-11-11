@@ -1,0 +1,10 @@
+{
+  "id": "step_transmission",
+  "name": "Transmission",
+  "is": "step",
+  "definition": "The message travelling.",
+  "part_of": "",
+  "used_in": [
+    "chain_communication"
+  ]
+}

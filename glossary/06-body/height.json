@@ -1,0 +1,7 @@
+{
+  "id": "body_height",
+  "name": "Height",
+  "is": "term",
+  "definition": "How tall the body is.",
+  "part_of": "body_body"
+}

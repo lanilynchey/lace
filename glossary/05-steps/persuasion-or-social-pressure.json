@@ -1,0 +1,20 @@
+{
+  "id": "step_persuasion_or_social_pressure",
+  "name": "Persuasion or Social Pressure",
+  "is": "step",
+  "definition": "Being convinced, or being pushed by the group.",
+  "part_of": "",
+  "used_in": [
+    "chain_persuasion"
+  ],
+  "sides": [
+    {
+      "name": "Persuasion",
+      "then": "carries on"
+    },
+    {
+      "name": "Social Pressure",
+      "then": "carries on"
+    }
+  ]
+}

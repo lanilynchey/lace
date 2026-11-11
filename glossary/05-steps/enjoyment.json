@@ -1,0 +1,11 @@
+{
+  "id": "step_enjoyment",
+  "name": "Enjoyment",
+  "is": "step",
+  "definition": "Pleasure in what you are doing.",
+  "part_of": "",
+  "used_in": [
+    "chain_play"
+  ],
+  "opens": "chain_enjoyment"
+}

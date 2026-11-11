@@ -1,0 +1,7 @@
+{
+  "id": "expression_humor",
+  "name": "Humor",
+  "is": "term",
+  "definition": "Emotion put into something funny.",
+  "part_of": "emotions_emotional_expression"
+}

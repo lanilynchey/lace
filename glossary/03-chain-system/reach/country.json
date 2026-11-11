@@ -1,0 +1,8 @@
+{
+  "id": "reach_country",
+  "name": "Country",
+  "is": "term",
+  "definition": "A nation.",
+  "part_of": "rule_chain_reach",
+  "order": 4
+}

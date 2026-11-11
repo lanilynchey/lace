@@ -1,0 +1,17 @@
+{
+  "id": "step_integration",
+  "name": "Integration",
+  "is": "step",
+  "definition": "Becoming part of the whole.",
+  "part_of": "",
+  "used_in": [
+    "chain_perception",
+    "chain_identity",
+    "chain_understanding",
+    "chain_grief",
+    "chain_memory",
+    "chain_meaning_making",
+    "chain_change",
+    "chain_transformation"
+  ]
+}

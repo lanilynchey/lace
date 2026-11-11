@@ -1,0 +1,11 @@
+{
+  "id": "step_appreciation",
+  "name": "Appreciation",
+  "is": "step",
+  "definition": "Noticing something and giving it value.",
+  "part_of": "",
+  "used_in": [
+    "chain_gratitude"
+  ],
+  "opens": "chain_appreciation"
+}

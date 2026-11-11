@@ -1,0 +1,10 @@
+{
+  "id": "surroundings_senses",
+  "name": "Senses",
+  "is": "term",
+  "definition": "How you take in what is around you.",
+  "part_of": "surroundings_surroundings",
+  "used_in": [
+    "chain_perception"
+  ]
+}

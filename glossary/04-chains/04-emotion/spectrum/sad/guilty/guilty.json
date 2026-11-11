@@ -1,0 +1,15 @@
+{
+  "id": "emotion_guilty",
+  "name": "Guilty",
+  "is": "emotion",
+  "definition": "Feeling you did something wrong.",
+  "part_of": "emotion_sad",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_sad"
+      ]
+    }
+  ]
+}

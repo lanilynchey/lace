@@ -1,0 +1,42 @@
+{
+  "id": "record_0017",
+  "chain": "chain_action",
+  "moment": "Your song comes on at the wedding, after a long day",
+  "resources": [
+    {
+      "resource": "resource_energy",
+      "at": "supply_worn"
+    },
+    {
+      "resource": "resource_attention_reserve",
+      "at": "supply_thinning"
+    }
+  ],
+  "steps": [
+    {
+      "step": "step_trigger",
+      "gate": 1,
+      "what": "Your song comes on at the wedding."
+    },
+    {
+      "step": "step_attention",
+      "gate": 1,
+      "what": "You look at the dance floor.",
+      "opened": {
+        "chain": "chain_attention",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_motivation",
+      "gate": 0,
+      "what": "You would like to, but you stay in your chair.",
+      "closed_by": [
+        {
+          "resource": "resource_energy",
+          "at": "supply_worn"
+        }
+      ]
+    }
+  ]
+}

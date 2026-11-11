@@ -1,0 +1,11 @@
+{
+  "id": "link_emotion_tilts_memory",
+  "name": "Emotion tilts Memory",
+  "is": "link",
+  "definition": "The Emotion step changes how Memory runs at its Encoding step.",
+  "part_of": "structure_tilts",
+  "from": "chain_emotion",
+  "at": "emotions_emotion",
+  "to": "chain_memory",
+  "enters": "step_encoding"
+}

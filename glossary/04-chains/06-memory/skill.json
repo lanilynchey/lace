@@ -1,0 +1,18 @@
+{
+  "id": "chain_skill",
+  "name": "Skill",
+  "is": "chain",
+  "definition": "Something you can do.",
+  "part_of": "chain_learning",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_exposure",
+    "step_instruction",
+    "step_practice",
+    "step_error",
+    "step_feedback",
+    "step_adjustment",
+    "body_skill_levels"
+  ]
+}

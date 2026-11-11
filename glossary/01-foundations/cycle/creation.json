@@ -1,0 +1,11 @@
+{
+  "id": "cycle_creation",
+  "name": "Creation",
+  "is": "term",
+  "definition": "Making something new.",
+  "part_of": "base_system_cycle",
+  "between": [
+    "state_current",
+    "state_desired"
+  ]
+}

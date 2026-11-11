@@ -1,0 +1,10 @@
+{
+  "id": "step_sequence",
+  "name": "Sequence",
+  "is": "step",
+  "definition": "The order things go in.",
+  "part_of": "",
+  "used_in": [
+    "chain_routine"
+  ]
+}

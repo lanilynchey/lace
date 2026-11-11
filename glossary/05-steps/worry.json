@@ -1,0 +1,10 @@
+{
+  "id": "step_worry",
+  "name": "Worry",
+  "is": "step",
+  "definition": "Turning a possible problem over in your mind.",
+  "part_of": "",
+  "used_in": [
+    "chain_anxiety"
+  ]
+}

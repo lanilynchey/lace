@@ -1,0 +1,10 @@
+{
+  "id": "lens_source",
+  "name": "Source",
+  "is": "term",
+  "definition": "The rose you smelled, the one someone described, the one you dreamed.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "structure_source"
+  ]
+}

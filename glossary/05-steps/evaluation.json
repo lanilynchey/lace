@@ -1,0 +1,15 @@
+{
+  "id": "step_evaluation",
+  "name": "Evaluation",
+  "is": "step",
+  "definition": "Judging how good or bad something is.",
+  "part_of": "",
+  "used_in": [
+    "chain_belief_formation",
+    "chain_values",
+    "chain_reward",
+    "chain_social_comparison",
+    "chain_decision",
+    "chain_satisfaction"
+  ]
+}

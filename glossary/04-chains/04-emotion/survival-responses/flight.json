@@ -1,0 +1,7 @@
+{
+  "id": "response_flight",
+  "name": "flight",
+  "is": "term",
+  "definition": "Getting away from the threat.",
+  "part_of": "chain_fear"
+}

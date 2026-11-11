@@ -1,0 +1,19 @@
+{
+  "id": "chain_trust",
+  "name": "Trust",
+  "is": "chain",
+  "definition": "Relying on someone.",
+  "part_of": "chain_connection",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "step_trust",
+  "steps": [
+    "step_interaction",
+    "step_expectation",
+    "step_vulnerability",
+    "step_observed_reliability",
+    "step_confidence",
+    "step_repetition",
+    "step_trust"
+  ]
+}

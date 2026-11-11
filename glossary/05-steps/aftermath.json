@@ -1,0 +1,14 @@
+{
+  "id": "step_aftermath",
+  "name": "Aftermath",
+  "is": "step",
+  "definition": "What an action sets off, and how big it gets.",
+  "part_of": "",
+  "used_in": [
+    "chain_habit",
+    "chain_conditioning",
+    "chain_reward",
+    "chain_action",
+    "chain_legacy"
+  ]
+}

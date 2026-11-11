@@ -1,0 +1,10 @@
+{
+  "id": "step_desire_for_stimulation",
+  "name": "Desire for Stimulation",
+  "is": "step",
+  "definition": "Wanting something to engage you.",
+  "part_of": "",
+  "used_in": [
+    "chain_boredom"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "step_perception",
+  "name": "Perception",
+  "is": "step",
+  "definition": "How anything, inside or outside, gets noticed and starts to mean something.",
+  "part_of": "",
+  "used_in": [
+    "chain_perception",
+    "chain_thought",
+    "chain_belief_formation",
+    "chain_faith",
+    "chain_morality",
+    "chain_identity",
+    "chain_self_concept",
+    "chain_understanding",
+    "chain_emotion",
+    "chain_anger",
+    "chain_enjoyment",
+    "chain_fear",
+    "chain_joy",
+    "chain_stress",
+    "chain_memory",
+    "chain_meaning_making",
+    "chain_reflection",
+    "chain_communication",
+    "chain_connection",
+    "chain_attraction",
+    "chain_conflict",
+    "chain_pain"
+  ],
+  "opens": "chain_perception"
+}

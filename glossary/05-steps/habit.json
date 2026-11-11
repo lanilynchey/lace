@@ -1,0 +1,14 @@
+{
+  "id": "step_habit",
+  "name": "Habit",
+  "is": "step",
+  "definition": "Something you do automatically.",
+  "part_of": "",
+  "used_in": [
+    "chain_thought",
+    "chain_habit",
+    "chain_conditioning",
+    "chain_discipline"
+  ],
+  "opens": "chain_habit"
+}

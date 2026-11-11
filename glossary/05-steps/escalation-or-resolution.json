@@ -1,0 +1,20 @@
+{
+  "id": "step_escalation_or_resolution",
+  "name": "Escalation or Resolution",
+  "is": "step",
+  "definition": "The conflict growing, or being settled.",
+  "part_of": "",
+  "used_in": [
+    "chain_conflict"
+  ],
+  "sides": [
+    {
+      "name": "Escalation",
+      "then": "carries on"
+    },
+    {
+      "name": "Resolution",
+      "then": "carries on"
+    }
+  ]
+}

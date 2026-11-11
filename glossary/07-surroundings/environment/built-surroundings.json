@@ -1,0 +1,7 @@
+{
+  "id": "surroundings_built",
+  "name": "Built Surroundings",
+  "is": "term",
+  "definition": "Surroundings made from natural ones.",
+  "part_of": "surroundings_environment"
+}

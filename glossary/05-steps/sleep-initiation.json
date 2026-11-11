@@ -1,0 +1,10 @@
+{
+  "id": "step_sleep_initiation",
+  "name": "Sleep Initiation",
+  "is": "step",
+  "definition": "Falling asleep.",
+  "part_of": "",
+  "used_in": [
+    "chain_sleep"
+  ]
+}

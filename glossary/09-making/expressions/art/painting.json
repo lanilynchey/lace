@@ -1,0 +1,7 @@
+{
+  "id": "artform_painting",
+  "name": "Painting",
+  "is": "term",
+  "definition": "Art made on a surface.",
+  "part_of": "expression_art"
+}

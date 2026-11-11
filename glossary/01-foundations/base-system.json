@@ -1,0 +1,7 @@
+{
+  "id": "base_base_system",
+  "name": "Base System",
+  "is": "term",
+  "definition": "The system everyone plays in.",
+  "part_of": ""
+}

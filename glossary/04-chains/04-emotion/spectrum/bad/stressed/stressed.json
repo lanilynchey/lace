@@ -1,0 +1,15 @@
+{
+  "id": "emotion_stressed",
+  "name": "Stressed",
+  "is": "emotion",
+  "definition": "Strained by demands.",
+  "part_of": "emotion_bad",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_bad"
+      ]
+    }
+  ]
+}

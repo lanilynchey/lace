@@ -1,0 +1,7 @@
+{
+  "id": "expression_art",
+  "name": "Art",
+  "is": "term",
+  "definition": "Emotion put into something you can see.",
+  "part_of": "emotions_emotional_expression"
+}

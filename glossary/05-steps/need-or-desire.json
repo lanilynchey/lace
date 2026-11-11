@@ -1,0 +1,20 @@
+{
+  "id": "step_need_or_desire",
+  "name": "Need or Desire",
+  "is": "step",
+  "definition": "Something you need, or something you want.",
+  "part_of": "",
+  "used_in": [
+    "chain_motivation"
+  ],
+  "sides": [
+    {
+      "name": "Need",
+      "then": "carries on"
+    },
+    {
+      "name": "Desire",
+      "then": "carries on"
+    }
+  ]
+}

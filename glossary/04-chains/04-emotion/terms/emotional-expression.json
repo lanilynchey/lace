@@ -1,0 +1,10 @@
+{
+  "id": "emotions_emotional_expression",
+  "name": "Emotional Expression",
+  "is": "term",
+  "definition": "Putting an emotion out into the world.",
+  "part_of": "chain_emotion",
+  "used_in": [
+    "chain_emotion"
+  ]
+}

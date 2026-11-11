@@ -1,0 +1,10 @@
+{
+  "id": "step_delay",
+  "name": "Delay",
+  "is": "step",
+  "definition": "Putting it off.",
+  "part_of": "",
+  "used_in": [
+    "chain_procrastination"
+  ]
+}

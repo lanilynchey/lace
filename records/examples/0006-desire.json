@@ -1,0 +1,86 @@
+{
+  "id": "record_0006",
+  "chain": "chain_desire",
+  "moment": "Wanting a house by the sea",
+  "steps": [
+    {
+      "step": "step_desire",
+      "gate": 1,
+      "what": "You want a house by the sea."
+    },
+    {
+      "step": "step_wish",
+      "gate": 1,
+      "what": "One day."
+    },
+    {
+      "step": "step_visualization",
+      "gate": 1,
+      "what": "You picture the porch and the salt on the windows."
+    },
+    {
+      "step": "emotions_emotion",
+      "gate": 1,
+      "what": "Longing and excitement.",
+      "emotions": [
+        {
+          "emotion": "emotion_longing",
+          "charge": "charge_pulse",
+          "stake": "stake_self"
+        },
+        {
+          "emotion": "emotion_excited",
+          "charge": "charge_hum",
+          "stake": "stake_self"
+        }
+      ],
+      "opened": {
+        "chain": "chain_emotion",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_belief",
+      "gate": 1,
+      "what": "You believe it is possible for you."
+    },
+    {
+      "step": "step_intention",
+      "gate": 1,
+      "what": "You decide to make it happen."
+    },
+    {
+      "step": "step_alignment",
+      "gate": 1,
+      "what": "Your saving and your weekends start pointing at the coast."
+    },
+    {
+      "step": "step_action",
+      "gate": 1,
+      "what": "You visit towns and talk to a bank.",
+      "opened": {
+        "chain": "chain_action",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_persistence",
+      "gate": 1,
+      "what": "You keep going through two lost bids."
+    },
+    {
+      "step": "step_outcome",
+      "gate": 1,
+      "what": "You get the keys."
+    },
+    {
+      "step": "step_reflection",
+      "gate": 1,
+      "what": "You look back on what it took.",
+      "opened": {
+        "chain": "chain_reflection",
+        "record": ""
+      }
+    }
+  ]
+}

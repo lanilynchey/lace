@@ -1,0 +1,17 @@
+{
+  "id": "emotion_jealous",
+  "name": "Jealous",
+  "is": "emotion",
+  "definition": "Afraid of losing what you have to someone else.",
+  "part_of": "emotion_mad",
+  "rooted_in": "emotion_fearful",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_mad"
+      ]
+    }
+  ]
+}

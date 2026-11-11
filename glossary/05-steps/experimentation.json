@@ -1,0 +1,13 @@
+{
+  "id": "step_experimentation",
+  "name": "Experimentation",
+  "is": "step",
+  "definition": "Trying things to see what works.",
+  "part_of": "",
+  "used_in": [
+    "chain_problem_solving",
+    "chain_play",
+    "chain_invention",
+    "chain_change"
+  ]
+}

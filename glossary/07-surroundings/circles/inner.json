@@ -1,0 +1,8 @@
+{
+  "id": "circle_inner",
+  "name": "inner",
+  "is": "term",
+  "definition": "The few people closest to you.",
+  "part_of": "surroundings_circles",
+  "order": 2
+}

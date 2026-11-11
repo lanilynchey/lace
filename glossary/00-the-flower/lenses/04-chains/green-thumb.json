@@ -1,0 +1,10 @@
+{
+  "id": "lens_green_thumb",
+  "name": "Green Thumb",
+  "is": "term",
+  "definition": "You think “I'm good with plants” until your windowsill is full of them.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "chain_thought"
+  ]
+}

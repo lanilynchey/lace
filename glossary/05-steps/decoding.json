@@ -1,0 +1,10 @@
+{
+  "id": "step_decoding",
+  "name": "Decoding",
+  "is": "step",
+  "definition": "Turning words and signals back into meaning.",
+  "part_of": "",
+  "used_in": [
+    "chain_communication"
+  ]
+}

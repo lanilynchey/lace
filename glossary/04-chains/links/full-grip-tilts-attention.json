@@ -1,0 +1,11 @@
+{
+  "id": "link_full_grip_tilts_attention",
+  "name": "Full Grip tilts Attention",
+  "is": "link",
+  "definition": "Full Grip changes how Attention runs at its Detection step.",
+  "part_of": "structure_tilts",
+  "from": "chain_full_grip",
+  "at": "",
+  "to": "chain_attention",
+  "enters": "step_detection"
+}

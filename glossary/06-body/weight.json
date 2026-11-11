@@ -1,0 +1,7 @@
+{
+  "id": "body_weight",
+  "name": "Weight",
+  "is": "term",
+  "definition": "How heavy the body is.",
+  "part_of": "body_body"
+}

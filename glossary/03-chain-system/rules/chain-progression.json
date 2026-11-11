@@ -1,0 +1,11 @@
+{
+  "id": "rule_chain_progression",
+  "name": "Chain Progression",
+  "is": "rule",
+  "definition": "How far down a chain something goes. Further means it holds more, and takes longer to adjust.",
+  "part_of": "structure_chain",
+  "checks": [
+    "Progression is the last step a record reached.",
+    "Of two runs of the same chain, the one that reached further holds more."
+  ]
+}

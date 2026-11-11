@@ -1,0 +1,10 @@
+{
+  "id": "step_perspective_taking",
+  "name": "Perspective-Taking",
+  "is": "step",
+  "definition": "Seeing it from the other person's side.",
+  "part_of": "",
+  "used_in": [
+    "chain_empathy"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "kind_zoom_in",
+  "name": "zoom-in",
+  "is": "term",
+  "definition": "A chain that takes a closer look at one step of another chain.",
+  "part_of": "structure_chain"
+}

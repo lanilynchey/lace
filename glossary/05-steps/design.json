@@ -1,0 +1,11 @@
+{
+  "id": "step_design",
+  "name": "Design",
+  "is": "step",
+  "definition": "Shaping a solution to fit a need.",
+  "part_of": "",
+  "used_in": [
+    "chain_creation"
+  ],
+  "opens": "chain_design"
+}

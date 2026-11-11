@@ -1,0 +1,10 @@
+{
+  "id": "step_coping",
+  "name": "Coping",
+  "is": "step",
+  "definition": "Dealing with it.",
+  "part_of": "",
+  "used_in": [
+    "chain_resilience"
+  ]
+}

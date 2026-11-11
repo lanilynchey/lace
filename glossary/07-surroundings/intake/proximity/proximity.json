@@ -1,0 +1,7 @@
+{
+  "id": "intake_proximity",
+  "name": "Proximity",
+  "is": "term",
+  "definition": "How much of the source of what you take in reached you.",
+  "part_of": "surroundings_intake"
+}

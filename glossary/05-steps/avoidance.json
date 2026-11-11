@@ -1,0 +1,10 @@
+{
+  "id": "step_avoidance",
+  "name": "Avoidance",
+  "is": "step",
+  "definition": "Escaping discomfort instead of facing it.",
+  "part_of": "",
+  "used_in": [
+    "chain_avoidance"
+  ]
+}

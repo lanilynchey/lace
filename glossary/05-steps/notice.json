@@ -1,0 +1,12 @@
+{
+  "id": "step_notice",
+  "name": "Notice",
+  "is": "step",
+  "definition": "Becoming aware that something is there.",
+  "part_of": "",
+  "used_in": [
+    "chain_attention",
+    "chain_perception",
+    "chain_change"
+  ]
+}

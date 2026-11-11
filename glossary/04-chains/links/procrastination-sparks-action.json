@@ -1,0 +1,11 @@
+{
+  "id": "link_procrastination_sparks_action",
+  "name": "Procrastination sparks Action",
+  "is": "link",
+  "definition": "The Action or Further Delay step of Procrastination starts Action.",
+  "part_of": "structure_sparks",
+  "from": "chain_procrastination",
+  "at": "step_action_or_further_delay",
+  "to": "chain_action",
+  "enters": ""
+}

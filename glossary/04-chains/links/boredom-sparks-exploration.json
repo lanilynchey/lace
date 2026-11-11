@@ -1,0 +1,11 @@
+{
+  "id": "link_boredom_sparks_exploration",
+  "name": "Boredom sparks Exploration",
+  "is": "link",
+  "definition": "The Exploration or Withdrawal step of Boredom starts Exploration.",
+  "part_of": "structure_sparks",
+  "from": "chain_boredom",
+  "at": "step_exploration_or_withdrawal",
+  "to": "chain_exploration",
+  "enters": ""
+}

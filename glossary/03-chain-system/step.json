@@ -1,0 +1,7 @@
+{
+  "id": "structure_step",
+  "name": "Step",
+  "is": "term",
+  "definition": "One point in a chain.",
+  "part_of": "structure_chain"
+}

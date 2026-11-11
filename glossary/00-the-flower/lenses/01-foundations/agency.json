@@ -1,0 +1,11 @@
+{
+  "id": "lens_agency",
+  "name": "Agency",
+  "is": "term",
+  "definition": "It does not decide to grow toward the light, yet it responds and grows.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_form_decides_potential",
+    "form_flower"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "step_uncertainty",
+  "name": "Uncertainty",
+  "is": "step",
+  "definition": "Not knowing how it will turn out.",
+  "part_of": "",
+  "used_in": [
+    "chain_anxiety",
+    "chain_hope"
+  ]
+}

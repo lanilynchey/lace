@@ -1,0 +1,16 @@
+{
+  "id": "emotion_confident",
+  "name": "Confident",
+  "is": "emotion",
+  "definition": "Sure of yourself.",
+  "part_of": "emotion_proud",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_proud"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "intake_ideas",
+  "name": "Ideas",
+  "is": "term",
+  "definition": "What people think and believe.",
+  "part_of": "surroundings_intake",
+  "entries": [
+    "Opinions",
+    "Philosophies",
+    "Worldviews",
+    "Ideologies",
+    "Theories",
+    "Conspiracies",
+    "Arguments",
+    "Myths",
+    "Quotes",
+    "Propaganda"
+  ],
+  "includes": [
+    "step_belief",
+    "structure_prediction"
+  ]
+}

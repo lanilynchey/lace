@@ -1,0 +1,16 @@
+{
+  "id": "emotion_cheeky",
+  "name": "Cheeky",
+  "is": "emotion",
+  "definition": "Playfully bold.",
+  "part_of": "emotion_playful",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_playful"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_arranging",
+  "name": "Arranging",
+  "is": "term",
+  "definition": "You can't make a flower, but you can arrange them into something new.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "chain_creation"
+  ]
+}

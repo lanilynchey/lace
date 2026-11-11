@@ -1,0 +1,10 @@
+{
+  "id": "lens_render",
+  "name": "Render",
+  "is": "term",
+  "definition": "It grows in the soil where it landed, which it didn't choose.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_starting_render"
+  ]
+}

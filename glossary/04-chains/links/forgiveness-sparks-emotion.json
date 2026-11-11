@@ -1,0 +1,11 @@
+{
+  "id": "link_forgiveness_sparks_emotion",
+  "name": "Forgiveness sparks Emotion",
+  "is": "link",
+  "definition": "The Decision or Emotional Shift step of Forgiveness starts Emotion.",
+  "part_of": "structure_sparks",
+  "from": "chain_forgiveness",
+  "at": "step_decision_or_emotional_shift",
+  "to": "chain_emotion",
+  "enters": ""
+}

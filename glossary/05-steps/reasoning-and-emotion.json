@@ -1,0 +1,10 @@
+{
+  "id": "step_reasoning_and_emotion",
+  "name": "Reasoning and Emotion",
+  "is": "step",
+  "definition": "Thinking it through and feeling it through.",
+  "part_of": "",
+  "used_in": [
+    "chain_morality"
+  ]
+}

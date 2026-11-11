@@ -1,0 +1,7 @@
+{
+  "id": "sense_touch",
+  "name": "Touch",
+  "is": "term",
+  "definition": "What you feel on your body.",
+  "part_of": "surroundings_senses"
+}

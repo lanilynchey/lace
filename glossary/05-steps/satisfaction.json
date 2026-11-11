@@ -1,0 +1,15 @@
+{
+  "id": "step_satisfaction",
+  "name": "Satisfaction",
+  "is": "step",
+  "definition": "The feeling when what happened meets what you expected.",
+  "part_of": "",
+  "used_in": [
+    "chain_enjoyment",
+    "chain_full_grip",
+    "chain_curiosity",
+    "chain_fulfillment",
+    "chain_need"
+  ],
+  "opens": "chain_satisfaction"
+}

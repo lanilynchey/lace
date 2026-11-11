@@ -1,0 +1,16 @@
+{
+  "id": "emotion_pressured",
+  "name": "Pressured",
+  "is": "emotion",
+  "definition": "Feeling pushed to deliver.",
+  "part_of": "emotion_busy",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_bad",
+        "emotion_busy"
+      ]
+    }
+  ]
+}

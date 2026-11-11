@@ -1,0 +1,11 @@
+{
+  "id": "step_reality",
+  "name": "Reality",
+  "is": "step",
+  "definition": "What is.",
+  "part_of": "",
+  "used_in": [
+    "chain_thought",
+    "chain_acceptance"
+  ]
+}

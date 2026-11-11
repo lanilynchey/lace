@@ -1,0 +1,12 @@
+{
+  "id": "combination_trauma",
+  "name": "Memory and Fearful",
+  "is": "term",
+  "definition": "Memory and Fearful make Trauma Response.",
+  "part_of": "making_combining_things",
+  "of": [
+    "chain_memory",
+    "emotion_fearful"
+  ],
+  "makes": "chain_trauma_response"
+}

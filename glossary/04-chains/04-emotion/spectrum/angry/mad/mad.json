@@ -1,0 +1,15 @@
+{
+  "id": "emotion_mad",
+  "name": "Mad",
+  "is": "emotion",
+  "definition": "Plainly angry.",
+  "part_of": "emotion_angry",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_angry"
+      ]
+    }
+  ]
+}

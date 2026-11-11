@@ -1,0 +1,20 @@
+{
+  "id": "step_coping_or_avoidance",
+  "name": "Coping or Avoidance",
+  "is": "step",
+  "definition": "Dealing with it, or escaping it.",
+  "part_of": "",
+  "used_in": [
+    "chain_anxiety"
+  ],
+  "sides": [
+    {
+      "name": "Coping",
+      "then": "carries on"
+    },
+    {
+      "name": "Avoidance",
+      "then": "chain_avoidance"
+    }
+  ]
+}

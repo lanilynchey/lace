@@ -1,0 +1,21 @@
+{
+  "id": "chain_identity",
+  "name": "Identity",
+  "is": "chain",
+  "definition": "Who you take yourself to be.",
+  "part_of": "chain_thought",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "step_belief",
+  "steps": [
+    "step_experience",
+    "step_perception",
+    "step_belief",
+    "step_identification",
+    "step_expression",
+    "step_feedback",
+    "step_integration",
+    "form_evolution"
+  ],
+  "note": "\"Who I am\" is a belief formed through the Thought Chain."
+}

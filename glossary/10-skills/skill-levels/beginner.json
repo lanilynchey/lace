@@ -1,0 +1,8 @@
+{
+  "id": "skill_beginner",
+  "name": "Beginner",
+  "is": "term",
+  "definition": "You don't know what you're bad at.",
+  "part_of": "body_skill_levels",
+  "order": 1
+}

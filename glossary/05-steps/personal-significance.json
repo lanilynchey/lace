@@ -1,0 +1,10 @@
+{
+  "id": "step_personal_significance",
+  "name": "Personal Significance",
+  "is": "step",
+  "definition": "Why it matters to you.",
+  "part_of": "",
+  "used_in": [
+    "chain_meaning_making"
+  ]
+}

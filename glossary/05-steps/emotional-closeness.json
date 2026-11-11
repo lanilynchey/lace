@@ -1,0 +1,10 @@
+{
+  "id": "step_emotional_closeness",
+  "name": "Emotional Closeness",
+  "is": "step",
+  "definition": "Feeling near to someone's feelings.",
+  "part_of": "",
+  "used_in": [
+    "chain_love"
+  ]
+}

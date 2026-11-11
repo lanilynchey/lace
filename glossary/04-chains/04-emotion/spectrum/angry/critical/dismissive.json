@@ -1,0 +1,16 @@
+{
+  "id": "emotion_dismissive",
+  "name": "Dismissive",
+  "is": "emotion",
+  "definition": "Brushing something off as not worth attention.",
+  "part_of": "emotion_critical",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_critical"
+      ]
+    }
+  ]
+}

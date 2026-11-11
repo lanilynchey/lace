@@ -1,0 +1,20 @@
+{
+  "id": "step_recovery_or_prolonged_stress",
+  "name": "Recovery or Prolonged Stress",
+  "is": "step",
+  "definition": "Returning to rest, or staying strained.",
+  "part_of": "",
+  "used_in": [
+    "chain_stress"
+  ],
+  "sides": [
+    {
+      "name": "Recovery",
+      "then": "chain_recovery"
+    },
+    {
+      "name": "Prolonged Stress",
+      "then": "chain_stress"
+    }
+  ]
+}

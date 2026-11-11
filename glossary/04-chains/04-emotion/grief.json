@@ -1,0 +1,20 @@
+{
+  "id": "chain_grief",
+  "name": "Grief",
+  "is": "chain",
+  "definition": "The response to loss.",
+  "part_of": "chain_emotion",
+  "emotion": "emotion_grief",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_loss",
+    "step_recognition",
+    "emotions_emotional_response",
+    "step_adjustment",
+    "step_meaning_making",
+    "step_integration",
+    "step_continuing_life"
+  ],
+  "note": "Runs over a long time."
+}

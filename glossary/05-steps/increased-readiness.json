@@ -1,0 +1,10 @@
+{
+  "id": "step_increased_readiness",
+  "name": "Increased Readiness",
+  "is": "step",
+  "definition": "The body more prepared to act.",
+  "part_of": "",
+  "used_in": [
+    "chain_arousal"
+  ]
+}

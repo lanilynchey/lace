@@ -1,0 +1,10 @@
+{
+  "id": "step_repair_processes",
+  "name": "Repair Processes",
+  "is": "step",
+  "definition": "The body mending itself.",
+  "part_of": "",
+  "used_in": [
+    "chain_recovery"
+  ]
+}

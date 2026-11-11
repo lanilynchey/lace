@@ -1,0 +1,13 @@
+{
+  "id": "step_commitment",
+  "name": "Commitment",
+  "is": "step",
+  "definition": "Holding yourself to a choice.",
+  "part_of": "",
+  "used_in": [
+    "chain_decision",
+    "chain_ambition",
+    "chain_achievement"
+  ],
+  "opens": "chain_commitment"
+}

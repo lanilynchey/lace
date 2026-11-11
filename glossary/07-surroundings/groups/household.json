@@ -1,0 +1,7 @@
+{
+  "id": "group_household",
+  "name": "Household",
+  "is": "term",
+  "definition": "People who share a home.",
+  "part_of": "surroundings_groups"
+}

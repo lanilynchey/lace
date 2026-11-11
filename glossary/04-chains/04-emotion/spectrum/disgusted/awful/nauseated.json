@@ -1,0 +1,16 @@
+{
+  "id": "emotion_nauseated",
+  "name": "Nauseated",
+  "is": "emotion",
+  "definition": "Sick to your stomach.",
+  "part_of": "emotion_awful",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_disgusted",
+        "emotion_awful"
+      ]
+    }
+  ]
+}

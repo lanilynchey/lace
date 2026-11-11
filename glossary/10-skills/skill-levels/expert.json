@@ -1,0 +1,8 @@
+{
+  "id": "skill_expert",
+  "name": "Expert",
+  "is": "term",
+  "definition": "It is automatic.",
+  "part_of": "body_skill_levels",
+  "order": 4
+}

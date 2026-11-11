@@ -1,0 +1,10 @@
+{
+  "id": "lens_lift",
+  "name": "Lift",
+  "is": "term",
+  "definition": "Peonies on your doorstep, and a lift in your smile.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "chain_emotion"
+  ]
+}

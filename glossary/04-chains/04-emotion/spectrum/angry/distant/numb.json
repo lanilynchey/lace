@@ -1,0 +1,16 @@
+{
+  "id": "emotion_numb",
+  "name": "Numb",
+  "is": "emotion",
+  "definition": "Feeling nothing.",
+  "part_of": "emotion_distant",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_distant"
+      ]
+    }
+  ]
+}

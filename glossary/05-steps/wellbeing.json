@@ -1,0 +1,10 @@
+{
+  "id": "step_wellbeing",
+  "name": "Wellbeing",
+  "is": "step",
+  "definition": "Being well overall.",
+  "part_of": "",
+  "used_in": [
+    "chain_joy"
+  ]
+}

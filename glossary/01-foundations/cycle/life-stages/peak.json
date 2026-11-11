@@ -1,0 +1,7 @@
+{
+  "id": "stage_peak",
+  "name": "Peak",
+  "is": "term",
+  "definition": "At its fullest.",
+  "part_of": "cycle_life_stages"
+}

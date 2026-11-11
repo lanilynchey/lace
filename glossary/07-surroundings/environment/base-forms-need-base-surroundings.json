@@ -1,0 +1,7 @@
+{
+  "id": "rule_base_forms_need_base_surroundings",
+  "name": "Base Forms Need Base Surroundings",
+  "is": "rule",
+  "definition": "Every form needs contact with natural surroundings.",
+  "part_of": "surroundings_environment"
+}

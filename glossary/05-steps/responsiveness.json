@@ -1,0 +1,10 @@
+{
+  "id": "step_responsiveness",
+  "name": "Responsiveness",
+  "is": "step",
+  "definition": "Answering to what the other person shares.",
+  "part_of": "",
+  "used_in": [
+    "chain_intimacy"
+  ]
+}

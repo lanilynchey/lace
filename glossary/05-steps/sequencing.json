@@ -1,0 +1,10 @@
+{
+  "id": "step_sequencing",
+  "name": "Sequencing",
+  "is": "step",
+  "definition": "Putting things in order.",
+  "part_of": "",
+  "used_in": [
+    "chain_planning"
+  ]
+}

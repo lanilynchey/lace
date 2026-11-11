@@ -1,0 +1,20 @@
+{
+  "id": "chain_planning",
+  "name": "Planning",
+  "is": "chain",
+  "definition": "Working out how to reach an objective.",
+  "part_of": "chain_action",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "step_planning",
+  "steps": [
+    "step_objective",
+    "step_information",
+    "step_constraints",
+    "step_options",
+    "step_prioritization",
+    "step_sequencing",
+    "step_schedule",
+    "step_reflection"
+  ]
+}

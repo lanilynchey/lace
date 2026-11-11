@@ -1,0 +1,17 @@
+{
+  "id": "body_base_skills",
+  "name": "Base Skills",
+  "is": "term",
+  "definition": "Skills everyone has but few train.",
+  "part_of": "body_skills",
+  "includes": [
+    "chain_thought",
+    "chain_decision",
+    "chain_emotional_regulation",
+    "core_attention",
+    "chain_memory",
+    "chain_learning",
+    "step_eating",
+    "step_rest"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "source_lived",
+  "name": "lived",
+  "is": "term",
+  "definition": "You experienced it yourself.",
+  "part_of": "structure_source"
+}

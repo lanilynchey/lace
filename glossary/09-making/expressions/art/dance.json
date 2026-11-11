@@ -1,0 +1,7 @@
+{
+  "id": "artform_dance",
+  "name": "Dance",
+  "is": "term",
+  "definition": "Art made with the body moving.",
+  "part_of": "expression_art"
+}

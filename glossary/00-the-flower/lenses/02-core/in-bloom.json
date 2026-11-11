@@ -1,0 +1,10 @@
+{
+  "id": "lens_in_bloom",
+  "name": "In Bloom",
+  "is": "term",
+  "definition": "The garden you pictured, growing in front of you, and still changing.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "state_symbiotic_state"
+  ]
+}

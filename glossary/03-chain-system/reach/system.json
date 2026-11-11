@@ -1,0 +1,8 @@
+{
+  "id": "reach_system",
+  "name": "System",
+  "is": "term",
+  "definition": "The whole Base System.",
+  "part_of": "rule_chain_reach",
+  "order": 6
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_results",
+  "name": "Results",
+  "is": "step",
+  "definition": "What your behaviour produces.",
+  "part_of": "",
+  "used_in": [
+    "chain_thought"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "emotion_scared",
+  "name": "Scared",
+  "is": "emotion",
+  "definition": "Afraid of something right now.",
+  "part_of": "emotion_fearful",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_fearful"
+      ]
+    }
+  ]
+}

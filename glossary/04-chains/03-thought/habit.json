@@ -1,0 +1,20 @@
+{
+  "id": "chain_habit",
+  "name": "Habit",
+  "is": "chain",
+  "definition": "Something you do automatically.",
+  "part_of": "chain_thought",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "step_habit",
+  "steps": [
+    "step_trigger",
+    "step_urge",
+    "step_behaviour",
+    "step_aftermath",
+    "step_reinforcement",
+    "step_repetition",
+    "step_habit"
+  ],
+  "note": "Avoidance and procrastination are habits."
+}

@@ -1,0 +1,7 @@
+{
+  "id": "structure_shared_chains",
+  "name": "Shared chains",
+  "is": "term",
+  "definition": "Any chain can belong to a group instead of one person.",
+  "part_of": "structure_chain"
+}

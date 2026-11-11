@@ -1,0 +1,19 @@
+{
+  "id": "chain_design",
+  "name": "Design",
+  "is": "chain",
+  "definition": "Shaping a solution to fit a need.",
+  "part_of": "chain_creation",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_need",
+    "step_research",
+    "step_definition",
+    "step_ideation",
+    "step_prototyping",
+    "step_testing",
+    "step_iteration",
+    "step_solution"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "record_0007",
+  "chain": "chain_action",
+  "moment": "Getting up to dance at a wedding",
+  "resources": [
+    {
+      "resource": "resource_energy",
+      "at": "supply_ample"
+    },
+    {
+      "resource": "resource_attention_reserve",
+      "at": "supply_ample"
+    }
+  ],
+  "steps": [
+    {
+      "step": "step_trigger",
+      "gate": 1,
+      "what": "Your song comes on at the wedding."
+    },
+    {
+      "step": "step_attention",
+      "gate": 1,
+      "what": "You look at the dance floor.",
+      "opened": {
+        "chain": "chain_attention",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_motivation",
+      "gate": 1,
+      "what": "You want to be in it.",
+      "opened": {
+        "chain": "chain_motivation",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_intention",
+      "gate": 1,
+      "what": "You decide to get up."
+    },
+    {
+      "step": "step_planning",
+      "gate": 1,
+      "what": "Shoes off, grab your cousin.",
+      "opened": {
+        "chain": "chain_planning",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_initiation",
+      "gate": 1,
+      "what": "You stand up."
+    },
+    {
+      "step": "step_action",
+      "gate": 1,
+      "what": "You dance."
+    },
+    {
+      "step": "step_monitoring",
+      "gate": 1,
+      "what": "You check it feels good and you are not hitting anyone."
+    },
+    {
+      "step": "step_completion",
+      "gate": 1,
+      "what": "The song ends."
+    },
+    {
+      "step": "step_aftermath",
+      "gate": 1,
+      "what": "Out of breath, grinning."
+    },
+    {
+      "step": "step_reflection",
+      "gate": 1,
+      "what": "I should do that more.",
+      "opened": {
+        "chain": "chain_reflection",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_reinforcement",
+      "gate": 1,
+      "what": "Next song, you are up faster."
+    }
+  ]
+}

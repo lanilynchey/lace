@@ -1,0 +1,10 @@
+{
+  "id": "step_water_seeking",
+  "name": "Water Seeking",
+  "is": "step",
+  "definition": "Looking for water.",
+  "part_of": "",
+  "used_in": [
+    "chain_thirst"
+  ]
+}

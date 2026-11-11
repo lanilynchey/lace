@@ -1,0 +1,16 @@
+{
+  "id": "emotion_detestable",
+  "name": "Detestable",
+  "is": "emotion",
+  "definition": "Feeling something is hateful.",
+  "part_of": "emotion_awful",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_disgusted",
+        "emotion_awful"
+      ]
+    }
+  ]
+}

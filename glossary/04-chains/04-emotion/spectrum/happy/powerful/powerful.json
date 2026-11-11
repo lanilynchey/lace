@@ -1,0 +1,15 @@
+{
+  "id": "emotion_powerful",
+  "name": "Powerful",
+  "is": "emotion",
+  "definition": "Feeling able to make things happen.",
+  "part_of": "emotion_happy",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_happy"
+      ]
+    }
+  ]
+}

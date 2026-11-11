@@ -1,0 +1,17 @@
+{
+  "id": "chain_procrastination",
+  "name": "Procrastination",
+  "is": "chain",
+  "definition": "Putting off a task.",
+  "part_of": "chain_habit",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_task",
+    "step_discomfort",
+    "step_delay",
+    "step_temporary_relief",
+    "step_accumulating_pressure",
+    "step_action_or_further_delay"
+  ]
+}

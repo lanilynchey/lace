@@ -1,0 +1,8 @@
+{
+  "id": "circle_known",
+  "name": "known",
+  "is": "term",
+  "definition": "People you know of but have never met.",
+  "part_of": "surroundings_circles",
+  "order": 5
+}

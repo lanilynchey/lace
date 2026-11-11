@@ -1,0 +1,18 @@
+{
+  "id": "chain_adventure",
+  "name": "Adventure",
+  "is": "chain",
+  "definition": "Choosing a risky new experience.",
+  "part_of": "chain_exploration",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_desire",
+    "step_possibility",
+    "step_risk_evaluation",
+    "step_decision",
+    "step_exploration",
+    "step_experience",
+    "step_reflection"
+  ]
+}

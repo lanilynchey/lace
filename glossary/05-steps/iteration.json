@@ -1,0 +1,10 @@
+{
+  "id": "step_iteration",
+  "name": "Iteration",
+  "is": "step",
+  "definition": "Doing it again, improved.",
+  "part_of": "",
+  "used_in": [
+    "chain_design"
+  ]
+}

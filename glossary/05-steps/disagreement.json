@@ -1,0 +1,10 @@
+{
+  "id": "step_disagreement",
+  "name": "Disagreement",
+  "is": "step",
+  "definition": "Not agreeing.",
+  "part_of": "",
+  "used_in": [
+    "chain_conflict"
+  ]
+}

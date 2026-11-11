@@ -1,0 +1,20 @@
+{
+  "id": "step_fulfillment_or_dissatisfaction",
+  "name": "Fulfillment or Dissatisfaction",
+  "is": "step",
+  "definition": "Being satisfied, or not.",
+  "part_of": "",
+  "used_in": [
+    "chain_satisfaction"
+  ],
+  "sides": [
+    {
+      "name": "Fulfillment",
+      "then": "chain_fulfillment"
+    },
+    {
+      "name": "Dissatisfaction",
+      "then": "chain_change"
+    }
+  ]
+}

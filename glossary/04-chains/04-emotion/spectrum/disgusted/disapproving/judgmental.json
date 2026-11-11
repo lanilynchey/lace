@@ -1,0 +1,16 @@
+{
+  "id": "emotion_judgmental",
+  "name": "Judgmental",
+  "is": "emotion",
+  "definition": "Quick to find fault.",
+  "part_of": "emotion_disapproving",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_disgusted",
+        "emotion_disapproving"
+      ]
+    }
+  ]
+}

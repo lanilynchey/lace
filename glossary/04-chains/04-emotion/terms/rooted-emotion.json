@@ -1,0 +1,7 @@
+{
+  "id": "emotions_rooted_emotion",
+  "name": "Rooted Emotion",
+  "is": "term",
+  "definition": "An emotion that grows out of another one.",
+  "part_of": "emotions_emotion"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "emotion_bitter",
+  "name": "Bitter",
+  "is": "emotion",
+  "definition": "Sour from old hurt.",
+  "part_of": "emotion_angry",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_angry"
+      ]
+    }
+  ]
+}

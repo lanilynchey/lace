@@ -1,0 +1,7 @@
+{
+  "id": "form_dog",
+  "name": "Dog",
+  "is": "term",
+  "definition": "A form that might think about its favourite toy.",
+  "part_of": "form_the_form"
+}

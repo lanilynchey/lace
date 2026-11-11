@@ -1,0 +1,7 @@
+{
+  "id": "surroundings_environment",
+  "name": "Environment",
+  "is": "term",
+  "definition": "The places and conditions around you.",
+  "part_of": "surroundings_surroundings"
+}

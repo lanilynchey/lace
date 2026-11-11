@@ -1,0 +1,19 @@
+{
+  "id": "emotions_emotional_response",
+  "name": "Emotional Response",
+  "is": "term",
+  "definition": "Feeling an emotion in your body (a tight chest, a racing heart).",
+  "part_of": "chain_emotion",
+  "used_in": [
+    "chain_appreciation",
+    "chain_acceptance",
+    "chain_social_comparison",
+    "chain_emotion",
+    "chain_fear",
+    "chain_grief",
+    "chain_trauma_response",
+    "chain_conflict",
+    "chain_pain",
+    "chain_preference"
+  ]
+}

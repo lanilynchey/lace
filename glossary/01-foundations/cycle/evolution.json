@@ -1,0 +1,11 @@
+{
+  "id": "form_evolution",
+  "name": "Evolution",
+  "is": "term",
+  "definition": "Creation shaped by the Influences on the Current State.",
+  "part_of": "cycle_creation",
+  "used_in": [
+    "chain_identity",
+    "chain_innovation"
+  ]
+}

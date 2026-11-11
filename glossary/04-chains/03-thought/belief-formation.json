@@ -1,0 +1,20 @@
+{
+  "id": "chain_belief_formation",
+  "name": "Belief Formation",
+  "is": "chain",
+  "definition": "How a belief gets formed.",
+  "part_of": "chain_thought",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "step_belief",
+  "steps": [
+    "step_information",
+    "step_exposure",
+    "step_perception",
+    "step_evaluation",
+    "step_acceptance",
+    "step_reinforcement",
+    "step_belief",
+    "step_reflection"
+  ]
+}

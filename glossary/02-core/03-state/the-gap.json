@@ -1,0 +1,14 @@
+{
+  "id": "state_the_gap",
+  "name": "The Gap",
+  "is": "term",
+  "definition": "The distance between Current and Desired State. The goal is to eliminate it.",
+  "part_of": "core_state",
+  "closes_with": [
+    "cycle_creation",
+    "chain_change"
+  ],
+  "checks": [
+    "The Gap is what differs between one Instance's Current State and its Desired State."
+  ]
+}

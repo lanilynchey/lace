@@ -1,0 +1,10 @@
+{
+  "id": "step_disclosure",
+  "name": "Disclosure",
+  "is": "step",
+  "definition": "Sharing something private about yourself.",
+  "part_of": "",
+  "used_in": [
+    "chain_intimacy"
+  ]
+}

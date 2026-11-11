@@ -1,0 +1,16 @@
+{
+  "id": "emotion_joyful",
+  "name": "Joyful",
+  "is": "emotion",
+  "definition": "Full of joy.",
+  "part_of": "emotion_content",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_content"
+      ]
+    }
+  ]
+}

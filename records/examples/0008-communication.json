@@ -1,0 +1,90 @@
+{
+  "id": "record_0008",
+  "chain": "chain_communication",
+  "moment": "Explaining a meme to your dad",
+  "steps": [
+    {
+      "step": "step_thought",
+      "gate": 1,
+      "what": "This meme is funny and Dad should get it.",
+      "opened": {
+        "chain": "chain_thought",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_intention",
+      "gate": 1,
+      "what": "You decide to explain it."
+    },
+    {
+      "step": "step_encoding",
+      "gate": 1,
+      "what": "You look for words for something that is mostly a picture."
+    },
+    {
+      "step": "step_expression",
+      "gate": 1,
+      "what": "You hold up the phone and start explaining."
+    },
+    {
+      "step": "step_transmission",
+      "gate": 1,
+      "what": "Your words and the screen cross the sofa."
+    },
+    {
+      "step": "step_reception",
+      "gate": 1,
+      "what": "Dad hears you and looks."
+    },
+    {
+      "step": "step_decoding",
+      "gate": 1,
+      "what": "He turns it into something he already knows."
+    },
+    {
+      "step": "step_perception",
+      "gate": 1,
+      "what": "He takes the picture literally.",
+      "opened": {
+        "chain": "chain_perception",
+        "record": ""
+      }
+    },
+    {
+      "step": "emotions_emotion",
+      "gate": 1,
+      "what": "Polite confusion.",
+      "emotions": [
+        {
+          "emotion": "emotion_confused",
+          "charge": "charge_hum",
+          "stake": "stake_social"
+        }
+      ],
+      "opened": {
+        "chain": "chain_emotion",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_response",
+      "gate": 1,
+      "what": "\"So why is that funny?\""
+    },
+    {
+      "step": "step_feedback",
+      "gate": 1,
+      "what": "You hear that it did not land and try again."
+    },
+    {
+      "step": "step_understanding",
+      "gate": 1,
+      "what": "He laughs, mostly at you explaining it.",
+      "opened": {
+        "chain": "chain_understanding",
+        "record": ""
+      }
+    }
+  ]
+}

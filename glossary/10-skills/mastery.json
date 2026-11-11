@@ -1,0 +1,11 @@
+{
+  "id": "body_mastery",
+  "name": "Mastery",
+  "is": "term",
+  "definition": "The top of a skill, where Current and Desired have nearly met.",
+  "part_of": "body_skill_levels",
+  "order": 5,
+  "used_in": [
+    "chain_mastery"
+  ]
+}

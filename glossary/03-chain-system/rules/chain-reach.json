@@ -1,0 +1,7 @@
+{
+  "id": "rule_chain_reach",
+  "name": "Chain Reach",
+  "is": "rule",
+  "definition": "How one person's change spreads.",
+  "part_of": "structure_chain"
+}

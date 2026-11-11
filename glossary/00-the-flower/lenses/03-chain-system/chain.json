@@ -1,0 +1,10 @@
+{
+  "id": "lens_chain",
+  "name": "Chain",
+  "is": "term",
+  "definition": "From seed to bloom is a run of steps, one after another.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "structure_chain"
+  ]
+}

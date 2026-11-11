@@ -1,0 +1,15 @@
+{
+  "id": "emotion_critical",
+  "name": "Critical",
+  "is": "emotion",
+  "definition": "Finding fault.",
+  "part_of": "emotion_angry",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_angry"
+      ]
+    }
+  ]
+}

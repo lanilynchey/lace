@@ -1,0 +1,16 @@
+{
+  "id": "emotion_revolted",
+  "name": "Revolted",
+  "is": "emotion",
+  "definition": "Strongly sickened by something.",
+  "part_of": "emotion_disappointed",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_disgusted",
+        "emotion_disappointed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_obstacles",
+  "name": "Obstacles",
+  "is": "step",
+  "definition": "What stands in the way.",
+  "part_of": "",
+  "used_in": [
+    "chain_achievement"
+  ]
+}

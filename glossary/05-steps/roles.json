@@ -1,0 +1,10 @@
+{
+  "id": "step_roles",
+  "name": "Roles",
+  "is": "step",
+  "definition": "Who does what.",
+  "part_of": "",
+  "used_in": [
+    "chain_collaboration"
+  ]
+}

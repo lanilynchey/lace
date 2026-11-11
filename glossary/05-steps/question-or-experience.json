@@ -1,0 +1,20 @@
+{
+  "id": "step_question_or_experience",
+  "name": "Question or Experience",
+  "is": "step",
+  "definition": "Something you wonder, or something you live through.",
+  "part_of": "",
+  "used_in": [
+    "chain_faith"
+  ],
+  "sides": [
+    {
+      "name": "Question",
+      "then": "carries on"
+    },
+    {
+      "name": "Experience",
+      "then": "carries on"
+    }
+  ]
+}

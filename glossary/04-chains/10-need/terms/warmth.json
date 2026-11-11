@@ -1,0 +1,7 @@
+{
+  "id": "need_warmth",
+  "name": "Warmth",
+  "is": "term",
+  "definition": "Being warm enough.",
+  "part_of": "need_needs"
+}

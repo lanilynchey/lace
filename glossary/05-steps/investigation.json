@@ -1,0 +1,10 @@
+{
+  "id": "step_investigation",
+  "name": "Investigation",
+  "is": "step",
+  "definition": "Looking into something carefully.",
+  "part_of": "",
+  "used_in": [
+    "chain_exploration"
+  ]
+}

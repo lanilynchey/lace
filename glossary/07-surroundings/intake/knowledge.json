@@ -1,0 +1,21 @@
+{
+  "id": "intake_knowledge",
+  "name": "Knowledge",
+  "is": "term",
+  "definition": "What teaches you or informs you.",
+  "part_of": "surroundings_intake",
+  "entries": [
+    "Lessons",
+    "Courses",
+    "Lectures",
+    "Guides",
+    "Data",
+    "Reports",
+    "References",
+    "Maps",
+    "Diagrams"
+  ],
+  "includes": [
+    "step_research"
+  ]
+}

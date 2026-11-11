@@ -1,0 +1,10 @@
+{
+  "id": "step_mutual_understanding",
+  "name": "Mutual Understanding",
+  "is": "step",
+  "definition": "Each knowing the other.",
+  "part_of": "",
+  "used_in": [
+    "chain_intimacy"
+  ]
+}

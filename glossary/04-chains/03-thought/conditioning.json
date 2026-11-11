@@ -1,0 +1,17 @@
+{
+  "id": "chain_conditioning",
+  "name": "Conditioning",
+  "is": "chain",
+  "definition": "Learning to respond to a trigger automatically.",
+  "part_of": "chain_habit",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_trigger",
+    "step_association",
+    "step_response",
+    "step_aftermath",
+    "step_repetition",
+    "step_habit"
+  ]
+}

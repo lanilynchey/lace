@@ -1,0 +1,7 @@
+{
+  "id": "kind_spur",
+  "name": "spur",
+  "is": "term",
+  "definition": "A chain that comes off another chain.",
+  "part_of": "structure_chain"
+}

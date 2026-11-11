@@ -1,0 +1,12 @@
+{
+  "id": "step_practice",
+  "name": "Practice",
+  "is": "step",
+  "definition": "Doing it repeatedly.",
+  "part_of": "",
+  "used_in": [
+    "chain_faith",
+    "chain_learning",
+    "chain_skill"
+  ]
+}

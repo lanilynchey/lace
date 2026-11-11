@@ -1,0 +1,11 @@
+{
+  "id": "link_stress_sparks_recovery",
+  "name": "Stress sparks Recovery",
+  "is": "link",
+  "definition": "The Recovery or Prolonged Stress step of Stress starts Recovery.",
+  "part_of": "structure_sparks",
+  "from": "chain_stress",
+  "at": "step_recovery_or_prolonged_stress",
+  "to": "chain_recovery",
+  "enters": ""
+}

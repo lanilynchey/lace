@@ -1,0 +1,25 @@
+{
+  "id": "chain_connection",
+  "name": "Connection",
+  "is": "chain",
+  "definition": "How a relationship forms and keeps going. Shared by nature.",
+  "part_of": "base_base_functions",
+  "kind": "chain",
+  "locked": true,
+  "steps": [
+    "step_encounter",
+    "step_attention",
+    "step_perception",
+    "step_interest",
+    "step_approach",
+    "step_communication",
+    "step_recognition",
+    "step_alignment",
+    "step_reciprocity",
+    "step_trust",
+    "step_vulnerability",
+    "step_bond",
+    "step_belonging",
+    "step_maintenance"
+  ]
+}

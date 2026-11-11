@@ -1,0 +1,10 @@
+{
+  "id": "step_positive_anticipation",
+  "name": "Positive Anticipation",
+  "is": "step",
+  "definition": "Looking forward to it.",
+  "part_of": "",
+  "used_in": [
+    "chain_hope"
+  ]
+}

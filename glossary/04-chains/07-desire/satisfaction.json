@@ -1,0 +1,17 @@
+{
+  "id": "chain_satisfaction",
+  "name": "Satisfaction",
+  "is": "chain",
+  "definition": "The feeling when what happened meets what you expected.",
+  "part_of": "chain_desire",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "step_outcome",
+  "steps": [
+    "step_expectation",
+    "step_experience",
+    "step_comparison",
+    "step_evaluation",
+    "step_fulfillment_or_dissatisfaction"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "record_0019",
+  "chain": "chain_boredom",
+  "moment": "A rainy Sunday with nothing to do",
+  "emotion": {
+    "emotion": "emotion_bored",
+    "charge": "charge_hum",
+    "stake": "stake_self"
+  },
+  "steps": [
+    {
+      "step": "step_low_engagement",
+      "gate": 1,
+      "what": "Nothing on the sofa holds you."
+    },
+    {
+      "step": "step_dissatisfaction",
+      "gate": 1,
+      "what": "The afternoon feels flat."
+    },
+    {
+      "step": "step_desire_for_stimulation",
+      "gate": 1,
+      "what": "You want something, anything, to do."
+    },
+    {
+      "step": "step_exploration_or_withdrawal",
+      "gate": 1,
+      "what": "You pull the blanket up and stare at the ceiling.",
+      "side": "Withdrawal",
+      "ran_again": {
+        "record": ""
+      }
+    }
+  ]
+}

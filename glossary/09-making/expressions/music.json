@@ -1,0 +1,7 @@
+{
+  "id": "expression_music",
+  "name": "Music",
+  "is": "term",
+  "definition": "Emotion put into sound.",
+  "part_of": "emotions_emotional_expression"
+}

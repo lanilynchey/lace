@@ -1,0 +1,10 @@
+{
+  "id": "lens_one_in_a_thousand",
+  "name": "One in a Thousand",
+  "is": "term",
+  "definition": "You walk past a thousand flowers and notice one.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "core_attention"
+  ]
+}

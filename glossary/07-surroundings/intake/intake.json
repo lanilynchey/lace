@@ -1,0 +1,10 @@
+{
+  "id": "surroundings_intake",
+  "name": "Intake",
+  "is": "term",
+  "definition": "What you take in.",
+  "part_of": "surroundings_surroundings",
+  "used_in": [
+    "chain_learning"
+  ]
+}

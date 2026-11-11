@@ -1,0 +1,22 @@
+{
+  "id": "chain_thought",
+  "name": "Thought",
+  "is": "chain",
+  "definition": "From thought to reality.",
+  "part_of": "base_base_functions",
+  "kind": "chain",
+  "locked": true,
+  "steps": [
+    "step_thought",
+    "step_repetition",
+    "step_belief",
+    "step_perception",
+    "emotions_emotion",
+    "step_action",
+    "step_habit",
+    "step_behaviour",
+    "step_results",
+    "step_reinforcement",
+    "step_reality"
+  ]
+}

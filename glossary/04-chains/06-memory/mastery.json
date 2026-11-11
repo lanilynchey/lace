@@ -1,0 +1,18 @@
+{
+  "id": "chain_mastery",
+  "name": "Mastery",
+  "is": "chain",
+  "definition": "Reaching the top of a skill.",
+  "part_of": "chain_skill",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_interest",
+    "step_learning",
+    "step_deliberate_practice",
+    "step_feedback",
+    "step_refinement",
+    "body_mastery",
+    "step_adaptation"
+  ]
+}

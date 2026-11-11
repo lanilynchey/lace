@@ -1,0 +1,17 @@
+{
+  "id": "chain_impulse",
+  "name": "Impulse",
+  "is": "chain",
+  "definition": "A sudden urge to act.",
+  "part_of": "chain_action",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_trigger",
+    "step_urge",
+    "body_body_signals",
+    "step_inhibition_or_action",
+    "step_consequence",
+    "step_learning"
+  ]
+}

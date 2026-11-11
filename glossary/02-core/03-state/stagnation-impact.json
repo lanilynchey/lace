@@ -1,0 +1,8 @@
+{
+  "id": "state_stagnation_impact",
+  "name": "Stagnation Impact",
+  "is": "term",
+  "definition": "What the System sends when stagnation reaches its threshold.",
+  "part_of": "state_signature_state_stagnation",
+  "is_a": "surroundings_impact"
+}

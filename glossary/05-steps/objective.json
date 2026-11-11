@@ -1,0 +1,10 @@
+{
+  "id": "step_objective",
+  "name": "Objective",
+  "is": "step",
+  "definition": "What you are aiming to reach.",
+  "part_of": "",
+  "used_in": [
+    "chain_planning"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "step_experience",
+  "name": "Experience",
+  "is": "step",
+  "definition": "Something you live through.",
+  "part_of": "",
+  "used_in": [
+    "chain_values",
+    "chain_identity",
+    "chain_confidence",
+    "chain_self_concept",
+    "chain_self_esteem",
+    "chain_enjoyment",
+    "chain_shame",
+    "chain_reflection",
+    "chain_satisfaction",
+    "chain_adventure"
+  ]
+}

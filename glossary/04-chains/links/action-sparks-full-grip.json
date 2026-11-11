@@ -1,0 +1,11 @@
+{
+  "id": "link_action_sparks_full_grip",
+  "name": "Action sparks Full Grip",
+  "is": "link",
+  "definition": "Action starts Full Grip.",
+  "part_of": "structure_sparks",
+  "from": "chain_action",
+  "at": "",
+  "to": "chain_full_grip",
+  "enters": ""
+}

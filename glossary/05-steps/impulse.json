@@ -1,0 +1,11 @@
+{
+  "id": "step_impulse",
+  "name": "Impulse",
+  "is": "step",
+  "definition": "A sudden urge to act.",
+  "part_of": "",
+  "used_in": [
+    "chain_anger"
+  ],
+  "opens": "chain_impulse"
+}

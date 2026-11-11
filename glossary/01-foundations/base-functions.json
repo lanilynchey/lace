@@ -1,0 +1,7 @@
+{
+  "id": "base_base_functions",
+  "name": "Base Functions",
+  "is": "term",
+  "definition": "Functions of the Base System.",
+  "part_of": "base_base_system"
+}

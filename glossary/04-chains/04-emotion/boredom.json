@@ -1,0 +1,17 @@
+{
+  "id": "chain_boredom",
+  "name": "Boredom",
+  "is": "chain",
+  "definition": "The unease of not being engaged.",
+  "part_of": "chain_emotion",
+  "emotion": "emotion_bored",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_low_engagement",
+    "step_dissatisfaction",
+    "step_desire_for_stimulation",
+    "step_exploration_or_withdrawal",
+    "step_re_engagement"
+  ]
+}

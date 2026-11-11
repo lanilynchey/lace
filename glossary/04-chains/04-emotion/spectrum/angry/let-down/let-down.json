@@ -1,0 +1,15 @@
+{
+  "id": "emotion_let_down",
+  "name": "Let Down",
+  "is": "emotion",
+  "definition": "Feeling someone failed you.",
+  "part_of": "emotion_angry",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_angry"
+      ]
+    }
+  ]
+}

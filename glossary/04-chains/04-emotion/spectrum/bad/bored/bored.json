@@ -1,0 +1,15 @@
+{
+  "id": "emotion_bored",
+  "name": "Bored",
+  "is": "emotion",
+  "definition": "With nothing holding your interest.",
+  "part_of": "emotion_bad",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_bad"
+      ]
+    }
+  ]
+}

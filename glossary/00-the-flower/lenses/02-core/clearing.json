@@ -1,0 +1,10 @@
+{
+  "id": "lens_clearing",
+  "name": "Clearing",
+  "is": "term",
+  "definition": "A storm finally clears the overgrown bed.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "state_stagnation_impact"
+  ]
+}

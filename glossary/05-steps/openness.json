@@ -1,0 +1,10 @@
+{
+  "id": "step_openness",
+  "name": "Openness",
+  "is": "step",
+  "definition": "Being willing to let someone in.",
+  "part_of": "",
+  "used_in": [
+    "chain_intimacy"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "sense_sight",
+  "name": "Sight",
+  "is": "term",
+  "definition": "What you see.",
+  "part_of": "surroundings_senses"
+}

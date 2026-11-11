@@ -1,0 +1,10 @@
+{
+  "id": "step_questioning",
+  "name": "Questioning",
+  "is": "step",
+  "definition": "Doubting what you held as true.",
+  "part_of": "",
+  "used_in": [
+    "chain_transformation"
+  ]
+}

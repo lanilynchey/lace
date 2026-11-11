@@ -1,0 +1,11 @@
+{
+  "id": "step_achievement",
+  "name": "Achievement",
+  "is": "step",
+  "definition": "Reaching a goal through effort.",
+  "part_of": "",
+  "used_in": [
+    "chain_ambition"
+  ],
+  "opens": "chain_achievement"
+}

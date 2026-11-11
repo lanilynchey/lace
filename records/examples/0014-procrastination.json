@@ -1,0 +1,41 @@
+{
+  "id": "record_0014",
+  "chain": "chain_procrastination",
+  "moment": "Unpacking the suitcase a week after the trip",
+  "steps": [
+    {
+      "step": "step_task",
+      "gate": 1,
+      "what": "Unpack the suitcase."
+    },
+    {
+      "step": "step_discomfort",
+      "gate": 1,
+      "what": "It means laundry, and that the trip is over."
+    },
+    {
+      "step": "step_delay",
+      "gate": 1,
+      "what": "Tomorrow."
+    },
+    {
+      "step": "step_temporary_relief",
+      "gate": 1,
+      "what": "You step over it and feel fine."
+    },
+    {
+      "step": "step_accumulating_pressure",
+      "gate": 1,
+      "what": "A week on, you are out of clean socks."
+    },
+    {
+      "step": "step_action_or_further_delay",
+      "gate": 1,
+      "what": "You take the socks out and leave the rest.",
+      "side": "Further Delay",
+      "ran_again": {
+        "record": ""
+      }
+    }
+  ]
+}

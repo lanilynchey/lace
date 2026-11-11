@@ -1,0 +1,10 @@
+{
+  "id": "step_revision",
+  "name": "Revision",
+  "is": "step",
+  "definition": "Changing it.",
+  "part_of": "",
+  "used_in": [
+    "chain_self_concept"
+  ]
+}

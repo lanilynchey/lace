@@ -1,0 +1,11 @@
+{
+  "id": "link_skill_sparks_full_grip",
+  "name": "Skill sparks Full Grip",
+  "is": "link",
+  "definition": "Skill starts Full Grip.",
+  "part_of": "structure_sparks",
+  "from": "chain_skill",
+  "at": "",
+  "to": "chain_full_grip",
+  "enters": ""
+}

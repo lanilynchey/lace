@@ -1,0 +1,11 @@
+{
+  "id": "step_monitoring",
+  "name": "Monitoring",
+  "is": "step",
+  "definition": "Watching progress and adjusting.",
+  "part_of": "",
+  "used_in": [
+    "chain_action",
+    "chain_goal"
+  ]
+}

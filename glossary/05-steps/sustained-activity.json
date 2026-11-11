@@ -1,0 +1,10 @@
+{
+  "id": "step_sustained_activity",
+  "name": "Sustained Activity",
+  "is": "step",
+  "definition": "Keeping at it without a break.",
+  "part_of": "",
+  "used_in": [
+    "chain_full_grip"
+  ]
+}

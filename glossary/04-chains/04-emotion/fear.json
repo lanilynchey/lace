@@ -1,0 +1,19 @@
+{
+  "id": "chain_fear",
+  "name": "Fear",
+  "is": "chain",
+  "definition": "The emotion that rises when you sense danger.",
+  "part_of": "chain_emotion",
+  "emotion": "emotion_fearful",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "attention_survival_scan",
+    "step_perception",
+    "body_body_signals",
+    "step_fear",
+    "emotions_emotional_response",
+    "step_outcome",
+    "step_learning"
+  ]
+}

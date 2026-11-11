@@ -1,0 +1,15 @@
+{
+  "id": "emotion_depressed",
+  "name": "Depressed",
+  "is": "emotion",
+  "definition": "Heavily low, for a long time.",
+  "part_of": "emotion_sad",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_sad"
+      ]
+    }
+  ]
+}

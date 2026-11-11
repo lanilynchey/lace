@@ -1,0 +1,11 @@
+{
+  "id": "surroundings_places",
+  "name": "Places",
+  "is": "term",
+  "definition": "Where you can be.",
+  "part_of": "surroundings_environment",
+  "circles": "surroundings_circles",
+  "tied_to": [
+    "state_place_state"
+  ]
+}

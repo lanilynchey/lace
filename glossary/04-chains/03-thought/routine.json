@@ -1,0 +1,18 @@
+{
+  "id": "chain_routine",
+  "name": "Routine",
+  "is": "chain",
+  "definition": "A set of actions done the same way, regularly.",
+  "part_of": "chain_habit",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_intention",
+    "step_planning",
+    "step_sequence",
+    "step_repetition",
+    "step_familiarity",
+    "step_consistency",
+    "step_maintenance"
+  ]
+}

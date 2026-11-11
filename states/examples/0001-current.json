@@ -1,0 +1,37 @@
+{
+  "id": "state_0001",
+  "state": "state_current",
+  "instance": "instance_example",
+  "moment": "Three months after moving to a new city",
+  "emotions": [
+    {
+      "emotion": "emotion_lonely",
+      "charge": "charge_pulse",
+      "stake": "stake_social"
+    }
+  ],
+  "needs": [
+    {
+      "need": "chain_belonging",
+      "at": "supply_worn"
+    }
+  ],
+  "beliefs": [
+    "Everyone here already has their friends."
+  ],
+  "where": "A flat in a new city",
+  "around": [
+    {
+      "circle": "circle_strangers",
+      "what": "Neighbours you haven't met"
+    },
+    {
+      "circle": "circle_inner",
+      "what": "Family and old friends, back home"
+    }
+  ],
+  "usual": [
+    "Evenings alone in the flat",
+    "Calling home at the weekend"
+  ]
+}

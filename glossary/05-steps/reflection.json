@@ -1,0 +1,28 @@
+{
+  "id": "step_reflection",
+  "name": "Reflection",
+  "is": "step",
+  "definition": "Looking back on an experience.",
+  "part_of": "",
+  "used_in": [
+    "chain_belief_formation",
+    "chain_faith",
+    "chain_morality",
+    "chain_values",
+    "chain_problem_solving",
+    "chain_reasoning",
+    "chain_emotional_regulation",
+    "chain_wonder",
+    "chain_action",
+    "chain_decision",
+    "chain_planning",
+    "chain_nostalgia",
+    "chain_reflection",
+    "chain_desire",
+    "chain_ambition",
+    "chain_adventure",
+    "chain_fulfillment",
+    "chain_reconciliation"
+  ],
+  "opens": "chain_reflection"
+}

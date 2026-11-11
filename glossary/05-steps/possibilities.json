@@ -1,0 +1,10 @@
+{
+  "id": "step_possibilities",
+  "name": "Possibilities",
+  "is": "step",
+  "definition": "The different ways it could go.",
+  "part_of": "",
+  "used_in": [
+    "chain_problem_solving"
+  ]
+}

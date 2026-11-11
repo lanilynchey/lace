@@ -1,0 +1,10 @@
+{
+  "id": "lens_closest",
+  "name": "Closest",
+  "is": "term",
+  "definition": "What grows right beside it touches it most.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "surroundings_circles"
+  ]
+}

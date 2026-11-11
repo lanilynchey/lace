@@ -1,0 +1,28 @@
+{
+  "id": "record_0018",
+  "chain": "chain_impulse",
+  "moment": "The chocolate bar at the till",
+  "steps": [
+    {
+      "step": "step_trigger",
+      "gate": 1,
+      "what": "A chocolate bar at eye level while you wait to pay."
+    },
+    {
+      "step": "step_urge",
+      "gate": 1,
+      "what": "Just grab it."
+    },
+    {
+      "step": "body_body_signals",
+      "gate": 1,
+      "what": "Your mouth waters and your hand twitches."
+    },
+    {
+      "step": "step_inhibition_or_action",
+      "gate": 1,
+      "what": "You leave it on the shelf.",
+      "side": "Inhibition"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_attribution",
+  "name": "Attribution",
+  "is": "step",
+  "definition": "Seeing where a benefit came from.",
+  "part_of": "",
+  "used_in": [
+    "chain_gratitude"
+  ]
+}

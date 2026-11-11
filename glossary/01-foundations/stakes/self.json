@@ -1,0 +1,7 @@
+{
+  "id": "stake_self",
+  "name": "Self",
+  "is": "term",
+  "definition": "Tied to who you take yourself to be.",
+  "part_of": "stake_stake"
+}

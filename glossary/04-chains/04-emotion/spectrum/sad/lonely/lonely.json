@@ -1,0 +1,15 @@
+{
+  "id": "emotion_lonely",
+  "name": "Lonely",
+  "is": "emotion",
+  "definition": "Missing connection.",
+  "part_of": "emotion_sad",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_sad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_modulation",
+  "name": "Modulation",
+  "is": "step",
+  "definition": "The pain being turned up or down.",
+  "part_of": "",
+  "used_in": [
+    "chain_pain"
+  ]
+}

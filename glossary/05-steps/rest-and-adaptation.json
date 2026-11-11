@@ -1,0 +1,10 @@
+{
+  "id": "step_rest_and_adaptation",
+  "name": "Rest and Adaptation",
+  "is": "step",
+  "definition": "Resting, and the body adjusting.",
+  "part_of": "",
+  "used_in": [
+    "chain_recovery"
+  ]
+}

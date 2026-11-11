@@ -1,0 +1,20 @@
+{
+  "id": "step_accomplishment_or_connection",
+  "name": "Accomplishment or Connection",
+  "is": "step",
+  "definition": "Reaching something, or bonding with someone.",
+  "part_of": "",
+  "used_in": [
+    "chain_fulfillment"
+  ],
+  "sides": [
+    {
+      "name": "Accomplishment",
+      "then": "chain_achievement"
+    },
+    {
+      "name": "Connection",
+      "then": "chain_connection"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "base_base_rules",
+  "name": "Base Rules",
+  "is": "term",
+  "definition": "The rules of the Base System.",
+  "part_of": "base_base_system"
+}

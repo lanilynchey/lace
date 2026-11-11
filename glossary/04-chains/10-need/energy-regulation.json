@@ -1,0 +1,16 @@
+{
+  "id": "chain_energy_regulation",
+  "name": "Energy Regulation",
+  "is": "chain",
+  "definition": "The body balancing energy taken in and energy spent.",
+  "part_of": "chain_need",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_intake_and_expenditure",
+    "body_body_signals",
+    "step_physiological_adjustment",
+    "step_behavioural_response",
+    "step_feedback"
+  ]
+}

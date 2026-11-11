@@ -1,0 +1,10 @@
+{
+  "id": "step_ideation",
+  "name": "Ideation",
+  "is": "step",
+  "definition": "Coming up with ideas.",
+  "part_of": "",
+  "used_in": [
+    "chain_design"
+  ]
+}

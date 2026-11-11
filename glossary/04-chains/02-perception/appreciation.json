@@ -1,0 +1,16 @@
+{
+  "id": "chain_appreciation",
+  "name": "Appreciation",
+  "is": "chain",
+  "definition": "Noticing something and giving it value.",
+  "part_of": "chain_perception",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_attention",
+    "step_recognition",
+    "step_value_assignment",
+    "emotions_emotional_response",
+    "step_acknowledgment"
+  ]
+}

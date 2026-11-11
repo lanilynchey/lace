@@ -1,0 +1,10 @@
+{
+  "id": "lens_progression",
+  "name": "Progression",
+  "is": "term",
+  "definition": "A seedling moves easily. A rooted rose doesn't.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_chain_progression"
+  ]
+}

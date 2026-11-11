@@ -1,0 +1,10 @@
+{
+  "id": "step_skill_engagement",
+  "name": "Skill Engagement",
+  "is": "step",
+  "definition": "Using your skill fully.",
+  "part_of": "",
+  "used_in": [
+    "chain_full_grip"
+  ]
+}

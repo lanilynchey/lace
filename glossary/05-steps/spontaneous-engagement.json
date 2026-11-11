@@ -1,0 +1,10 @@
+{
+  "id": "step_spontaneous_engagement",
+  "name": "Spontaneous Engagement",
+  "is": "step",
+  "definition": "Jumping in without planning.",
+  "part_of": "",
+  "used_in": [
+    "chain_play"
+  ]
+}

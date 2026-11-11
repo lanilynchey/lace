@@ -1,0 +1,15 @@
+{
+  "id": "step_exploration",
+  "name": "Exploration",
+  "is": "step",
+  "definition": "Going to find out.",
+  "part_of": "",
+  "used_in": [
+    "chain_faith",
+    "chain_imagination",
+    "chain_curiosity",
+    "chain_adventure",
+    "chain_transformation"
+  ],
+  "opens": "chain_exploration"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_deliberate_practice",
+  "name": "Deliberate Practice",
+  "is": "step",
+  "definition": "Practice aimed at exactly what you can't yet do.",
+  "part_of": "",
+  "used_in": [
+    "chain_mastery"
+  ]
+}

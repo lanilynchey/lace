@@ -1,0 +1,10 @@
+{
+  "id": "step_influence",
+  "name": "Influence",
+  "is": "step",
+  "definition": "A memory shaping what comes next.",
+  "part_of": "",
+  "used_in": [
+    "chain_memory"
+  ]
+}

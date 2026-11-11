@@ -1,0 +1,12 @@
+{
+  "id": "step_detection",
+  "name": "Detection",
+  "is": "step",
+  "definition": "Picking up that something is there.",
+  "part_of": "",
+  "used_in": [
+    "chain_attention",
+    "chain_perception",
+    "chain_arousal"
+  ]
+}

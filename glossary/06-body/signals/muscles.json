@@ -1,0 +1,7 @@
+{
+  "id": "signal_muscles",
+  "name": "Muscles",
+  "is": "term",
+  "definition": "How tight or loose your muscles are.",
+  "part_of": "body_body_signals"
+}

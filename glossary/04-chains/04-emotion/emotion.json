@@ -1,0 +1,18 @@
+{
+  "id": "chain_emotion",
+  "name": "Emotion",
+  "is": "chain",
+  "definition": "Every emotion runs through this.",
+  "part_of": "base_base_functions",
+  "kind": "chain",
+  "locked": false,
+  "steps": [
+    "step_trigger",
+    "step_perception",
+    "emotions_emotional_response",
+    "emotions_emotion",
+    "emotions_emotional_expression",
+    "emotions_emotion_checkpoint",
+    "step_resolution"
+  ]
+}

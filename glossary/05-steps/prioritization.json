@@ -1,0 +1,12 @@
+{
+  "id": "step_prioritization",
+  "name": "Prioritization",
+  "is": "step",
+  "definition": "Deciding what comes first.",
+  "part_of": "",
+  "used_in": [
+    "chain_values",
+    "chain_planning",
+    "chain_commitment"
+  ]
+}

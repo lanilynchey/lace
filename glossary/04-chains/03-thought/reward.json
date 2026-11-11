@@ -1,0 +1,17 @@
+{
+  "id": "chain_reward",
+  "name": "Reward",
+  "is": "chain",
+  "definition": "The good feeling after a behaviour.",
+  "part_of": "chain_habit",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_behaviour",
+    "step_aftermath",
+    "step_evaluation",
+    "step_pleasure_or_relief",
+    "step_learning",
+    "step_future_motivation"
+  ]
+}

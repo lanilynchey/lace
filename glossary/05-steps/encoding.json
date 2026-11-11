@@ -1,0 +1,13 @@
+{
+  "id": "step_encoding",
+  "name": "Encoding",
+  "is": "step",
+  "definition": "Turning something into a form that can be stored or sent.",
+  "part_of": "",
+  "used_in": [
+    "chain_memory",
+    "chain_learning",
+    "chain_trauma_response",
+    "chain_communication"
+  ]
+}

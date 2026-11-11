@@ -1,0 +1,10 @@
+{
+  "id": "lens_sparks",
+  "name": "Sparks",
+  "is": "term",
+  "definition": "One flower's seed starts the next.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "structure_sparks"
+  ]
+}

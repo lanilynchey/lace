@@ -1,0 +1,23 @@
+{
+  "id": "record_0015",
+  "chain": "chain_attention",
+  "moment": "So deep in a video game you don't realise the house is on fire",
+  "steps": [
+    {
+      "step": "step_trigger",
+      "gate": 1,
+      "what": "Smoke starts coming under the door."
+    },
+    {
+      "step": "step_detection",
+      "gate": 0,
+      "what": "The smoke never registers. The game has all of your attention.",
+      "tilted_by": [
+        {
+          "link": "link_full_grip_tilts_attention",
+          "record": ""
+        }
+      ]
+    }
+  ]
+}

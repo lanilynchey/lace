@@ -1,0 +1,16 @@
+{
+  "id": "emotion_rushed",
+  "name": "Rushed",
+  "is": "emotion",
+  "definition": "Without enough time.",
+  "part_of": "emotion_busy",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_bad",
+        "emotion_busy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "chain_reasoning",
+  "name": "Reasoning",
+  "is": "chain",
+  "definition": "Working from information to a conclusion.",
+  "part_of": "chain_thought",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_question",
+    "step_information",
+    "step_assumptions",
+    "step_analysis",
+    "step_inference",
+    "step_conclusion",
+    "step_reflection"
+  ]
+}

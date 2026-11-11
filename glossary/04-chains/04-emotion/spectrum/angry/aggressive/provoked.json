@@ -1,0 +1,16 @@
+{
+  "id": "emotion_provoked",
+  "name": "Provoked",
+  "is": "emotion",
+  "definition": "Pushed into anger.",
+  "part_of": "emotion_aggressive",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_aggressive"
+      ]
+    }
+  ]
+}

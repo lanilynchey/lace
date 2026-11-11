@@ -1,0 +1,10 @@
+{
+  "id": "step_inspiration",
+  "name": "Inspiration",
+  "is": "step",
+  "definition": "The spark to create.",
+  "part_of": "",
+  "used_in": [
+    "chain_creation"
+  ]
+}

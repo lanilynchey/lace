@@ -1,0 +1,7 @@
+{
+  "id": "surroundings_venues",
+  "name": "Venues",
+  "is": "term",
+  "definition": "Places you go to do something.",
+  "part_of": "surroundings_places"
+}

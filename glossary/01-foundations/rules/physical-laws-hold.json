@@ -1,0 +1,7 @@
+{
+  "id": "rule_physical_laws_hold",
+  "name": "Physical Laws Hold",
+  "is": "rule",
+  "definition": "Gravity, motion and the other physical laws apply to every form.",
+  "part_of": "base_base_rules"
+}

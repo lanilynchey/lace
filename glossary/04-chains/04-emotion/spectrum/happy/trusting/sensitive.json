@@ -1,0 +1,16 @@
+{
+  "id": "emotion_sensitive",
+  "name": "Sensitive",
+  "is": "emotion",
+  "definition": "Easily touched by what is around you.",
+  "part_of": "emotion_trusting",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_trusting"
+      ]
+    }
+  ]
+}

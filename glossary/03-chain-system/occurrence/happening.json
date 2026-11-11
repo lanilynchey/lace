@@ -1,0 +1,7 @@
+{
+  "id": "occurrence_happening",
+  "name": "Happening",
+  "is": "term",
+  "definition": "Something that happens and leaves you who and where you were.",
+  "part_of": "step_occurrence"
+}

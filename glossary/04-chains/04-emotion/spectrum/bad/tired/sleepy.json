@@ -1,0 +1,16 @@
+{
+  "id": "emotion_sleepy",
+  "name": "Sleepy",
+  "is": "emotion",
+  "definition": "Needing sleep.",
+  "part_of": "emotion_tired",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_bad",
+        "emotion_tired"
+      ]
+    }
+  ]
+}

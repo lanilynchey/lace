@@ -1,0 +1,7 @@
+{
+  "id": "sense_smell",
+  "name": "Smell",
+  "is": "term",
+  "definition": "What you smell.",
+  "part_of": "surroundings_senses"
+}

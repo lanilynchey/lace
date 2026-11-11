@@ -1,0 +1,11 @@
+{
+  "id": "link_perception_sparks_action",
+  "name": "Perception sparks Action",
+  "is": "link",
+  "definition": "The Response step of Perception starts Action.",
+  "part_of": "structure_sparks",
+  "from": "chain_perception",
+  "at": "step_response",
+  "to": "chain_action",
+  "enters": ""
+}

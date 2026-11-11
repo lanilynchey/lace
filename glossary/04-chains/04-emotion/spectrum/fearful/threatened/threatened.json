@@ -1,0 +1,15 @@
+{
+  "id": "emotion_threatened",
+  "name": "Threatened",
+  "is": "emotion",
+  "definition": "Sensing something may harm you.",
+  "part_of": "emotion_fearful",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_fearful"
+      ]
+    }
+  ]
+}

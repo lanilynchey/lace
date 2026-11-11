@@ -1,0 +1,10 @@
+{
+  "id": "step_safety",
+  "name": "Safety",
+  "is": "step",
+  "definition": "Being free from threat.",
+  "part_of": "",
+  "used_in": [
+    "chain_intimacy"
+  ]
+}

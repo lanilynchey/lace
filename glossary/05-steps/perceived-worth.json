@@ -1,0 +1,10 @@
+{
+  "id": "step_perceived_worth",
+  "name": "Perceived Worth",
+  "is": "step",
+  "definition": "How much you see yourself as being worth.",
+  "part_of": "",
+  "used_in": [
+    "chain_self_esteem"
+  ]
+}

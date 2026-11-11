@@ -1,0 +1,16 @@
+{
+  "id": "emotion_horrified",
+  "name": "Horrified",
+  "is": "emotion",
+  "definition": "Filled with shock and fear at something terrible.",
+  "part_of": "emotion_repelled",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_disgusted",
+        "emotion_repelled"
+      ]
+    }
+  ]
+}

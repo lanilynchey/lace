@@ -1,0 +1,12 @@
+{
+  "id": "step_bond",
+  "name": "Bond",
+  "is": "step",
+  "definition": "A lasting tie between people.",
+  "part_of": "",
+  "used_in": [
+    "chain_connection",
+    "chain_friendship",
+    "chain_love"
+  ]
+}

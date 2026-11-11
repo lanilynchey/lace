@@ -1,0 +1,11 @@
+{
+  "id": "step_familiarity",
+  "name": "Familiarity",
+  "is": "step",
+  "definition": "Knowing something well.",
+  "part_of": "",
+  "used_in": [
+    "chain_routine",
+    "chain_friendship"
+  ]
+}

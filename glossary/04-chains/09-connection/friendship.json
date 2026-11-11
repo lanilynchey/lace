@@ -1,0 +1,19 @@
+{
+  "id": "chain_friendship",
+  "name": "Friendship",
+  "is": "chain",
+  "definition": "A bond between people.",
+  "part_of": "chain_connection",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_encounter",
+    "step_interaction",
+    "step_familiarity",
+    "step_shared_experience",
+    "step_reciprocity",
+    "step_trust",
+    "step_bond",
+    "step_maintenance"
+  ]
+}

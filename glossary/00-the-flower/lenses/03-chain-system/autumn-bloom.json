@@ -1,0 +1,10 @@
+{
+  "id": "lens_autumn_bloom",
+  "name": "Autumn Bloom",
+  "is": "term",
+  "definition": "The year it blooms in autumn instead of spring.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_chain_change"
+  ]
+}

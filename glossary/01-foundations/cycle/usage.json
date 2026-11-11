@@ -1,0 +1,7 @@
+{
+  "id": "cycle_usage",
+  "name": "Usage",
+  "is": "term",
+  "definition": "Spending something.",
+  "part_of": "base_system_cycle"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "desire_desires",
+  "name": "Desires",
+  "is": "term",
+  "definition": "What you want.",
+  "part_of": "chain_desire",
+  "stake_order": [
+    "stake_survival",
+    "stake_self",
+    "stake_social"
+  ],
+  "checks": [
+    "A survival desire outranks any other.",
+    "A self desire outranks a social one."
+  ]
+}

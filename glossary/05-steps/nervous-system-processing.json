@@ -1,0 +1,10 @@
+{
+  "id": "step_nervous_system_processing",
+  "name": "Nervous System Processing",
+  "is": "step",
+  "definition": "The body's wiring carrying and sorting the signal.",
+  "part_of": "",
+  "used_in": [
+    "chain_pain"
+  ]
+}

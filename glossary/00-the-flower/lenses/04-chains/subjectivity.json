@@ -1,0 +1,11 @@
+{
+  "id": "lens_subjectivity",
+  "name": "Subjectivity",
+  "is": "term",
+  "definition": "Ask ten people to draw a flower and you get ten flowers.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "chain_perception",
+    "link_memory_tilts_perception"
+  ]
+}

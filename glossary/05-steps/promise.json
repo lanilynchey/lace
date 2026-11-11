@@ -1,0 +1,10 @@
+{
+  "id": "step_promise",
+  "name": "Promise",
+  "is": "step",
+  "definition": "Giving your word.",
+  "part_of": "",
+  "used_in": [
+    "chain_commitment"
+  ]
+}

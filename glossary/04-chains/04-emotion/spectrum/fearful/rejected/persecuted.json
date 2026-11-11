@@ -1,0 +1,16 @@
+{
+  "id": "emotion_persecuted",
+  "name": "Persecuted",
+  "is": "emotion",
+  "definition": "Feeling targeted and treated badly.",
+  "part_of": "emotion_rejected",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_rejected"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_frustration",
+  "name": "Frustration",
+  "is": "step",
+  "definition": "Being blocked from what you want.",
+  "part_of": "",
+  "used_in": [
+    "chain_anger"
+  ]
+}

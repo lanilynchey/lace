@@ -1,0 +1,21 @@
+{
+  "id": "intake_spiritual",
+  "name": "Spiritual",
+  "is": "term",
+  "definition": "What comes from a faith or practice.",
+  "part_of": "surroundings_intake",
+  "entries": [
+    "Sermons",
+    "Scriptures",
+    "Teachings",
+    "Prayers",
+    "Blessings",
+    "Chants",
+    "Prophecies",
+    "Rituals",
+    "Ceremonies",
+    "Meditations",
+    "Affirmations",
+    "Divination"
+  ]
+}

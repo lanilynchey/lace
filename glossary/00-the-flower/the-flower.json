@@ -1,0 +1,8 @@
+{
+  "id": "base_the_flower",
+  "name": "The Flower",
+  "is": "term",
+  "definition": "The lens LACE uses to see the whole system.",
+  "part_of": "",
+  "is_a": "form_flower"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "chain_memory",
+  "name": "Memory",
+  "is": "chain",
+  "definition": "From something happening to a stored memory that shapes what comes next.",
+  "part_of": "base_base_functions",
+  "kind": "chain",
+  "locked": true,
+  "steps": [
+    "step_occurrence",
+    "step_attention",
+    "step_perception",
+    "emotions_emotion",
+    "step_encoding",
+    "step_consolidation",
+    "step_memory",
+    "step_meaning",
+    "step_integration",
+    "step_influence",
+    "step_reinforcement"
+  ]
+}

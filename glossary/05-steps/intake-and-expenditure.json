@@ -1,0 +1,10 @@
+{
+  "id": "step_intake_and_expenditure",
+  "name": "Intake and Expenditure",
+  "is": "step",
+  "definition": "Energy coming in and going out.",
+  "part_of": "",
+  "used_in": [
+    "chain_energy_regulation"
+  ]
+}

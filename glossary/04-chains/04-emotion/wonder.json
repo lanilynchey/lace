@@ -1,0 +1,19 @@
+{
+  "id": "chain_wonder",
+  "name": "Wonder",
+  "is": "chain",
+  "definition": "Amazement at something extraordinary.",
+  "part_of": "chain_emotion",
+  "emotion": "emotion_awe",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_extraordinary_stimulus",
+    "step_attention",
+    "step_surprise",
+    "emotion_awe",
+    "step_curiosity",
+    "step_reflection",
+    "step_meaning"
+  ]
+}

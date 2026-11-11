@@ -1,0 +1,10 @@
+{
+  "id": "step_validation",
+  "name": "Validation",
+  "is": "step",
+  "definition": "Proof that it works.",
+  "part_of": "",
+  "used_in": [
+    "chain_innovation"
+  ]
+}

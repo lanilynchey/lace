@@ -1,0 +1,13 @@
+{
+  "id": "step_visualization",
+  "name": "Visualization",
+  "is": "step",
+  "definition": "Picturing it in your mind.",
+  "part_of": "",
+  "used_in": [
+    "chain_imagination",
+    "chain_desire",
+    "chain_ambition",
+    "chain_creation"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "emotion_disgusted",
+  "name": "Disgusted",
+  "is": "emotion",
+  "definition": "Wanting to get away from something that feels wrong.",
+  "part_of": "emotions_emotional_spectrum",
+  "places": [
+    {
+      "level": "main",
+      "under": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "emotion_ashamed",
+  "name": "Ashamed",
+  "is": "emotion",
+  "definition": "Feeling you are wrong or not good enough.",
+  "part_of": "emotion_guilty",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_guilty"
+      ]
+    }
+  ]
+}

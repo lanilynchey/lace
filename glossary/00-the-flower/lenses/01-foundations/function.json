@@ -1,0 +1,10 @@
+{
+  "id": "lens_function",
+  "name": "Function",
+  "is": "term",
+  "definition": "In a field, a pot or a crack in the pavement, it grows the same way.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_function_over_container"
+  ]
+}

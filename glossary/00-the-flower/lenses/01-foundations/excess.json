@@ -1,0 +1,10 @@
+{
+  "id": "lens_excess",
+  "name": "Excess",
+  "is": "term",
+  "definition": "Too much water drowns it. Too much sun burns it.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_flip"
+  ]
+}

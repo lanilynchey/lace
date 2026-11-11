@@ -1,0 +1,10 @@
+{
+  "id": "step_linking",
+  "name": "Linking",
+  "is": "step",
+  "definition": "Linking a new piece to what you already know.",
+  "part_of": "",
+  "used_in": [
+    "chain_understanding"
+  ]
+}

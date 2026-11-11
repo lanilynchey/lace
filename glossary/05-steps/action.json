@@ -1,0 +1,17 @@
+{
+  "id": "step_action",
+  "name": "Action",
+  "is": "step",
+  "definition": "From something prompting you to act, to what the action leaves behind.",
+  "part_of": "",
+  "used_in": [
+    "chain_thought",
+    "chain_discipline",
+    "chain_action",
+    "chain_legacy",
+    "chain_desire",
+    "chain_goal",
+    "chain_creation"
+  ],
+  "opens": "chain_action"
+}

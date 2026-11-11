@@ -1,0 +1,7 @@
+{
+  "id": "occurrence_monumental",
+  "name": "Monumental",
+  "is": "term",
+  "definition": "Something that happens and changes who or where you are.",
+  "part_of": "step_occurrence"
+}

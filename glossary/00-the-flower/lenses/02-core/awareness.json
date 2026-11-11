@@ -1,0 +1,10 @@
+{
+  "id": "lens_awareness",
+  "name": "Awareness",
+  "is": "term",
+  "definition": "Looking at a flower and seeing the whole system in it.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "attention_awareness"
+  ]
+}

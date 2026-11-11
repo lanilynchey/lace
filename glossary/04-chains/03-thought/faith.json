@@ -1,0 +1,18 @@
+{
+  "id": "chain_faith",
+  "name": "Faith",
+  "is": "chain",
+  "definition": "Believing and trusting without full proof.",
+  "part_of": "chain_belief_formation",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_question_or_experience",
+    "step_exploration",
+    "step_perception",
+    "step_belief",
+    "step_trust",
+    "step_practice",
+    "step_reflection"
+  ]
+}

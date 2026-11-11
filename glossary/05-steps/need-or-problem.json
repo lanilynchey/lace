@@ -1,0 +1,20 @@
+{
+  "id": "step_need_or_problem",
+  "name": "Need or Problem",
+  "is": "step",
+  "definition": "Something missing, or something wrong.",
+  "part_of": "",
+  "used_in": [
+    "chain_invention"
+  ],
+  "sides": [
+    {
+      "name": "Need",
+      "then": "carries on"
+    },
+    {
+      "name": "Problem",
+      "then": "carries on"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "need_shelter",
+  "name": "Shelter",
+  "is": "term",
+  "definition": "A place that protects you.",
+  "part_of": "need_needs"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "record_0001",
+  "chain": "chain_perception",
+  "moment": "You smell cinnamon rolls before you see the bakery",
+  "steps": [
+    {
+      "step": "step_occurrence",
+      "gate": 1,
+      "what": "A bakery on your street is baking cinnamon rolls.",
+      "source": "source_lived"
+    },
+    {
+      "step": "surroundings_senses",
+      "gate": 1,
+      "what": "Smell.",
+      "sense": "sense_smell"
+    },
+    {
+      "step": "step_detection",
+      "gate": 1,
+      "what": "The smell registers. Nothing in it reads as a threat.",
+      "tilted_by": [
+        {
+          "link": "link_survival_scan_tilts_perception",
+          "record": ""
+        }
+      ]
+    },
+    {
+      "step": "step_attention",
+      "gate": 1,
+      "what": "Your attention moves to the smell.",
+      "opened": {
+        "chain": "chain_attention",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_notice",
+      "gate": 1,
+      "what": "Something smells sweet."
+    },
+    {
+      "step": "step_recognition",
+      "gate": 1,
+      "what": "Cinnamon rolls."
+    },
+    {
+      "step": "step_perception",
+      "gate": 1,
+      "what": "There is a bakery nearby.",
+      "sparked": [
+        {
+          "link": "link_perception_sparks_thought",
+          "record": ""
+        }
+      ]
+    },
+    {
+      "step": "step_meaning",
+      "gate": 1,
+      "what": "Grandma baked cinnamon rolls.",
+      "tilted_by": [
+        {
+          "link": "link_memory_tilts_perception",
+          "record": ""
+        }
+      ]
+    },
+    {
+      "step": "step_response",
+      "gate": 1,
+      "what": "Warmth, and you look for the door.",
+      "sparked": [
+        {
+          "link": "link_perception_sparks_emotion",
+          "record": ""
+        },
+        {
+          "link": "link_perception_sparks_action",
+          "record": ""
+        }
+      ]
+    },
+    {
+      "step": "step_integration",
+      "gate": 1,
+      "what": "This street is now the cinnamon roll street."
+    }
+  ]
+}

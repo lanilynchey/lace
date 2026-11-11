@@ -1,0 +1,11 @@
+{
+  "id": "state_signature",
+  "name": "Signature State",
+  "is": "term",
+  "definition": "Your predictable, usual state. The hardest to change.",
+  "part_of": "core_state",
+  "comes_from": [
+    "rule_chain_progression",
+    "rule_chain_length"
+  ]
+}

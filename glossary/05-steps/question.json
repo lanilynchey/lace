@@ -1,0 +1,11 @@
+{
+  "id": "step_question",
+  "name": "Question",
+  "is": "step",
+  "definition": "Something you want answered.",
+  "part_of": "",
+  "used_in": [
+    "chain_reasoning",
+    "chain_curiosity"
+  ]
+}

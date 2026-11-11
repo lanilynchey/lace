@@ -1,0 +1,7 @@
+{
+  "id": "occurrence_planned",
+  "name": "Planned",
+  "is": "term",
+  "definition": "It happened because a chain of yours got there.",
+  "part_of": "step_occurrence"
+}

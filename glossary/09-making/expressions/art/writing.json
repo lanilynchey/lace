@@ -1,0 +1,7 @@
+{
+  "id": "artform_writing",
+  "name": "Writing",
+  "is": "term",
+  "definition": "Art made of words.",
+  "part_of": "expression_art"
+}

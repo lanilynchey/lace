@@ -1,0 +1,7 @@
+{
+  "id": "surroundings_seasons",
+  "name": "Seasons",
+  "is": "term",
+  "definition": "The time of year.",
+  "part_of": "surroundings_environment"
+}

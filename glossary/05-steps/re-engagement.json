@@ -1,0 +1,10 @@
+{
+  "id": "step_re_engagement",
+  "name": "Re-engagement",
+  "is": "step",
+  "definition": "Getting absorbed again.",
+  "part_of": "",
+  "used_in": [
+    "chain_boredom"
+  ]
+}

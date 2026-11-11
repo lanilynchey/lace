@@ -1,0 +1,10 @@
+{
+  "id": "emotions_emotion_checkpoint",
+  "name": "Emotion Checkpoint",
+  "is": "term",
+  "definition": "Where you can check in on the chain and decide if it continues.",
+  "part_of": "chain_emotion",
+  "used_in": [
+    "chain_emotion"
+  ]
+}

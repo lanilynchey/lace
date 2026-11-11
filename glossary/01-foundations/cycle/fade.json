@@ -1,0 +1,10 @@
+{
+  "id": "cycle_fade",
+  "name": "Fade",
+  "is": "term",
+  "definition": "Things breaking down over time.",
+  "part_of": "base_system_cycle",
+  "used_in": [
+    "chain_fatigue"
+  ]
+}

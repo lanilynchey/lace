@@ -1,0 +1,15 @@
+{
+  "id": "emotion_disapproving",
+  "name": "Disapproving",
+  "is": "emotion",
+  "definition": "Judging something as wrong.",
+  "part_of": "emotion_disgusted",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_disgusted"
+      ]
+    }
+  ]
+}

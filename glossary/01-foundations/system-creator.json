@@ -1,0 +1,7 @@
+{
+  "id": "base_system_creator",
+  "name": "System Creator",
+  "is": "term",
+  "definition": "Whoever or whatever made the Base System. Has access to all ten numbers, and anything beyond.",
+  "part_of": ""
+}

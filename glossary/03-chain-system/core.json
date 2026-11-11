@@ -1,0 +1,10 @@
+{
+  "id": "structure_core",
+  "name": "Core",
+  "is": "term",
+  "definition": "Runs through every chain.",
+  "part_of": "structure_chain",
+  "checks": [
+    "Attention, Time and State are present in every chain run."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_sleep_cycles",
+  "name": "Sleep Cycles",
+  "is": "step",
+  "definition": "The stages sleep moves through.",
+  "part_of": "",
+  "used_in": [
+    "chain_sleep"
+  ]
+}

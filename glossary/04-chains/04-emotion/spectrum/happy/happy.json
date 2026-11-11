@@ -1,0 +1,13 @@
+{
+  "id": "emotion_happy",
+  "name": "Happy",
+  "is": "emotion",
+  "definition": "Feeling good.",
+  "part_of": "emotions_emotional_spectrum",
+  "places": [
+    {
+      "level": "main",
+      "under": []
+    }
+  ]
+}

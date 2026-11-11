@@ -1,0 +1,54 @@
+{
+  "id": "record_0010",
+  "chain": "chain_need",
+  "moment": "3pm and you forgot to eat lunch",
+  "steps": [
+    {
+      "step": "step_deficit",
+      "gate": 1,
+      "what": "You have not eaten since breakfast."
+    },
+    {
+      "step": "body_body_signals",
+      "gate": 1,
+      "what": "Your stomach growls and a headache starts."
+    },
+    {
+      "step": "step_discomfort",
+      "gate": 1,
+      "what": "You can't concentrate."
+    },
+    {
+      "step": "step_motivation",
+      "gate": 1,
+      "what": "You want food now.",
+      "opened": {
+        "chain": "chain_motivation",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_seeking",
+      "gate": 1,
+      "what": "You go through the kitchen."
+    },
+    {
+      "step": "step_fulfillment",
+      "gate": 1,
+      "what": "A sandwich.",
+      "opened": {
+        "chain": "chain_fulfillment",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_satisfaction",
+      "gate": 1,
+      "what": "Full, and able to think again.",
+      "opened": {
+        "chain": "chain_satisfaction",
+        "record": ""
+      }
+    }
+  ]
+}

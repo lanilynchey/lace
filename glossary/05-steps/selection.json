@@ -1,0 +1,11 @@
+{
+  "id": "step_selection",
+  "name": "Selection",
+  "is": "step",
+  "definition": "Picking one out of many.",
+  "part_of": "",
+  "used_in": [
+    "chain_attention",
+    "chain_problem_solving"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_credibility",
+  "name": "Credibility",
+  "is": "step",
+  "definition": "How believable the source seems.",
+  "part_of": "",
+  "used_in": [
+    "chain_persuasion"
+  ]
+}

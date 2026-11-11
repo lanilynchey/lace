@@ -1,0 +1,10 @@
+{
+  "id": "lens_wilting",
+  "name": "Wilting",
+  "is": "term",
+  "definition": "It wilts until it gets water, then lifts again.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "chain_need"
+  ]
+}

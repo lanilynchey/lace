@@ -1,0 +1,7 @@
+{
+  "id": "structure_source",
+  "name": "Source",
+  "is": "term",
+  "definition": "How an occurrence reached you.",
+  "part_of": "step_occurrence"
+}

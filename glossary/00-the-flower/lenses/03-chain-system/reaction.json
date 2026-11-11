@@ -1,0 +1,10 @@
+{
+  "id": "lens_reaction",
+  "name": "Reaction",
+  "is": "term",
+  "definition": "The first year it does something different.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_chain_reaction"
+  ]
+}

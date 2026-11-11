@@ -1,0 +1,18 @@
+{
+  "id": "intake_commercial",
+  "name": "Commercial",
+  "is": "term",
+  "definition": "What is made to sell something.",
+  "part_of": "surroundings_intake",
+  "entries": [
+    "Advertising",
+    "Endorsements",
+    "Publicity",
+    "Branding",
+    "Demonstrations",
+    "Pitches",
+    "Reviews",
+    "Catalogues",
+    "Packaging"
+  ]
+}

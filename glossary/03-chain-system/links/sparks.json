@@ -1,0 +1,7 @@
+{
+  "id": "structure_sparks",
+  "name": "Sparks",
+  "is": "term",
+  "definition": "One chain starts another.",
+  "part_of": "structure_link"
+}

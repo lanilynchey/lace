@@ -1,0 +1,10 @@
+{
+  "id": "step_functional_restoration",
+  "name": "Functional Restoration",
+  "is": "step",
+  "definition": "Working properly again.",
+  "part_of": "",
+  "used_in": [
+    "chain_recovery"
+  ]
+}

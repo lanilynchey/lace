@@ -1,0 +1,11 @@
+{
+  "id": "form_next_instance",
+  "name": "Next Instance",
+  "is": "term",
+  "definition": "Where what carries on goes after death.",
+  "part_of": "base_instance",
+  "checks": [
+    "A new person, not the same one continuing.",
+    "Its Form can differ from the one before."
+  ]
+}

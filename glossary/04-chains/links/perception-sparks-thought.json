@@ -1,0 +1,11 @@
+{
+  "id": "link_perception_sparks_thought",
+  "name": "Perception sparks Thought",
+  "is": "link",
+  "definition": "The Perception step of Perception starts Thought at its Perception step.",
+  "part_of": "structure_sparks",
+  "from": "chain_perception",
+  "at": "step_perception",
+  "to": "chain_thought",
+  "enters": "step_perception"
+}

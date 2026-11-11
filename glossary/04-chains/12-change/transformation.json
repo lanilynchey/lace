@@ -1,0 +1,19 @@
+{
+  "id": "chain_transformation",
+  "name": "Transformation",
+  "is": "chain",
+  "definition": "A deep change in who you are.",
+  "part_of": "chain_change",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "surroundings_impact",
+    "step_questioning",
+    "step_exploration",
+    "step_reassessment",
+    "step_change",
+    "step_integration",
+    "step_new_orientation"
+  ],
+  "note": "The sudden version of Change (a Rapid Chain Reaction)."
+}

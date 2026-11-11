@@ -1,0 +1,8 @@
+{
+  "id": "circle_intimate",
+  "name": "intimate",
+  "is": "term",
+  "definition": "Your closest emotional bonds. The people you trust most.",
+  "part_of": "surroundings_circles",
+  "order": 1
+}

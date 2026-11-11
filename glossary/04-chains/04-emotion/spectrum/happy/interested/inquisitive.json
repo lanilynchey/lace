@@ -1,0 +1,16 @@
+{
+  "id": "emotion_inquisitive",
+  "name": "Inquisitive",
+  "is": "emotion",
+  "definition": "Asking questions to find out.",
+  "part_of": "emotion_interested",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_interested"
+      ]
+    }
+  ]
+}

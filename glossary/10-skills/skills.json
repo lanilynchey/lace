@@ -1,0 +1,15 @@
+{
+  "id": "body_skills",
+  "name": "Skills",
+  "is": "term",
+  "definition": "Everything has a skill level.",
+  "part_of": "base_base_system",
+  "grows_with": [
+    "core_attention",
+    "core_time",
+    "chain_desire"
+  ],
+  "checks": [
+    "A skill given no attention over time drops a level."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "chain_enjoyment",
+  "name": "Enjoyment",
+  "is": "chain",
+  "definition": "Pleasure in what you are doing.",
+  "part_of": "chain_emotion",
+  "emotion": "emotion_joyful",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_experience",
+    "step_perception",
+    "step_pleasure",
+    "step_engagement",
+    "step_savouring",
+    "step_satisfaction"
+  ]
+}

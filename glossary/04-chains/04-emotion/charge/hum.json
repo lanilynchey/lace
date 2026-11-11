@@ -1,0 +1,8 @@
+{
+  "id": "charge_hum",
+  "name": "Hum",
+  "is": "term",
+  "definition": "In the background. You can carry on with what you are doing.",
+  "part_of": "emotions_charge",
+  "order": 2
+}

@@ -1,0 +1,25 @@
+{
+  "id": "attention_survival_scan",
+  "name": "Survival Scan",
+  "is": "term",
+  "definition": "Constant threat detection in the background. It never switches off.",
+  "part_of": "core_attention",
+  "overridden_by": [
+    "chain_full_grip",
+    "charge_flood"
+  ],
+  "stake_order": [
+    "stake_survival",
+    "stake_social",
+    "stake_self"
+  ],
+  "checks": [
+    "Always holding some attention."
+  ],
+  "used_in": [
+    "chain_avoidance",
+    "chain_anxiety",
+    "chain_fear",
+    "chain_trauma_response"
+  ]
+}

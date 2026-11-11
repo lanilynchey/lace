@@ -1,0 +1,17 @@
+{
+  "id": "step_interest",
+  "name": "Interest",
+  "is": "step",
+  "definition": "Being drawn to something.",
+  "part_of": "",
+  "used_in": [
+    "chain_play",
+    "chain_mastery",
+    "chain_curiosity",
+    "chain_exploration",
+    "chain_connection",
+    "chain_attraction",
+    "chain_intimacy",
+    "chain_love"
+  ]
+}

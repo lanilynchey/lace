@@ -1,0 +1,10 @@
+{
+  "id": "step_initiation",
+  "name": "Initiation",
+  "is": "step",
+  "definition": "Beginning.",
+  "part_of": "",
+  "used_in": [
+    "chain_action"
+  ]
+}

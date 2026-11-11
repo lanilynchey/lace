@@ -1,0 +1,11 @@
+{
+  "id": "lens_becoming",
+  "name": "Becoming",
+  "is": "term",
+  "definition": "Seed, bloom, fade, and sometimes back next year.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "cycle_life_stages",
+    "rule_nothing_is_destroyed"
+  ]
+}

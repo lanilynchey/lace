@@ -1,0 +1,10 @@
+{
+  "id": "step_examination",
+  "name": "Examination",
+  "is": "step",
+  "definition": "Looking at something closely.",
+  "part_of": "",
+  "used_in": [
+    "chain_reflection"
+  ]
+}

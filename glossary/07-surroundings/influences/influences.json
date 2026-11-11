@@ -1,0 +1,14 @@
+{
+  "id": "surroundings_influences",
+  "name": "Influences",
+  "is": "term",
+  "definition": "An ongoing pull on your chains from outside, over time.",
+  "part_of": "surroundings_surroundings",
+  "comes_from": [
+    "surroundings_surroundings"
+  ],
+  "checks": [
+    "The more attention and time something gets, the stronger its pull.",
+    "Without attention and time, there is no influence."
+  ]
+}

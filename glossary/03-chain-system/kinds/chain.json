@@ -1,0 +1,7 @@
+{
+  "id": "kind_chain",
+  "name": "chain",
+  "is": "term",
+  "definition": "A chain that stands on its own.",
+  "part_of": "structure_chain"
+}

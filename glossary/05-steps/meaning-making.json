@@ -1,0 +1,11 @@
+{
+  "id": "step_meaning_making",
+  "name": "Meaning-Making",
+  "is": "step",
+  "definition": "Working out what something means to you.",
+  "part_of": "",
+  "used_in": [
+    "chain_grief"
+  ],
+  "opens": "chain_meaning_making"
+}

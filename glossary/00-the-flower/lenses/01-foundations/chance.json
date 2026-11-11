@@ -1,0 +1,10 @@
+{
+  "id": "lens_chance",
+  "name": "Chance",
+  "is": "term",
+  "definition": "Where the seed lands is chance.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_real_randomness"
+  ]
+}

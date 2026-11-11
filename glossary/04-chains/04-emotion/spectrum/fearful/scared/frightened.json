@@ -1,0 +1,16 @@
+{
+  "id": "emotion_frightened",
+  "name": "Frightened",
+  "is": "emotion",
+  "definition": "Suddenly afraid.",
+  "part_of": "emotion_scared",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_scared"
+      ]
+    }
+  ]
+}

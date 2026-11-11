@@ -1,0 +1,8 @@
+{
+  "id": "supply_brimming",
+  "name": "Brimming",
+  "is": "term",
+  "definition": "Fully refilled. Nothing has drawn on it yet.",
+  "part_of": "supply_supply",
+  "order": 5
+}

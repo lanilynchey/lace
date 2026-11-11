@@ -1,0 +1,10 @@
+{
+  "id": "state_peak",
+  "name": "Peak State",
+  "is": "term",
+  "definition": "The highest you've ever reached. It never goes down.",
+  "part_of": "core_state",
+  "checks": [
+    "Never lower than it was before."
+  ]
+}

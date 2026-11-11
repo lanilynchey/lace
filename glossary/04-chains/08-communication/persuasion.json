@@ -1,0 +1,18 @@
+{
+  "id": "chain_persuasion",
+  "name": "Persuasion",
+  "is": "chain",
+  "definition": "Changing what someone thinks or does through communication.",
+  "part_of": "chain_communication",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_exposure",
+    "step_attention",
+    "step_credibility",
+    "step_interpretation",
+    "step_persuasion_or_social_pressure",
+    "step_attitude_or_behaviour_change"
+  ],
+  "note": "Named Persuasion here, because Influence already means an ongoing pull from outside."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "chain_achievement",
+  "name": "Achievement",
+  "is": "chain",
+  "definition": "Reaching a goal through effort.",
+  "part_of": "chain_goal",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_goal",
+    "step_commitment",
+    "step_preparation",
+    "step_effort",
+    "step_obstacles",
+    "step_adaptation",
+    "step_completion",
+    "step_recognition"
+  ]
+}

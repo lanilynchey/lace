@@ -1,0 +1,7 @@
+{
+  "id": "state_current",
+  "name": "Current State",
+  "is": "term",
+  "definition": "Right now. The prioritized state.",
+  "part_of": "core_state"
+}

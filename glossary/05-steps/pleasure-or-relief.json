@@ -1,0 +1,20 @@
+{
+  "id": "step_pleasure_or_relief",
+  "name": "Pleasure or Relief",
+  "is": "step",
+  "definition": "Feeling good, or feeling better.",
+  "part_of": "",
+  "used_in": [
+    "chain_reward"
+  ],
+  "sides": [
+    {
+      "name": "Pleasure",
+      "then": "carries on"
+    },
+    {
+      "name": "Relief",
+      "then": "carries on"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_overgrown",
+  "name": "Overgrown",
+  "is": "term",
+  "definition": "The same bed, untouched, season after season.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "state_signature_state_stagnation"
+  ]
+}

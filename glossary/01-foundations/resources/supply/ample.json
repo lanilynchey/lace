@@ -1,0 +1,8 @@
+{
+  "id": "supply_ample",
+  "name": "Ample",
+  "is": "term",
+  "definition": "Plenty left. You don't notice it going down.",
+  "part_of": "supply_supply",
+  "order": 4
+}

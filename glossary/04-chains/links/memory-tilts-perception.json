@@ -1,0 +1,11 @@
+{
+  "id": "link_memory_tilts_perception",
+  "name": "Memory tilts Perception",
+  "is": "link",
+  "definition": "The Influence step of Memory changes how Perception runs at its Meaning step.",
+  "part_of": "structure_tilts",
+  "from": "chain_memory",
+  "at": "step_influence",
+  "to": "chain_perception",
+  "enters": "step_meaning"
+}

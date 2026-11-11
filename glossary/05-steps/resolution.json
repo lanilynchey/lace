@@ -1,0 +1,10 @@
+{
+  "id": "step_resolution",
+  "name": "Resolution",
+  "is": "step",
+  "definition": "The emotion settling.",
+  "part_of": "",
+  "used_in": [
+    "chain_emotion"
+  ]
+}

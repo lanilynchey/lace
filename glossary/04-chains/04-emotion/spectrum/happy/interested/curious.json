@@ -1,0 +1,16 @@
+{
+  "id": "emotion_curious",
+  "name": "Curious",
+  "is": "emotion",
+  "definition": "Wanting to know.",
+  "part_of": "emotion_interested",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_interested"
+      ]
+    }
+  ]
+}

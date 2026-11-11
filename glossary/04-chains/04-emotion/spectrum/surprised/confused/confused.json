@@ -1,0 +1,15 @@
+{
+  "id": "emotion_confused",
+  "name": "Confused",
+  "is": "emotion",
+  "definition": "Unable to make sense of something.",
+  "part_of": "emotion_surprised",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_surprised"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "chain_decision",
+  "name": "Decision",
+  "is": "chain",
+  "definition": "Choosing between options.",
+  "part_of": "chain_action",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "step_intention",
+  "steps": [
+    "step_situation",
+    "step_options",
+    "step_evaluation",
+    "step_preference",
+    "step_intention",
+    "step_commitment",
+    "step_outcome",
+    "step_reflection"
+  ]
+}

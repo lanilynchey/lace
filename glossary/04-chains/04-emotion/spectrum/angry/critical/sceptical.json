@@ -1,0 +1,16 @@
+{
+  "id": "emotion_sceptical",
+  "name": "Sceptical",
+  "is": "emotion",
+  "definition": "Doubting what you are told.",
+  "part_of": "emotion_critical",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_critical"
+      ]
+    }
+  ]
+}

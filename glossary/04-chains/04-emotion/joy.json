@@ -1,0 +1,19 @@
+{
+  "id": "chain_joy",
+  "name": "Joy",
+  "is": "chain",
+  "definition": "Strong happiness.",
+  "part_of": "chain_emotion",
+  "emotion": "emotion_joyful",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_positive_experience",
+    "step_perception",
+    "step_pleasure",
+    "step_expression",
+    "step_savouring",
+    "step_memory",
+    "step_wellbeing"
+  ]
+}

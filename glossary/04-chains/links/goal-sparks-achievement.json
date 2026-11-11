@@ -1,0 +1,11 @@
+{
+  "id": "link_goal_sparks_achievement",
+  "name": "Goal sparks Achievement",
+  "is": "link",
+  "definition": "The Achievement or Revision step of Goal starts Achievement.",
+  "part_of": "structure_sparks",
+  "from": "chain_goal",
+  "at": "step_achievement_or_revision",
+  "to": "chain_achievement",
+  "enters": ""
+}

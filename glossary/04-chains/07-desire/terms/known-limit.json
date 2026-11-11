@@ -1,0 +1,13 @@
+{
+  "id": "desire_known_limit",
+  "name": "Known Limit",
+  "is": "term",
+  "definition": "You have to know about something to think it, desire it or remember it.",
+  "part_of": "chain_curiosity",
+  "checks": [
+    "No thought, desire or memory of something not yet known."
+  ],
+  "used_in": [
+    "chain_curiosity"
+  ]
+}

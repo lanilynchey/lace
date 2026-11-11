@@ -1,0 +1,16 @@
+{
+  "id": "emotion_unfocused",
+  "name": "Unfocused",
+  "is": "emotion",
+  "definition": "Unable to hold your attention on one thing.",
+  "part_of": "emotion_tired",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_bad",
+        "emotion_tired"
+      ]
+    }
+  ]
+}

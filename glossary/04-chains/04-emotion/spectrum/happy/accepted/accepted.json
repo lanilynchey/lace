@@ -1,0 +1,15 @@
+{
+  "id": "emotion_accepted",
+  "name": "Accepted",
+  "is": "emotion",
+  "definition": "Feeling welcome as you are.",
+  "part_of": "emotion_happy",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_happy"
+      ]
+    }
+  ]
+}

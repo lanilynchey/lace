@@ -1,0 +1,18 @@
+{
+  "id": "chain_attraction",
+  "name": "Attraction",
+  "is": "chain",
+  "definition": "Being drawn toward someone.",
+  "part_of": "chain_connection",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_encounter",
+    "step_perception",
+    "step_interest",
+    "step_alignment",
+    "step_desire_for_proximity",
+    "step_approach",
+    "step_reciprocity_or_rejection"
+  ]
+}

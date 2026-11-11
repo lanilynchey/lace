@@ -1,0 +1,20 @@
+{
+  "id": "step_longing_or_affection",
+  "name": "Longing or Affection",
+  "is": "step",
+  "definition": "Aching for it, or feeling fond of it.",
+  "part_of": "",
+  "used_in": [
+    "chain_nostalgia"
+  ],
+  "sides": [
+    {
+      "name": "Longing",
+      "then": "carries on"
+    },
+    {
+      "name": "Affection",
+      "then": "carries on"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "emotion_intimate",
+  "name": "Intimate",
+  "is": "emotion",
+  "definition": "Feeling very close to someone.",
+  "part_of": "emotion_trusting",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_trusting"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_time",
+  "name": "Time",
+  "is": "term",
+  "definition": "It can't un-bloom.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_one_way_time"
+  ]
+}

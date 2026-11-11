@@ -1,0 +1,20 @@
+{
+  "id": "step_dissatisfaction_or_opportunity",
+  "name": "Dissatisfaction or Opportunity",
+  "is": "step",
+  "definition": "Not being content, or seeing a better way.",
+  "part_of": "",
+  "used_in": [
+    "chain_change"
+  ],
+  "sides": [
+    {
+      "name": "Dissatisfaction",
+      "then": "carries on"
+    },
+    {
+      "name": "Opportunity",
+      "then": "carries on"
+    }
+  ]
+}

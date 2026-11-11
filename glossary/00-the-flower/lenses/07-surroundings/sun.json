@@ -1,0 +1,10 @@
+{
+  "id": "lens_sun",
+  "name": "Sun",
+  "is": "term",
+  "definition": "It points wherever the sun is.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "surroundings_influences"
+  ]
+}

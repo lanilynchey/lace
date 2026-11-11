@@ -1,0 +1,20 @@
+{
+  "id": "step_withdrawal_or_repair",
+  "name": "Withdrawal or Repair",
+  "is": "step",
+  "definition": "Pulling away, or making it right.",
+  "part_of": "",
+  "used_in": [
+    "chain_shame"
+  ],
+  "sides": [
+    {
+      "name": "Withdrawal",
+      "then": "carries on"
+    },
+    {
+      "name": "Repair",
+      "then": "carries on"
+    }
+  ]
+}

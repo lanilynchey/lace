@@ -1,0 +1,12 @@
+{
+  "id": "link_emotion_tilts_attention",
+  "name": "Emotion tilts Attention",
+  "is": "link",
+  "definition": "A Flood of emotion changes how Attention runs at its Detection step.",
+  "part_of": "structure_tilts",
+  "from": "chain_emotion",
+  "at": "emotions_emotion",
+  "to": "chain_attention",
+  "enters": "step_detection",
+  "when": "charge_flood"
+}

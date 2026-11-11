@@ -1,0 +1,23 @@
+{
+  "id": "emotion_embarrassed",
+  "name": "Embarrassed",
+  "is": "emotion",
+  "definition": "Uncomfortable at being seen in a bad light.",
+  "part_of": "emotion_hurt",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_hurt"
+      ]
+    },
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_disgusted",
+        "emotion_disapproving"
+      ]
+    }
+  ]
+}

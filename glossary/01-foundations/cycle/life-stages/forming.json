@@ -1,0 +1,7 @@
+{
+  "id": "stage_forming",
+  "name": "Forming",
+  "is": "term",
+  "definition": "Coming together into something.",
+  "part_of": "cycle_life_stages"
+}

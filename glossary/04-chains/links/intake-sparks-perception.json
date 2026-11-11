@@ -1,0 +1,11 @@
+{
+  "id": "link_intake_sparks_perception",
+  "name": "Intake sparks Perception",
+  "is": "link",
+  "definition": "Intake starts Perception at its Occurrence step.",
+  "part_of": "structure_sparks",
+  "from": "surroundings_intake",
+  "at": "",
+  "to": "chain_perception",
+  "enters": "step_occurrence"
+}

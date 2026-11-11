@@ -1,0 +1,10 @@
+{
+  "id": "lens_gate",
+  "name": "Gate",
+  "is": "term",
+  "definition": "A seed sprouts, or it doesn't.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "structure_gate"
+  ]
+}

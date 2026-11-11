@@ -1,0 +1,8 @@
+{
+  "id": "skill_skilled",
+  "name": "Skilled",
+  "is": "term",
+  "definition": "You can do it, with effort.",
+  "part_of": "body_skill_levels",
+  "order": 3
+}

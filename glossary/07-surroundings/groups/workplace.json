@@ -1,0 +1,7 @@
+{
+  "id": "group_workplace",
+  "name": "Workplace",
+  "is": "term",
+  "definition": "The people you work with.",
+  "part_of": "surroundings_groups"
+}

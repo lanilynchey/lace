@@ -1,0 +1,10 @@
+{
+  "id": "step_instruction",
+  "name": "Instruction",
+  "is": "step",
+  "definition": "Being shown or told how.",
+  "part_of": "",
+  "used_in": [
+    "chain_skill"
+  ]
+}

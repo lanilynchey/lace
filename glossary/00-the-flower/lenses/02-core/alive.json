@@ -1,0 +1,10 @@
+{
+  "id": "lens_alive",
+  "name": "Alive",
+  "is": "term",
+  "definition": "We cannot understand the consciousness of a flower. We can understand that it is, as we describe it, alive.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "state_consciousness"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "emotion_nervous",
+  "name": "Nervous",
+  "is": "emotion",
+  "definition": "On edge about what is coming.",
+  "part_of": "emotion_threatened",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_threatened"
+      ]
+    }
+  ]
+}

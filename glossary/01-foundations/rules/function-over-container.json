@@ -1,0 +1,7 @@
+{
+  "id": "rule_function_over_container",
+  "name": "Function over Container",
+  "is": "rule",
+  "definition": "How reality works matters more than what holds it.",
+  "part_of": "base_base_rules"
+}

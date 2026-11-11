@@ -1,0 +1,12 @@
+{
+  "id": "step_behaviour",
+  "name": "Behaviour",
+  "is": "step",
+  "definition": "What you do, repeatedly.",
+  "part_of": "",
+  "used_in": [
+    "chain_thought",
+    "chain_habit",
+    "chain_reward"
+  ]
+}

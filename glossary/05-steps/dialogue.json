@@ -1,0 +1,10 @@
+{
+  "id": "step_dialogue",
+  "name": "Dialogue",
+  "is": "step",
+  "definition": "Talking it through together.",
+  "part_of": "",
+  "used_in": [
+    "chain_reconciliation"
+  ]
+}

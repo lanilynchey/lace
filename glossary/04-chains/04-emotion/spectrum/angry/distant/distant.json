@@ -1,0 +1,15 @@
+{
+  "id": "emotion_distant",
+  "name": "Distant",
+  "is": "emotion",
+  "definition": "Pulled back from others.",
+  "part_of": "emotion_angry",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_angry"
+      ]
+    }
+  ]
+}

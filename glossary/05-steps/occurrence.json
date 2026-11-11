@@ -1,0 +1,16 @@
+{
+  "id": "step_occurrence",
+  "name": "Occurrence",
+  "is": "step",
+  "definition": "Something that happens.",
+  "part_of": "",
+  "used_in": [
+    "chain_perception",
+    "chain_memory",
+    "chain_meaning_making"
+  ],
+  "checks": [
+    "For the person it reaches, every occurrence is Planned or an Impact.",
+    "Every occurrence is a Happening or Monumental."
+  ]
+}

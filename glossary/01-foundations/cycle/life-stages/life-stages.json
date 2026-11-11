@@ -1,0 +1,13 @@
+{
+  "id": "cycle_life_stages",
+  "name": "Life Stages",
+  "is": "term",
+  "definition": "The stages everything goes through.",
+  "part_of": "base_system_cycle",
+  "stages": [
+    "stage_forming",
+    "stage_peak",
+    "cycle_fade",
+    "stage_waiting"
+  ]
+}

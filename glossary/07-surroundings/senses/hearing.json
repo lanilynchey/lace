@@ -1,0 +1,7 @@
+{
+  "id": "sense_hearing",
+  "name": "Hearing",
+  "is": "term",
+  "definition": "What you hear.",
+  "part_of": "surroundings_senses"
+}

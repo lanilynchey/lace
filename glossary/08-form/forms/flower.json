@@ -1,0 +1,7 @@
+{
+  "id": "form_flower",
+  "name": "Flower",
+  "is": "term",
+  "definition": "A form that might wish for a rainy day.",
+  "part_of": "form_the_form"
+}

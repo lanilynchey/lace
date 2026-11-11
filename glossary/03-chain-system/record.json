@@ -1,0 +1,7 @@
+{
+  "id": "structure_record",
+  "name": "Record",
+  "is": "term",
+  "definition": "One run of a chain, with its own ID.",
+  "part_of": "structure_chain"
+}

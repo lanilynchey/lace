@@ -1,0 +1,16 @@
+{
+  "id": "emotion_perplexed",
+  "name": "Perplexed",
+  "is": "emotion",
+  "definition": "Puzzled.",
+  "part_of": "emotion_confused",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_surprised",
+        "emotion_confused"
+      ]
+    }
+  ]
+}

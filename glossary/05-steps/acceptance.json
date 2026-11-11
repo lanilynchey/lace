@@ -1,0 +1,13 @@
+{
+  "id": "step_acceptance",
+  "name": "Acceptance",
+  "is": "step",
+  "definition": "Taking something in as real and adjusting to it.",
+  "part_of": "",
+  "used_in": [
+    "chain_belief_formation",
+    "chain_emotional_regulation",
+    "chain_belonging"
+  ],
+  "opens": "chain_acceptance"
+}

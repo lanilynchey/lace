@@ -1,0 +1,18 @@
+{
+  "id": "chain_intimacy",
+  "name": "Intimacy",
+  "is": "chain",
+  "definition": "Closeness between people.",
+  "part_of": "chain_connection",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_interest",
+    "step_openness",
+    "step_disclosure",
+    "step_responsiveness",
+    "step_safety",
+    "step_mutual_understanding",
+    "step_closeness"
+  ]
+}

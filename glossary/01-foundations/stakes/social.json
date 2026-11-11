@@ -1,0 +1,7 @@
+{
+  "id": "stake_social",
+  "name": "Social",
+  "is": "term",
+  "definition": "Tied to other people and where you stand with them.",
+  "part_of": "stake_stake"
+}

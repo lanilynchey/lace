@@ -1,0 +1,10 @@
+{
+  "id": "step_prototyping",
+  "name": "Prototyping",
+  "is": "step",
+  "definition": "Building a first version to try.",
+  "part_of": "",
+  "used_in": [
+    "chain_design"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "step_comprehension",
+  "name": "Comprehension",
+  "is": "step",
+  "definition": "Grasping what something means.",
+  "part_of": "",
+  "used_in": [
+    "chain_understanding",
+    "chain_learning"
+  ]
+}

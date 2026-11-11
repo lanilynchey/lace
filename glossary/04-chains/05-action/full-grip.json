@@ -1,0 +1,18 @@
+{
+  "id": "chain_full_grip",
+  "name": "Full Grip",
+  "is": "chain",
+  "definition": "Attention fully gripped on what you're doing: the challenge matches your skill and nothing competes.",
+  "part_of": "chain_action",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_challenge",
+    "step_skill_engagement",
+    "step_attention",
+    "attention_attention_grip",
+    "step_sustained_activity",
+    "step_satisfaction"
+  ],
+  "note": "Also called Flow."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_laws",
+  "name": "Laws",
+  "is": "term",
+  "definition": "It grows toward the light, and its petals fall.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_physical_laws_hold"
+  ]
+}

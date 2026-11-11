@@ -1,0 +1,7 @@
+{
+  "id": "rule_chain_potential",
+  "name": "Chain Potential",
+  "is": "rule",
+  "definition": "What a being's form lets it reach on the Thought Chain.",
+  "part_of": "structure_chain"
+}

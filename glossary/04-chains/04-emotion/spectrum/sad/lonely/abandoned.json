@@ -1,0 +1,16 @@
+{
+  "id": "emotion_abandoned",
+  "name": "Abandoned",
+  "is": "emotion",
+  "definition": "Left behind by someone you needed.",
+  "part_of": "emotion_lonely",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_lonely"
+      ]
+    }
+  ]
+}

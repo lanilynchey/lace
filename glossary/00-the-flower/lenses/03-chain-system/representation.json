@@ -1,0 +1,11 @@
+{
+  "id": "lens_representation",
+  "name": "Representation",
+  "is": "term",
+  "definition": "A picture of a flower is not the flower.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "structure_source",
+    "intake_proximity"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "step_memory",
+  "name": "Memory",
+  "is": "step",
+  "definition": "From something happening to a stored memory that shapes what comes next.",
+  "part_of": "",
+  "used_in": [
+    "chain_joy",
+    "chain_memory",
+    "chain_learning",
+    "chain_nostalgia"
+  ],
+  "opens": "chain_memory"
+}

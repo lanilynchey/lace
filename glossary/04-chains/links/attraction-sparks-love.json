@@ -1,0 +1,11 @@
+{
+  "id": "link_attraction_sparks_love",
+  "name": "Attraction sparks Love",
+  "is": "link",
+  "definition": "The Reciprocity or Rejection step of Attraction starts Love.",
+  "part_of": "structure_sparks",
+  "from": "chain_attraction",
+  "at": "step_reciprocity_or_rejection",
+  "to": "chain_love",
+  "enters": ""
+}

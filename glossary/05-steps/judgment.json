@@ -1,0 +1,10 @@
+{
+  "id": "step_judgment",
+  "name": "Judgment",
+  "is": "step",
+  "definition": "Deciding whether something is right or wrong.",
+  "part_of": "",
+  "used_in": [
+    "chain_morality"
+  ]
+}

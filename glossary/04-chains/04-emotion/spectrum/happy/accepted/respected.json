@@ -1,0 +1,16 @@
+{
+  "id": "emotion_respected",
+  "name": "Respected",
+  "is": "emotion",
+  "definition": "Feeling others hold you in regard.",
+  "part_of": "emotion_accepted",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_accepted"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_never_all_of_it",
+  "name": "Never All of It",
+  "is": "term",
+  "definition": "You meet it by sight, smell and touch. Each gives you part of it, and none gives you all of it.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "surroundings_senses"
+  ]
+}

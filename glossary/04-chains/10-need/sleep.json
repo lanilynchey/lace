@@ -1,0 +1,21 @@
+{
+  "id": "chain_sleep",
+  "name": "Sleep",
+  "is": "chain",
+  "definition": "The body's rest cycle.",
+  "part_of": "chain_need",
+  "refills": [
+    "resource_attention_reserve",
+    "resource_energy"
+  ],
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_wakefulness",
+    "step_sleep_pressure_and_circadian_timing",
+    "step_sleepiness",
+    "step_sleep_initiation",
+    "step_sleep_cycles",
+    "step_awakening"
+  ]
+}

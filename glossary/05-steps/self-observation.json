@@ -1,0 +1,10 @@
+{
+  "id": "step_self_observation",
+  "name": "Self-Observation",
+  "is": "step",
+  "definition": "Watching yourself.",
+  "part_of": "",
+  "used_in": [
+    "chain_self_concept"
+  ]
+}

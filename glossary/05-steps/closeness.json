@@ -1,0 +1,10 @@
+{
+  "id": "step_closeness",
+  "name": "Closeness",
+  "is": "step",
+  "definition": "Being near to someone, emotionally.",
+  "part_of": "",
+  "used_in": [
+    "chain_intimacy"
+  ]
+}

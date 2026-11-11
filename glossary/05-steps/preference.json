@@ -1,0 +1,13 @@
+{
+  "id": "step_preference",
+  "name": "Preference",
+  "is": "step",
+  "definition": "Liking one option more than another.",
+  "part_of": "",
+  "used_in": [
+    "chain_values",
+    "chain_decision",
+    "chain_preference"
+  ],
+  "opens": "chain_preference"
+}

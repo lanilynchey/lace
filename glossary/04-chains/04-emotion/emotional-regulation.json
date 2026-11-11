@@ -1,0 +1,19 @@
+{
+  "id": "chain_emotional_regulation",
+  "name": "Emotional Regulation",
+  "is": "chain",
+  "definition": "Managing an emotion.",
+  "part_of": "chain_emotion",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "emotions_emotion_checkpoint",
+  "steps": [
+    "emotions_emotion",
+    "emotions_emotional_awareness",
+    "step_identification",
+    "step_acceptance",
+    "step_strategy",
+    "rule_chain_break",
+    "step_reflection"
+  ]
+}

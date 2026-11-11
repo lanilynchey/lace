@@ -1,0 +1,16 @@
+{
+  "id": "emotion_betrayed",
+  "name": "Betrayed",
+  "is": "emotion",
+  "definition": "Hurt by broken trust.",
+  "part_of": "emotion_let_down",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_let_down"
+      ]
+    }
+  ]
+}

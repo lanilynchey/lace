@@ -1,0 +1,10 @@
+{
+  "id": "step_future_motivation",
+  "name": "Future Motivation",
+  "is": "step",
+  "definition": "Wanting to do it again next time.",
+  "part_of": "",
+  "used_in": [
+    "chain_reward"
+  ]
+}

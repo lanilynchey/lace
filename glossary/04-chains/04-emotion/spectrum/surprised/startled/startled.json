@@ -1,0 +1,15 @@
+{
+  "id": "emotion_startled",
+  "name": "Startled",
+  "is": "emotion",
+  "definition": "Jolted by something sudden.",
+  "part_of": "emotion_surprised",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_surprised"
+      ]
+    }
+  ]
+}

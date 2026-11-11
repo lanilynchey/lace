@@ -1,0 +1,13 @@
+{
+  "id": "step_information",
+  "name": "Information",
+  "is": "step",
+  "definition": "Something that can be known.",
+  "part_of": "",
+  "used_in": [
+    "chain_belief_formation",
+    "chain_reasoning",
+    "chain_understanding",
+    "chain_planning"
+  ]
+}

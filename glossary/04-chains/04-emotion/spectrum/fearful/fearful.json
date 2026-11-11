@@ -1,0 +1,13 @@
+{
+  "id": "emotion_fearful",
+  "name": "Fearful",
+  "is": "emotion",
+  "definition": "Sensing danger.",
+  "part_of": "emotions_emotional_spectrum",
+  "places": [
+    {
+      "level": "main",
+      "under": []
+    }
+  ]
+}

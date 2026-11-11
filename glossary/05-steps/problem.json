@@ -1,0 +1,10 @@
+{
+  "id": "step_problem",
+  "name": "Problem",
+  "is": "step",
+  "definition": "Something in the way that needs solving.",
+  "part_of": "",
+  "used_in": [
+    "chain_problem_solving"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "step_temporary_relief",
+  "name": "Temporary Relief",
+  "is": "step",
+  "definition": "Feeling better for a short while.",
+  "part_of": "",
+  "used_in": [
+    "chain_avoidance",
+    "chain_procrastination"
+  ]
+}

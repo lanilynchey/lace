@@ -1,0 +1,18 @@
+{
+  "id": "step_recognition",
+  "name": "Recognition",
+  "is": "step",
+  "definition": "Knowing what something is when you meet it.",
+  "part_of": "",
+  "used_in": [
+    "chain_perception",
+    "chain_appreciation",
+    "chain_acceptance",
+    "chain_morality",
+    "chain_gratitude",
+    "chain_grief",
+    "chain_achievement",
+    "chain_connection",
+    "chain_empathy"
+  ]
+}

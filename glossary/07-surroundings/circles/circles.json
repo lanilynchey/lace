@@ -1,0 +1,20 @@
+{
+  "id": "surroundings_circles",
+  "name": "Circles",
+  "is": "term",
+  "definition": "The rings of people around you.",
+  "part_of": "surroundings_surroundings",
+  "comes_from": [
+    "core_attention",
+    "core_time"
+  ],
+  "moves_in_by": [
+    "chain_connection"
+  ],
+  "moves_out_by": [
+    "cycle_fade"
+  ],
+  "checks": [
+    "The closer the circle, the fewer people fit in it."
+  ]
+}

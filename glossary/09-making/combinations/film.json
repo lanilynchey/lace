@@ -1,0 +1,12 @@
+{
+  "id": "combination_film",
+  "name": "Art and Music",
+  "is": "term",
+  "definition": "Art and Music make Film.",
+  "part_of": "making_combining_things",
+  "of": [
+    "expression_art",
+    "expression_music"
+  ],
+  "makes": "artform_film"
+}

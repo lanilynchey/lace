@@ -1,0 +1,10 @@
+{
+  "id": "step_perceived_possibility",
+  "name": "Perceived Possibility",
+  "is": "step",
+  "definition": "Seeing that it could happen.",
+  "part_of": "",
+  "used_in": [
+    "chain_hope"
+  ]
+}

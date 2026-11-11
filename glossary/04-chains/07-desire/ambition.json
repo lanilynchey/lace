@@ -1,0 +1,19 @@
+{
+  "id": "chain_ambition",
+  "name": "Ambition",
+  "is": "chain",
+  "definition": "A strong drive to reach something big.",
+  "part_of": "chain_desire",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_aspiration",
+    "step_visualization",
+    "step_goal",
+    "step_commitment",
+    "step_effort",
+    "step_persistence",
+    "step_achievement",
+    "step_reflection"
+  ]
+}

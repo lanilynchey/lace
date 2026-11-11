@@ -1,0 +1,10 @@
+{
+  "id": "step_shame",
+  "name": "Shame",
+  "is": "step",
+  "definition": "Feeling that you yourself are not good enough.",
+  "part_of": "",
+  "used_in": [
+    "chain_shame"
+  ]
+}

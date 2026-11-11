@@ -1,0 +1,19 @@
+{
+  "id": "chain_commitment",
+  "name": "Commitment",
+  "is": "chain",
+  "definition": "Holding yourself to a choice.",
+  "part_of": "chain_desire",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "step_intention",
+  "steps": [
+    "step_choice",
+    "step_intention",
+    "step_promise",
+    "step_prioritization",
+    "step_effort",
+    "step_consistency",
+    "step_accountability"
+  ]
+}

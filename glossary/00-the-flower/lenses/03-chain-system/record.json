@@ -1,0 +1,10 @@
+{
+  "id": "lens_record",
+  "name": "Record",
+  "is": "term",
+  "definition": "Each bloom is one run. No two are the same.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "structure_record"
+  ]
+}

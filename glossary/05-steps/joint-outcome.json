@@ -1,0 +1,10 @@
+{
+  "id": "step_joint_outcome",
+  "name": "Joint Outcome",
+  "is": "step",
+  "definition": "What you achieved together.",
+  "part_of": "",
+  "used_in": [
+    "chain_collaboration"
+  ]
+}

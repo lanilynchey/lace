@@ -1,0 +1,19 @@
+{
+  "id": "chain_problem_solving",
+  "name": "Problem-Solving",
+  "is": "chain",
+  "definition": "Finding a way past a problem.",
+  "part_of": "chain_thought",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_problem",
+    "step_identification",
+    "step_analysis",
+    "step_possibilities",
+    "step_selection",
+    "step_experimentation",
+    "step_reflection",
+    "step_solution"
+  ]
+}

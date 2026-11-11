@@ -1,0 +1,16 @@
+{
+  "id": "emotion_worthless",
+  "name": "Worthless",
+  "is": "emotion",
+  "definition": "Feeling you have no value.",
+  "part_of": "emotion_weak",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_weak"
+      ]
+    }
+  ]
+}

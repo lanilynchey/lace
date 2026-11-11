@@ -1,0 +1,16 @@
+{
+  "id": "emotion_thankful",
+  "name": "Thankful",
+  "is": "emotion",
+  "definition": "Glad for what you have been given.",
+  "part_of": "emotion_peaceful",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_peaceful"
+      ]
+    }
+  ]
+}

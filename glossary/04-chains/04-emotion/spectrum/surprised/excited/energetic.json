@@ -1,0 +1,16 @@
+{
+  "id": "emotion_energetic",
+  "name": "Energetic",
+  "is": "emotion",
+  "definition": "Full of energy.",
+  "part_of": "emotion_excited",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_surprised",
+        "emotion_excited"
+      ]
+    }
+  ]
+}

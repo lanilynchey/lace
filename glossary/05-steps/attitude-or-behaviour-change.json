@@ -1,0 +1,20 @@
+{
+  "id": "step_attitude_or_behaviour_change",
+  "name": "Attitude or Behaviour Change",
+  "is": "step",
+  "definition": "Thinking or acting differently afterwards.",
+  "part_of": "",
+  "used_in": [
+    "chain_persuasion"
+  ],
+  "sides": [
+    {
+      "name": "Attitude Change",
+      "then": "ends"
+    },
+    {
+      "name": "Behaviour Change",
+      "then": "ends"
+    }
+  ]
+}

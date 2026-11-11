@@ -1,0 +1,10 @@
+{
+  "id": "lens_season",
+  "name": "Season",
+  "is": "term",
+  "definition": "It only blooms forward: bud, flower, seed.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "core_time"
+  ]
+}

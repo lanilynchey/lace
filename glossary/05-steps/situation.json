@@ -1,0 +1,11 @@
+{
+  "id": "step_situation",
+  "name": "Situation",
+  "is": "step",
+  "definition": "What you are facing.",
+  "part_of": "",
+  "used_in": [
+    "chain_morality",
+    "chain_decision"
+  ]
+}

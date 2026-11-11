@@ -1,0 +1,7 @@
+{
+  "id": "emotions_emotional_spectrum",
+  "name": "Emotional Spectrum",
+  "is": "term",
+  "definition": "The whole range of emotions: seven main, each with secondary and tertiary emotions.",
+  "part_of": "emotions_emotion"
+}

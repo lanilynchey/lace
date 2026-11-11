@@ -1,0 +1,16 @@
+{
+  "id": "emotion_hopeful",
+  "name": "Hopeful",
+  "is": "emotion",
+  "definition": "Feeling a good outcome is possible.",
+  "part_of": "emotion_optimistic",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_optimistic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_stall",
+  "name": "Stall",
+  "is": "term",
+  "definition": "A bulb waits underground for the right season, then picks up where it left off.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_chain_stall"
+  ]
+}

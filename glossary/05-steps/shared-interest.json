@@ -1,0 +1,10 @@
+{
+  "id": "step_shared_interest",
+  "name": "Shared Interest",
+  "is": "step",
+  "definition": "Something you both care about.",
+  "part_of": "",
+  "used_in": [
+    "chain_collaboration"
+  ]
+}

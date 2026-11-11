@@ -1,0 +1,49 @@
+{
+  "id": "record_0020",
+  "chain": "chain_desire",
+  "moment": "Wanting to ask for a raise",
+  "open": true,
+  "steps": [
+    {
+      "step": "step_desire",
+      "gate": 1,
+      "what": "You want a raise."
+    },
+    {
+      "step": "step_wish",
+      "gate": 1,
+      "what": "If only they would just offer it."
+    },
+    {
+      "step": "step_visualization",
+      "gate": 1,
+      "what": "You picture the conversation going well."
+    },
+    {
+      "step": "emotions_emotion",
+      "gate": 1,
+      "what": "Hope, with nerves under it.",
+      "emotions": [
+        {
+          "emotion": "emotion_hopeful",
+          "charge": "charge_pulse",
+          "stake": "stake_self"
+        },
+        {
+          "emotion": "emotion_nervous",
+          "charge": "charge_hum",
+          "stake": "stake_social"
+        }
+      ],
+      "opened": {
+        "chain": "chain_emotion",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_belief",
+      "gate": 0,
+      "what": "I'm not worth that much."
+    }
+  ]
+}

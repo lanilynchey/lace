@@ -1,0 +1,10 @@
+{
+  "id": "step_urge_to_escape",
+  "name": "Urge to Escape",
+  "is": "step",
+  "definition": "Wanting to get away.",
+  "part_of": "",
+  "used_in": [
+    "chain_avoidance"
+  ]
+}

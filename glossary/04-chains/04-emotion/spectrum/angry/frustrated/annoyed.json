@@ -1,0 +1,16 @@
+{
+  "id": "emotion_annoyed",
+  "name": "Annoyed",
+  "is": "emotion",
+  "definition": "Mildly angry at something bothering you.",
+  "part_of": "emotion_frustrated",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_frustrated"
+      ]
+    }
+  ]
+}

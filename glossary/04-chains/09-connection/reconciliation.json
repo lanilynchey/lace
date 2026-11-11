@@ -1,0 +1,18 @@
+{
+  "id": "chain_reconciliation",
+  "name": "Reconciliation",
+  "is": "chain",
+  "definition": "Repairing a relationship.",
+  "part_of": "chain_connection",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_rupture",
+    "step_acknowledgment",
+    "step_dialogue",
+    "step_accountability",
+    "step_repair",
+    "step_reflection",
+    "step_renewed_relationship_or_separation"
+  ]
+}

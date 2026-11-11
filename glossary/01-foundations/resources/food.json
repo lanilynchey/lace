@@ -1,0 +1,27 @@
+{
+  "id": "resource_food",
+  "name": "Food",
+  "is": "term",
+  "definition": "What you eat.",
+  "part_of": "base_system_resources",
+  "refilled_by": [
+    "step_food_seeking"
+  ],
+  "depleted_by": [
+    {
+      "what": "step_eating",
+      "more_with": ""
+    }
+  ],
+  "low_from": "supply_worn",
+  "when_low": [
+    {
+      "what": "The Survival Scan is set off.",
+      "affects": "attention_survival_scan"
+    },
+    {
+      "what": "Hunger cannot be met.",
+      "affects": "chain_hunger"
+    }
+  ]
+}

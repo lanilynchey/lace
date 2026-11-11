@@ -1,0 +1,10 @@
+{
+  "id": "step_value",
+  "name": "Value",
+  "is": "step",
+  "definition": "How much something matters to you.",
+  "part_of": "",
+  "used_in": [
+    "chain_motivation"
+  ]
+}

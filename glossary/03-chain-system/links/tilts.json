@@ -1,0 +1,7 @@
+{
+  "id": "structure_tilts",
+  "name": "Tilts",
+  "is": "term",
+  "definition": "One chain changes how another runs.",
+  "part_of": "structure_link"
+}

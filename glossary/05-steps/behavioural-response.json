@@ -1,0 +1,10 @@
+{
+  "id": "step_behavioural_response",
+  "name": "Behavioural Response",
+  "is": "step",
+  "definition": "What you do in response.",
+  "part_of": "",
+  "used_in": [
+    "chain_energy_regulation"
+  ]
+}

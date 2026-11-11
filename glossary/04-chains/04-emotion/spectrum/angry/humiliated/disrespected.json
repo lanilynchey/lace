@@ -1,0 +1,16 @@
+{
+  "id": "emotion_disrespected",
+  "name": "Disrespected",
+  "is": "emotion",
+  "definition": "Treated as if you do not matter.",
+  "part_of": "emotion_humiliated",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_humiliated"
+      ]
+    }
+  ]
+}

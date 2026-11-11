@@ -1,0 +1,10 @@
+{
+  "id": "step_surprise",
+  "name": "Surprise",
+  "is": "step",
+  "definition": "Being caught off guard.",
+  "part_of": "",
+  "used_in": [
+    "chain_wonder"
+  ]
+}

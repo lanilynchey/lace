@@ -1,0 +1,10 @@
+{
+  "id": "step_reappraisal",
+  "name": "Reappraisal",
+  "is": "step",
+  "definition": "Seeing it in a new way.",
+  "part_of": "",
+  "used_in": [
+    "chain_forgiveness"
+  ]
+}

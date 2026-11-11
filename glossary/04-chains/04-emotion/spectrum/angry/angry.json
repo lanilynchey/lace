@@ -1,0 +1,13 @@
+{
+  "id": "emotion_angry",
+  "name": "Angry",
+  "is": "emotion",
+  "definition": "Feeling against something that crossed you.",
+  "part_of": "emotions_emotional_spectrum",
+  "places": [
+    {
+      "level": "main",
+      "under": []
+    }
+  ]
+}

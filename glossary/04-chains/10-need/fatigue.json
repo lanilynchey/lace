@@ -1,0 +1,20 @@
+{
+  "id": "chain_fatigue",
+  "name": "Fatigue",
+  "is": "chain",
+  "definition": "Tiredness.",
+  "part_of": "chain_need",
+  "refills": [
+    "resource_energy"
+  ],
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_exertion_or_insufficient_recovery",
+    "cycle_fade",
+    "step_attention",
+    "step_behavioural_adjustment",
+    "step_rest",
+    "step_recovery"
+  ]
+}

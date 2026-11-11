@@ -1,0 +1,18 @@
+{
+  "id": "chain_anxiety",
+  "name": "Anxiety",
+  "is": "chain",
+  "definition": "Worry about something uncertain.",
+  "part_of": "chain_emotion",
+  "emotion": "emotion_anxious",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_uncertainty",
+    "attention_survival_scan",
+    "step_worry",
+    "body_body_signals",
+    "step_coping_or_avoidance",
+    "step_reinforcement"
+  ]
+}

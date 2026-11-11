@@ -1,0 +1,15 @@
+{
+  "id": "step_response",
+  "name": "Response",
+  "is": "step",
+  "definition": "What you do in return.",
+  "part_of": "",
+  "used_in": [
+    "chain_perception",
+    "chain_conditioning",
+    "chain_arousal",
+    "chain_communication",
+    "chain_empathy",
+    "chain_resilience"
+  ]
+}

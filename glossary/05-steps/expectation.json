@@ -1,0 +1,12 @@
+{
+  "id": "step_expectation",
+  "name": "Expectation",
+  "is": "step",
+  "definition": "What you think will happen.",
+  "part_of": "",
+  "used_in": [
+    "chain_motivation",
+    "chain_satisfaction",
+    "chain_trust"
+  ]
+}

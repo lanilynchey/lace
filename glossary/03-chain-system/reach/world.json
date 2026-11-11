@@ -1,0 +1,8 @@
+{
+  "id": "reach_world",
+  "name": "World",
+  "is": "term",
+  "definition": "Everyone.",
+  "part_of": "rule_chain_reach",
+  "order": 5
+}

@@ -1,0 +1,16 @@
+{
+  "id": "emotion_excluded",
+  "name": "Excluded",
+  "is": "emotion",
+  "definition": "Left out.",
+  "part_of": "emotion_rejected",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_rejected"
+      ]
+    }
+  ]
+}

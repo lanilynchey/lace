@@ -1,0 +1,16 @@
+{
+  "id": "emotion_ridiculed",
+  "name": "Ridiculed",
+  "is": "emotion",
+  "definition": "Made fun of.",
+  "part_of": "emotion_humiliated",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_humiliated"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "record_0003",
+  "chain": "chain_thought",
+  "moment": "\"I'm the funny one in my family\"",
+  "steps": [
+    {
+      "step": "step_thought",
+      "gate": 1,
+      "what": "I'm the funny one in my family."
+    },
+    {
+      "step": "step_repetition",
+      "gate": 1,
+      "what": "You think it at every family dinner, for years."
+    },
+    {
+      "step": "step_belief",
+      "gate": 1,
+      "what": "It becomes who you are at home."
+    },
+    {
+      "step": "step_perception",
+      "gate": 1,
+      "what": "You see every quiet moment at the table as yours to fill.",
+      "opened": {
+        "chain": "chain_perception",
+        "record": ""
+      }
+    },
+    {
+      "step": "emotions_emotion",
+      "gate": 1,
+      "what": "A lift when they laugh, a small dread when they don't.",
+      "emotions": [
+        {
+          "emotion": "emotion_valued",
+          "charge": "charge_pulse",
+          "stake": "stake_social"
+        },
+        {
+          "emotion": "emotion_anxious",
+          "charge": "charge_hum",
+          "stake": "stake_social"
+        }
+      ],
+      "opened": {
+        "chain": "chain_emotion",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_action",
+      "gate": 1,
+      "what": "You make the joke.",
+      "opened": {
+        "chain": "chain_action",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_habit",
+      "gate": 1,
+      "what": "You joke before anyone else has spoken.",
+      "opened": {
+        "chain": "chain_habit",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_behaviour",
+      "gate": 1,
+      "what": "You are the one who lightens every room."
+    },
+    {
+      "step": "step_results",
+      "gate": 1,
+      "what": "The family laughs, and comes to you for it."
+    },
+    {
+      "step": "step_reinforcement",
+      "gate": 1,
+      "what": "Each laugh confirms the thought."
+    },
+    {
+      "step": "step_reality",
+      "gate": 1,
+      "what": "In your family, you are the funny one."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_cuttings",
+  "name": "Cuttings",
+  "is": "term",
+  "definition": "Swapping cuttings with a neighbour until you are friends.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "chain_connection"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_conclusion",
+  "name": "Conclusion",
+  "is": "step",
+  "definition": "What you arrive at.",
+  "part_of": "",
+  "used_in": [
+    "chain_reasoning"
+  ]
+}

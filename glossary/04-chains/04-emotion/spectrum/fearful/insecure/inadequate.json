@@ -1,0 +1,16 @@
+{
+  "id": "emotion_inadequate",
+  "name": "Inadequate",
+  "is": "emotion",
+  "definition": "Feeling not enough for what is asked.",
+  "part_of": "emotion_insecure",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_insecure"
+      ]
+    }
+  ]
+}

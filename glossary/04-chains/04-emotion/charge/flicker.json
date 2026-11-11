@@ -1,0 +1,8 @@
+{
+  "id": "charge_flicker",
+  "name": "Flicker",
+  "is": "term",
+  "definition": "Barely there. Gone if you look away.",
+  "part_of": "emotions_charge",
+  "order": 1
+}

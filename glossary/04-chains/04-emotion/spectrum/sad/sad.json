@@ -1,0 +1,13 @@
+{
+  "id": "emotion_sad",
+  "name": "Sad",
+  "is": "emotion",
+  "definition": "Feeling low.",
+  "part_of": "emotions_emotional_spectrum",
+  "places": [
+    {
+      "level": "main",
+      "under": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_schedule",
+  "name": "Schedule",
+  "is": "step",
+  "definition": "When each thing will be done.",
+  "part_of": "",
+  "used_in": [
+    "chain_planning"
+  ]
+}

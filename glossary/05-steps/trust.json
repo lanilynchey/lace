@@ -1,0 +1,14 @@
+{
+  "id": "step_trust",
+  "name": "Trust",
+  "is": "step",
+  "definition": "Relying on someone.",
+  "part_of": "",
+  "used_in": [
+    "chain_faith",
+    "chain_connection",
+    "chain_trust",
+    "chain_friendship"
+  ],
+  "opens": "chain_trust"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "step_action_or_further_delay",
+  "name": "Action or Further Delay",
+  "is": "step",
+  "definition": "Finally acting, or putting it off again.",
+  "part_of": "",
+  "used_in": [
+    "chain_procrastination"
+  ],
+  "sides": [
+    {
+      "name": "Action",
+      "then": "chain_action"
+    },
+    {
+      "name": "Further Delay",
+      "then": "chain_procrastination"
+    }
+  ]
+}

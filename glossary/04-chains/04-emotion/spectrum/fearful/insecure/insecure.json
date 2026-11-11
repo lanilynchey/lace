@@ -1,0 +1,15 @@
+{
+  "id": "emotion_insecure",
+  "name": "Insecure",
+  "is": "emotion",
+  "definition": "Unsure of yourself or your place.",
+  "part_of": "emotion_fearful",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_fearful"
+      ]
+    }
+  ]
+}

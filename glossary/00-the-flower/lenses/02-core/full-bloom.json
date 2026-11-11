@@ -1,0 +1,10 @@
+{
+  "id": "lens_full_bloom",
+  "name": "Full Bloom",
+  "is": "term",
+  "definition": "The day it was at its fullest. That stays true after it fades.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "state_peak"
+  ]
+}

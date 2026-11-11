@@ -1,0 +1,17 @@
+{
+  "id": "form_the_render",
+  "name": "The Render",
+  "is": "term",
+  "definition": "What you're given at the start.",
+  "part_of": "base_instance",
+  "gives": [
+    "form_the_form",
+    "form_appearance",
+    "surroundings_environment",
+    "surroundings_circles",
+    "base_system_resources"
+  ],
+  "may_be_shaped_by": [
+    "state_signature"
+  ]
+}

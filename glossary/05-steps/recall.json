@@ -1,0 +1,10 @@
+{
+  "id": "step_recall",
+  "name": "Recall",
+  "is": "step",
+  "definition": "Bringing a memory back to mind.",
+  "part_of": "",
+  "used_in": [
+    "chain_reflection"
+  ]
+}

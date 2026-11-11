@@ -1,0 +1,10 @@
+{
+  "id": "step_meaningful_pursuit",
+  "name": "Meaningful Pursuit",
+  "is": "step",
+  "definition": "Going after something that matters to you.",
+  "part_of": "",
+  "used_in": [
+    "chain_fulfillment"
+  ]
+}

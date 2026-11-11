@@ -1,0 +1,10 @@
+{
+  "id": "lens_calling",
+  "name": "Calling",
+  "is": "term",
+  "definition": "The pull to plant something you can't stop thinking about.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "state_desired_signal"
+  ]
+}

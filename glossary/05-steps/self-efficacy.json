@@ -1,0 +1,10 @@
+{
+  "id": "step_self_efficacy",
+  "name": "Self-Efficacy",
+  "is": "step",
+  "definition": "Believing you can do it.",
+  "part_of": "",
+  "used_in": [
+    "chain_confidence"
+  ]
+}

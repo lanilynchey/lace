@@ -1,0 +1,19 @@
+{
+  "id": "chain_motivation",
+  "name": "Motivation",
+  "is": "chain",
+  "definition": "The drive to act.",
+  "part_of": "chain_action",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "step_motivation",
+  "steps": [
+    "step_need_or_desire",
+    "step_value",
+    "step_expectation",
+    "step_drive",
+    "step_intention",
+    "step_effort",
+    "step_reinforcement"
+  ]
+}

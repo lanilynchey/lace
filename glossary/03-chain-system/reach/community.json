@@ -1,0 +1,8 @@
+{
+  "id": "reach_community",
+  "name": "Community",
+  "is": "term",
+  "definition": "A group of circles living or working together.",
+  "part_of": "rule_chain_reach",
+  "order": 3
+}

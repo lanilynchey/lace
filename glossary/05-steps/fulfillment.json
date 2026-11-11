@@ -1,0 +1,11 @@
+{
+  "id": "step_fulfillment",
+  "name": "Fulfillment",
+  "is": "step",
+  "definition": "The satisfaction of something that matters to you being met.",
+  "part_of": "",
+  "used_in": [
+    "chain_need"
+  ],
+  "opens": "chain_fulfillment"
+}

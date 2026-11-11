@@ -1,0 +1,10 @@
+{
+  "id": "lens_competing",
+  "name": "Competing",
+  "is": "term",
+  "definition": "Two vines reach for the same light, and the one that gets more of it wins.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_competing_chains"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_wanting",
+  "name": "Wanting",
+  "is": "term",
+  "definition": "The garden you picture before you plant a seed.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "state_desired"
+  ]
+}

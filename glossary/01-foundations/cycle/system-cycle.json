@@ -1,0 +1,7 @@
+{
+  "id": "base_system_cycle",
+  "name": "System Cycle",
+  "is": "term",
+  "definition": "What happens to everything in the system.",
+  "part_of": "base_base_system"
+}

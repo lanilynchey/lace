@@ -1,0 +1,7 @@
+{
+  "id": "form_agent",
+  "name": "Agent",
+  "is": "term",
+  "definition": "A form whose possibilities are limited, and that may miss parts of the chain.",
+  "part_of": "form_the_form"
+}

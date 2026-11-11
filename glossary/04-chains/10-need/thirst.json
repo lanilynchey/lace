@@ -1,0 +1,20 @@
+{
+  "id": "chain_thirst",
+  "name": "Thirst",
+  "is": "chain",
+  "definition": "The need for water.",
+  "part_of": "chain_need",
+  "refills": [
+    "resource_energy"
+  ],
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "body_body_signals",
+    "step_attention",
+    "step_water_seeking",
+    "step_drinking",
+    "step_quenched",
+    "step_feedback"
+  ]
+}

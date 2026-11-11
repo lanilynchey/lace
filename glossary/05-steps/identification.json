@@ -1,0 +1,13 @@
+{
+  "id": "step_identification",
+  "name": "Identification",
+  "is": "step",
+  "definition": "Seeing something, or yourself, as a certain thing.",
+  "part_of": "",
+  "used_in": [
+    "chain_identity",
+    "chain_problem_solving",
+    "chain_emotional_regulation",
+    "chain_belonging"
+  ]
+}

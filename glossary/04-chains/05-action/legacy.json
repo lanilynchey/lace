@@ -1,0 +1,17 @@
+{
+  "id": "chain_legacy",
+  "name": "Legacy",
+  "is": "chain",
+  "definition": "What your actions leave behind after you.",
+  "part_of": "chain_action",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_values",
+    "step_intention",
+    "step_contribution",
+    "step_action",
+    "step_aftermath",
+    "step_remembrance_or_continuation"
+  ]
+}

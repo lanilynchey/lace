@@ -1,0 +1,7 @@
+{
+  "id": "body_changes",
+  "name": "Changes",
+  "is": "term",
+  "definition": "Something the body goes through for a time.",
+  "part_of": "body_body"
+}

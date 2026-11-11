@@ -1,0 +1,16 @@
+{
+  "id": "emotion_successful",
+  "name": "Successful",
+  "is": "emotion",
+  "definition": "Feeling you reached what you aimed for.",
+  "part_of": "emotion_proud",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_proud"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "step_solution",
+  "name": "Solution",
+  "is": "step",
+  "definition": "What solves the problem.",
+  "part_of": "",
+  "used_in": [
+    "chain_problem_solving",
+    "chain_design"
+  ]
+}

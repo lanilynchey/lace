@@ -1,0 +1,99 @@
+{
+  "id": "record_0005",
+  "chain": "chain_memory",
+  "moment": "Your first kiss",
+  "steps": [
+    {
+      "step": "step_occurrence",
+      "gate": 1,
+      "what": "Your first kiss, outside after the school dance.",
+      "source": "source_lived"
+    },
+    {
+      "step": "step_attention",
+      "gate": 1,
+      "what": "Everything else drops away.",
+      "opened": {
+        "chain": "chain_attention",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_perception",
+      "gate": 1,
+      "what": "This is really happening.",
+      "opened": {
+        "chain": "chain_perception",
+        "record": ""
+      }
+    },
+    {
+      "step": "emotions_emotion",
+      "gate": 1,
+      "what": "Nervous and thrilled.",
+      "emotions": [
+        {
+          "emotion": "emotion_nervous",
+          "charge": "charge_surge",
+          "stake": "stake_social"
+        },
+        {
+          "emotion": "emotion_excited",
+          "charge": "charge_surge",
+          "stake": "stake_social"
+        }
+      ],
+      "opened": {
+        "chain": "chain_emotion",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_encoding",
+      "gate": 1,
+      "what": "The cold air, the song from inside, your heartbeat.",
+      "tilted_by": [
+        {
+          "link": "link_emotion_tilts_memory",
+          "record": ""
+        }
+      ]
+    },
+    {
+      "step": "step_consolidation",
+      "gate": 1,
+      "what": "You replay it all night and for weeks after."
+    },
+    {
+      "step": "step_memory",
+      "gate": 1,
+      "what": "It is stored as your first kiss."
+    },
+    {
+      "step": "step_meaning",
+      "gate": 1,
+      "what": "Someone chose me."
+    },
+    {
+      "step": "step_integration",
+      "gate": 1,
+      "what": "It becomes part of your story about yourself."
+    },
+    {
+      "step": "step_influence",
+      "gate": 1,
+      "what": "It shapes what you expect from the next first kiss.",
+      "tilts": [
+        {
+          "link": "link_memory_tilts_perception",
+          "record": ""
+        }
+      ]
+    },
+    {
+      "step": "step_reinforcement",
+      "gate": 1,
+      "what": "Each retelling makes it stronger."
+    }
+  ]
+}

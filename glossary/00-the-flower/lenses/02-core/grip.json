@@ -1,0 +1,10 @@
+{
+  "id": "lens_grip",
+  "name": "Grip",
+  "is": "term",
+  "definition": "Some flowers catch your eye. Some you can't look away from.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "attention_attention_grip"
+  ]
+}

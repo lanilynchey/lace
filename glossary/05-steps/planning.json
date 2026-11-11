@@ -1,0 +1,13 @@
+{
+  "id": "step_planning",
+  "name": "Planning",
+  "is": "step",
+  "definition": "Working out how to reach an objective.",
+  "part_of": "",
+  "used_in": [
+    "chain_routine",
+    "chain_action",
+    "chain_goal"
+  ],
+  "opens": "chain_planning"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "group_online_community",
+  "name": "Online Community",
+  "is": "term",
+  "definition": "People who share something but mostly meet online.",
+  "part_of": "surroundings_groups"
+}

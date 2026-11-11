@@ -1,0 +1,10 @@
+{
+  "id": "lens_new_seeds",
+  "name": "New Seeds",
+  "is": "term",
+  "definition": "When it dies, its seeds grow into new flowers, not the same one.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "form_next_instance"
+  ]
+}

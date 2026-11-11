@@ -1,0 +1,10 @@
+{
+  "id": "lens_painted",
+  "name": "Painted",
+  "is": "term",
+  "definition": "Painting a flower puts your feeling into it. The painting is yours, not the flower.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "emotions_emotional_expression"
+  ]
+}

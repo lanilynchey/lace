@@ -1,0 +1,7 @@
+{
+  "id": "surroundings_natural",
+  "name": "Natural Surroundings",
+  "is": "term",
+  "definition": "The surroundings the Base System makes.",
+  "part_of": "surroundings_environment"
+}

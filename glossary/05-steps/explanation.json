@@ -1,0 +1,10 @@
+{
+  "id": "step_explanation",
+  "name": "Explanation",
+  "is": "step",
+  "definition": "Making something clear to someone else.",
+  "part_of": "",
+  "used_in": [
+    "chain_understanding"
+  ]
+}

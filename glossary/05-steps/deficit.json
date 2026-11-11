@@ -1,0 +1,10 @@
+{
+  "id": "step_deficit",
+  "name": "Deficit",
+  "is": "step",
+  "definition": "A need running low.",
+  "part_of": "",
+  "used_in": [
+    "chain_need"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "step_outcome",
+  "name": "Outcome",
+  "is": "step",
+  "definition": "How it turns out.",
+  "part_of": "",
+  "used_in": [
+    "chain_anger",
+    "chain_fear",
+    "chain_decision",
+    "chain_desire",
+    "chain_conflict"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "step_adaptation",
+  "name": "Adaptation",
+  "is": "step",
+  "definition": "Adjusting to fit what has changed.",
+  "part_of": "",
+  "used_in": [
+    "chain_acceptance",
+    "chain_mastery",
+    "chain_trauma_response",
+    "chain_achievement",
+    "chain_resilience"
+  ]
+}

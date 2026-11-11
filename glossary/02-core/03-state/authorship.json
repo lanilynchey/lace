@@ -1,0 +1,7 @@
+{
+  "id": "state_authorship",
+  "name": "Authorship",
+  "is": "term",
+  "definition": "Your ability to create a Symbiotic State.",
+  "part_of": "state_symbiotic_state"
+}

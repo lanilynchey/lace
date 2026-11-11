@@ -1,0 +1,17 @@
+{
+  "id": "chain_pain",
+  "name": "Pain",
+  "is": "chain",
+  "definition": "The body's signal that something is wrong.",
+  "part_of": "chain_need",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "body_body_signals",
+    "step_nervous_system_processing",
+    "step_perception",
+    "emotions_emotional_response",
+    "step_protective_response",
+    "step_modulation"
+  ]
+}

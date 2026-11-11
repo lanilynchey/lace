@@ -1,0 +1,10 @@
+{
+  "id": "step_food_seeking",
+  "name": "Food Seeking",
+  "is": "step",
+  "definition": "Looking for food.",
+  "part_of": "",
+  "used_in": [
+    "chain_hunger"
+  ]
+}

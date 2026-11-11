@@ -1,0 +1,19 @@
+{
+  "id": "chain_innovation",
+  "name": "Innovation",
+  "is": "chain",
+  "definition": "Turning a new idea into something people use.",
+  "part_of": "chain_creation",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_opportunity",
+    "step_insight",
+    "step_idea",
+    "step_experiment",
+    "step_validation",
+    "step_implementation",
+    "step_adoption",
+    "form_evolution"
+  ]
+}

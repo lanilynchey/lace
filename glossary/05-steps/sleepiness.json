@@ -1,0 +1,10 @@
+{
+  "id": "step_sleepiness",
+  "name": "Sleepiness",
+  "is": "step",
+  "definition": "Feeling the pull to sleep.",
+  "part_of": "",
+  "used_in": [
+    "chain_sleep"
+  ]
+}

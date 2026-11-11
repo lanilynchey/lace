@@ -1,0 +1,11 @@
+{
+  "id": "step_opportunity",
+  "name": "Opportunity",
+  "is": "step",
+  "definition": "A chance to do something.",
+  "part_of": "",
+  "used_in": [
+    "chain_play",
+    "chain_innovation"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "step_renewed_relationship_or_separation",
+  "name": "Renewed Relationship or Separation",
+  "is": "step",
+  "definition": "Starting again together, or parting.",
+  "part_of": "",
+  "used_in": [
+    "chain_reconciliation"
+  ],
+  "sides": [
+    {
+      "name": "Renewed Relationship",
+      "then": "ends"
+    },
+    {
+      "name": "Separation",
+      "then": "ends"
+    }
+  ]
+}

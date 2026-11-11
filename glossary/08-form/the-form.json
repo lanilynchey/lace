@@ -1,0 +1,7 @@
+{
+  "id": "form_the_form",
+  "name": "The Form",
+  "is": "term",
+  "definition": "What kind of being you are.",
+  "part_of": "form_the_render"
+}

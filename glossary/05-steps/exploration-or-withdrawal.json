@@ -1,0 +1,20 @@
+{
+  "id": "step_exploration_or_withdrawal",
+  "name": "Exploration or Withdrawal",
+  "is": "step",
+  "definition": "Going looking, or pulling back.",
+  "part_of": "",
+  "used_in": [
+    "chain_boredom"
+  ],
+  "sides": [
+    {
+      "name": "Exploration",
+      "then": "chain_exploration"
+    },
+    {
+      "name": "Withdrawal",
+      "then": "chain_boredom"
+    }
+  ]
+}

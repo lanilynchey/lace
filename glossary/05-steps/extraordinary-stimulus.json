@@ -1,0 +1,10 @@
+{
+  "id": "step_extraordinary_stimulus",
+  "name": "Extraordinary Stimulus",
+  "is": "step",
+  "definition": "Something far beyond the usual.",
+  "part_of": "",
+  "used_in": [
+    "chain_wonder"
+  ]
+}

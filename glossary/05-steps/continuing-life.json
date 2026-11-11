@@ -1,0 +1,10 @@
+{
+  "id": "step_continuing_life",
+  "name": "Continuing Life",
+  "is": "step",
+  "definition": "Going on living with the loss.",
+  "part_of": "",
+  "used_in": [
+    "chain_grief"
+  ]
+}

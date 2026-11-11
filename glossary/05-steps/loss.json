@@ -1,0 +1,10 @@
+{
+  "id": "step_loss",
+  "name": "Loss",
+  "is": "step",
+  "definition": "Something or someone gone.",
+  "part_of": "",
+  "used_in": [
+    "chain_grief"
+  ]
+}

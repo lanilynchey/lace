@@ -1,0 +1,7 @@
+{
+  "id": "sense_taste",
+  "name": "Taste",
+  "is": "term",
+  "definition": "What you taste.",
+  "part_of": "surroundings_senses"
+}

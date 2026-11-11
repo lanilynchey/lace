@@ -1,0 +1,18 @@
+{
+  "id": "chain_need",
+  "name": "Need",
+  "is": "chain",
+  "definition": "From a need running low to it being met.",
+  "part_of": "base_base_functions",
+  "kind": "chain",
+  "locked": false,
+  "steps": [
+    "step_deficit",
+    "body_body_signals",
+    "step_discomfort",
+    "step_motivation",
+    "step_seeking",
+    "step_fulfillment",
+    "step_satisfaction"
+  ]
+}

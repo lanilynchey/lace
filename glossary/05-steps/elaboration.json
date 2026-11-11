@@ -1,0 +1,10 @@
+{
+  "id": "step_elaboration",
+  "name": "Elaboration",
+  "is": "step",
+  "definition": "Adding detail to an idea.",
+  "part_of": "",
+  "used_in": [
+    "chain_imagination"
+  ]
+}

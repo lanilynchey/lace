@@ -1,0 +1,10 @@
+{
+  "id": "lens_same_seed",
+  "name": "Same Seed",
+  "is": "term",
+  "definition": "A beginner and a master plant the same seed and grow different gardens.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "body_skills"
+  ]
+}

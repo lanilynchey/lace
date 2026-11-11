@@ -1,0 +1,12 @@
+{
+  "id": "step_communication",
+  "name": "Communication",
+  "is": "step",
+  "definition": "How a thought gets from one person into another's chains, and back.",
+  "part_of": "",
+  "used_in": [
+    "chain_collaboration",
+    "chain_connection"
+  ],
+  "opens": "chain_communication"
+}

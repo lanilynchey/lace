@@ -1,0 +1,7 @@
+{
+  "id": "memory_memory_type",
+  "name": "Memory Type",
+  "is": "term",
+  "definition": "The kinds of memory.",
+  "part_of": "chain_memory"
+}

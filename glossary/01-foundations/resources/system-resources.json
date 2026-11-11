@@ -1,0 +1,7 @@
+{
+  "id": "base_system_resources",
+  "name": "System Resources",
+  "is": "term",
+  "definition": "What can run out, be used up or refill.",
+  "part_of": "base_base_system"
+}

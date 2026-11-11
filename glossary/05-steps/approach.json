@@ -1,0 +1,12 @@
+{
+  "id": "step_approach",
+  "name": "Approach",
+  "is": "step",
+  "definition": "Moving toward someone or something.",
+  "part_of": "",
+  "used_in": [
+    "chain_exploration",
+    "chain_connection",
+    "chain_attraction"
+  ]
+}

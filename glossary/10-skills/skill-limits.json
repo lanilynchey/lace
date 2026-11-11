@@ -1,0 +1,12 @@
+{
+  "id": "rule_skill_limits",
+  "name": "Skill Limits",
+  "is": "rule",
+  "definition": "Levels take time and attention, so you can't master everything.",
+  "part_of": "body_skills",
+  "allows": [
+    "No skills.",
+    "A few at Capable or Skilled.",
+    "One at Mastery."
+  ]
+}

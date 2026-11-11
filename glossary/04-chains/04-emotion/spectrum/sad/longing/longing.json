@@ -1,0 +1,21 @@
+{
+  "id": "emotion_longing",
+  "name": "Longing",
+  "is": "emotion",
+  "definition": "Aching for something you do not have.",
+  "part_of": "emotion_sad",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_sad"
+      ]
+    },
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_happy"
+      ]
+    }
+  ]
+}

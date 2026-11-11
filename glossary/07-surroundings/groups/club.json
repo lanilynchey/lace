@@ -1,0 +1,7 @@
+{
+  "id": "group_club",
+  "name": "Club",
+  "is": "term",
+  "definition": "People who meet around a shared interest.",
+  "part_of": "surroundings_groups"
+}

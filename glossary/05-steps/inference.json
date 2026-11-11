@@ -1,0 +1,10 @@
+{
+  "id": "step_inference",
+  "name": "Inference",
+  "is": "step",
+  "definition": "Working out something from what you already know.",
+  "part_of": "",
+  "used_in": [
+    "chain_reasoning"
+  ]
+}

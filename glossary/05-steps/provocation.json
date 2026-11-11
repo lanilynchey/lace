@@ -1,0 +1,10 @@
+{
+  "id": "step_provocation",
+  "name": "Provocation",
+  "is": "step",
+  "definition": "Something that sets you off.",
+  "part_of": "",
+  "used_in": [
+    "chain_anger"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "body_body_signals",
+  "name": "Body Signals",
+  "is": "term",
+  "definition": "How Energy shows in the body.",
+  "part_of": "body_body",
+  "used_in": [
+    "chain_arousal",
+    "chain_anger",
+    "chain_anxiety",
+    "chain_fear",
+    "chain_stress",
+    "chain_impulse",
+    "chain_need",
+    "chain_energy_regulation",
+    "chain_hunger",
+    "chain_pain",
+    "chain_thirst"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_quenched",
+  "name": "Quenched",
+  "is": "step",
+  "definition": "No longer thirsty.",
+  "part_of": "",
+  "used_in": [
+    "chain_thirst"
+  ]
+}

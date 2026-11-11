@@ -1,0 +1,18 @@
+{
+  "id": "step_learning",
+  "name": "Learning",
+  "is": "step",
+  "definition": "Taking something in and keeping it.",
+  "part_of": "",
+  "used_in": [
+    "chain_reward",
+    "chain_fear",
+    "chain_impulse",
+    "chain_play",
+    "chain_mastery",
+    "chain_reflection",
+    "chain_exploration",
+    "chain_resilience"
+  ],
+  "opens": "chain_learning"
+}

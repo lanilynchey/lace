@@ -1,0 +1,7 @@
+{
+  "id": "group_family",
+  "name": "Family",
+  "is": "term",
+  "definition": "People related to you, wherever they live.",
+  "part_of": "surroundings_groups"
+}

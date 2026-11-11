@@ -1,0 +1,10 @@
+{
+  "id": "rule_starting_render",
+  "name": "Starting Render",
+  "is": "rule",
+  "definition": "Every instance starts with a Render it didn't choose.",
+  "part_of": "base_base_rules",
+  "checks": [
+    "Every instance has a Render."
+  ]
+}

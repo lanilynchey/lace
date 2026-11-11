@@ -1,0 +1,11 @@
+{
+  "id": "step_reassessment",
+  "name": "Reassessment",
+  "is": "step",
+  "definition": "Judging it again.",
+  "part_of": "",
+  "used_in": [
+    "chain_shame",
+    "chain_transformation"
+  ]
+}

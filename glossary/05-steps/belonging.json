@@ -1,0 +1,11 @@
+{
+  "id": "step_belonging",
+  "name": "Belonging",
+  "is": "step",
+  "definition": "Feeling part of a group.",
+  "part_of": "",
+  "used_in": [
+    "chain_connection"
+  ],
+  "opens": "chain_belonging"
+}

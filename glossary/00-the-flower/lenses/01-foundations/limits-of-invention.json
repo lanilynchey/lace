@@ -1,0 +1,12 @@
+{
+  "id": "lens_limits_of_invention",
+  "name": "Limits of Invention",
+  "is": "term",
+  "definition": "We can name it, breed it and grow more, but we cannot make a flower from nothing.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_nothing_from_nothing",
+    "making_combining_things",
+    "desire_known_limit"
+  ]
+}

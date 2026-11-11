@@ -1,0 +1,20 @@
+{
+  "id": "core_state",
+  "name": "State",
+  "is": "term",
+  "definition": "Where something is.",
+  "part_of": "structure_core",
+  "made_of": [
+    "base_system_resources",
+    "emotions_emotional_spectrum",
+    "need_needs",
+    "body_skills",
+    "step_belief",
+    "surroundings_circles",
+    "surroundings_environment",
+    "step_preference"
+  ],
+  "checks": [
+    "Every record runs inside a State."
+  ]
+}

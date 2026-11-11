@@ -1,0 +1,16 @@
+{
+  "id": "emotion_exposed",
+  "name": "Exposed",
+  "is": "emotion",
+  "definition": "Feeling seen with nothing to protect you.",
+  "part_of": "emotion_threatened",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_threatened"
+      ]
+    }
+  ]
+}

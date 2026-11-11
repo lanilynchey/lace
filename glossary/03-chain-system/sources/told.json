@@ -1,0 +1,7 @@
+{
+  "id": "source_told",
+  "name": "told",
+  "is": "term",
+  "definition": "Someone else told you.",
+  "part_of": "structure_source"
+}

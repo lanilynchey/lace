@@ -1,0 +1,10 @@
+{
+  "id": "step_consolidation",
+  "name": "Consolidation",
+  "is": "step",
+  "definition": "A memory settling in and becoming stable.",
+  "part_of": "",
+  "used_in": [
+    "chain_memory"
+  ]
+}

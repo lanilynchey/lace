@@ -1,0 +1,11 @@
+{
+  "id": "step_protective_response",
+  "name": "Protective Response",
+  "is": "step",
+  "definition": "The body guarding the hurt part.",
+  "part_of": "",
+  "used_in": [
+    "chain_recovery",
+    "chain_pain"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chain_fulfillment",
+  "name": "Fulfillment",
+  "is": "chain",
+  "definition": "The satisfaction of something that matters to you being met.",
+  "part_of": "chain_desire",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_values",
+    "step_meaningful_pursuit",
+    "step_engagement",
+    "step_accomplishment_or_connection",
+    "step_reflection",
+    "step_satisfaction"
+  ]
+}

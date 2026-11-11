@@ -1,0 +1,11 @@
+{
+  "id": "link_anxiety_sparks_avoidance",
+  "name": "Anxiety sparks Avoidance",
+  "is": "link",
+  "definition": "The Coping or Avoidance step of Anxiety starts Avoidance.",
+  "part_of": "structure_sparks",
+  "from": "chain_anxiety",
+  "at": "step_coping_or_avoidance",
+  "to": "chain_avoidance",
+  "enters": ""
+}

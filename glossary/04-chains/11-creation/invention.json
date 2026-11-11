@@ -1,0 +1,18 @@
+{
+  "id": "chain_invention",
+  "name": "Invention",
+  "is": "chain",
+  "definition": "Making something that did not exist before.",
+  "part_of": "chain_creation",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_need_or_problem",
+    "step_insight",
+    "step_concept",
+    "step_experimentation",
+    "step_prototype",
+    "step_refinement",
+    "step_novel_solution"
+  ]
+}

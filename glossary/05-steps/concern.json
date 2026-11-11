@@ -1,0 +1,10 @@
+{
+  "id": "step_concern",
+  "name": "Concern",
+  "is": "step",
+  "definition": "Caring about what happens to someone.",
+  "part_of": "",
+  "used_in": [
+    "chain_empathy"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "stake_survival",
+  "name": "Survival",
+  "is": "term",
+  "definition": "Tied to staying safe or alive.",
+  "part_of": "stake_stake"
+}

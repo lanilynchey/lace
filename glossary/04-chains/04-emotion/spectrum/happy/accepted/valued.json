@@ -1,0 +1,16 @@
+{
+  "id": "emotion_valued",
+  "name": "Valued",
+  "is": "emotion",
+  "definition": "Feeling you matter to others.",
+  "part_of": "emotion_accepted",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_accepted"
+      ]
+    }
+  ]
+}

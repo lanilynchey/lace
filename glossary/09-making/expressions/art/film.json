@@ -1,0 +1,7 @@
+{
+  "id": "artform_film",
+  "name": "Film",
+  "is": "term",
+  "definition": "Art made of moving pictures and sound.",
+  "part_of": "expression_art"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "intake_media",
+  "name": "Media",
+  "is": "term",
+  "definition": "What is made for people to watch, read, hear or play.",
+  "part_of": "surroundings_intake",
+  "entries": [
+    "Books",
+    "Podcasts",
+    "Radio",
+    "Shows",
+    "Videos",
+    "News",
+    "Magazines",
+    "Articles",
+    "Comics",
+    "Memes",
+    "Photography",
+    "Sports"
+  ],
+  "includes": [
+    "expression_music",
+    "artform_film",
+    "expression_humor",
+    "expression_art",
+    "artform_performance",
+    "artform_games"
+  ]
+}

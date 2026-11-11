@@ -1,0 +1,11 @@
+{
+  "id": "link_stress_sparks_action",
+  "name": "Stress sparks Action",
+  "is": "link",
+  "definition": "The Coping Response step of Stress starts Action.",
+  "part_of": "structure_sparks",
+  "from": "chain_stress",
+  "at": "step_coping_response",
+  "to": "chain_action",
+  "enters": ""
+}

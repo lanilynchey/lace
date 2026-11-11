@@ -1,0 +1,10 @@
+{
+  "id": "lens_stem_and_roots",
+  "name": "Stem and Roots",
+  "is": "term",
+  "definition": "Its stem, leaves and roots are all it has to work with.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "body_body"
+  ]
+}

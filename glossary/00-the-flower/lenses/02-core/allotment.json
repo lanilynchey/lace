@@ -1,0 +1,10 @@
+{
+  "id": "lens_allotment",
+  "name": "Allotment",
+  "is": "term",
+  "definition": "You give the rose a glance and the orchid an hour.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "attention_attention_allotment"
+  ]
+}

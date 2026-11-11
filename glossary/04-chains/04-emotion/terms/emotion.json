@@ -1,0 +1,20 @@
+{
+  "id": "emotions_emotion",
+  "name": "Emotion",
+  "is": "term",
+  "definition": "A step in the chains. Always there: feeling numb is still an emotion.",
+  "part_of": "chain_emotion",
+  "checks": [
+    "There is always a current emotion."
+  ],
+  "used_in": [
+    "chain_thought",
+    "chain_self_esteem",
+    "chain_emotion",
+    "chain_emotional_regulation",
+    "chain_memory",
+    "chain_desire",
+    "chain_communication"
+  ],
+  "opens": "chain_emotion"
+}

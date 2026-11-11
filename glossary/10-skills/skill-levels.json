@@ -1,0 +1,10 @@
+{
+  "id": "body_skill_levels",
+  "name": "Skill Levels",
+  "is": "term",
+  "definition": "Skills grow in levels.",
+  "part_of": "body_skills",
+  "used_in": [
+    "chain_skill"
+  ]
+}

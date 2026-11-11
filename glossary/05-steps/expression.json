@@ -1,0 +1,15 @@
+{
+  "id": "step_expression",
+  "name": "Expression",
+  "is": "step",
+  "definition": "Showing it outwardly.",
+  "part_of": "",
+  "used_in": [
+    "chain_values",
+    "chain_identity",
+    "chain_gratitude",
+    "chain_joy",
+    "chain_communication",
+    "chain_conflict"
+  ]
+}

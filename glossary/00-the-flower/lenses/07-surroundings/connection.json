@@ -1,0 +1,11 @@
+{
+  "id": "lens_connection",
+  "name": "Connection",
+  "is": "term",
+  "definition": "It is beyond us, and it stands on the same ground.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "surroundings_natural",
+    "rule_base_forms_need_base_surroundings"
+  ]
+}

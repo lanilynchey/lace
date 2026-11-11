@@ -1,0 +1,21 @@
+{
+  "id": "emotion_nostalgic",
+  "name": "Nostalgic",
+  "is": "emotion",
+  "definition": "Warmly longing for the past.",
+  "part_of": "emotion_sad",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_sad"
+      ]
+    },
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_happy"
+      ]
+    }
+  ]
+}

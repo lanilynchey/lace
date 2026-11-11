@@ -1,0 +1,15 @@
+{
+  "id": "emotion_frustrated",
+  "name": "Frustrated",
+  "is": "emotion",
+  "definition": "Blocked from what you want.",
+  "part_of": "emotion_angry",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_angry"
+      ]
+    }
+  ]
+}

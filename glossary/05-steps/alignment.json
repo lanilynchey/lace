@@ -1,0 +1,13 @@
+{
+  "id": "step_alignment",
+  "name": "Alignment",
+  "is": "step",
+  "definition": "Lining up with someone or something.",
+  "part_of": "",
+  "used_in": [
+    "chain_collaboration",
+    "chain_desire",
+    "chain_connection",
+    "chain_attraction"
+  ]
+}

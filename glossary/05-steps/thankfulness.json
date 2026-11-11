@@ -1,0 +1,10 @@
+{
+  "id": "step_thankfulness",
+  "name": "Thankfulness",
+  "is": "step",
+  "definition": "Feeling grateful.",
+  "part_of": "",
+  "used_in": [
+    "chain_gratitude"
+  ]
+}

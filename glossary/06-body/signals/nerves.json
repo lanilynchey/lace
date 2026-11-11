@@ -1,0 +1,7 @@
+{
+  "id": "signal_nerves",
+  "name": "Nerves",
+  "is": "term",
+  "definition": "How on edge or settled your body is.",
+  "part_of": "body_body_signals"
+}

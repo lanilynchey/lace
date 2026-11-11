@@ -1,0 +1,7 @@
+{
+  "id": "core_attention",
+  "name": "Attention",
+  "is": "term",
+  "definition": "Where your mind is pointed. Limited, and runs through every chain.",
+  "part_of": "structure_core"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "rule_flip",
+  "name": "Flip",
+  "is": "rule",
+  "definition": "Pushed too far, a thing can turn into its opposite.",
+  "part_of": "base_base_rules"
+}

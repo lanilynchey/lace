@@ -1,0 +1,10 @@
+{
+  "id": "lens_tending",
+  "name": "Tending",
+  "is": "term",
+  "definition": "Looking at the soil, picturing the garden, and planning what to plant first.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "state_path_mapping"
+  ]
+}

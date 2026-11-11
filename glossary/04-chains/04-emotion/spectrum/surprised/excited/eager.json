@@ -1,0 +1,16 @@
+{
+  "id": "emotion_eager",
+  "name": "Eager",
+  "is": "emotion",
+  "definition": "Wanting something to start.",
+  "part_of": "emotion_excited",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_surprised",
+        "emotion_excited"
+      ]
+    }
+  ]
+}

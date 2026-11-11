@@ -1,0 +1,10 @@
+{
+  "id": "step_narrative",
+  "name": "Narrative",
+  "is": "step",
+  "definition": "The story you tell about it.",
+  "part_of": "",
+  "used_in": [
+    "chain_meaning_making"
+  ]
+}

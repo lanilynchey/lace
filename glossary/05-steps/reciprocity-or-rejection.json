@@ -1,0 +1,20 @@
+{
+  "id": "step_reciprocity_or_rejection",
+  "name": "Reciprocity or Rejection",
+  "is": "step",
+  "definition": "Being met in return, or turned away.",
+  "part_of": "",
+  "used_in": [
+    "chain_attraction"
+  ],
+  "sides": [
+    {
+      "name": "Reciprocity",
+      "then": "chain_love"
+    },
+    {
+      "name": "Rejection",
+      "then": "ends"
+    }
+  ]
+}

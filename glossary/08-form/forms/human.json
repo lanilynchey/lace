@@ -1,0 +1,7 @@
+{
+  "id": "form_human",
+  "name": "Human",
+  "is": "term",
+  "definition": "A form with many possibilities on the Thought Chain.",
+  "part_of": "form_the_form"
+}

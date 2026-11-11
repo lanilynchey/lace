@@ -1,0 +1,16 @@
+{
+  "id": "emotion_empty",
+  "name": "Empty",
+  "is": "emotion",
+  "definition": "Feeling hollow inside.",
+  "part_of": "emotion_depressed",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_depressed"
+      ]
+    }
+  ]
+}

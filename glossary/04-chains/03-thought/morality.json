@@ -1,0 +1,18 @@
+{
+  "id": "chain_morality",
+  "name": "Morality",
+  "is": "chain",
+  "definition": "Working out what is right and wrong.",
+  "part_of": "chain_belief_formation",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_situation",
+    "step_recognition",
+    "step_perception",
+    "step_reasoning_and_emotion",
+    "step_judgment",
+    "step_choice",
+    "step_reflection"
+  ]
+}

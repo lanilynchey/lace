@@ -1,0 +1,10 @@
+{
+  "id": "step_aspiration",
+  "name": "Aspiration",
+  "is": "step",
+  "definition": "A big hope for what you could become or reach.",
+  "part_of": "",
+  "used_in": [
+    "chain_ambition"
+  ]
+}

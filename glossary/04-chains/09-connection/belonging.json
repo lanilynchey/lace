@@ -1,0 +1,18 @@
+{
+  "id": "chain_belonging",
+  "name": "Belonging",
+  "is": "chain",
+  "definition": "Feeling part of a group.",
+  "part_of": "chain_connection",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_encounter",
+    "step_participation",
+    "step_acceptance",
+    "step_reciprocity",
+    "step_identification",
+    "step_inclusion",
+    "step_security"
+  ]
+}

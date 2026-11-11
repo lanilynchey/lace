@@ -1,0 +1,11 @@
+{
+  "id": "step_application",
+  "name": "Application",
+  "is": "step",
+  "definition": "Putting what you know to use.",
+  "part_of": "",
+  "used_in": [
+    "chain_understanding",
+    "chain_learning"
+  ]
+}

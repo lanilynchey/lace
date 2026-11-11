@@ -1,0 +1,7 @@
+{
+  "id": "rule_chain_reaction",
+  "name": "Chain Reaction",
+  "is": "rule",
+  "definition": "The moment that starts a Chain Change.",
+  "part_of": "structure_chain"
+}

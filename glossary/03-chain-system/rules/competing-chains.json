@@ -1,0 +1,13 @@
+{
+  "id": "rule_competing_chains",
+  "name": "Competing Chains",
+  "is": "rule",
+  "definition": "Two chains pulling against each other.",
+  "part_of": "structure_chain",
+  "used_in": [
+    "chain_discipline"
+  ],
+  "checks": [
+    "Of two competing runs, the one with more attention and charge reaches further."
+  ]
+}

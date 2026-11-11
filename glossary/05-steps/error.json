@@ -1,0 +1,10 @@
+{
+  "id": "step_error",
+  "name": "Error",
+  "is": "step",
+  "definition": "A mistake.",
+  "part_of": "",
+  "used_in": [
+    "chain_skill"
+  ]
+}

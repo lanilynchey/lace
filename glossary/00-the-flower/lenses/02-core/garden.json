@@ -1,0 +1,10 @@
+{
+  "id": "lens_garden",
+  "name": "Garden",
+  "is": "term",
+  "definition": "The Current Place State of a garden is who and what is in it.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "state_place_state"
+  ]
+}

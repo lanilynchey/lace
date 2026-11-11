@@ -1,0 +1,17 @@
+{
+  "id": "chain_stress",
+  "name": "Stress",
+  "is": "chain",
+  "definition": "The strain of a demand on you.",
+  "part_of": "chain_emotion",
+  "emotion": "emotion_stressed",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_demand",
+    "step_perception",
+    "body_body_signals",
+    "step_coping_response",
+    "step_recovery_or_prolonged_stress"
+  ]
+}

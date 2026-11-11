@@ -1,0 +1,16 @@
+{
+  "id": "emotion_remorseful",
+  "name": "Remorseful",
+  "is": "emotion",
+  "definition": "Deeply sorry for what you did.",
+  "part_of": "emotion_guilty",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_guilty"
+      ]
+    }
+  ]
+}

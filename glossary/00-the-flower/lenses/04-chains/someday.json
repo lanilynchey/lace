@@ -1,0 +1,10 @@
+{
+  "id": "lens_someday",
+  "name": "Someday",
+  "is": "term",
+  "definition": "Wanting a garden, and one day standing in it.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "chain_desire"
+  ]
+}

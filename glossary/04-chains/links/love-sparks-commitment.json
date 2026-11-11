@@ -1,0 +1,11 @@
+{
+  "id": "link_love_sparks_commitment",
+  "name": "Love sparks Commitment",
+  "is": "link",
+  "definition": "The Commitment or Ongoing Bond step of Love starts Commitment.",
+  "part_of": "structure_sparks",
+  "from": "chain_love",
+  "at": "step_commitment_or_ongoing_bond",
+  "to": "chain_commitment",
+  "enters": ""
+}

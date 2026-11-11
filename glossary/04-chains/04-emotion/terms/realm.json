@@ -1,0 +1,7 @@
+{
+  "id": "emotions_realm",
+  "name": "Realm",
+  "is": "term",
+  "definition": "A region of the spectrum someone lives in or can reach.",
+  "part_of": "emotions_emotional_spectrum"
+}

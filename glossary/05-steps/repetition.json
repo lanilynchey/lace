@@ -1,0 +1,16 @@
+{
+  "id": "step_repetition",
+  "name": "Repetition",
+  "is": "step",
+  "definition": "Happening again and again.",
+  "part_of": "",
+  "used_in": [
+    "chain_thought",
+    "chain_habit",
+    "chain_conditioning",
+    "chain_discipline",
+    "chain_routine",
+    "chain_trust",
+    "chain_change"
+  ]
+}

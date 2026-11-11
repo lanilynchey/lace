@@ -1,0 +1,19 @@
+{
+  "id": "chain_reflection",
+  "name": "Reflection",
+  "is": "chain",
+  "definition": "Looking back on an experience.",
+  "part_of": "chain_memory",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_experience",
+    "step_recall",
+    "step_examination",
+    "step_perception",
+    "step_insight",
+    "step_reflection",
+    "step_learning"
+  ],
+  "note": "Starts from recall. Also what runs at the Reflection step of the Desire and Action Chains."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "link_impact_sparks_transformation",
+  "name": "Impact sparks Transformation",
+  "is": "link",
+  "definition": "An impact starts Transformation at its Impact step.",
+  "part_of": "structure_sparks",
+  "from": "surroundings_impact",
+  "at": "",
+  "to": "chain_transformation",
+  "enters": "surroundings_impact"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "emotion_hostile",
+  "name": "Hostile",
+  "is": "emotion",
+  "definition": "Set against someone.",
+  "part_of": "emotion_aggressive",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_aggressive"
+      ]
+    }
+  ]
+}

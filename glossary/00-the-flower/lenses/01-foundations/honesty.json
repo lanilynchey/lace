@@ -1,0 +1,10 @@
+{
+  "id": "lens_honesty",
+  "name": "Honesty",
+  "is": "term",
+  "definition": "A thirsty flower wilts. It can't hide it.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_honest_body"
+  ]
+}

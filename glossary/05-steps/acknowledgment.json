@@ -1,0 +1,12 @@
+{
+  "id": "step_acknowledgment",
+  "name": "Acknowledgment",
+  "is": "step",
+  "definition": "Admitting or showing that something is so.",
+  "part_of": "",
+  "used_in": [
+    "chain_appreciation",
+    "chain_acceptance",
+    "chain_reconciliation"
+  ]
+}

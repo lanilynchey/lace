@@ -1,0 +1,7 @@
+{
+  "id": "state_desired_signal",
+  "name": "Desired Signal",
+  "is": "term",
+  "definition": "A signal from your Desired State.",
+  "part_of": "state_desired"
+}

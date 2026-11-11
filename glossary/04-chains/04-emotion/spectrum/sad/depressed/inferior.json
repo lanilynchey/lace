@@ -1,0 +1,23 @@
+{
+  "id": "emotion_inferior",
+  "name": "Inferior",
+  "is": "emotion",
+  "definition": "Feeling less than others.",
+  "part_of": "emotion_depressed",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_depressed"
+      ]
+    },
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_insecure"
+      ]
+    }
+  ]
+}

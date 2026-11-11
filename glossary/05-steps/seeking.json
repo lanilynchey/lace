@@ -1,0 +1,10 @@
+{
+  "id": "step_seeking",
+  "name": "Seeking",
+  "is": "step",
+  "definition": "Looking for what will meet the need.",
+  "part_of": "",
+  "used_in": [
+    "chain_need"
+  ]
+}

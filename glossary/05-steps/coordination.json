@@ -1,0 +1,10 @@
+{
+  "id": "step_coordination",
+  "name": "Coordination",
+  "is": "step",
+  "definition": "Fitting everyone's efforts together.",
+  "part_of": "",
+  "used_in": [
+    "chain_collaboration"
+  ]
+}

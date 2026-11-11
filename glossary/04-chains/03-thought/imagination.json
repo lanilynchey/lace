@@ -1,0 +1,19 @@
+{
+  "id": "chain_imagination",
+  "name": "Imagination",
+  "is": "chain",
+  "definition": "Picturing what isn't there yet.",
+  "part_of": "chain_thought",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_trigger",
+    "step_association",
+    "step_visualization",
+    "step_possibility",
+    "step_exploration",
+    "step_elaboration",
+    "step_creation"
+  ],
+  "note": "You can imagine without making anything, so it stays apart from Creation."
+}

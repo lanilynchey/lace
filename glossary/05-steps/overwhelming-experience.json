@@ -1,0 +1,10 @@
+{
+  "id": "step_overwhelming_experience",
+  "name": "Overwhelming Experience",
+  "is": "step",
+  "definition": "Something too big to take in at the time.",
+  "part_of": "",
+  "used_in": [
+    "chain_trauma_response"
+  ]
+}

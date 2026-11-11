@@ -1,0 +1,7 @@
+{
+  "id": "response_fight",
+  "name": "fight",
+  "is": "term",
+  "definition": "Facing the threat head on.",
+  "part_of": "chain_fear"
+}

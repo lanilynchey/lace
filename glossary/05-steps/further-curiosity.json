@@ -1,0 +1,10 @@
+{
+  "id": "step_further_curiosity",
+  "name": "Further Curiosity",
+  "is": "step",
+  "definition": "Wanting to know even more.",
+  "part_of": "",
+  "used_in": [
+    "chain_exploration"
+  ]
+}

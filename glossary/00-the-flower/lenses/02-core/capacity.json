@@ -1,0 +1,10 @@
+{
+  "id": "lens_capacity",
+  "name": "Capacity",
+  "is": "term",
+  "definition": "You can hold a few flowers in mind at once, not all flowers.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "attention_mind_capacity"
+  ]
+}

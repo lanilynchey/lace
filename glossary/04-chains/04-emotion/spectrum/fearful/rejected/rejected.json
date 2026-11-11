@@ -1,0 +1,15 @@
+{
+  "id": "emotion_rejected",
+  "name": "Rejected",
+  "is": "emotion",
+  "definition": "Pushed away by others.",
+  "part_of": "emotion_fearful",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_fearful"
+      ]
+    }
+  ]
+}

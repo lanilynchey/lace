@@ -1,0 +1,17 @@
+{
+  "id": "chain_empathy",
+  "name": "Empathy",
+  "is": "chain",
+  "definition": "Feeling and understanding what another person feels.",
+  "part_of": "chain_connection",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_attention",
+    "step_recognition",
+    "step_perspective_taking",
+    "step_emotional_understanding",
+    "step_concern",
+    "step_response"
+  ]
+}

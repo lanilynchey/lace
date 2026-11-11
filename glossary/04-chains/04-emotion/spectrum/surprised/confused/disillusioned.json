@@ -1,0 +1,16 @@
+{
+  "id": "emotion_disillusioned",
+  "name": "Disillusioned",
+  "is": "emotion",
+  "definition": "Having lost a belief you held.",
+  "part_of": "emotion_confused",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_surprised",
+        "emotion_confused"
+      ]
+    }
+  ]
+}

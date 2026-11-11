@@ -1,0 +1,15 @@
+{
+  "id": "emotion_anxious",
+  "name": "Anxious",
+  "is": "emotion",
+  "definition": "Uneasy about what might happen.",
+  "part_of": "emotion_fearful",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_fearful"
+      ]
+    }
+  ]
+}

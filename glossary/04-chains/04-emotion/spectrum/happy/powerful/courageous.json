@@ -1,0 +1,17 @@
+{
+  "id": "emotion_courageous",
+  "name": "Courageous",
+  "is": "emotion",
+  "definition": "Acting despite fear.",
+  "part_of": "emotion_powerful",
+  "rooted_in": "emotion_fearful",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_powerful"
+      ]
+    }
+  ]
+}

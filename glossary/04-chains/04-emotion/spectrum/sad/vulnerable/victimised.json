@@ -1,0 +1,16 @@
+{
+  "id": "emotion_victimised",
+  "name": "Victimised",
+  "is": "emotion",
+  "definition": "Feeling wronged and powerless against it.",
+  "part_of": "emotion_vulnerable",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_vulnerable"
+      ]
+    }
+  ]
+}

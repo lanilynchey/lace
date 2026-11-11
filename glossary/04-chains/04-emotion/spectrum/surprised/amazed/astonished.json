@@ -1,0 +1,16 @@
+{
+  "id": "emotion_astonished",
+  "name": "Astonished",
+  "is": "emotion",
+  "definition": "Surprised beyond what you thought possible.",
+  "part_of": "emotion_amazed",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_surprised",
+        "emotion_amazed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "combination_opportunity",
+  "name": "Real Randomness and Hopeful",
+  "is": "term",
+  "definition": "Real Randomness and Hopeful make Opportunity.",
+  "part_of": "making_combining_things",
+  "of": [
+    "rule_real_randomness",
+    "emotion_hopeful"
+  ],
+  "makes": "step_opportunity"
+}

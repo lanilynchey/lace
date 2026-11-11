@@ -1,0 +1,10 @@
+{
+  "id": "step_security",
+  "name": "Security",
+  "is": "step",
+  "definition": "Feeling safe and settled.",
+  "part_of": "",
+  "used_in": [
+    "chain_belonging"
+  ]
+}

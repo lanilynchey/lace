@@ -1,0 +1,12 @@
+{
+  "id": "step_thought",
+  "name": "Thought",
+  "is": "step",
+  "definition": "From thought to reality.",
+  "part_of": "",
+  "used_in": [
+    "chain_thought",
+    "chain_communication"
+  ],
+  "opens": "chain_thought"
+}

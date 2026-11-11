@@ -1,0 +1,19 @@
+{
+  "id": "emotion_awe",
+  "name": "Awe",
+  "is": "emotion",
+  "definition": "Wonder at something vast.",
+  "part_of": "emotion_amazed",
+  "used_in": [
+    "chain_wonder"
+  ],
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_surprised",
+        "emotion_amazed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chain_discipline",
+  "name": "Discipline",
+  "is": "chain",
+  "definition": "Choosing the action that serves a goal over what pulls against it.",
+  "part_of": "chain_habit",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_goal",
+    "rule_competing_chains",
+    "rule_chain_break",
+    "step_action",
+    "step_repetition",
+    "step_habit"
+  ]
+}

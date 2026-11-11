@@ -1,0 +1,13 @@
+{
+  "id": "step_encounter",
+  "name": "Encounter",
+  "is": "step",
+  "definition": "Coming across someone.",
+  "part_of": "",
+  "used_in": [
+    "chain_connection",
+    "chain_attraction",
+    "chain_belonging",
+    "chain_friendship"
+  ]
+}

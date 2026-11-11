@@ -1,0 +1,8 @@
+{
+  "id": "charge_pulse",
+  "name": "Pulse",
+  "is": "term",
+  "definition": "Clearly felt. It keeps pulling your attention back.",
+  "part_of": "emotions_charge",
+  "order": 3
+}

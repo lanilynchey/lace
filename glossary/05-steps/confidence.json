@@ -1,0 +1,12 @@
+{
+  "id": "step_confidence",
+  "name": "Confidence",
+  "is": "step",
+  "definition": "Trust in yourself.",
+  "part_of": "",
+  "used_in": [
+    "chain_confidence",
+    "chain_trust"
+  ],
+  "opens": "chain_confidence"
+}

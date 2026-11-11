@@ -1,0 +1,21 @@
+{
+  "id": "surroundings_impact",
+  "name": "Impact",
+  "is": "term",
+  "definition": "One event that hits your state.",
+  "part_of": "surroundings_surroundings",
+  "is_a": "step_occurrence",
+  "used_in": [
+    "chain_resilience",
+    "chain_transformation"
+  ],
+  "comes_from": [
+    "surroundings_surroundings",
+    "body_body",
+    "base_base_system"
+  ],
+  "checks": [
+    "An impact is one event.",
+    "How far an impact goes after it hits depends on attention and time."
+  ]
+}

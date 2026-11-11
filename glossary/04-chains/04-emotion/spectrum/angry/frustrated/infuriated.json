@@ -1,0 +1,16 @@
+{
+  "id": "emotion_infuriated",
+  "name": "Infuriated",
+  "is": "emotion",
+  "definition": "Pushed to fury.",
+  "part_of": "emotion_frustrated",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_frustrated"
+      ]
+    }
+  ]
+}

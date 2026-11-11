@@ -1,0 +1,25 @@
+{
+  "id": "step_attention",
+  "name": "Attention",
+  "is": "step",
+  "definition": "How attention itself works.",
+  "part_of": "",
+  "used_in": [
+    "chain_perception",
+    "chain_appreciation",
+    "chain_social_comparison",
+    "chain_wonder",
+    "chain_action",
+    "chain_full_grip",
+    "chain_memory",
+    "chain_learning",
+    "chain_curiosity",
+    "chain_persuasion",
+    "chain_connection",
+    "chain_empathy",
+    "chain_fatigue",
+    "chain_hunger",
+    "chain_thirst"
+  ],
+  "opens": "chain_attention"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "step_commitment_or_ongoing_bond",
+  "name": "Commitment or Ongoing Bond",
+  "is": "step",
+  "definition": "Committing to each other, or staying bonded.",
+  "part_of": "",
+  "used_in": [
+    "chain_love"
+  ],
+  "sides": [
+    {
+      "name": "Commitment",
+      "then": "chain_commitment"
+    },
+    {
+      "name": "Ongoing Bond",
+      "then": "ends"
+    }
+  ]
+}

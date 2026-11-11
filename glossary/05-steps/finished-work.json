@@ -1,0 +1,10 @@
+{
+  "id": "step_finished_work",
+  "name": "Finished Work",
+  "is": "step",
+  "definition": "The thing, made.",
+  "part_of": "",
+  "used_in": [
+    "chain_creation"
+  ]
+}

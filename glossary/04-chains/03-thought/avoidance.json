@@ -1,0 +1,17 @@
+{
+  "id": "chain_avoidance",
+  "name": "Avoidance",
+  "is": "chain",
+  "definition": "Escaping discomfort instead of facing it.",
+  "part_of": "chain_habit",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_discomfort",
+    "attention_survival_scan",
+    "step_urge_to_escape",
+    "step_avoidance",
+    "step_temporary_relief",
+    "step_reinforcement"
+  ]
+}

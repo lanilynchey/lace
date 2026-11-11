@@ -1,0 +1,11 @@
+{
+  "id": "link_impulse_sparks_action",
+  "name": "Impulse sparks Action",
+  "is": "link",
+  "definition": "The Inhibition or Action step of Impulse starts Action.",
+  "part_of": "structure_sparks",
+  "from": "chain_impulse",
+  "at": "step_inhibition_or_action",
+  "to": "chain_action",
+  "enters": ""
+}

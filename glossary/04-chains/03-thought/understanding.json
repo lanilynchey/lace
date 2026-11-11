@@ -1,0 +1,19 @@
+{
+  "id": "chain_understanding",
+  "name": "Understanding",
+  "is": "chain",
+  "definition": "Grasping something well enough to explain and use it.",
+  "part_of": "chain_thought",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_information",
+    "step_perception",
+    "step_linking",
+    "step_integration",
+    "step_comprehension",
+    "step_explanation",
+    "step_application"
+  ],
+  "note": "Understanding something fully leads to Awareness (attention on the System and how it works)."
+}

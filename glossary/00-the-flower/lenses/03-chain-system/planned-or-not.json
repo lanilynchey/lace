@@ -1,0 +1,11 @@
+{
+  "id": "lens_planned_or_not",
+  "name": "Planned or Not",
+  "is": "term",
+  "definition": "A garden planted on purpose, and a wildflower that just appears.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "occurrence_planned",
+    "surroundings_impact"
+  ]
+}

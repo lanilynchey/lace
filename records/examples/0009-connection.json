@@ -1,0 +1,97 @@
+{
+  "id": "record_0009",
+  "chain": "chain_connection",
+  "moment": "Someone in a queue who ends up a close friend",
+  "steps": [
+    {
+      "step": "step_encounter",
+      "gate": 1,
+      "what": "You are both in a long queue for coffee."
+    },
+    {
+      "step": "step_attention",
+      "gate": 1,
+      "what": "You notice them.",
+      "opened": {
+        "chain": "chain_attention",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_perception",
+      "gate": 1,
+      "what": "They seem easygoing.",
+      "opened": {
+        "chain": "chain_perception",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_interest",
+      "gate": 1,
+      "what": "You are curious about the book they are holding."
+    },
+    {
+      "step": "step_approach",
+      "gate": 1,
+      "what": "You ask about it."
+    },
+    {
+      "step": "step_communication",
+      "gate": 1,
+      "what": "Ten minutes of talk.",
+      "opened": {
+        "chain": "chain_communication",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_recognition",
+      "gate": 1,
+      "what": "You see something of yourself in them."
+    },
+    {
+      "step": "step_alignment",
+      "gate": 1,
+      "what": "You care about the same things."
+    },
+    {
+      "step": "step_reciprocity",
+      "gate": 1,
+      "what": "They text first the next day."
+    },
+    {
+      "step": "step_trust",
+      "gate": 1,
+      "what": "You rely on them showing up.",
+      "opened": {
+        "chain": "chain_trust",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_vulnerability",
+      "gate": 1,
+      "what": "You tell them something you don't tell people."
+    },
+    {
+      "step": "step_bond",
+      "gate": 1,
+      "what": "A close friendship."
+    },
+    {
+      "step": "step_belonging",
+      "gate": 1,
+      "what": "Their people become your people.",
+      "opened": {
+        "chain": "chain_belonging",
+        "record": ""
+      }
+    },
+    {
+      "step": "step_maintenance",
+      "gate": 1,
+      "what": "Years of birthdays and phone calls."
+    }
+  ]
+}

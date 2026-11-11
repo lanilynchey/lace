@@ -1,0 +1,10 @@
+{
+  "id": "lens_bouquet",
+  "name": "Bouquet",
+  "is": "term",
+  "definition": "An apology bouquet.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "chain_communication"
+  ]
+}

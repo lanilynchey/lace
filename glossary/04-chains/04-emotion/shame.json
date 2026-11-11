@@ -1,0 +1,18 @@
+{
+  "id": "chain_shame",
+  "name": "Shame",
+  "is": "chain",
+  "definition": "Feeling that you yourself are not good enough.",
+  "part_of": "chain_emotion",
+  "emotion": "emotion_ashamed",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_experience",
+    "step_self_evaluation",
+    "step_perceived_inadequacy",
+    "step_shame",
+    "step_withdrawal_or_repair",
+    "step_reassessment"
+  ]
+}

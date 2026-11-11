@@ -1,0 +1,13 @@
+{
+  "id": "step_effort",
+  "name": "Effort",
+  "is": "step",
+  "definition": "Energy put into doing something.",
+  "part_of": "",
+  "used_in": [
+    "chain_motivation",
+    "chain_commitment",
+    "chain_ambition",
+    "chain_achievement"
+  ]
+}

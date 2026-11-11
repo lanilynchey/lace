@@ -1,0 +1,51 @@
+{
+  "id": "record_0013",
+  "chain": "chain_impulse",
+  "moment": "Concert tickets at midnight",
+  "steps": [
+    {
+      "step": "step_trigger",
+      "gate": 1,
+      "what": "At midnight you see your favourite band has announced a show."
+    },
+    {
+      "step": "step_urge",
+      "gate": 1,
+      "what": "Buy them now."
+    },
+    {
+      "step": "body_body_signals",
+      "gate": 1,
+      "what": "Heart racing, thumb hovering.",
+      "signals": [
+        "signal_heartbeat"
+      ]
+    },
+    {
+      "step": "step_inhibition_or_action",
+      "gate": 1,
+      "what": "You buy two.",
+      "side": "Action",
+      "sparked": [
+        {
+          "link": "link_impulse_sparks_action",
+          "record": ""
+        }
+      ]
+    },
+    {
+      "step": "step_consequence",
+      "gate": 1,
+      "what": "The money is gone and the tickets are in your inbox."
+    },
+    {
+      "step": "step_learning",
+      "gate": 1,
+      "what": "You learn what midnight does to your spending.",
+      "opened": {
+        "chain": "chain_learning",
+        "record": ""
+      }
+    }
+  ]
+}

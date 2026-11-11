@@ -1,0 +1,16 @@
+{
+  "id": "emotion_loving",
+  "name": "Loving",
+  "is": "emotion",
+  "definition": "Full of care for someone.",
+  "part_of": "emotion_peaceful",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_happy",
+        "emotion_peaceful"
+      ]
+    }
+  ]
+}

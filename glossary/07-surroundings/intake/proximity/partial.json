@@ -1,0 +1,8 @@
+{
+  "id": "proximity_partial",
+  "name": "Partial",
+  "is": "term",
+  "definition": "The thing itself, but some of it didn't reach you.",
+  "part_of": "intake_proximity",
+  "order": 2
+}

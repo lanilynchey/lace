@@ -1,0 +1,10 @@
+{
+  "id": "step_attempt",
+  "name": "Attempt",
+  "is": "step",
+  "definition": "Trying.",
+  "part_of": "",
+  "used_in": [
+    "chain_confidence"
+  ]
+}

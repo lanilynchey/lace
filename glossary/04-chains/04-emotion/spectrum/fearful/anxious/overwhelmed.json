@@ -1,0 +1,23 @@
+{
+  "id": "emotion_overwhelmed",
+  "name": "Overwhelmed",
+  "is": "emotion",
+  "definition": "Facing more than you can handle.",
+  "part_of": "emotion_anxious",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_anxious"
+      ]
+    },
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_bad",
+        "emotion_stressed"
+      ]
+    }
+  ]
+}

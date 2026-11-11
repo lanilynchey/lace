@@ -1,0 +1,10 @@
+{
+  "id": "step_self_assessment",
+  "name": "Self-Assessment",
+  "is": "step",
+  "definition": "Judging how you measure up.",
+  "part_of": "",
+  "used_in": [
+    "chain_social_comparison"
+  ]
+}

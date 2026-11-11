@@ -1,0 +1,10 @@
+{
+  "id": "step_self_description",
+  "name": "Self-Description",
+  "is": "step",
+  "definition": "The words you use for yourself.",
+  "part_of": "",
+  "used_in": [
+    "chain_self_concept"
+  ]
+}

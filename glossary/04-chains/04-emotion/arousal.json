@@ -1,0 +1,18 @@
+{
+  "id": "chain_arousal",
+  "name": "Arousal",
+  "is": "chain",
+  "definition": "The body getting ready to respond.",
+  "part_of": "chain_emotion",
+  "kind": "zoom-in",
+  "locked": false,
+  "of_step": "emotions_emotional_response",
+  "steps": [
+    "step_trigger",
+    "step_detection",
+    "body_body_signals",
+    "step_increased_readiness",
+    "step_response",
+    "step_regulation"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "chain_values",
+  "name": "Values",
+  "is": "chain",
+  "definition": "What matters most to you.",
+  "part_of": "chain_belief_formation",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_experience",
+    "step_evaluation",
+    "step_preference",
+    "step_principle",
+    "step_prioritization",
+    "step_expression",
+    "step_reflection"
+  ]
+}

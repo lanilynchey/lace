@@ -1,0 +1,15 @@
+{
+  "id": "emotion_humiliated",
+  "name": "Humiliated",
+  "is": "emotion",
+  "definition": "Made to feel small in front of others.",
+  "part_of": "emotion_angry",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_angry"
+      ]
+    }
+  ]
+}

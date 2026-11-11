@@ -1,0 +1,16 @@
+{
+  "id": "emotion_isolated",
+  "name": "Isolated",
+  "is": "emotion",
+  "definition": "Cut off from others.",
+  "part_of": "emotion_lonely",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_lonely"
+      ]
+    }
+  ]
+}

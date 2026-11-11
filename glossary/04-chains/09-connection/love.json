@@ -1,0 +1,18 @@
+{
+  "id": "chain_love",
+  "name": "Love",
+  "is": "chain",
+  "definition": "A deep bond of care for someone.",
+  "part_of": "chain_connection",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_attraction_or_affection",
+    "step_interest",
+    "step_emotional_closeness",
+    "step_vulnerability",
+    "step_bond",
+    "step_care",
+    "step_commitment_or_ongoing_bond"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_desire_for_proximity",
+  "name": "Desire for Proximity",
+  "is": "step",
+  "definition": "Wanting to be near them.",
+  "part_of": "",
+  "used_in": [
+    "chain_attraction"
+  ]
+}

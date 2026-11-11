@@ -1,0 +1,7 @@
+{
+  "id": "level_tertiary",
+  "name": "tertiary",
+  "is": "term",
+  "definition": "An emotion that spurs from a secondary emotion.",
+  "part_of": "emotions_emotional_spectrum"
+}

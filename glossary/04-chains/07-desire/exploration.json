@@ -1,0 +1,18 @@
+{
+  "id": "chain_exploration",
+  "name": "Exploration",
+  "is": "chain",
+  "definition": "Going to find out.",
+  "part_of": "chain_curiosity",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_curiosity",
+    "step_interest",
+    "step_approach",
+    "step_investigation",
+    "step_discovery",
+    "step_learning",
+    "step_further_curiosity"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "step_exertion_or_insufficient_recovery",
+  "name": "Exertion or Insufficient Recovery",
+  "is": "step",
+  "definition": "Working hard, or not resting enough.",
+  "part_of": "",
+  "used_in": [
+    "chain_fatigue"
+  ],
+  "sides": [
+    {
+      "name": "Exertion",
+      "then": "carries on"
+    },
+    {
+      "name": "Insufficient Recovery",
+      "then": "carries on"
+    }
+  ]
+}

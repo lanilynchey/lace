@@ -1,0 +1,11 @@
+{
+  "id": "link_fulfillment_sparks_connection",
+  "name": "Fulfillment sparks Connection",
+  "is": "link",
+  "definition": "The Accomplishment or Connection step of Fulfillment starts Connection.",
+  "part_of": "structure_sparks",
+  "from": "chain_fulfillment",
+  "at": "step_accomplishment_or_connection",
+  "to": "chain_connection",
+  "enters": ""
+}

@@ -1,0 +1,15 @@
+{
+  "id": "emotion_amazed",
+  "name": "Amazed",
+  "is": "emotion",
+  "definition": "Greatly surprised in a good way.",
+  "part_of": "emotion_surprised",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_surprised"
+      ]
+    }
+  ]
+}

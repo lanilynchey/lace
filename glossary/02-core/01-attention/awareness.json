@@ -1,0 +1,7 @@
+{
+  "id": "attention_awareness",
+  "name": "Awareness",
+  "is": "term",
+  "definition": "Attention on the System.",
+  "part_of": "core_attention"
+}

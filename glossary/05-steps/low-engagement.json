@@ -1,0 +1,10 @@
+{
+  "id": "step_low_engagement",
+  "name": "Low Engagement",
+  "is": "step",
+  "definition": "Not being absorbed in anything.",
+  "part_of": "",
+  "used_in": [
+    "chain_boredom"
+  ]
+}

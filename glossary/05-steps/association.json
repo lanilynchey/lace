@@ -1,0 +1,11 @@
+{
+  "id": "step_association",
+  "name": "Association",
+  "is": "step",
+  "definition": "Linking one thing with another in your mind.",
+  "part_of": "",
+  "used_in": [
+    "chain_conditioning",
+    "chain_imagination"
+  ]
+}

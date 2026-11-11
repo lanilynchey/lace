@@ -1,0 +1,8 @@
+{
+  "id": "reach_circle",
+  "name": "Circle",
+  "is": "term",
+  "definition": "The people around one person.",
+  "part_of": "rule_chain_reach",
+  "order": 2
+}

@@ -1,0 +1,15 @@
+{
+  "id": "emotion_weak",
+  "name": "Weak",
+  "is": "emotion",
+  "definition": "Feeling without strength.",
+  "part_of": "emotion_fearful",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_fearful"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "proximity_retold",
+  "name": "Retold",
+  "is": "term",
+  "definition": "Someone's account of it.",
+  "part_of": "intake_proximity",
+  "order": 4
+}

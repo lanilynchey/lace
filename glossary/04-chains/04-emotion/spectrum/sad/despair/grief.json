@@ -1,0 +1,16 @@
+{
+  "id": "emotion_grief",
+  "name": "Grief",
+  "is": "emotion",
+  "definition": "Deep sorrow over a loss.",
+  "part_of": "emotion_despair",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_despair"
+      ]
+    }
+  ]
+}

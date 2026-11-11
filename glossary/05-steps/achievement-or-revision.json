@@ -1,0 +1,20 @@
+{
+  "id": "step_achievement_or_revision",
+  "name": "Achievement or Revision",
+  "is": "step",
+  "definition": "Reaching the goal, or changing it.",
+  "part_of": "",
+  "used_in": [
+    "chain_goal"
+  ],
+  "sides": [
+    {
+      "name": "Achievement",
+      "then": "chain_achievement"
+    },
+    {
+      "name": "Revision",
+      "then": "chain_goal"
+    }
+  ]
+}

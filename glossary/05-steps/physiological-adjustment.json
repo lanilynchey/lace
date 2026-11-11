@@ -1,0 +1,10 @@
+{
+  "id": "step_physiological_adjustment",
+  "name": "Physiological Adjustment",
+  "is": "step",
+  "definition": "The body changing itself to rebalance.",
+  "part_of": "",
+  "used_in": [
+    "chain_energy_regulation"
+  ]
+}

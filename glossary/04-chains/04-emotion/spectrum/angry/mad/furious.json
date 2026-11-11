@@ -1,0 +1,16 @@
+{
+  "id": "emotion_furious",
+  "name": "Furious",
+  "is": "emotion",
+  "definition": "Extremely angry.",
+  "part_of": "emotion_mad",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_mad"
+      ]
+    }
+  ]
+}

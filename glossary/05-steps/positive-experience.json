@@ -1,0 +1,10 @@
+{
+  "id": "step_positive_experience",
+  "name": "Positive Experience",
+  "is": "step",
+  "definition": "Something good that happens to you.",
+  "part_of": "",
+  "used_in": [
+    "chain_joy"
+  ]
+}

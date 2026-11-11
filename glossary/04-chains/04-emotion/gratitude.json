@@ -1,0 +1,18 @@
+{
+  "id": "chain_gratitude",
+  "name": "Gratitude",
+  "is": "chain",
+  "definition": "Thankfulness for something received.",
+  "part_of": "chain_emotion",
+  "emotion": "emotion_thankful",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_benefit",
+    "step_recognition",
+    "step_attribution",
+    "step_appreciation",
+    "step_thankfulness",
+    "step_expression"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_accumulating_pressure",
+  "name": "Accumulating Pressure",
+  "is": "step",
+  "definition": "Pressure building the longer you wait.",
+  "part_of": "",
+  "used_in": [
+    "chain_procrastination"
+  ]
+}

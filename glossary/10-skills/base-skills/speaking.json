@@ -1,0 +1,7 @@
+{
+  "id": "baseskill_speaking",
+  "name": "Speaking",
+  "is": "term",
+  "definition": "Putting what you mean into words, out loud.",
+  "part_of": "body_base_skills"
+}

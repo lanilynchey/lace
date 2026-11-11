@@ -1,0 +1,15 @@
+{
+  "id": "emotion_excited",
+  "name": "Excited",
+  "is": "emotion",
+  "definition": "Eager energy about something.",
+  "part_of": "emotion_surprised",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_surprised"
+      ]
+    }
+  ]
+}

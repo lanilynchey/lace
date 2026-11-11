@@ -1,0 +1,7 @@
+{
+  "id": "baseskill_moving",
+  "name": "Moving",
+  "is": "term",
+  "definition": "Getting the body from one place or position to another.",
+  "part_of": "body_base_skills"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "core_time",
+  "name": "Time",
+  "is": "term",
+  "definition": "What moves everything forward. It only goes one way.",
+  "part_of": "structure_core",
+  "checks": [
+    "Records only move forward in time."
+  ]
+}

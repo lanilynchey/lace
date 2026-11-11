@@ -1,0 +1,10 @@
+{
+  "id": "lens_length",
+  "name": "Length",
+  "is": "term",
+  "definition": "A perennial comes back the same way, year after year.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_chain_length"
+  ]
+}

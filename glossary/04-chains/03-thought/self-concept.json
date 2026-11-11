@@ -1,0 +1,18 @@
+{
+  "id": "chain_self_concept",
+  "name": "Self-Concept",
+  "is": "chain",
+  "definition": "How you describe yourself.",
+  "part_of": "chain_identity",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_experience",
+    "step_self_observation",
+    "step_comparison",
+    "step_perception",
+    "step_belief",
+    "step_self_description",
+    "step_revision"
+  ]
+}

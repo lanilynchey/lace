@@ -1,0 +1,10 @@
+{
+  "id": "step_emotional_reconstruction",
+  "name": "Emotional Reconstruction",
+  "is": "step",
+  "definition": "Rebuilding how a memory felt.",
+  "part_of": "",
+  "used_in": [
+    "chain_nostalgia"
+  ]
+}

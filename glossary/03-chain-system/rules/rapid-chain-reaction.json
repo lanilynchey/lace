@@ -1,0 +1,7 @@
+{
+  "id": "rule_rapid_chain_reaction",
+  "name": "Rapid Chain Reaction",
+  "is": "rule",
+  "definition": "A sudden change. One reason the future can't be fully predicted.",
+  "part_of": "rule_chain_reaction"
+}

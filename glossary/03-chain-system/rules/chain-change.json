@@ -1,0 +1,7 @@
+{
+  "id": "rule_chain_change",
+  "name": "Chain Change",
+  "is": "rule",
+  "definition": "A chain running differently from its standard run.",
+  "part_of": "structure_chain"
+}

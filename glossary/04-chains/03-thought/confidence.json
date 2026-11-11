@@ -1,0 +1,18 @@
+{
+  "id": "chain_confidence",
+  "name": "Confidence",
+  "is": "chain",
+  "definition": "Trust in yourself.",
+  "part_of": "chain_identity",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_challenge",
+    "step_attempt",
+    "step_experience",
+    "step_reinforcement",
+    "step_competence",
+    "step_self_efficacy",
+    "step_confidence"
+  ]
+}

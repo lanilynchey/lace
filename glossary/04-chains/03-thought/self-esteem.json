@@ -1,0 +1,17 @@
+{
+  "id": "chain_self_esteem",
+  "name": "Self-Esteem",
+  "is": "chain",
+  "definition": "How much you value yourself.",
+  "part_of": "chain_identity",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_experience",
+    "step_self_evaluation",
+    "step_perceived_worth",
+    "emotions_emotion",
+    "step_self_regard",
+    "step_reinforcement"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "link_anger_sparks_emotional_regulation",
+  "name": "Anger sparks Emotional Regulation",
+  "is": "link",
+  "definition": "The Expression or Regulation step of Anger starts Emotional Regulation.",
+  "part_of": "structure_sparks",
+  "from": "chain_anger",
+  "at": "step_expression_or_regulation",
+  "to": "chain_emotional_regulation",
+  "enters": ""
+}

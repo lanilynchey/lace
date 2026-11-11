@@ -1,0 +1,35 @@
+{
+  "id": "intake_communication",
+  "name": "Communication",
+  "is": "term",
+  "definition": "What people say to you, and how.",
+  "part_of": "surroundings_intake",
+  "entries": [
+    "Messages",
+    "Calls",
+    "Follows",
+    "Posts",
+    "Comments",
+    "Interviews",
+    "Speeches",
+    "Announcements",
+    "Stories",
+    "Secrets",
+    "Gossip",
+    "Rumors",
+    "Compliments",
+    "Criticism",
+    "Advice",
+    "Recommendations",
+    "Warnings",
+    "Invitations",
+    "Requests",
+    "Answers",
+    "Body Language"
+  ],
+  "includes": [
+    "chain_communication",
+    "step_feedback",
+    "step_question"
+  ]
+}

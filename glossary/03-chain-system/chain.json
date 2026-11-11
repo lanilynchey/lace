@@ -1,0 +1,7 @@
+{
+  "id": "structure_chain",
+  "name": "Chain",
+  "is": "term",
+  "definition": "A run of steps, each passing a gate, from start to end.",
+  "part_of": "base_base_system"
+}

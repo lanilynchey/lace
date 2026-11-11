@@ -1,0 +1,23 @@
+{
+  "id": "record_0016",
+  "chain": "chain_attention",
+  "moment": "So furious you don't hear someone calling your name",
+  "steps": [
+    {
+      "step": "step_trigger",
+      "gate": 1,
+      "what": "Someone calls your name from the next room."
+    },
+    {
+      "step": "step_detection",
+      "gate": 0,
+      "what": "The sound never registers. The anger has all of your attention.",
+      "tilted_by": [
+        {
+          "link": "link_emotion_tilts_attention",
+          "record": ""
+        }
+      ]
+    }
+  ]
+}

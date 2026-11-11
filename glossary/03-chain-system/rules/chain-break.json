@@ -1,0 +1,11 @@
+{
+  "id": "rule_chain_break",
+  "name": "Chain Break",
+  "is": "rule",
+  "definition": "Stopping a chain at any step.",
+  "part_of": "structure_chain",
+  "used_in": [
+    "chain_discipline",
+    "chain_emotional_regulation"
+  ]
+}

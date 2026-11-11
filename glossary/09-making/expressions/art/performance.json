@@ -1,0 +1,7 @@
+{
+  "id": "artform_performance",
+  "name": "Performance",
+  "is": "term",
+  "definition": "Art made live, in front of people.",
+  "part_of": "expression_art"
+}

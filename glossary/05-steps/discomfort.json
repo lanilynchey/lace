@@ -1,0 +1,12 @@
+{
+  "id": "step_discomfort",
+  "name": "Discomfort",
+  "is": "step",
+  "definition": "An unpleasant feeling you want to end.",
+  "part_of": "",
+  "used_in": [
+    "chain_avoidance",
+    "chain_procrastination",
+    "chain_need"
+  ]
+}

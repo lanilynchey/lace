@@ -1,0 +1,7 @@
+{
+  "id": "attention_attention_allotment",
+  "name": "Attention Allotment",
+  "is": "term",
+  "definition": "How much attention one thing gets.",
+  "part_of": "core_attention"
+}

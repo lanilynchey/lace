@@ -1,0 +1,12 @@
+{
+  "id": "step_meaning",
+  "name": "Meaning",
+  "is": "step",
+  "definition": "What something signifies to you.",
+  "part_of": "",
+  "used_in": [
+    "chain_perception",
+    "chain_wonder",
+    "chain_memory"
+  ]
+}

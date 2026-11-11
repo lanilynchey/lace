@@ -1,0 +1,10 @@
+{
+  "id": "step_research",
+  "name": "Research",
+  "is": "step",
+  "definition": "Finding out what is already known.",
+  "part_of": "",
+  "used_in": [
+    "chain_design"
+  ]
+}

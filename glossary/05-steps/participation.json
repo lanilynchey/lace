@@ -1,0 +1,10 @@
+{
+  "id": "step_participation",
+  "name": "Participation",
+  "is": "step",
+  "definition": "Taking part.",
+  "part_of": "",
+  "used_in": [
+    "chain_belonging"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "rule_form_decides_potential",
+  "name": "Form Decides Potential",
+  "is": "rule",
+  "definition": "A being's form decides how much of the chains it can run: how many gates it has.",
+  "part_of": "base_base_rules"
+}

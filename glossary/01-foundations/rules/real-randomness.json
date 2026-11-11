@@ -1,0 +1,7 @@
+{
+  "id": "rule_real_randomness",
+  "name": "Real Randomness",
+  "is": "rule",
+  "definition": "True chance is built in. Luck is randomness that went your way.",
+  "part_of": "base_base_rules"
+}

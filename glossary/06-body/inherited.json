@@ -1,0 +1,10 @@
+{
+  "id": "body_inherited",
+  "name": "Inherited",
+  "is": "term",
+  "definition": "What the body carries from the people before it.",
+  "part_of": "body_body",
+  "comes_from": [
+    "form_the_render"
+  ]
+}

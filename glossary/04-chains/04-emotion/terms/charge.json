@@ -1,0 +1,7 @@
+{
+  "id": "emotions_charge",
+  "name": "Charge",
+  "is": "term",
+  "definition": "Emotion's power: how strong it is.",
+  "part_of": "emotions_emotion"
+}

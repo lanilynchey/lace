@@ -1,0 +1,8 @@
+{
+  "id": "charge_flood",
+  "name": "Flood",
+  "is": "term",
+  "definition": "All of you. Nothing else gets in.",
+  "part_of": "emotions_charge",
+  "order": 5
+}

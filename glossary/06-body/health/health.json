@@ -1,0 +1,7 @@
+{
+  "id": "body_health",
+  "name": "Health",
+  "is": "term",
+  "definition": "How well the body is working.",
+  "part_of": "body_body"
+}

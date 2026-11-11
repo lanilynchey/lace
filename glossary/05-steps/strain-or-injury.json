@@ -1,0 +1,20 @@
+{
+  "id": "step_strain_or_injury",
+  "name": "Strain or Injury",
+  "is": "step",
+  "definition": "Being overworked or hurt.",
+  "part_of": "",
+  "used_in": [
+    "chain_recovery"
+  ],
+  "sides": [
+    {
+      "name": "Strain",
+      "then": "carries on"
+    },
+    {
+      "name": "Injury",
+      "then": "carries on"
+    }
+  ]
+}

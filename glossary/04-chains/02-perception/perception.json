@@ -1,0 +1,21 @@
+{
+  "id": "chain_perception",
+  "name": "Perception",
+  "is": "chain",
+  "definition": "How anything, inside or outside, gets noticed and starts to mean something.",
+  "part_of": "base_base_functions",
+  "kind": "chain",
+  "locked": true,
+  "steps": [
+    "step_occurrence",
+    "surroundings_senses",
+    "step_detection",
+    "step_attention",
+    "step_notice",
+    "step_recognition",
+    "step_perception",
+    "step_meaning",
+    "step_response",
+    "step_integration"
+  ]
+}

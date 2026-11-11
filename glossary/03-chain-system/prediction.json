@@ -1,0 +1,7 @@
+{
+  "id": "structure_prediction",
+  "name": "Prediction",
+  "is": "term",
+  "definition": "Expecting what comes next.",
+  "part_of": "state_signature"
+}

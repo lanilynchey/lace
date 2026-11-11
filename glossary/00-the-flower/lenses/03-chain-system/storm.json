@@ -1,0 +1,10 @@
+{
+  "id": "lens_storm",
+  "name": "Storm",
+  "is": "term",
+  "definition": "One storm strips every flower in a night.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "rule_rapid_chain_reaction"
+  ]
+}

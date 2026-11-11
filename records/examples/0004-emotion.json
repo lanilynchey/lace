@@ -1,0 +1,53 @@
+{
+  "id": "record_0004",
+  "chain": "chain_emotion",
+  "moment": "A song from the summer you were seventeen comes on in a shop",
+  "steps": [
+    {
+      "step": "step_trigger",
+      "gate": 1,
+      "what": "A song from the summer you were seventeen comes on in a shop."
+    },
+    {
+      "step": "step_perception",
+      "gate": 1,
+      "what": "You know it in two notes, and it means that summer.",
+      "opened": {
+        "chain": "chain_perception",
+        "record": ""
+      }
+    },
+    {
+      "step": "emotions_emotional_response",
+      "gate": 1,
+      "what": "Your chest tightens and your skin prickles."
+    },
+    {
+      "step": "emotions_emotion",
+      "gate": 1,
+      "what": "A sweet ache, happy and sad at once.",
+      "emotions": [
+        {
+          "emotion": "emotion_nostalgic",
+          "charge": "charge_pulse",
+          "stake": "stake_self"
+        }
+      ]
+    },
+    {
+      "step": "emotions_emotional_expression",
+      "gate": 1,
+      "what": "You hum along and smile at nothing."
+    },
+    {
+      "step": "emotions_emotion_checkpoint",
+      "gate": 1,
+      "what": "You notice the feeling and let it play out."
+    },
+    {
+      "step": "step_resolution",
+      "gate": 1,
+      "what": "The song ends and the feeling settles."
+    }
+  ]
+}

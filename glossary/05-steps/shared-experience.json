@@ -1,0 +1,10 @@
+{
+  "id": "step_shared_experience",
+  "name": "Shared Experience",
+  "is": "step",
+  "definition": "Something lived through together.",
+  "part_of": "",
+  "used_in": [
+    "chain_friendship"
+  ]
+}

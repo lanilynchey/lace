@@ -1,0 +1,10 @@
+{
+  "id": "step_context",
+  "name": "Context",
+  "is": "step",
+  "definition": "What surrounds something and shapes what it means.",
+  "part_of": "",
+  "used_in": [
+    "chain_meaning_making"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_usual",
+  "name": "Usual",
+  "is": "term",
+  "definition": "Most of the year it is green leaves and no flower.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "state_signature"
+  ]
+}

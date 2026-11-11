@@ -1,0 +1,16 @@
+{
+  "id": "emotion_helpless",
+  "name": "Helpless",
+  "is": "emotion",
+  "definition": "Feeling unable to protect yourself.",
+  "part_of": "emotion_scared",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_scared"
+      ]
+    }
+  ]
+}

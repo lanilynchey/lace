@@ -1,0 +1,7 @@
+{
+  "id": "emotions_emotional_impact",
+  "name": "Emotional Impact",
+  "is": "term",
+  "definition": "What an emotion does to your state while it's running.",
+  "part_of": "emotions_emotion"
+}

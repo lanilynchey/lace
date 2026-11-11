@@ -1,0 +1,10 @@
+{
+  "id": "step_task",
+  "name": "Task",
+  "is": "step",
+  "definition": "Something to be done.",
+  "part_of": "",
+  "used_in": [
+    "chain_procrastination"
+  ]
+}

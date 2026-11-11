@@ -1,0 +1,16 @@
+{
+  "id": "emotion_insignificant",
+  "name": "Insignificant",
+  "is": "emotion",
+  "definition": "Feeling you do not matter.",
+  "part_of": "emotion_weak",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_weak"
+      ]
+    }
+  ]
+}

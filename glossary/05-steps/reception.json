@@ -1,0 +1,10 @@
+{
+  "id": "step_reception",
+  "name": "Reception",
+  "is": "step",
+  "definition": "The other person receiving the message.",
+  "part_of": "",
+  "used_in": [
+    "chain_communication"
+  ]
+}

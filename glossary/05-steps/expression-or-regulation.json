@@ -1,0 +1,20 @@
+{
+  "id": "step_expression_or_regulation",
+  "name": "Expression or Regulation",
+  "is": "step",
+  "definition": "Letting it out, or managing it.",
+  "part_of": "",
+  "used_in": [
+    "chain_anger"
+  ],
+  "sides": [
+    {
+      "name": "Expression",
+      "then": "carries on"
+    },
+    {
+      "name": "Regulation",
+      "then": "chain_emotional_regulation"
+    }
+  ]
+}

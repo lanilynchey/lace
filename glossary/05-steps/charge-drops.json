@@ -1,0 +1,13 @@
+{
+  "id": "step_charge_drops",
+  "name": "Charge drops",
+  "is": "step",
+  "definition": "The charge on it goes down.",
+  "part_of": "",
+  "checks": [
+    "The charge from the wrong is lower than it was before."
+  ],
+  "used_in": [
+    "chain_forgiveness"
+  ]
+}

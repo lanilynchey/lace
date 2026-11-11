@@ -1,0 +1,7 @@
+{
+  "id": "form_appearance",
+  "name": "Appearance",
+  "is": "term",
+  "definition": "How a form looks.",
+  "part_of": "form_the_render"
+}

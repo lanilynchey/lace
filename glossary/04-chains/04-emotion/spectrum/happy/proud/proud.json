@@ -1,0 +1,15 @@
+{
+  "id": "emotion_proud",
+  "name": "Proud",
+  "is": "emotion",
+  "definition": "Pleased with what you did or who you are.",
+  "part_of": "emotion_happy",
+  "places": [
+    {
+      "level": "secondary",
+      "under": [
+        "emotion_happy"
+      ]
+    }
+  ]
+}

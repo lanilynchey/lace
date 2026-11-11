@@ -1,0 +1,18 @@
+{
+  "id": "chain_attention",
+  "name": "Attention",
+  "is": "chain",
+  "definition": "How attention itself works.",
+  "part_of": "core_attention",
+  "kind": "chain",
+  "locked": false,
+  "steps": [
+    "step_trigger",
+    "step_detection",
+    "step_selection",
+    "step_focus",
+    "step_processing",
+    "attention_attention_grip",
+    "step_notice"
+  ]
+}

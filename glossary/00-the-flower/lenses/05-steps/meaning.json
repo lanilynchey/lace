@@ -1,0 +1,11 @@
+{
+  "id": "lens_meaning",
+  "name": "Meaning",
+  "is": "term",
+  "definition": "A gift, a declaration of love, a remembrance on a grave.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "step_meaning",
+    "chain_meaning_making"
+  ]
+}

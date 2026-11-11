@@ -1,0 +1,7 @@
+{
+  "id": "surroundings_homes",
+  "name": "Homes",
+  "is": "term",
+  "definition": "Places you live.",
+  "part_of": "surroundings_places"
+}

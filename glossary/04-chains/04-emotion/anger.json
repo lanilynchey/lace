@@ -1,0 +1,19 @@
+{
+  "id": "chain_anger",
+  "name": "Anger",
+  "is": "chain",
+  "definition": "The emotion that rises when something provokes you.",
+  "part_of": "chain_emotion",
+  "emotion": "emotion_angry",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_provocation",
+    "step_perception",
+    "step_frustration",
+    "body_body_signals",
+    "step_impulse",
+    "step_expression_or_regulation",
+    "step_outcome"
+  ]
+}

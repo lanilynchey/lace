@@ -1,0 +1,12 @@
+{
+  "id": "step_adjustment",
+  "name": "Adjustment",
+  "is": "step",
+  "definition": "A change made in response.",
+  "part_of": "",
+  "used_in": [
+    "chain_social_comparison",
+    "chain_grief",
+    "chain_skill"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_coping_response",
+  "name": "Coping Response",
+  "is": "step",
+  "definition": "What you do to deal with the demand.",
+  "part_of": "",
+  "used_in": [
+    "chain_stress"
+  ]
+}

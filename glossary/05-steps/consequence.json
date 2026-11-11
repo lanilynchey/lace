@@ -1,0 +1,10 @@
+{
+  "id": "step_consequence",
+  "name": "Consequence",
+  "is": "step",
+  "definition": "What follows from what you did.",
+  "part_of": "",
+  "used_in": [
+    "chain_impulse"
+  ]
+}

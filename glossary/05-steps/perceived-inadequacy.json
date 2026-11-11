@@ -1,0 +1,10 @@
+{
+  "id": "step_perceived_inadequacy",
+  "name": "Perceived Inadequacy",
+  "is": "step",
+  "definition": "Seeing yourself as not enough.",
+  "part_of": "",
+  "used_in": [
+    "chain_shame"
+  ]
+}

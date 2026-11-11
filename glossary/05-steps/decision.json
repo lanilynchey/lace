@@ -1,0 +1,11 @@
+{
+  "id": "step_decision",
+  "name": "Decision",
+  "is": "step",
+  "definition": "Choosing between options.",
+  "part_of": "",
+  "used_in": [
+    "chain_adventure"
+  ],
+  "opens": "chain_decision"
+}

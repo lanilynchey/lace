@@ -1,0 +1,10 @@
+{
+  "id": "step_experiment",
+  "name": "Experiment",
+  "is": "step",
+  "definition": "A trial to see what happens.",
+  "part_of": "",
+  "used_in": [
+    "chain_innovation"
+  ]
+}

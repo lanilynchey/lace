@@ -1,0 +1,16 @@
+{
+  "id": "emotion_powerless",
+  "name": "Powerless",
+  "is": "emotion",
+  "definition": "Feeling unable to change anything.",
+  "part_of": "emotion_despair",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_sad",
+        "emotion_despair"
+      ]
+    }
+  ]
+}

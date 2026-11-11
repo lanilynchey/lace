@@ -1,0 +1,11 @@
+{
+  "id": "step_urge",
+  "name": "Urge",
+  "is": "step",
+  "definition": "A pull to do something.",
+  "part_of": "",
+  "used_in": [
+    "chain_habit",
+    "chain_impulse"
+  ]
+}

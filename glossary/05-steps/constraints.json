@@ -1,0 +1,10 @@
+{
+  "id": "step_constraints",
+  "name": "Constraints",
+  "is": "step",
+  "definition": "The limits you have to work within.",
+  "part_of": "",
+  "used_in": [
+    "chain_planning"
+  ]
+}

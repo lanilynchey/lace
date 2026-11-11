@@ -1,0 +1,8 @@
+{
+  "id": "charge_surge",
+  "name": "Surge",
+  "is": "term",
+  "definition": "Takes over the moment. Hard to do anything else.",
+  "part_of": "emotions_charge",
+  "order": 4
+}

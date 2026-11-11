@@ -1,0 +1,7 @@
+{
+  "id": "state_place_state",
+  "name": "Place State",
+  "is": "term",
+  "definition": "The state of a place itself.",
+  "part_of": "core_state"
+}

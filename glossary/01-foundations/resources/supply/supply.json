@@ -1,0 +1,7 @@
+{
+  "id": "supply_supply",
+  "name": "Supply",
+  "is": "term",
+  "definition": "How full a resource is.",
+  "part_of": "base_system_resources"
+}

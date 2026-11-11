@@ -1,0 +1,19 @@
+{
+  "id": "chain_collaboration",
+  "name": "Collaboration",
+  "is": "chain",
+  "definition": "Working with others toward one outcome.",
+  "part_of": "chain_action",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_shared_interest",
+    "step_alignment",
+    "step_roles",
+    "step_communication",
+    "step_coordination",
+    "step_contribution",
+    "step_joint_outcome"
+  ],
+  "note": "A shared Action Chain: the Action Chain owned by a group."
+}

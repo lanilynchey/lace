@@ -1,0 +1,7 @@
+{
+  "id": "rule_chain_stall",
+  "name": "Chain Stall",
+  "is": "rule",
+  "definition": "A chain stops at a step because of a thought, and can pick up again later.",
+  "part_of": "structure_chain"
+}

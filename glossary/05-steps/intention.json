@@ -1,0 +1,20 @@
+{
+  "id": "step_intention",
+  "name": "Intention",
+  "is": "step",
+  "definition": "Deciding whether to pursue something.",
+  "part_of": "",
+  "used_in": [
+    "chain_routine",
+    "chain_action",
+    "chain_decision",
+    "chain_motivation",
+    "chain_legacy",
+    "chain_desire",
+    "chain_commitment",
+    "chain_goal",
+    "chain_communication",
+    "chain_creation",
+    "chain_change"
+  ]
+}

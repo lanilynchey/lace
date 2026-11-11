@@ -1,0 +1,11 @@
+{
+  "id": "step_savouring",
+  "name": "Savouring",
+  "is": "step",
+  "definition": "Staying with a good feeling.",
+  "part_of": "",
+  "used_in": [
+    "chain_enjoyment",
+    "chain_joy"
+  ]
+}

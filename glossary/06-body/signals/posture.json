@@ -1,0 +1,7 @@
+{
+  "id": "signal_posture",
+  "name": "Posture",
+  "is": "term",
+  "definition": "How you are holding your body.",
+  "part_of": "body_body_signals"
+}

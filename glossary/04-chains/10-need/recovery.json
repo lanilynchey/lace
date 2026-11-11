@@ -1,0 +1,16 @@
+{
+  "id": "chain_recovery",
+  "name": "Recovery",
+  "is": "chain",
+  "definition": "The body repairing itself.",
+  "part_of": "chain_need",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_strain_or_injury",
+    "step_protective_response",
+    "step_repair_processes",
+    "step_rest_and_adaptation",
+    "step_functional_restoration"
+  ]
+}

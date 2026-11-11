@@ -1,0 +1,11 @@
+{
+  "id": "step_challenge",
+  "name": "Challenge",
+  "is": "step",
+  "definition": "Something that tests what you can do.",
+  "part_of": "",
+  "used_in": [
+    "chain_confidence",
+    "chain_full_grip"
+  ]
+}

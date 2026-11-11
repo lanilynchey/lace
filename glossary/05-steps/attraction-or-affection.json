@@ -1,0 +1,20 @@
+{
+  "id": "step_attraction_or_affection",
+  "name": "Attraction or Affection",
+  "is": "step",
+  "definition": "Being drawn to someone, or feeling fond of them.",
+  "part_of": "",
+  "used_in": [
+    "chain_love"
+  ],
+  "sides": [
+    {
+      "name": "Attraction",
+      "then": "carries on"
+    },
+    {
+      "name": "Affection",
+      "then": "carries on"
+    }
+  ]
+}

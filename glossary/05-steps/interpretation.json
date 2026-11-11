@@ -1,0 +1,10 @@
+{
+  "id": "step_interpretation",
+  "name": "Interpretation",
+  "is": "step",
+  "definition": "Deciding what something means.",
+  "part_of": "",
+  "used_in": [
+    "chain_persuasion"
+  ]
+}

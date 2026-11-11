@@ -1,0 +1,10 @@
+{
+  "id": "step_rupture",
+  "name": "Rupture",
+  "is": "step",
+  "definition": "A break in the relationship.",
+  "part_of": "",
+  "used_in": [
+    "chain_reconciliation"
+  ]
+}

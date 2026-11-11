@@ -1,0 +1,7 @@
+{
+  "id": "body_conditions",
+  "name": "Body Conditions",
+  "is": "term",
+  "definition": "Something lasting the body lives with.",
+  "part_of": "body_health"
+}

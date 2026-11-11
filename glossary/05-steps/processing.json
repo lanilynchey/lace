@@ -1,0 +1,12 @@
+{
+  "id": "step_processing",
+  "name": "Processing",
+  "is": "step",
+  "definition": "Working through something.",
+  "part_of": "",
+  "used_in": [
+    "chain_attention",
+    "chain_acceptance",
+    "chain_forgiveness"
+  ]
+}

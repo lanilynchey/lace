@@ -1,0 +1,10 @@
+{
+  "id": "step_self_regard",
+  "name": "Self-Regard",
+  "is": "step",
+  "definition": "How you hold yourself.",
+  "part_of": "",
+  "used_in": [
+    "chain_self_esteem"
+  ]
+}

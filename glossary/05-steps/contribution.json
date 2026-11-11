@@ -1,0 +1,11 @@
+{
+  "id": "step_contribution",
+  "name": "Contribution",
+  "is": "step",
+  "definition": "What you add.",
+  "part_of": "",
+  "used_in": [
+    "chain_collaboration",
+    "chain_legacy"
+  ]
+}

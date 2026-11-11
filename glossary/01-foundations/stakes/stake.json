@@ -1,0 +1,7 @@
+{
+  "id": "stake_stake",
+  "name": "Stake",
+  "is": "term",
+  "definition": "What something is tied to.",
+  "part_of": "base_base_system"
+}

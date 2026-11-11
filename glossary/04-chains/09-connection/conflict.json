@@ -1,0 +1,18 @@
+{
+  "id": "chain_conflict",
+  "name": "Conflict",
+  "is": "chain",
+  "definition": "A clash between people over a difference.",
+  "part_of": "chain_connection",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_difference",
+    "step_perception",
+    "step_disagreement",
+    "emotions_emotional_response",
+    "step_expression",
+    "step_escalation_or_resolution",
+    "step_outcome"
+  ]
+}

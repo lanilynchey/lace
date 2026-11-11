@@ -1,0 +1,16 @@
+{
+  "id": "emotion_hesitant",
+  "name": "Hesitant",
+  "is": "emotion",
+  "definition": "Holding back, unsure.",
+  "part_of": "emotion_repelled",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_disgusted",
+        "emotion_repelled"
+      ]
+    }
+  ]
+}

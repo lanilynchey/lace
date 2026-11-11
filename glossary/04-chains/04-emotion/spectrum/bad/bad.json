@@ -1,0 +1,13 @@
+{
+  "id": "emotion_bad",
+  "name": "Bad",
+  "is": "emotion",
+  "definition": "Feeling off, without a clear cause.",
+  "part_of": "emotions_emotional_spectrum",
+  "places": [
+    {
+      "level": "main",
+      "under": []
+    }
+  ]
+}

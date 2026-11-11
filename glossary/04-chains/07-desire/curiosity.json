@@ -1,0 +1,20 @@
+{
+  "id": "chain_curiosity",
+  "name": "Curiosity",
+  "is": "chain",
+  "definition": "Wanting to know.",
+  "part_of": "chain_desire",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_novelty",
+    "step_attention",
+    "desire_known_limit",
+    "step_interest",
+    "step_question",
+    "step_exploration",
+    "step_discovery",
+    "step_satisfaction"
+  ],
+  "note": "Novelty is a Trigger made of newness. The opposite of Stagnation."
+}

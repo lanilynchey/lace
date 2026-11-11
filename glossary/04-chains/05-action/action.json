@@ -1,0 +1,23 @@
+{
+  "id": "chain_action",
+  "name": "Action",
+  "is": "chain",
+  "definition": "From something prompting you to act, to what the action leaves behind.",
+  "part_of": "base_base_functions",
+  "kind": "chain",
+  "locked": true,
+  "steps": [
+    "step_trigger",
+    "step_attention",
+    "step_motivation",
+    "step_intention",
+    "step_planning",
+    "step_initiation",
+    "step_action",
+    "step_monitoring",
+    "step_completion",
+    "step_aftermath",
+    "step_reflection",
+    "step_reinforcement"
+  ]
+}

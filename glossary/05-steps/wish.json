@@ -1,0 +1,10 @@
+{
+  "id": "step_wish",
+  "name": "Wish",
+  "is": "step",
+  "definition": "Wanting something without yet acting on it.",
+  "part_of": "",
+  "used_in": [
+    "chain_desire"
+  ]
+}

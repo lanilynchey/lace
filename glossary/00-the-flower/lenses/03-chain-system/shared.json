@@ -1,0 +1,10 @@
+{
+  "id": "lens_shared",
+  "name": "Shared",
+  "is": "term",
+  "definition": "A whole country's cherry blossom season.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "structure_shared_chains"
+  ]
+}

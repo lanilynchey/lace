@@ -1,0 +1,10 @@
+{
+  "id": "step_inclusion",
+  "name": "Inclusion",
+  "is": "step",
+  "definition": "Being let in.",
+  "part_of": "",
+  "used_in": [
+    "chain_belonging"
+  ]
+}

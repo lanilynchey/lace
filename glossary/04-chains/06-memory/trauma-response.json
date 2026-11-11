@@ -1,0 +1,18 @@
+{
+  "id": "chain_trauma_response",
+  "name": "Trauma Response",
+  "is": "chain",
+  "definition": "How an overwhelming experience keeps setting you off afterwards.",
+  "part_of": "chain_memory",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_overwhelming_experience",
+    "attention_survival_scan",
+    "step_encoding",
+    "attention_survival_scan",
+    "step_trigger",
+    "emotions_emotional_response",
+    "step_adaptation"
+  ]
+}

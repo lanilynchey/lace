@@ -1,0 +1,16 @@
+{
+  "id": "emotion_worried",
+  "name": "Worried",
+  "is": "emotion",
+  "definition": "Turning a possible problem over in your mind.",
+  "part_of": "emotion_anxious",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_fearful",
+        "emotion_anxious"
+      ]
+    }
+  ]
+}

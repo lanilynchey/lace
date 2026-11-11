@@ -1,0 +1,8 @@
+{
+  "id": "proximity_whole",
+  "name": "Whole",
+  "is": "term",
+  "definition": "All of it reached you, as it is.",
+  "part_of": "intake_proximity",
+  "order": 1
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lens_watering",
+  "name": "Watering",
+  "is": "term",
+  "definition": "You see it drooping, fill the can, and water it.",
+  "part_of": "base_the_flower",
+  "shows": [
+    "chain_action"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chain_hope",
+  "name": "Hope",
+  "is": "chain",
+  "definition": "Expecting that a desire can come true.",
+  "part_of": "chain_desire",
+  "kind": "spur",
+  "locked": false,
+  "steps": [
+    "step_desire",
+    "step_uncertainty",
+    "step_perceived_possibility",
+    "step_positive_anticipation",
+    "step_motivation",
+    "step_persistence"
+  ]
+}

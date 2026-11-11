@@ -1,0 +1,16 @@
+{
+  "id": "emotion_out_of_control",
+  "name": "Out of Control",
+  "is": "emotion",
+  "definition": "Feeling you cannot steer what is happening.",
+  "part_of": "emotion_stressed",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_bad",
+        "emotion_stressed"
+      ]
+    }
+  ]
+}

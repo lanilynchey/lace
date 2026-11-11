@@ -1,0 +1,16 @@
+{
+  "id": "emotion_indignant",
+  "name": "Indignant",
+  "is": "emotion",
+  "definition": "Angry at something unfair.",
+  "part_of": "emotion_bitter",
+  "places": [
+    {
+      "level": "tertiary",
+      "under": [
+        "emotion_angry",
+        "emotion_bitter"
+      ]
+    }
+  ]
+}

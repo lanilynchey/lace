@@ -1,0 +1,10 @@
+{
+  "id": "step_rest",
+  "name": "Rest",
+  "is": "step",
+  "definition": "Letting the body and mind recover.",
+  "part_of": "",
+  "used_in": [
+    "chain_fatigue"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "step_observed_reliability",
+  "name": "Observed Reliability",
+  "is": "step",
+  "definition": "Seeing someone come through, again and again.",
+  "part_of": "",
+  "used_in": [
+    "chain_trust"
+  ]
+}

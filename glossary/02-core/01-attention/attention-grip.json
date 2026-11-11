@@ -1,0 +1,11 @@
+{
+  "id": "attention_attention_grip",
+  "name": "Attention Grip",
+  "is": "term",
+  "definition": "The ways attention is held.",
+  "part_of": "core_attention",
+  "used_in": [
+    "chain_attention",
+    "chain_full_grip"
+  ]
+}
